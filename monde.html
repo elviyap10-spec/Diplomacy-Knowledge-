@@ -1,7 +1,131 @@
-Diplomacy-Lab/
-│
-├── monde.html
-├── css/
-│   └── monde.css
-└── js/
-    └── monde.js
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monde — Diplomacy Lab</title>
+
+    <!-- Leaflet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <!-- Notre design -->
+    <link rel="stylesheet" href="css/monde.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="brand">
+            <span class="brand-name">DIPLOMACY LAB</span>
+            <span class="brand-section">WORLD</span>
+        </div>
+
+        <div class="search">
+            <input
+                type="text"
+                id="countrySearch"
+                placeholder="Rechercher un pays..."
+            >
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="intro">
+
+            <div>
+                <p class="eyebrow">WORLD / CARTOGRAPHIE</p>
+
+                <h1>
+                    Le monde,<br>
+                    <span>à travers la géopolitique.</span>
+                </h1>
+
+                <p class="description">
+                    Explorez les États du monde et leurs données
+                    géographiques, démographiques et économiques.
+                </p>
+            </div>
+
+            <div class="update">
+                <span>DONNÉES</span>
+                <strong id="updateStatus">Connexion...</strong>
+            </div>
+
+        </section>
+
+
+        <section class="map-container">
+
+            <div id="map"></div>
+
+            <div class="map-controls">
+
+                <button class="layer active" data-layer="political">
+                    Politique
+                </button>
+
+                <button class="layer" data-layer="economy">
+                    Économie
+                </button>
+
+                <button class="layer" data-layer="population">
+                    Population
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <aside id="countryPanel" class="country-panel">
+
+            <button id="closePanel" class="close">
+                ×
+            </button>
+
+            <div id="countryContent">
+
+                <p class="panel-placeholder">
+                    Sélectionnez un pays sur la carte.
+                </p>
+
+            </div>
+
+        </aside>
+
+    </main>
+
+
+    <footer>
+
+        <div>
+            <strong>DIPLOMACY LAB</strong>
+            <span>WORLD</span>
+        </div>
+
+        <div>
+            Données : Banque mondiale
+        </div>
+
+    </footer>
+
+
+    <!-- Leaflet -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+    <!-- Notre JavaScript -->
+    <script src="js/monde.js"></script>
+
+</body>
+</html>
