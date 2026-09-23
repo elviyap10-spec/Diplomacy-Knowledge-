@@ -696,6 +696,94 @@ if (closeButton) {
     );
 
 }
+// ========================================
+// 9. RECHERCHE D'UN PAYS
+// ========================================
 
+const searchInput =
+    document.getElementById("countrySearch");
+
+if (searchInput) {
+
+    searchInput.addEventListener(
+        "input",
+        function() {
+
+            const search =
+                searchInput.value
+                    .trim()
+                    .toLowerCase();
+
+            // Rien de recherché
+            if (!search || !countriesLayer) {
+                return;
+            }
+
+            let foundCountry = null;
+
+            countriesLayer.eachLayer(function(layer) {
+
+                const properties =
+                    layer.feature.properties;
+
+                const name =
+                    properties.name ||
+                    "";
+
+                if (
+                    name
+                        .toLowerCase()
+                        .includes(search)
+                ) {
+
+                    foundCountry = layer;
+
+                }
+
+            });
+
+
+            // Si un pays correspond
+            if (foundCountry) {
+
+                const bounds =
+                    foundCountry.getBounds();
+
+                map.fitBounds(
+                    bounds,
+                    {
+                        padding: [50, 50],
+                        maxZoom: 5
+                    }
+                );
+
+
+                // Mettre le pays en évidence
+
+                foundCountry.setStyle({
+
+                    weight: 3,
+                    color: "#ffffff",
+                    fillColor: "#315d78",
+                    fillOpacity: 0.9
+
+                });
+
+
+                foundCountry.bringToFront();
+
+
+                // Ouvrir son dossier
+
+                selectCountry({
+                    target: foundCountry
+                });
+
+            }
+
+        }
+    );
+
+}
 
 
