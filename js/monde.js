@@ -102,8 +102,44 @@ function selectCountry(event) {
     // RÉCUPÉRER LES DONNÉES POLITIQUES
     // ========================================
 
-    const countryData =
-        politicalData[iso3];
+    // ========================================
+// DIPLOMACY LAB — POLITIQUE
+// ========================================
+
+const politicalData = {
+
+    CIV: {
+
+        identity: {
+
+            officialName:
+                "République de Côte d'Ivoire",
+
+            shortName:
+                "Côte d'Ivoire",
+
+            capital:
+                "Yamoussoukro",
+
+            economicCapital:
+                "Abidjan",
+
+            independence:
+                "7 août 1960",
+
+            constitution:
+                "Constitution de 2016"
+
+        }
+
+    }
+
+};
+
+
+console.log(
+    "Module POLITIQUE chargé."
+);
 
 
     // ========================================
