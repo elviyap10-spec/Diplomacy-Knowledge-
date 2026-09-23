@@ -841,7 +841,8 @@ if (searchInput && searchResults) {
         }
     );
 
-} // ========================================
+} 
+// ========================================
 // 9. RECHERCHE DE PAYS
 // ========================================
 
@@ -984,4 +985,6 @@ if (searchInput && searchResults) {
             searchResults.style.display = "block";
 
         }
-   
+    );
+
+}
