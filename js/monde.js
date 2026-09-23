@@ -697,13 +697,17 @@ if (closeButton) {
 
 }
 // ========================================
-// 9. RECHERCHE D'UN PAYS
+// 9. RECHERCHE DE PAYS
 // ========================================
 
 const searchInput =
     document.getElementById("countrySearch");
 
-if (searchInput) {
+const searchResults =
+    document.getElementById("searchResults");
+
+
+if (searchInput && searchResults) {
 
     searchInput.addEventListener(
         "input",
@@ -714,76 +718,270 @@ if (searchInput) {
                     .trim()
                     .toLowerCase();
 
-            // Rien de recherché
+
+            // Effacer les résultats
+            searchResults.innerHTML = "";
+
+
+            // Si la recherche est vide
             if (!search || !countriesLayer) {
+
+                searchResults.style.display = "none";
+
                 return;
+
             }
 
-            let foundCountry = null;
 
-            countriesLayer.eachLayer(function(layer) {
+            const matches = [];
 
-                const properties =
-                    layer.feature.properties;
 
-                const name =
-                    properties.name ||
-                    "";
+            // Chercher parmi les pays de la carte
+            countriesLayer.eachLayer(
+                function(layer) {
 
-                if (
-                    name
-                        .toLowerCase()
-                        .includes(search)
-                ) {
+                    const properties =
+                        layer.feature.properties;
 
-                    foundCountry = layer;
+                    const name =
+                        properties.name || "";
+
+                    if (
+                        name
+                            .toLowerCase()
+                            .includes(search)
+                    ) {
+
+                        matches.push({
+                            name: name,
+                            layer: layer
+                        });
+
+                    }
 
                 }
-
-            });
-
-
-            // Si un pays correspond
-            if (foundCountry) {
-
-                const bounds =
-                    foundCountry.getBounds();
-
-                map.fitBounds(
-                    bounds,
-                    {
-                        padding: [50, 50],
-                        maxZoom: 5
-                    }
-                );
+            );
 
 
-                // Mettre le pays en évidence
+            // Aucun résultat
+            if (matches.length === 0) {
 
-                foundCountry.setStyle({
+                searchResults.innerHTML = `
+                    <div class="search-no-result">
+                        Aucun pays trouvé
+                    </div>
+                `;
 
-                    weight: 3,
-                    color: "#ffffff",
-                    fillColor: "#315d78",
-                    fillOpacity: 0.9
+                searchResults.style.display = "block";
 
-                });
-
-
-                foundCountry.bringToFront();
-
-
-                // Ouvrir son dossier
-
-                selectCountry({
-                    target: foundCountry
-                });
+                return;
 
             }
+
+
+            // Afficher les résultats
+            matches
+                .slice(0, 8)
+                .forEach(function(match) {
+
+                    const result =
+                        document.createElement("div");
+
+                    result.className =
+                        "search-result";
+
+                    result.textContent =
+                        match.name;
+
+
+                    result.addEventListener(
+                        "click",
+                        function() {
+
+                            const layer =
+                                match.layer;
+
+
+                            // Déplacer la carte
+                            map.fitBounds(
+                                layer.getBounds(),
+                                {
+                                    padding: [50, 50],
+                                    maxZoom: 5
+                                }
+                            );
+
+
+                            // Ouvrir le dossier
+                            selectCountry({
+                                target: layer
+                            });
+
+
+                            // Vider la recherche
+                            searchInput.value =
+                                match.name;
+
+                            searchResults.innerHTML = "";
+
+                            searchResults.style.display =
+                                "none";
+
+                        }
+                    );
+
+
+                    searchResults.appendChild(result);
+
+                });
+
+
+            searchResults.style.display = "block";
 
         }
     );
 
-}
+} // ========================================
+// 9. RECHERCHE DE PAYS
+// ========================================
+
+const searchInput =
+    document.getElementById("countrySearch");
+
+const searchResults =
+    document.getElementById("searchResults");
 
 
+if (searchInput && searchResults) {
+
+    searchInput.addEventListener(
+        "input",
+        function() {
+
+            const search =
+                searchInput.value
+                    .trim()
+                    .toLowerCase();
+
+
+            // Effacer les résultats
+            searchResults.innerHTML = "";
+
+
+            // Si la recherche est vide
+            if (!search || !countriesLayer) {
+
+                searchResults.style.display = "none";
+
+                return;
+
+            }
+
+
+            const matches = [];
+
+
+            // Chercher parmi les pays de la carte
+            countriesLayer.eachLayer(
+                function(layer) {
+
+                    const properties =
+                        layer.feature.properties;
+
+                    const name =
+                        properties.name || "";
+
+                    if (
+                        name
+                            .toLowerCase()
+                            .includes(search)
+                    ) {
+
+                        matches.push({
+                            name: name,
+                            layer: layer
+                        });
+
+                    }
+
+                }
+            );
+
+
+            // Aucun résultat
+            if (matches.length === 0) {
+
+                searchResults.innerHTML = `
+                    <div class="search-no-result">
+                        Aucun pays trouvé
+                    </div>
+                `;
+
+                searchResults.style.display = "block";
+
+                return;
+
+            }
+
+
+            // Afficher les résultats
+            matches
+                .slice(0, 8)
+                .forEach(function(match) {
+
+                    const result =
+                        document.createElement("div");
+
+                    result.className =
+                        "search-result";
+
+                    result.textContent =
+                        match.name;
+
+
+                    result.addEventListener(
+                        "click",
+                        function() {
+
+                            const layer =
+                                match.layer;
+
+
+                            // Déplacer la carte
+                            map.fitBounds(
+                                layer.getBounds(),
+                                {
+                                    padding: [50, 50],
+                                    maxZoom: 5
+                                }
+                            );
+
+
+                            // Ouvrir le dossier
+                            selectCountry({
+                                target: layer
+                            });
+
+
+                            // Vider la recherche
+                            searchInput.value =
+                                match.name;
+
+                            searchResults.innerHTML = "";
+
+                            searchResults.style.display =
+                                "none";
+
+                        }
+                    );
+
+
+                    searchResults.appendChild(result);
+
+                });
+
+
+            searchResults.style.display = "block";
+
+        }
+   
