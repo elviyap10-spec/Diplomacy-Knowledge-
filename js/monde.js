@@ -63,8 +63,172 @@ function resetCountry(e) {
 
 async function getWorldBankData(iso3) {
 
-    try { const iso3 =
-    properties["ISO3166-1-Alpha-3"];
+    try { async function getWorldBankData(iso3) {
+
+    try {
+
+        if (!iso3 || iso3 === "-99") {
+            throw new Error("Code ISO indisponible.");
+        }
+
+        console.log("ISO envoyé à la Banque mondiale :", iso3);
+
+
+        // ==============================
+        // INFORMATIONS DU PAYS
+        // ==============================
+
+        const countryResponse = await fetch(
+            `https://api.worldbank.org/v2/country/${iso3}?format=json`
+        );
+
+        if (!countryResponse.ok) {
+            throw new Error(
+                "Impossible de récupérer les informations du pays."
+            );
+        }
+
+        const countryData =
+            await countryResponse.json();
+
+        console.log("Réponse pays :", countryData);
+
+
+        if (
+            !countryData[1] ||
+            !countryData[1][0]
+        ) {
+            throw new Error(
+                "Pays introuvable dans la Banque mondiale."
+            );
+        }
+
+
+        const country =
+            countryData[1][0];
+
+
+        // ==============================
+        // FONCTION POUR UN INDICATEUR
+        // ==============================
+
+        async function getIndicator(code) {
+
+            const response = await fetch(
+                `https://api.worldbank.org/v2/country/${iso3}/indicator/${code}?format=json&mrnev=1`
+            );
+
+            if (!response.ok) {
+                return null;
+            }
+
+            const result =
+                await response.json();
+
+            if (
+                !result[1] ||
+                !result[1][0]
+            ) {
+                return null;
+            }
+
+            const item =
+                result[1][0];
+
+            return {
+
+                value: item.value,
+
+                year: item.date
+
+            };
+
+        }
+
+
+        // ==============================
+        // RÉCUPÉRATION DES INDICATEURS
+        // ==============================
+
+        const population =
+            await getIndicator(
+                "SP.POP.TOTL"
+            );
+
+        const gdp =
+            await getIndicator(
+                "NY.GDP.MKTP.CD"
+            );
+
+        const gdpPerCapita =
+            await getIndicator(
+                "NY.GDP.PCAP.CD"
+            );
+
+        const growth =
+            await getIndicator(
+                "NY.GDP.MKTP.KD.ZG"
+            );
+
+        const inflation =
+            await getIndicator(
+                "FP.CPI.TOTL.ZG"
+            );
+
+
+        // ==============================
+        // RETOUR
+        // ==============================
+
+        return {
+
+            name:
+                country.name,
+
+            capital:
+                country.capitalCity ||
+                "Non disponible",
+
+            region:
+                country.region?.value ||
+                "Non disponible",
+
+            incomeLevel:
+                country.incomeLevel?.value ||
+                "Non disponible",
+
+            population:
+                population,
+
+            gdp:
+                gdp,
+
+            gdpPerCapita:
+                gdpPerCapita,
+
+            growth:
+                growth,
+
+            inflation:
+                inflation
+
+        };
+
+    }
+
+
+    catch (error) {
+
+        console.error(
+            "ERREUR WORLD BANK :",
+            error
+        );
+
+        return null;
+
+    }
+
+}
 
 
         }
