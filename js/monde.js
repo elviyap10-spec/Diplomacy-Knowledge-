@@ -63,10 +63,10 @@ function resetCountry(e) {
 
 async function getWorldBankData(iso3) {
 
-    try {
+    try { const iso3 =
+    properties["ISO3166-1-Alpha-3"];
 
-        if (!iso3 || iso3 === "-99") {
-            throw new Error("Code ISO indisponible.");
+
         }
 
 
