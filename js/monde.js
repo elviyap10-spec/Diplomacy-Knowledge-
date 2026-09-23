@@ -98,64 +98,497 @@ function selectCountry(event) {
     );
 
 
-    // Ouvrir le panneau
+    // ========================================
+    // RÉCUPÉRER LES DONNÉES POLITIQUES
+    // ========================================
+
+    const countryData =
+        politicalData[iso3];
+
+
+    // ========================================
+    // OUVRIR LE PANNEAU
+    // ========================================
 
     document
         .getElementById("countryPanel")
         .classList.add("open");
 
 
-    // Afficher les informations
+    // ========================================
+    // SI LES DONNÉES EXISTENT
+    // ========================================
 
-    document
-        .getElementById("countryContent")
-        .innerHTML = `
+    if (countryData) {
 
-            <h2 class="country-title">
-                ${name}
-            </h2>
+        document
+            .getElementById("countryContent")
+            .innerHTML = `
 
-            <p class="country-meta">
-                Dossier pays
-            </p>
+                <h2 class="country-title">
+                    ${name}
+                </h2>
 
-            <div class="data-card">
+                <p class="country-meta">
+                    POLITIQUE
+                </p>
 
-                <div class="data-label">
-                    Code ISO
+
+                <!-- IDENTITÉ POLITIQUE -->
+
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Identité politique
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Nom officiel
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.identity.officialName}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Capitale politique
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.identity.capital}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Capitale économique
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.identity.economicCapital || "—"}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Indépendance
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.identity.independence || "—"}
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="data-value">
-                    ${iso3 || "Non disponible"}
+
+                <!-- SYSTÈME POLITIQUE -->
+
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Système politique
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Forme de l'État
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.system.stateForm}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Régime politique
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.system.regime}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Organisation territoriale
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.system.territorialOrganization}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Constitution
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.system.constitution}
+                        </div>
+
+                    </div>
+
                 </div>
 
-            </div>
 
-            <div class="data-card">
+                <!-- POUVOIR EXÉCUTIF -->
 
-                <div class="data-label">
-                    Statut
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Pouvoir exécutif
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Chef de l'État
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.executive.headOfState}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Chef du gouvernement
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.executive.headOfGovernment}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Mode d'élection
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.executive.election}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Durée du mandat
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.executive.mandate}
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="data-value">
-                    État / territoire
+
+                <!-- POUVOIR LÉGISLATIF -->
+
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Pouvoir législatif
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Parlement
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.legislative.parliament}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Structure
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.legislative.structure}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Chambre basse
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.legislative.lowerHouse}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Chambre haute
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.legislative.upperHouse}
+                        </div>
+
+                    </div>
+
                 </div>
 
-            </div>
 
-            <div class="data-card">
+                <!-- SYSTÈME ÉLECTORAL -->
 
-                <div class="data-label">
-                    Données
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Système électoral
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Âge du vote
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.electoral.votingAge}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Élection présidentielle
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.electoral.presidentialSystem}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Élections législatives
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.electoral.legislativeSystem}
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="data-value">
-                    Module en construction
+
+                <!-- POUVOIR JUDICIAIRE -->
+
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Pouvoir judiciaire
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Institution constitutionnelle
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.judiciary.constitutionalInstitution}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Juridiction suprême
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.judiciary.highestJudicialInstitution}
+                        </div>
+
+                    </div>
+
                 </div>
 
-            </div>
 
-        `;
+                <!-- ORGANISATION TERRITORIALE -->
+
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Organisation territoriale
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Type d'État
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.territory.type}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Organisation
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.territory.organization}
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- POLITIQUE ÉTRANGÈRE -->
+
+                <div class="data-section">
+
+                    <h3 class="section-label">
+                        Politique étrangère
+                    </h3>
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Organisations régionales
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.foreignPolicy.regionalOrganizations.join(", ")}
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-card">
+
+                        <div class="data-label">
+                            Organisations internationales
+                        </div>
+
+                        <div class="data-value">
+                            ${countryData.foreignPolicy.internationalOrganizations.join(", ")}
+                        </div>
+
+                    </div>
+
+                </div>
+
+            `;
+
+    }
+
+
+    // ========================================
+    // SI AUCUNE DONNÉE POLITIQUE
+    // ========================================
+
+    else {
+
+        document
+            .getElementById("countryContent")
+            .innerHTML = `
+
+                <h2 class="country-title">
+                    ${name}
+                </h2>
+
+                <p class="country-meta">
+                    POLITIQUE
+                </p>
+
+                <div class="data-card">
+
+                    <div class="data-label">
+                        Code ISO
+                    </div>
+
+                    <div class="data-value">
+                        ${iso3 || "Non disponible"}
+                    </div>
+
+                </div>
+
+
+                <div class="data-card">
+
+                    <div class="data-label">
+                        Données politiques
+                    </div>
+
+                    <div class="data-value">
+                        Données en cours d'intégration.
+                    </div>
+
+                </div>
+
+            `;
+
+    }
 
 }
 
