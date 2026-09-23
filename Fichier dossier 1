@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Comprendre les relations internationales — Diplomacy Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#16213E; --cream:#F6EFDD; --ink:#20263A;
+    --red:#C1272D; --gold:#B8863A; --gold-bright:#D9AF5E; --green:#3F6B52;
+    --line:#E4D9BE;
+    box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+    --navy:#0B1220; --cream:#1B160D; --ink:#F2ECD8; --line:#3A3220;
+  }}
+  :root[data-theme="dark"]{ --navy:#0B1220; --cream:#1B160D; --ink:#F2ECD8; --line:#3A3220; }
+  html{ scroll-padding-top:env(safe-area-inset-top,0px); }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{ background:var(--cream); color:var(--ink); font-family:'Figtree',Arial,sans-serif; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+  a{ color:inherit; }
+  .wrap{ max-width:1180px; margin:0 auto; padding:0 clamp(20px,4vw,48px); }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--gold-bright); outline-offset:3px; }
+
+  header{ background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 2px, transparent 2px 14px), var(--navy); color:var(--cream); }
+  header .wrap{ padding-top:clamp(40px,7vw,64px); padding-bottom:clamp(24px,4vw,34px); }
+  .seal{ width:52px; height:52px; border-radius:50%; border:2px dashed var(--gold-bright); display:flex; align-items:center; justify-content:center; font-size:1.4rem; margin-bottom:16px; }
+  header h1{ font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:clamp(1.7rem,5vw,2.6rem); letter-spacing:-0.01em; color:var(--gold-bright); }
+
+  nav{ border-bottom:1px solid var(--line); background:var(--cream); }
+  nav .wrap{ display:flex; gap:clamp(14px,2.4vw,26px); flex-wrap:wrap; padding-top:15px; padding-bottom:15px; }
+  nav a{ text-decoration:none; font-weight:600; font-size:.94rem; padding-bottom:3px; border-bottom:2px solid transparent; transition:border-color .12s ease, color .12s ease; }
+  nav a:nth-child(6n+1), nav a:nth-child(6n+4){ --acc:var(--red); }
+  nav a:nth-child(6n+2), nav a:nth-child(6n+5){ --acc:var(--gold); }
+  nav a:nth-child(6n+3), nav a:nth-child(6n+6){ --acc:var(--green); }
+  nav a:hover, nav a:focus-visible{ border-color:var(--acc); color:var(--acc); }
+
+  .breadcrumb{ padding:22px 0 0; }
+  .breadcrumb a{ font-size:.9rem; font-weight:600; color:var(--red); text-decoration:none; border-bottom:2px solid var(--red); padding-bottom:1px; }
+
+  article.dossier{ max-width:740px; margin:0 auto; padding:32px 0 clamp(56px,8vw,84px); }
+  article.dossier h1.title{ font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:clamp(1.9rem,4.6vw,2.7rem); line-height:1.14; margin-bottom:16px; }
+  article.dossier .lead{ font-size:1.06rem; line-height:1.65; color:color-mix(in srgb, var(--ink) 78%, transparent); margin-bottom:8px; }
+  article.dossier h2{ font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:1.4rem; margin-top:44px; margin-bottom:10px; padding-top:22px; border-top:1px solid var(--line); }
+  article.dossier h3{ font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:1.12rem; margin-top:24px; margin-bottom:6px; }
+  article.dossier p{ font-size:1rem; line-height:1.76; margin-bottom:13px; }
+  article.dossier ul{ margin:0 0 14px 20px; }
+  article.dossier li{ font-size:1rem; line-height:1.68; margin-bottom:7px; }
+  .theory-tag{ display:inline-block; font-size:.7rem; font-weight:700; letter-spacing:.02em; padding:3px 9px; margin-top:20px; margin-bottom:4px; color:var(--cream); }
+  .tag-red{ background:var(--red); } .tag-gold{ background:var(--gold); } .tag-green{ background:var(--green); }
+  .level{ display:inline-block; font-size:.66rem; font-weight:700; letter-spacing:.04em; padding:2px 9px; border:1.5px solid currentColor; border-radius:20px; margin-bottom:10px; }
+  .lvl-l1{ color:var(--green); } .lvl-m2{ color:var(--red); } .lvl-both{ color:var(--gold); }
+  .callout{ border-left:3px solid var(--gold); background:color-mix(in srgb, var(--gold) 10%, transparent); padding:14px 18px; margin:14px 0; font-size:.95rem; line-height:1.6; }
+  .callout strong{ display:block; margin-bottom:4px; font-family:'Bricolage Grotesque',sans-serif; }
+  .glossary dt{ font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:.98rem; margin-top:12px; }
+  .glossary dd{ margin-left:0; font-size:.94rem; line-height:1.6; color:color-mix(in srgb, var(--ink) 80%, transparent); }
+  .refs{ font-size:.94rem; line-height:1.9; }
+  .refs strong{ font-family:'Bricolage Grotesque',sans-serif; }
+  .cta-end{ display:inline-block; margin-top:30px; font-weight:700; color:var(--green); border-bottom:2px solid var(--green); text-decoration:none; padding-bottom:2px; }
+
+  footer{ padding:24px 0 calc(24px + env(safe-area-inset-bottom,0px)); border-top:1px solid var(--line); }
+  footer p{ font-size:.82rem; color:color-mix(in srgb, var(--ink) 65%, transparent); }
+</style>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap">
+            <div class="seal">🕊️</div>
+            <h1>DIPLOMACY LAB</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="wrap">
+            <a href="index.html">Monde</a>
+            <a href="index.html">Diplomatie</a>
+            <a href="index.html">Géopolitique</a>
+            <a href="index.html">Droit international</a>
+            <a href="index.html">Histoire</a>
+            <a href="index.html">Organisations</a>
+        </div>
+    </nav>
+
+    <main class="wrap">
+
+        <p class="breadcrumb"><a href="index.html">← Retour à l'accueil</a></p>
+
+        <article class="dossier">
+
+            <h1 class="title">Comprendre les relations internationales</h1>
+            <p class="lead">Un guide de référence conçu pour être utile aussi bien à un étudiant de première année découvrant la discipline qu'à un étudiant de master approfondissant ses recherches en diplomatie et relations internationales.</p>
+            <p>Chaque section porte une pastille de niveau — <span class="level lvl-l1">NIVEAU L1</span> pour les bases, <span class="level lvl-m2">NIVEAU M2</span> pour l'approfondissement — afin que chacun puisse s'orienter selon ses besoins.</p>
+
+            <h2>Les bases indispensables</h2>
+            <span class="level lvl-l1">NIVEAU L1</span>
+            <p>Le système international contemporain trouve ses racines dans la paix de Westphalie (1648), qui consacre la souveraineté territoriale et la non-ingérence entre États. Aucune autorité centrale ne se situe au-dessus des États : c'est ce que l'on appelle l'anarchie internationale.</p>
+            <div class="callout"><strong>Anarchie internationale</strong>Absence d'autorité centrale au-dessus des États — non pas le chaos, mais une structure où chaque acteur doit assurer seul sa propre sécurité.</div>
+            <div class="callout"><strong>Souveraineté</strong>Autorité suprême et exclusive d'un État sur son territoire et sa population, reconnue par les autres États.</div>
+            <p>Les États restent les acteurs centraux, mais ils partagent désormais la scène avec les organisations internationales (ONU, UA, UE), les ONG, les entreprises multinationales et, de plus en plus, des acteurs non étatiques (réseaux, mouvements transnationaux).</p>
+
+            <h2>Les grands paradigmes théoriques</h2>
+            <span class="level lvl-l1">NIVEAU L1</span>
+            <p>Trois grandes traditions se disputent l'interprétation du système international.</p>
+
+            <span class="theory-tag tag-red">RÉALISME</span>
+            <h3>La primauté de la puissance</h3>
+            <p>Les États, acteurs rationnels et unitaires, cherchent avant tout la survie et la sécurité dans un système anarchique. Le réalisme classique (Hans Morgenthau) met l'accent sur la nature humaine ; le néoréalisme de Kenneth Waltz déplace l'explication vers la structure du système.</p>
+            <div class="callout"><strong>Dilemme de sécurité</strong>Renforcer sa propre sécurité menace mécaniquement celle des autres, qui répondent en se renforçant à leur tour — une spirale de méfiance même sans intention agressive.</div>
+
+            <span class="theory-tag tag-gold">LIBÉRALISME</span>
+            <h3>Le pari de la coopération</h3>
+            <p>Héritier de l'idée kantienne de paix perpétuelle, le libéralisme soutient que les institutions, le commerce et l'interdépendance réduisent les effets de l'anarchie. L'interdépendance complexe, développée par Robert Keohane et Joseph Nye, montre comment des canaux multiples entre sociétés limitent le recours à la force.</p>
+
+            <span class="theory-tag tag-green">CONSTRUCTIVISME</span>
+            <h3>Le poids des idées et des identités</h3>
+            <p>Porté par Alexander Wendt, le constructivisme soutient que le sens de l'anarchie dépend des représentations que les États construisent les uns des autres — rivalité ou communauté de sécurité ne relèvent pas d'une structure matérielle fixe, mais de normes et d'identités partagées.</p>
+
+            <h2>Approches avancées et débats contemporains</h2>
+            <span class="level lvl-m2">NIVEAU M2</span>
+            <p>Au-delà du triptyque classique, plusieurs cadres enrichissent l'analyse et sont mobilisés dans la recherche actuelle.</p>
+            <ul>
+                <li><strong>L'École de Copenhague et la sécuritisation</strong> (Barry Buzan, Ole Wæver) : un enjeu devient un problème de sécurité non pas objectivement, mais parce qu'un acteur parvient à le présenter comme tel — un processus discursif à analyser en tant que tel.</li>
+                <li><strong>L'économie politique internationale</strong> (Susan Strange, Robert Gilpin) : étudie l'articulation entre pouvoir politique et marchés, et la notion de régimes internationaux (Stephen Krasner) — ensembles de règles implicites ou explicites autour desquelles convergent les attentes des acteurs.</li>
+                <li><strong>Les approches critiques, postcoloniales et décoloniales</strong> : interrogent le caractère occidentalo-centré de la discipline classique et mettent en lumière les asymétries de pouvoir héritées de la colonisation dans la production même du savoir en RI — un chantier particulièrement pertinent pour penser la place de l'Afrique dans l'ordre international.</li>
+                <li><strong>Les approches féministes</strong> (J. Ann Tickner) : montrent comment les concepts mêmes de sécurité et de puissance sont genrés, et élargissent l'analyse aux violences structurelles souvent invisibilisées.</li>
+                <li><strong>L'École anglaise</strong> (Hedley Bull) : parle d'une « société internationale » régulée par des normes communes, à mi-chemin entre l'anarchie réaliste et l'harmonie libérale.</li>
+            </ul>
+
+            <h2>La diplomatie, en théorie et en pratique</h2>
+            <span class="level lvl-both">L1 → M2</span>
+            <p>La diplomatie désigne l'ensemble des moyens institutionnalisés par lesquels les États gèrent leurs relations par la négociation plutôt que par la force. Ses fonctions — représentation, négociation, collecte d'information — sont codifiées par la Convention de Vienne de 1961, qui fixe les règles d'immunité et d'inviolabilité des missions diplomatiques.</p>
+            <ul>
+                <li><strong>Track I / Track II</strong> — diplomatie officielle entre gouvernements, ou informelle portée par des experts et la société civile.</li>
+                <li><strong>Bilatérale / multilatérale</strong> — relations directes entre deux États, ou négociations au sein d'enceintes collectives.</li>
+                <li><strong>Diplomatie économique et culturelle</strong> — usage des leviers commerciaux ou de l'attractivité culturelle comme instruments de politique étrangère.</li>
+                <li><strong>Paradiplomatie</strong> — implication croissante de collectivités infra-étatiques (villes, régions) dans des relations internationales autonomes.</li>
+                <li><strong>Diplomatie numérique</strong> — usage des plateformes digitales pour la représentation, l'influence et la gestion de crise, qui pose de nouvelles questions de souveraineté et de cybersécurité.</li>
+            </ul>
+
+            <h2>Le droit international comme cadre normatif</h2>
+            <span class="level lvl-both">L1 → M2</span>
+            <p>Le droit international puise ses sources dans les traités, la coutume et les principes généraux du droit — une hiérarchie formalisée à l'article 38 du Statut de la Cour internationale de justice (CIJ). Il organise une tension permanente entre souveraineté et intervention, illustrée par le débat contemporain sur la responsabilité de protéger (R2P). La CIJ tranche les différends entre États ; la Cour pénale internationale (CPI) juge la responsabilité pénale individuelle pour les crimes les plus graves.</p>
+
+            <h2>Puissance et influence</h2>
+            <span class="level lvl-l1">NIVEAU L1</span>
+            <p>Joseph Nye distingue la puissance dure (hard power) — capacité militaire et économique de contraindre — de la puissance douce (soft power) — capacité d'attirer par la culture, les valeurs ou la diplomatie publique. La plupart des stratégies contemporaines combinent les deux : la puissance intelligente (smart power).</p>
+
+            <h2>Méthode : analyser un cas concret</h2>
+            <span class="level lvl-m2">NIVEAU M2</span>
+            <p>Pour un mémoire ou une étude de cas, une démarche rigoureuse suit généralement ces étapes :</p>
+            <ul>
+                <li>Identifier les acteurs impliqués et leurs intérêts déclarés versus réels.</li>
+                <li>Choisir le ou les cadres théoriques mobilisés, et justifier ce choix plutôt que de le présupposer.</li>
+                <li>Distinguer sources primaires (traités, discours, archives) et sources secondaires (littérature académique).</li>
+                <li>Interroger les angles morts de son propre cadre d'analyse — ce qu'une lecture réaliste laisse dans l'ombre qu'une lecture constructiviste éclairerait, et inversement.</li>
+            </ul>
+
+            <h2>Glossaire</h2>
+            <span class="level lvl-both">L1 → M2</span>
+            <dl class="glossary">
+                <dt>Système international</dt><dd>Ensemble structuré des interactions entre États et autres acteurs à l'échelle mondiale.</dd>
+                <dt>Multilatéralisme</dt><dd>Coordination des relations entre trois États ou plus autour de règles communes.</dd>
+                <dt>Régime international</dt><dd>Ensemble de règles, normes et procédures autour desquelles convergent les attentes des acteurs dans un domaine donné.</dd>
+                <dt>Sécuritisation</dt><dd>Processus par lequel un enjeu est construit discursivement comme une menace existentielle justifiant des mesures d'exception.</dd>
+                <dt>Gouvernance mondiale</dt><dd>Coordination de l'action publique à l'échelle globale en l'absence de gouvernement mondial.</dd>
+            </dl>
+
+            <h2>Auteurs de référence</h2>
+            <span class="level lvl-m2">NIVEAU M2</span>
+            <p class="refs">
+                <strong>Thucydide</strong> — analyse fondatrice de la puissance dans l'Antiquité grecque.<br>
+                <strong>Hobbes, Kant</strong> — matrices philosophiques du réalisme et du libéralisme.<br>
+                <strong>Hans Morgenthau, Kenneth Waltz</strong> — réalisme classique et néoréalisme.<br>
+                <strong>Robert Keohane, Joseph Nye</strong> — interdépendance complexe, hard/soft power.<br>
+                <strong>Alexander Wendt</strong> — constructivisme social.<br>
+                <strong>Hedley Bull</strong> — École anglaise, société internationale.<br>
+                <strong>Barry Buzan, Ole Wæver</strong> — École de Copenhague, sécuritisation.<br>
+                <strong>Susan Strange, Stephen Krasner</strong> — économie politique internationale, régimes.<br>
+                <strong>J. Ann Tickner</strong> — approches féministes des RI.
+            </p>
+
+            <a class="cta-end" href="index.html">Continuer vers les fondamentaux →</a>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <p>Diplomacy Lab — Projet personnel</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
