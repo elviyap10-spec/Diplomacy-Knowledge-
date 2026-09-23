@@ -1,3 +1,4 @@
+
 const map = L.map("map").setView([20, 0], 2);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -57,23 +58,288 @@ function resetCountry(e) {
 
 
 // ==============================
-// FICHE DU PAYS
+// RÉCUPÉRER LES DONNÉES WORLD BANK
 // ==============================
 
-function selectCountry(e) {
+async function getWorldBankData(iso3) {
+
+    try {
+
+        if (!iso3 || iso3 === "-99") {
+            throw new Error("Code ISO indisponible.");
+        }
+
+
+        // INFORMATIONS GÉNÉRALES
+
+        const countryResponse = await fetch(
+            `https://api.worldbank.org/v2/country/${iso3}?format=json`
+        );
+
+        if (!countryResponse.ok) {
+            throw new Error("Erreur lors du chargement du pays.");
+        }
+
+        const countryData = await countryResponse.json();
+
+        if (!countryData[1] || !countryData[1][0]) {
+            throw new Error("Pays introuvable.");
+        }
+
+        const country = countryData[1][0];
+
+
+        // INDICATEURS
+
+        const indicatorsResponse = await fetch(
+            `https://api.worldbank.org/v2/country/${iso3}/indicator/SP.POP.TOTL;NY.GDP.MKTP.CD;NY.GDP.PCAP.CD;NY.GDP.MKTP.KD.ZG;FP.CPI.TOTL.ZG?format=json&mrnev=1&per_page=100`
+        );
+
+        if (!indicatorsResponse.ok) {
+            throw new Error("Erreur lors du chargement des indicateurs.");
+        }
+
+        const indicatorsData =
+            await indicatorsResponse.json();
+
+
+        const indicators = {};
+
+
+        if (indicatorsData[1]) {
+
+            indicatorsData[1].forEach(item => {
+
+                if (
+                    item.value !== null &&
+                    !indicators[item.indicator.id]
+                ) {
+
+                    indicators[item.indicator.id] = {
+
+                        value: item.value,
+
+                        year: item.date
+
+                    };
+
+                }
+
+            });
+
+        }
+
+
+        return {
+
+            name: country.name,
+
+            capital:
+                country.capitalCity ||
+                "Non disponible",
+
+            region:
+                country.region?.value ||
+                "Non disponible",
+
+            incomeLevel:
+                country.incomeLevel?.value ||
+                "Non disponible",
+
+            population:
+                indicators["SP.POP.TOTL"] ||
+                null,
+
+            gdp:
+                indicators["NY.GDP.MKTP.CD"] ||
+                null,
+
+            gdpPerCapita:
+                indicators["NY.GDP.PCAP.CD"] ||
+                null,
+
+            growth:
+                indicators["NY.GDP.MKTP.KD.ZG"] ||
+                null,
+
+            inflation:
+                indicators["FP.CPI.TOTL.ZG"] ||
+                null
+
+        };
+
+    }
+
+    catch (error) {
+
+        console.error(
+            "Erreur World Bank :",
+            error
+        );
+
+        return null;
+
+    }
+
+}
+
+
+// ==============================
+// FORMATAGE
+// ==============================
+
+function formatNumber(value) {
+
+    if (
+        value === null ||
+        value === undefined
+    ) {
+
+        return "Donnée indisponible";
+
+    }
+
+    return Number(value).toLocaleString(
+        "fr-FR"
+    );
+
+}
+
+
+function formatCurrency(value) {
+
+    if (
+        value === null ||
+        value === undefined
+    ) {
+
+        return "Donnée indisponible";
+
+    }
+
+    return Number(value).toLocaleString(
+        "fr-FR",
+        {
+            maximumFractionDigits: 0
+        }
+    ) + " $";
+
+}
+
+
+function formatPercent(value) {
+
+    if (
+        value === null ||
+        value === undefined
+    ) {
+
+        return "Donnée indisponible";
+
+    }
+
+    return Number(value).toLocaleString(
+        "fr-FR",
+        {
+            maximumFractionDigits: 2
+        }
+    ) + " %";
+
+}
+
+
+// ==============================
+// CLIQUER SUR UN PAYS
+// ==============================
+
+async function selectCountry(e) {
 
     const country = e.target;
-    const properties = country.feature.properties;
+
+    const properties =
+        country.feature.properties;
+
 
     const name =
         properties.name ||
         "Pays non identifié";
 
+
+    const iso3 =
+        properties.ISO_A3 ||
+        properties.iso_a3 ||
+        properties.ISO3;
+
+
     selectedCountry = {
-        name: name
+
+        name: name,
+
+        iso3: iso3,
+
+        data: null
+
     };
 
-    document.getElementById("countryPanel").classList.add("open");
+
+    document
+        .getElementById("countryPanel")
+        .classList.add("open");
+
+
+    document
+        .getElementById("countryContent")
+        .innerHTML = `
+
+            <h2 class="country-title">
+                ${name}
+            </h2>
+
+            <p class="country-meta">
+                Chargement des données...
+            </p>
+
+        `;
+
+
+    const data =
+        await getWorldBankData(iso3);
+
+
+    if (!data) {
+
+        document
+            .getElementById("countryContent")
+            .innerHTML = `
+
+                <h2 class="country-title">
+                    ${name}
+                </h2>
+
+                <p class="country-meta">
+                    Données indisponibles
+                </p>
+
+                <div class="data-card">
+
+                    <div class="data-label">
+                        Source
+                    </div>
+
+                    <div class="data-value">
+                        Banque mondiale
+                    </div>
+
+                </div>
+
+            `;
+
+        return;
+
+    }
+
+
+    selectedCountry.data = data;
 
     renderCountry();
 
@@ -81,144 +347,165 @@ function selectCountry(e) {
 
 
 // ==============================
-// CONTENU DE LA FICHE
+// AFFICHER LES DONNÉES
 // ==============================
 
 function renderCountry() {
 
-    if (!selectedCountry) {
+    if (
+        !selectedCountry ||
+        !selectedCountry.data
+    ) {
+
         return;
+
     }
 
-    const name = selectedCountry.name;
+
+    const data =
+        selectedCountry.data;
+
+
+    const name =
+        data.name;
+
 
     let content = "";
 
 
     // ==========================
-    // POLITIQUE & DIPLOMATIE
+    // POLITIQUE
     // ==========================
 
     if (activeLayer === "political") {
 
         content = `
+
             <h2 class="country-title">
                 ${name}
             </h2>
 
             <p class="country-meta">
-                Informations politiques et diplomatiques
+                Informations politiques et géographiques
             </p>
 
 
             <div class="data-card">
-                <div class="data-label">
-                    Pays
-                </div>
 
-                <div class="data-value">
-                    ${name}
-                </div>
-            </div>
-
-
-            <div class="data-card">
-                <div class="data-label">
-                    Statut
-                </div>
-
-                <div class="data-value">
-                    État souverain
-                </div>
-            </div>
-
-
-            <div class="data-card">
                 <div class="data-label">
                     Capitale
                 </div>
 
                 <div class="data-value">
-                    Donnée à compléter
+                    ${data.capital}
                 </div>
+
             </div>
 
 
             <div class="data-card">
+
+                <div class="data-label">
+                    Région
+                </div>
+
+                <div class="data-value">
+                    ${data.region}
+                </div>
+
+            </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    Niveau de revenu
+                </div>
+
+                <div class="data-value">
+                    ${data.incomeLevel}
+                </div>
+
+            </div>
+
+
+            <div class="data-card">
+
                 <div class="data-label">
                     Régime politique
                 </div>
 
                 <div class="data-value">
-                    Donnée à compléter
+                    À documenter
                 </div>
+
             </div>
 
 
             <div class="data-card">
+
                 <div class="data-label">
                     Chef de l'État
                 </div>
 
                 <div class="data-value">
-                    Donnée à compléter
+                    À documenter
                 </div>
+
             </div>
 
 
             <div class="data-card">
+
                 <div class="data-label">
                     Chef du gouvernement
                 </div>
 
                 <div class="data-value">
-                    Donnée à compléter
+                    À documenter
                 </div>
+
             </div>
 
 
             <div class="data-card">
+
                 <div class="data-label">
                     Organisations internationales
                 </div>
 
                 <div class="data-value">
-                    Données à compléter
+                    À documenter
                 </div>
+
             </div>
 
 
             <div class="data-card">
+
                 <div class="data-label">
                     Relations diplomatiques
                 </div>
 
                 <div class="data-value">
-                    Données à compléter
+                    À documenter
                 </div>
+
             </div>
 
 
             <div class="data-card">
-                <div class="data-label">
-                    Représentations diplomatiques
-                </div>
 
-                <div class="data-value">
-                    Données à compléter
-                </div>
-            </div>
-
-
-            <div class="data-card">
                 <div class="data-label">
                     Source
                 </div>
 
                 <div class="data-value">
-                    Diplomacy Lab
+                    Banque mondiale
                 </div>
+
             </div>
+
         `;
 
     }
@@ -231,6 +518,7 @@ function renderCountry() {
     if (activeLayer === "economy") {
 
         content = `
+
             <h2 class="country-title">
                 ${name}
             </h2>
@@ -239,15 +527,99 @@ function renderCountry() {
                 Données économiques
             </p>
 
+
             <div class="data-card">
+
                 <div class="data-label">
-                    Économie
+                    PIB
                 </div>
 
                 <div class="data-value">
-                    Module en préparation
+                    ${formatCurrency(
+                        data.gdp?.value
+                    )}
                 </div>
+
+                <small>
+                    Année :
+                    ${data.gdp?.year || "N/A"}
+                </small>
+
             </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    PIB par habitant
+                </div>
+
+                <div class="data-value">
+                    ${formatCurrency(
+                        data.gdpPerCapita?.value
+                    )}
+                </div>
+
+                <small>
+                    Année :
+                    ${data.gdpPerCapita?.year || "N/A"}
+                </small>
+
+            </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    Croissance du PIB
+                </div>
+
+                <div class="data-value">
+                    ${formatPercent(
+                        data.growth?.value
+                    )}
+                </div>
+
+                <small>
+                    Année :
+                    ${data.growth?.year || "N/A"}
+                </small>
+
+            </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    Inflation
+                </div>
+
+                <div class="data-value">
+                    ${formatPercent(
+                        data.inflation?.value
+                    )}
+                </div>
+
+                <small>
+                    Année :
+                    ${data.inflation?.year || "N/A"}
+                </small>
+
+            </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    Source
+                </div>
+
+                <div class="data-value">
+                    Banque mondiale
+                </div>
+
+            </div>
+
         `;
 
     }
@@ -260,6 +632,7 @@ function renderCountry() {
     if (activeLayer === "population") {
 
         content = `
+
             <h2 class="country-title">
                 ${name}
             </h2>
@@ -268,50 +641,119 @@ function renderCountry() {
                 Données démographiques
             </p>
 
+
             <div class="data-card">
+
                 <div class="data-label">
                     Population
                 </div>
 
                 <div class="data-value">
-                    Module en préparation
+                    ${formatNumber(
+                        data.population?.value
+                    )}
                 </div>
+
+                <small>
+                    Année :
+                    ${data.population?.year || "N/A"}
+                </small>
+
             </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    Capitale
+                </div>
+
+                <div class="data-value">
+                    ${data.capital}
+                </div>
+
+            </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    Région
+                </div>
+
+                <div class="data-value">
+                    ${data.region}
+                </div>
+
+            </div>
+
+
+            <div class="data-card">
+
+                <div class="data-label">
+                    Source
+                </div>
+
+                <div class="data-value">
+                    Banque mondiale
+                </div>
+
+            </div>
+
         `;
 
     }
 
 
-    document.getElementById("countryContent").innerHTML = content;
+    document
+        .getElementById("countryContent")
+        .innerHTML = content;
 
 }
 
 
 // ==============================
-// BOUTONS POLITIQUE / ÉCONOMIE / POPULATION
+// BOUTONS
 // ==============================
 
-document.querySelectorAll(".layer").forEach(button => {
+document
+    .querySelectorAll(".layer")
+    .forEach(button => {
 
-    button.addEventListener("click", function() {
+        button.addEventListener(
+            "click",
+            function() {
 
-        document.querySelectorAll(".layer").forEach(btn => {
-            btn.classList.remove("active");
-        });
+                document
+                    .querySelectorAll(".layer")
+                    .forEach(btn => {
 
-        this.classList.add("active");
+                        btn.classList.remove(
+                            "active"
+                        );
 
-        activeLayer = this.dataset.layer;
+                    });
 
-        renderCountry();
+
+                this.classList.add(
+                    "active"
+                );
+
+
+                activeLayer =
+                    this.dataset.layer;
+
+
+                renderCountry();
+
+            }
+        );
 
     });
 
-});
-
 
 // ==============================
-// CHARGEMENT DES PAYS
+// CHARGEMENT DE LA CARTE
 // ==============================
 
 fetch(
@@ -321,7 +763,11 @@ fetch(
 .then(response => {
 
     if (!response.ok) {
-        throw new Error("Impossible de charger les frontières.");
+
+        throw new Error(
+            "Impossible de charger les frontières."
+        );
+
     }
 
     return response.json();
@@ -330,29 +776,39 @@ fetch(
 
 .then(data => {
 
-    countriesLayer = L.geoJSON(data, {
+    countriesLayer =
+        L.geoJSON(
+            data,
+            {
 
-        style: countryStyle,
+                style: countryStyle,
 
-        onEachFeature: function(feature, layer) {
+                onEachFeature:
+                    function(feature, layer) {
 
-            layer.on({
+                        layer.on({
 
-                mouseover: highlightCountry,
+                            mouseover:
+                                highlightCountry,
 
-                mouseout: resetCountry,
+                            mouseout:
+                                resetCountry,
 
-                click: selectCountry
+                            click:
+                                selectCountry
 
-            });
+                        });
 
-        }
+                    }
 
-    }).addTo(map);
+            }
+        ).addTo(map);
 
 
-    document.getElementById("updateStatus").textContent =
-        "Carte connectée";
+    document
+        .getElementById("updateStatus")
+        .textContent =
+        "Données connectées";
 
 })
 
@@ -360,7 +816,9 @@ fetch(
 
     console.error(error);
 
-    document.getElementById("updateStatus").textContent =
+    document
+        .getElementById("updateStatus")
+        .textContent =
         "Données indisponibles";
 
 });
@@ -370,8 +828,17 @@ fetch(
 // FERMER LE PANNEAU
 // ==============================
 
-document.getElementById("closePanel").addEventListener("click", function() {
+document
+    .getElementById("closePanel")
+    .addEventListener(
+        "click",
+        function() {
 
-    document.getElementById("countryPanel").classList.remove("open");
+            document
+                .getElementById("countryPanel")
+                .classList.remove(
+                    "open"
+                );
 
-});
+        }
+    );
