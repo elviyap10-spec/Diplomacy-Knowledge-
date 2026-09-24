@@ -1,182 +1,79 @@
 // ========================================
-// DIPLOMACY LAB — POLITIQUE
+// DIPLOMACY LAB — MODULE POLITIQUE
+// CHARGEUR DE DONNÉES (par continent)
 // ========================================
 
-const politicalData = {
 
-    CIV: {
+window.politicalData = {};
 
-        // ====================================
-        // IDENTITÉ POLITIQUE
-        // ====================================
 
-        identity: {
+const dataFiles = [
+    "data/politique/africa.json",
+    "data/politique/europe.json",
+    "data/politique/asia.json",
+    "data/politique/americas.json",
+    "data/politique/oceania.json"
+];
 
-            officialName:
-                "République de Côte d'Ivoire",
 
-            shortName:
-                "Côte d'Ivoire",
+Promise.allSettled(
 
-            capital:
-                "Yamoussoukro",
+    dataFiles.map(function(file) {
 
-            economicCapital:
-                "Abidjan",
+        return fetch(file)
 
-            independence:
-                "7 août 1960",
+            .then(function(response) {
 
-            constitution:
-                "Constitution de 2016"
+                if (!response.ok) {
 
-        },
+                    throw new Error(
+                        "Fichier introuvable : " + file
+                    );
 
+                }
 
-        // ====================================
-        // SYSTÈME POLITIQUE
-        // ====================================
+                return response.json();
 
-        system: {
+            })
 
-            stateForm:
-                "République",
+            .then(function(data) {
 
-            regime:
-                "Présidentiel",
+                Object.assign(
+                    window.politicalData,
+                    data
+                );
 
-            territorialOrganization:
-                "État unitaire décentralisé",
+                console.log(
+                    "Chargé :",
+                    file,
+                    "(" + Object.keys(data).length + " pays)"
+                );
 
-            constitution:
-                "Constitution de 2016"
+            })
 
-        },
+            .catch(function(error) {
 
+                // Un fichier en erreur n'empêche pas les autres
+                // de se charger.
 
-        // ====================================
-        // POUVOIR EXÉCUTIF
-        // ====================================
+                console.error(
+                    "Erreur de chargement :",
+                    file,
+                    error
+                );
 
-        executive: {
+            });
 
-            headOfState:
-                "Président de la République",
+    })
 
-            headOfGovernment:
-                "Premier ministre",
+)
 
-            election:
-                "Suffrage universel direct",
+.then(function() {
 
-            mandate:
-                "5 ans"
+    console.log(
+        "Module POLITIQUE chargé.",
+        Object.keys(window.politicalData).length,
+        "pays au total."
+    );
 
-        },
-
-
-        // ====================================
-        // POUVOIR LÉGISLATIF
-        // ====================================
-
-        legislative: {
-
-            parliament:
-                "Parlement de Côte d'Ivoire",
-
-            structure:
-                "Bicaméral",
-
-            lowerHouse:
-                "Assemblée nationale",
-
-            upperHouse:
-                "Sénat"
-
-        },
-
-
-        // ====================================
-        // SYSTÈME ÉLECTORAL
-        // ====================================
-
-        electoral: {
-
-            votingAge:
-                "18 ans",
-
-            presidentialSystem:
-                "Scrutin majoritaire à deux tours",
-
-            legislativeSystem:
-                "Selon la législation électorale"
-
-        },
-
-
-        // ====================================
-        // POUVOIR JUDICIAIRE
-        // ====================================
-
-        judiciary: {
-
-            constitutionalInstitution:
-                "Conseil constitutionnel",
-
-            highestJudicialInstitution:
-                "Cour de cassation"
-
-        },
-
-
-        // ====================================
-        // ORGANISATION TERRITORIALE
-        // ====================================
-
-        territory: {
-
-            type:
-                "État unitaire",
-
-            organization:
-                "Districts autonomes, régions, départements et communes"
-
-        },
-
-
-        // ====================================
-        // POLITIQUE ÉTRANGÈRE
-        // ====================================
-
-        foreignPolicy: {
-
-            regionalOrganizations: [
-
-                "Union africaine",
-
-                "CEDEAO",
-
-                "UEMOA"
-
-            ],
-
-            internationalOrganizations: [
-
-                "Organisation des Nations unies"
-
-            ]
-
-        }
-
-    }
-
-};
-
-
-console.log(
-    "Module POLITIQUE chargé."
-);
-
-console.log(
-    politicalData
-);
+});
