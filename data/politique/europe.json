@@ -1,1 +1,148 @@
-{}
+{
+    "ESP": {
+        "identity": {
+            "officialName": "Royaume d'Espagne",
+            "capital": "Madrid",
+            "economicCapital": "—",
+            "independence": "—"
+        },
+        "system": {
+            "stateForm": "Monarchie parlementaire",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État autonomique (Estado de las Autonomías)",
+            "constitution": "Constitution de 1978"
+        },
+        "executive": {
+            "headOfState": "Roi",
+            "headOfGovernment": "Président du gouvernement",
+            "election": "Succession héréditaire (Roi) ; investiture parlementaire (chef du gouvernement)",
+            "mandate": "4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Cortes Generales",
+            "structure": "Bicaméral",
+            "lowerHouse": "Congrès des députés",
+            "upperHouse": "Sénat"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal (circonscriptions provinciales)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal constitutionnel",
+            "highestJudicialInstitution": "Tribunal suprême"
+        },
+        "territory": {
+            "type": "État unitaire fortement décentralisé",
+            "organization": "17 communautés autonomes et 2 villes autonomes (Ceuta et Melilla), subdivisées en provinces et municipalités"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    },
+    "FRA": {
+        "identity": {
+            "officialName": "République française",
+            "capital": "Paris",
+            "economicCapital": "—",
+            "independence": "—"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 4 octobre 1958 (Ve République)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct (président) ; nommé par le président (Premier ministre)",
+            "mandate": "5 ans (président)"
+        },
+        "legislative": {
+            "parliament": "Parlement français",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale",
+            "upperHouse": "Sénat"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin majoritaire à deux tours (par circonscription)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour de cassation (ordre judiciaire) et Conseil d'État (ordre administratif)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "Régions, départements, communes, collectivités d'outre-mer"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    },
+    "RUS": {
+        "identity": {
+            "officialName": "Fédération de Russie",
+            "capital": "Moscou",
+            "economicCapital": "—",
+            "independence": "—"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État fédéral (89 sujets fédéraux)",
+            "constitution": "Constitution du 12 décembre 1993 (amendée en 2020)"
+        },
+        "executive": {
+            "headOfState": "Président de la Fédération de Russie",
+            "headOfGovernment": "Président du Gouvernement (Premier ministre)",
+            "election": "Suffrage universel direct (président)",
+            "mandate": "6 ans (président)"
+        },
+        "legislative": {
+            "parliament": "Assemblée fédérale (Federalnoïe Sobranie)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Douma d'État",
+            "upperHouse": "Conseil de la Fédération"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin mixte (proportionnel et majoritaire)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État fédéral",
+            "organization": "Républiques, territoires (kraïs), régions (oblasts), villes fédérales, région autonome, districts autonomes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Communauté des États indépendants (CEI)",
+                "Union économique eurasiatique"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    }
+}
