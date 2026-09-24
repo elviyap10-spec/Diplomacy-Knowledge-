@@ -1,1 +1,50 @@
-{}
+{
+    "USA": {
+        "identity": {
+            "officialName": "États-Unis d'Amérique",
+            "capital": "Washington, D.C.",
+            "economicCapital": "New York",
+            "independence": "4 juillet 1776"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État fédéral (50 États)",
+            "constitution": "Constitution de 1787 (en vigueur depuis 1789)"
+        },
+        "executive": {
+            "headOfState": "Président des États-Unis",
+            "headOfGovernment": "Président des États-Unis (cumul chef d'État et de gouvernement)",
+            "election": "Suffrage universel indirect (collège électoral)",
+            "mandate": "4 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Congrès des États-Unis",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants",
+            "upperHouse": "Sénat"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin indirect (collège électoral)",
+            "legislativeSystem": "Scrutin majoritaire uninominal à un tour"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême (contrôle de constitutionnalité diffus)",
+            "highestJudicialInstitution": "Cour suprême des États-Unis"
+        },
+        "territory": {
+            "type": "État fédéral",
+            "organization": "50 États fédérés, un district fédéral (Washington D.C.) et des territoires"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OTAN",
+                "Organisation des États américains"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    }
+}
