@@ -1,0 +1,45 @@
+{
+    "CIV": {
+        "identity": {
+            "officialName": "République de Côte d'Ivoire",
+            "capital": "Yamoussoukro",
+            "economicCapital": "Abidjan",
+            "independence": "7 août 1960"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution de 2016"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement de Côte d'Ivoire",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale",
+            "upperHouse": "Sénat"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Selon la législation électorale"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "Districts autonomes, régions, départements et communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": ["Union africaine", "CEDEAO", "UEMOA"],
+            "internationalOrganizations": ["Organisation des Nations unies"]
+        }
+    }
+}
