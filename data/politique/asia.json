@@ -1,1 +1,98 @@
-{}
+{
+    "CHN": {
+        "identity": {
+            "officialName": "République populaire de Chine",
+            "capital": "Pékin",
+            "economicCapital": "Shanghai",
+            "independence": "1er octobre 1949 (proclamation de la République populaire)"
+        },
+        "system": {
+            "stateForm": "République socialiste",
+            "regime": "Système des assemblées populaires (État à parti unique)",
+            "territorialOrganization": "État unitaire (régions autonomes, régions administratives spéciales)",
+            "constitution": "Constitution du 4 décembre 1982"
+        },
+        "executive": {
+            "headOfState": "Président de la République populaire de Chine",
+            "headOfGovernment": "Premier ministre (Conseil des affaires d'État)",
+            "election": "Élu par l'Assemblée populaire nationale",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée populaire nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "—",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par l'Assemblée populaire nationale",
+            "legislativeSystem": "Élection indirecte à plusieurs degrés"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Aucune juridiction constitutionnelle distincte (contrôle exercé par l'Assemblée populaire nationale)",
+            "highestJudicialInstitution": "Cour populaire suprême"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "Provinces, régions autonomes, municipalités relevant directement du gouvernement central, régions administratives spéciales (Hong Kong, Macao)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai",
+                "APEC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    },
+    "KOR": {
+        "identity": {
+            "officialName": "République de Corée",
+            "capital": "Séoul",
+            "economicCapital": "—",
+            "independence": "15 août 1945 (libération) ; 17 juillet 1948 (fondation de la République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution de 1948, révisée en 1987 (VIe République)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct (président)",
+            "mandate": "5 ans (mandat unique, non renouvelable)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "—",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à un tour",
+            "legislativeSystem": "Scrutin mixte (majoritaire et proportionnel)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "Provinces, métropoles, villes spéciales, comtés"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OCDE",
+                "APEC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    }
+}
