@@ -1,4 +1,4 @@
- // ========================================
+// ========================================
 // DIPLOMACY LAB — WORLD MAP
 // VERSION STABLE
 // ========================================
@@ -84,8 +84,23 @@ function selectCountry(event) {
         properties.name ||
         "Pays non identifié";
 
-    const iso3 =
+    // Certains pays ont un code ISO cassé ("-99") dans le
+    // jeu de données géographiques utilisé pour la carte.
+    // On corrige les cas connus ici.
+    const ISO_FIXES = {
+        "France": "FRA",
+        "Norway": "NOR",
+        "Kosovo": "XKX",
+        "Somaliland": "SOM",
+        "N. Cyprus": "CYP"
+    };
+
+    let iso3 =
         properties["ISO3166-1-Alpha-3"];
+
+    if (!iso3 || iso3 === "-99") {
+        iso3 = ISO_FIXES[name] || iso3;
+    }
 
 
     console.log(
