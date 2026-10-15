@@ -3,7 +3,7 @@
         "identity": {
             "officialName": "Royaume d'Espagne",
             "capital": "Madrid",
-            "economicCapital": "—",
+            "economicCapital": "Barcelone",
             "independence": "—"
         },
         "system": {
@@ -41,10 +41,13 @@
             "regionalOrganizations": [
                 "Union européenne",
                 "Conseil de l'Europe",
-                "OTAN"
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen"
             ],
             "internationalOrganizations": [
-                "Organisation des Nations unies"
+                "Organisation des Nations unies",
+                "OCDE"
             ]
         }
     },
@@ -90,10 +93,16 @@
             "regionalOrganizations": [
                 "Union européenne",
                 "Conseil de l'Europe",
-                "OTAN"
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen"
             ],
             "internationalOrganizations": [
-                "Organisation des Nations unies"
+                "Organisation des Nations unies (membre permanent CSNU)",
+                "G7",
+                "G20",
+                "OCDE",
+                "Organisation internationale de la Francophonie"
             ]
         }
     },
@@ -101,8 +110,8 @@
         "identity": {
             "officialName": "Fédération de Russie",
             "capital": "Moscou",
-            "economicCapital": "—",
-            "independence": "—"
+            "economicCapital": "Saint-Pétersbourg",
+            "independence": "12 juin 1990 (Déclaration de souveraineté)"
         },
         "system": {
             "stateForm": "République fédérale",
@@ -138,10 +147,2330 @@
         "foreignPolicy": {
             "regionalOrganizations": [
                 "Communauté des États indépendants (CEI)",
-                "Union économique eurasiatique"
+                "Union économique eurasiatique",
+                "Organisation du traité de sécurité collective (OTSC)",
+                "Organisation de coopération de Shanghai (OCS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre permanent CSNU)",
+                "BRICS+",
+                "G20"
+            ]
+        }
+    },
+    "DEU": {
+        "identity": {
+            "officialName": "République fédérale d'Allemagne",
+            "capital": "Berlin",
+            "economicCapital": "Francfort-sur-le-Main",
+            "independence": "3 octobre 1990 (Jour de l'Unité allemande)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État fédéral (16 Länder)",
+            "constitution": "Loi fondamentale du 23 mai 1949 (Grundgesetz)"
+        },
+        "executive": {
+            "headOfState": "Président fédéral (Bundespräsident)",
+            "headOfGovernment": "Chancelier fédéral (Bundeskanzler)",
+            "election": "Élection par l'Assemblée fédérale (président) ; élection par le Bundestag sur proposition du président (chancelier)",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement fédéral",
+            "structure": "Bicaméral",
+            "lowerHouse": "Bundestag (Diète fédérale)",
+            "upperHouse": "Bundesrat (Conseil fédéral)"
+        },
+        "electoral": {
+            "votingAge": "18 ans (16 ans pour les élections européennes et régionales)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel personnalisé avec seuil électoral de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle fédérale (Bundesverfassungsgericht, Karlsruhe)",
+            "highestJudicialInstitution": "Cour fédérale de justice (Bundesgerichtshof)"
+        },
+        "territory": {
+            "type": "État fédéral",
+            "organization": "16 Länder (États fédérés) souverains dans leurs domaines de compétences"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "G7",
+                "G20",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "GBR": {
+        "identity": {
+            "officialName": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
+            "capital": "Londres",
+            "economicCapital": "Londres",
+            "independence": "—"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire (système de Westminster)",
+            "territorialOrganization": "État unitaire avec dévolution",
+            "constitution": "Non codifiée (common law, statuts, conventions)"
+        },
+        "executive": {
+            "headOfState": "Monarque britannique (Roi)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire (Monarque) ; nommé par le Roi (chef du parti majoritaire aux Communes)",
+            "mandate": "5 ans (mandat législatif maximal)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Westminster",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des communes (House of Commons)",
+            "upperHouse": "Chambre des lords (House of Lords)"
+        },
+        "electoral": {
+            "votingAge": "18 ans (16 ans en Écosse et Pays de Galles aux élections locales)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Royaume-Uni",
+            "highestJudicialInstitution": "Cour suprême du Royaume-Uni"
+        },
+        "territory": {
+            "type": "État unitaire dévolu",
+            "organization": "4 nations constitutives : Angleterre, Écosse, Pays de Galles, Irlande du Nord"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "OTAN",
+                "Commonwealth of Nations"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre permanent CSNU)",
+                "G7",
+                "G20",
+                "OCDE",
+                "AUKUS",
+                "OSCE"
+            ]
+        }
+    },
+    "ITA": {
+        "identity": {
+            "officialName": "République italienne",
+            "capital": "Rome",
+            "economicCapital": "Milan",
+            "independence": "17 mars 1861 (Proclamation du Royaume d'Italie)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire régionalisé",
+            "constitution": "Constitution du 27 décembre 1947"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Président du Conseil des ministres",
+            "election": "Élu par le Parlement réuni en session conjointe avec délégués régionaux (président) ; nommé par le président (président du Conseil)",
+            "mandate": "7 ans (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement de la République italienne",
+            "structure": "Bicaméral (bicamérisme parfait)",
+            "lowerHouse": "Chambre des députés (Camera dei Deputati)",
+            "upperHouse": "Sénat de la République (Senato della Repubblica)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin mixte (loi Rosatellum : ~37% majoritaire, ~63% proportionnel)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle (Corte Costituzionale)",
+            "highestJudicialInstitution": "Cour suprême de cassation (Corte Suprema di Cassazione)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "20 régions (dont 5 régions à statut spécial d'autonomie), provinces et municipalités"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "G7",
+                "G20",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "BEL": {
+        "identity": {
+            "officialName": "Royaume de Belgique",
+            "capital": "Bruxelles",
+            "economicCapital": "Anvers",
+            "independence": "4 octobre 1830 (proclamation) ; 1839 (Traité de Londres)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire fédéral",
+            "territorialOrganization": "État fédéral à double niveau (Régions et Communautés)",
+            "constitution": "Constitution du 7 février 1831 (coordonnée en 1994)"
+        },
+        "executive": {
+            "headOfState": "Roi des Belges",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire (Roi) ; nommé par le Roi à la suite de l'accord de coalition parlementaire",
+            "mandate": "5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement fédéral",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants",
+            "upperHouse": "Sénat"
+        },
+        "electoral": {
+            "votingAge": "18 ans (vote obligatoire ; 16 ans pour le scrutin européen)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal (système D'Hondt)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Belgique",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État fédéral",
+            "organization": "3 Régions (Flamande, Wallonne, Bruxelles-Capitale) et 3 Communautés (Flamande, Française, Germanophone)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne (siège de la Commission et du Conseil)",
+                "OTAN (siège de l'Alliance)",
+                "Benelux",
+                "Conseil de l'Europe",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "CHE": {
+        "identity": {
+            "officialName": "Confédération suisse",
+            "capital": "Berne (ville fédérale)",
+            "economicCapital": "Zurich",
+            "independence": "1er août 1291 (Pacte confédéral) ; 1648 (Traités de Westphalie)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Directorial (gouvernement collégial de concordance)",
+            "territorialOrganization": "État fédéral (26 cantons)",
+            "constitution": "Constitution fédérale du 18 avril 1999"
+        },
+        "executive": {
+            "headOfState": "Conseil fédéral in corpore (7 membres)",
+            "headOfGovernment": "Président de la Confédération (primus inter pares pour 1 an)",
+            "election": "Élus par l'Assemblée fédérale (Conseil fédéral)",
+            "mandate": "4 ans (conseillers fédéraux) ; 1 an (président)"
+        },
+        "legislative": {
+            "parliament": "Assemblée fédérale",
+            "structure": "Bicaméral",
+            "lowerHouse": "Conseil national (200 députés)",
+            "upperHouse": "Conseil des États (46 représentants des cantons)"
+        },
+        "electoral": {
+            "votingAge": "18 ans (16 ans dans le canton de Glaris)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel (Conseil national) et scrutin majoritaire (Conseil des États sauf Jura/Neuchâtel)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal fédéral (compétence constitutionnelle limitée)",
+            "highestJudicialInstitution": "Tribunal fédéral (Lausanne)"
+        },
+        "territory": {
+            "type": "État fédéral (neutralité perpétuelle)",
+            "organization": "26 cantons et demi-cantons souverains avec compétences résiduelles larges"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Association européenne de libre-échange (AELE)",
+                "Conseil de l'Europe",
+                "Espace Schengen",
+                "OSCE"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion en 2002)",
+                "OMC (siège)",
+                "OCDE",
+                "Comité international de la Croix-Rouge (CICR)"
+            ]
+        }
+    },
+    "UKR": {
+        "identity": {
+            "officialName": "Ukraine",
+            "capital": "Kyiv",
+            "economicCapital": "Kharkiv",
+            "independence": "24 août 1991 (Acte de déclaration d'indépendance)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel (parlementaire-présidentiel)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 28 juin 1996"
+        },
+        "executive": {
+            "headOfState": "Président de l'Ukraine",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le Parlement sur proposition du président (Premier ministre)",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Rada suprême (Verkhovna Rada)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Rada suprême",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin mixte à dominante proportionnelle avec seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle d'Ukraine",
+            "highestJudicialInstitution": "Cour suprême d'Ukraine"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "24 oblasts, 1 république autonome (Crimée) et 2 villes à statut spécial (Kyiv et Sébastopol)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "OSCE",
+                "GUAM",
+                "Candidat officiel à l'Union européenne et à l'OTAN"
             ],
             "internationalOrganizations": [
                 "Organisation des Nations unies"
+            ]
+        }
+    },
+    "POL": {
+        "identity": {
+            "officialName": "République de Pologne",
+            "capital": "Varsovie",
+            "economicCapital": "Cracovie",
+            "independence": "11 novembre 1918 (Deuxième République) ; 1989 (IIIe République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel / Parlementaire à exécutif bicéphale",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 2 avril 1997"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Pologne",
+            "headOfGovernment": "Président du Conseil des ministres (Premier ministre)",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le président et investi par la Diète",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Zgromadzenie Narodowe)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Diète (Sejm)",
+            "upperHouse": "Sénat (Senat)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel avec seuil de 5% (Sejm) et scrutin uninominal majoritaire à un tour (Sénat)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal constitutionnel (Trybunał Konstytucyjny)",
+            "highestJudicialInstitution": "Cour suprême (Sąd Najwyższy)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "16 voïvodies (provinces), powiats (districts) et gminas (communes)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Groupe de Visegrád (V4)",
+                "Initiative des trois mers",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "NLD": {
+        "identity": {
+            "officialName": "Royaume des Pays-Bas",
+            "capital": "Amsterdam",
+            "economicCapital": "Rotterdam",
+            "independence": "26 juillet 1581 (Acte de La Haye) ; 1648 (Traités de Westphalie)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire décentralisé (Royaume à 4 pays constitutifs)",
+            "constitution": "Loi fondamentale (Grondwet, 1815 révisée)"
+        },
+        "executive": {
+            "headOfState": "Roi des Pays-Bas",
+            "headOfGovernment": "Premier ministre (Ministre-président)",
+            "election": "Succession héréditaire (Roi) ; nommé par le Roi sur la base de la majorité parlementaire",
+            "mandate": "4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "États généraux (Staten-Generaal)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Seconde Chambre (Tweede Kamer)",
+            "upperHouse": "Première Chambre (Eerste Kamer)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel de liste intégrale sans seuil artificiel (seuil naturel de 0,67%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil d'État (Raad van State) / Pas de cour constitutionnelle directe",
+            "highestJudicialInstitution": "Haute Cour des Pays-Bas (Hoge Raad)"
+        },
+        "territory": {
+            "type": "État unitaire décentralisé",
+            "organization": "12 provinces métropolitaines et 3 pays autonomes caribéens (Aruba, Curaçao, Saint-Martin)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Benelux",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (siège de la Cour internationale de justice à La Haye)",
+                "Cour pénale internationale (CPI)",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "PRT": {
+        "identity": {
+            "officialName": "République portugaise",
+            "capital": "Lisbonne",
+            "economicCapital": "Porto",
+            "independence": "5 octobre 1143 (Traité de Zamora) ; 1640 (Restauration)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire avec régions autonomes",
+            "constitution": "Constitution du 25 avril 1976"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le président selon les résultats électoraux",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée de la République (Assembleia da República)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée de la République",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal (méthode D'Hondt)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal constitutionnel",
+            "highestJudicialInstitution": "Cour suprême de justice (Supremo Tribunal de Justiça)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "18 districts métropolitains et 2 régions insulaires autonomes (Açores et Madère)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen",
+                "Communauté des pays de langue portugaise (CPLP)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "SWE": {
+        "identity": {
+            "officialName": "Royaume de Suède",
+            "capital": "Stockholm",
+            "economicCapital": "Göteborg",
+            "independence": "6 juin 1523 (Élection de Gustav Vasa)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Lois fondamentales (dont l'Instrument de gouvernement de 1974)"
+        },
+        "executive": {
+            "headOfState": "Roi de Suède (rôle cérémoniel)",
+            "headOfGovernment": "Premier ministre (Statsminister)",
+            "election": "Succession héréditaire (Roi) ; élu par le Riksdag sur proposition du président du Riksdag",
+            "mandate": "4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Riksdag",
+            "structure": "Monocaméral",
+            "lowerHouse": "Riksdag",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel de liste avec seuil de 4%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil des lois (Lagrådet) et contrôle judiciaire diffus",
+            "highestJudicialInstitution": "Cour suprême de Suède (Högsta domstolen)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "21 comtés (län) et 290 communes (kommuner)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN (adhésion 2024)",
+                "Conseil nordique",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "NOR": {
+        "identity": {
+            "officialName": "Royaume de Norvège",
+            "capital": "Oslo",
+            "economicCapital": "Bergen",
+            "independence": "17 mai 1814 (Constitution) ; 7 juin 1905 (fin de l'union avec la Suède)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 17 mai 1814"
+        },
+        "executive": {
+            "headOfState": "Roi de Norvège",
+            "headOfGovernment": "Premier ministre (Statsminister)",
+            "election": "Succession héréditaire (Roi) ; nommé par le souverain selon la majorité parlementaire",
+            "mandate": "4 ans fixe (pas de droit de dissolution anticipée)"
+        },
+        "legislative": {
+            "parliament": "Storting",
+            "structure": "Monocaméral",
+            "lowerHouse": "Storting",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec sièges de compensation (seuil de 4%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Norvège (Norges Høyesterett)",
+            "highestJudicialInstitution": "Cour suprême de Norvège"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "15 comtés (fylker) et 357 municipalités (kommuner)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OTAN (membre fondateur)",
+                "Conseil nordique",
+                "Espace économique européen (EEE)",
+                "Association européenne de libre-échange (AELE)",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "GRC": {
+        "identity": {
+            "officialName": "République hellénique",
+            "capital": "Athènes",
+            "economicCapital": "Thessalonique",
+            "independence": "25 mars 1821 (Insurrection) ; 3 février 1830 (Protocole de Londres)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 11 juin 1975"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par le Parlement (président) ; nommé par le président selon la majorité parlementaire (Premier ministre)",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement hellénique (Vouli ton Ellinon)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement hellénique",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "17 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel renforcé (avec prime au premier parti et seuil de 3%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour spéciale suprême (Anotato Eidiko Dikastirio)",
+            "highestJudicialInstitution": "Cour de cassation (Areios Pagos)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "13 périphéries (régions administratives) et statut spécial du Mont Athos"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "AUT": {
+        "identity": {
+            "officialName": "République d'Autriche",
+            "capital": "Vienne",
+            "economicCapital": "Graz",
+            "independence": "12 novembre 1918 (Première République) ; 15 mai 1955 (Traité d'État)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Semi-présidentiel (à pratique parlementaire)",
+            "territorialOrganization": "État fédéral (9 Länder)",
+            "constitution": "Loi constitutionnelle fédérale de 1920 (B-VG)"
+        },
+        "executive": {
+            "headOfState": "Président fédéral (Bundespräsident)",
+            "headOfGovernment": "Chancelier fédéral (Bundeskanzler)",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le président selon la majorité au Conseil national (chancelier)",
+            "mandate": "6 ans (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée fédérale (Bundesversammlung)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Conseil national (Nationalrat)",
+            "upperHouse": "Conseil fédéral (Bundesrat)"
+        },
+        "electoral": {
+            "votingAge": "16 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec seuil de 4%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle d'Autriche (Verfassungsgerichtshof)",
+            "highestJudicialInstitution": "Cour suprême de justice (Oberster Gerichtshof)"
+        },
+        "territory": {
+            "type": "État fédéral (neutralité perpétuelle)",
+            "organization": "9 Länder (États fédérés) autonomes avec parlements régionaux (Landtage)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "Zone euro",
+                "Espace Schengen",
+                "OSCE (siège)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (siège de Vienne - ONUV)",
+                "AIEA (siège)",
+                "OCDE"
+            ]
+        }
+    },
+    "IRL": {
+        "identity": {
+            "officialName": "Irlande",
+            "capital": "Dublin",
+            "economicCapital": "Cork",
+            "independence": "6 décembre 1922 (État libre d'Irlande) ; 18 avril 1949 (République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution de l'Irlande (Bunreacht na hÉireann, 1937)"
+        },
+        "executive": {
+            "headOfState": "Président d'Irlande (Uachtarán na hÉireann)",
+            "headOfGovernment": "Premier ministre (Taoiseach)",
+            "election": "Suffrage universel direct au vote alternatif (président) ; nommé par le président sur désignation du Dáil Éireann (Taoiseach)",
+            "mandate": "7 ans (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Oireachtas",
+            "structure": "Bicaméral",
+            "lowerHouse": "Dáil Éireann (Chambre des représentants)",
+            "upperHouse": "Seanad Éireann (Sénat)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Vote alternatif (scrutin préférentiel uninominal)",
+            "legislativeSystem": "Scrutin à vote unique transférable (VUT / Single Transferable Vote)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême d'Irlande",
+            "highestJudicialInstitution": "Cour suprême d'Irlande"
+        },
+        "territory": {
+            "type": "État unitaire (neutralité militaire traditionnelle)",
+            "organization": "26 comtés historiques et 31 autorités administratives locales"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "Zone euro"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "FIN": {
+        "identity": {
+            "officialName": "République de Finlande",
+            "capital": "Helsinki",
+            "economicCapital": "Tampere",
+            "independence": "6 décembre 1917 (déclaration d'indépendance de la Russie)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire (pouvoirs présidentiels notables en politique étrangère)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 1er mars 2000"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; élu par le Parlement et nommé par le président (Premier ministre)",
+            "mandate": "6 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Eduskunta",
+            "structure": "Monocaméral",
+            "lowerHouse": "Eduskunta",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal (système D'Hondt)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Commission constitutionnelle parlementaire (contrôle préventif)",
+            "highestJudicialInstitution": "Cour suprême (Korkein oikeus)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "19 régions et région insulaire autonome démilitarisée des îles Åland"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN (adhésion 2023)",
+                "Conseil nordique",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "DNK": {
+        "identity": {
+            "officialName": "Royaume de Danemark",
+            "capital": "Copenhague",
+            "economicCapital": "Aarhus",
+            "independence": "— (Royaume historique)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "Communauté du Royaume (Rigsfællesskabet)",
+            "constitution": "Loi fondamentale du 5 juin 1849 (révisée en 1953)"
+        },
+        "executive": {
+            "headOfState": "Monarque de Danemark (Roi)",
+            "headOfGovernment": "Premier ministre (Statsminister)",
+            "election": "Succession héréditaire (Monarque) ; nommé par le Roi à l'issue de consultations politiques",
+            "mandate": "4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Folketing",
+            "structure": "Monocaméral",
+            "lowerHouse": "Folketing",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel avec sièges de compensation (seuil de 2%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Danemark (Højesteret)",
+            "highestJudicialInstitution": "Cour suprême du Danemark"
+        },
+        "territory": {
+            "type": "État unitaire composé",
+            "organization": "5 régions métropolitaines et 2 territoires autonomes d'outre-mer (Groenland et îles Féroé)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN (membre fondateur)",
+                "Conseil nordique",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "CZE": {
+        "identity": {
+            "officialName": "République tchèque",
+            "capital": "Prague",
+            "economicCapital": "Brno",
+            "independence": "28 octobre 1918 (Tchécoslovaquie) ; 1er janvier 1993 (scission pacifique)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 16 décembre 1992"
+        },
+        "executive": {
+            "headOfState": "Président de la République tchèque",
+            "headOfGovernment": "Président du gouvernement (Premier ministre)",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le président selon la majorité parlementaire",
+            "mandate": "5 ans (président) ; 4 ans (Chambre des députés)"
+        },
+        "legislative": {
+            "parliament": "Parlement de la République tchèque",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des députés (Poslanecká sněmovna)",
+            "upperHouse": "Sénat (Senát)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel avec seuil de 5% (députés) et scrutin majoritaire uninominal (Sénat)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République tchèque (Ústavní soud)",
+            "highestJudicialInstitution": "Cour suprême (Nejvyšší soud)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "14 régions administratives (kraje) dont la ville capitale Prague"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Groupe de Visegrád (V4)",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "ROU": {
+        "identity": {
+            "officialName": "Roumanie",
+            "capital": "Bucarest",
+            "economicCapital": "Cluj-Napoca",
+            "independence": "9 mai 1877 (proclamation) ; 1878 (Traité de Berlin)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 21 novembre 1991 (révisée en 2003)"
+        },
+        "executive": {
+            "headOfState": "Président de la Roumanie",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; désigné par le président et investi par le Parlement",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Roumanie",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des députés (Camera Deputaților)",
+            "upperHouse": "Sénat (Senat)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal départemental avec seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Roumanie",
+            "highestJudicialInstitution": "Haute Cour de cassation et de justice"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "41 départements (județe) et la municipalité de Bucarest"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Initiative des trois mers",
+                "Format Bucarest 9 (B9)",
+                "Espace Schengen (frontières aériennes et maritimes)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "OSCE"
+            ]
+        }
+    },
+    "HUN": {
+        "identity": {
+            "officialName": "Hongrie",
+            "capital": "Budapest",
+            "economicCapital": "Debrecen",
+            "independence": "16 novembre 1918 (République) ; 1989 (IIIe République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Loi fondamentale de la Hongrie du 25 avril 2011"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par l'Assemblée nationale (président) ; élu par l'Assemblée sur proposition du président (Premier ministre)",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Országgyűlés)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans (ou 16 ans si marié)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin mixte à dominante majoritaire (106 uninominales, 93 proportionnelles avec seuil de 5%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Hongrie (Alkotmánybíróság)",
+            "highestJudicialInstitution": "Curie de Hongrie (Kúria)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "19 comitats (megyék) et la ville-capitale Budapest"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Groupe de Visegrád (V4)",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "LUX": {
+        "identity": {
+            "officialName": "Grand-Duché de Luxembourg",
+            "capital": "Luxembourg",
+            "economicCapital": "Esch-sur-Alzette",
+            "independence": "1815 (Congrès de Vienne) ; 1867 (Traité de Londres)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle (Grand-Duché)",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 17 octobre 1868 (révisée en 2023)"
+        },
+        "executive": {
+            "headOfState": "Grand-Duc de Luxembourg",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire (Grand-Duc) ; nommé par le Grand-Duc d'après la majorité parlementaire",
+            "mandate": "5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Chambre des députés",
+            "structure": "Monocaméral",
+            "lowerHouse": "Chambre des députés",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans (vote obligatoire)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 4 circonscriptions électorales"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle du Luxembourg",
+            "highestJudicialInstitution": "Cour supérieure de justice"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "100 communes réparties en 12 cantons administratifs"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne (siège de la Cour de justice de l'UE et de la BEI)",
+                "Benelux",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "TUR": {
+        "identity": {
+            "officialName": "République de Turquie",
+            "capital": "Ankara",
+            "economicCapital": "Istanbul",
+            "independence": "29 octobre 1923 (Proclamation de la République d'Atatürk)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 7 novembre 1982 (révisée en 2017)"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Turquie",
+            "headOfGovernment": "Président de la République (fonction de Premier ministre abolie en 2018)",
+            "election": "Suffrage universel direct à deux tours (président)",
+            "mandate": "5 ans (président)"
+        },
+        "legislative": {
+            "parliament": "Grande Assemblée nationale de Turquie (TBMM)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Grande Assemblée nationale de Turquie",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec seuil de 7%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Turquie (Anayasa Mahkemesi)",
+            "highestJudicialInstitution": "Cour de cassation (Yargıtay) et Conseil d'État (Danıştay)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "81 provinces (iller) gouvernées par des préfets (valis)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OTAN (adhésion en 1952)",
+                "Conseil de l'Europe",
+                "Organisation des États turciques (siège à Istanbul)",
+                "Organisation de coopération économique de la mer Noire (BSEC)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "G20",
+                "OCDE",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "EST": {
+        "identity": {
+            "officialName": "République d'Estonie",
+            "capital": "Tallinn",
+            "economicCapital": "Tartu",
+            "independence": "24 février 1918 (Première République) ; 20 août 1991 (Restauration)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 28 juin 1992"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par le Riigikogu ou collège électoral (président) ; nommé par le président et approuvé par le Parlement",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Riigikogu",
+            "structure": "Monocaméral",
+            "lowerHouse": "Riigikogu",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans (16 ans aux élections locales)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec seuil de 5% (vote en ligne e-Estonie)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Chambre constitutionnelle de la Cour suprême (Riikohus)",
+            "highestJudicialInstitution": "Cour suprême (Riikohus)"
+        },
+        "territory": {
+            "type": "État unitaire numérique",
+            "organization": "15 comtés (maakonnad) et 79 municipalités autonomes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen",
+                "Format NB8"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "LVA": {
+        "identity": {
+            "officialName": "République de Lettonie",
+            "capital": "Riga",
+            "economicCapital": "Daugavpils",
+            "independence": "18 novembre 1918 ; 4 mai 1990 (Restauration)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution de 1922 (Satversme, rétablie en 1993)"
+        },
+        "executive": {
+            "headOfState": "Président de l'État (Valsts prezidents)",
+            "headOfGovernment": "Premier ministre (Ministru prezidents)",
+            "election": "Élu par la Saeima (président) ; désigné par le président selon la majorité parlementaire",
+            "mandate": "4 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Saeima",
+            "structure": "Monocaméral",
+            "lowerHouse": "Saeima",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Lettonie (Satversmes tiesa)",
+            "highestJudicialInstitution": "Cour suprême de Lettonie"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "36 municipalités (novadi) et 7 villes d'État"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen",
+                "Format NB8"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "LTU": {
+        "identity": {
+            "officialName": "République de Lituanie",
+            "capital": "Vilnius",
+            "economicCapital": "Kaunas",
+            "independence": "16 février 1918 ; 11 mars 1990 (Restauration)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 25 octobre 1992"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le président avec l'approbation du Seimas",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Seimas",
+            "structure": "Monocaméral",
+            "lowerHouse": "Seimas",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (71 au scrutin majoritaire uninominal, 70 à la proportionnelle avec seuil de 5%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Lituanie (Konstitucinis Teismas)",
+            "highestJudicialInstitution": "Cour suprême de Lituanie (Lietuvos Aukščiausiasis Teismas)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "60 municipalités réparties en 10 comtés administratifs (apskritys)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen",
+                "Format NB8"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "SVK": {
+        "identity": {
+            "officialName": "République slovaque",
+            "capital": "Bratislava",
+            "economicCapital": "Košice",
+            "independence": "28 octobre 1918 (Tchécoslovaquie) ; 1er janvier 1993 (indépendance pacifique)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 1er septembre 1992"
+        },
+        "executive": {
+            "headOfState": "Président de la République slovaque",
+            "headOfGovernment": "Président du gouvernement (Premier ministre)",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le président selon la majorité parlementaire",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Conseil national de la République slovaque (Národná rada)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Conseil national",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans une circonscription nationale unique avec seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République slovaque (Ústavný súd)",
+            "highestJudicialInstitution": "Cour suprême de la République slovaque"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "8 régions (kraje) subdivisées en 79 districts (okresy)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Groupe de Visegrád (V4)",
+                "Zone euro",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "BGR": {
+        "identity": {
+            "officialName": "République de Bulgarie",
+            "capital": "Sofia",
+            "economicCapital": "Plovdiv",
+            "independence": "3 mars 1878 (San Stefano) ; 22 septembre 1908 (Indépendance complète)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 12 juillet 1991"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; désigné après mandat exploratoire et investi par le Parlement",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Narodno Sabranie)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec seuil de 4%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Bulgarie",
+            "highestJudicialInstitution": "Cour suprême de cassation et Cour administrative suprême"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "28 provinces (oblasti) subdivisées en 265 municipalités"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Espace Schengen (air/mer 2024)",
+                "Initiative des trois mers"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "BLR": {
+        "identity": {
+            "officialName": "République de Biélorussie (Bélarus)",
+            "capital": "Minsk",
+            "economicCapital": "Gomel",
+            "independence": "25 août 1991 (dissolution de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel fort (autoritaire)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 15 mars 1994 (amendée en 1996, 2004 et 2022)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct (président) ; nommé par le président avec consentement de la Chambre des représentants",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants",
+            "upperHouse": "Conseil de la République"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République du Bélarus",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État unitaire (Union avec la Russie)",
+            "organization": "6 régions (voblasts) et la ville à statut spécial de Minsk"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "État de l'Union (Russie-Biélorussie)",
+                "Communauté des États indépendants (CEI)",
+                "Organisation du traité de sécurité collective (OTSC)",
+                "Union économique eurasiatique",
+                "Organisation de coopération de Shanghai (OCS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre fondateur historique)"
+            ]
+        }
+    },
+    "MDA": {
+        "identity": {
+            "officialName": "République de Moldavie",
+            "capital": "Chișinău",
+            "economicCapital": "Bălți",
+            "independence": "27 août 1991 (indépendance de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire avec région autonome",
+            "constitution": "Constitution du 29 juillet 1994"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Moldavie",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; désigné par le président après consultations et investi par le Parlement",
+            "mandate": "4 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement de la République de Moldavie",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans une circonscription nationale avec seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Moldavie",
+            "highestJudicialInstitution": "Cour suprême de justice"
+        },
+        "territory": {
+            "type": "État unitaire (conflit gelé en Transnistrie)",
+            "organization": "32 raions (districts), 3 municipalités et 1 unité autonome (Gagaouzie)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "OSCE",
+                "GUAM",
+                "Candidat officiel à l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "ISL": {
+        "identity": {
+            "officialName": "Islande",
+            "capital": "Reykjavik",
+            "economicCapital": "Akureyri",
+            "independence": "1er décembre 1918 (Acte d'Union) ; 17 juin 1944 (République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution de la République d'Islande du 17 juin 1944"
+        },
+        "executive": {
+            "headOfState": "Président de l'Islande (Forseti Íslands)",
+            "headOfGovernment": "Premier ministre (Forsætisráðherra)",
+            "election": "Suffrage universel direct uninominal à un tour (président) ; nommé formellement selon la majorité parlementaire",
+            "mandate": "4 ans"
+        },
+        "legislative": {
+            "parliament": "Althing (Alþingi — fondé en 930)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Althing",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 6 circonscriptions avec sièges d'égalisation (seuil de 5%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême d'Islande (Hæstiréttur Íslands)",
+            "highestJudicialInstitution": "Cour suprême d'Islande"
+        },
+        "territory": {
+            "type": "État unitaire insulaire (sans armée permanente)",
+            "organization": "64 municipalités autonomes (sveitarfélög)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OTAN (membre fondateur)",
+                "Conseil nordique",
+                "Association européenne de libre-échange (AELE)",
+                "Espace économique européen (EEE)",
+                "Espace Schengen"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "HRV": {
+        "identity": {
+            "officialName": "République de Croatie",
+            "capital": "Zagreb",
+            "economicCapital": "Split",
+            "independence": "25 juin 1991 (proclamation) ; 8 octobre 1991 (rupture formelle)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 22 décembre 1990"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Président du gouvernement (Premier ministre)",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé par le président selon la majorité parlementaire",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Sabor croate",
+            "structure": "Monocaméral",
+            "lowerHouse": "Sabor",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel dans 10 circonscriptions avec seuil de 5% (+ sièges diaspora et minorités)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Croatie (Ustavni sud)",
+            "highestJudicialInstitution": "Cour suprême de la République de Croatie (Vrhovni sud)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "20 comtés (županije) et la ville de Zagreb"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro (adhésion 2023)",
+                "Espace Schengen (adhésion 2023)",
+                "Initiative des trois mers"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE"
+            ]
+        }
+    },
+    "SRB": {
+        "identity": {
+            "officialName": "République de Serbie",
+            "capital": "Belgrade",
+            "economicCapital": "Novi Sad",
+            "independence": "1878 (Congrès de Berlin) ; 5 juin 2006 (Dissolution de l'Union)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel (à fort présidentialisme de fait)",
+            "territorialOrganization": "État unitaire avec province autonome",
+            "constitution": "Constitution du 8 novembre 2006"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Président du gouvernement (Premier ministre)",
+            "election": "Suffrage universel direct à deux tours (président) ; proposé par le président et investi par l'Assemblée",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Narodna skupština)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel dans une circonscription nationale avec seuil de 3%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Serbie (Ustavni sud)",
+            "highestJudicialInstitution": "Cour suprême de cassation"
+        },
+        "territory": {
+            "type": "État unitaire (neutralité militaire déclarée)",
+            "organization": "Voïvodine (province autonome) et 29 districts administratifs"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "OSCE",
+                "Open Balkan",
+                "Candidat officiel à l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    },
+    "SVN": {
+        "identity": {
+            "officialName": "République de Slovénie",
+            "capital": "Ljubljana",
+            "economicCapital": "Maribor",
+            "independence": "25 juin 1991 (indépendance de la Yougoslavie)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 23 décembre 1991"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Président du gouvernement (Premier ministre)",
+            "election": "Suffrage universel direct à deux tours (président) ; élu par l'Assemblée nationale sur proposition présidentielle",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement slovène",
+            "structure": "Bicaméral imparfait",
+            "lowerHouse": "Assemblée nationale (Državni zbor)",
+            "upperHouse": "Conseil national (Državni svet, consultatif et corporatif)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel avec seuil de 4% (+ 2 sièges réservés aux minorités italienne et hongroise)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République de Slovénie (Ustavno sodišče)",
+            "highestJudicialInstitution": "Cour suprême de la République de Slovénie (Vrhovno sodišče)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "212 municipalités (občine) dont 12 municipalités urbaines"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "OTAN",
+                "Zone euro",
+                "Espace Schengen",
+                "Initiative des trois mers"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "OSCE"
+            ]
+        }
+    },
+    "BIH": {
+        "identity": {
+            "officialName": "Bosnie-Herzégovine",
+            "capital": "Sarajevo",
+            "economicCapital": "Banja Luka",
+            "independence": "1er mars 1992 (référendum) ; 14 décembre 1995 (Accords de Dayton)"
+        },
+        "system": {
+            "stateForm": "République fédérale / confédérale asymétrique",
+            "regime": "Parlementaire collégial à consociationalisme",
+            "territorialOrganization": "État fédéral composé de 2 entités autonomes et d'1 district neutre",
+            "constitution": "Annexe 4 des Accords de Dayton (1995)"
+        },
+        "executive": {
+            "headOfState": "Présidence tripartite collégiale (Bosniaque, Croate, Serbe ; rotation tous les 8 mois)",
+            "headOfGovernment": "Président du Conseil des ministres",
+            "election": "Suffrage universel direct communautaire (Présidence) ; confirmé par la Chambre des représentants",
+            "mandate": "4 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée parlementaire de Bosnie-Herzégovine",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (Predstavnički dom)",
+            "upperHouse": "Chambre des peuples (Dom naroda)"
+        },
+        "electoral": {
+            "votingAge": "18 ans (16 ans si salarié)",
+            "presidentialSystem": "Scrutin majoritaire au sein de chaque communauté",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec quotas stricts par entité"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Bosnie-Herzégovine (avec 3 juges internationaux)",
+            "highestJudicialInstitution": "Cour de Bosnie-Herzégovine"
+        },
+        "territory": {
+            "type": "État composé asymétrique (supervision internationale)",
+            "organization": "Fédération de Bosnie-et-Herzégovine (10 cantons), République serbe de Bosnie (Republika Srpska) et District de Brčko"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "OSCE",
+                "Candidat officiel à l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    },
+    "ALB": {
+        "identity": {
+            "officialName": "République d'Albanie",
+            "capital": "Tirana",
+            "economicCapital": "Durrës",
+            "independence": "28 novembre 1912 (déclaration à Vlora)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 28 novembre 1998"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par l'Assemblée (président) ; nommé par le président selon la majorité parlementaire",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Kuvendi (Assemblée d'Albanie)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Kuvendi",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 12 circonscriptions avec seuil de 1%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle d'Albanie (Gjykata Kushtetuese)",
+            "highestJudicialInstitution": "Haute Cour d'Albanie (Gjykata e Lartë)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "12 préfectures (qarke) et 61 municipalités"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OTAN (adhésion en 2009)",
+                "Conseil de l'Europe",
+                "OSCE",
+                "Open Balkan",
+                "Candidat officiel à l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique"
+            ]
+        }
+    },
+    "MKD": {
+        "identity": {
+            "officialName": "République de Macédoine du Nord",
+            "capital": "Skopje",
+            "economicCapital": "Bitola",
+            "independence": "8 septembre 1991 (indépendance de la Yougoslavie)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 17 novembre 1991 (amendée par l'accord d'Ohrid et de Prespa)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Président du gouvernement (Premier ministre)",
+            "election": "Suffrage universel direct à deux tours (président) ; désigné par le président et investi par le Parlement",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Sobranie",
+            "structure": "Monocaméral",
+            "lowerHouse": "Sobranie",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 6 circonscriptions (méthode D'Hondt)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République de Macédoine du Nord",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État unitaire multiethnique",
+            "organization": "80 municipalités et la région spéciale de Skopje"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OTAN (adhésion en 2020)",
+                "Conseil de l'Europe",
+                "OSCE",
+                "Open Balkan",
+                "Candidat officiel à l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "MNE": {
+        "identity": {
+            "officialName": "Monténégro",
+            "capital": "Podgorica",
+            "economicCapital": "Bar",
+            "independence": "1878 (Congrès de Berlin) ; 3 juin 2006 (référendum d'indépendance)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 19 octobre 2007"
+        },
+        "executive": {
+            "headOfState": "Président du Monténégro",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; proposé par le président et approuvé par le Parlement",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Monténégro (Skupština)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel national avec seuil de 3%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle du Monténégro (Ustavni sud)",
+            "highestJudicialInstitution": "Cour suprême du Monténégro (Vrhovni sud)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "25 municipalités (opštine)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "OTAN (adhésion en 2017)",
+                "Conseil de l'Europe",
+                "OSCE",
+                "Zone euro (utilisateur de facto)",
+                "Candidat le plus avancé à l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    },
+    "XKX": {
+        "identity": {
+            "officialName": "République du Kosovo",
+            "capital": "Pristina",
+            "economicCapital": "Prizren",
+            "independence": "17 février 2008 (Déclaration unilatérale d'indépendance)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 15 juin 2008"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Kosovo",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par l'Assemblée aux 2/3 (président) ; nommé par le président selon la majorité parlementaire",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée de la République du Kosovo (Kuvendi)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée du Kosovo",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel avec seuil de 5% (dont 20 sièges réservés aux minorités : 10 serbes, 10 autres)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle du Kosovo (Gjykata Kushtetuese)",
+            "highestJudicialInstitution": "Cour suprême du Kosovo"
+        },
+        "territory": {
+            "type": "État unitaire (reconnaissance internationale partielle)",
+            "organization": "38 municipalités décentralisées avec compétences locales étendues"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "CEFTA",
+                "Conseil de coopération régionale",
+                "Espace Schengen (exemption de visa)",
+                "Accord de stabilisation et d'association avec l'UE"
+            ],
+            "internationalOrganizations": [
+                "FMI",
+                "Banque mondiale",
+                "BERD"
+            ]
+        }
+    },
+    "CYP": {
+        "identity": {
+            "officialName": "République de Chypre",
+            "capital": "Nicosie",
+            "economicCapital": "Limassol",
+            "independence": "16 août 1960 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 16 août 1960"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Chypre",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement)",
+            "election": "Suffrage universel direct à deux tours (président)",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Chambre des représentants (Vouli ton Antiprosopon)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Chambre des représentants",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 6 circonscriptions avec seuil de 3,6%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Chypre",
+            "highestJudicialInstitution": "Cour suprême de Chypre"
+        },
+        "territory": {
+            "type": "État unitaire (île divisée depuis 1974 avec ligne verte sous mandat ONU)",
+            "organization": "6 districts administratifs"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne (adhésion 2004)",
+                "Zone euro",
+                "Conseil de l'Europe",
+                "Commonwealth of Nations"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE"
+            ]
+        }
+    },
+    "MLT": {
+        "identity": {
+            "officialName": "République de Malte",
+            "capital": "La Valette",
+            "economicCapital": "Birkirkara",
+            "independence": "21 septembre 1964 (du Royaume-Uni) ; 13 décembre 1974 (République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire insulaire",
+            "constitution": "Constitution de Malte de 1964"
+        },
+        "executive": {
+            "headOfState": "Président de Malte",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par la Chambre des représentants aux deux tiers (président) ; nommé selon la majorité parlementaire",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement de Malte (Chambre des représentants)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Chambre des représentants",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "16 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin à vote unique transférable (VUT / Single Transferable Vote) dans 13 circonscriptions"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Malte",
+            "highestJudicialInstitution": "Cour d'appel de Malte"
+        },
+        "territory": {
+            "type": "État unitaire insulaire (neutralité constitutionnelle)",
+            "organization": "68 conseils locaux (Kunsilli Lokali) sur les îles de Malte et Gozo"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union européenne",
+                "Conseil de l'Europe",
+                "Zone euro",
+                "Espace Schengen",
+                "Commonwealth of Nations"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE"
+            ]
+        }
+    },
+    "MCO": {
+        "identity": {
+            "officialName": "Principauté de Monaco",
+            "capital": "Monaco",
+            "economicCapital": "Monte-Carlo",
+            "independence": "1297 (règne Grimaldi) ; 1861 (Traité franco-monégasque)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle (Principauté)",
+            "regime": "Monarchie constitutionnelle héréditaire à régime représentatif",
+            "territorialOrganization": "Cité-État",
+            "constitution": "Constitution du 17 décembre 1962"
+        },
+        "executive": {
+            "headOfState": "Prince souverain de Monaco",
+            "headOfGovernment": "Ministre d'État",
+            "election": "Succession héréditaire dans la descendance Grimaldi ; désigné par le Prince souverain",
+            "mandate": "À vie (Prince) ; discrétionnaire (Ministre d'État)"
+        },
+        "legislative": {
+            "parliament": "Conseil national",
+            "structure": "Monocaméral",
+            "lowerHouse": "Conseil national (24 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin mixte à un tour (16 sièges au scrutin majoritaire, 8 à la proportionnelle)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal suprême de Monaco",
+            "highestJudicialInstitution": "Cour de révision"
+        },
+        "territory": {
+            "type": "Cité-État souveraine (2 km²)",
+            "organization": "Commune unique subdivisée en 9 quartiers ordonnancés"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "Union douanière avec la France",
+                "Accord monétaire avec l'UE (euro)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1993)",
+                "Organisation internationale de la Francophonie",
+                "OSCE"
+            ]
+        }
+    },
+    "AND": {
+        "identity": {
+            "officialName": "Principauté d'Andorre",
+            "capital": "Andorre-la-Vieille",
+            "economicCapital": "Escaldes-Engordany",
+            "independence": "8 septembre 1278 (Traité de Paréage)"
+        },
+        "system": {
+            "stateForm": "Coprincipauté parlementaire",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 14 mars 1993"
+        },
+        "executive": {
+            "headOfState": "Deux coprinces indivis : l'évêque d'Urgell (Espagne) et le président de la République française",
+            "headOfGovernment": "Chef du gouvernement (Cap de Govern)",
+            "election": "Nomination ecclésiastique et élection présidentielle française ; élu par le Conseil général",
+            "mandate": "Lié à leurs mandats respectifs (coprinces) ; 4 ans (chef du gouvernement)"
+        },
+        "legislative": {
+            "parliament": "Conseil général (Consell General)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Conseil général (28 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin parallèle (14 sièges au majoritaire paroissial, 14 à la proportionnelle nationale)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal constitutionnel d'Andorre",
+            "highestJudicialInstitution": "Tribunal supérieur de justice d'Andorre"
+        },
+        "territory": {
+            "type": "État unitaire montagnard",
+            "organization": "7 paroisses (parròquies) historiques"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "Accord monétaire avec l'UE (euro)",
+                "Communauté de travail des Pyrénées"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "OSCE"
+            ]
+        }
+    },
+    "SMR": {
+        "identity": {
+            "officialName": "République de Saint-Marin",
+            "capital": "Saint-Marin",
+            "economicCapital": "Serravalle",
+            "independence": "3 septembre 301 (fondation traditionnelle par saint Marin)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Directorial / Parlementaire collégial",
+            "territorialOrganization": "État unitaire enclavé",
+            "constitution": "Déclaration des droits des citoyens et principes fondamentaux (Statuts de 1600)"
+        },
+        "executive": {
+            "headOfState": "Deux capitaines-régents (Capitani Reggenti)",
+            "headOfGovernment": "Congrès d'État (gouvernement collégial)",
+            "election": "Élus par le Grand Conseil général (capitaines-régents)",
+            "mandate": "6 mois (1er avril / 1er octobre)"
+        },
+        "legislative": {
+            "parliament": "Grand Conseil général (Consiglio Grande e Generale)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Grand Conseil général (60 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel dans une circonscription unique avec prime de majorité"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Collège des garants de la constitutionnalité des normes",
+            "highestJudicialInstitution": "Cour de cassation de Saint-Marin"
+        },
+        "territory": {
+            "type": "Micro-État souverain enclavé en Italie (plus ancienne république constitutionnelle continue)",
+            "organization": "9 châteaux (castelli) correspondant aux paroisses historiques"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "Accord monétaire avec l'UE (euro)",
+                "Union douanière avec l'Italie"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1992)",
+                "OSCE"
+            ]
+        }
+    },
+    "LIE": {
+        "identity": {
+            "officialName": "Principauté de Liechtenstein",
+            "capital": "Vaduz",
+            "economicCapital": "Schaan",
+            "independence": "1719 (Création de la Principauté) ; 1806 (Dissolution du Saint-Empire)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle (Principauté)",
+            "regime": "Monarchie constitutionnelle héréditaire sur base démocratique (pouvoirs princiers étendus)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 5 octobre 1921 (révisée en 2003)"
+        },
+        "executive": {
+            "headOfState": "Prince régnant de Liechtenstein",
+            "headOfGovernment": "Chef du gouvernement (Regierungschef)",
+            "election": "Succession héréditaire agnatique (Prince) ; nommé par le Prince sur proposition du Landtag",
+            "mandate": "À vie (Prince) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Landtag de Liechtenstein",
+            "structure": "Monocaméral",
+            "lowerHouse": "Landtag (25 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 2 circonscriptions avec seuil de 8%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour d'État de la Principauté de Liechtenstein (Staatsgerichtshof)",
+            "highestJudicialInstitution": "Cour suprême (Oberster Gerichtshof)"
+        },
+        "territory": {
+            "type": "Micro-État alpin doublement enclavé",
+            "organization": "11 communes (Gemeinden)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Association européenne de libre-échange (AELE)",
+                "Espace économique européen (EEE)",
+                "Espace Schengen",
+                "Conseil de l'Europe",
+                "Union monétaire et douanière avec la Suisse (franc suisse)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1990)",
+                "OSCE"
+            ]
+        }
+    },
+    "VAT": {
+        "identity": {
+            "officialName": "État de la Cité du Vatican / Saint-Siège",
+            "capital": "Cité du Vatican",
+            "economicCapital": "—",
+            "independence": "11 février 1929 (Accords du Latran)"
+        },
+        "system": {
+            "stateForm": "Théocratie monarchique élective",
+            "regime": "Monarchie absolue de droit divin",
+            "territorialOrganization": "Cité-État enclavée",
+            "constitution": "Loi fondamentale du 26 novembre 2000 (révisée en 2023)"
+        },
+        "executive": {
+            "headOfState": "Souverain Pontife (Pape)",
+            "headOfGovernment": "Président du Gouvernorat de l'État de la Cité du Vatican / Cardinal Secrétaire d'État",
+            "election": "Élu à vie par le Collège des cardinaux réuni en conclave aux deux tiers",
+            "mandate": "À vie (ou jusqu'à renonciation)"
+        },
+        "legislative": {
+            "parliament": "Commission pontificale pour l'État de la Cité du Vatican",
+            "structure": "Monocaméral",
+            "lowerHouse": "Commission pontificale (7 cardinaux)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "Pas de suffrage populaire civil",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Désignation papale"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal suprême de la Signature apostolique",
+            "highestJudicialInstitution": "Tribunal suprême de la Signature apostolique"
+        },
+        "territory": {
+            "type": "Cité-État théocratique (0,49 km², plus petit État souverain au monde)",
+            "organization": "Territoire unique avec compétences extraterritoriales majeures à Rome"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Accord monétaire avec l'UE (émission d'euros vaticans)",
+                "Espace Schengen de facto"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (État observateur permanent du Saint-Siège)",
+                "AIEA",
+                "OSCE"
             ]
         }
     }
