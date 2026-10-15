@@ -3,7 +3,7 @@
         "identity": {
             "officialName": "Royaume d'Espagne",
             "capital": "Madrid",
-            "economicCapital": "Barcelone",
+            "economicCapital": "—",
             "independence": "—"
         },
         "system": {
@@ -13,7 +13,7 @@
             "constitution": "Constitution de 1978"
         },
         "executive": {
-            "headOfState": "Roi",
+            "headOfState": "Roi d'Espagne",
             "headOfGovernment": "Président du gouvernement",
             "election": "Succession héréditaire (Roi) ; investiture parlementaire (chef du gouvernement)",
             "mandate": "4 ans (législature)"
@@ -110,12 +110,12 @@
         "identity": {
             "officialName": "Fédération de Russie",
             "capital": "Moscou",
-            "economicCapital": "Saint-Pétersbourg",
+            "economicCapital": "—",
             "independence": "12 juin 1990 (Déclaration de souveraineté)"
         },
         "system": {
             "stateForm": "République fédérale",
-            "regime": "Semi-présidentiel",
+            "regime": "Semi-présidentiel (à fort présidentialisme)",
             "territorialOrganization": "État fédéral (89 sujets fédéraux)",
             "constitution": "Constitution du 12 décembre 1993 (amendée en 2020)"
         },
@@ -184,7 +184,7 @@
             "upperHouse": "Bundesrat (Conseil fédéral)"
         },
         "electoral": {
-            "votingAge": "18 ans (16 ans pour les élections européennes et régionales)",
+            "votingAge": "18 ans (16 ans pour les élections européennes)",
             "presidentialSystem": "—",
             "legislativeSystem": "Scrutin proportionnel personnalisé avec seuil électoral de 5%"
         },
@@ -217,7 +217,7 @@
         "identity": {
             "officialName": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
             "capital": "Londres",
-            "economicCapital": "Londres",
+            "economicCapital": "—",
             "independence": "—"
         },
         "system": {
@@ -326,7 +326,7 @@
         "identity": {
             "officialName": "Royaume de Belgique",
             "capital": "Bruxelles",
-            "economicCapital": "Anvers",
+            "economicCapital": "—",
             "independence": "4 octobre 1830 (proclamation) ; 1839 (Traité de Londres)"
         },
         "system": {
@@ -433,7 +433,7 @@
         "identity": {
             "officialName": "Ukraine",
             "capital": "Kyiv",
-            "economicCapital": "Kharkiv",
+            "economicCapital": "—",
             "independence": "24 août 1991 (Acte de déclaration d'indépendance)"
         },
         "system": {
@@ -483,7 +483,7 @@
         "identity": {
             "officialName": "République de Pologne",
             "capital": "Varsovie",
-            "economicCapital": "Cracovie",
+            "economicCapital": "—",
             "independence": "11 novembre 1918 (Deuxième République) ; 1989 (IIIe République)"
         },
         "system": {
@@ -537,7 +537,7 @@
         "identity": {
             "officialName": "Royaume des Pays-Bas",
             "capital": "Amsterdam",
-            "economicCapital": "Rotterdam",
+            "economicCapital": "—",
             "independence": "26 juillet 1581 (Acte de La Haye) ; 1648 (Traités de Westphalie)"
         },
         "system": {
@@ -592,7 +592,7 @@
         "identity": {
             "officialName": "République portugaise",
             "capital": "Lisbonne",
-            "economicCapital": "Porto",
+            "economicCapital": "—",
             "independence": "5 octobre 1143 (Traité de Zamora) ; 1640 (Restauration)"
         },
         "system": {
@@ -646,7 +646,7 @@
         "identity": {
             "officialName": "Royaume de Suède",
             "capital": "Stockholm",
-            "economicCapital": "Göteborg",
+            "economicCapital": "—",
             "independence": "6 juin 1523 (Élection de Gustav Vasa)"
         },
         "system": {
@@ -656,7 +656,7 @@
             "constitution": "Lois fondamentales (dont l'Instrument de gouvernement de 1974)"
         },
         "executive": {
-            "headOfState": "Roi de Suède (rôle cérémoniel)",
+            "headOfState": "Roi de Suède (rôle purement cérémoniel)",
             "headOfGovernment": "Premier ministre (Statsminister)",
             "election": "Succession héréditaire (Roi) ; élu par le Riksdag sur proposition du président du Riksdag",
             "mandate": "4 ans (législature)"
@@ -699,7 +699,7 @@
         "identity": {
             "officialName": "Royaume de Norvège",
             "capital": "Oslo",
-            "economicCapital": "Bergen",
+            "economicCapital": "—",
             "independence": "17 mai 1814 (Constitution) ; 7 juin 1905 (fin de l'union avec la Suède)"
         },
         "system": {
@@ -752,7 +752,7 @@
         "identity": {
             "officialName": "République hellénique",
             "capital": "Athènes",
-            "economicCapital": "Thessalonique",
+            "economicCapital": "—",
             "independence": "25 mars 1821 (Insurrection) ; 3 février 1830 (Protocole de Londres)"
         },
         "system": {
@@ -805,7 +805,7 @@
         "identity": {
             "officialName": "République d'Autriche",
             "capital": "Vienne",
-            "economicCapital": "Graz",
+            "economicCapital": "—",
             "independence": "12 novembre 1918 (Première République) ; 15 mai 1955 (Traité d'État)"
         },
         "system": {
@@ -858,7 +858,7 @@
         "identity": {
             "officialName": "Irlande",
             "capital": "Dublin",
-            "economicCapital": "Cork",
+            "economicCapital": "—",
             "independence": "6 décembre 1922 (État libre d'Irlande) ; 18 avril 1949 (République)"
         },
         "system": {
@@ -909,7 +909,7 @@
         "identity": {
             "officialName": "République de Finlande",
             "capital": "Helsinki",
-            "economicCapital": "Tampere",
+            "economicCapital": "—",
             "independence": "6 décembre 1917 (déclaration d'indépendance de la Russie)"
         },
         "system": {
@@ -963,8 +963,8 @@
         "identity": {
             "officialName": "Royaume de Danemark",
             "capital": "Copenhague",
-            "economicCapital": "Aarhus",
-            "independence": "— (Royaume historique)"
+            "economicCapital": "—",
+            "independence": "— (Royaume historique unifié au Xe siècle)"
         },
         "system": {
             "stateForm": "Monarchie constitutionnelle",
@@ -1016,7 +1016,7 @@
         "identity": {
             "officialName": "République tchèque",
             "capital": "Prague",
-            "economicCapital": "Brno",
+            "economicCapital": "—",
             "independence": "28 octobre 1918 (Tchécoslovaquie) ; 1er janvier 1993 (scission pacifique)"
         },
         "system": {
@@ -1069,7 +1069,7 @@
         "identity": {
             "officialName": "Roumanie",
             "capital": "Bucarest",
-            "economicCapital": "Cluj-Napoca",
+            "economicCapital": "—",
             "independence": "9 mai 1877 (proclamation) ; 1878 (Traité de Berlin)"
         },
         "system": {
@@ -1123,7 +1123,7 @@
         "identity": {
             "officialName": "Hongrie",
             "capital": "Budapest",
-            "economicCapital": "Debrecen",
+            "economicCapital": "—",
             "independence": "16 novembre 1918 (République) ; 1989 (IIIe République)"
         },
         "system": {
@@ -1176,7 +1176,7 @@
         "identity": {
             "officialName": "Grand-Duché de Luxembourg",
             "capital": "Luxembourg",
-            "economicCapital": "Esch-sur-Alzette",
+            "economicCapital": "—",
             "independence": "1815 (Congrès de Vienne) ; 1867 (Traité de Londres)"
         },
         "system": {
@@ -1283,7 +1283,7 @@
         "identity": {
             "officialName": "République d'Estonie",
             "capital": "Tallinn",
-            "economicCapital": "Tartu",
+            "economicCapital": "—",
             "independence": "24 février 1918 (Première République) ; 20 août 1991 (Restauration)"
         },
         "system": {
@@ -1337,7 +1337,7 @@
         "identity": {
             "officialName": "République de Lettonie",
             "capital": "Riga",
-            "economicCapital": "Daugavpils",
+            "economicCapital": "—",
             "independence": "18 novembre 1918 ; 4 mai 1990 (Restauration)"
         },
         "system": {
@@ -1391,7 +1391,7 @@
         "identity": {
             "officialName": "République de Lituanie",
             "capital": "Vilnius",
-            "economicCapital": "Kaunas",
+            "economicCapital": "—",
             "independence": "16 février 1918 ; 11 mars 1990 (Restauration)"
         },
         "system": {
@@ -1445,7 +1445,7 @@
         "identity": {
             "officialName": "République slovaque",
             "capital": "Bratislava",
-            "economicCapital": "Košice",
+            "economicCapital": "—",
             "independence": "28 octobre 1918 (Tchécoslovaquie) ; 1er janvier 1993 (indépendance pacifique)"
         },
         "system": {
@@ -1499,7 +1499,7 @@
         "identity": {
             "officialName": "République de Bulgarie",
             "capital": "Sofia",
-            "economicCapital": "Plovdiv",
+            "economicCapital": "—",
             "independence": "3 mars 1878 (San Stefano) ; 22 septembre 1908 (Indépendance complète)"
         },
         "system": {
@@ -1552,7 +1552,7 @@
         "identity": {
             "officialName": "République de Biélorussie (Bélarus)",
             "capital": "Minsk",
-            "economicCapital": "Gomel",
+            "economicCapital": "—",
             "independence": "25 août 1991 (dissolution de l'URSS)"
         },
         "system": {
@@ -1603,7 +1603,7 @@
         "identity": {
             "officialName": "République de Moldavie",
             "capital": "Chișinău",
-            "economicCapital": "Bălți",
+            "economicCapital": "—",
             "independence": "27 août 1991 (indépendance de l'URSS)"
         },
         "system": {
@@ -1654,7 +1654,7 @@
         "identity": {
             "officialName": "Islande",
             "capital": "Reykjavik",
-            "economicCapital": "Akureyri",
+            "economicCapital": "—",
             "independence": "1er décembre 1918 (Acte d'Union) ; 17 juin 1944 (République)"
         },
         "system": {
@@ -1707,7 +1707,7 @@
         "identity": {
             "officialName": "République de Croatie",
             "capital": "Zagreb",
-            "economicCapital": "Split",
+            "economicCapital": "—",
             "independence": "25 juin 1991 (proclamation) ; 8 octobre 1991 (rupture formelle)"
         },
         "system": {
@@ -1760,8 +1760,8 @@
         "identity": {
             "officialName": "République de Serbie",
             "capital": "Belgrade",
-            "economicCapital": "Novi Sad",
-            "independence": "1878 (Congrès de Berlin) ; 5 juin 2006 (Dissolution de l'Union)"
+            "economicCapital": "—",
+            "independence": "1878 (Congrès de Berlin) ; 5 juin 2006 (Dissolution de l'Union avec le Monténégro)"
         },
         "system": {
             "stateForm": "République",
@@ -1810,7 +1810,7 @@
         "identity": {
             "officialName": "République de Slovénie",
             "capital": "Ljubljana",
-            "economicCapital": "Maribor",
+            "economicCapital": "—",
             "independence": "25 juin 1991 (indépendance de la Yougoslavie)"
         },
         "system": {
@@ -1864,7 +1864,7 @@
         "identity": {
             "officialName": "Bosnie-Herzégovine",
             "capital": "Sarajevo",
-            "economicCapital": "Banja Luka",
+            "economicCapital": "—",
             "independence": "1er mars 1992 (référendum) ; 14 décembre 1995 (Accords de Dayton)"
         },
         "system": {
@@ -1913,7 +1913,7 @@
         "identity": {
             "officialName": "République d'Albanie",
             "capital": "Tirana",
-            "economicCapital": "Durrës",
+            "economicCapital": "—",
             "independence": "28 novembre 1912 (déclaration à Vlora)"
         },
         "system": {
@@ -1966,7 +1966,7 @@
         "identity": {
             "officialName": "République de Macédoine du Nord",
             "capital": "Skopje",
-            "economicCapital": "Bitola",
+            "economicCapital": "—",
             "independence": "8 septembre 1991 (indépendance de la Yougoslavie)"
         },
         "system": {
@@ -2018,7 +2018,7 @@
         "identity": {
             "officialName": "Monténégro",
             "capital": "Podgorica",
-            "economicCapital": "Bar",
+            "economicCapital": "—",
             "independence": "1878 (Congrès de Berlin) ; 3 juin 2006 (référendum d'indépendance)"
         },
         "system": {
@@ -2069,7 +2069,7 @@
         "identity": {
             "officialName": "République du Kosovo",
             "capital": "Pristina",
-            "economicCapital": "Prizren",
+            "economicCapital": "—",
             "independence": "17 février 2008 (Déclaration unilatérale d'indépendance)"
         },
         "system": {
@@ -2121,7 +2121,7 @@
         "identity": {
             "officialName": "République de Chypre",
             "capital": "Nicosie",
-            "economicCapital": "Limassol",
+            "economicCapital": "—",
             "independence": "16 août 1960 (du Royaume-Uni)"
         },
         "system": {
@@ -2172,7 +2172,7 @@
         "identity": {
             "officialName": "République de Malte",
             "capital": "La Valette",
-            "economicCapital": "Birkirkara",
+            "economicCapital": "—",
             "independence": "21 septembre 1964 (du Royaume-Uni) ; 13 décembre 1974 (République)"
         },
         "system": {
@@ -2224,7 +2224,7 @@
         "identity": {
             "officialName": "Principauté de Monaco",
             "capital": "Monaco",
-            "economicCapital": "Monte-Carlo",
+            "economicCapital": "—",
             "independence": "1297 (règne Grimaldi) ; 1861 (Traité franco-monégasque)"
         },
         "system": {
@@ -2275,7 +2275,7 @@
         "identity": {
             "officialName": "Principauté d'Andorre",
             "capital": "Andorre-la-Vieille",
-            "economicCapital": "Escaldes-Engordany",
+            "economicCapital": "—",
             "independence": "8 septembre 1278 (Traité de Paréage)"
         },
         "system": {
@@ -2326,7 +2326,7 @@
         "identity": {
             "officialName": "République de Saint-Marin",
             "capital": "Saint-Marin",
-            "economicCapital": "Serravalle",
+            "economicCapital": "—",
             "independence": "3 septembre 301 (fondation traditionnelle par saint Marin)"
         },
         "system": {
@@ -2376,7 +2376,7 @@
         "identity": {
             "officialName": "Principauté de Liechtenstein",
             "capital": "Vaduz",
-            "economicCapital": "Schaan",
+            "economicCapital": "—",
             "independence": "1719 (Création de la Principauté) ; 1806 (Dissolution du Saint-Empire)"
         },
         "system": {
