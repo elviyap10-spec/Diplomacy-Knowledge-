@@ -1,50 +1,1800 @@
-{
-    "USA": {
-        "identity": {
-            "officialName": "États-Unis d'Amérique",
-            "capital": "Washington, D.C.",
-            "economicCapital": "New York",
-            "independence": "4 juillet 1776"
-        },
-        "system": {
-            "stateForm": "République fédérale",
-            "regime": "Présidentiel",
-            "territorialOrganization": "État fédéral (50 États)",
-            "constitution": "Constitution de 1787 (en vigueur depuis 1789)"
-        },
-        "executive": {
-            "headOfState": "Président des États-Unis",
-            "headOfGovernment": "Président des États-Unis (cumul chef d'État et de gouvernement)",
-            "election": "Suffrage universel indirect (collège électoral)",
-            "mandate": "4 ans (renouvelable une fois)"
-        },
-        "legislative": {
-            "parliament": "Congrès des États-Unis",
-            "structure": "Bicaméral",
-            "lowerHouse": "Chambre des représentants",
-            "upperHouse": "Sénat"
-        },
-        "electoral": {
-            "votingAge": "18 ans",
-            "presidentialSystem": "Scrutin indirect (collège électoral)",
-            "legislativeSystem": "Scrutin majoritaire uninominal à un tour"
-        },
-        "judiciary": {
-            "constitutionalInstitution": "Cour suprême (contrôle de constitutionnalité diffus)",
-            "highestJudicialInstitution": "Cour suprême des États-Unis"
-        },
-        "territory": {
-            "type": "État fédéral",
-            "organization": "50 États fédérés, un district fédéral (Washington D.C.) et des territoires"
-        },
-        "foreignPolicy": {
-            "regionalOrganizations": [
-                "OTAN",
-                "Organisation des États américains"
-            ],
-            "internationalOrganizations": [
-                "Organisation des Nations unies"
-            ]
-        }
-    }
+﻿{
+    "USA":  {
+                "identity":  {
+                                 "officialName":  "États-Unis d\u0027Amérique",
+                                 "capital":  "Washington, D.C.",
+                                 "economicCapital":  "New York",
+                                 "independence":  "4 juillet 1776 (Déclaration d\u0027indépendance de la Grande-Bretagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République fédérale",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État fédéral (50 États)",
+                               "constitution":  "Constitution de 1787 (en vigueur depuis 1789)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président des États-Unis",
+                                  "headOfGovernment":  "Président des États-Unis (cumul chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel indirect (collège électoral des grands électeurs)",
+                                  "mandate":  "4 ans (renouvelable une fois - 22e amendement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès des États-Unis",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (435 sièges)",
+                                    "upperHouse":  "Sénat (100 sièges, 2 par État)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin indirect par grands électeurs (système majoritaire \u0027Winner-take-all\u0027)",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême des États-Unis (contrôle de constitutionnalité diffus, arrêt Marbury v. Madison)",
+                                  "highestJudicialInstitution":  "Cour suprême des États-Unis"
+                              },
+                "territory":  {
+                                  "type":  "État fédéral",
+                                  "organization":  "50 États fédérés souverains dans leurs domaines réservés, 1 district fédéral (Washington D.C.) et territoires insulaires"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "OTAN (membre fondateur et première puissance militaire)",
+                                                                    "Accord Canada-États-Unis-Mexique (ACEUM / CUSMA)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies (membre permanent CSNU)",
+                                                                         "G7",
+                                                                         "G20",
+                                                                         "OCDE",
+                                                                         "AUKUS",
+                                                                         "Quad"
+                                                                     ]
+                                  }
+            },
+    "CAN":  {
+                "identity":  {
+                                 "officialName":  "Canada",
+                                 "capital":  "Ottawa",
+                                 "economicCapital":  "Toronto",
+                                 "independence":  "1er juillet 1867 (Confédération) ; 17 avril 1982 (Rapatriement de la Constitution)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (fédéral, système de Westminster)",
+                               "territorialOrganization":  "État fédéral (10 provinces et 3 territoires)",
+                               "constitution":  "Lois constitutionnelles de 1867 et 1982 (avec Charte canadienne des droits et libertés)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque du Canada (représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre du Canada",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé par le Gouverneur général sur la base de la majorité aux Communes",
+                                  "mandate":  "5 ans max. (législature, conventionnellement 4 ans)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement du Canada",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des communes (House of Commons)",
+                                    "upperHouse":  "Sénat (membres nommés par le gouverneur général sur recommandation du Premier ministre)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême du Canada",
+                                  "highestJudicialInstitution":  "Cour suprême du Canada"
+                              },
+                "territory":  {
+                                  "type":  "État fédéral",
+                                  "organization":  "10 provinces autonomes dotées de leurs propres compétences exclusives et 3 territoires fédéraux du Nord"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "OTAN (membre fondateur)",
+                                                                    "Accord Canada-États-Unis-Mexique (ACEUM)",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "G7",
+                                                                         "G20",
+                                                                         "OCDE",
+                                                                         "Organisation internationale de la Francophonie"
+                                                                     ]
+                                  }
+            },
+    "MEX":  {
+                "identity":  {
+                                 "officialName":  "États-Unis mexicains",
+                                 "capital":  "Mexico",
+                                 "economicCapital":  "—",
+                                 "independence":  "16 septembre 1810 (Cri de Dolores) ; 27 septembre 1821 (reconnaissance de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République fédérale",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État fédéral (31 États et la capitale)",
+                               "constitution":  "Constitution politique des États-Unis mexicains du 5 février 1917"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président des États-Unis mexicains",
+                                  "headOfGovernment":  "Président des États-Unis mexicains (chef de l\u0027État et du gouvernement)",
+                                  "election":  "Suffrage universel direct uninominal à un tour (majorité simple)",
+                                  "mandate":  "6 ans (Sexenio, non renouvelable constitutionnellement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès de l\u0027Union (Congreso de la Unión)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des députés (Cámara de Diputados - 500 sièges)",
+                                    "upperHouse":  "Sénat de la République (Senado de la República - 128 sièges)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin uninominal majoritaire à un tour",
+                                  "legislativeSystem":  "Système mixte (300 sièges uninominaux majoritaires, 200 à la proportionnelle pour les députés)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de justice de la Nation (SCJN)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice de la Nation"
+                              },
+                "territory":  {
+                                  "type":  "État fédéral",
+                                  "organization":  "31 États libres et souverains dotés de gouverneurs et parlements propres, et la Ville de Mexico"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Accord Canada-États-Unis-Mexique (ACEUM)",
+                                                                    "Alliance du Pacifique",
+                                                                    "Communauté des États latino-américains et caribéens (CELAC)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "G20",
+                                                                         "OCDE"
+                                                                     ]
+                                  }
+            },
+    "BRA":  {
+                "identity":  {
+                                 "officialName":  "République fédérative du Brésil",
+                                 "capital":  "Brasília",
+                                 "economicCapital":  "São Paulo",
+                                 "independence":  "7 septembre 1822 (Cri d\u0027Ipiranga du Portugal) ; 15 novembre 1889 (Proclamation de la République)"
+                             },
+                "system":  {
+                               "stateForm":  "République fédérale",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État fédéral (26 États et un District fédéral)",
+                               "constitution":  "Constitution citoyenne du 5 octobre 1988"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République fédérative du Brésil",
+                                  "headOfGovernment":  "Président de la République (chef de l\u0027État et du gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "4 ans (renouvelable une fois consécutivement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès national (Congresso Nacional)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des députés (Câmara dos Deputados - 513 sièges)",
+                                    "upperHouse":  "Sénat fédéral (Senado Federal - 81 sièges, 3 par État)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (obligatoire de 18 à 70 ans ; facultatif pour 16-17 ans et plus de 70 ans)",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin proportionnel de liste ouverte (Chambre) et scrutin majoritaire (Sénat)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Tribunal suprême fédéral (Supremo Tribunal Federal - STF)",
+                                  "highestJudicialInstitution":  "Tribunal suprême fédéral et Supérieur Tribunal de justice (STJ)"
+                              },
+                "territory":  {
+                                  "type":  "État fédéral",
+                                  "organization":  "26 États fédérés, 1 District fédéral (Brasília) et plus de 5 570 municipalités autonomes"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Mercosur (Mercosul)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Communauté des États latino-américains et caribéens (CELAC)",
+                                                                    "Union des nations sud-américaines (UNASUR)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "BRICS+ (membre fondateur)",
+                                                                         "G20",
+                                                                         "Communauté des pays de langue portugaise (CPLP)"
+                                                                     ]
+                                  }
+            },
+    "ARG":  {
+                "identity":  {
+                                 "officialName":  "République argentine",
+                                 "capital":  "Buenos Aires",
+                                 "economicCapital":  "—",
+                                 "independence":  "9 juillet 1816 (Congrès de Tucumán de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République fédérale",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État fédéral (23 provinces et 1 ville autonome)",
+                               "constitution":  "Constitution de la Nation argentine de 1853 (révisée en 1994)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la Nation argentine",
+                                  "headOfGovernment":  "Président de la Nation argentine (assisté d\u0027un Chef de cabinet des ministres)",
+                                  "election":  "Suffrage universel direct à deux tours atténué (45% ou 40% avec 10 points d\u0027avance)",
+                                  "mandate":  "4 ans (renouvelable une fois consécutivement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès de la Nation argentine (Congreso de la Nación)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des députés de la Nation (257 sièges)",
+                                    "upperHouse":  "Sénat de la Nation (72 sénateurs, 3 par province)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (obligatoire de 18 à 70 ans ; facultatif pour 16-17 ans)",
+                                  "presidentialSystem":  "Ballottage qualifié (scrutin uninominal à deux tours atténué)",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal (députés, méthode D\u0027Hondt) et scrutin de liste incomplète (Sénat)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de justice de la Nation (Corte Suprema de Justicia de la Nación)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice de la Nation"
+                              },
+                "territory":  {
+                                  "type":  "État fédéral",
+                                  "organization":  "23 provinces autonomes conservant leurs compétences non déléguées et la Ville autonome de Buenos Aires (CABA)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Mercosur",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Communauté des États latino-américains et caribéens (CELAC)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "G20"
+                                                                     ]
+                                  }
+            },
+    "COL":  {
+                "identity":  {
+                                 "officialName":  "République de Colombie",
+                                 "capital":  "Bogota",
+                                 "economicCapital":  "—",
+                                 "independence":  "20 juillet 1810 (Cri d\u0027indépendance) ; 7 août 1819 (Bataille de Boyacá)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire décentralisé",
+                               "constitution":  "Constitution politique du 4 juillet 1991"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République de Colombie",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "4 ans (non renouvelable)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès de la République (Congreso de la República)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (Cámara de Representantes - 188 sièges)",
+                                    "upperHouse":  "Sénat de la République (Senado de la República - 108 sièges)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin proportionnel de liste dans des circonscriptions départementales (Chambre) et nationale (Sénat)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour constitutionnelle de Colombie (Corte Constitucional)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice (ordinaire) et Conseil d\u0027État (administratif)"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire",
+                                  "organization":  "32 départements décentralisés et un District capital (Bogota)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Communauté andine (CAN)",
+                                                                    "Alliance du Pacifique",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "OCDE",
+                                                                         "Partenaire mondial de l\u0027OTAN"
+                                                                     ]
+                                  }
+            },
+    "CHL":  {
+                "identity":  {
+                                 "officialName":  "République du Chili",
+                                 "capital":  "Santiago",
+                                 "economicCapital":  "—",
+                                 "independence":  "18 septembre 1810 (Première junte) ; 12 février 1818 (Proclamation d\u0027indépendance de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire décentralisé",
+                               "constitution":  "Constitution politique de 1980 (amendée en 1989 et 2005)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Chili",
+                                  "headOfGovernment":  "Président de la République (chef de l\u0027État et du gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "4 ans (non rééligible immédiatement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès national (Congreso Nacional, siégeant à Valparaíso)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des députés et députées (155 sièges)",
+                                    "upperHouse":  "Sénat de la République (50 sénateurs)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (vote obligatoire)",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal (système D\u0027Hondt dans 28 circonscriptions)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Tribunal constitutionnel du Chili",
+                                  "highestJudicialInstitution":  "Cour suprême du Chili"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire",
+                                  "organization":  "16 régions administratives réparties en provinces et communes (gouverneurs régionaux élus)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Alliance du Pacifique",
+                                                                    "CELAC",
+                                                                    "Membre associé du Mercosur"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "OCDE",
+                                                                         "APEC"
+                                                                     ]
+                                  }
+            },
+    "PER":  {
+                "identity":  {
+                                 "officialName":  "République du Pérou",
+                                 "capital":  "Lima",
+                                 "economicCapital":  "—",
+                                 "independence":  "28 juillet 1821 (Proclamation par José de San Martín)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Semi-présidentiel / Parlementaire-présidentiel",
+                               "territorialOrganization":  "État unitaire décentralisé",
+                               "constitution":  "Constitution politique du Pérou de 1993"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Pérou",
+                                  "headOfGovernment":  "Président du Conseil des ministres (Premier ministre)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "5 ans (non rééligible immédiatement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès de la République (Congreso de la República)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Congrès de la République (130 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (vote obligatoire jusqu\u0027à 70 ans)",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours (seuil de 50% des suffrages valides)",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal avec double vote préférentiel et seuil électoral de 5%"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Tribunal constitutionnel du Pérou",
+                                  "highestJudicialInstitution":  "Cour suprême de justice de la République"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire",
+                                  "organization":  "24 départements décentralisés, 1 province constitutionnelle (Callao) et la province autonome de Lima"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Communauté andine (CAN)",
+                                                                    "Alliance du Pacifique",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "APEC"
+                                                                     ]
+                                  }
+            },
+    "VEN":  {
+                "identity":  {
+                                 "officialName":  "République bolivarienne du Venezuela",
+                                 "capital":  "Caracas",
+                                 "economicCapital":  "—",
+                                 "independence":  "5 juillet 1811 (Déclaration) ; 24 juin 1821 (Bataille de Carabobo)"
+                             },
+                "system":  {
+                               "stateForm":  "République fédérale",
+                               "regime":  "Présidentiel fort (autoritaire)",
+                               "territorialOrganization":  "État fédéral (23 États et un District capital)",
+                               "constitution":  "Constitution bolivarienne de 1999"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République bolivarienne du Venezuela",
+                                  "headOfGovernment":  "Président de la République (assisté d\u0027un Vice-président exécutif)",
+                                  "election":  "Suffrage universel direct uninominal à un tour",
+                                  "mandate":  "6 ans (réélection indéfinie permise depuis l\u0027amendement de 2009)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (Asamblea Nacional)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale (277 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin uninominal majoritaire à un tour",
+                                  "legislativeSystem":  "Système parallèle (majoritaire de circonscription et proportionnel de liste)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Chambre constitutionnelle du Tribunal suprême de justice (TSJ)",
+                                  "highestJudicialInstitution":  "Tribunal suprême de justice"
+                              },
+                "territory":  {
+                                  "type":  "État fédéral",
+                                  "organization":  "23 États fédérés, 1 District capital (Caracas) et dépendances fédérales insulaires"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Alliance bolivarienne pour les peuples de notre Amérique (ALBA)",
+                                                                    "CELAC",
+                                                                    "Mercosur (suspendu)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "OPEP (membre fondateur)",
+                                                                         "Mouvement des non-alignés"
+                                                                     ]
+                                  }
+            },
+    "CUB":  {
+                "identity":  {
+                                 "officialName":  "République de Cuba",
+                                 "capital":  "La Havane",
+                                 "economicCapital":  "—",
+                                 "independence":  "10 octobre 1868 (début des luttes) ; 20 mai 1902 (fin de l\u0027administration américaine) ; 1959 (Révolution)"
+                             },
+                "system":  {
+                               "stateForm":  "République socialiste à parti unique",
+                               "regime":  "État socialiste dirigé par le Parti communiste de Cuba (PCC)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du 10 avril 2019"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République de Cuba",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Élu par l\u0027Assemblée nationale du pouvoir populaire",
+                                  "mandate":  "5 ans (limité à deux mandats consécutifs)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale du pouvoir populaire (Asamblea Nacional del Poder Popular)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale du pouvoir populaire (470 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "16 ans",
+                                  "presidentialSystem":  "Scrutin indirect par l\u0027Assemblée nationale",
+                                  "legislativeSystem":  "Suffrage universel sans compétition multipartite (candidatures approuvées soumises à plébiscite)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Assemblée nationale du pouvoir populaire",
+                                  "highestJudicialInstitution":  "Tribunal suprême populaire"
+                              },
+                "territory":  {
+                                  "type":  "État socialiste unitaire",
+                                  "organization":  "15 provinces et la municipalité spéciale de l\u0027Île de la Jeunesse"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Alliance bolivarienne pour les peuples de notre Amérique (ALBA)",
+                                                                    "CELAC",
+                                                                    "Association des États de la Caraïbe (AEC)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Mouvement des non-alignés",
+                                                                         "Groupe des 77"
+                                                                     ]
+                                  }
+            },
+    "ECU":  {
+                "identity":  {
+                                 "officialName":  "République de l\u0027Équateur",
+                                 "capital":  "Quito",
+                                 "economicCapital":  "Guayaquil",
+                                 "independence":  "10 août 1809 (Premier cri) ; 24 mai 1822 (Bataille de Pichincha de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire décentralisé",
+                               "constitution":  "Constitution de Montecristi du 20 octobre 2008"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République de l\u0027Équateur",
+                                  "headOfGovernment":  "Président de la République (chef de l\u0027État et du gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours (ou 40% avec 10 points d\u0027avance)",
+                                  "mandate":  "4 ans (renouvelable une fois)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (Asamblea Nacional)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale (137 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (obligatoire de 18 à 65 ans ; facultatif pour 16-17 ans)",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours qualifié",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal (méthode Webster) dans des circonscriptions provinciales et nationale"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour constitutionnelle de l\u0027Équateur (Corte Constitucional)",
+                                  "highestJudicialInstitution":  "Cour nationale de justice"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire",
+                                  "organization":  "24 provinces subdivisées en cantons et paroisses, incluant la province insulaire des Galápagos"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Communauté andine (CAN)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies"
+                                                                     ]
+                                  }
+            },
+    "BOL":  {
+                "identity":  {
+                                 "officialName":  "État plurinational de Bolivie",
+                                 "capital":  "Sucre (capitale constitutionnelle et judiciaire)",
+                                 "economicCapital":  "La Paz (siège du gouvernement et du parlement) / Santa Cruz de la Sierra",
+                                 "independence":  "6 août 1825 (Déclaration d\u0027indépendance de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel plurinational",
+                               "territorialOrganization":  "État unitaire décentralisé à autonomies régionales et indigènes",
+                               "constitution":  "Constitution politique de l\u0027État du 7 février 2009"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de l\u0027État plurinational de Bolivie",
+                                  "headOfGovernment":  "Président de l\u0027État (assisté du Vice-président)",
+                                  "election":  "Suffrage universel direct à deux tours (ou 40% avec 10 points d\u0027avance)",
+                                  "mandate":  "5 ans (renouvelable une fois de manière consécutive)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée législative plurinationale (Asamblea Legislativa Plurinacional)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des députés (Cámara de Diputados - 130 sièges)",
+                                    "upperHouse":  "Chambre des sénateurs (Cámara de Senadores - 36 sièges, 4 par département)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (vote obligatoire)",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours qualifié",
+                                  "legislativeSystem":  "Système mixte (députés) et proportionnel départemental (sénateurs)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Tribunal constitutionnel plurinational (juges élus au suffrage populaire direct)",
+                                  "highestJudicialInstitution":  "Tribunal suprême de justice"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire plurinational",
+                                  "organization":  "9 départements autonomes et territoires indigènes originaires paysans (TIOC)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Mercosur (adhésion formelle en 2024)",
+                                                                    "Communauté andine (CAN)",
+                                                                    "ALBA",
+                                                                    "CELAC",
+                                                                    "OEA"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Mouvement des non-alignés"
+                                                                     ]
+                                  }
+            },
+    "PRY":  {
+                "identity":  {
+                                 "officialName":  "République du Paraguay",
+                                 "capital":  "Asunción",
+                                 "economicCapital":  "—",
+                                 "independence":  "14-15 mai 1811 (Révolution de mai de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire décentralisé",
+                               "constitution":  "Constitution de la République du Paraguay du 20 juin 1992"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Paraguay",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct uninominal à un tour (majorité simple)",
+                                  "mandate":  "5 ans (non rééligible de façon absolue)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès national (Congreso Nacional)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des députés (Cámara de Diputados - 80 sièges)",
+                                    "upperHouse":  "Chambre des sénateurs (Cámara de Senadores - 45 sièges)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (vote obligatoire jusqu\u0027à 75 ans)",
+                                  "presidentialSystem":  "Scrutin uninominal majoritaire à un tour",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal (méthode D\u0027Hondt)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de justice (Salle constitutionnelle)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice du Paraguay"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire enclavé",
+                                  "organization":  "17 départements et la capitale Asunción (district de la capitale)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Mercosur (membre fondateur)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Seul pays d\u0027Amérique du Sud maintenant des relations diplomatiques officielles avec Taïwan (ROC)"
+                                                                     ]
+                                  }
+            },
+    "URY":  {
+                "identity":  {
+                                 "officialName":  "République orientale de l\u0027Uruguay",
+                                 "capital":  "Montevideo",
+                                 "economicCapital":  "—",
+                                 "independence":  "25 août 1825 (Déclaration) ; 1828 (Traité de paix préliminaire de Rio)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du 27 novembre 1966 (révisée en 1996)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République orientale de l\u0027Uruguay",
+                                  "headOfGovernment":  "Président de la République (chef de l\u0027État et du gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "5 ans (non rééligible consécutivement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée générale (Asamblea General)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (Cámara de Representantes - 99 sièges)",
+                                    "upperHouse":  "Chambre des sénateurs (Cámara de Senadores - 30 sénateurs + Vice-président)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (vote obligatoire)",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin proportionnel intégral (système D\u0027Hondt)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de justice de l\u0027Uruguay",
+                                  "highestJudicialInstitution":  "Cour suprême de justice"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire démocratique",
+                                  "organization":  "19 départements gouvernés par des intendants et assemblées départementales"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Mercosur (siège administratif à Montevideo)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Association latino-américaine d\u0027intégration (ALADI - siège)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "OCDE (centre de développement)"
+                                                                     ]
+                                  }
+            },
+    "PAN":  {
+                "identity":  {
+                                 "officialName":  "République du Panama",
+                                 "capital":  "Panama",
+                                 "economicCapital":  "—",
+                                 "independence":  "28 novembre 1821 (de l\u0027Espagne) ; 3 novembre 1903 (séparation de la Colombie)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution politique du 11 octobre 1972 (révisée en 2004)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Panama",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct uninominal à un tour (majorité simple)",
+                                  "mandate":  "5 ans (non rééligible consécutivement avant deux mandats)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (Asamblea Nacional)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale (71 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin uninominal majoritaire à un tour",
+                                  "legislativeSystem":  "Système mixte (uninominal majoritaire et proportionnel de circuit)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de justice du Panama (Plénum)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice"
+                              },
+                "territory":  {
+                                  "type":  "État isthmique stratégique (contrôle du canal de Panama)",
+                                  "organization":  "10 provinces et 6 comarcas indigènes autonomes"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Premier registre mondial de pavillon de complaisance maritime"
+                                                                     ]
+                                  }
+            },
+    "CRI":  {
+                "identity":  {
+                                 "officialName":  "République du Costa Rica",
+                                 "capital":  "San José",
+                                 "economicCapital":  "—",
+                                 "independence":  "15 septembre 1821 (de l\u0027Espagne) ; 1838 (fin de la République fédérale d\u0027Amérique centrale)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution politique du 7 novembre 1949"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Costa Rica",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours (seuil de 40% au premier tour)",
+                                  "mandate":  "4 ans (non rééligible consécutivement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée législative (Asamblea Legislativa)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée législative (57 députés)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours qualifié (seuil de 40%)",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal dans 7 circonscriptions provinciales"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Chambre constitutionnelle de la Cour suprême (Sala IV)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice du Costa Rica"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire démocratique démilitarisé (armée abolie constitutionnellement en 1948)",
+                                  "organization":  "7 provinces subdivisées en 84 cantons"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA - siège de la Cour interaméricaine des droits de l\u0027homme)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "OCDE (adhésion en 2021)"
+                                                                     ]
+                                  }
+            },
+    "GTM":  {
+                "identity":  {
+                                 "officialName":  "République du Guatemala",
+                                 "capital":  "Guatemala",
+                                 "economicCapital":  "—",
+                                 "independence":  "15 septembre 1821 (de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution politique de la République du 31 mai 1985"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Guatemala",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "4 ans (non renouvelable constitutionnellement)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès de la République (Congreso de la República)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Congrès de la République (160 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal (méthode D\u0027Hondt)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour de constitutionnalité du Guatemala (Corte de Constitucionalidad)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire",
+                                  "organization":  "22 départements administrés par des gouverneurs nommés et 340 municipalités autonomes"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA - Parlement centraméricain PARLACEN à Guatemala)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Maintient des relations diplomatiques officielles avec Taïwan (ROC)"
+                                                                     ]
+                                  }
+            },
+    "HND":  {
+                "identity":  {
+                                 "officialName":  "République du Honduras",
+                                 "capital":  "Tegucigalpa",
+                                 "economicCapital":  "—",
+                                 "independence":  "15 septembre 1821 (de l\u0027Espagne) ; 1838 (séparation fédérale)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du 11 janvier 1982"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Honduras",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct uninominal à un tour (majorité simple)",
+                                  "mandate":  "4 ans"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès national (Congreso Nacional)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Congrès national (128 députés)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin uninominal majoritaire à un tour",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal dans 18 départements"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Chambre constitutionnelle de la Cour suprême",
+                                  "highestJudicialInstitution":  "Cour suprême de justice du Honduras"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire",
+                                  "organization":  "18 départements et 298 municipalités"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA)",
+                                                                    "CELAC",
+                                                                    "Banque centraméricaine d\u0027intégration économique (BCIE - siège)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies"
+                                                                     ]
+                                  }
+            },
+    "SLV":  {
+                "identity":  {
+                                 "officialName":  "République du Salvador (El Salvador)",
+                                 "capital":  "San Salvador",
+                                 "economicCapital":  "—",
+                                 "independence":  "15 septembre 1821 (de l\u0027Espagne) ; 1841 (fin de l\u0027union fédérale)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du 15 décembre 1983"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Salvador",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "5 ans"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée législative (Asamblea Legislativa)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée législative (60 députés)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal (méthode D\u0027Hondt)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Chambre constitutionnelle de la Cour suprême (Sala de lo Constitucional)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice du Salvador"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire",
+                                  "organization":  "14 départements réorganisés en 44 municipalités (réforme territoriale de 2023)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA - siège du Secrétariat général à San Salvador)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Premier pays au monde à avoir adopté le Bitcoin comme monnaie légale (2021)"
+                                                                     ]
+                                  }
+            },
+    "NIC":  {
+                "identity":  {
+                                 "officialName":  "République du Nicaragua",
+                                 "capital":  "Managua",
+                                 "economicCapital":  "—",
+                                 "independence":  "15 septembre 1821 (de l\u0027Espagne) ; 1838 (indépendance complète)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel fort (autoritaire)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution politique du 9 janvier 1987 (amendée en 2014)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Nicaragua",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct uninominal à un tour (majorité simple)",
+                                  "mandate":  "5 ans (réélection indéfinie)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (Asamblea Nacional)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale (91 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "16 ans",
+                                  "presidentialSystem":  "Scrutin uninominal majoritaire à un tour",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal de circonscription et national"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Chambre constitutionnelle de la Cour suprême",
+                                  "highestJudicialInstitution":  "Cour suprême de justice du Nicaragua"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire avec régions autonomes",
+                                  "organization":  "15 départements et 2 régions autonomes de la côte caraïbe (RACCN et RACCS)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Alliance bolivarienne pour les peuples de notre Amérique (ALBA)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA)",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies"
+                                                                     ]
+                                  }
+            },
+    "BLZ":  {
+                "identity":  {
+                                 "officialName":  "Belize",
+                                 "capital":  "Belmopan",
+                                 "economicCapital":  "Belize City",
+                                 "independence":  "21 septembre 1981 (du Royaume-Uni - ancien Honduras britannique)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (système de Westminster)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du Belize du 21 septembre 1981"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque du Belize (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé par le Gouverneur général d\u0027après la majorité parlementaire",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (National Assembly)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (House of Representatives - 31 députés)",
+                                    "upperHouse":  "Sénat (13 sénateurs nommés)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour caribéenne de justice (CCJ - juridiction finale d\u0027appel)",
+                                  "highestJudicialInstitution":  "Cour suprême du Belize et Cour caribéenne de justice"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire côtier anglophone",
+                                  "organization":  "6 districts administratifs"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Maintient des relations diplomatiques avec Taïwan (ROC)"
+                                                                     ]
+                                  }
+            },
+    "DOM":  {
+                "identity":  {
+                                 "officialName":  "République dominicaine",
+                                 "capital":  "Saint-Domingue",
+                                 "economicCapital":  "—",
+                                 "independence":  "27 février 1844 (d\u0027Haïti) ; 16 août 1865 (Restauration de l\u0027Espagne)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du 26 janvier 2010 (révisée en 2015)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République dominicaine",
+                                  "headOfGovernment":  "Président de la République (chef d\u0027État et de gouvernement)",
+                                  "election":  "Suffrage universel direct à deux tours",
+                                  "mandate":  "4 ans (renouvelable une fois de manière consécutive)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Congrès national (Congreso Nacional)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des députés (Cámara de Diputados - 190 sièges)",
+                                    "upperHouse":  "Sénat de la République (Senado de la República - 32 sénateurs)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans (ou marié sans condition d\u0027âge)",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal (députés, méthode D\u0027Hondt) et uninominal majoritaire (Sénat)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Tribunal constitutionnel de la République dominicaine",
+                                  "highestJudicialInstitution":  "Cour suprême de justice"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire caribéen (partage l\u0027île d\u0027Hispaniola avec Haïti)",
+                                  "organization":  "31 provinces et le District national (Saint-Domingue)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Système d\u0027intégration centraméricaine (SICA - membre associé)",
+                                                                    "CARIFORUM",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Organisation internationale de la Francophonie (observateur)"
+                                                                     ]
+                                  }
+            },
+    "HTI":  {
+                "identity":  {
+                                 "officialName":  "République d\u0027Haïti",
+                                 "capital":  "Port-au-Prince",
+                                 "economicCapital":  "—",
+                                 "independence":  "1er janvier 1804 (Première république noire au monde, indépendance de la France)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Semi-présidentiel (régime d\u0027exception / transition)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du 29 mars 1987 (amendée en 2012)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République (actuellement Conseil présidentiel de transition)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Suffrage universel direct à deux tours (président) ; nommé par le président et ratifié par le Parlement",
+                                  "mandate":  "5 ans"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement haïtien",
+                                    "structure":  "Bicaméral (actuellement caduc/en transition)",
+                                    "lowerHouse":  "Chambre des députés",
+                                    "upperHouse":  "Sénat de la République"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin majoritaire à deux tours",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à deux tours"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour de cassation d\u0027Haïti (contrôle de constitutionnalité par voie d\u0027exception)",
+                                  "highestJudicialInstitution":  "Cour de cassation"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire caribéen",
+                                  "organization":  "10 départements subdivisés en arrondissements et communes"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "Association des États de la Caraïbe (AEC)"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies (membre fondateur)",
+                                                                         "Organisation internationale de la Francophonie (membre de plein droit)",
+                                                                         "Maintient des relations diplomatiques officielles avec Taïwan (ROC)"
+                                                                     ]
+                                  }
+            },
+    "JAM":  {
+                "identity":  {
+                                 "officialName":  "Jamaïque",
+                                 "capital":  "Kingston",
+                                 "economicCapital":  "—",
+                                 "independence":  "6 août 1962 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (système de Westminster)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution de la Jamaïque du 6 août 1962"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque de Jamaïque (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé par le Gouverneur général selon la majorité à la Chambre",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement de Jamaïque",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (House of Representatives - 63 sièges)",
+                                    "upperHouse":  "Sénat (21 sénateurs nommés : 13 par le Premier ministre, 8 par le chef de l\u0027opposition)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Comité judiciaire du Conseil privé (Londres - JCPC) / Cour d\u0027appel de Jamaïque",
+                                  "highestJudicialInstitution":  "Cour d\u0027appel et Comité judiciaire du Conseil privé de Sa Majesté"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen",
+                                  "organization":  "14 paroisses (parishes) réparties en 3 comtés historiques"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies (siège de l\u0027Autorité internationale des fonds marins à Kingston)"
+                                                                     ]
+                                  }
+            },
+    "TTO":  {
+                "identity":  {
+                                 "officialName":  "République de Trinité-et-Tobago",
+                                 "capital":  "Port-d\u0027Espagne",
+                                 "economicCapital":  "—",
+                                 "independence":  "31 août 1962 (du Royaume-Uni) ; 1er août 1976 (proclamation de la République)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Parlementaire",
+                               "territorialOrganization":  "État unitaire avec assemblée autonome à Tobago",
+                               "constitution":  "Constitution de la République du 1er août 1976"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de Trinité-et-Tobago",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Élu par un collège électoral parlementaire (président) ; nommé d\u0027après la majorité parlementaire",
+                                  "mandate":  "5 ans"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement de Trinité-et-Tobago",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (41 sièges)",
+                                    "upperHouse":  "Sénat (31 sénateurs nommés : 16 gouvernement, 6 opposition, 9 indépendants)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour caribéenne de justice (CCJ - siège à Port-d\u0027Espagne)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice et Comité judiciaire du Conseil privé"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen industrialisé (hydrocarbures et gaz naturel liquéfié)",
+                                  "organization":  "9 régions corporatives, 5 municipalités sur Trinité et l\u0027Assemblée autonome de Tobago (THA)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies"
+                                                                     ]
+                                  }
+            },
+    "BHS":  {
+                "identity":  {
+                                 "officialName":  "Commonwealth des Bahamas",
+                                 "capital":  "Nassau",
+                                 "economicCapital":  "—",
+                                 "independence":  "10 juillet 1973 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (système de Westminster)",
+                               "territorialOrganization":  "État unitaire archipélagique",
+                               "constitution":  "Constitution du Commonwealth des Bahamas du 10 juillet 1973"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque des Bahamas (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé par le Gouverneur général selon la majorité parlementaire",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement des Bahamas",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre d\u0027assemblée (House of Assembly - 39 sièges)",
+                                    "upperHouse":  "Sénat (16 membres nommés)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour d\u0027appel des Bahamas / Comité judiciaire du Conseil privé (Londres)",
+                                  "highestJudicialInstitution":  "Cour suprême et Comité judiciaire du Conseil privé"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire atlantique (archipel de plus de 700 îles et îlots)",
+                                  "organization":  "32 districts de gouvernement local (Out Islands) et New Providence administrée centralement"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Place financière internationale majeure"
+                                                                     ]
+                                  }
+            },
+    "BRB":  {
+                "identity":  {
+                                 "officialName":  "Barbade",
+                                 "capital":  "Bridgetown",
+                                 "economicCapital":  "—",
+                                 "independence":  "30 novembre 1966 (du Royaume-Uni) ; 30 novembre 2021 (transition républicaine)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Parlementaire",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution de la Barbade de 1966 (modifiée en 2021)"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la Barbade",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Élu par les deux chambres du Parlement réunies (président) ; nommé selon la majorité aux Communes",
+                                  "mandate":  "4 ans (président) ; 5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement de la Barbade (fondé en 1639)",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre d\u0027assemblée (House of Assembly - 30 sièges)",
+                                    "upperHouse":  "Sénat (21 sénateurs nommés)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour caribéenne de justice (CCJ - cour suprême de dernier ressort)",
+                                  "highestJudicialInstitution":  "Cour caribéenne de justice"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen",
+                                  "organization":  "11 paroisses (parishes)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Leader de l\u0027Initiative de Bridgetown pour la réforme de la finance climatique mondiale"
+                                                                     ]
+                                  }
+            },
+    "GUY":  {
+                "identity":  {
+                                 "officialName":  "République coopérative de Guyana",
+                                 "capital":  "Georgetown",
+                                 "economicCapital":  "—",
+                                 "independence":  "26 mai 1966 (du Royaume-Uni) ; 23 février 1970 (République coopérative)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel à investiture parlementaire",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution du 6 octobre 1980"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République coopérative de Guyana",
+                                  "headOfGovernment":  "Président de la République (assisté du Premier ministre)",
+                                  "election":  "Le candidat à la présidence de la liste ayant obtenu le plus grand nombre de voix aux législatives devient président",
+                                  "mandate":  "5 ans"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (National Assembly)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale (65 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Élection conjointe liée au scrutin législatif",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal dans 10 circonscriptions régionales et 1 liste nationale"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour caribéenne de justice (CCJ)",
+                                  "highestJudicialInstitution":  "Cour suprême de Guyana et Cour caribéenne de justice"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire sud-américain anglophone (boom pétrolier offshore majeur, différend avec le Venezuela sur l\u0027Essequibo)",
+                                  "organization":  "10 régions administratives"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM - siège du Secrétariat général à Georgetown)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Commonwealth of Nations",
+                                                                    "CELAC",
+                                                                    "UNASUR"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Mouvement des non-alignés",
+                                                                         "Organisation de la coopération islamique (OCI)"
+                                                                     ]
+                                  }
+            },
+    "SUR":  {
+                "identity":  {
+                                 "officialName":  "République du Suriname",
+                                 "capital":  "Paramaribo",
+                                 "economicCapital":  "—",
+                                 "independence":  "25 novembre 1975 (du Royaume des Pays-Bas)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Présidentiel à élection parlementaire",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution de la République du Suriname du 30 septembre 1987"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la République du Suriname",
+                                  "headOfGovernment":  "Président de la République (assisté du Vice-président)",
+                                  "election":  "Élu par l\u0027Assemblée nationale à la majorité qualifiée des deux tiers (ou par l\u0027Assemblée populaire unie)",
+                                  "mandate":  "5 ans"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (De Nationale Assemblée - DNA)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale (51 sièges)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "Scrutin indirect parlementaire à majorité qualifiée",
+                                  "legislativeSystem":  "Scrutin proportionnel plurinominal dans 10 circonscriptions de district"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour constitutionnelle du Suriname (installée en 2020)",
+                                  "highestJudicialInstitution":  "Cour suprême de justice (Hof van Justitie)"
+                              },
+                "territory":  {
+                                  "type":  "État unitaire néerlandophone d\u0027Amérique du Sud (couverture forestière amazonienne supérieure à 90%)",
+                                  "organization":  "10 districts administratifs"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "UNASUR"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Organisation de la coopération islamique (OCI)",
+                                                                         "Union de la langue néerlandaise"
+                                                                     ]
+                                  }
+            },
+    "LCA":  {
+                "identity":  {
+                                 "officialName":  "Sainte-Lucie",
+                                 "capital":  "Castries",
+                                 "economicCapital":  "—",
+                                 "independence":  "22 février 1979 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (système de Westminster)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution de Sainte-Lucie de 1979"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque de Sainte-Lucie (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé par le Gouverneur général selon la majorité à l\u0027Assemblée",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement de Sainte-Lucie",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Assemblée législative (House of Assembly - 17 députés élus)",
+                                    "upperHouse":  "Sénat (11 sénateurs nommés)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de la Caraïbe orientale (OECS - siège à Castries)",
+                                  "highestJudicialInstitution":  "Cour d\u0027appel de la Caraïbe orientale et Comité judiciaire du Conseil privé"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen",
+                                  "organization":  "10 districts administratifs"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États de la Caraïbe orientale (OECO - siège à Castries)",
+                                                                    "Communauté caribéenne (CARICOM)",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "Commonwealth of Nations",
+                                                                    "CELAC"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Organisation internationale de la Francophonie (membre associé)",
+                                                                         "Maintient des relations diplomatiques avec Taïwan (ROC)"
+                                                                     ]
+                                  }
+            },
+    "VCT":  {
+                "identity":  {
+                                 "officialName":  "Saint-Vincent-et-les-Grenadines",
+                                 "capital":  "Kingstown",
+                                 "economicCapital":  "—",
+                                 "independence":  "27 octobre 1979 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (système de Westminster)",
+                               "territorialOrganization":  "État unitaire archipélagique",
+                               "constitution":  "Constitution de 1979"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque de Saint-Vincent-et-les-Grenadines (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé selon la majorité parlementaire",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Chambre d\u0027assemblée (House of Assembly)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Chambre d\u0027assemblée (15 représentants élus et 6 sénateurs nommés)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de la Caraïbe orientale",
+                                  "highestJudicialInstitution":  "Cour suprême de la Caraïbe orientale et Comité judiciaire du Conseil privé (Londres)"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen (île principale Saint-Vincent et 32 îles des Grenadines)",
+                                  "organization":  "6 paroisses"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États de la Caraïbe orientale (OECO)",
+                                                                    "CARICOM",
+                                                                    "ALBA",
+                                                                    "CELAC",
+                                                                    "Commonwealth of Nations",
+                                                                    "OEA"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies (membre non permanent CSNU en 2020-2021, plus petit État à y siéger)",
+                                                                         "Maintient des relations diplomatiques officielles avec Taïwan (ROC)"
+                                                                     ]
+                                  }
+            },
+    "GRD":  {
+                "identity":  {
+                                 "officialName":  "Grenade",
+                                 "capital":  "Saint-Georges",
+                                 "economicCapital":  "—",
+                                 "independence":  "7 février 1974 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (système de Westminster)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution de la Grenade de 1973"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque de la Grenade (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé selon la majorité aux Communes",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement de la Grenade",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (15 députés élus)",
+                                    "upperHouse":  "Sénat (13 sénateurs nommés)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de la Caraïbe orientale",
+                                  "highestJudicialInstitution":  "Cour suprême de la Caraïbe orientale et Comité judiciaire du Conseil privé"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen (surnommé \u0027l\u0027île aux épices\u0027)",
+                                  "organization":  "6 paroisses sur Grenade et la dépendance insulaire de Carriacou et Petite Martinique"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États de la Caraïbe orientale (OECO)",
+                                                                    "CARICOM",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "ALBA",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies"
+                                                                     ]
+                                  }
+            },
+    "ATG":  {
+                "identity":  {
+                                 "officialName":  "Antigua-et-Barbuda",
+                                 "capital":  "Saint John\u0027s",
+                                 "economicCapital":  "—",
+                                 "independence":  "1er novembre 1981 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle",
+                               "regime":  "Parlementaire (système de Westminster)",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution d\u0027Antigua-et-Barbuda de 1981"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque d\u0027Antigua-et-Barbuda (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé d\u0027après la majorité à la Chambre",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Parlement d\u0027Antigua-et-Barbuda",
+                                    "structure":  "Bicaméral",
+                                    "lowerHouse":  "Chambre des représentants (17 députés élus)",
+                                    "upperHouse":  "Sénat (17 sénateurs nommés)"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de la Caraïbe orientale",
+                                  "highestJudicialInstitution":  "Cour suprême de la Caraïbe orientale et Comité judiciaire du Conseil privé"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen",
+                                  "organization":  "6 paroisses sur Antigua et 2 dépendances (Barbuda et Redonda)"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États de la Caraïbe orientale (OECO)",
+                                                                    "CARICOM",
+                                                                    "OEA",
+                                                                    "CELAC",
+                                                                    "ALBA",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Alliance des petits États insulaires (AOSIS)"
+                                                                     ]
+                                  }
+            },
+    "DMA":  {
+                "identity":  {
+                                 "officialName":  "Commonwealth de Dominique",
+                                 "capital":  "Roseau",
+                                 "economicCapital":  "—",
+                                 "independence":  "3 novembre 1978 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "République",
+                               "regime":  "Parlementaire",
+                               "territorialOrganization":  "État unitaire",
+                               "constitution":  "Constitution de 1978"
+                           },
+                "executive":  {
+                                  "headOfState":  "Président de la Dominique",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Élu par l\u0027Assemblée de la Dominique (président) ; nommé selon la majorité parlementaire",
+                                  "mandate":  "5 ans"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée de la Dominique (House of Assembly)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée de la Dominique (21 députés élus et 9 sénateurs nommés)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour caribéenne de justice (CCJ - juridiction finale d\u0027appel adoptée en 2015)",
+                                  "highestJudicialInstitution":  "Cour suprême de la Caraïbe orientale et Cour caribéenne de justice"
+                              },
+                "territory":  {
+                                  "type":  "État insulaire caribéen (surnommé \u0027l\u0027île nature\u0027)",
+                                  "organization":  "10 paroisses et le territoire autonome caraïbe Kalinago"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États de la Caraïbe orientale (OECO)",
+                                                                    "CARICOM",
+                                                                    "ALBA",
+                                                                    "OEA",
+                                                                    "CELAC",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Organisation internationale de la Francophonie (membre de plein droit)"
+                                                                     ]
+                                  }
+            },
+    "KNA":  {
+                "identity":  {
+                                 "officialName":  "Fédération de Saint-Christophe-et-Niévès (Saint Kitts and Nevis)",
+                                 "capital":  "Basseterre",
+                                 "economicCapital":  "—",
+                                 "independence":  "19 septembre 1983 (du Royaume-Uni)"
+                             },
+                "system":  {
+                               "stateForm":  "Monarchie constitutionnelle (Fédération)",
+                               "regime":  "Parlementaire fédéral",
+                               "territorialOrganization":  "État fédéral (2 îles avec autonomie constitutionnelle de Niévès)",
+                               "constitution":  "Constitution de 1983"
+                           },
+                "executive":  {
+                                  "headOfState":  "Monarque de Saint-Christophe-et-Niévès (Roi, représenté par le Gouverneur général)",
+                                  "headOfGovernment":  "Premier ministre",
+                                  "election":  "Succession héréditaire (Monarque) ; nommé d\u0027après la majorité parlementaire",
+                                  "mandate":  "5 ans (législature)"
+                              },
+                "legislative":  {
+                                    "parliament":  "Assemblée nationale (National Assembly)",
+                                    "structure":  "Monocaméral",
+                                    "lowerHouse":  "Assemblée nationale (11 représentants élus et 3 sénateurs nommés)",
+                                    "upperHouse":  "—"
+                                },
+                "electoral":  {
+                                  "votingAge":  "18 ans",
+                                  "presidentialSystem":  "—",
+                                  "legislativeSystem":  "Scrutin uninominal majoritaire à un tour (8 sièges à Saint-Kitts, 3 à Niévès)"
+                              },
+                "judiciary":  {
+                                  "constitutionalInstitution":  "Cour suprême de la Caraïbe orientale",
+                                  "highestJudicialInstitution":  "Cour suprême de la Caraïbe orientale et Comité judiciaire du Conseil privé (Londres)"
+                              },
+                "territory":  {
+                                  "type":  "Plus petit État souverain d\u0027Amérique en superficie (261 km²) et population",
+                                  "organization":  "14 paroisses (9 sur Saint-Kitts, 5 sur Niévès) et Assemblée insulaire autonome de Niévès"
+                              },
+                "foreignPolicy":  {
+                                      "regionalOrganizations":  [
+                                                                    "Organisation des États de la Caraïbe orientale (OECO)",
+                                                                    "CARICOM",
+                                                                    "Organisation des États américains (OEA)",
+                                                                    "CELAC",
+                                                                    "Commonwealth of Nations"
+                                                                ],
+                                      "internationalOrganizations":  [
+                                                                         "Organisation des Nations unies",
+                                                                         "Maintient des relations diplomatiques officielles avec Taïwan (ROC)"
+                                                                     ]
+                                  }
+            }
 }
