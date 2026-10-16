@@ -3,7 +3,7 @@
                 "identity":  {
                                  "officialName":  "États-Unis d\u0027Amérique",
                                  "capital":  "Washington, D.C.",
-                                 "economicCapital":  "New York",
+                                 "economicCapital":  "—",
                                  "independence":  "4 juillet 1776 (Déclaration d\u0027indépendance de la Grande-Bretagne)"
                              },
                 "system":  {
@@ -57,7 +57,7 @@
                 "identity":  {
                                  "officialName":  "Canada",
                                  "capital":  "Ottawa",
-                                 "economicCapital":  "Toronto",
+                                 "economicCapital":  "—",
                                  "independence":  "1er juillet 1867 (Confédération) ; 17 avril 1982 (Rapatriement de la Constitution)"
                              },
                 "system":  {
@@ -163,7 +163,7 @@
                 "identity":  {
                                  "officialName":  "République fédérative du Brésil",
                                  "capital":  "Brasília",
-                                 "economicCapital":  "São Paulo",
+                                 "economicCapital":  "—",
                                  "independence":  "7 septembre 1822 (Cri d\u0027Ipiranga du Portugal) ; 15 novembre 1889 (Proclamation de la République)"
                              },
                 "system":  {
@@ -317,7 +317,7 @@
     "CHL":  {
                 "identity":  {
                                  "officialName":  "République du Chili",
-                                 "capital":  "Santiago",
+                                 "capital":  "Santiago (siège du gouvernement) ; Valparaíso (siège du Congrès national)",
                                  "economicCapital":  "—",
                                  "independence":  "18 septembre 1810 (Première junte) ; 12 février 1818 (Proclamation d\u0027indépendance de l\u0027Espagne)"
                              },
@@ -523,7 +523,7 @@
                 "identity":  {
                                  "officialName":  "République de l\u0027Équateur",
                                  "capital":  "Quito",
-                                 "economicCapital":  "Guayaquil",
+                                 "economicCapital":  "—",
                                  "independence":  "10 août 1809 (Premier cri) ; 24 mai 1822 (Bataille de Pichincha de l\u0027Espagne)"
                              },
                 "system":  {
@@ -571,8 +571,8 @@
     "BOL":  {
                 "identity":  {
                                  "officialName":  "État plurinational de Bolivie",
-                                 "capital":  "Sucre (capitale constitutionnelle et judiciaire)",
-                                 "economicCapital":  "La Paz (siège du gouvernement et du parlement) / Santa Cruz de la Sierra",
+                                 "capital":  "Sucre (capitale constitutionnelle) ; La Paz (siège du gouvernement et du parlement)",
+                                 "economicCapital":  "—",
                                  "independence":  "6 août 1825 (Déclaration d\u0027indépendance de l\u0027Espagne)"
                              },
                 "system":  {
@@ -1024,7 +1024,7 @@
                 "identity":  {
                                  "officialName":  "Belize",
                                  "capital":  "Belmopan",
-                                 "economicCapital":  "Belize City",
+                                 "economicCapital":  "—",
                                  "independence":  "21 septembre 1981 (du Royaume-Uni - ancien Honduras britannique)"
                              },
                 "system":  {
