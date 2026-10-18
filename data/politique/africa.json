@@ -2,44 +2,2849 @@
     "CIV": {
         "identity": {
             "officialName": "République de Côte d'Ivoire",
-            "capital": "Yamoussoukro",
-            "economicCapital": "Abidjan",
-            "independence": "7 août 1960"
+            "capital": "Yamoussoukro (capitale politique et administrative)",
+            "economicCapital": "Abidjan (capitale économique, financière et siège de fait des institutions)",
+            "independence": "7 août 1960 (de la France)"
         },
         "system": {
             "stateForm": "République",
             "regime": "Présidentiel",
             "territorialOrganization": "État unitaire décentralisé",
-            "constitution": "Constitution de 2016"
+            "constitution": "Constitution de la IIIe République du 8 novembre 2016"
         },
         "executive": {
-            "headOfState": "Président de la République",
-            "headOfGovernment": "Premier ministre",
-            "election": "Suffrage universel direct",
-            "mandate": "5 ans"
+            "headOfState": "Président de la République de Côte d'Ivoire",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (renouvelable une fois)"
         },
         "legislative": {
             "parliament": "Parlement de Côte d'Ivoire",
             "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (255 députés)",
+            "upperHouse": "Sénat (99 sénateurs : deux tiers élus au suffrage indirect, un tiers nommé par le président)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin majoritaire à un tour (uninominal ou de liste bloquée selon les circonscriptions)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour de cassation et Conseil d'État"
+        },
+        "territory": {
+            "type": "État unitaire d'Afrique de l'Ouest (premier producteur mondial de cacao)",
+            "organization": "12 districts et 2 districts autonomes (Abidjan et Yamoussoukro), subdivisés en 31 régions et communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "UEMOA (siège de la Bourse Régionale des Valeurs Mobilières - BRVM à Abidjan)",
+                "Conseil de l'Entente"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)",
+                "Banque africaine de développement (BAD - siège à Abidjan)"
+            ]
+        }
+    },
+    "DZA": {
+        "identity": {
+            "officialName": "République algérienne démocratique et populaire",
+            "capital": "Alger",
+            "economicCapital": "—",
+            "independence": "5 juillet 1962 (de la France, Accords d'Évian)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel à forte prépondérance présidentielle",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 1er novembre 2020"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (ou Chef du gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (renouvelable une fois consécutivement)"
+        },
+        "legislative": {
+            "parliament": "Parlement algérien",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée populaire nationale (APN - 407 députés)",
+            "upperHouse": "Conseil de la nation (174 membres : deux tiers élus au suffrage indirect, un tiers nommé par le président)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal au plus fort reste avec vote préférentiel et seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême et Conseil d'État"
+        },
+        "territory": {
+            "type": "Plus vaste État d'Afrique et du bassin méditerranéen en superficie",
+            "organization": "58 wilayas subdivisées en daïras et communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (membre fondateur)",
+                "Ligue des États arabes",
+                "Union du Maghreb arabe (UMA)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OPEP (membre historique)",
+                "Mouvement des non-alignés",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "AGO": {
+        "identity": {
+            "officialName": "République d'Angola",
+            "capital": "Luanda",
+            "economicCapital": "—",
+            "independence": "11 novembre 1975 (du Portugal)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 21 janvier 2010"
+        },
+        "executive": {
+            "headOfState": "Président de la République d'Angola",
+            "headOfGovernment": "Président de la République (cumule les fonctions de chef de l'État et du gouvernement, assisté d'un Vice-président)",
+            "election": "Tête de liste du parti ayant obtenu le plus de voix aux élections législatives nationales",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (220 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte automatique via les élections législatives",
+            "legislativeSystem": "Scrutin proportionnel de liste à la plus forte moyenne (méthode d'Hondt : 130 au niveau national et 90 dans 18 circonscriptions provinciales)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État d'Afrique australe riverain de l'Atlantique (avec l'enclave pétrolière de Cabinda)",
+            "organization": "18 provinces (projet de réforme à 21 provinces), municipalités et communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC (Communauté de développement d'Afrique australe)",
+                "CEEAC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Communauté des pays de langue portugaise (CPLP)",
+                "OPEP (retrait fin 2023 pour préserver ses quotas d'extraction)"
+            ]
+        }
+    },
+    "BEN": {
+        "identity": {
+            "officialName": "République du Bénin",
+            "capital": "Porto-Novo (capitale constitutionnelle et officielle)",
+            "economicCapital": "Cotonou (capitale économique, siège de la présidence, des ministères et du port)",
+            "independence": "1er août 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 11 décembre 1990 (amendée en 2019)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Président de la République (chef de l'État et du gouvernement)",
+            "election": "Suffrage universel direct à deux tours (avec colistier Vice-président)",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (109 députés, dont 24 sièges réservés aux femmes)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours avec système de parrainages requis",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 24 circonscriptions avec seuil électoral national de 10%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État unitaire côtier du golfe de Guinée",
+            "organization": "12 départements subdivisés en 77 communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "UEMOA",
+                "Conseil de l'Entente"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "BWA": {
+        "identity": {
+            "officialName": "République du Botswana",
+            "capital": "Gaborone",
+            "economicCapital": "—",
+            "independence": "30 septembre 1966 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire démocratique",
+            "constitution": "Constitution du 30 septembre 1966"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Botswana",
+            "headOfGovernment": "Président de la République (cumule les fonctions de chef de l'État et du gouvernement)",
+            "election": "Élu au scrutin indirect par l'Assemblée nationale parmi ses membres",
+            "mandate": "5 ans (limité à deux mandats ou 10 ans au total)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Botswana",
+            "structure": "Parlement monocaméral assisté d'une chambre consultative traditionnelle (Ntlo ya Dikgosi)",
+            "lowerHouse": "Assemblée nationale (61 députés élus au suffrage universel direct + 6 membres spécialement élus)",
+            "upperHouse": "Ntlo ya Dikgosi (chambre consultative des chefs coutumiers traditionnels, 35 membres)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par les parlementaires",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour d'appel et Haute Cour",
+            "highestJudicialInstitution": "Cour d'appel du Botswana"
+        },
+        "territory": {
+            "type": "État enclavé d'Afrique australe (désert du Kalahari, delta de l'Okavango, premier producteur mondial de diamants en valeur)",
+            "organization": "10 districts ruraux et 6 conseils municipaux/urbains"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC (siège du Secrétariat général à Gaborone)",
+                "SACU (Union douanière d'Afrique australe)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Modèle historique de stabilité démocratique et de gouvernance minière"
+            ]
+        }
+    },
+    "BFA": {
+        "identity": {
+            "officialName": "Burkina Faso",
+            "capital": "Ouagadougou",
+            "economicCapital": "—",
+            "independence": "5 août 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "Régime de transition militaire",
+            "regime": "Présidentiel sous charte de transition",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Charte constitutionnelle de la transition (Constitution de 1991 partiellement suspendue)"
+        },
+        "executive": {
+            "headOfState": "Président de la Transition, Chef de l'État",
+            "headOfGovernment": "Premier ministre de la Transition",
+            "election": "Désignation par les Assises nationales et les forces armées",
+            "mandate": "Période de transition prolongée de 5 ans en 2024"
+        },
+        "legislative": {
+            "parliament": "Assemblée législative de transition (ALT)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée législative de transition (71 membres non élus représentant les FDS, partis et société civile)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours (suspendu durant la transition)",
+            "legislativeSystem": "Scrutin proportionnel plurinominal (suspendu durant la transition)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour de cassation et Conseil d'État"
+        },
+        "territory": {
+            "type": "État sahélien enclavé confronté aux défis sécuritaires",
+            "organization": "13 régions subdivisées en 45 provinces et 351 communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Alliance des États du Sahel (AES - confédération formée avec le Mali et le Niger en 2024)",
+                "UEMOA",
+                "Retrait conjoint annoncé de la CEDEAO en 2024"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie (suspendu)",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "BDI": {
+        "identity": {
+            "officialName": "République du Burundi",
+            "capital": "Gitega (capitale politique désignée en 2019)",
+            "economicCapital": "Bujumbura (capitale économique officielle selon la loi de 2019 et principal pôle portuaire du lac Tanganyika)",
+            "independence": "1er juillet 1962 (de la tutelle belge)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 7 juin 2018"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (nommé par le président avec approbation du Parlement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "7 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Burundi",
+            "structure": "Bicaméral consociationnel (quotas stricts 60% Hutus / 40% Tutsis et parité hommes-femmes)",
+            "lowerHouse": "Assemblée nationale (au moins 100 députés + cooptations ethniques/twa)",
+            "upperHouse": "Sénat (39 sénateurs élus par les conseils communaux, avec parité ethnique stricte)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal bloqué avec seuil électoral de 2% et correctifs ethniques"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État des Grands Lacs d'Afrique centrale enclavé",
+            "organization": "18 provinces (projet de réduction à 5 provinces), 119 communes et collines"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Communauté d'Afrique de l'Est (EAC)",
+                "CEEAC",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "CPV": {
+        "identity": {
+            "officialName": "République de Cabo Verde (Cap-Vert)",
+            "capital": "Praia",
+            "economicCapital": "—",
+            "independence": "5 juillet 1975 (du Portugal)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel à dominante parlementaire",
+            "territorialOrganization": "État unitaire insulaire décentralisé",
+            "constitution": "Constitution du 25 septembre 1992 (révisée en 1999 et 2010)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (détenteur de la direction de la politique générale)",
+            "election": "Suffrage universel direct à deux tours (président) ; désigné selon la majorité parlementaire",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (72 députés, dont 6 représentant la diaspora)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel de liste à la plus forte moyenne (méthode d'Hondt)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême de justice"
+        },
+        "territory": {
+            "type": "État insulaire atlantique (archipel volcanique de 10 îles et 8 îlots)",
+            "organization": "22 municipalités (concelhos) et 32 paroisses (freguesias)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "Statut spécial de partenariat avec l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Communauté des pays de langue portugaise (CPLP)",
+                "Organisation internationale de la Francophonie",
+                "Modèle de référence en gouvernance démocratique en Afrique"
+            ]
+        }
+    },
+    "CMR": {
+        "identity": {
+            "officialName": "République du Cameroun",
+            "capital": "Yaoundé (capitale politique et administrative)",
+            "economicCapital": "Douala (capitale économique, portuaire, industrielle et plus grande ville)",
+            "independence": "1er janvier 1960 (du mandat français) ; 1er octobre 1961 (réunification avec le Cameroun méridional britannique)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel fort",
+            "territorialOrganization": "État unitaire décentralisé (avec statut spécial pour les deux régions anglophones)",
+            "constitution": "Constitution du 18 janvier 1996"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Cameroun",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Suffrage universel direct à un tour (majorité relative)",
+            "mandate": "7 ans (sans limitation de mandats)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Cameroun",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (180 députés)",
+            "upperHouse": "Sénat (100 sénateurs : 70 élus par les conseillers municipaux/régionaux, 30 nommés par le président)"
+        },
+        "electoral": {
+            "votingAge": "20 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour",
+            "legislativeSystem": "Système mixte (majoritaire uninominal ou de liste avec prime de majorité de 50%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État d'Afrique centrale riverain du golfe de Guinée ('l'Afrique en miniature')",
+            "organization": "10 régions (dont Nord-Ouest et Sud-Ouest anglophones sous statut spécial) subdivisées en 58 départements"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEMAC (Communauté économique et monétaire de l'Afrique centrale)",
+                "CEEAC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations (pays bilingue français/anglais)",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "CAF": {
+        "identity": {
+            "officialName": "République centrafricaine",
+            "capital": "Bangui",
+            "economicCapital": "—",
+            "independence": "13 août 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution de la VIIe République du 30 août 2023"
+        },
+        "executive": {
+            "headOfState": "Président de la République centrafricaine",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "7 ans (sans limitation de mandats introduite en 2023)"
+        },
+        "legislative": {
+            "parliament": "Parlement de la République centrafricaine",
+            "structure": "Bicaméral de droit (Assemblée nationale et Sénat créé par la Constitution de 2023)",
+            "lowerHouse": "Assemblée nationale (140 députés)",
+            "upperHouse": "Sénat (chambre haute instituée par la réforme constitutionnelle de 2023)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour de cassation et Cour pénale spéciale (CPS)"
+        },
+        "territory": {
+            "type": "État enclavé au cœur de l'Afrique centrale",
+            "organization": "20 préfectures et la ville autonome de Bangui"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEMAC (siège de la Banque des États de l'Afrique centrale)",
+                "CEEAC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (accueillant la MINUSCA)",
+                "Organisation internationale de la Francophonie",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "TCD": {
+        "identity": {
+            "officialName": "République du Tchad",
+            "capital": "N'Djaména",
+            "economicCapital": "—",
+            "independence": "11 août 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel (Ve République)",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 29 décembre 2023"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Tchad",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Tchad",
+            "structure": "Bicaméral (selon la Constitution de 2023)",
             "lowerHouse": "Assemblée nationale",
             "upperHouse": "Sénat"
         },
         "electoral": {
             "votingAge": "18 ans",
-            "presidentialSystem": "Scrutin majoritaire à deux tours",
-            "legislativeSystem": "Selon la législation électorale"
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (scrutin majoritaire et proportionnel)"
         },
         "judiciary": {
             "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Vaste État sahélien et saharien enclavé (carrefour entre Afrique du Nord et subsaharienne)",
+            "organization": "23 provinces subdivisées en départements et communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEMAC",
+                "CEEAC",
+                "CEN-SAD",
+                "Commission du bassin du lac Tchad (CBLT - siège à N'Djaména)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)",
+                "G5 Sahel (historique)"
+            ]
+        }
+    },
+    "COM": {
+        "identity": {
+            "officialName": "Union des Comores",
+            "capital": "Moroni",
+            "economicCapital": "—",
+            "independence": "6 juillet 1975 (de la France ; l'île de Mayotte est demeurée sous souveraineté française)"
+        },
+        "system": {
+            "stateForm": "République fédérale insulaire",
+            "regime": "Présidentiel avec présidence tournante entre les îles",
+            "territorialOrganization": "Union d'îles autonomes",
+            "constitution": "Constitution du 23 décembre 2001 (révisée par référendum en 2018)"
+        },
+        "executive": {
+            "headOfState": "Président de l'Union des Comores",
+            "headOfGovernment": "Président de l'Union (chef de l'État et du gouvernement)",
+            "election": "Suffrage universel direct à deux tours avec principe de rotation insulaire entre Grande Comore, Anjouan et Mohéli",
+            "mandate": "5 ans (renouvelable une fois consécutivement selon la révision de 2018)"
+        },
+        "legislative": {
+            "parliament": "Assemblée de l'Union",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée de l'Union (33 députés : 24 élus au suffrage direct et 9 délégués par les assemblées insulaires)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours avec rotation insulaire",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Section constitutionnelle de la Cour suprême",
+            "highestJudicialInstitution": "Cour suprême des Comores"
+        },
+        "territory": {
+            "type": "État insulaire du canal de Mozambique (trois îles principales : Grande Comore, Anjouan, Mohéli)",
+            "organization": "3 îles autonomes dotées de gouverneurs élus et d'assemblées insulaires"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Commission de l'océan Indien (COI)",
+                "SADC",
+                "COMESA",
+                "Ligue des États arabes"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "COG": {
+        "identity": {
+            "officialName": "République du Congo (Congo-Brazzaville)",
+            "capital": "Brazzaville (capitale politique et administrative)",
+            "economicCapital": "Pointe-Noire (capitale économique, terminal pétrolier et port en eaux profondes)",
+            "independence": "15 août 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 25 octobre 2015"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (renouvelable deux fois)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Congo",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (151 députés)",
+            "upperHouse": "Sénat (72 sénateurs élus au suffrage indirect par les conseils départementaux et municipaux)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État forestier et pétrolier d'Afrique centrale bordé par le fleuve Congo",
+            "organization": "12 départements, dont les villes autonomes de Brazzaville et Pointe-Noire"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEMAC",
+                "CEEAC",
+                "Commission du bassin du fleuve Congo"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OPEP (adhésion 2018)",
+                "Organisation internationale de la Francophonie",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "COD": {
+        "identity": {
+            "officialName": "République démocratique du Congo (RDC)",
+            "capital": "Kinshasa",
+            "economicCapital": "—",
+            "independence": "30 juin 1960 (de la Belgique)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire fortement décentralisé",
+            "constitution": "Constitution de la IIIe République du 18 février 2006"
+        },
+        "executive": {
+            "headOfState": "Président de la République démocratique du Congo",
+            "headOfGovernment": "Premier ministre (issu de la majorité parlementaire)",
+            "election": "Suffrage universel direct à un tour (majorité simple)",
+            "mandate": "5 ans (renouvelable une seule fois consécutivement)"
+        },
+        "legislative": {
+            "parliament": "Parlement de la RDC",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (500 députés)",
+            "upperHouse": "Sénat (108 sénateurs élus par les assemblées provinciales + sénateurs à vie anciens présidents)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un seul tour",
+            "legislativeSystem": "Système mixte (proportionnel plurinominal dans les circonscriptions à sièges multiples et majoritaire uninominal)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour de cassation et Conseil d'État"
+        },
+        "territory": {
+            "type": "Deuxième plus vaste pays d'Afrique, géant géologique (réserves mondiales de cobalt, cuivre, coltan) et écologique (bassin du Congo)",
+            "organization": "25 provinces et la ville-province capitale de Kinshasa"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC",
+                "CEEAC",
+                "Communauté d'Afrique de l'Est (EAC - adhésion 2022)",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (accueillant la MONUSCO)",
+                "Organisation internationale de la Francophonie (plus grand pays francophone au monde par la population)"
+            ]
+        }
+    },
+    "DJI": {
+        "identity": {
+            "officialName": "République de Djibouti",
+            "capital": "Djibouti",
+            "economicCapital": "—",
+            "independence": "27 juin 1977 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 15 septembre 1992 (révisée en 2010)"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Djibouti",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limitation levée en 2010)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (65 députés avec quota féminin de 25%)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin mixte de liste à un tour (80% des sièges à la majorité relative, 20% à la proportionnelle)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Cité-État maritime hautement stratégique sur le détroit de Bab-el-Mandeb (entrée de la mer Rouge et du canal de Suez)",
+            "organization": "5 régions de l'intérieur et la ville de Djibouti"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Ligue des États arabes",
+                "IGAD (Autorité intergouvernementale pour le développement - siège à Djibouti)",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)",
+                "Hub géopolitique abritant des bases militaires étrangères majeures (France, États-Unis, Chine, Japon)"
+            ]
+        }
+    },
+    "EGY": {
+        "identity": {
+            "officialName": "République arabe d'Égypte",
+            "capital": "Le Caire (avec Nouvelle Capitale Administrative en cours d'installation)",
+            "economicCapital": "—",
+            "independence": "28 février 1922 (déclaration unilatérale britannique) ; 18 juin 1953 (proclamation de la République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel fort",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 18 janvier 2014 (amendée en 2019)"
+        },
+        "executive": {
+            "headOfState": "Président de la République arabe d'Égypte (et chef suprême des forces armées)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "6 ans (limité à deux mandats consécutifs selon la réforme de 2019)"
+        },
+        "legislative": {
+            "parliament": "Parlement égyptien",
+            "structure": "Bicaméral (Sénat rétabli en 2019)",
+            "lowerHouse": "Chambre des représentants (Majlis al-Nowwab - 596 députés)",
+            "upperHouse": "Sénat (Majlis al-Chouyoukh - 300 membres : deux tiers élus, un tiers nommé par le président)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (50% scrutin de liste fermée majoritaire, 50% scrutin uninominal et jusqu'à 5% nommés)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour de cassation et Conseil d'État"
+        },
+        "territory": {
+            "type": "Puissance démographique et transcontinentale arabe et africaine (contrôle exclusif du canal de Suez)",
+            "organization": "27 gouvernorats (muhafazat)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Ligue des États arabes (siège historique au Caire)",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "BRICS+ (adhésion pleine en janvier 2024)",
+                "Organisation de la coopération islamique (OCI)",
+                "Traité de paix de Camp David avec Israël (1979)",
+                "Allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "GNQ": {
+        "identity": {
+            "officialName": "République de Guinée équatoriale",
+            "capital": "Malabo (capitale insulaire sur l'île de Bioko ; transfert progressif vers Ciudad de la Paz sur le continent)",
+            "economicCapital": "Bata (capitale économique et plus grande ville continentale)",
+            "independence": "12 octobre 1968 (de l'Espagne)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel autoritaire dynastique",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Loi fondamentale de Guinée équatoriale de 1991 (amendée en 2011)"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Guinée équatoriale",
+            "headOfGovernment": "Premier ministre (coordonnateur de l'administration)",
+            "election": "Suffrage universel direct à un tour (majorité simple)",
+            "mandate": "7 ans (sans limitation effective)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Guinée équatoriale",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des députés (100 députés)",
+            "upperHouse": "Sénat (70 sénateurs : 55 élus, 15 nommés par le président)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à un tour",
+            "legislativeSystem": "Scrutin proportionnel de liste bloquée avec seuil électoral de 10%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême de justice"
+        },
+        "territory": {
+            "type": "État pétrolier hispanophone composé d'un territoire continental (Río Muni) et d'îles (Bioko, Annobón)",
+            "organization": "8 provinces (dont la nouvelle province de Djibloho où se trouve Ciudad de la Paz)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEMAC",
+                "CEEAC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OPEP (adhésion 2017)",
+                "Communauté des pays de langue portugaise (CPLP)",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "ERI": {
+        "identity": {
+            "officialName": "État d'Érythrée",
+            "capital": "Asmara",
+            "economicCapital": "—",
+            "independence": "24 mai 1993 (de l'Éthiopie, à la suite d'un référendum d'autodétermination)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Régime autoritaire à parti unique (Front populaire pour la démocratie et la justice - FPDJ)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution adoptée en 1997 mais jamais promulguée ni appliquée"
+        },
+        "executive": {
+            "headOfState": "Président de l'État d'Érythrée",
+            "headOfGovernment": "Président de l'État (chef d'État, de gouvernement et des armées)",
+            "election": "Aucune élection nationale tenue depuis l'indépendance de 1993",
+            "mandate": "Indéfini"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral (inactif depuis 2002)",
+            "lowerHouse": "Assemblée nationale (150 sièges, membres du comité central du FPDJ et représentants régionaux)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Pas d'élection présidentielle",
+            "legislativeSystem": "Pas d'élection parlementaire nationale"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême (exerce le contrôle judiciaire)",
+            "highestJudicialInstitution": "Cour suprême d'Érythrée"
+        },
+        "territory": {
+            "type": "État côtier de la mer Rouge (l'un des régimes les plus fermés au monde, service national obligatoire à durée indéterminée)",
+            "organization": "6 régions administratives (zobas)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Ligue des États arabes (statut d'observateur)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "SWZ": {
+        "identity": {
+            "officialName": "Royaume d'Eswatini",
+            "capital": "Mbabane (capitale administrative et siège du gouvernement)",
+            "economicCapital": "Lobamba (capitale royale, spirituelle et siège du Parlement)",
+            "independence": "6 septembre 1968 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Monarchie absolue",
+            "regime": "Dernière monarchie absolue traditionnelle d'Afrique (système du Tinkhundla)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 26 juillet 2005"
+        },
+        "executive": {
+            "headOfState": "Roi d'Eswatini (Ngwenyama) aux côtés de la Reine-mère (Ndlovukati)",
+            "headOfGovernment": "Premier ministre (nommé directement par le Roi)",
+            "election": "Succession héréditaire traditionnelle selon les coutumes de la dynastie Dlamini",
+            "mandate": "À vie (Roi)"
+        },
+        "legislative": {
+            "parliament": "Parlement de l'Eswatini (Libhandla)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre d'assemblée (69 députés : 59 élus à titre individuel sans parti politique, 10 nommés par le Roi)",
+            "upperHouse": "Sénat (30 sénateurs : 20 nommés par le Roi, 10 élus par la Chambre d'assemblée)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours dans les chefferies (Tinkhundla), candidatures individuelles sans étiquette partisane autorisée"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême d'Eswatini",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Petit royaume enclavé entre l'Afrique du Sud et le Mozambique",
+            "organization": "4 districts (Hhohho, Lubombo, Manzini, Shiselweni) subdivisés en Tinkhundla"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC",
+                "SACU (Union douanière d'Afrique australe)",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Seul État d'Afrique maintenant des relations diplomatiques officielles avec Taïwan"
+            ]
+        }
+    },
+    "ETH": {
+        "identity": {
+            "officialName": "République démocratique fédérale d'Éthiopie",
+            "capital": "Addis-Abeba",
+            "economicCapital": "—",
+            "independence": "— (État historiquement souverain jamais colonisé, occupation italienne temporaire de 1936 à 1941)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Parlementaire fédéral (fédéralisme ethnique)",
+            "territorialOrganization": "Fédération d'États régionaux à base ethnolinguistique",
+            "constitution": "Constitution du 21 août 1995"
+        },
+        "executive": {
+            "headOfState": "Président de la République (fonction honorifique et représentative)",
+            "headOfGovernment": "Premier ministre (détenteur de l'autorité exécutive suprême)",
+            "election": "Élu par les deux chambres du Parlement (président) ; chef du parti majoritaire à la Chambre des représentants",
+            "mandate": "6 ans (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée parlementaire fédérale",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants des peuples (547 députés élus au suffrage universel direct)",
+            "upperHouse": "Chambre de la fédération (153 membres représentant les nations, nationalités et peuples d'Éthiopie)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil d'enquête constitutionnelle et Chambre de la fédération (interprétation constitutionnelle)",
+            "highestJudicialInstitution": "Cour suprême fédérale"
+        },
+        "territory": {
+            "type": "Plus peuplé État enclavé au monde (2e puissance démographique d'Afrique avec plus de 120 millions d'habitants, constructeur du méga-barrage GERD sur le Nil)",
+            "organization": "12 États régionaux et 2 villes autonomes (Addis-Abeba et Dire Dawa)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (siège historique et permanent de l'UA à Addis-Abeba)",
+                "IGAD",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre fondateur)",
+                "BRICS+ (adhésion pleine en janvier 2024)",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "GAB": {
+        "identity": {
+            "officialName": "République gabonaise",
+            "capital": "Libreville",
+            "economicCapital": "—",
+            "independence": "17 août 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "Régime de transition militaire",
+            "regime": "Présidentiel sous transition (après le coup d'État d'août 2023 ayant mis fin à 55 ans de dynastie Bongo)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Charte de la transition de septembre 2023 (nouveau projet de constitution soumis à référendum fin 2024)"
+        },
+        "executive": {
+            "headOfState": "Président de la Transition, Chef de l'État (Président du CTRI)",
+            "headOfGovernment": "Premier ministre de la Transition",
+            "election": "Désigné par le Comité pour la transition et la restauration des institutions (CTRI)",
+            "mandate": "Transition fixée à 2 ans (élections prévues en 2025)"
+        },
+        "legislative": {
+            "parliament": "Parlement de transition",
+            "structure": "Bicaméral de transition",
+            "lowerHouse": "Assemblée nationale de transition (98 députés désignés)",
+            "upperHouse": "Sénat de transition (70 sénateurs désignés)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire (suspendu durant la transition)",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours (suspendu)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de transition",
+            "highestJudicialInstitution": "Cour de cassation et Conseil d'État"
+        },
+        "territory": {
+            "type": "État équatorial d'Afrique centrale à très fort couvert forestier (pionnier de la préservation de la biodiversité et de l'économie verte)",
+            "organization": "9 provinces subdivisées en départements"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (participation suspendue temporairement après le coup d'État)",
+                "CEMAC",
+                "CEEAC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OPEP (adhésion réitérée en 2016)",
+                "Commonwealth of Nations (adhésion en 2022)",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "GMB": {
+        "identity": {
+            "officialName": "République de Gambie",
+            "capital": "Banjul",
+            "economicCapital": "—",
+            "independence": "18 février 1965 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 16 janvier 1997"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Gambie",
+            "headOfGovernment": "Président de la République (chef de l'État et du gouvernement)",
+            "election": "Suffrage universel direct uninominal à un tour (majorité simple)",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (58 députés : 53 élus au suffrage direct et 5 nommés par le président)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour (système électoral historique unique utilisant des billes de verre déposées dans des fûts)",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Gambie",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Plus petit État d'Afrique continentale (enclave étroite le long du fleuve Gambie entièrement entourée par le Sénégal, à l'exception de sa façade atlantique)",
+            "organization": "5 régions et 2 municipalités (Banjul et Kanifing)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations (réintégrée en 2018)",
+                "Organisation de la coopération islamique (OCI)",
+                "Commission africaine des droits de l'homme et des peuples (siège permanent à Banjul)"
+            ]
+        }
+    },
+    "GHA": {
+        "identity": {
+            "officialName": "République du Ghana",
+            "capital": "Accra",
+            "economicCapital": "—",
+            "independence": "6 mars 1957 (du Royaume-Uni, premier pays d'Afrique subsaharienne à proclamer son indépendance)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution de la IVe République du 7 janvier 1993"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Ghana",
+            "headOfGovernment": "Président de la République (chef d'État, de gouvernement et commandant en chef)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "4 ans (renouvelable une seule fois)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Ghana",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement du Ghana (275 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours (avec seuil de 50% + 1 voix)",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Ghana",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Démocratie côtière d'Afrique de l'Ouest (premier producteur d'or d'Afrique et 2e producteur mondial de cacao)",
+            "organization": "16 régions administratives subdivisées en districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (berceau historique du panafricanisme avec Kwame Nkrumah)",
+                "CEDEAO",
+                "ZLECAf (Zone de libre-échange continentale africaine - siège du Secrétariat général permanent à Accra)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "GIN": {
+        "identity": {
+            "officialName": "République de Guinée (Guinée-Conakry)",
+            "capital": "Conakry",
+            "economicCapital": "—",
+            "independence": "2 octobre 1958 (rejet par référendum de la Communauté française, 'Non' historique de Sékou Touré)"
+        },
+        "system": {
+            "stateForm": "Régime de transition militaire",
+            "regime": "Présidentiel sous transition (CNRD)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Charte de la transition de septembre 2021 (nouvelle constitution en cours d'élaboration)"
+        },
+        "executive": {
+            "headOfState": "Président de la Transition, Chef de l'État (Président du CNRD)",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement de transition)",
+            "election": "Désignation par le Comité national du rassemblement pour le développement (CNRD)",
+            "mandate": "Période de transition vers des élections générales"
+        },
+        "legislative": {
+            "parliament": "Conseil national de la transition (CNT)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Conseil national de la transition (81 membres désignés représentant les partis, syndicats et société civile)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours (suspendu)",
+            "legislativeSystem": "Système mixte (suspendu)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Guinée",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État d'Afrique de l'Ouest détenteur des premières réserves mondiales de bauxite et du gisement de fer de Simandou ('château d'eau de l'Afrique de l'Ouest')",
+            "organization": "8 régions administratives (dont la zone spéciale de Conakry) et 33 préfectures"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (suspendu)",
+                "CEDEAO (suspendu)",
+                "Organisation pour la mise en valeur du fleuve Sénégal (OMVS)",
+                "Mano River Union"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie (suspendu)",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "GNB": {
+        "identity": {
+            "officialName": "République de Guinée-Bissau",
+            "capital": "Bissau",
+            "economicCapital": "—",
+            "independence": "24 septembre 1973 (déclaration unilatérale) ; 10 septembre 1974 (reconnue par le Portugal)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 16 mai 1984 (amendée à plusieurs reprises)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (nommé selon la majorité parlementaire)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale populaire",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale populaire (102 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste bloquée avec méthode d'Hondt"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de justice (faisant office de cour constitutionnelle)",
+            "highestJudicialInstitution": "Cour suprême de justice"
+        },
+        "territory": {
+            "type": "Petit État côtier d'Afrique de l'Ouest comprenant l'archipel des Bijagos (88 îles)",
+            "organization": "8 régions et 1 secteur autonome (Bissau)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "UEMOA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Communauté des pays de langue portugaise (CPLP)",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "KEN": {
+        "identity": {
+            "officialName": "République du Kenya",
+            "capital": "Nairobi",
+            "economicCapital": "—",
+            "independence": "12 décembre 1963 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé (système des comtés / devolution)",
+            "constitution": "Constitution du 27 août 2010"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Kenya",
+            "headOfGovernment": "Président de la République (chef de l'État et du gouvernement, assisté d'un Vice-président et d'un Premier secrétaire du cabinet)",
+            "election": "Suffrage universel direct à deux tours (avec exigence de 25% des voix dans au moins la moitié des 47 comtés)",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Kenya",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (349 députés : 290 élus de circonscriptions, 47 représentantes des comtés et 12 nommés)",
+            "upperHouse": "Sénat (67 sénateurs représentant les 47 comtés)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours avec conditions de répartition géographique",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Kenya (connue pour son indépendance historique ayant annulé la présidentielle de 2017)",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Puissance économique et technologique majeure d'Afrique de l'Est ('Silicon Savannah')",
+            "organization": "47 comtés autonomes dirigés par des gouverneurs élus"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Communauté d'Afrique de l'Est (EAC)",
+                "IGAD",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (siège de l'ONUN à Nairobi abritant le PNUE et ONU-Habitat)",
+                "Commonwealth of Nations",
+                "Allié majeur non-OTAN des États-Unis (désigné en 2024)"
+            ]
+        }
+    },
+    "LSO": {
+        "identity": {
+            "officialName": "Royaume du Lesotho",
+            "capital": "Maseru",
+            "economicCapital": "—",
+            "independence": "4 octobre 1966 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 2 avril 1993"
+        },
+        "executive": {
+            "headOfState": "Roi du Lesotho",
+            "headOfGovernment": "Premier ministre (détenteur du pouvoir exécutif)",
+            "election": "Succession héréditaire traditionnelle selon le collège des chefs coutumiers ; chef de la majorité parlementaire (Premier ministre)",
+            "mandate": "À vie (Roi) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Lesotho",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (120 députés)",
+            "upperHouse": "Sénat (33 membres : 22 chefs principaux héréditaires et 11 nommés par le Roi)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Système mixte avec compensation proportionnelle (MMP : 80 au scrutin majoritaire uninominal et 40 compensatoires à la proportionnelle)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour (siégeant en Cour constitutionnelle)",
+            "highestJudicialInstitution": "Cour d'appel du Lesotho"
+        },
+        "territory": {
+            "type": "Royaume montagneux enclavé entièrement situé au sein du territoire de l'Afrique du Sud ('le Royaume dans le ciel')",
+            "organization": "10 districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC",
+                "SACU (Union douanière d'Afrique australe)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Projet d'eau des hauts plateaux du Lesotho (LHWP, approvisionnement vital en eau de la région de Johannesburg)"
+            ]
+        }
+    },
+    "LBR": {
+        "identity": {
+            "officialName": "République du Libéria",
+            "capital": "Monrovia",
+            "economicCapital": "—",
+            "independence": "26 juillet 1847 (fondé par des esclaves afro-américains affranchis sous l'American Colonization Society, plus ancienne république d'Afrique)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 6 janvier 1986"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Libéria",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "6 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Législature du Libéria",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (73 membres élus)",
+            "upperHouse": "Sénat (30 sénateurs : 2 par comté)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Libéria",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État côtier d'Afrique de l'Ouest (leader mondial des pavillons de complaisance maritime)",
+            "organization": "15 comtés subdivisés en districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "Mano River Union"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre fondateur)",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "LBY": {
+        "identity": {
+            "officialName": "État de Libye",
+            "capital": "Tripoli",
+            "economicCapital": "—",
+            "independence": "24 décembre 1951 (du Royaume-Uni et de la France sous mandat ONU)"
+        },
+        "system": {
+            "stateForm": "République en transition institutionnelle",
+            "regime": "Transition fragmentée (dualité institutionnelle entre le gouvernement d'union nationale à Tripoli et l'administration orientale à Benghazi)",
+            "territorialOrganization": "État unitaire en crise de division territoriale",
+            "constitution": "Déclaration constitutionnelle provisoire du 3 août 2011"
+        },
+        "executive": {
+            "headOfState": "Président du Conseil présidentiel",
+            "headOfGovernment": "Premier ministre du Gouvernement d'union nationale (GNU)",
+            "election": "Issu des accords politiques parrainés par les Nations unies (Forum de dialogue politique libyen)",
+            "mandate": "Période de transition"
+        },
+        "legislative": {
+            "parliament": "Parlement en bicéphalisme",
+            "structure": "Chambre des représentants (siégeant à Tobrouk) et Haut Conseil d'État (chambre consultative à Tripoli)",
+            "lowerHouse": "Chambre des représentants (200 sièges)",
+            "upperHouse": "Haut Conseil d'État (145 membres)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élections générales présidentielles reportées sine die",
+            "legislativeSystem": "En attente de cadre constitutionnel définitif"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Libye (Chambre constitutionnelle)",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Vaste État saharien et méditerranéen (premières réserves pétrolières prouvées d'Afrique)",
+            "organization": "22 municipalités / 3 régions historiques (Tripolitaine, Cyrénaïque, Fezzan)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Ligue des États arabes",
+                "Union du Maghreb arabe (UMA)",
+                "CEN-SAD"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OPEP (membre historique)",
+                "Organisation de la coopération islamique (OCI)",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "MDG": {
+        "identity": {
+            "officialName": "République de Madagascar",
+            "capital": "Antananarivo",
+            "economicCapital": "—",
+            "independence": "26 juin 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution de la IVe République du 11 décembre 2010"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Madagascar",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (renouvelable une seule fois)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Madagascar",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (163 députés)",
+            "upperHouse": "Sénat (18 sénateurs : 12 élus par les grands électeurs locaux, 6 nommés par le président)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (uninominal majoritaire et scrutin proportionnel de liste bloquée)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour constitutionnelle (HCC)",
+            "highestJudicialInstitution": "Cour suprême de Madagascar"
+        },
+        "territory": {
+            "type": "Plus grande île d'Afrique et 4e mondiale en superficie (haut lieu mondial de biodiversité avec 85% d'espèces endémiques)",
+            "organization": "23 régions (faritra) et 119 districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Commission de l'océan Indien (COI)",
+                "SADC",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "MWI": {
+        "identity": {
+            "officialName": "République du Malawi",
+            "capital": "Lilongwe (capitale politique et administrative)",
+            "economicCapital": "Blantyre (capitale économique, commerciale et financière historique)",
+            "independence": "6 juillet 1964 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 18 mai 1994"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Malawi",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement)",
+            "election": "Suffrage universel direct à deux tours (majorité absolue réinstaurée par décision judiciaire en 2020)",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral (le Sénat prévu par la constitution n'a jamais été mis en place)",
+            "lowerHouse": "Assemblée nationale (193 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours (seuil de 50% + 1 voix)",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême d'appel et Haute Cour (faisant office de cour constitutionnelle)",
+            "highestJudicialInstitution": "Cour suprême d'appel du Malawi"
+        },
+        "territory": {
+            "type": "État enclavé d'Afrique australe riverain du lac Malawi",
+            "organization": "3 régions (Nord, Centre, Sud) subdivisées en 28 districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "MLI": {
+        "identity": {
+            "officialName": "République du Mali",
+            "capital": "Bamako",
+            "economicCapital": "—",
+            "independence": "22 septembre 1960 (de la France, après l'éclatement de la Fédération du Mali)"
+        },
+        "system": {
+            "stateForm": "Régime de transition militaire (IVe République)",
+            "regime": "Présidentiel fort (selon la nouvelle Constitution de 2023)",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 22 juillet 2023 (promulguée après référendum)"
+        },
+        "executive": {
+            "headOfState": "Président de la Transition, Chef de l'État",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Désignation par les autorités militaires de transition",
+            "mandate": "Période de transition prolongée"
+        },
+        "legislative": {
+            "parliament": "Parlement du Mali (bicaméral selon la Constitution de 2023)",
+            "structure": "Bicaméral (Assemblée nationale et Sénat créés en 2023 ; exercé par le Conseil national de la transition durant la phase transitoire)",
+            "lowerHouse": "Conseil national de la transition (CNT - 147 membres désignés)",
+            "upperHouse": "Sénat (institué par la Constitution de 2023)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours (suspendu durant la transition)",
+            "legislativeSystem": "Scrutin majoritaire uninominal et de liste (suspendu)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême du Mali"
+        },
+        "territory": {
+            "type": "Vaste État sahélien et saharien enclavé (3e producteur d'or d'Afrique)",
+            "organization": "19 régions administratives et le district de Bamako"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Alliance des États du Sahel (AES - confédération formée avec le Burkina Faso et le Niger en 2024)",
+                "UEMOA",
+                "Retrait conjoint officiel annoncé de la CEDEAO en 2024",
+                "OMVS"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (fin de la mission MINUSMA fin 2023)",
+                "Organisation internationale de la Francophonie (suspendu)",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "MRT": {
+        "identity": {
+            "officialName": "République islamique de Mauritanie",
+            "capital": "Nouakchott",
+            "economicCapital": "—",
+            "independence": "28 novembre 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "République islamique",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 20 juillet 1991 (amendée en 2006, 2012 et 2017)"
+        },
+        "executive": {
+            "headOfState": "Président de la République islamique de Mauritanie",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral (Sénat supprimé par référendum constitutionnel en 2017)",
+            "lowerHouse": "Assemblée nationale (176 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (scrutin majoritaire à deux tours et listes proportionnelles nationales et régionales)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État pivot entre le Maghreb et l'Afrique subsaharienne (grand exportateur de minerai de fer et de gaz naturel)",
+            "organization": "15 régions (wilayas), dont 3 pour Nouakchott, subdivisées en moughataas"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (présidence en exercice 2024)",
+                "Ligue des États arabes",
+                "Union du Maghreb arabe (UMA)",
+                "OMVS (siège à Dakar)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "MUS": {
+        "identity": {
+            "officialName": "République de Maurice",
+            "capital": "Port-Louis",
+            "economicCapital": "—",
+            "independence": "12 mars 1968 (du Royaume-Uni) ; 12 mars 1992 (proclamation de la République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire (modèle de Westminster)",
+            "territorialOrganization": "État unitaire insulaire démocratique",
+            "constitution": "Constitution du 12 mars 1968 (amendée en 1992)"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Maurice (fonction représentative)",
+            "headOfGovernment": "Premier ministre (détenteur de l'exécutif effectif)",
+            "election": "Élu par l'Assemblée nationale sur proposition du Premier ministre (président) ; chef du parti majoritaire (Premier ministre)",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (National Assembly)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (70 députés : 62 élus au scrutin de bloc et jusqu'à 8 'meilleurs perdants' / Best Loser System pour préserver l'équilibre ethnocommunautaire)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin majoritaire plurinominal de bloc dans 21 circonscriptions (3 sièges par circonscription à Maurice, 2 à Rodrigues) + mécanisme des meilleurs perdants"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Maurice (faisant office de cour constitutionnelle) et recours possible auprès du Comité judiciaire du Conseil privé britannique (JCPC)",
+            "highestJudicialInstitution": "Cour suprême de Maurice / Judicial Committee of the Privy Council"
+        },
+        "territory": {
+            "type": "État insulaire du sud-ouest de l'océan Indien (île Maurice, île Rodrigues, îles Agaléga et Saint-Brandon, accord historique conclu avec le Royaume-Uni en 2024 pour la souveraineté sur les Chagos)",
+            "organization": "9 districts et îles dépendantes dotées d'autonomie (Rodrigues)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Commission de l'océan Indien (COI - siège de facto du secrétariat permanent à Ébène)",
+                "SADC",
+                "COMESA",
+                "IORA (Association des riverains de l'océan Indien - siège à Ébène)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Organisation internationale de la Francophonie",
+                "Premier pays d'Afrique au classement de l'indice de démocratie et de gouvernance Mo Ibrahim"
+            ]
+        }
+    },
+    "MAR": {
+        "identity": {
+            "officialName": "Royaume du Maroc",
+            "capital": "Rabat (capitale politique et administrative)",
+            "economicCapital": "Casablanca (capitale économique, financière, portuaire et siège de la Bourse de Casablanca)",
+            "independence": "2 mars 1956 (fin des protectorats français et espagnol)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle, démocratique, parlementaire et sociale",
+            "regime": "Monarchie constitutionnelle (avec rôle prépondérant du Roi, Commandeur des croyants / Amir Al-Mouminine)",
+            "territorialOrganization": "État unitaire décentralisé (Régionalisation avancée)",
+            "constitution": "Constitution du 29 juillet 2011"
+        },
+        "executive": {
+            "headOfState": "Roi du Maroc (Chef de l'État et Chef suprême des Forces armées royales)",
+            "headOfGovernment": "Chef du gouvernement (nommé par le Roi au sein du parti politique arrivé en tête des élections à la Chambre des représentants)",
+            "election": "Succession héréditaire de primogéniture masculine dynastique alaouite",
+            "mandate": "À vie (Roi) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Maroc",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (395 députés élus au suffrage universel direct)",
+            "upperHouse": "Chambre des conseillers (120 membres élus au suffrage indirect par les collectivités territoriales, chambres professionnelles et syndicats)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal au plus fort reste (dans des circonscriptions locales et régionales avec quotas de parité)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
             "highestJudicialInstitution": "Cour de cassation"
         },
         "territory": {
-            "type": "État unitaire",
-            "organization": "Districts autonomes, régions, départements et communes"
+            "type": "Puissance géostratégique du détroit de Gibraltar (Tanger Med premier port de conteneurs de Méditerranée et d'Afrique)",
+            "organization": "12 régions administratives (dont les provinces du Sud) subdivisées en préfectures et provinces"
         },
         "foreignPolicy": {
-            "regionalOrganizations": ["Union africaine", "CEDEAO", "UEMOA"],
-            "internationalOrganizations": ["Organisation des Nations unies"]
+            "regionalOrganizations": [
+                "Union africaine (réintégrée en 2017)",
+                "Ligue des États arabes",
+                "Union du Maghreb arabe (UMA - siège à Rabat)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI - siège du Comité Al-Qods présidé par le Roi)",
+                "Organisation internationale de la Francophonie",
+                "Accords d'Abraham (2020) et statut d'Allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "MOZ": {
+        "identity": {
+            "officialName": "République du Mozambique",
+            "capital": "Maputo",
+            "economicCapital": "—",
+            "independence": "25 juin 1975 (du Portugal)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 16 novembre 2004 (amendée en 2018 pour la décentralisation provinciale)"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Mozambique",
+            "headOfGovernment": "Premier ministre (coordonnateur des ministères)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée de la République",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée de la République (250 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste bloquée avec méthode d'Hondt dans 11 circonscriptions"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour suprême du Mozambique"
+        },
+        "territory": {
+            "type": "État d'Afrique australe riverain du canal de Mozambique (gigantesques réserves offshore de gaz naturel liquéfié dans le bassin du Rovuma)",
+            "organization": "10 provinces et la ville capitale de Maputo"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Communauté des pays de langue portugaise (CPLP)",
+                "Commonwealth of Nations (adhésion en 1995)",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "NAM": {
+        "identity": {
+            "officialName": "République de Namibie",
+            "capital": "Windhoek",
+            "economicCapital": "—",
+            "independence": "21 mars 1990 (de l'Afrique du Sud, fin du mandat sud-africain et de l'apartheid)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 9 février 1990"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Namibie",
+            "headOfGovernment": "Premier ministre (Chef des affaires gouvernementales)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Namibie",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (104 députés : 96 élus au suffrage direct, 8 nommés par le président)",
+            "upperHouse": "Conseil national (42 membres : 3 élus par chacun des 14 conseils régionaux)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste nationale fermée au plus fort reste (méthode de Hare)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Namibie",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Vaste État désertique d'Afrique australe (déserts du Namib et du Kalahari, grand producteur mondial d'uranium et de diamants)",
+            "organization": "14 régions subdivisées en circonscriptions"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC",
+                "SACU (Union douanière d'Afrique australe)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Modèle de stabilité démocratique et de liberté de la presse en Afrique"
+            ]
+        }
+    },
+    "NER": {
+        "identity": {
+            "officialName": "République du Niger",
+            "capital": "Niamey",
+            "economicCapital": "—",
+            "independence": "3 août 1960 (de la France)"
+        },
+        "system": {
+            "stateForm": "Régime de transition militaire",
+            "regime": "Présidentiel sous transition (Conseil national pour la sauvegarde de la patrie - CNSP)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Ordonnance portant organisation des pouvoirs publics durant la transition (Constitution de 2010 suspendue en juillet 2023)"
+        },
+        "executive": {
+            "headOfState": "Président du Conseil national pour la sauvegarde de la patrie (CNSP), Chef de l'État",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement de transition)",
+            "election": "Prise de pouvoir militaire en juillet 2023",
+            "mandate": "Période de transition"
+        },
+        "legislative": {
+            "parliament": "Organe législatif de transition",
+            "structure": "Monocaméral (Assemblée nationale dissoute lors du coup d'État de 2023)",
+            "lowerHouse": "Organe consultatif / législatif de transition",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours (suspendu)",
+            "legislativeSystem": "Scrutin proportionnel plurinominal (suspendu)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour d'État (faisant office de cour constitutionnelle et de cour de cassation)",
+            "highestJudicialInstitution": "Cour d'État du Niger"
+        },
+        "territory": {
+            "type": "Grand État sahélien et saharien enclavé (important producteur mondial d'uranium)",
+            "organization": "7 régions et la communauté urbaine de Niamey"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Alliance des États du Sahel (AES - confédération formée avec le Mali et le Burkina Faso en 2024)",
+                "UEMOA",
+                "Retrait conjoint officiel annoncé de la CEDEAO en 2024",
+                "Commission du bassin du lac Tchad"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie (suspendu)",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "NGA": {
+        "identity": {
+            "officialName": "République fédérale du Nigéria",
+            "capital": "Abuja (capitale fédérale depuis 1991)",
+            "economicCapital": "Lagos (capitale économique, financière, boursière et mégapole de 20+ millions d'habitants)",
+            "independence": "1er octobre 1960 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Présidentiel fédéral",
+            "territorialOrganization": "État fédéral (36 États et un Territoire de la capitale fédérale)",
+            "constitution": "Constitution de la IVe République du 29 mai 1999"
+        },
+        "executive": {
+            "headOfState": "Président de la République fédérale du Nigéria",
+            "headOfGovernment": "Président de la République (chef d'État, de gouvernement et commandant en chef des armées)",
+            "election": "Suffrage universel direct à deux tours (exigence d'obtenir au moins 25% des voix dans au moins deux tiers des 36 États et FCT)",
+            "mandate": "4 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale du Nigéria (National Assembly)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (360 députés élus de circonscriptions fédérales)",
+            "upperHouse": "Sénat (109 sénateurs : 3 pour chacun des 36 États et 1 pour le Territoire d'Abuja)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire avec exigence de diffusion géographique",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Nigéria",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Premier géant démographique d'Afrique (plus de 220 millions d'habitants) et première puissance pétrolière du golfe de Guinée",
+            "organization": "36 États fédérés dotés de gouverneurs et parlements élus, plus le Territoire de la capitale fédérale (FCT)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (l'un des cinq plus grands contributeurs budgétaires permanents)",
+                "CEDEAO (siège de la Commission de la CEDEAO à Abuja, leader économique et militaire historique)",
+                "Commission du golfe de Guinée"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OPEP (membre historique depuis 1971)",
+                "Commonwealth of Nations",
+                "Organisation de la coopération islamique (OCI)",
+                "Partenaire des BRICS+ (statut de pays partenaire en 2024)"
+            ]
+        }
+    },
+    "RWA": {
+        "identity": {
+            "officialName": "République du Rwanda",
+            "capital": "Kigali",
+            "economicCapital": "—",
+            "independence": "1er juillet 1962 (de la tutelle belge)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 4 juin 2003 (amendée en 2015 et 2023)"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Rwanda",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct uninominal à un tour (majorité simple)",
+            "mandate": "5 ans (réduit de 7 à 5 ans après la révision de 2015)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Rwanda",
+            "structure": "Bicaméral (leader mondial de la parité politique avec plus de 60% de femmes députées)",
+            "lowerHouse": "Chambre des députés (80 sièges : 53 élus au suffrage direct, 24 réservés aux femmes, 2 aux jeunes et 1 aux handicapés)",
+            "upperHouse": "Sénat (26 sénateurs désignés et élus indirectement)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste bloquée avec seuil électoral de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Rwanda",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État des Grands Lacs d'Afrique centrale ('le Pays des mille collines', hub technologique et logistique régional)",
+            "organization": "4 provinces (Nord, Sud, Est, Ouest) et la ville de Kigali, subdivisées en 30 districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Communauté d'Afrique de l'Est (EAC)",
+                "CEEAC",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (l'un des plus grands contributeurs mondiaux aux casques bleus)",
+                "Commonwealth of Nations (adhésion en 2009 bien que jamais colonisé par les Britanniques)",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "STP": {
+        "identity": {
+            "officialName": "République démocratique de Sao Tomé-et-Principe",
+            "capital": "São Tomé",
+            "economicCapital": "—",
+            "independence": "12 juillet 1975 (du Portugal)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire insulaire avec région autonome",
+            "constitution": "Constitution du 5 novembre 1975 (révisée en 1990 et 2003)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Suffrage universel direct à deux tours (président) ; désigné selon la majorité parlementaire",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (55 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste bloquée (méthode d'Hondt)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême de justice"
+        },
+        "territory": {
+            "type": "Petit État archipélagique du golfe de Guinée (deux îles principales : São Tomé et Príncipe)",
+            "organization": "6 districts sur l'île de São Tomé et la Région autonome de Príncipe"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEEAC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Communauté des pays de langue portugaise (CPLP)",
+                "Organisation internationale de la Francophonie"
+            ]
+        }
+    },
+    "SEN": {
+        "identity": {
+            "officialName": "République du Sénégal",
+            "capital": "Dakar",
+            "economicCapital": "—",
+            "independence": "4 avril 1960 (signature des accords) ; 20 août 1960 (séparation de la Fédération du Mali)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 22 janvier 2001 (révisée en 2016 et 2019)"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Sénégal",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement, rétabli en 2021)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (165 députés : parité stricte homme-femme obligatoire sur les listes électorales)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours avec système de parrainage citoyen",
+            "legislativeSystem": "Système mixte (112 au scrutin majoritaire uninominal ou de liste départementale et 53 à la proportionnelle nationale)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel",
+            "highestJudicialInstitution": "Cour suprême du Sénégal"
+        },
+        "territory": {
+            "type": "Démocratie côtière d'Afrique de l'Ouest (capitale située sur la pointe des Almadies, point le plus occidental du continent africain)",
+            "organization": "14 régions subdivisées en départements et communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "UEMOA (siège de la Banque centrale des États de l'Afrique de l'Ouest - BCEAO à Dakar)",
+                "OMVS (siège à Dakar)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)",
+                "Modèle historique de tradition démocratique sans coup d'État militaire"
+            ]
+        }
+    },
+    "SYC": {
+        "identity": {
+            "officialName": "République des Seychelles",
+            "capital": "Victoria",
+            "economicCapital": "—",
+            "independence": "29 juin 1976 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire archipélagique",
+            "constitution": "Constitution de la IIIe République du 18 juin 1993"
+        },
+        "executive": {
+            "headOfState": "Président de la République des Seychelles",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (35 députés : 26 élus au suffrage direct et jusqu'à 9 à la proportionnelle)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (majoritaire uninominal et sièges compensatoires proportionnels avec seuil de 10%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle (composée de juges de la Cour suprême)",
+            "highestJudicialInstitution": "Cour d'appel des Seychelles"
+        },
+        "territory": {
+            "type": "État insulaire de l'océan Indien occidental (archipel de 115 îles granitiques et coralliennes, plus haut PIB par habitant d'Afrique)",
+            "organization": "26 districts administratifs"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Commission de l'océan Indien (COI)",
+                "SADC",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Organisation internationale de la Francophonie",
+                "AOSIS (pionnier mondial des obligations bleues et de la diplomatie des océans)"
+            ]
+        }
+    },
+    "SLE": {
+        "identity": {
+            "officialName": "République de Sierra Leone",
+            "capital": "Freetown",
+            "economicCapital": "—",
+            "independence": "27 avril 1961 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 1er octobre 1991"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Sierra Leone",
+            "headOfGovernment": "Président de la République (chef d'État, de gouvernement et commandant en chef)",
+            "election": "Suffrage universel direct à deux tours (avec seuil de 55% au premier tour)",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Sierra Leone",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement (149 députés : 135 élus au scrutin de liste et 14 chefs suprêmes traditionnels / Paramount Chiefs)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours (seuil de 55%)",
+            "legislativeSystem": "Scrutin proportionnel de liste avec seuil de 11,9%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Sierra Leone",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État côtier d'Afrique de l'Ouest riche en diamants, titane et bauxite",
+            "organization": "4 provinces et la zone occidentale (Freetown), subdivisées en 16 districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "Mano River Union (siège permanent à Freetown)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "SOM": {
+        "identity": {
+            "officialName": "République fédérale de Somalie",
+            "capital": "Mogadiscio",
+            "economicCapital": "—",
+            "independence": "1er juillet 1960 (union de l'ancienne Somalie britannique et de la Somalie sous tutelle italienne)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Parlementaire fédéral (système consociationnel fondé sur la formule clanique 4.5)",
+            "territorialOrganization": "État fédéral",
+            "constitution": "Constitution provisoire fédérale du 1er août 2012 (amendée en 2024)"
+        },
+        "executive": {
+            "headOfState": "Président de la République fédérale de Somalie",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu au suffrage indirect par les deux chambres du Parlement fédéral (réforme vers le suffrage universel direct initiée en 2024)",
+            "mandate": "4 ans (révisé à 5 ans en 2024)"
+        },
+        "legislative": {
+            "parliament": "Parlement fédéral de Somalie",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre du peuple (275 députés élus selon le modèle de collèges de délégués claniques)",
+            "upperHouse": "Sénat (54 sénateurs représentant les États membres fédérés)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement fédéral",
+            "legislativeSystem": "Système électoral indirect clanique complexe"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État maritime de la Corne de l'Afrique possédant la plus longue façade côtière d'Afrique continentale (plus de 3 000 km)",
+            "organization": "5 États membres fédérés (Galmudug, Hirshabelle, Jubaland, Sud-Ouest, Pountland) et la région de la capitale Banadir (le Somaliland ayant proclamé unilatéralement son indépendance non reconnue en 1991)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Ligue des États arabes",
+                "Communauté d'Afrique de l'Est (EAC - adhésion en 2023)",
+                "IGAD"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (accueillant l'ATMIS)",
+                "Organisation de la coopération islamique (OCI)",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "ZAF": {
+        "identity": {
+            "officialName": "République d'Afrique du Sud",
+            "capital": "Pretoria (capitale exécutive et administrative)",
+            "economicCapital": "Johannesburg (capitale économique, financière et boursière JSE) [Le Cap : capitale législative ; Bloemfontein : capitale judiciaire]",
+            "independence": "31 mai 1910 (Union sud-africaine) ; 27 avril 1994 (premières élections démocratiques multiraciales post-apartheid)"
+        },
+        "system": {
+            "stateForm": "République parlementaire",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire quasi-fédéral",
+            "constitution": "Constitution post-apartheid du 4 février 1997"
+        },
+        "executive": {
+            "headOfState": "Président de la République d'Afrique du Sud",
+            "headOfGovernment": "Président de la République (chef de l'État et du gouvernement, élu par le Parlement)",
+            "election": "Élu par l'Assemblée nationale parmi ses députés",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Parlement d'Afrique du Sud (siégeant au Cap)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (400 députés)",
+            "upperHouse": "Conseil national des provinces (NCOP - 90 membres représentant les 9 provinces)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par l'Assemblée nationale",
+            "legislativeSystem": "Scrutin proportionnel plurinominal pur de liste bloquée au niveau national et provincial"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle d'Afrique du Sud (siégeant à Constitution Hill à Johannesburg)",
+            "highestJudicialInstitution": "Cour constitutionnelle (pour toute question) et Cour suprême d'appel (Bloemfontein)"
+        },
+        "territory": {
+            "type": "Première puissance industrielle et financière du continent africain ('la Nation arc-en-ciel')",
+            "organization": "9 provinces dotées de législatures et de gouvernements provinciaux"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (moteur géopolitique et financier majeur)",
+                "SADC",
+                "SACU (siège historique)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "BRICS (membre historique fondateur de l'expansion du groupe)",
+                "G20 (seul membre permanent africain avant l'adhésion de l'UA)",
+                "Commonwealth of Nations",
+                "Pionnier du droit international devant la Cour internationale de justice (CIJ)"
+            ]
+        }
+    },
+    "SSD": {
+        "identity": {
+            "officialName": "République du Soudan du Sud",
+            "capital": "Djouba (Juba)",
+            "economicCapital": "—",
+            "independence": "9 juillet 2011 (du Soudan, à la suite d'un référendum d'autodétermination à 98,8% de oui, plus jeune État souverain au monde)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel sous gouvernement de transition d'unité nationale revitalisé (R-TGoNU)",
+            "territorialOrganization": "État fédéral",
+            "constitution": "Constitution transitoire du 9 juillet 2011 (amendée)"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Soudan du Sud",
+            "headOfGovernment": "Président de la République (assisté de 5 Vice-présidents représentant les factions de l'accord de paix)",
+            "election": "Désignation en vertu de l'Accord revitalisé de résolution du conflit (R-ARCSS)",
+            "mandate": "Période de transition prolongée jusqu'en 2026"
+        },
+        "legislative": {
+            "parliament": "Législature nationale de transition",
+            "structure": "Bicaméral de transition",
+            "lowerHouse": "Assemblée législative nationale de transition (550 membres nommés selon les quotas de l'accord de paix)",
+            "upperHouse": "Conseil des États (100 membres)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Premières élections générales post-indépendance reportées à fin 2026",
+            "legislativeSystem": "En attente de tenue des scrutins"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Soudan du Sud",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État enclavé d'Afrique de l'Est traversé par le Nil Blanc (immense marécage du Sudd et gisements pétroliers majeurs)",
+            "organization": "10 États fédérés et 3 zones administratives spéciales (Abyei, Pibor, Ruweng)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Communauté d'Afrique de l'Est (EAC - adhésion 2016)",
+                "IGAD"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (193e État membre admis en 2011, mission de maintien de la paix MINUSS)"
+            ]
+        }
+    },
+    "SDN": {
+        "identity": {
+            "officialName": "République du Soudan",
+            "capital": "Khartoum (Port-Soudan servant de siège temporaire de facto du gouvernement)",
+            "economicCapital": "—",
+            "independence": "1er janvier 1956 (du condominium anglo-égyptien)"
+        },
+        "system": {
+            "stateForm": "Régime de transition militaire en conflit civil",
+            "regime": "Conseil souverain de transition militaire (guerre civile entre les Forces armées soudanaises et les Forces de soutien rapide - FSR)",
+            "territorialOrganization": "État fédéral en crise profonde",
+            "constitution": "Charte constitutionnelle d'août 2019 (partiellement suspendue)"
+        },
+        "executive": {
+            "headOfState": "Président du Conseil souverain de transition (Commandant en chef des forces armées)",
+            "headOfGovernment": "Premier ministre par intérim",
+            "election": "Autorités militaires de facto",
+            "mandate": "Période de transition"
+        },
+        "legislative": {
+            "parliament": "Conseil législatif de transition (non constitué)",
+            "structure": "Monocaméral de transition (fonctions législatives exercées conjointement par le Conseil souverain)",
+            "lowerHouse": "—",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élections suspendues",
+            "legislativeSystem": "Élections suspendues"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême du Soudan"
+        },
+        "territory": {
+            "type": "Vaste État au confluent du Nil Blanc et du Nil Bleu riverain de la mer Rouge (3e plus vaste pays d'Afrique)",
+            "organization": "18 États (wilayat)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (participation suspendue après le coup d'État)",
+                "Ligue des États arabes",
+                "IGAD",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "TZA": {
+        "identity": {
+            "officialName": "République unie de Tanzanie",
+            "capital": "Dodoma (capitale politique, administrative et parlementaire)",
+            "economicCapital": "Dar es Salaam (capitale économique, financière, portuaire et plus grande métropole)",
+            "independence": "9 décembre 1961 (Tanganyika) ; 26 avril 1964 (Union entre le Tanganyika et la République populaire de Zanzibar)"
+        },
+        "system": {
+            "stateForm": "République unie",
+            "regime": "Présidentiel",
+            "territorialOrganization": "Union d'États avec gouvernement autonome de Zanzibar",
+            "constitution": "Constitution de la République unie de Tanzanie de 1977"
+        },
+        "executive": {
+            "headOfState": "Président de la République unie de Tanzanie",
+            "headOfGovernment": "Premier ministre (Chef des affaires parlementaires au sein du gouvernement de l'Union)",
+            "election": "Suffrage universel direct à un tour (majorité simple, avec colistier Vice-président)",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Bunge la Jamhuri ya Muungano)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (393 députés, dont 50 sièges réservés aux femmes et 5 délégués par la Chambre des représentants de Zanzibar)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post) et sièges réservés à la proportionnelle"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour d'appel de Tanzanie et Haute Cour",
+            "highestJudicialInstitution": "Cour d'appel de Tanzanie"
+        },
+        "territory": {
+            "type": "Grand État d'Afrique de l'Est (mont Kilimandjaro, archipel de Zanzibar, corridor maritime reliant les pays des Grands Lacs)",
+            "organization": "31 régions (26 sur la partie continentale et 5 à Zanzibar)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Communauté d'Afrique de l'Est (EAC - siège du Secrétariat général et de la Cour de justice à Arusha)",
+                "SADC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Mouvement des non-alignés",
+                "Cour africaine des droits de l'homme et des peuples (siège permanent à Arusha)"
+            ]
+        }
+    },
+    "TGO": {
+        "identity": {
+            "officialName": "République togolaise",
+            "capital": "Lomé",
+            "economicCapital": "—",
+            "independence": "27 avril 1960 (du mandat français sous tutelle de l'ONU)"
+        },
+        "system": {
+            "stateForm": "République parlementaire (Ve République)",
+            "regime": "Parlementaire (transition constitutionnelle majeure adoptée en mai 2024)",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution de la Ve République du 6 mai 2024"
+        },
+        "executive": {
+            "headOfState": "Président de la République (fonction honorifique et de garant de l'unité nationale)",
+            "headOfGovernment": "Président du Conseil des ministres (détenteur de la pleine autorité exécutive et de la conduite des affaires de la nation)",
+            "election": "Élu par le Parlement réuni en congrès (président) ; chef de la majorité parlementaire (Président du Conseil des ministres)",
+            "mandate": "4 ans (président) ; 6 ans (Président du Conseil des ministres)"
+        },
+        "legislative": {
+            "parliament": "Parlement togolais",
+            "structure": "Bicaméral (selon la Constitution de 2024)",
+            "lowerHouse": "Assemblée nationale (113 députés élus au suffrage universel direct)",
+            "upperHouse": "Sénat (deux tiers élus par les représentants des collectivités territoriales, un tiers nommé)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement réuni en congrès",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste bloquée au plus fort reste"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Couloir côtier d'Afrique de l'Ouest (port autonome de Lomé, unique port en eaux profondes naturel de la sous-région)",
+            "organization": "5 régions subdivisées en 39 préfectures et 117 communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "CEDEAO",
+                "UEMOA (siège de la Banque ouest-africaine de développement - BOAD à Lomé)",
+                "Conseil de l'Entente"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations (adhésion en 2022)",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "TUN": {
+        "identity": {
+            "officialName": "République tunisienne",
+            "capital": "Tunis",
+            "economicCapital": "—",
+            "independence": "20 mars 1956 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel fort (selon la Constitution de 2022)",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution de la IIIe République du 17 août 2022"
+        },
+        "executive": {
+            "headOfState": "Président de la République tunisienne",
+            "headOfGovernment": "Chef du gouvernement (nommé par le président sans approbation obligatoire du parlement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats consécutifs ou séparés)"
+        },
+        "legislative": {
+            "parliament": "Parlement tunisien",
+            "structure": "Bicaméral (selon la Constitution de 2022)",
+            "lowerHouse": "Assemblée des représentants du peuple (ARP - 161 députés)",
+            "upperHouse": "Conseil national des régions et des districts (77 membres élus au suffrage indirect)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours avec parrainages",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours sans liste partisane"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État maghrébin le plus septentrional d'Afrique (au centre du bassin méditerranéen)",
+            "organization": "24 gouvernorats regroupés en 5 districts économiques"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Ligue des États arabes (siège temporaire historique durant les années 1980)",
+                "Union du Maghreb arabe (UMA)",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)",
+                "Allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "UGA": {
+        "identity": {
+            "officialName": "République d'Ouganda",
+            "capital": "Kampala",
+            "economicCapital": "—",
+            "independence": "9 octobre 1962 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel fort",
+            "territorialOrganization": "État unitaire (avec reconnaissance culturelle des royaumes traditionnels dont le Buganda)",
+            "constitution": "Constitution du 8 octobre 1995 (amendée en 2005 et 2017)"
+        },
+        "executive": {
+            "headOfState": "Président de la République d'Ouganda",
+            "headOfGovernment": "Premier ministre (Chef de la coordination gouvernementale)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limitations d'âge et de mandats supprimées)"
+        },
+        "legislative": {
+            "parliament": "Parlement d'Ouganda",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement d'Ouganda (529 députés : 353 de circonscriptions, 146 femmes de districts et sièges pour l'armée, jeunes, travailleurs et personnes handicapées)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post) et sièges réservés"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour d'appel (siégeant en tant que Cour constitutionnelle)",
+            "highestJudicialInstitution": "Cour suprême d'Ouganda"
+        },
+        "territory": {
+            "type": "État enclavé d'Afrique de l'Est bordé par le lac Victoria ('la Perle de l'Afrique', nouveau producteur de pétrole via le lac Albert et l'oléoduc EACOP)",
+            "organization": "4 régions administratives et 136 districts plus la capitale Kampala"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "Communauté d'Afrique de l'Est (EAC)",
+                "IGAD",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Mouvement des non-alignés (présidence du sommet de 2024)",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "ZMB": {
+        "identity": {
+            "officialName": "République de Zambie",
+            "capital": "Lusaka",
+            "economicCapital": "—",
+            "independence": "24 octobre 1964 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 24 août 1991 (amendée en 1996 et 2016)"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Zambie",
+            "headOfGovernment": "Président de la République (chef d'État, de gouvernement et commandant en chef)",
+            "election": "Suffrage universel direct à deux tours (règle des 50% + 1 voix introduite en 2016)",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (167 députés : 156 élus de circonscriptions, 8 nommés par le président, plus le président de séance et vice-présidents)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours (seuil de 50% + 1)",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Zambie",
+            "highestJudicialInstitution": "Cour suprême de Zambie"
+        },
+        "territory": {
+            "type": "État enclavé d'Afrique australe réputé pour sa 'Copperbelt' (l'un des plus grands producteurs mondiaux de cuivre et de cobalt)",
+            "organization": "10 provinces subdivisées en districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "COMESA (siège permanent du Secrétariat général à Lusaka)",
+                "SADC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "ZWE": {
+        "identity": {
+            "officialName": "République du Zimbabwe",
+            "capital": "Harare",
+            "economicCapital": "—",
+            "independence": "18 avril 1980 (de l'autorité britannique, fin de l'ancienne Rhodésie du Sud)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 22 mai 2013"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Zimbabwe",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement, assisté de deux Vice-présidents)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Zimbabwe",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (280 députés : 210 de circonscriptions, 60 sièges réservés aux femmes et 10 aux jeunes)",
+            "upperHouse": "Sénat (80 sénateurs : 60 à la proportionnelle, 16 chefs coutumiers traditionnels et 2 représentants des handicapés)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à deux tours (seuil de 50% + 1 voix)",
+            "legislativeSystem": "Système mixte (uninominal majoritaire et listes proportionnelles provinciales pour les quotas)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle du Zimbabwe",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État enclavé entre le fleuve Zambèze et le fleuve Limpopo (chutes Victoria, premières réserves de lithium d'Afrique et platine)",
+            "organization": "8 provinces et 2 villes à statut provincial (Harare et Bulawayo)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine",
+                "SADC",
+                "COMESA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Mouvement des non-alignés",
+                "Processus de réintégration au Commonwealth en cours"
+            ]
+        }
+    },
+    "ESH": {
+        "identity": {
+            "officialName": "République arabe sahraouie démocratique (RASD) / Sahara occidental",
+            "capital": "Laâyoune (capitale proclamée) ; Tindouf (camps de réfugiés en Algérie, siège administratif des institutions du Front Polisario)",
+            "economicCapital": "—",
+            "independence": "27 février 1976 (proclamation par le Front Polisario après le retrait de l'Espagne)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel sous mouvement de libération nationale (Front Polisario)",
+            "territorialOrganization": "Territoire contesté non autonome selon l'ONU (80% sous contrôle administratif effectif du Maroc qui propose un plan d'autonomie sous souveraineté marocaine, 20% en 'zone libre' sous contrôle du Polisario)",
+            "constitution": "Constitution de la République arabe sahraouie démocratique de 1976 (révisée par les congrès du Polisario)"
+        },
+        "executive": {
+            "headOfState": "Président de la RASD et Secrétaire général du Front Polisario",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par le Congrès général populaire du Front Polisario",
+            "mandate": "3 à 4 ans (entre chaque congrès)"
+        },
+        "legislative": {
+            "parliament": "Conseil national sahraoui",
+            "structure": "Monocaméral",
+            "lowerHouse": "Conseil national sahraoui (53 membres élus au suffrage indirect dans les camps de réfugiés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le congrès du Front Polisario",
+            "legislativeSystem": "Scrutin indirect au sein des structures des camps"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel sahraoui",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Territoire saharien côtier atlantique riche en phosphates (Boukrâa) et en ressources halieutiques",
+            "organization": "Subdivision en daïras et wilayas (camps de réfugiés de Tindouf) et zones militaires"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Union africaine (membre de plein droit admis en 1982 sous l'OUA)"
+            ],
+            "internationalOrganizations": [
+                "Territoire non autonome inscrit sur la liste du Comité spécial de la décolonisation de l'ONU (accueillant la MINURSO)",
+                "Reconnue diplomatiquement par plusieurs dizaines d'États dans le monde (tandis que plus de 100 États soutiennent la souveraineté ou le plan d'autonomie marocain)"
+            ]
         }
     }
 }
