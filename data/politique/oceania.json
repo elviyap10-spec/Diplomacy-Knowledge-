@@ -1,1 +1,815 @@
-{}
+{
+    "AUS": {
+        "identity": {
+            "officialName": "Commonwealth d'Australie",
+            "capital": "Canberra",
+            "economicCapital": "—",
+            "independence": "1er janvier 1901 (fédération des six colonies) ; 9 octobre 1942 (adoption du Statut de Westminster rétroactive à 1939) ; 1986 (Australia Act)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle fédérale",
+            "regime": "Parlementaire (système de Westminster combiné au fédéralisme 'Washminster')",
+            "territorialOrganization": "État fédéral (6 États et 2 territoires continentaux)",
+            "constitution": "Constitution du Commonwealth d'Australie du 1er janvier 1901"
+        },
+        "executive": {
+            "headOfState": "Roi d'Australie (représenté par le Gouverneur général d'Australie)",
+            "headOfGovernment": "Premier ministre (Chef du cabinet fédéral)",
+            "election": "Succession héréditaire britannique (Roi) ; nomination par le Gouverneur général du chef de la majorité à la Chambre des représentants",
+            "mandate": "À la discrétion de la majorité (législature de 3 ans maximum)"
+        },
+        "legislative": {
+            "parliament": "Parlement fédéral d'Australie",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (151 députés)",
+            "upperHouse": "Sénat (76 sénateurs : 12 pour chacun des 6 États et 2 pour chaque territoire)"
+        },
+        "electoral": {
+            "votingAge": "18 ans (vote obligatoire sous peine d'amende)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Vote alternatif préférentiel uninominal (Chambre) et scrutin proportionnel à vote unique transférable (Sénat)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour d'Australie (High Court of Australia)",
+            "highestJudicialInstitution": "Haute Cour d'Australie"
+        },
+        "territory": {
+            "type": "État-continent insulaire entre les océans Indien et Pacifique (6e plus vaste pays au monde)",
+            "organization": "6 États fédérés dotés de leurs propres constitutions et gouvernements (Nouvelle-Galles du Sud, Victoria, Queensland, Australie-Méridionale, Australie-Occidentale, Tasmanie) et 2 territoires autonomes (ACT et Territoire du Nord)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "APEC",
+                "Quad (Dialogue quadrilatéral pour la sécurité avec États-Unis, Inde, Japon)",
+                "AUKUS (alliance de sécurité avec les États-Unis et le Royaume-Uni)",
+                "CPTPP (PTPGP)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre fondateur)",
+                "G20",
+                "OCDE",
+                "Commonwealth of Nations",
+                "Alliance des Five Eyes (renseignement)"
+            ]
+        }
+    },
+    "NZL": {
+        "identity": {
+            "officialName": "Nouvelle-Zélande (Aotearoa)",
+            "capital": "Wellington",
+            "economicCapital": "—",
+            "independence": "17 janvier 1853 (gouvernement autonome) ; 26 septembre 1907 (statut de dominion) ; 25 novembre 1947 (adoption du Statut de Westminster) ; 1986 (Constitution Act)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire (modèle de Westminster)",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution non codifiée (composée du Constitution Act 1986, du Traité de Waitangi de 1840, de lois fondamentales et de conventions constitutionnelles)"
+        },
+        "executive": {
+            "headOfState": "Roi de Nouvelle-Zélande (représenté par le Gouverneur général)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire britannique ; chef de la majorité parlementaire",
+            "mandate": "3 ans (durée de la législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Nouvelle-Zélande (Chambre des représentants)",
+            "structure": "Monocaméral (Conseil législatif supprimé en 1951)",
+            "lowerHouse": "Chambre des représentants (120 sièges au moins, dont 7 sièges réservés aux électeurs maoris)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel mixte (MMP : 72 députés de circonscription dont 7 maories, et 48 sièges compensatoires de liste avec seuil de 5%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Nouvelle-Zélande (créée en 2004 en remplacement du Conseil privé britannique)",
+            "highestJudicialInstitution": "Cour suprême de Nouvelle-Zélande"
+        },
+        "territory": {
+            "type": "État insulaire du sud-ouest du Pacifique (Île du Nord, Île du Sud et îles adjacentes)",
+            "organization": "16 régions administratives subdivisées en conseils territoriaux et districts (ainsi que les territoires associés des Îles Cook, Niue et Tokelau formant le Royaume de Nouvelle-Zélande)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "APEC",
+                "CPTPP (PTPGP)",
+                "Traité d'amitié historique avec les Samoa"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre fondateur)",
+                "Commonwealth of Nations",
+                "OCDE",
+                "Five Eyes",
+                "Pionnier mondial de la diplomatie anti-nucléaire (zone dénucléarisée depuis 1987)"
+            ]
+        }
+    },
+    "PNG": {
+        "identity": {
+            "officialName": "État indépendant de Papouasie-Nouvelle-Guinée",
+            "capital": "Port Moresby",
+            "economicCapital": "—",
+            "independence": "16 septembre 1975 (de l'Australie sous mandat ONU)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire avec région autonome (Bougainville)",
+            "constitution": "Constitution du 15 août 1975"
+        },
+        "executive": {
+            "headOfState": "Roi de Papouasie-Nouvelle-Guinée (représenté par le Gouverneur général)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Gouverneur général élu par le Parlement ; Premier ministre élu par le Parlement au sein de la majorité",
+            "mandate": "5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement national",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement national (118 députés : 96 députés de circonscriptions locales et 22 gouverneurs régionaux élus)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Vote alternatif limité préférentiel (LPV : l'électeur classe ses 3 candidats préférés)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de justice (exerce le contrôle constitutionnel exclusif)",
+            "highestJudicialInstitution": "Cour suprême de Papouasie-Nouvelle-Guinée"
+        },
+        "territory": {
+            "type": "Plus grand État insulaire du Pacifique Sud (moitié orientale de la Nouvelle-Guinée et archipels, pays à la plus grande diversité linguistique mondiale avec plus de 800 langues vivantes)",
+            "organization": "20 provinces, 1 région autonome (Bougainville, ayant voté pour l'indépendance par référendum en 2019) et le district de la capitale nationale"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Groupe Fer de lance mélanésien (MSG - siège à Port-Vila)",
+                "APEC (adhésion 1993)",
+                "ASEAN (statut d'observateur permanent spécial)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "OEACP"
+            ]
+        }
+    },
+    "FJI": {
+        "identity": {
+            "officialName": "République des Fidji",
+            "capital": "Suva",
+            "economicCapital": "—",
+            "independence": "10 octobre 1970 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire insulaire décentralisé",
+            "constitution": "Constitution du 6 septembre 2013"
+        },
+        "executive": {
+            "headOfState": "Président de la République des Fidji (fonction de chef de l'État constitutionnel)",
+            "headOfGovernment": "Premier ministre (détenteur de l'exécutif effectif)",
+            "election": "Élu par le Parlement sur proposition du Premier ministre et du chef de l'opposition ; Premier ministre issu de la majorité parlementaire",
+            "mandate": "3 ans renouvelable une fois (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement des Fidji",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement (55 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste ouverte dans une unique circonscription nationale avec seuil électoral de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême des Fidji",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Archipel mélanésien du Pacifique Sud (environ 330 îles dont Viti Levu et Vanua Levu)",
+            "organization": "4 divisions administratives subdivisées en 14 provinces et la dépendance autonome de Rotuma"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (siège permanent du Secrétariat du PIF à Suva)",
+                "Groupe Fer de lance mélanésien (MSG)",
+                "Communauté du Pacifique (CPS - antenne majeure)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (grand contributeur de casques bleus pour les opérations de paix)",
+                "Commonwealth of Nations",
+                "Pionnier de la diplomatie climatique mondiale (présidence de la COP23)"
+            ]
+        }
+    },
+    "SLB": {
+        "identity": {
+            "officialName": "Îles Salomon (Solomon Islands)",
+            "capital": "Honiara",
+            "economicCapital": "—",
+            "independence": "7 juillet 1978 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 7 juillet 1978"
+        },
+        "executive": {
+            "headOfState": "Roi des Îles Salomon (représenté par le Gouverneur général)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Gouverneur général élu par le Parlement ; Premier ministre élu par les parlementaires",
+            "mandate": "5 ans (Gouverneur général) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement national",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement national (50 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour des Îles Salomon",
+            "highestJudicialInstitution": "Cour d'appel des Îles Salomon"
+        },
+        "territory": {
+            "type": "Archipel mélanésien de près de 1 000 îles (site historique de la bataille de Guadalcanal)",
+            "organization": "9 provinces et le Territoire de la capitale (Honiara)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Groupe Fer de lance mélanésien (MSG)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Pivot géopolitique régional (accord de sécurité bilatéral signé avec la Chine en 2022)"
+            ]
+        }
+    },
+    "VUT": {
+        "identity": {
+            "officialName": "République de Vanuatu",
+            "capital": "Port-Vila",
+            "economicCapital": "—",
+            "independence": "30 juillet 1980 (fin du condominium franco-britannique des Nouvelles-Hébrides)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 30 juillet 1980"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Vanuatu (fonction représentative et symbole de l'unité)",
+            "headOfGovernment": "Premier ministre (détenteur du pouvoir exécutif)",
+            "election": "Élu au scrutin secret par un collège électoral (Parlement et présidents des conseils provinciaux) à la majorité des deux tiers ; Premier ministre élu par le Parlement",
+            "mandate": "5 ans (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Vanuatu",
+            "structure": "Monocaméral (assisté du Conseil national des chefs coutumiers Malvatumauri)",
+            "lowerHouse": "Parlement (52 députés)",
+            "upperHouse": "Malvatumauri (Conseil consultatif coutumier traditionnel)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par collège électoral",
+            "legislativeSystem": "Système de vote unique non transférable (SNTV) dans des circonscriptions plurinominales et uninominales"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Vanuatu (compétente en matière constitutionnelle)",
+            "highestJudicialInstitution": "Cour d'appel de Vanuatu"
+        },
+        "territory": {
+            "type": "Archipel mélanésien volcanique en forme de 'Y' (83 îles)",
+            "organization": "6 provinces (Malampa, Penama, Sanma, Shefa, Tafea, Torba) et 2 municipalités (Port-Vila et Luganville)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Groupe Fer de lance mélanésien (siège du Secrétariat général à Port-Vila)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (initiateur de la résolution historique demandant l'avis consultatif de la CIJ sur les obligations climatiques des États)",
+                "Commonwealth of Nations",
+                "Organisation internationale de la Francophonie (seul État souverain bilingue anglais-français d'Océanie)"
+            ]
+        }
+    },
+    "WSM": {
+        "identity": {
+            "officialName": "État indépendant de Samoa",
+            "capital": "Apia",
+            "economicCapital": "—",
+            "independence": "1er janvier 1962 (de la Nouvelle-Zélande sous mandat ONU, premier État insulaire du Pacifique à recouvrer sa souveraineté au XXe siècle)"
+        },
+        "system": {
+            "stateForm": "Monarchie républicaine parlementaire coutumière",
+            "regime": "Parlementaire (système démocratique fondé sur les coutumes du Fa'amatai)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 1er janvier 1962"
+        },
+        "executive": {
+            "headOfState": "Chef de l'État (O le Ao o le Malo)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par l'Assemblée législative parmi les chefs coutumiers suprêmes (Tama-a-'Aiga) ; Premier ministre désigné par la majorité parlementaire",
+            "mandate": "5 ans (renouvelable une fois pour le Chef de l'État) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée législative (Fono)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Fono (51 députés : les candidats doivent impérativement détenir le titre coutumier de Matai, avec un quota garanti de 10% de femmes)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "21 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post) au sein des circonscriptions territoriales"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Samoa",
+            "highestJudicialInstitution": "Cour d'appel de Samoa"
+        },
+        "territory": {
+            "type": "Archipel polynésien (deux îles principales : Upolu et Savai'i)",
+            "organization": "11 districts politiques traditionnels (itūmālō)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Communauté du Pacifique (CPS)",
+                "Programme régional océanien de l'environnement (PROE - siège à Apia)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations (hôte du sommet des chefs de gouvernement du Commonwealth - CHOGM 2024)",
+                "OEACP"
+            ]
+        }
+    },
+    "TON": {
+        "identity": {
+            "officialName": "Royaume des Tonga",
+            "capital": "Nuku'alofa",
+            "economicCapital": "—",
+            "independence": "4 juin 1970 (fin du statut d'État protégé du Royaume-Uni ; seule monarchie d'Océanie n'ayant jamais perdu sa souveraineté autochtone)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Monarchie parlementaire (réforme démocratique majeure de 2010)",
+            "territorialOrganization": "État unitaire insulaire",
+            "constitution": "Constitution des Tonga du 4 novembre 1875 (amendée en 2010)"
+        },
+        "executive": {
+            "headOfState": "Roi des Tonga (Tu'i Tonga de la dynastie Tupou)",
+            "headOfGovernment": "Premier ministre (détenteur de l'exécutif civil)",
+            "election": "Succession héréditaire de primogéniture masculine ; Premier ministre élu par l'Assemblée législative et confirmé par le Roi",
+            "mandate": "À vie (Roi) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée législative (Fale Alea)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Fale Alea (26 députés : 17 représentants du peuple élus au suffrage universel direct et 9 représentants de la noblesse élus par les 33 pairs nobles héréditaires)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "21 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post) pour les représentants du peuple"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême et Conseil privé du Roi",
+            "highestJudicialInstitution": "Cour d'appel des Tonga"
+        },
+        "territory": {
+            "type": "Archipel polynésien composé de 169 îles réparties en 3 groupes principaux (Tongatapu, Ha'apai, Vava'u)",
+            "organization": "5 divisions administratives (Tongatapu, Vava'u, Ha'apai, 'Eua, Ongo Niua)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF - présidence du 53e sommet des dirigeants du PIF en 2024)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1999)",
+                "Commonwealth of Nations"
+            ]
+        }
+    },
+    "FSM": {
+        "identity": {
+            "officialName": "États fédérés de Micronésie",
+            "capital": "Palikir (sur l'île de Pohnpei)",
+            "economicCapital": "—",
+            "independence": "3 novembre 1986 (entrée en vigueur du Traité de libre association avec les États-Unis après la fin de la tutelle de l'ONU)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Présidentiel fédéral",
+            "territorialOrganization": "Fédération de 4 États insulaires",
+            "constitution": "Constitution du 10 mai 1979"
+        },
+        "executive": {
+            "headOfState": "Président des États fédérés de Micronésie",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement, assisté d'un Vice-président)",
+            "election": "Élu par le Congrès parmi ses 4 sénateurs à mandat de quatre ans (représentants de chaque État) ; rotation coutumière informelle entre les 4 États",
+            "mandate": "4 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Congrès des États fédérés de Micronésie",
+            "structure": "Monocaméral",
+            "lowerHouse": "Congrès (14 sénateurs sans étiquette partisane : 4 sénateurs généraux représentant les États pour 4 ans, et 10 sénateurs de districts de population pour 2 ans)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (sans partis politiques officiels)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême des États fédérés de Micronésie (Appellate Division)",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Archipel de 607 îles dans l'archipel des Carolines en Micronésie s'étendant sur près de 3 millions de km² d'océan",
+            "organization": "4 États fédérés dotés de leurs propres constitutions et gouverneurs (Yap, Chuuk, Pohnpei, Kosrae)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1991)",
+                "Traité de libre association (Compact of Free Association - COFA) renouvelé avec les États-Unis (défense et sécurité assurées par Washington)",
+                "Alliance des petits États insulaires (AOSIS)"
+            ]
+        }
+    },
+    "PLW": {
+        "identity": {
+            "officialName": "République des Palaos (Belau)",
+            "capital": "Ngerulmud (capitale administrative depuis 2006 dans l'État de Melekeok)",
+            "economicCapital": "Koror (ancienne capitale, centre commercial, touristique et démographique)",
+            "independence": "1er octobre 1994 (fin de la tutelle des Nations unies sous administration américaine, dernier territoire sous tutelle de l'ONU à devenir indépendant)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "Fédération de 16 États traditionnels",
+            "constitution": "Constitution du 1er janvier 1981 (première constitution dénucléarisée au monde)"
+        },
+        "executive": {
+            "headOfState": "Président de la République des Palaos",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement, assisté d'un Vice-président)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "4 ans (renouvelable une seule fois consécutivement)"
+        },
+        "legislative": {
+            "parliament": "Congrès national des Palaos (Olbiil Era Kelulau - OEK)",
+            "structure": "Bicaméral (assisté du Conseil traditionnel des chefs / Council of Chiefs)",
+            "lowerHouse": "Chambre des délégués (16 délégués : 1 pour chacun des 16 États)",
+            "upperHouse": "Sénat (13 sénateurs élus au scrutin national)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin majoritaire plurinominal (Sénat) et uninominal à un tour (Chambre des délégués)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême des Palaos (Appellate Division)",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Archipel de plus de 300 îles et atolls en Micronésie occidentale (pionnier mondial des réserves marines intégrales et du serment écologique 'Palau Pledge')",
+            "organization": "16 États traditionnels dotés de constitutions, gouverneurs et législatures propres"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Compact of Free Association (COFA) avec les États-Unis",
+                "L'un des rares États au monde maintenant des relations diplomatiques officielles avec Taïwan"
+            ]
+        }
+    },
+    "MHL": {
+        "identity": {
+            "officialName": "République des Îles Marshall",
+            "capital": "Delap-Uliga-Djarrit (atoll de Majuro)",
+            "economicCapital": "—",
+            "independence": "21 octobre 1986 (entrée en vigueur du Traité de libre association avec les États-Unis)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire insulaire décentralisé",
+            "constitution": "Constitution du 1er mai 1979"
+        },
+        "executive": {
+            "headOfState": "Président de la République des Îles Marshall",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement, élu parmi les parlementaires)",
+            "election": "Élu par les membres de la Nitijeļā (Parlement)",
+            "mandate": "4 ans"
+        },
+        "legislative": {
+            "parliament": "Législature des Îles Marshall (Nitijeļā)",
+            "structure": "Monocaméral (assisté de la Chambre consultative des chefs coutumiers traditionnels, le Conseil des Iroij)",
+            "lowerHouse": "Nitijeļā (33 députés élus)",
+            "upperHouse": "Conseil des Iroij (12 chefs coutumiers consultés sur les questions de terres et de coutumes)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin uninominal et plurinominal majoritaire dans 24 circonscriptions électorales correspondant aux atolls habités"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême des Îles Marshall",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État corallien composé de 29 atolls et 5 îles isolées (atoll de Bikini et Eniwetok, sites des essais nucléaires historiques américains, et base stratégique américaine de Kwajalein)",
+            "organization": "24 gouvernements municipaux d'atolls (conseils locaux)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1991)",
+                "Compact of Free Association (COFA) avec les États-Unis",
+                "Grand pavillon maritime mondial (2e flotte marchande sous pavillon au monde)",
+                "Relations diplomatiques officielles avec Taïwan"
+            ]
+        }
+    },
+    "KIR": {
+        "identity": {
+            "officialName": "République des Kiribati",
+            "capital": "Tarawa-Sud (South Tarawa)",
+            "economicCapital": "—",
+            "independence": "12 juillet 1979 (du Royaume-Uni, anciennes îles Gilbert)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 12 juillet 1979"
+        },
+        "executive": {
+            "headOfState": "Président de la République des Kiribati (Beretitenti)",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement, assisté du Kauoman-ni-Beretitenti / Vice-président)",
+            "election": "Parlementaires sélectionnent 3 ou 4 candidats parmi eux, puis élection au suffrage universel direct au scrutin uninominal majoritaire à un tour",
+            "mandate": "4 ans (limité à 3 mandats consécutifs ou non)"
+        },
+        "legislative": {
+            "parliament": "Maneaba ni Maungatabu (Chambre de l'Assemblée)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Maneaba ni Maungatabu (45 députés : 44 élus au suffrage direct et 1 représentant nommé par la communauté de l'île de Banaba déplacée aux Fidji)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Suffrage universel direct parmi des candidats pré-sélectionnés par le Parlement",
+            "legislativeSystem": "Scrutin majoritaire à deux tours dans des circonscriptions uninominales et plurinominales (système Borda modifié)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour des Kiribati (High Court)",
+            "highestJudicialInstitution": "Cour d'appel des Kiribati"
+        },
+        "territory": {
+            "type": "État archipélagique composé de 33 atolls et récifs coralliens chevauchant les 4 hémisphères (nord, sud, est, ouest) et s'étendant sur 3,5 millions de km² d'océan Pacifique",
+            "organization": "3 archipels géographiques (îles Gilbert, îles de la Ligne, îles Phœnix) subdivisés en conseils d'îles"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1999)",
+                "Commonwealth of Nations",
+                "AOSIS (État en première ligne face à l'élévation du niveau de la mer et aux submersions marines)"
+            ]
+        }
+    },
+    "NRU": {
+        "identity": {
+            "officialName": "République de Nauru",
+            "capital": "Yaren (siège du Parlement et capitale de facto ; Nauru n'a pas de capitale officielle)",
+            "economicCapital": "—",
+            "independence": "31 janvier 1968 (de la tutelle conjointe Australie, Nouvelle-Zélande, Royaume-Uni administrée par l'Australie)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire insulaire",
+            "constitution": "Constitution du 29 janvier 1968"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Nauru",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement)",
+            "election": "Élu par le Parlement parmi ses 19 députés",
+            "mandate": "3 ans (durée de la législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Nauru",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement de Nauru (19 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "20 ans (vote obligatoire sous peine d'amende)",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin préférentiel de type méthode Dowdall (variante du décompte Borda dans 8 circonscriptions plurinominales)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Nauru",
+            "highestJudicialInstitution": "Cour suprême (et Cour d'appel créée en 2018 après rupture des liens avec la Haute Cour d'Australie)"
+        },
+        "territory": {
+            "type": "Plus petite république indépendante au monde et 3e plus petit État en superficie après le Vatican et Monaco (île corallienne isolée de 21 km²)",
+            "organization": "14 districts administratifs traditionnels"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1999)",
+                "Commonwealth of Nations",
+                "Bascule diplomatique majeure vers Pékin actée en janvier 2024"
+            ]
+        }
+    },
+    "TUV": {
+        "identity": {
+            "officialName": "Tuvalu",
+            "capital": "Funafuti (le village de Vaiaku sur l'îlot de Fongafale abritant les bâtiments gouvernementaux)",
+            "economicCapital": "—",
+            "independence": "1er octobre 1978 (du Royaume-Uni, anciennes îles Ellice séparées des îles Gilbert)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire insulaire décentralisé",
+            "constitution": "Constitution du 1er octobre 1978 (révisée en 2023 pour affirmer la pérennité de l'État même en cas de submersion territoriale totale)"
+        },
+        "executive": {
+            "headOfState": "Roi des Tuvalu (représenté par le Gouverneur général)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Gouverneur général nommé par le Roi sur avis du Premier ministre ; Premier ministre élu par les 16 parlementaires",
+            "mandate": "4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement des Tuvalu (Fale i Fono)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Fale i Fono (16 députés élus sans affiliation partisane)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin majoritaire plurinominal (2 députés pour chacun des 7 atolls peuplés et 1 pour la petite île de Niulakita)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour des Tuvalu",
+            "highestJudicialInstitution": "Cour d'appel des Tuvalu"
+        },
+        "territory": {
+            "type": "Micro-État corallien composé de 9 atolls et récifs bas (altitude moyenne inférieure à 2 mètres, détenteur du domaine internet souverain '.tv')",
+            "organization": "9 conseils locaux d'atolls (Falekaupule)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (PIF)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 2000)",
+                "Commonwealth of Nations",
+                "Traité Falepili de 2023 signé avec l'Australie (accord bilatéral de sécurité et voie d'accès climatique pour les citoyens tuvaluans)",
+                "Maintien de relations diplomatiques officielles avec Taïwan"
+            ]
+        }
+    },
+    "NCL": {
+        "identity": {
+            "officialName": "Nouvelle-Calédonie",
+            "capital": "Nouméa",
+            "economicCapital": "—",
+            "independence": "— (Collectivité sui generis française régie par l'Accord de Nouméa de 1998, inscrite sur la liste des territoires non autonomes de l'ONU)"
+        },
+        "system": {
+            "stateForm": "Collectivité d'outre-mer sui generis française à large autonomie",
+            "regime": "Parlementaire collégial",
+            "territorialOrganization": "Collectivité territoriale décentralisée divisée en trois provinces",
+            "constitution": "Titre XIII de la Constitution de la République française et Loi organique de 1999"
+        },
+        "executive": {
+            "headOfState": "Président de la République française (représenté par le Haut-commissaire de la République)",
+            "headOfGovernment": "Président du gouvernement de la Nouvelle-Calédonie",
+            "election": "Gouvernement collégial élu par le Congrès à la proportionnelle de liste ; président élu par les membres du gouvernement",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Congrès de la Nouvelle-Calédonie",
+            "structure": "Monocaméral (assisté du Sénat coutumier composé de 16 membres représentant les 8 aires coutumières kanakes)",
+            "lowerHouse": "Congrès (54 membres issus des trois assemblées provinciales)",
+            "upperHouse": "Sénat coutumier (chambre consultative pour l'identité kanake)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel de liste à la plus forte moyenne dans les provinces avec corps électoral spécial restreint"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel et Conseil d'État français",
+            "highestJudicialInstitution": "Cour de cassation française"
+        },
+        "territory": {
+            "type": "Archipel mélanésien riche en nickel (Grande Terre, îles Loyauté, île des Pins, détenant plus de 20% des réserves mondiales de nickel)",
+            "organization": "3 provinces (Province Sud, Province Nord, Province des îles Loyauté)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (membre de plein droit admis en 2016)",
+                "Communauté du Pacifique (CPS - siège permanent historique à Nouméa)"
+            ],
+            "internationalOrganizations": [
+                "Territoire non autonome selon le Comité de décolonisation de l'ONU (C24)",
+                "Représenté au niveau international et sécuritaire par la France"
+            ]
+        }
+    },
+    "PYF": {
+        "identity": {
+            "officialName": "Polynésie française",
+            "capital": "Papeete (sur l'île de Tahiti)",
+            "economicCapital": "—",
+            "independence": "— (Collectivité d'outre-mer française dotée d'un statut d'autonomie particulière sous la dénomination de 'Pays d'outre-mer')"
+        },
+        "system": {
+            "stateForm": "Collectivité d'outre-mer (COM) de la République française",
+            "regime": "Parlementaire",
+            "territorialOrganization": "Collectivité autonome",
+            "constitution": "Article 74 de la Constitution de la République française et Statut d'autonomie organique de 2004"
+        },
+        "executive": {
+            "headOfState": "Président de la République française (représenté par le Haut-commissaire de la République)",
+            "headOfGovernment": "Président de la Polynésie française",
+            "election": "Élu par l'Assemblée de la Polynésie française au scrutin secret",
+            "mandate": "5 ans (limité à deux mandats consécutifs)"
+        },
+        "legislative": {
+            "parliament": "Assemblée de la Polynésie française",
+            "structure": "Monocaméral (assisté du Conseil économique, social, environnemental et culturel - CESEC)",
+            "lowerHouse": "Assemblée de la Polynésie française (57 représentants élus)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste à deux tours avec prime majoritaire d'un tiers dans une circonscription unique divisée en 8 sections"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel et Conseil d'État français",
+            "highestJudicialInstitution": "Cour de cassation française"
+        },
+        "territory": {
+            "type": "Vaste espace maritime polynésien de 118 îles réparties sur 5 archipels couvrant une zone économique exclusive de 4,7 millions de km²",
+            "organization": "5 archipels (îles de la Société, Tuamotu, Gambier, îles Australes, îles Marquises) regroupés en 48 communes"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum des îles du Pacifique (membre de plein droit admis en 2016)",
+                "Communauté du Pacifique (CPS)"
+            ],
+            "internationalOrganizations": [
+                "Inscrite sur la liste des territoires non autonomes de l'ONU en 2013",
+                "Représentée sur la scène diplomatique régalienne par la France"
+            ]
+        }
+    }
+}
