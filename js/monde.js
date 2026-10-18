@@ -33,10 +33,88 @@ const countryStyle = {
 
 
 // ========================================
-// 3. VARIABLES
+// 3. VARIABLES & DICTIONNAIRES
 // ========================================
 
 let countriesLayer = null;
+let selectedLayer = null;
+
+// Corrections des codes ISO cassés (-99) dans le GeoJSON
+const ISO_FIXES = {
+    "France": "FRA",
+    "Norway": "NOR",
+    "Kosovo": "XKX",
+    "Somaliland": "SOM",
+    "N. Cyprus": "CYP"
+};
+
+// Dictionnaire des noms courants en français
+const COUNTRY_NAMES_FR = {
+    "AFG": "Afghanistan", "ALB": "Albanie", "DZA": "Algérie", "AND": "Andorre", "AGO": "Angola",
+    "ATG": "Antigua-et-Barbuda", "ARG": "Argentine", "ARM": "Arménie", "AUS": "Australie", "AUT": "Autriche",
+    "AZE": "Azerbaïdjan", "BHS": "Bahamas", "BHR": "Bahreïn", "BGD": "Bangladesh", "BRB": "Barbade",
+    "BLR": "Biélorussie", "BEL": "Belgique", "BLZ": "Belize", "BEN": "Bénin", "BTN": "Bhoutan",
+    "BOL": "Bolivie", "BIH": "Bosnie-Herzégovine", "BWA": "Botswana", "BRA": "Brésil", "BRN": "Brunei",
+    "BGR": "Bulgarie", "BFA": "Burkina Faso", "BDI": "Burundi", "CPV": "Cap-Vert", "KHM": "Cambodge",
+    "CMR": "Cameroun", "CAN": "Canada", "CAF": "Centrafrique", "TCD": "Tchad", "CHL": "Chili",
+    "CHN": "Chine", "COL": "Colombie", "COM": "Comores", "COG": "Congo (Brazzaville)", "COD": "RD Congo",
+    "CRI": "Costa Rica", "CIV": "Côte d'Ivoire", "HRV": "Croatie", "CUB": "Cuba", "CYP": "Chypre",
+    "CZE": "Tchéquie", "DNK": "Danemark", "DJI": "Djibouti", "DMA": "Dominique", "DOM": "République dominicaine",
+    "ECU": "Équateur", "EGY": "Égypte", "SLV": "Salvador", "GNQ": "Guinée équatoriale", "ERI": "Érythrée",
+    "EST": "Estonie", "SWZ": "Eswatini", "ETH": "Éthiopie", "FJI": "Fidji", "FIN": "Finlande",
+    "FRA": "France", "GAB": "Gabon", "GMB": "Gambie", "GEO": "Géorgie", "DEU": "Allemagne",
+    "GHA": "Ghana", "GRC": "Grèce", "GRD": "Grenade", "GTM": "Guatemala", "GIN": "Guinée",
+    "GNB": "Guinée-Bissau", "GUY": "Guyana", "HTI": "Haïti", "HND": "Honduras", "HUN": "Hongrie",
+    "ISL": "Islande", "IND": "Inde", "IDN": "Indonésie", "IRN": "Iran", "IRQ": "Irak",
+    "IRL": "Irlande", "ISR": "Israël", "ITA": "Italie", "JAM": "Jamaïque", "JPN": "Japon",
+    "JOR": "Jordanie", "KAZ": "Kazakhstan", "KEN": "Kenya", "KIR": "Kiribati", "PRK": "Corée du Nord",
+    "KOR": "Corée du Sud", "KWT": "Koweït", "KGZ": "Kirghizistan", "LAO": "Laos", "LVA": "Lettonie",
+    "LBN": "Liban", "LSO": "Lesotho", "LBR": "Libéria", "LBY": "Libye", "LIE": "Liechtenstein",
+    "LTU": "Lituanie", "LUX": "Luxembourg", "MDG": "Madagascar", "MWI": "Malawi", "MYS": "Malaisie",
+    "MDV": "Maldives", "MLI": "Mali", "MLT": "Malte", "MHL": "Îles Marshall", "MRT": "Mauritanie",
+    "MUS": "Maurice", "MEX": "Mexique", "FSM": "Micronésie", "MDA": "Moldavie", "MCO": "Monaco",
+    "MNG": "Mongolie", "MNE": "Monténégro", "MAR": "Maroc", "MOZ": "Mozambique", "MMR": "Birmanie (Myanmar)",
+    "NAM": "Namibie", "NRU": "Nauru", "NPL": "Népal", "NLD": "Pays-Bas", "NZL": "Nouvelle-Zélande",
+    "NIC": "Nicaragua", "NER": "Niger", "NGA": "Nigéria", "MKD": "Macédoine du Nord", "NOR": "Norvège",
+    "OMN": "Oman", "PAK": "Pakistan", "PLW": "Palaos", "PSE": "Palestine", "PAN": "Panama",
+    "PNG": "Papouasie-Nouvelle-Guinée", "PRY": "Paraguay", "PER": "Pérou", "PHL": "Philippines", "POL": "Pologne",
+    "PRT": "Portugal", "QAT": "Qatar", "ROU": "Roumanie", "RUS": "Russie", "RWA": "Rwanda",
+    "KNA": "Saint-Christophe-et-Niévès", "LCA": "Sainte-Lucie", "VCT": "Saint-Vincent-et-les-Grenadines", "WSM": "Samoa", "SMR": "Saint-Marin",
+    "STP": "Sao Tomé-et-Principe", "SAU": "Arabie saoudite", "SEN": "Sénégal", "SRB": "Serbie", "SYC": "Seychelles",
+    "SLE": "Sierra Leone", "SGP": "Singapour", "SVK": "Slovaquie", "SVN": "Slovénie", "SLB": "Îles Salomon",
+    "SOM": "Somalie", "ZAF": "Afrique du Sud", "SSD": "Soudan du Sud", "ESP": "Espagne", "LKA": "Sri Lanka",
+    "SDN": "Soudan", "SUR": "Suriname", "SWE": "Suède", "CHE": "Suisse", "SYR": "Syrie",
+    "TWN": "Taïwan", "TJK": "Tadjikistan", "TZA": "Tanzanie", "THA": "Thaïlande", "TLS": "Timor oriental",
+    "TGO": "Togo", "TON": "Tonga", "TTO": "Trinité-et-Tobago", "TUN": "Tunisie", "TUR": "Turquie",
+    "TKM": "Turkménistan", "TUV": "Tuvalu", "UGA": "Ouganda", "UKR": "Ukraine", "ARE": "Émirats arabes unis",
+    "GBR": "Royaume-Uni", "USA": "États-Unis", "URY": "Uruguay", "UZB": "Ouzbékistan", "VUT": "Vanuatu",
+    "VAT": "Vatican", "VEN": "Venezuela", "VNM": "Viêt Nam", "YEM": "Yémen", "ZMB": "Zambie",
+    "ZWE": "Zimbabwe", "XKX": "Kosovo", "ESH": "Sahara occidental", "NCL": "Nouvelle-Calédonie", "PYF": "Polynésie française"
+};
+
+// Aliases et synonymes de recherche courants
+const COUNTRY_ALIASES = {
+    "USA": ["Etats-Unis", "Amérique", "America", "US", "USA", "United States"],
+    "GBR": ["Angleterre", "Grande-Bretagne", "UK", "Britain", "England", "Royaume Uni"],
+    "NLD": ["Hollande", "Holland", "Pays Bas", "Netherlands"],
+    "ARE": ["Emirats", "UAE", "Dubai", "Dubaï", "Abou Dabi", "Abu Dhabi"],
+    "DEU": ["Allemagne", "Germany", "Deutschland"],
+    "RUS": ["Russie", "Russia", "URSS"],
+    "MMR": ["Birmanie", "Burma", "Myanmar"],
+    "KOR": ["Corée", "Corée du Sud", "South Korea"],
+    "PRK": ["Corée du Nord", "North Korea"],
+    "COD": ["Congo Kinshasa", "RDC", "Zaire", "Zaïre"],
+    "COG": ["Congo Brazzaville"],
+    "CIV": ["Cote d'Ivoire", "Ivory Coast"],
+    "CAF": ["Centrafrique", "RCA"],
+    "SWZ": ["Swaziland"],
+    "CZE": ["République tchèque", "Tchéquie", "Czechia"],
+    "MKD": ["Macédoine"],
+    "TLS": ["Timor-Leste", "Timor"],
+    "CPV": ["Cabo Verde", "Cap-Vert"],
+    "FSM": ["Micronesie"],
+    "VAT": ["Saint-Siège", "Saint Siege"]
+};
 
 
 // ========================================
@@ -44,16 +122,16 @@ let countriesLayer = null;
 // ========================================
 
 function highlightCountry(event) {
-
     const layer = event.target;
-
+    if (selectedLayer && layer === selectedLayer) {
+        return;
+    }
     layer.setStyle({
         weight: 2,
         color: "#ffffff",
         fillColor: "#315d78",
         fillOpacity: 0.85
     });
-
     layer.bringToFront();
 }
 
@@ -63,9 +141,11 @@ function highlightCountry(event) {
 // ========================================
 
 function resetCountry(event) {
-
-    countriesLayer.resetStyle(event.target);
-
+    const layer = event.target;
+    if (selectedLayer && layer === selectedLayer) {
+        return;
+    }
+    countriesLayer.resetStyle(layer);
 }
 
 
@@ -74,77 +154,43 @@ function resetCountry(event) {
 // ========================================
 
 function selectCountry(event) {
-
     const layer = event.target;
+    const properties = layer.feature.properties;
+    const name = properties.name || "Pays non identifié";
 
-    const properties =
-        layer.feature.properties;
-
-    const name =
-        properties.name ||
-        "Pays non identifié";
-
-    // Certains pays ont un code ISO cassé ("-99") dans le
-    // jeu de données géographiques utilisé pour la carte.
-    // On corrige les cas connus ici.
-    const ISO_FIXES = {
-        "France": "FRA",
-        "Norway": "NOR",
-        "Kosovo": "XKX",
-        "Somaliland": "SOM",
-        "N. Cyprus": "CYP"
-    };
-
-    let iso3 =
-        properties["ISO3166-1-Alpha-3"];
-
+    let iso3 = properties["ISO3166-1-Alpha-3"];
     if (!iso3 || iso3 === "-99") {
         iso3 = ISO_FIXES[name] || iso3;
     }
 
+    // Mise en valeur active persistante sur la carte (contour doré)
+    if (selectedLayer && selectedLayer !== layer) {
+        countriesLayer.resetStyle(selectedLayer);
+    }
+    selectedLayer = layer;
+    layer.setStyle({
+        weight: 2.5,
+        color: "#D9AF5E",
+        fillColor: "#3d6d8d",
+        fillOpacity: 0.95
+    });
+    layer.bringToFront();
 
-    console.log(
-        "Pays sélectionné :",
-        name,
-        "ISO :",
-        iso3
-    );
+    console.log("Pays sélectionné :", name, "ISO :", iso3);
 
+    const countryData = politicalData[iso3];
+    const frenchTitle = COUNTRY_NAMES_FR[iso3] || (countryData && countryData.identity && countryData.identity.officialName) || name;
 
-    // ========================================
-    // RÉCUPÉRER LES DONNÉES POLITIQUES
-    // ========================================
-
-    const countryData =
-        politicalData[iso3];
-
-
-    // ========================================
-    // OUVRIR LE PANNEAU
-    // ========================================
-
-    document
-        .getElementById("countryPanel")
-        .classList.add("open");
-
-
-    // ========================================
-    // SI LES DONNÉES EXISTENT
-    // ========================================
+    document.getElementById("countryPanel").classList.add("open");
 
     if (countryData) {
-
-        document
-            .getElementById("countryContent")
-            .innerHTML = `
-
-                <h2 class="country-title">
-                    ${name}
-                </h2>
-
-                <p class="country-meta">
-                    POLITIQUE
-                </p>
+        document.getElementById("countryContent").innerHTML = `
+            <h2 class="country-title">
+                ${frenchTitle}
+            </h2>
+            <p class="country-meta">
+                ${countryData.identity.officialName || "POLITIQUE"}
+            </p>
 
 
                 <!-- IDENTITÉ POLITIQUE -->
@@ -665,6 +711,7 @@ fetch(
             }
         ).addTo(map);
 
+    buildSearchIndex();
 
     document
         .getElementById("updateStatus")
@@ -707,6 +754,11 @@ if (closeButton) {
                 .getElementById("countryPanel")
                 .classList.remove("open");
 
+            if (selectedLayer) {
+                countriesLayer.resetStyle(selectedLayer);
+                selectedLayer = null;
+            }
+
         }
     );
 
@@ -714,7 +766,7 @@ if (closeButton) {
 
 
 // ========================================
-// 9. RECHERCHE DE PAYS
+// 9. RECHERCHE INTELLIGENTE MULTI-CRITÈRES
 // ========================================
 
 const searchInput =
@@ -723,135 +775,313 @@ const searchInput =
 const searchResults =
     document.getElementById("searchResults");
 
+const clearBtn =
+    document.getElementById("clearSearch");
 
-if (searchInput && searchResults) {
+let searchIndex = [];
+let currentMatches = [];
+let selectedSearchIndex = -1;
 
-    searchInput.addEventListener(
-        "input",
-        function() {
-
-            const search =
-                searchInput.value
-                    .trim()
-                    .toLowerCase();
-
-
-            searchResults.innerHTML = "";
-
-
-            if (!search || !countriesLayer) {
-
-                searchResults.style.display = "none";
-
-                return;
-
-            }
-
-
-            const matches = [];
-
-
-            countriesLayer.eachLayer(
-                function(layer) {
-
-                    const properties =
-                        layer.feature.properties;
-
-                    const name =
-                        properties.name || "";
-
-
-                    if (
-                        name
-                            .toLowerCase()
-                            .includes(search)
-                    ) {
-
-                        matches.push({
-                            name: name,
-                            layer: layer
-                        });
-
-                    }
-
-                }
-            );
-
-
-            if (matches.length === 0) {
-
-                searchResults.innerHTML = `
-                    <div class="search-no-result">
-                        Aucun pays trouvé
-                    </div>
-                `;
-
-                searchResults.style.display = "block";
-
-                return;
-
-            }
-
-
-            matches
-                .slice(0, 8)
-                .forEach(function(match) {
-
-                    const result =
-                        document.createElement("div");
-
-
-                    result.className =
-                        "search-result";
-
-
-                    result.textContent =
-                        match.name;
-
-
-                    result.addEventListener(
-                        "click",
-                        function() {
-
-                            const layer =
-                                match.layer;
-
-
-                            map.fitBounds(
-                                layer.getBounds(),
-                                {
-                                    padding: [50, 50],
-                                    maxZoom: 5
-                                }
-                            );
-
-
-                            selectCountry({
-                                target: layer
-                            });
-
-
-                            searchInput.value =
-                                match.name;
-
-
-                            searchResults.innerHTML = "";
-
-                            searchResults.style.display =
-                                "none";
-
-                        }
-                    );
-
-
-                    searchResults.appendChild(result);
-
-                });
-
-
-            searchResults.style.display = "block";
-
-        }
-    );
-
+function cleanText(str) {
+    if (!str) return "";
+    return str
+        .toString()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/['’\-]/g, " ")
+        .replace(/[^a-z0-9 ]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
 }
+
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function highlightText(text, query) {
+    if (!text || !query) return text || "";
+    const cleanQ = cleanText(query);
+    if (!cleanQ) return text;
+
+    const regex = new RegExp(`(${escapeRegExp(query.trim())})`, "gi");
+    if (regex.test(text)) {
+        return text.replace(regex, "<mark>$1</mark>");
+    }
+    return text;
+}
+
+function buildSearchIndex() {
+    if (!countriesLayer) return;
+    searchIndex = [];
+
+    countriesLayer.eachLayer(function(layer) {
+        const properties = layer.feature.properties || {};
+        const engName = properties.name || "";
+        let iso3 = properties["ISO3166-1-Alpha-3"];
+        if (!iso3 || iso3 === "-99") {
+            iso3 = ISO_FIXES[engName] || iso3 || "";
+        }
+
+        const pol = (window.politicalData && iso3) ? window.politicalData[iso3] : null;
+        const official = (pol && pol.identity && pol.identity.officialName) || "";
+        const capital = (pol && pol.identity && pol.identity.capital) || "";
+        const ecoCap = (pol && pol.identity && pol.identity.economicCapital && pol.identity.economicCapital !== "—") ? pol.identity.economicCapital : "";
+        const frName = (iso3 && COUNTRY_NAMES_FR[iso3]) ? COUNTRY_NAMES_FR[iso3] : (official || engName);
+        const aliases = (iso3 && COUNTRY_ALIASES[iso3]) ? COUNTRY_ALIASES[iso3] : [];
+
+        searchIndex.push({
+            layer: layer,
+            iso3: iso3,
+            name: frName,
+            officialName: official,
+            engName: engName,
+            capital: capital,
+            economicCapital: ecoCap,
+            aliases: aliases,
+            cleanName: cleanText(frName),
+            cleanOfficial: cleanText(official),
+            cleanEng: cleanText(engName),
+            cleanCap: cleanText(capital),
+            cleanEco: cleanText(ecoCap),
+            cleanIso: cleanText(iso3),
+            cleanAliases: aliases.map(cleanText)
+        });
+    });
+}
+
+function performSearch(query) {
+    if (!query) {
+        searchResults.innerHTML = "";
+        searchResults.style.display = "none";
+        if (clearBtn) clearBtn.style.display = "none";
+        currentMatches = [];
+        selectedSearchIndex = -1;
+        return;
+    }
+
+    if (clearBtn) clearBtn.style.display = "block";
+
+    // Si l'index n'a pas encore été construit ou si les données politiques viennent d'arriver
+    if (searchIndex.length === 0 || (searchIndex.length > 0 && !searchIndex[0].officialName && window.politicalData && Object.keys(window.politicalData).length > 0)) {
+        buildSearchIndex();
+    }
+
+    const cleanQ = cleanText(query);
+    if (!cleanQ) {
+        searchResults.style.display = "none";
+        return;
+    }
+
+    const scored = [];
+
+    searchIndex.forEach(function(item) {
+        let score = 0;
+        let matchedField = null;
+
+        if (item.cleanIso === cleanQ) {
+            score = 1200;
+            matchedField = "iso";
+        } else if (item.cleanName === cleanQ) {
+            score = 1000;
+            matchedField = "name";
+        } else if (item.cleanName.startsWith(cleanQ)) {
+            score = 850 - (item.cleanName.length - cleanQ.length);
+            matchedField = "name";
+        } else if (item.cleanAliases.some(a => a === cleanQ)) {
+            score = 800;
+            matchedField = "alias";
+        } else if (item.cleanAliases.some(a => a.startsWith(cleanQ))) {
+            score = 750;
+            matchedField = "alias";
+        } else if (item.cleanName.includes(cleanQ)) {
+            score = 650;
+            matchedField = "name";
+        } else if (item.cleanCap && item.cleanCap.startsWith(cleanQ)) {
+            score = 600;
+            matchedField = "capital";
+        } else if (item.cleanCap && item.cleanCap.includes(cleanQ)) {
+            score = 500;
+            matchedField = "capital";
+        } else if (item.cleanOfficial && item.cleanOfficial.includes(cleanQ)) {
+            score = 450;
+            matchedField = "official";
+        } else if (item.cleanEng && item.cleanEng.startsWith(cleanQ)) {
+            score = 400;
+            matchedField = "eng";
+        } else if (item.cleanEng && item.cleanEng.includes(cleanQ)) {
+            score = 300;
+            matchedField = "eng";
+        } else if (item.cleanEco && item.cleanEco.includes(cleanQ)) {
+            score = 250;
+            matchedField = "eco";
+        }
+
+        if (score > 0) {
+            scored.push({
+                item: item,
+                score: score,
+                matchedField: matchedField
+            });
+        }
+    });
+
+    scored.sort(function(a, b) {
+        if (b.score !== a.score) return b.score - a.score;
+        return a.item.name.localeCompare(b.item.name, "fr");
+    });
+
+    currentMatches = scored.slice(0, 10).map(s => s.item);
+    selectedSearchIndex = currentMatches.length > 0 ? 0 : -1;
+
+    renderSearchResults(scored.slice(0, 10), query);
+}
+
+function renderSearchResults(results, query) {
+    searchResults.innerHTML = "";
+
+    if (results.length === 0) {
+        searchResults.innerHTML = `
+            <div class="search-no-result">
+                Aucun pays trouvé pour <strong>"${query}"</strong><br>
+                <span style="display:inline-block; margin-top:6px; font-size:11.5px; color:#6f8493;">
+                    Astuce : essayez en français (ex : <em>Allemagne, Japon, Côte d'Ivoire</em>), une capitale ou un code ISO (ex : <em>FRA, USA</em>).
+                </span>
+            </div>
+        `;
+        searchResults.style.display = "block";
+        return;
+    }
+
+    const countHeader = document.createElement("div");
+    countHeader.className = "search-count";
+    countHeader.textContent = `${results.length} résultat${results.length > 1 ? "s" : ""}`;
+    searchResults.appendChild(countHeader);
+
+    results.forEach(function(res, idx) {
+        const item = res.item;
+        const card = document.createElement("div");
+        card.className = "search-result" + (idx === selectedSearchIndex ? " selected" : "");
+        card.setAttribute("data-index", idx);
+
+        let metaText = "";
+        if (item.capital) {
+            metaText += `<span>🏛️ ${highlightText(item.capital, query)}</span>`;
+        }
+        if (item.engName && item.engName.toLowerCase() !== item.name.toLowerCase() && res.matchedField === "eng") {
+            metaText += `<span>• <em>${highlightText(item.engName, query)}</em></span>`;
+        }
+
+        card.innerHTML = `
+            <div class="search-result-main">
+                <div class="search-result-name">${highlightText(item.name, query)}</div>
+                ${metaText ? `<div class="search-result-meta">${metaText}</div>` : ""}
+            </div>
+            ${item.iso3 ? `<span class="search-result-badge">${item.iso3}</span>` : ""}
+        `;
+
+        card.addEventListener("click", function() {
+            chooseCountry(item);
+        });
+
+        card.addEventListener("mouseenter", function() {
+            selectedSearchIndex = idx;
+            updateSelectedCard();
+        });
+
+        searchResults.appendChild(card);
+    });
+
+    searchResults.style.display = "block";
+}
+
+function updateSelectedCard() {
+    const cards = searchResults.querySelectorAll(".search-result");
+    cards.forEach(function(card, idx) {
+        if (idx === selectedSearchIndex) {
+            card.classList.add("selected");
+            card.scrollIntoView({ block: "nearest" });
+        } else {
+            card.classList.remove("selected");
+        }
+    });
+}
+
+function chooseCountry(item) {
+    if (!item || !item.layer) return;
+
+    const layer = item.layer;
+
+    if (map && layer.getBounds) {
+        map.flyToBounds(layer.getBounds(), {
+            padding: [70, 70],
+            maxZoom: 6,
+            duration: 1.2
+        });
+    }
+
+    selectCountry({ target: layer });
+
+    if (searchInput) searchInput.value = item.name;
+    if (searchResults) {
+        searchResults.innerHTML = "";
+        searchResults.style.display = "none";
+    }
+    if (clearBtn) clearBtn.style.display = "block";
+}
+
+if (searchInput) {
+    searchInput.addEventListener("input", function() {
+        performSearch(searchInput.value.trim());
+    });
+
+    searchInput.addEventListener("keydown", function(e) {
+        if (searchResults.style.display !== "block" || currentMatches.length === 0) {
+            return;
+        }
+
+        if (e.key === "ArrowDown") {
+            e.preventDefault();
+            selectedSearchIndex = (selectedSearchIndex + 1) % currentMatches.length;
+            updateSelectedCard();
+        } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            selectedSearchIndex = (selectedSearchIndex - 1 + currentMatches.length) % currentMatches.length;
+            updateSelectedCard();
+        } else if (e.key === "Enter") {
+            e.preventDefault();
+            const chosen = selectedSearchIndex >= 0 ? currentMatches[selectedSearchIndex] : currentMatches[0];
+            if (chosen) chooseCountry(chosen);
+        } else if (e.key === "Escape") {
+            searchResults.style.display = "none";
+        }
+    });
+
+    searchInput.addEventListener("focus", function() {
+        if (searchInput.value.trim() && currentMatches.length > 0) {
+            searchResults.style.display = "block";
+        }
+    });
+}
+
+if (clearBtn) {
+    clearBtn.addEventListener("click", function() {
+        searchInput.value = "";
+        searchResults.innerHTML = "";
+        searchResults.style.display = "none";
+        clearBtn.style.display = "none";
+        searchInput.focus();
+        if (selectedLayer) {
+            countriesLayer.resetStyle(selectedLayer);
+            selectedLayer = null;
+        }
+        document.getElementById("countryPanel").classList.remove("open");
+    });
+}
+
+document.addEventListener("click", function(e) {
+    const searchContainer = document.querySelector(".search");
+    if (searchContainer && !searchContainer.contains(e.target)) {
+        if (searchResults) searchResults.style.display = "none";
+    }
+});
