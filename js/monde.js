@@ -178,14 +178,27 @@ function switchPanelView(view) {
 window.switchPanelView = switchPanelView;
 
 function renderEconomyProfile(ecoData, iso3, name, frenchTitle) {
+    if (window.economyLoading) {
+        return `
+            <p class="country-meta">ÉCONOMIE</p>
+            <div class="data-card" style="margin-top:20px; border-left:3px solid #D9AF5E;">
+                <div class="data-label">Chargement en cours</div>
+                <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
+                    ⏳ Chargement des données économiques en cours...
+                </div>
+            </div>
+        `;
+    }
+
     if (!ecoData) {
         return `
             <p class="country-meta">ÉCONOMIE</p>
             <div class="data-card" style="margin-top:20px; border-left:3px solid #D9AF5E;">
-                <div class="data-label">Profil économique</div>
+                <div class="data-label">Continent hors Europe</div>
                 <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
-                    Données économiques en cours de compilation pour ce continent.<br>
-                    <span style="color:#8ea6ba; font-size:13px;">Le module économique de l'Europe (47 pays) est actuellement disponible.</span>
+                    Vous avez sélectionné un pays situé hors d'Europe (<strong>${frenchTitle}</strong>).<br><br>
+                    Actuellement, les données économiques complètes sont disponibles pour les <strong>47 pays d'Europe</strong> (cliquez sur la France, l'Allemagne, l'Espagne, l'Italie, etc.).<br><br>
+                    👉 <a href="javascript:void(0)" onclick="switchPanelView('political')" style="color:#D9AF5E; font-weight:bold; text-decoration:underline;">Consulter sa fiche politique complète →</a>
                 </div>
             </div>
         `;
@@ -304,6 +317,7 @@ function renderEconomyProfile(ecoData, iso3, name, frenchTitle) {
 }
 
 function renderCountryContent(iso3, name) {
+    window.renderCountryContent = renderCountryContent;
     const polData = window.politicalData ? window.politicalData[iso3] : null;
     const ecoData = window.economyData ? window.economyData[iso3] : null;
     const frenchTitle = COUNTRY_NAMES_FR[iso3] || (polData && polData.identity && polData.identity.officialName) || name;
@@ -516,6 +530,8 @@ function selectCountry(event) {
 
     currentSelectedIso3 = iso3;
     currentSelectedName = name;
+    window.currentSelectedIso3 = iso3;
+    window.currentSelectedName = name;
 
     document.getElementById("countryPanel").classList.add("open");
     renderCountryContent(iso3, name);
