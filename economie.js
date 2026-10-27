@@ -76,7 +76,7 @@ const continentLoads = [
     fetchFirstAvailable(europePaths).then(function(data) { onContinentLoaded("Europe", data); }).catch(function(e) { console.warn("Économie Europe indisponible :", e); }),
     fetchFirstAvailable(africaPaths).then(function(data) { onContinentLoaded("Afrique", data); }).catch(function(e) { console.warn("Économie Afrique indisponible :", e); }),
     fetchFirstAvailable(asiaPaths).then(function(data) { onContinentLoaded("Asie", data); }).catch(function(e) { console.warn("Économie Asie indisponible :", e); }),
-    fetchFirstAvailable(americaPaths).then(function(data) { onContinentLoaded("Amériques", data); }).catch(function() {}),
+    fetchFirstAvailable(americaPaths).then(function(data) { onContinentLoaded("Amériques", data); }).catch(function(e) { console.warn("Économie Amériques indisponible :", e); }),
     fetchFirstAvailable(oceaniaPaths).then(function(data) { onContinentLoaded("Océanie", data); }).catch(function() {})
 ];
 

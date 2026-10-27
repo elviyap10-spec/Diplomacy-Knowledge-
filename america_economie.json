@@ -1,0 +1,1646 @@
+{
+    "USA": {
+        "currency": {
+            "name": "Dollar américain",
+            "code": "USD",
+            "symbol": "$",
+            "centralBank": "Réserve fédérale des États-Unis (Federal Reserve / Fed)"
+        },
+        "macro": {
+            "gdpNominal": "27 360 milliards USD",
+            "gdpPerCapita": "81 600 USD",
+            "globalRank": "1er mondial",
+            "growth": "+2,5 %",
+            "inflation": "3,1 %"
+        },
+        "structure": {
+            "services": "80,1 %",
+            "industry": "18,9 %",
+            "agriculture": "1,0 %",
+            "mainSectors": "Haute technologie et IA (Silicon Valley : Apple, Microsoft, Nvidia, Alphabet, Amazon), finance mondiale (Wall Street), aéronautique et défense (Boeing, Lockheed Martin), hydrocarbures de schiste (1er producteur mondial), pharmacie et biotechnologies"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut et raffiné, gaz naturel liquéfié (GNL), avions civils et pièces aérospatiales, circuits intégrés, médicaments et vaccins, soja et maïs",
+            "mainImports": "Voitures de tourisme et camions, ordinateurs et smartphones, équipements de télécommunications, pétrole brut, produits pharmaceutiques",
+            "topPartners": [
+                "Canada",
+                "Mexique",
+                "Chine",
+                "Union européenne",
+                "Japon",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Structurellement déficitaire (-773 milliards USD, statut du dollar comme monnaie de réserve)"
+        },
+        "publicFinance": {
+            "publicDebt": "122,0 % du PIB (dette fédérale > 34 000 milliards USD)",
+            "budgetBalance": "-6,3 % du PIB",
+            "sovereignRating": "AA+ (S&P / Fitch) / Aaa (Moody's)"
+        },
+        "organizations": [
+            "G7",
+            "G20",
+            "OCDE",
+            "ACEUM (USMCA)",
+            "APEC",
+            "FMI (siège à Washington)",
+            "Banque mondiale",
+            "OMC"
+        ]
+    },
+    "CAN": {
+        "currency": {
+            "name": "Dollar canadien",
+            "code": "CAD",
+            "symbol": "$",
+            "centralBank": "Banque du Canada (Bank of Canada)"
+        },
+        "macro": {
+            "gdpNominal": "2 140 milliards USD",
+            "gdpPerCapita": "53 200 USD",
+            "globalRank": "9e mondial",
+            "growth": "+1,1 %",
+            "inflation": "3,9 %"
+        },
+        "structure": {
+            "services": "70,5 %",
+            "industry": "28,0 %",
+            "agriculture": "1,5 %",
+            "mainSectors": "Hydrocarbures et sables bitumineux de l'Alberta (4e producteur mondial de pétrole, gaz naturel), mines (potasse, uranium, nickel, or), automobile (Ontario), aéronautique (Bombardier), secteur bancaire"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut et bitume, voitures de tourisme et pièces, gaz naturel, or, bois d'œuvre résineux, potasse et blé",
+            "mainImports": "Voitures et camions, pièces automobiles, machines industrielles, électronique grand public, produits pétroliers raffinés",
+            "topPartners": [
+                "États-Unis (absorbent plus de 75 % des exportations)",
+                "Chine",
+                "Royaume-Uni",
+                "Japon",
+                "Mexique"
+            ],
+            "tradeBalance": "Légèrement excédentaire (+1,5 milliard USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "107,0 % du PIB (dette brute consolidée)",
+            "budgetBalance": "-1,4 % du PIB",
+            "sovereignRating": "AAA (S&P / Moody's) / AA+ (Fitch)"
+        },
+        "organizations": [
+            "G7",
+            "G20",
+            "OCDE",
+            "ACEUM (USMCA)",
+            "APEC",
+            "CPTPP (PTPGP)",
+            "CETA (AECG avec l'UE)",
+            "Commonwealth",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "MEX": {
+        "currency": {
+            "name": "Peso mexicain",
+            "code": "MXN",
+            "symbol": "$",
+            "centralBank": "Banque du Mexique (Banxico)"
+        },
+        "macro": {
+            "gdpNominal": "1 790 milliards USD",
+            "gdpPerCapita": "13 800 USD",
+            "globalRank": "12e mondial (2e d'Amérique latine)",
+            "growth": "+3,2 %",
+            "inflation": "4,7 %"
+        },
+        "structure": {
+            "services": "64,0 %",
+            "industry": "32,0 %",
+            "agriculture": "4,0 %",
+            "mainSectors": "Industrie manufacturière d'assemblage sous régime Maquiladora (automobile : GM, VW, Nissan ; électronique, électroménager), pétrole brut (Pemex), tourisme balnéaire et culturel, transferts de la diaspora (63 milliards USD)"
+        },
+        "trade": {
+            "mainExports": "Voitures de tourisme, camions de livraison et pièces détachées, ordinateurs et téléviseurs, pétrole brut, fils et câbles isolés, bière et tequila, avocats",
+            "mainImports": "Composants électroniques et pièces détachées pour usines maquiladoras, essence raffinée, circuits intégrés, matières plastiques",
+            "topPartners": [
+                "États-Unis (> 80 % des exportations, bénéficiaire du nearshoring)",
+                "Canada",
+                "Chine",
+                "Allemagne",
+                "Japon"
+            ],
+            "tradeBalance": "Légèrement déficitaire (-5,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "49,8 % du PIB",
+            "budgetBalance": "-3,4 % du PIB",
+            "sovereignRating": "BBB (S&P / Fitch) / Baa2 (Moody's)"
+        },
+        "organizations": [
+            "G20",
+            "OCDE",
+            "ACEUM (USMCA)",
+            "Alliance du Pacifique",
+            "APEC",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "BRA": {
+        "currency": {
+            "name": "Real brésilien",
+            "code": "BRL",
+            "symbol": "R$",
+            "centralBank": "Banque centrale du Brésil (Banco Central do Brasil)"
+        },
+        "macro": {
+            "gdpNominal": "2 170 milliards USD",
+            "gdpPerCapita": "10 400 USD",
+            "globalRank": "8e mondial (1ère économie d'Amérique latine)",
+            "growth": "+2,9 %",
+            "inflation": "4,6 %"
+        },
+        "structure": {
+            "services": "63,5 %",
+            "industry": "29,5 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Agrobusiness géant (1er exportateur mondial de soja, café, sucre, jus d'orange, bœuf et volaille), extraction de minerai de fer (Vale), pétrole offshore pré-salifère (Petrobras), construction aéronautique (Embraer), hydroélectricité (Itaipu)"
+        },
+        "trade": {
+            "mainExports": "Graines et tourteaux de soja, pétrole brut, minerai de fer et agglomérés, viande bovine et de volaille congelée, sucre de canne, maïs",
+            "mainImports": "Engrais chimiques, pièces automobiles, carburants raffinés, circuits intégrés, médicaments",
+            "topPartners": [
+                "Chine (1er acheteur de soja, pétrole et fer)",
+                "États-Unis",
+                "Union européenne",
+                "Argentine",
+                "Japon"
+            ],
+            "tradeBalance": "Record historique d'excédent commercial (+98,8 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "84,0 % du PIB",
+            "budgetBalance": "-7,5 % du PIB",
+            "sovereignRating": "BB (S&P / Fitch) / Ba1 (Moody's)"
+        },
+        "organizations": [
+            "G20",
+            "BRICS+ (membre fondateur)",
+            "Mercosur",
+            "CELAC",
+            "UNASUR",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "ARG": {
+        "currency": {
+            "name": "Peso argentin",
+            "code": "ARS",
+            "symbol": "$",
+            "centralBank": "Banque centrale de la République argentine (BCRA)"
+        },
+        "macro": {
+            "gdpNominal": "640 milliards USD",
+            "gdpPerCapita": "13 700 USD",
+            "globalRank": "24e mondial",
+            "growth": "-1,6 % (programme de choc budgétaire)",
+            "inflation": "211,0 %"
+        },
+        "structure": {
+            "services": "59,0 %",
+            "industry": "31,0 %",
+            "agriculture": "10,0 %",
+            "mainSectors": "Complexe agro-exportateur de la Pampa (1er exportateur mondial de farine et d'huile de soja, maïs, blé, viande bovine), hydrocarbures de schiste (gisement géant de Vaca Muerta), lithium ('Triangle du lithium'), industrie automobile"
+        },
+        "trade": {
+            "mainExports": "Farine et pellets de soja, maïs en grains, huile de soja, blé, véhicules utilitaires (pick-ups), viande bovine, or et lithium",
+            "mainImports": "Pétrole raffiné et gaz naturel, pièces détachées automobiles, machines industrielles, téléphones, engrais",
+            "topPartners": [
+                "Brésil",
+                "Chine",
+                "États-Unis",
+                "Chili",
+                "Union européenne",
+                "Inde"
+            ],
+            "tradeBalance": "Excédentaire (+15 milliards USD projeté via Vaca Muerta et réajustement de change)"
+        },
+        "publicFinance": {
+            "publicDebt": "88,0 % du PIB (dette sous programme FMI)",
+            "budgetBalance": "Équilibre primaire rétabli en 2024",
+            "sovereignRating": "CCC (S&P / Fitch) / Ca (Moody's)"
+        },
+        "organizations": [
+            "G20",
+            "Mercosur",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "COL": {
+        "currency": {
+            "name": "Peso colombien",
+            "code": "COP",
+            "symbol": "$",
+            "centralBank": "Banque de la République (Banco de la República)"
+        },
+        "macro": {
+            "gdpNominal": "360 milliards USD",
+            "gdpPerCapita": "6 900 USD",
+            "globalRank": "42e mondial",
+            "growth": "+0,6 %",
+            "inflation": "9,3 %"
+        },
+        "structure": {
+            "services": "62,0 %",
+            "industry": "31,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Hydrocarbures (pétrole brut - Ecopetrol), charbon thermique (mines de Cerrejón), café doux Arabica d'appellation, fleurs coupées (2e exportateur mondial), émeraudes, secteur financier et services"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, charbon thermique, café de haute qualité, fleurs coupées fraîches, or brut, bananes",
+            "mainImports": "Carburants raffinés, véhicules de tourisme, machines et équipements électriques, maïs jaune, médicaments",
+            "topPartners": [
+                "États-Unis (> 25 % des exportations)",
+                "Chine",
+                "Panama",
+                "Union européenne",
+                "Mexique",
+                "Brésil"
+            ],
+            "tradeBalance": "Déficitaire en balance de biens (-10 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "55,0 % du PIB",
+            "budgetBalance": "-4,3 % du PIB",
+            "sovereignRating": "BB+ (S&P / Fitch) / Baa2 (Moody's)"
+        },
+        "organizations": [
+            "OCDE",
+            "Alliance du Pacifique",
+            "Communauté andine (CAN)",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "CHL": {
+        "currency": {
+            "name": "Peso chilien",
+            "code": "CLP",
+            "symbol": "$",
+            "centralBank": "Banque centrale du Chili"
+        },
+        "macro": {
+            "gdpNominal": "335 milliards USD",
+            "gdpPerCapita": "17 000 USD",
+            "globalRank": "44e mondial",
+            "growth": "+0,2 %",
+            "inflation": "3,9 %"
+        },
+        "structure": {
+            "services": "64,0 %",
+            "industry": "32,5 %",
+            "agriculture": "3,5 %",
+            "mainSectors": "Cuivre (1er producteur mondial - Codelco, 28 % de la production mondiale), lithium ('Triangle du lithium' d'Atacama - SQM/Albemarle), pâte de bois, aquaculture du saumon (2e mondial), vins réputés et fruits frais (cerises)"
+        },
+        "trade": {
+            "mainExports": "Cuivre raffiné et minerais concentrés, carbonate de lithium, saumon et truite d'élevage, pâte de bois, cerises fraîches et raisins, vin en bouteille",
+            "mainImports": "Pétrole brut et carburants raffinés, véhicules automobiles, ordinateurs et matériel électronique, gaz naturel liquéfié, viande bovine",
+            "topPartners": [
+                "Chine (absorbe près de 40 % des exportations chiliennes)",
+                "États-Unis",
+                "Japon",
+                "Corée du Sud",
+                "Brésil"
+            ],
+            "tradeBalance": "Largement excédentaire (+17 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "39,5 % du PIB (fonds souverains de stabilisation du cuivre)",
+            "budgetBalance": "-2,4 % du PIB",
+            "sovereignRating": "A (S&P) / A2 (Moody's) / A- (Fitch)"
+        },
+        "organizations": [
+            "OCDE",
+            "Alliance du Pacifique",
+            "CPTPP (PTPGP)",
+            "APEC",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "PER": {
+        "currency": {
+            "name": "Sol péruvien",
+            "code": "PEN",
+            "symbol": "S/",
+            "centralBank": "Banque centrale de réserve du Pérou (BCRP)"
+        },
+        "macro": {
+            "gdpNominal": "265 milliards USD",
+            "gdpPerCapita": "7 800 USD",
+            "globalRank": "48e mondial",
+            "growth": "-0,6 % (impact d'El Niño)",
+            "inflation": "3,2 %"
+        },
+        "structure": {
+            "services": "60,0 %",
+            "industry": "33,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Mines polymétalliques géantes (2e producteur mondial de cuivre et de zinc, or, argent), farine et huile de poisson (1er exportateur mondial d'anchois), agro-exportations d'irrigation côtière (myrtilles, raisins, avocats), gaz naturel de Camisea"
+        },
+        "trade": {
+            "mainExports": "Minerais de cuivre et concentrés, or brut, minerais de zinc, gaz naturel liquéfié, myrtilles et fruits frais, farine de poisson",
+            "mainImports": "Pétrole brut et diesel, véhicules automobiles, machines pour les mines, maïs, matières plastiques",
+            "topPartners": [
+                "Chine (> 32 % des échanges)",
+                "États-Unis",
+                "Union européenne",
+                "Canada",
+                "Inde",
+                "Japon"
+            ],
+            "tradeBalance": "Excédentaire (+17 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "33,0 % du PIB (l'une des plus faibles dettes d'Amérique latine, réserves solides)",
+            "budgetBalance": "-2,8 % du PIB",
+            "sovereignRating": "BBB (S&P / Fitch) / Baa1 (Moody's)"
+        },
+        "organizations": [
+            "Alliance du Pacifique",
+            "Communauté andine (CAN)",
+            "APEC",
+            "CPTPP",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "VEN": {
+        "currency": {
+            "name": "Bolívar souverain",
+            "code": "VED",
+            "symbol": "Bs.",
+            "centralBank": "Banque centrale du Venezuela (BCV)"
+        },
+        "macro": {
+            "gdpNominal": "95 milliards USD",
+            "gdpPerCapita": "3 400 USD",
+            "globalRank": "72e mondial",
+            "growth": "+4,0 %",
+            "inflation": "190,0 %"
+        },
+        "structure": {
+            "services": "52,0 %",
+            "industry": "43,0 %",
+            "agriculture": "5,0 %",
+            "mainSectors": "Pétrole brut lourd de la ceinture de l'Orénoque (1ères réserves prouvées mondiales - PDVSA), raffinage, gaz naturel, pétrochimie, mines d'or de l'Arc minier, sidérurgie (SIDOR)"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut et résidus bitumineux, produits pétroliers raffinés, fer et acier bruts, or",
+            "mainImports": "Denrées alimentaires de base, carburants raffinés (diluants pour brut lourd), pièces de rechange pétrolières, médicaments",
+            "topPartners": [
+                "Chine",
+                "États-Unis (via licences Chevron)",
+                "Turquie",
+                "Iran",
+                "Espagne",
+                "Inde"
+            ],
+            "tradeBalance": "Excédentaire en devises pétrolières"
+        },
+        "publicFinance": {
+            "publicDebt": "> 150 % du PIB (dette en défaut persistant)",
+            "budgetBalance": "Déficit couvert par création monétaire",
+            "sovereignRating": "SD / Défaut sélectif"
+        },
+        "organizations": [
+            "OPEP (membre fondateur)",
+            "CELAC",
+            "ALBA",
+            "OEA (retrait décrété)"
+        ]
+    },
+    "CUB": {
+        "currency": {
+            "name": "Peso cubain",
+            "code": "CUP",
+            "symbol": "$",
+            "centralBank": "Banque centrale de Cuba"
+        },
+        "macro": {
+            "gdpNominal": "24 milliards USD (estimation)",
+            "gdpPerCapita": "~2 100 USD",
+            "globalRank": "116e mondial",
+            "growth": "-1,5 % (crise énergétique)",
+            "inflation": "30,0 %"
+        },
+        "structure": {
+            "services": "72,0 %",
+            "industry": "23,0 %",
+            "agriculture": "5,0 %",
+            "mainSectors": "Services médicaux internationaux (envoi de médecins à l'étranger - principale recette), tourisme balnéaire (Varadero), extraction de nickel et cobalt (Moa - Sherritt), cigares réputés (Habanos), sucre, rhum"
+        },
+        "trade": {
+            "mainExports": "Cigares roulés main, nickel et cobalt, sucre brut, rhum, vaccins et produits biotechnologiques",
+            "mainImports": "Carburants et pétrole brut (Venezuela, Russie), blé, poulet congelé, riz, pièces mécaniques",
+            "topPartners": [
+                "Chine",
+                "Espagne",
+                "Russie",
+                "Venezuela",
+                "Canada",
+                "Mexique"
+            ],
+            "tradeBalance": "Structurellement déficitaire en biens"
+        },
+        "publicFinance": {
+            "publicDebt": "120,0 % du PIB",
+            "budgetBalance": "-18,0 % du PIB (crise budgétaire sévère)",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "CELAC",
+            "ALBA",
+            "Mouvement des non-alignés",
+            "G77",
+            "OMC"
+        ]
+    },
+    "ECU": {
+        "currency": {
+            "name": "Dollar américain",
+            "code": "USD",
+            "symbol": "$",
+            "centralBank": "Banco Central del Ecuador (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "118 milliards USD",
+            "gdpPerCapita": "6 500 USD",
+            "globalRank": "65e mondial",
+            "growth": "+2,3 %",
+            "inflation": "1,5 %"
+        },
+        "structure": {
+            "services": "58,0 %",
+            "industry": "34,0 %",
+            "agriculture": "8,0 %",
+            "mainSectors": "Hydrocarbures (pétrole brut en Amazonie - Petroecuador), aquaculture de la crevette (1er exportateur mondial), bananes (1er exportateur mondial de bananes Cavendish), fleurs coupées, cacao fino de aroma, pêche au thon"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, crevettes et langoustines surgelées, bananes fraîches, fleurs coupées, cacao en fèves, conserves de thon",
+            "mainImports": "Carburants raffinés (diesel et essence importés faute de raffinage local), véhicules automobiles, machines industrielles, médicaments",
+            "topPartners": [
+                "États-Unis",
+                "Chine",
+                "Union européenne",
+                "Panama",
+                "Colombie"
+            ],
+            "tradeBalance": "Légèrement excédentaire (+2,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "56,0 % du PIB",
+            "budgetBalance": "-3,0 % du PIB",
+            "sovereignRating": "B- (S&P / Fitch) / Caa3 (Moody's)"
+        },
+        "organizations": [
+            "Communauté andine (CAN)",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "BOL": {
+        "currency": {
+            "name": "Boliviano",
+            "code": "BOB",
+            "symbol": "Bs",
+            "centralBank": "Banque centrale de Bolivie (BCB)"
+        },
+        "macro": {
+            "gdpNominal": "46 milliards USD",
+            "gdpPerCapita": "3 800 USD",
+            "globalRank": "99e mondial",
+            "growth": "+2,5 %",
+            "inflation": "2,6 %"
+        },
+        "structure": {
+            "services": "54,0 %",
+            "industry": "33,0 %",
+            "agriculture": "13,0 %",
+            "mainSectors": "Mines d'étain, zinc, argent et plomb (San Cristóbal), réserves massives de lithium (Salar d'Uyuni), gaz naturel (en déclin vers le Brésil et l'Argentine), complexe du soja à Santa Cruz"
+        },
+        "trade": {
+            "mainExports": "Or brut, minerais de zinc et argent, gaz naturel par pipeline, tourteaux et huile de soja, minerais d'étain",
+            "mainImports": "Carburants raffinés (importations massives subventionnées), véhicules, machines, barres de fer",
+            "topPartners": [
+                "Brésil",
+                "Argentine",
+                "Inde",
+                "Chine",
+                "Japon",
+                "Colombie"
+            ],
+            "tradeBalance": "Déficitaire (-1,5 milliard USD lié au déclin du gaz)"
+        },
+        "publicFinance": {
+            "publicDebt": "82,0 % du PIB (forte tension sur les réserves de devises)",
+            "budgetBalance": "-7,2 % du PIB",
+            "sovereignRating": "CCC+ (S&P / Fitch) / Caa3 (Moody's)"
+        },
+        "organizations": [
+            "Mercosur (ratifié 2024)",
+            "Communauté andine (CAN)",
+            "CELAC",
+            "ALBA",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "PRY": {
+        "currency": {
+            "name": "Guaraní paraguayen",
+            "code": "PYG",
+            "symbol": "₲",
+            "centralBank": "Banque centrale du Paraguay (BCP)"
+        },
+        "macro": {
+            "gdpNominal": "44 milliards USD",
+            "gdpPerCapita": "6 200 USD",
+            "globalRank": "101e mondial",
+            "growth": "+4,7 %",
+            "inflation": "3,7 %"
+        },
+        "structure": {
+            "services": "50,0 %",
+            "industry": "38,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Hydroélectricité propre (barrages binationaux géants d'Itaipu et Yacyretá - l'un des plus grands exportateurs nets d'énergie propre), soja et dérivés (4e exportateur mondial), élevage bovin certifié, maïs"
+        },
+        "trade": {
+            "mainExports": "Électricité hydroélectrique, graines et tourteaux de soja, viande bovine congelée, maïs, blé, huile de soja",
+            "mainImports": "Produits pétroliers raffinés, téléphones portables et électronique pour réexportation, voitures, engrais",
+            "topPartners": [
+                "Brésil (1er acheteur d'électricité et de soja)",
+                "Argentine",
+                "Chili",
+                "États-Unis",
+                "Russie"
+            ],
+            "tradeBalance": "Excédentaire (+1,2 milliard USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "38,0 % du PIB",
+            "budgetBalance": "-4,1 % du PIB",
+            "sovereignRating": "BB+ (S&P) / Baa3 (Moody's - catégorie investissement) / BB+ (Fitch)"
+        },
+        "organizations": [
+            "Mercosur",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "URY": {
+        "currency": {
+            "name": "Peso uruguayen",
+            "code": "UYU",
+            "symbol": "$U",
+            "centralBank": "Banque centrale de l'Uruguay (BCU)"
+        },
+        "macro": {
+            "gdpNominal": "77 milliards USD",
+            "gdpPerCapita": "22 500 USD",
+            "globalRank": "81e mondial",
+            "growth": "+0,4 % (impact sécheresse 2023)",
+            "inflation": "5,1 %"
+        },
+        "structure": {
+            "services": "68,0 %",
+            "industry": "25,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Agro-industrie et élevage (traçabilité totale du bétail, viande haut de gamme), pâte de cellulose (usines géantes UPM et Montes del Plata), soja, riz, services logiciels et hub logistique franc"
+        },
+        "trade": {
+            "mainExports": "Pâte de bois / cellulose, viande bovine désossée et congelée, graines de soja, produits laitiers (lait en poudre, beurre), riz blanchi",
+            "mainImports": "Pétrole brut, voitures de tourisme et camions, engrais, téléphones portables, machines",
+            "topPartners": [
+                "Chine (1er acheteur de viande et cellulose)",
+                "Brésil",
+                "Union européenne",
+                "États-Unis",
+                "Argentine"
+            ],
+            "tradeBalance": "Déficitaire en biens (-1,8 milliard USD, compensé par les services)"
+        },
+        "publicFinance": {
+            "publicDebt": "60,0 % du PIB",
+            "budgetBalance": "-3,3 % du PIB",
+            "sovereignRating": "BBB+ (S&P / Fitch) / Baa1 (Moody's)"
+        },
+        "organizations": [
+            "Mercosur",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "PAN": {
+        "currency": {
+            "name": "Balboa panaméen / Dollar USD",
+            "code": "PAB / USD",
+            "symbol": "B/. / $",
+            "centralBank": "Banque nationale du Panama (BNP)"
+        },
+        "macro": {
+            "gdpNominal": "83 milliards USD",
+            "gdpPerCapita": "18 700 USD",
+            "globalRank": "78e mondial",
+            "growth": "+7,3 %",
+            "inflation": "1,5 %"
+        },
+        "structure": {
+            "services": "75,0 %",
+            "industry": "22,0 %",
+            "agriculture": "3,0 %",
+            "mainSectors": "Canal de Panama (péages et transit interocéanique reliant Atlantique et Pacifique), hub logistique et zone franche de Colón, centre bancaire international offshore, hub aérien Copa Airlines (Tocumen), 1er registre maritime mondial"
+        },
+        "trade": {
+            "mainExports": "Bananes et fruits tropicaux, poisson et crevettes, ferraille, sucre (hors réexportations massives de la zone franche de Colón)",
+            "mainImports": "Navires et pétroliers (pavillons), carburants raffinés, voitures, médicaments, parfums et électronique",
+            "topPartners": [
+                "États-Unis",
+                "Chine",
+                "Japon",
+                "Pays-Bas",
+                "Corée du Sud"
+            ],
+            "tradeBalance": "Structurellement déficitaire en biens propres, très excédentaire en services logistiques"
+        },
+        "publicFinance": {
+            "publicDebt": "57,0 % du PIB",
+            "budgetBalance": "-7,4 % du PIB",
+            "sovereignRating": "BBB- (S&P) / Baa3 (Moody's) / BB+ (Fitch)"
+        },
+        "organizations": [
+            "SICA",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "CRI": {
+        "currency": {
+            "name": "Colón costaricien",
+            "code": "CRC",
+            "symbol": "₡",
+            "centralBank": "Banque centrale du Costa Rica (BCCR)"
+        },
+        "macro": {
+            "gdpNominal": "86 milliards USD",
+            "gdpPerCapita": "16 500 USD",
+            "globalRank": "76e mondial",
+            "growth": "+5,1 %",
+            "inflation": "-1,8 % (déflation transitoire)"
+        },
+        "structure": {
+            "services": "72,0 %",
+            "industry": "23,5 %",
+            "agriculture": "4,5 %",
+            "mainSectors": "Dispositifs médicaux de haute technologie (prothèses, cathéters - 1er exportateur latino-américain), écotourisme vert et parcs nationaux, services partagés et développement logiciel, bananes et ananas (1er mondial), café gourmet"
+        },
+        "trade": {
+            "mainExports": "Instruments et appareils pour la médecine et chirurgie, prothèses dentaires/orthopédiques, ananas frais, bananes, café torréfié",
+            "mainImports": "Carburants raffinés, circuits intégrés, matières plastiques, médicaments, voitures",
+            "topPartners": [
+                "États-Unis (> 42 %)",
+                "Union européenne",
+                "Chine",
+                "Guatemala",
+                "Mexique"
+            ],
+            "tradeBalance": "Légèrement déficitaire (-2,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "61,0 % du PIB",
+            "budgetBalance": "-3,3 % du PIB",
+            "sovereignRating": "BB (S&P / Fitch) / Ba3 (Moody's)"
+        },
+        "organizations": [
+            "OCDE (adhésion 2021)",
+            "SICA",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "GTM": {
+        "currency": {
+            "name": "Quetzal guatémaltèque",
+            "code": "GTQ",
+            "symbol": "Q",
+            "centralBank": "Banque du Guatemala (Banguat)"
+        },
+        "macro": {
+            "gdpNominal": "102 milliards USD",
+            "gdpPerCapita": "5 600 USD",
+            "globalRank": "69e mondial (1ère économie d'Amérique centrale)",
+            "growth": "+3,5 %",
+            "inflation": "4,2 %"
+        },
+        "structure": {
+            "services": "63,0 %",
+            "industry": "27,0 %",
+            "agriculture": "10,0 %",
+            "mainSectors": "Agro-exportations (café Arabica d'altitude, sucre de canne, bananes, huile de palme, cardamome - 1er exportateur mondial), confection textile (maquilas), ciment et boissons, transferts des migrants aux USA (20 milliards USD - 20 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Vêtements et confection textile, bananes, café vert, sucre de canne, huile de palme brute, cardamome",
+            "mainImports": "Carburants raffinés, machines et matériel électrique, matières plastiques, véhicules, fils textiles",
+            "topPartners": [
+                "États-Unis (> 32 %)",
+                "Salvador",
+                "Honduras",
+                "Mexique",
+                "Nicaragua"
+            ],
+            "tradeBalance": "Lourdement déficitaire en balance de biens (-14 milliards USD, compensé par les remesas)"
+        },
+        "publicFinance": {
+            "publicDebt": "27,8 % du PIB (l'une des plus faibles dettes publiques d'Amérique latine)",
+            "budgetBalance": "-1,7 % du PIB",
+            "sovereignRating": "BB (S&P / Fitch) / Ba1 (Moody's)"
+        },
+        "organizations": [
+            "SICA",
+            "Marché commun centraméricain (MCCA)",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "HND": {
+        "currency": {
+            "name": "Lempira hondurien",
+            "code": "HNL",
+            "symbol": "L",
+            "centralBank": "Banque centrale du Honduras (BCH)"
+        },
+        "macro": {
+            "gdpNominal": "34 milliards USD",
+            "gdpPerCapita": "3 300 USD",
+            "globalRank": "105e mondial",
+            "growth": "+3,6 %",
+            "inflation": "5,2 %"
+        },
+        "structure": {
+            "services": "58,0 %",
+            "industry": "28,0 %",
+            "agriculture": "14,0 %",
+            "mainSectors": "Confection textile et câblage automobile sous zones franches (maquilas), café Arabica (1er producteur d'Amérique centrale), bananes, huile de palme, crevettes d'élevage, transferts de la diaspora (9 milliards USD - 27 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Vêtements confectionnés en coton (t-shirts, sous-vêtements), café, faisceaux de câbles automobiles, huile de palme, bananes, crevettes",
+            "mainImports": "Tissus et fils pour l'industrie textile, produits pétroliers raffinés, machines, maïs et blé",
+            "topPartners": [
+                "États-Unis (absorbent plus de 50 %)",
+                "Salvador",
+                "Guatemala",
+                "Nicaragua",
+                "Mexique"
+            ],
+            "tradeBalance": "Déficitaire (-8 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB",
+            "budgetBalance": "-2,8 % du PIB",
+            "sovereignRating": "BB- (S&P) / B1 (Moody's) / B+ (Fitch)"
+        },
+        "organizations": [
+            "SICA",
+            "MCCA",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "SLV": {
+        "currency": {
+            "name": "Dollar américain / Bitcoin",
+            "code": "USD / BTC",
+            "symbol": "$ / ₿",
+            "centralBank": "Banque centrale de réserve du Salvador (BCR)"
+        },
+        "macro": {
+            "gdpNominal": "35 milliards USD",
+            "gdpPerCapita": "5 400 USD",
+            "globalRank": "104e mondial",
+            "growth": "+3,5 % (baisse historique de l'insécurité)",
+            "inflation": "1,2 %"
+        },
+        "structure": {
+            "services": "64,0 %",
+            "industry": "28,0 %",
+            "agriculture": "8,0 %",
+            "mainSectors": "Confection textile et bonneterie (maquilas), agro-industrie (sucre, café d'origine), tourisme et surf ('Surf City'), services bancaires régionaux, transferts de fonds de la diaspora aux USA (24 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Vêtements en coton et fibres synthétiques, condensateurs et composants électriques, sucre de canne, papier et carton, café",
+            "mainImports": "Pétrole raffiné, tissus et filés textiles, médicaments, véhicules automobiles, denrées alimentaires",
+            "topPartners": [
+                "États-Unis",
+                "Guatemala",
+                "Honduras",
+                "Nicaragua",
+                "Mexique"
+            ],
+            "tradeBalance": "Déficitaire (-9,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "76,0 % du PIB",
+            "budgetBalance": "-2,7 % du PIB",
+            "sovereignRating": "B- (S&P / Fitch) / Caa3 (Moody's)"
+        },
+        "organizations": [
+            "SICA",
+            "MCCA",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "NIC": {
+        "currency": {
+            "name": "Córdoba nicaraguayen",
+            "code": "NIO",
+            "symbol": "C$",
+            "centralBank": "Banque centrale du Nicaragua (BCN)"
+        },
+        "macro": {
+            "gdpNominal": "17,8 milliards USD",
+            "gdpPerCapita": "2 600 USD",
+            "globalRank": "131e mondial",
+            "growth": "+4,6 %",
+            "inflation": "5,6 %"
+        },
+        "structure": {
+            "services": "52,0 %",
+            "industry": "31,0 %",
+            "agriculture": "17,0 %",
+            "mainSectors": "Confection textile et harnais électriques en zone franche, extraction d'or (principale exportation), viande bovine, café, cigares premium, sucre de canne, arachides"
+        },
+        "trade": {
+            "mainExports": "Or brut, vêtements confectionnés, câblage automobile, café Arabica, viande bovine congelée, cigares, sucre",
+            "mainImports": "Carburants raffinés, tissus textiles, médicaments, véhicules, huiles végétales",
+            "topPartners": [
+                "États-Unis (> 50 % des exportations)",
+                "Mexique",
+                "Salvador",
+                "Costa Rica",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire en balance de biens (-3 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "46,0 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "B (S&P / Fitch) / B2 (Moody's)"
+        },
+        "organizations": [
+            "SICA",
+            "MCCA",
+            "CELAC",
+            "ALBA",
+            "OMC"
+        ]
+    },
+    "BLZ": {
+        "currency": {
+            "name": "Dollar bélizien",
+            "code": "BZD",
+            "symbol": "BZ$",
+            "centralBank": "Banque centrale du Belize (CBB)"
+        },
+        "macro": {
+            "gdpNominal": "3,2 milliards USD",
+            "gdpPerCapita": "7 800 USD",
+            "globalRank": "164e mondial",
+            "growth": "+4,5 %",
+            "inflation": "4,4 %"
+        },
+        "structure": {
+            "services": "68,0 %",
+            "industry": "18,0 %",
+            "agriculture": "14,0 %",
+            "mainSectors": "Écotourisme et plongée (barrière de corail du Belize - 2e plus grande au monde), agriculture d'exportation (sucre de canne, bananes, agrumes), aquaculture de crevettes, pétrole brut résiduel"
+        },
+        "trade": {
+            "mainExports": "Sucre de canne brut, bananes fraîches, jus d'agrumes concentrés, crevettes d'élevage, pétrole brut",
+            "mainImports": "Produits pétroliers raffinés, machines et matériel électrique, véhicules, cigarettes, denrées alimentaires",
+            "topPartners": [
+                "États-Unis",
+                "Royaume-Uni",
+                "Mexique",
+                "Union européenne",
+                "CARICOM"
+            ],
+            "tradeBalance": "Déficitaire (-15 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "64,0 % du PIB (restructuration réussie via Blue Bond marin)",
+            "budgetBalance": "-1,2 % du PIB",
+            "sovereignRating": "B- (S&P)"
+        },
+        "organizations": [
+            "CARICOM",
+            "SICA",
+            "Commonwealth",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "DOM": {
+        "currency": {
+            "name": "Peso dominicain",
+            "code": "DOP",
+            "symbol": "RD$",
+            "centralBank": "Banque centrale de la République dominicaine (BCRD)"
+        },
+        "macro": {
+            "gdpNominal": "121 milliards USD",
+            "gdpPerCapita": "11 200 USD",
+            "globalRank": "64e mondial (1ère économie des Caraïbes)",
+            "growth": "+2,4 %",
+            "inflation": "3,6 %"
+        },
+        "structure": {
+            "services": "61,0 %",
+            "industry": "33,0 %",
+            "agriculture": "6,0 %",
+            "mainSectors": "Tourisme de villégiature (Punta Cana - > 10 millions de visiteurs), zones franches industrielles (dispositifs médicaux, cigares - 1er exportateur mondial, électronique, textile), or (mine géante de Pueblo Viejo - Barrick), remesas"
+        },
+        "trade": {
+            "mainExports": "Dispositifs médicaux et chirurgicaux, or brut, cigares roulés main, disjoncteurs électriques, bijoux, bananes et cacao bio",
+            "mainImports": "Pétrole brut et gaz naturel, voitures de tourisme, maïs et céréales, matières plastiques, médicaments",
+            "topPartners": [
+                "États-Unis (> 50 %)",
+                "Haïti",
+                "Suisse",
+                "Porto Rico",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire en biens (-13 milliards USD, compensé par tourisme et transferts)"
+        },
+        "publicFinance": {
+            "publicDebt": "59,0 % du PIB",
+            "budgetBalance": "-3,0 % du PIB",
+            "sovereignRating": "BB (S&P / Fitch) / Ba3 (Moody's)"
+        },
+        "organizations": [
+            "SICA",
+            "DR-CAFTA",
+            "CARIFORUM",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "HTI": {
+        "currency": {
+            "name": "Gourde haïtienne",
+            "code": "HTG",
+            "symbol": "G",
+            "centralBank": "Banque de la République d'Haïti (BRH)"
+        },
+        "macro": {
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "~1 700 USD",
+            "globalRank": "123e mondial",
+            "growth": "-1,9 % (crise sécuritaire aiguë)",
+            "inflation": "30,0 %"
+        },
+        "structure": {
+            "services": "56,0 %",
+            "industry": "22,0 %",
+            "agriculture": "22,0 %",
+            "mainSectors": "Sous-traitance textile d'assemblage sous régime américain HOPE/HELP (t-shirts, pulls), agriculture vivrière (mangues Francine, café, huile essentielle de vétiver - 50 % du marché mondial), remises de la diaspora (35 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Vêtements confectionnés en coton (t-shirts), huile essentielle de vétiver, mangues fraîches",
+            "mainImports": "Riz blanc, carburants raffinés, viandes et volailles surgelées, tissus synthétiques, véhicules d'occasion",
+            "topPartners": [
+                "États-Unis (> 80 % des exportations)",
+                "République dominicaine",
+                "Canada",
+                "Chine"
+            ],
+            "tradeBalance": "Lourdement déficitaire en balance de biens (-3 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "29,0 % du PIB",
+            "budgetBalance": "Déficit permanent comblé par création monétaire",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "CARICOM",
+            "OIF",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "JAM": {
+        "currency": {
+            "name": "Dollar jamaïcain",
+            "code": "JMD",
+            "symbol": "J$",
+            "centralBank": "Banque de la Jamaïque (BOJ)"
+        },
+        "macro": {
+            "gdpNominal": "19,5 milliards USD",
+            "gdpPerCapita": "7 000 USD",
+            "globalRank": "126e mondial",
+            "growth": "+2,6 %",
+            "inflation": "6,9 %"
+        },
+        "structure": {
+            "services": "72,0 %",
+            "industry": "21,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Tourisme international (Montego Bay, Negril), mines de bauxite et raffinage de l'alumine, café Blue Mountain, rhum jamaïcain, services financiers et centres d'appels, transferts des émigrés (28 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Alumine calcinée et bauxite, produits pétroliers raffinés, rhum, café Blue Mountain, ignames",
+            "mainImports": "Carburants raffinés, véhicules automobiles, médicaments, denrées alimentaires, machines",
+            "topPartners": [
+                "États-Unis",
+                "Pays-Bas",
+                "Canada",
+                "Royaume-Uni",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire en balance de biens (-4,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "72,0 % du PIB (forte baisse de la dette depuis le pic de 145 %)",
+            "budgetBalance": "+0,5 % du PIB",
+            "sovereignRating": "BB- (S&P / Fitch) / B1 (Moody's)"
+        },
+        "organizations": [
+            "CARICOM",
+            "Commonwealth",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "TTO": {
+        "currency": {
+            "name": "Dollar de Trinité-et-Tobago",
+            "code": "TTD",
+            "symbol": "TT$",
+            "centralBank": "Banque centrale de Trinité-et-Tobago"
+        },
+        "macro": {
+            "gdpNominal": "28 milliards USD",
+            "gdpPerCapita": "19 800 USD",
+            "globalRank": "114e mondial",
+            "growth": "+2,1 %",
+            "inflation": "4,7 %"
+        },
+        "structure": {
+            "services": "56,0 %",
+            "industry": "43,5 %",
+            "agriculture": "0,5 %",
+            "mainSectors": "Hydrocarbures (gaz naturel offshore et GNL - complexe Atlantic LNG de Point Fortin), pétrochimie (l'un des 1ers exportateurs mondiaux de méthanol et d'ammoniac), sidérurgie, secteur bancaire caribéen"
+        },
+        "trade": {
+            "mainExports": "Ammoniac anhydre, gaz naturel liquéfié, méthanol, engrais azotés, produits pétroliers raffinés, acier",
+            "mainImports": "Pétrole brut (pour le raffinage), gaz naturel importé, minerais de fer, machines industrielles, voitures",
+            "topPartners": [
+                "États-Unis",
+                "Union européenne",
+                "Guyana",
+                "Chine",
+                "CARICOM"
+            ],
+            "tradeBalance": "Largement excédentaire (+5,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "53,0 % du PIB (fonds souverain HSF de 5,5 milliards USD)",
+            "budgetBalance": "-1,8 % du PIB",
+            "sovereignRating": "BBB- (S&P) / Ba2 (Moody's) / BBB- (Fitch)"
+        },
+        "organizations": [
+            "CARICOM",
+            "Commonwealth",
+            "Forum des pays exportateurs de gaz (GECF)",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "BHS": {
+        "currency": {
+            "name": "Dollar bahaméen",
+            "code": "BSD",
+            "symbol": "B$",
+            "centralBank": "Banque centrale des Bahamas"
+        },
+        "macro": {
+            "gdpNominal": "14,5 milliards USD",
+            "gdpPerCapita": "36 000 USD",
+            "globalRank": "139e mondial",
+            "growth": "+4,3 %",
+            "inflation": "3,1 %"
+        },
+        "structure": {
+            "services": "85,0 %",
+            "industry": "13,0 %",
+            "agriculture": "2,0 %",
+            "mainSectors": "Tourisme haut de gamme et croisières (Atlantis, Baha Mar - plus de 70 % du PIB direct et indirect), banque et services financiers offshore (paradis fiscal réglementé), registre maritime (pavillon mondial)"
+        },
+        "trade": {
+            "mainExports": "Bateaux et navires de plaisance, poissons et crustacés (langoustes), sel gemme, rhum",
+            "mainImports": "Carburants raffinés, paquebots et bateaux de transport, voitures de tourisme, denrées alimentaires, meubles",
+            "topPartners": [
+                "États-Unis (> 80 %)",
+                "Singapour",
+                "Suisse",
+                "Royaume-Uni",
+                "Chine"
+            ],
+            "tradeBalance": "Lourdement déficitaire en biens (-3,5 milliards USD, compensé par les services)"
+        },
+        "publicFinance": {
+            "publicDebt": "82,0 % du PIB",
+            "budgetBalance": "-3,8 % du PIB",
+            "sovereignRating": "B+ (S&P) / B1 (Moody's)"
+        },
+        "organizations": [
+            "CARICOM",
+            "Commonwealth",
+            "CELAC",
+            "OEA"
+        ]
+    },
+    "BRB": {
+        "currency": {
+            "name": "Dollar barbadien",
+            "code": "BBD",
+            "symbol": "Bds$",
+            "centralBank": "Banque centrale de la Barbade"
+        },
+        "macro": {
+            "gdpNominal": "6,0 milliards USD",
+            "gdpPerCapita": "21 000 USD",
+            "globalRank": "157e mondial",
+            "growth": "+4,5 %",
+            "inflation": "5,0 %"
+        },
+        "structure": {
+            "services": "80,0 %",
+            "industry": "16,0 %",
+            "agriculture": "4,0 %",
+            "mainSectors": "Tourisme de séjour et d'hôtellerie de luxe, finance internationale et compagnies d'assurance captives offshore, rhum Mount Gay (la plus ancienne distillerie de rhum au monde), sucre de canne, services numériques"
+        },
+        "trade": {
+            "mainExports": "Rhum traditionnel, préparations alimentaires, ciment, médicaments, sucre",
+            "mainImports": "Carburants raffinés, voitures de tourisme, denrées alimentaires, matériel électrique",
+            "topPartners": [
+                "États-Unis",
+                "Trinité-et-Tobago",
+                "Guyana",
+                "Royaume-Uni",
+                "Jamaïque"
+            ],
+            "tradeBalance": "Structurellement déficitaire en biens"
+        },
+        "publicFinance": {
+            "publicDebt": "106,0 % du PIB (restructurée sous le programme FMI / Initiative de Bridgetown)",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "B (S&P / Fitch) / B3 (Moody's)"
+        },
+        "organizations": [
+            "CARICOM",
+            "Commonwealth",
+            "AOSIS",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "GUY": {
+        "currency": {
+            "name": "Dollar guyanien",
+            "code": "GYD",
+            "symbol": "G$",
+            "centralBank": "Banque du Guyana"
+        },
+        "macro": {
+            "gdpNominal": "17 milliards USD",
+            "gdpPerCapita": "21 000 USD",
+            "globalRank": "133e mondial",
+            "growth": "+38,4 % (croissance record liée au boom pétrolier offshore)",
+            "inflation": "2,0 %"
+        },
+        "structure": {
+            "services": "35,0 %",
+            "industry": "55,0 %",
+            "agriculture": "10,0 %",
+            "mainSectors": "Pétrole offshore ultra-profond du bloc Stabroek (consortium ExxonMobil, Hess, CNOOC - > 650 000 barils/jour), or et bauxite, riz, sucre, fonds souverain Natural Resource Fund"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (> 85 % des exportations), or brut, bauxite, riz usiné, sucre de canne",
+            "mainImports": "Navires de stockage pétrolier (FPSO), machines industrielles, carburants raffinés, acier",
+            "topPartners": [
+                "États-Unis",
+                "Union européenne",
+                "Singapour",
+                "Trinité-et-Tobago",
+                "Chine"
+            ],
+            "tradeBalance": "Massivement et historiquement excédentaire (+8 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "27,0 % du PIB (dette en chute libre grâce aux royalties)",
+            "budgetBalance": "+12,0 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "CARICOM (siège du secrétariat à Georgetown)",
+            "Commonwealth",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "SUR": {
+        "currency": {
+            "name": "Dollar surinamais",
+            "code": "SRD",
+            "symbol": "$",
+            "centralBank": "Centrale Bank van Suriname"
+        },
+        "macro": {
+            "gdpNominal": "3,8 milliards USD",
+            "gdpPerCapita": "6 200 USD",
+            "globalRank": "163e mondial",
+            "growth": "+2,1 %",
+            "inflation": "38,0 %"
+        },
+        "structure": {
+            "services": "55,0 %",
+            "industry": "33,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Extraction minière d'or (mines de Rosebel et Merian - Newmont), hydrocarbures offshore découverts dans le bassin Suriname-Guyana (bloc 58 - TotalEnergies / APA), bauxite, riz, bois précieux"
+        },
+        "trade": {
+            "mainExports": "Or brut (> 75 % des exportations), pétrole brut, bois scié, riz, crevettes",
+            "mainImports": "Machines d'extraction minière, carburants raffinés, véhicules, produits alimentaires",
+            "topPartners": [
+                "Émirats arabes unis (achat d'or)",
+                "Suisse",
+                "États-Unis",
+                "Trinité-et-Tobago",
+                "Pays-Bas"
+            ],
+            "tradeBalance": "Excédentaire (+500 millions USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "110,0 % du PIB (restructuration conclue en 2023)",
+            "budgetBalance": "-1,8 % du PIB",
+            "sovereignRating": "CCC+ (S&P / Fitch) / Caa3 (Moody's)"
+        },
+        "organizations": [
+            "CARICOM",
+            "UNASUR",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "LCA": {
+        "currency": {
+            "name": "Dollar des Caraïbes orientales",
+            "code": "XCD",
+            "symbol": "EC$",
+            "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
+        },
+        "macro": {
+            "gdpNominal": "2,4 milliards USD",
+            "gdpPerCapita": "13 000 USD",
+            "globalRank": "167e mondial",
+            "growth": "+3,5 %",
+            "inflation": "4,2 %"
+        },
+        "structure": {
+            "services": "82,0 %",
+            "industry": "14,0 %",
+            "agriculture": "4,0 %",
+            "mainSectors": "Tourisme de villégiature et d'escales de croisière (les Pitons), programme de citoyenneté par investissement (CBI), bananes, bière locale (Piton), fabrication de boissons et emballage"
+        },
+        "trade": {
+            "mainExports": "Boissons gazeuses et bière, bananes fraîches, vêtements, tubes métalliques",
+            "mainImports": "Carburants raffinés, navires et bateaux, denrées alimentaires, voitures",
+            "topPartners": [
+                "États-Unis",
+                "Trinité-et-Tobago",
+                "Royaume-Uni",
+                "Barbade",
+                "France (Martinique)"
+            ],
+            "tradeBalance": "Structurellement déficitaire en balance de biens"
+        },
+        "publicFinance": {
+            "publicDebt": "78,0 % du PIB",
+            "budgetBalance": "-3,2 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "OECO",
+            "CARICOM",
+            "Commonwealth",
+            "OIF",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "VCT": {
+        "currency": {
+            "name": "Dollar des Caraïbes orientales",
+            "code": "XCD",
+            "symbol": "EC$",
+            "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
+        },
+        "macro": {
+            "gdpNominal": "1,1 milliard USD",
+            "gdpPerCapita": "10 500 USD",
+            "globalRank": "178e mondial",
+            "growth": "+5,0 %",
+            "inflation": "3,8 %"
+        },
+        "structure": {
+            "services": "75,0 %",
+            "industry": "18,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Tourisme nautique et de luxe dans les îles Grenadines (Moustique, Bequia), agriculture (bananes, fécule d'arrow-root, tubercules), services bancaires offshore, pêche côtière"
+        },
+        "trade": {
+            "mainExports": "Fécule d'arrow-root, bananes, farine de blé, poissons frais",
+            "mainImports": "Carburants, bateaux de plaisance et yachts, denrées alimentaires, matériaux de construction",
+            "topPartners": [
+                "États-Unis",
+                "Trinité-et-Tobago",
+                "Royaume-Uni",
+                "Barbade"
+            ],
+            "tradeBalance": "Lourdement déficitaire en biens"
+        },
+        "publicFinance": {
+            "publicDebt": "86,0 % du PIB",
+            "budgetBalance": "-4,5 % du PIB",
+            "sovereignRating": "B- (Moody's)"
+        },
+        "organizations": [
+            "OECO",
+            "CARICOM",
+            "Commonwealth",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "GRD": {
+        "currency": {
+            "name": "Dollar des Caraïbes orientales",
+            "code": "XCD",
+            "symbol": "EC$",
+            "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
+        },
+        "macro": {
+            "gdpNominal": "1,3 milliard USD",
+            "gdpPerCapita": "11 000 USD",
+            "globalRank": "174e mondial",
+            "growth": "+3,9 %",
+            "inflation": "2,8 %"
+        },
+        "structure": {
+            "services": "78,0 %",
+            "industry": "15,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Tourisme de séjour et d'escales de croisières, université médicale internationale Saint George (formation d'étudiants américains), épices ('Île aux épices' : muscade - 2e producteur mondial, cannelle, clou de girofle), cacao, programme CBI"
+        },
+        "trade": {
+            "mainExports": "Noix de muscade et macis, fèves de cacao bio, fruits et légumes, poissons frais",
+            "mainImports": "Pétrole raffiné, denrées alimentaires de base, voitures, ciment, matériel électronique",
+            "topPartners": [
+                "États-Unis",
+                "Trinité-et-Tobago",
+                "Royaume-Uni",
+                "Allemagne"
+            ],
+            "tradeBalance": "Déficitaire en balance de biens"
+        },
+        "publicFinance": {
+            "publicDebt": "65,0 % du PIB",
+            "budgetBalance": "+1,0 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "OECO",
+            "CARICOM",
+            "Commonwealth",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "ATG": {
+        "currency": {
+            "name": "Dollar des Caraïbes orientales",
+            "code": "XCD",
+            "symbol": "EC$",
+            "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
+        },
+        "macro": {
+            "gdpNominal": "1,9 milliard USD",
+            "gdpPerCapita": "19 000 USD",
+            "globalRank": "169e mondial",
+            "growth": "+5,2 %",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "84,0 %",
+            "industry": "14,0 %",
+            "agriculture": "2,0 %",
+            "mainSectors": "Tourisme haut de gamme et nautisme ('365 plages'), jeux en ligne et paris sur internet (pionnier mondial du jeu en ligne régulé), programme de citoyenneté économique (CBI), services financiers"
+        },
+        "trade": {
+            "mainExports": "Bateaux de plaisance réexportés, machines, instruments d'optique, carburants",
+            "mainImports": "Pétrole raffiné, navires et yachts, voitures, viandes, boissons",
+            "topPartners": [
+                "États-Unis",
+                "Royaume-Uni",
+                "Trinité-et-Tobago",
+                "Pologne"
+            ],
+            "tradeBalance": "Structurellement déficitaire en biens (-800 millions USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "76,0 % du PIB",
+            "budgetBalance": "-2,0 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "OECO",
+            "CARICOM",
+            "Commonwealth",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "DMA": {
+        "currency": {
+            "name": "Dollar des Caraïbes orientales",
+            "code": "XCD",
+            "symbol": "EC$",
+            "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
+        },
+        "macro": {
+            "gdpNominal": "650 millions USD",
+            "gdpPerCapita": "8 900 USD",
+            "globalRank": "185e mondial",
+            "growth": "+4,7 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "72,0 %",
+            "industry": "16,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Écotourisme et tourisme vert ('Île nature des Caraïbes' : randonnée, sources chaudes), programme de citoyenneté par investissement (CBI - finançant la résilience climatique), agriculture (bananes, agrumes, café), géothermie en développement"
+        },
+        "trade": {
+            "mainExports": "Savons de toilette, huiles essentielles, bananes, agrumes et fruits tropicaux",
+            "mainImports": "Produits pétroliers, matériel de construction, denrées alimentaires, voitures",
+            "topPartners": [
+                "Arabie saoudite",
+                "États-Unis",
+                "Trinité-et-Tobago",
+                "France (Guadeloupe / Martinique)"
+            ],
+            "tradeBalance": "Déficitaire"
+        },
+        "publicFinance": {
+            "publicDebt": "98,0 % du PIB",
+            "budgetBalance": "-3,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "OECO",
+            "CARICOM",
+            "Commonwealth",
+            "OIF",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "KNA": {
+        "currency": {
+            "name": "Dollar des Caraïbes orientales",
+            "code": "XCD",
+            "symbol": "EC$",
+            "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
+        },
+        "macro": {
+            "gdpNominal": "1,1 milliard USD",
+            "gdpPerCapita": "21 000 USD",
+            "globalRank": "177e mondial",
+            "growth": "+3,8 %",
+            "inflation": "2,2 %"
+        },
+        "structure": {
+            "services": "76,0 %",
+            "industry": "22,0 %",
+            "agriculture": "2,0 %",
+            "mainSectors": "Programme de citoyenneté par investissement (le plus ancien programme CBI au monde, créé en 1984), tourisme de villégiature et hôtellerie haut de gamme, assemblage d'équipements électroniques légers, services bancaires offshore"
+        },
+        "trade": {
+            "mainExports": "Composants électroniques assemblés, matériel de commutation électrique, timbres, boissons",
+            "mainImports": "Pétrole raffiné, viandes, voitures de tourisme, meubles, matériel informatique",
+            "topPartners": [
+                "États-Unis",
+                "Trinité-et-Tobago",
+                "Royaume-Uni",
+                "Allemagne"
+            ],
+            "tradeBalance": "Déficitaire en biens (-300 millions USD, compensé par les recettes CBI)"
+        },
+        "publicFinance": {
+            "publicDebt": "55,0 % du PIB",
+            "budgetBalance": "+0,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "OECO (siège du tribunal suprême)",
+            "CARICOM",
+            "Commonwealth",
+            "CELAC",
+            "OEA",
+            "OMC"
+        ]
+    },
+    "GRL": {
+        "currency": {
+            "name": "Couronne danoise",
+            "code": "DKK",
+            "symbol": "kr",
+            "centralBank": "Banque nationale du Danemark (Danmarks Nationalbank)"
+        },
+        "macro": {
+            "gdpNominal": "3,2 milliards USD",
+            "gdpPerCapita": "57 000 USD",
+            "globalRank": "Territoire autonome d'outre-mer (Danemark)",
+            "growth": "+2,0 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "60,0 %",
+            "industry": "20,0 %",
+            "agriculture": "20,0 %",
+            "mainSectors": "Pêche industrielle et traitement des produits de la mer (crevettes royales d'eau froide, flétan du Groenland, cabillaud - Royal Greenland), subvention de bloc annuelle danoise (bloktilskud - 3,9 milliards DKK, soit 20 % du PIB), potentiel minier géant (terres rares de Kvanefjeld, uranium, zinc, or, rubis)"
+        },
+        "trade": {
+            "mainExports": "Crevettes nordiques surgelées, flétan du Groenland, poissons séchés ou salés, crabe des neiges",
+            "mainImports": "Carburants raffinés et fioul lourd, bateaux et chalutiers de pêche, denrées alimentaires, machines, matériaux",
+            "topPartners": [
+                "Danemark (> 80 % du commerce)",
+                "Chine",
+                "Japon",
+                "États-Unis",
+                "Islande"
+            ],
+            "tradeBalance": "Légèrement déficitaire hors subvention danoise"
+        },
+        "publicFinance": {
+            "publicDebt": "10,0 % du PIB (adossée au Danemark)",
+            "budgetBalance": "Équilibré grâce à la subvention danoise",
+            "sovereignRating": "AAA (adossé au Danemark)"
+        },
+        "organizations": [
+            "Conseil nordique",
+            "Conseil de l'Arctique",
+            "OCTA (Pays et territoires d'outre-mer de l'UE)"
+        ]
+    }
+}
