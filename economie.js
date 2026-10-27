@@ -1,6 +1,6 @@
 // ========================================
 // DIPLOMACY LAB — MODULE ÉCONOMIE
-// CHARGEUR DE DONNÉES (par continent)
+// CHARGEUR DE DONNÉES MULTI-CONTINENTS
 // ========================================
 
 window.economyData = window.economyData || {};
@@ -24,7 +24,7 @@ function fetchFirstAvailable(paths) {
         });
 }
 
-// Emplacement prioritaire immédiat
+// Chemins résilients pour chaque continent
 const europePaths = [
     "data/europe_economie.json",
     "data/economie/europe.json",
@@ -33,21 +33,54 @@ const europePaths = [
     "europe.json"
 ];
 
-fetchFirstAvailable(europePaths)
-    .then(function(data) {
-        window.economyLoading = false;
-        window.economyLoaded = true;
-        Object.assign(window.economyData, data);
-        console.log(
-            "Module ÉCONOMIE : Europe chargée avec succès (" +
-            Object.keys(data).length + " pays)."
-        );
-        // Si un pays est déjà ouvert dans le panneau latéral, le rafraîchir instantanément
-        if (typeof window.renderCountryContent === "function" && window.currentSelectedIso3) {
-            window.renderCountryContent(window.currentSelectedIso3, window.currentSelectedName);
-        }
-    })
-    .catch(function(error) {
-        window.economyLoading = false;
-        console.warn("Module ÉCONOMIE : données non trouvées", error);
-    });
+const africaPaths = [
+    "data/africa_economie.json",
+    "data/economie/africa.json",
+    "data/africa.json",
+    "africa_economie.json",
+    "africa.json"
+];
+
+const asiaPaths = [
+    "data/asia_economie.json",
+    "data/economie/asia.json",
+    "data/asia.json",
+    "asia_economie.json"
+];
+
+const americaPaths = [
+    "data/america_economie.json",
+    "data/economie/america.json",
+    "data/america.json",
+    "america_economie.json"
+];
+
+const oceaniaPaths = [
+    "data/oceania_economie.json",
+    "data/economie/oceania.json",
+    "data/oceania.json",
+    "oceania_economie.json"
+];
+
+function onContinentLoaded(continentName, data) {
+    Object.assign(window.economyData, data);
+    window.economyLoaded = true;
+    console.log("Module ÉCONOMIE : " + continentName + " chargée avec succès (" + Object.keys(data).length + " pays).");
+    if (typeof window.renderCountryContent === "function" && window.currentSelectedIso3) {
+        window.renderCountryContent(window.currentSelectedIso3, window.currentSelectedName);
+    }
+}
+
+// Lancement simultané des chargements
+const continentLoads = [
+    fetchFirstAvailable(europePaths).then(function(data) { onContinentLoaded("Europe", data); }).catch(function(e) { console.warn("Économie Europe indisponible :", e); }),
+    fetchFirstAvailable(africaPaths).then(function(data) { onContinentLoaded("Afrique", data); }).catch(function(e) { console.warn("Économie Afrique indisponible :", e); }),
+    fetchFirstAvailable(asiaPaths).then(function(data) { onContinentLoaded("Asie", data); }).catch(function() {}),
+    fetchFirstAvailable(americaPaths).then(function(data) { onContinentLoaded("Amériques", data); }).catch(function() {}),
+    fetchFirstAvailable(oceaniaPaths).then(function(data) { onContinentLoaded("Océanie", data); }).catch(function() {})
+];
+
+Promise.allSettled(continentLoads).then(function() {
+    window.economyLoading = false;
+    console.log("Module ÉCONOMIE prêt. Total pays chargés : " + Object.keys(window.economyData).length);
+});
