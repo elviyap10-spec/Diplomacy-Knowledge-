@@ -1,0 +1,2087 @@
+{
+    "CHN": {
+        "currency": {
+            "name": "Yuan renminbi",
+            "code": "CNY",
+            "symbol": "¥",
+            "centralBank": "Banque populaire de Chine (PBOC)"
+        },
+        "macro": {
+            "gdpNominal": "18 530 milliards USD",
+            "gdpPerCapita": "13 100 USD",
+            "globalRank": "2e mondial (1er en PPA)",
+            "growth": "+5,2 %",
+            "inflation": "0,3 %"
+        },
+        "structure": {
+            "services": "54,6 %",
+            "industry": "38,3 %",
+            "agriculture": "7,1 %",
+            "mainSectors": "Électronique grand public, véhicules électriques et batteries (BYD, CATL), sidérurgie, panneaux solaires photovoltaïques, commerce électronique et plateformes numériques (Alibaba, Tencent)"
+        },
+        "trade": {
+            "mainExports": "Machines et équipements électriques, ordinateurs et smartphones, batteries lithium-ion, panneaux solaires, textiles et vêtements",
+            "mainImports": "Circuits intégrés/semi-conducteurs, pétrole brut, minerai de fer, gaz naturel, produits agricoles (soja)",
+            "topPartners": [
+                "États-Unis",
+                "Union européenne",
+                "ASEAN",
+                "Japon",
+                "Corée du Sud",
+                "Russie"
+            ],
+            "tradeBalance": "Fortement excédentaire (+823 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "83,0 % du PIB (consolidée)",
+            "budgetBalance": "-3,8 % du PIB",
+            "sovereignRating": "A+ (S&P / Fitch) / A1 (Moody's)"
+        },
+        "organizations": [
+            "G20",
+            "BRICS+",
+            "Organisation de coopération de Shanghai (OCS)",
+            "RCEP",
+            "APEC",
+            "AIIB (fondateur)",
+            "OMC"
+        ]
+    },
+    "JPN": {
+        "currency": {
+            "name": "Yen japonais",
+            "code": "JPY",
+            "symbol": "¥",
+            "centralBank": "Banque du Japon (BoJ)"
+        },
+        "macro": {
+            "gdpNominal": "4 210 milliards USD",
+            "gdpPerCapita": "33 800 USD",
+            "globalRank": "4e mondial",
+            "growth": "+1,9 %",
+            "inflation": "3,2 %"
+        },
+        "structure": {
+            "services": "69,5 %",
+            "industry": "29,5 %",
+            "agriculture": "1,0 %",
+            "mainSectors": "Industrie automobile (Toyota, Honda), robotique et machines-outils de haute précision, électronique avancée et semi-conducteurs, chimie de pointe, sidérurgie de haute valeur"
+        },
+        "trade": {
+            "mainExports": "Automobiles et pièces détachées, semi-conducteurs et machines industrielles, produits chimiques, acier et métaux de pointe",
+            "mainImports": "Pétrole brut, gaz naturel liquéfié (GNL), charbon, produits agroalimentaires, composants électroniques",
+            "topPartners": [
+                "Chine",
+                "États-Unis",
+                "Union européenne",
+                "Corée du Sud",
+                "Australie",
+                "Taïwan"
+            ],
+            "tradeBalance": "Déficitaire (-65 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "260,0 % du PIB (dette détenue très majoritairement par des résidents)",
+            "budgetBalance": "-5,8 % du PIB",
+            "sovereignRating": "A+ (S&P) / A1 (Moody's) / A+ (Fitch)"
+        },
+        "organizations": [
+            "G7",
+            "G20",
+            "OCDE",
+            "APEC",
+            "CPTPP (PTPGP)",
+            "RCEP",
+            "Banque asiatique de développement (BAD)",
+            "OMC"
+        ]
+    },
+    "IND": {
+        "currency": {
+            "name": "Roupie indienne",
+            "code": "INR",
+            "symbol": "₹",
+            "centralBank": "Reserve Bank of India (RBI)"
+        },
+        "macro": {
+            "gdpNominal": "3 940 milliards USD",
+            "gdpPerCapita": "2 730 USD",
+            "globalRank": "5e mondial (3e en PPA)",
+            "growth": "+7,6 %",
+            "inflation": "5,4 %"
+        },
+        "structure": {
+            "services": "53,8 %",
+            "industry": "28,4 %",
+            "agriculture": "17,8 %",
+            "mainSectors": "Services informatiques et logiciels (TCS, Infosys), industrie pharmaceutique (1er producteur mondial de génériques), raffinage de pétrole, sidérurgie, textile et automobile"
+        },
+        "trade": {
+            "mainExports": "Produits pétroliers raffinés, diamants taillés et joaillerie, médicaments génériques, logiciels et services d'ingénierie, riz",
+            "mainImports": "Pétrole brut, or et métaux précieux, charbon, composants électroniques, machines électriques",
+            "topPartners": [
+                "États-Unis",
+                "Émirats arabes unis",
+                "Chine",
+                "Russie",
+                "Arabie saoudite"
+            ],
+            "tradeBalance": "Déficitaire (-240 milliards USD, compensé par services et remises)"
+        },
+        "publicFinance": {
+            "publicDebt": "82,5 % du PIB",
+            "budgetBalance": "-5,6 % du PIB",
+            "sovereignRating": "BBB- (S&P / Fitch) / Baa3 (Moody's)"
+        },
+        "organizations": [
+            "G20",
+            "BRICS+",
+            "Organisation de coopération de Shanghai (OCS)",
+            "SAARC",
+            "Quad",
+            "AIIB",
+            "OMC"
+        ]
+    },
+    "KOR": {
+        "currency": {
+            "name": "Won sud-coréen",
+            "code": "KRW",
+            "symbol": "₩",
+            "centralBank": "Banque de Corée (Bank of Korea)"
+        },
+        "macro": {
+            "gdpNominal": "1 710 milliards USD",
+            "gdpPerCapita": "33 100 USD",
+            "globalRank": "14e mondial",
+            "growth": "+1,4 %",
+            "inflation": "3,6 %"
+        },
+        "structure": {
+            "services": "58,3 %",
+            "industry": "39,8 %",
+            "agriculture": "1,9 %",
+            "mainSectors": "Semi-conducteurs et puces mémoire (Samsung Electronics, SK Hynix), automobile et batteries (Hyundai, Kia, LG Energy), construction navale de haute technologie (méthaniers GNL), sidérurgie (POSCO)"
+        },
+        "trade": {
+            "mainExports": "Circuits intégrés et mémoires, automobiles et pièces détachées, produits pétroliers raffinés, écrans plats OLED, navires",
+            "mainImports": "Pétrole brut, gaz naturel liquéfié, charbon, équipements de fabrication de semi-conducteurs",
+            "topPartners": [
+                "Chine",
+                "États-Unis",
+                "Viêt Nam",
+                "Japon",
+                "Union européenne",
+                "Australie"
+            ],
+            "tradeBalance": "Légèrement excédentaire (+10 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "54,0 % du PIB",
+            "budgetBalance": "-2,6 % du PIB",
+            "sovereignRating": "AA (S&P) / Aa2 (Moody's) / AA- (Fitch)"
+        },
+        "organizations": [
+            "G20",
+            "OCDE",
+            "APEC",
+            "RCEP",
+            "OMC"
+        ]
+    },
+    "PRK": {
+        "currency": {
+            "name": "Won nord-coréen",
+            "code": "KPW",
+            "symbol": "₩",
+            "centralBank": "Banque centrale de la RPDC"
+        },
+        "macro": {
+            "gdpNominal": "16,0 milliards USD (estimation)",
+            "gdpPerCapita": "~650 USD",
+            "globalRank": "130e mondial",
+            "growth": "+3,1 %",
+            "inflation": "Non publiée"
+        },
+        "structure": {
+            "services": "30,0 %",
+            "industry": "48,0 %",
+            "agriculture": "22,0 %",
+            "mainSectors": "Complexe militaro-industriel, extraction minière (charbon, fer, terres rares), métallurgie lourde, armement, chimie, textile à façon"
+        },
+        "trade": {
+            "mainExports": "Minerais, produits métallurgiques, armements et munitions, textile manufacturé, produits de la mer (soumis aux sanctions ONU)",
+            "mainImports": "Pétrole et carburants raffinés, engrais et produits chimiques, céréales et denrées alimentaires, machines",
+            "topPartners": [
+                "Chine (plus de 90 % du commerce)",
+                "Russie"
+            ],
+            "tradeBalance": "Structurellement déficitaire"
+        },
+        "publicFinance": {
+            "publicDebt": "Non communiquée (économie planifiée sous sanctions)",
+            "budgetBalance": "Non applicable",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Mouvement des non-alignés",
+            "Forum régional de l'ASEAN (ARF)"
+        ]
+    },
+    "IDN": {
+        "currency": {
+            "name": "Roupie indonésienne",
+            "code": "IDR",
+            "symbol": "Rp",
+            "centralBank": "Bank Indonesia"
+        },
+        "macro": {
+            "gdpNominal": "1 370 milliards USD",
+            "gdpPerCapita": "4 920 USD",
+            "globalRank": "16e mondial (1er de l'ASEAN)",
+            "growth": "+5,0 %",
+            "inflation": "2,6 %"
+        },
+        "structure": {
+            "services": "44,5 %",
+            "industry": "41,8 %",
+            "agriculture": "13,7 %",
+            "mainSectors": "Extraction minière et métallurgie du nickel (leader mondial, chaîne des batteries de VE), huile de palme (1er producteur mondial), charbon thermique, automobile, textile"
+        },
+        "trade": {
+            "mainExports": "Nickel transformé et dérivés, huile de palme, charbon, gaz naturel liquéfié, caoutchouc naturel, confection textile",
+            "mainImports": "Machines et pièces mécaniques, produits chimiques, carburants raffinés, fer et acier",
+            "topPartners": [
+                "Chine",
+                "États-Unis",
+                "Japon",
+                "Singapour",
+                "Inde",
+                "Malaisie"
+            ],
+            "tradeBalance": "Excédentaire (+37 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "39,0 % du PIB (règle stricte limitant la dette à 60 % du PIB)",
+            "budgetBalance": "-1,7 % du PIB",
+            "sovereignRating": "BBB (S&P / Fitch) / Baa2 (Moody's)"
+        },
+        "organizations": [
+            "G20",
+            "ASEAN (siège du secrétariat)",
+            "RCEP",
+            "APEC",
+            "OMC"
+        ]
+    },
+    "SAU": {
+        "currency": {
+            "name": "Riyal saoudien",
+            "code": "SAR",
+            "symbol": "ر.س",
+            "centralBank": "Banque centrale saoudienne (SAMA)"
+        },
+        "macro": {
+            "gdpNominal": "1 070 milliards USD",
+            "gdpPerCapita": "32 500 USD",
+            "globalRank": "19e mondial (1er du Moyen-Orient)",
+            "growth": "-0,8 % (coupes OPEP+)",
+            "inflation": "1,6 %"
+        },
+        "structure": {
+            "services": "48,0 %",
+            "industry": "49,4 %",
+            "agriculture": "2,6 %",
+            "mainSectors": "Pétrole brut et raffiné (Saudi Aramco), pétrochimie (SABIC), plastiques, engrais phosphatés, métaux, investissements souverains de diversification (Vision 2030 / PIF)"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, produits pétroliers raffinés, polymères et éthylène, engrais chimiques",
+            "mainImports": "Véhicules automobiles, machines industrielles, équipements électriques, téléphones mobiles, produits pharmaceutiques",
+            "topPartners": [
+                "Chine",
+                "Inde",
+                "Japon",
+                "Corée du Sud",
+                "États-Unis",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Largement excédentaire (+115 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "26,2 % du PIB (fonds souverain PIF > 900 milliards USD)",
+            "budgetBalance": "-2,0 % du PIB",
+            "sovereignRating": "A (S&P) / A1 (Moody's) / A+ (Fitch)"
+        },
+        "organizations": [
+            "G20",
+            "OPEP / OPEP+",
+            "Conseil de coopération du Golfe (CCG)",
+            "Ligue arabe",
+            "BRICS+ (invitée)",
+            "OMC"
+        ]
+    },
+    "IRN": {
+        "currency": {
+            "name": "Rial iranien",
+            "code": "IRR",
+            "symbol": "﷼",
+            "centralBank": "Banque centrale d'Iran (CBI)"
+        },
+        "macro": {
+            "gdpNominal": "403 milliards USD",
+            "gdpPerCapita": "4 600 USD",
+            "globalRank": "36e mondial",
+            "growth": "+4,5 %",
+            "inflation": "41,0 %"
+        },
+        "structure": {
+            "services": "52,0 %",
+            "industry": "36,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Hydrocarbures (pétrole et 2es réserves mondiales de gaz naturel), pétrochimie, sidérurgie, industrie automobile domestique (Iran Khodro), armement"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (via circuits alternatifs), produits pétrochimiques, gaz naturel, acier et cuivre, fruits secs et pistaches",
+            "mainImports": "Machines industrielles, composants électroniques et automobiles, blé, soja, produits pharmaceutiques",
+            "topPartners": [
+                "Chine",
+                "Émirats arabes unis",
+                "Turquie",
+                "Irak",
+                "Inde",
+                "Russie"
+            ],
+            "tradeBalance": "Excédentaire (+15 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "30,5 % du PIB",
+            "budgetBalance": "-3,5 % du PIB",
+            "sovereignRating": "Non notée (sous sanctions OFAC)"
+        },
+        "organizations": [
+            "BRICS+",
+            "Organisation de coopération de Shanghai (OCS)",
+            "OPEP",
+            "Organisation de coopération économique (ECO)",
+            "G77"
+        ]
+    },
+    "ISR": {
+        "currency": {
+            "name": "Nouveau shekel israélien",
+            "code": "ILS",
+            "symbol": "₪",
+            "centralBank": "Banque d'Israël"
+        },
+        "macro": {
+            "gdpNominal": "510 milliards USD",
+            "gdpPerCapita": "52 200 USD",
+            "globalRank": "28e mondial",
+            "growth": "+2,0 %",
+            "inflation": "3,8 %"
+        },
+        "structure": {
+            "services": "70,5 %",
+            "industry": "28,0 %",
+            "agriculture": "1,5 %",
+            "mainSectors": "Haute technologie et 'Silicon Wadi' (IA, cybersécurité, semi-conducteurs, biotechnologies), technologies militaires et aéronautiques, taille de diamants, gaz naturel offshore (Tamar et Leviathan)"
+        },
+        "trade": {
+            "mainExports": "Logiciels et services numériques, composants électroniques, diamants taillés, équipements médicaux et optiques, gaz naturel liquéfié",
+            "mainImports": "Voitures de tourisme, diamants bruts, carburants, machines et matériel informatique, blé",
+            "topPartners": [
+                "États-Unis",
+                "Chine",
+                "Union européenne",
+                "Inde",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Excédentaire au compte courant (+4,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "62,0 % du PIB",
+            "budgetBalance": "-6,7 % du PIB (impact des dépenses de défense)",
+            "sovereignRating": "A (S&P) / A2 (Moody's) / A (Fitch)"
+        },
+        "organizations": [
+            "OCDE",
+            "OMC",
+            "Accords d'Abraham (ÉAU, Bahreïn, Maroc)"
+        ]
+    },
+    "PSE": {
+        "currency": {
+            "name": "Nouveau shekel / Dinar jordanien / Dollar USD",
+            "code": "ILS / JOD",
+            "symbol": "₪ / د.أ",
+            "centralBank": "Autorité monétaire palestinienne (PMA)"
+        },
+        "macro": {
+            "gdpNominal": "15,2 milliards USD (avant crise)",
+            "gdpPerCapita": "~2 800 USD",
+            "globalRank": "135e mondial",
+            "growth": "-25,0 % (impact des destructions de guerre)",
+            "inflation": "12,0 %"
+        },
+        "structure": {
+            "services": "68,0 %",
+            "industry": "18,0 %",
+            "agriculture": "14,0 %",
+            "mainSectors": "Pierre de taille et marbre de Cisjordanie, huile d'olive et oléiculture, textile, agroalimentaire, télécommunications"
+        },
+        "trade": {
+            "mainExports": "Pierres de construction et calcaire, huile d'olive, dattes et fruits, ferraille",
+            "mainImports": "Énergie et électricité, carburants, véhicules, denrées alimentaires de base, matériaux de construction",
+            "topPartners": [
+                "Israël (> 85 %)",
+                "Jordanie",
+                "Turquie",
+                "Égypte",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Lourdement déficitaire (-35 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "50,0 % du PIB",
+            "budgetBalance": "Déficit structurel comblé par l'aide internationale",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Ligue arabe",
+            "Organisation de la coopération islamique (OCI)",
+            "G77"
+        ]
+    },
+    "ARE": {
+        "currency": {
+            "name": "Dirham des Émirats arabes unis",
+            "code": "AED",
+            "symbol": "د.إ",
+            "centralBank": "Banque centrale des Émirats arabes unis (CBUAE)"
+        },
+        "macro": {
+            "gdpNominal": "504 milliards USD",
+            "gdpPerCapita": "51 000 USD",
+            "globalRank": "31e mondial",
+            "growth": "+3,4 %",
+            "inflation": "2,2 %"
+        },
+        "structure": {
+            "services": "56,0 %",
+            "industry": "43,0 %",
+            "agriculture": "1,0 %",
+            "mainSectors": "Commerce et hub logistique mondial (port de Jebel Ali, hub aérien d'Emirates), finance internationale et fintech (DIFC, ADGM), tourisme et immobilier haut de gamme, pétrole brut et gaz (Abou Dabi / ADNOC), aluminium"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut et produits raffinés, or et bijoux réexportés, aluminium brut, machines et équipements de télécommunication",
+            "mainImports": "Or brut, téléphones portables et composants électroniques, voitures, diamants bruts",
+            "topPartners": [
+                "Chine",
+                "Inde",
+                "Japon",
+                "États-Unis",
+                "Arabie saoudite",
+                "Suisse"
+            ],
+            "tradeBalance": "Très excédentaire (+90 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "29,8 % du PIB (fonds souverains massifs > 1 500 milliards USD)",
+            "budgetBalance": "+4,8 % du PIB",
+            "sovereignRating": "AA (S&P) / Aa2 (Moody's) / AA- (Fitch)"
+        },
+        "organizations": [
+            "OPEP / OPEP+",
+            "Conseil de coopération du Golfe (CCG)",
+            "Ligue arabe",
+            "BRICS+",
+            "OMC"
+        ]
+    },
+    "QAT": {
+        "currency": {
+            "name": "Riyal qatarien",
+            "code": "QAR",
+            "symbol": "ر.ق",
+            "centralBank": "Banque centrale du Qatar (QCB)"
+        },
+        "macro": {
+            "gdpNominal": "235 milliards USD",
+            "gdpPerCapita": "82 800 USD",
+            "globalRank": "53e mondial",
+            "growth": "+2,4 %",
+            "inflation": "1,5 %"
+        },
+        "structure": {
+            "services": "48,5 %",
+            "industry": "51,3 %",
+            "agriculture": "0,2 %",
+            "mainSectors": "Gaz naturel liquéfié (GNL - gisement géant North Field / QatarEnergy), pétrole brut, condensats, produits pétrochimiques et engrais (urée), investissements du fonds souverain QIA (500 milliards USD)"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel liquéfié (GNL), pétrole brut, produits pétroliers raffinés, polymères d'éthylène, engrais azotés",
+            "mainImports": "Turbines et réacteurs pour l'énergie, avions de ligne et matériel aéronautique, voitures, tuyaux de forage",
+            "topPartners": [
+                "Chine",
+                "Inde",
+                "Japon",
+                "Corée du Sud",
+                "Union européenne",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Massivement excédentaire (+65 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "38,0 % du PIB",
+            "budgetBalance": "+5,2 % du PIB",
+            "sovereignRating": "AA (S&P) / Aa2 (Moody's) / AA (Fitch)"
+        },
+        "organizations": [
+            "Conseil de coopération du Golfe (CCG)",
+            "Forum des pays exportateurs de gaz (GECF - siège à Doha)",
+            "Ligue arabe",
+            "OMC"
+        ]
+    },
+    "KWT": {
+        "currency": {
+            "name": "Dinar koweïtien",
+            "code": "KWD",
+            "symbol": "د.ك",
+            "centralBank": "Banque centrale du Koweït (CBK)"
+        },
+        "macro": {
+            "gdpNominal": "160 milliards USD",
+            "gdpPerCapita": "33 000 USD",
+            "globalRank": "61e mondial",
+            "growth": "-0,6 %",
+            "inflation": "3,2 %"
+        },
+        "structure": {
+            "services": "47,0 %",
+            "industry": "52,6 %",
+            "agriculture": "0,4 %",
+            "mainSectors": "Pétrole brut (7e réserves mondiales prouvées - Kuwait Petroleum Corporation), raffinage pétrolier, pétrochimie, fonds souverain Kuwait Investment Authority (KIA, 800 milliards USD)"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, carburants et naphta, engrais azotés, polyéthylène",
+            "mainImports": "Voitures de tourisme, machines et équipements de télécommunication, médicaments, denrées alimentaires",
+            "topPartners": [
+                "Chine",
+                "Inde",
+                "Japon",
+                "Corée du Sud",
+                "États-Unis",
+                "Arabie saoudite"
+            ],
+            "tradeBalance": "Largement excédentaire (+28 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "3,5 % du PIB (l'une des dettes les plus faibles au monde)",
+            "budgetBalance": "+1,8 % du PIB",
+            "sovereignRating": "A+ (S&P) / A1 (Moody's) / AA- (Fitch)"
+        },
+        "organizations": [
+            "OPEP / OPEP+",
+            "Conseil de coopération du Golfe (CCG)",
+            "Ligue arabe",
+            "OMC"
+        ]
+    },
+    "OMN": {
+        "currency": {
+            "name": "Rial omanais",
+            "code": "OMR",
+            "symbol": "ر.ع.",
+            "centralBank": "Banque centrale d'Oman (CBO)"
+        },
+        "macro": {
+            "gdpNominal": "108 milliards USD",
+            "gdpPerCapita": "21 000 USD",
+            "globalRank": "67e mondial",
+            "growth": "+1,5 %",
+            "inflation": "1,1 %"
+        },
+        "structure": {
+            "services": "51,0 %",
+            "industry": "46,8 %",
+            "agriculture": "2,2 %",
+            "mainSectors": "Hydrocarbures (pétrole brut et GNL), raffinage et pétrochimie (Duqm), logistique maritime (ports de Salalah et Sohar en dehors du détroit d'Ormuz), aluminium, pêche côtière"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, gaz naturel liquéfié, produits pétrochimiques, aluminium brut, minerai de fer",
+            "mainImports": "Machines industrielles, véhicules à moteur, tubes en acier pour pipelines, denrées alimentaires",
+            "topPartners": [
+                "Chine (absorbe 80 % du brut)",
+                "Inde",
+                "Émirats arabes unis",
+                "Arabie saoudite",
+                "Corée du Sud"
+            ],
+            "tradeBalance": "Excédentaire (+18 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "36,0 % du PIB (forte baisse de la dette)",
+            "budgetBalance": "+2,5 % du PIB",
+            "sovereignRating": "BBB- (S&P / Fitch) / Ba1 (Moody's)"
+        },
+        "organizations": [
+            "Conseil de coopération du Golfe (CCG)",
+            "Ligue arabe",
+            "IORA",
+            "OMC"
+        ]
+    },
+    "BHR": {
+        "currency": {
+            "name": "Dinar de Bahreïn",
+            "code": "BHD",
+            "symbol": ".د.ب",
+            "centralBank": "Banque centrale de Bahreïn (CBB)"
+        },
+        "macro": {
+            "gdpNominal": "47 milliards USD",
+            "gdpPerCapita": "30 500 USD",
+            "globalRank": "98e mondial",
+            "growth": "+2,9 %",
+            "inflation": "1,2 %"
+        },
+        "structure": {
+            "services": "64,0 %",
+            "industry": "35,7 %",
+            "agriculture": "0,3 %",
+            "mainSectors": "Aluminium (Aluminium Bahrain - Alba, l'une des plus grandes fonderies au monde), finance islamique et services bancaires offshore, raffinage pétrolier, tourisme d'affaires et loisirs (pont King Fahd reliant l'Arabie)"
+        },
+        "trade": {
+            "mainExports": "Aluminium brut et ouvré, produits pétroliers raffinés, fer forgé, produits chimiques",
+            "mainImports": "Pétrole brut (importé d'Arabie pour le raffinage à Bapco), alumine, voitures de tourisme, machines",
+            "topPartners": [
+                "Arabie saoudite",
+                "Émirats arabes unis",
+                "États-Unis",
+                "Chine",
+                "Japon"
+            ],
+            "tradeBalance": "Légèrement excédentaire (+3,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "118,0 % du PIB",
+            "budgetBalance": "-4,2 % du PIB",
+            "sovereignRating": "B+ (S&P / Fitch) / B2 (Moody's)"
+        },
+        "organizations": [
+            "Conseil de coopération du Golfe (CCG)",
+            "Ligue arabe",
+            "OMC"
+        ]
+    },
+    "YEM": {
+        "currency": {
+            "name": "Rial yéménite",
+            "code": "YER",
+            "symbol": "﷼",
+            "centralBank": "Banque centrale du Yémen (divisée Aden / Sanaa)"
+        },
+        "macro": {
+            "gdpNominal": "21 milliards USD",
+            "gdpPerCapita": "650 USD",
+            "globalRank": "120e mondial",
+            "growth": "-0,5 % (impact d'une décennie de conflit)",
+            "inflation": "25,0 %"
+        },
+        "structure": {
+            "services": "45,0 %",
+            "industry": "25,0 %",
+            "agriculture": "30,0 %",
+            "mainSectors": "Agriculture vivrière (qât, café Moka, céréales), pêche artisanale, production pétrolière et gazière résiduelle (champs de Marib et Shabwa, sous blocus récurrent)"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (fortement réduit), poissons frais et congelés, ferraille, café",
+            "mainImports": "Blé et farine, riz, carburants raffinés, médicaments, véhicules d'occasion",
+            "topPartners": [
+                "Chine",
+                "Arabie saoudite",
+                "Émirats arabes unis",
+                "Inde",
+                "Oman"
+            ],
+            "tradeBalance": "Structurellement déficitaire (-25 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "85,0 % du PIB",
+            "budgetBalance": "Déficit majeur financé par aides extérieures",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Ligue arabe",
+            "Organisation de la coopération islamique (OCI)",
+            "OMC"
+        ]
+    },
+    "IRQ": {
+        "currency": {
+            "name": "Dinar irakien",
+            "code": "IQD",
+            "symbol": "ع.د",
+            "centralBank": "Banque centrale d'Irak (CBI)"
+        },
+        "macro": {
+            "gdpNominal": "255 milliards USD",
+            "gdpPerCapita": "5 800 USD",
+            "globalRank": "50e mondial",
+            "growth": "-2,9 % (coupes OPEP+)",
+            "inflation": "4,5 %"
+        },
+        "structure": {
+            "services": "46,0 %",
+            "industry": "50,5 %",
+            "agriculture": "3,5 %",
+            "mainSectors": "Pétrole brut (2e producteur de l'OPEP, 90 % des recettes étatiques - gisements de Bassorah et Kirkouk), raffinage, ciment et matériaux de construction, reconstruction d'infrastructures"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (> 95 % des exportations totales), fioul résiduel, dattes",
+            "mainImports": "Biens manufacturés, machines, véhicules automobiles, denrées alimentaires, produits pharmaceutiques",
+            "topPartners": [
+                "Chine",
+                "Inde",
+                "Turquie",
+                "Corée du Sud",
+                "États-Unis",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Excédentaire (+30 milliards USD lié au cours du baril)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB",
+            "budgetBalance": "-3,2 % du PIB",
+            "sovereignRating": "B- (S&P / Fitch) / Caa1 (Moody's)"
+        },
+        "organizations": [
+            "OPEP / OPEP+ (fondateur)",
+            "Ligue arabe",
+            "Fonds monétaire arabe"
+        ]
+    },
+    "SYR": {
+        "currency": {
+            "name": "Livre syrienne",
+            "code": "SYP",
+            "symbol": "£S / ل.س",
+            "centralBank": "Banque centrale de Syrie"
+        },
+        "macro": {
+            "gdpNominal": "9,0 milliards USD (estimation)",
+            "gdpPerCapita": "~400 USD",
+            "globalRank": "150e mondial",
+            "growth": "-1,5 %",
+            "inflation": "70,0 %"
+        },
+        "structure": {
+            "services": "50,0 %",
+            "industry": "20,0 %",
+            "agriculture": "30,0 %",
+            "mainSectors": "Agriculture (blé, coton, olives, agrumes), petite industrie manufacturière textile, hydrocarbures résiduels (nord-est), économie informelle et transferts de la diaspora"
+        },
+        "trade": {
+            "mainExports": "Huile d'olive, fruits et légumes, textile, épices (cumin)",
+            "mainImports": "Pétrole brut et carburants (importés d'Iran), blé, sucre, équipements électriques, médicaments",
+            "topPartners": [
+                "Turquie",
+                "Iran",
+                "Chine",
+                "Émirats arabes unis",
+                "Irak",
+                "Russie"
+            ],
+            "tradeBalance": "Lourdement déficitaire"
+        },
+        "publicFinance": {
+            "publicDebt": "Non publiée",
+            "budgetBalance": "Déficit permanent comblé par création monétaire",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Ligue arabe (réintégrée)",
+            "Organisation de la coopération islamique (OCI)"
+        ]
+    },
+    "LBN": {
+        "currency": {
+            "name": "Livre libanaise",
+            "code": "LBP",
+            "symbol": "ل.ل",
+            "centralBank": "Banque du Liban (BDL)"
+        },
+        "macro": {
+            "gdpNominal": "20 milliards USD (effondrement post-crise 2019)",
+            "gdpPerCapita": "~3 500 USD",
+            "globalRank": "122e mondial",
+            "growth": "-0,8 %",
+            "inflation": "170,0 %"
+        },
+        "structure": {
+            "services": "78,0 %",
+            "industry": "17,0 %",
+            "agriculture": "5,0 %",
+            "mainSectors": "Services bancaires et financiers (en restructuration profonde), tourisme et restauration, commerce et transit, joaillerie, agroalimentaire (vins, huile d'olive)"
+        },
+        "trade": {
+            "mainExports": "Bijoux et or travaillé, préparations alimentaires, produits chimiques de base, machines électriques",
+            "mainImports": "Carburants raffinés, voitures, médicaments, blé, matériel électronique",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Suisse",
+                "Chine",
+                "Turquie",
+                "Grèce",
+                "Arabie saoudite"
+            ],
+            "tradeBalance": "Structurellement et lourdement déficitaire (-25 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "180,0 % du PIB (défaut souverain prononcé en 2020)",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "SD / Défaut sélectif"
+        },
+        "organizations": [
+            "Ligue arabe",
+            "Organisation internationale de la Francophonie (OIF)"
+        ]
+    },
+    "JOR": {
+        "currency": {
+            "name": "Dinar jordanien",
+            "code": "JOD",
+            "symbol": "د.أ",
+            "centralBank": "Banque centrale de Jordanie (CBJ)"
+        },
+        "macro": {
+            "gdpNominal": "52 milliards USD",
+            "gdpPerCapita": "4 600 USD",
+            "globalRank": "93e mondial",
+            "growth": "+2,6 %",
+            "inflation": "2,1 %"
+        },
+        "structure": {
+            "services": "67,0 %",
+            "industry": "28,0 %",
+            "agriculture": "5,0 %",
+            "mainSectors": "Mines de phosphate et potasse (Arab Potash Company / Jordan Phosphate Mines), industrie pharmaceutique, textile sous zones franches (QIZ avec accès préférentiel aux USA), tourisme (Pétra, mer Morte), transferts de la diaspora"
+        },
+        "trade": {
+            "mainExports": "Engrais chimiques et potasse, acide phosphorique, vêtements confectionnés, médicaments génériques",
+            "mainImports": "Pétrole brut et gaz naturel (importés d'Égypte et d'Irak), véhicules automobiles, blé, machines",
+            "topPartners": [
+                "États-Unis",
+                "Arabie saoudite",
+                "Inde",
+                "Chine",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Déficitaire (-18 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "89,0 % du PIB",
+            "budgetBalance": "-4,5 % du PIB",
+            "sovereignRating": "BB- (S&P / Fitch) / Ba3 (Moody's)"
+        },
+        "organizations": [
+            "Ligue arabe",
+            "GAFTA",
+            "Partenariat UE-Jordanie",
+            "Accord de libre-échange avec les États-Unis",
+            "OMC"
+        ]
+    },
+    "PAK": {
+        "currency": {
+            "name": "Roupie pakistanaise",
+            "code": "PKR",
+            "symbol": "₨",
+            "centralBank": "Banque d'État du Pakistan (SBP)"
+        },
+        "macro": {
+            "gdpNominal": "340 milliards USD",
+            "gdpPerCapita": "1 450 USD",
+            "globalRank": "43e mondial",
+            "growth": "+2,4 %",
+            "inflation": "23,0 %"
+        },
+        "structure": {
+            "services": "56,0 %",
+            "industry": "21,0 %",
+            "agriculture": "23,0 %",
+            "mainSectors": "Industrie textile et habillement (coton, filature, confection - 60 % des exportations), agriculture (riz basmati, blé, canne à sucre), ciment, engrais, corridors CPEC sino-pakistanais"
+        },
+        "trade": {
+            "mainExports": "Vêtements confectionnés, linge de maison en coton, riz basmati, cuir, instruments chirurgicaux",
+            "mainImports": "Pétrole brut et produits pétroliers, gaz naturel liquéfié, machines industrielles, huile de palme, ferraille",
+            "topPartners": [
+                "États-Unis",
+                "Chine",
+                "Royaume-Uni",
+                "Émirats arabes unis",
+                "Allemagne"
+            ],
+            "tradeBalance": "Chronique et lourdement déficitaire (-25 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "75,0 % du PIB",
+            "budgetBalance": "-6,8 % du PIB",
+            "sovereignRating": "CCC+ (S&P / Fitch) / Caa2 (Moody's)"
+        },
+        "organizations": [
+            "Organisation de coopération de Shanghai (OCS)",
+            "SAARC",
+            "Organisation de la coopération islamique (OCI)",
+            "OMC"
+        ]
+    },
+    "BGD": {
+        "currency": {
+            "name": "Taka bangladais",
+            "code": "BDT",
+            "symbol": "৳",
+            "centralBank": "Bangladesh Bank"
+        },
+        "macro": {
+            "gdpNominal": "450 milliards USD",
+            "gdpPerCapita": "2 650 USD",
+            "globalRank": "35e mondial",
+            "growth": "+5,8 %",
+            "inflation": "9,5 %"
+        },
+        "structure": {
+            "services": "53,0 %",
+            "industry": "35,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Prêt-à-porter et confection textile (2e exportateur mondial de textile après la Chine), industrie pharmaceutique domestique, chantiers navals de démantèlement et cabotage, agriculture vivrière (riz, jute)"
+        },
+        "trade": {
+            "mainExports": "Vêtements tricotés et tissés (t-shirts, pulls, jeans), cuir et chaussures, jute et filasse, crevettes congelées",
+            "mainImports": "Coton brut et fils textiles, produits pétroliers raffinés, machines électriques, acier, huile de soja",
+            "topPartners": [
+                "États-Unis",
+                "Allemagne",
+                "Royaume-Uni",
+                "Chine",
+                "Inde",
+                "Espagne"
+            ],
+            "tradeBalance": "Déficitaire (-15 milliards USD, soutenu par 22 milliards USD de transferts d'expatriés)"
+        },
+        "publicFinance": {
+            "publicDebt": "39,0 % du PIB",
+            "budgetBalance": "-4,7 % du PIB",
+            "sovereignRating": "B+ (S&P) / B1 (Moody's) / B+ (Fitch)"
+        },
+        "organizations": [
+            "SAARC",
+            "BIMSTEC",
+            "D-8",
+            "AIIB",
+            "OMC"
+        ]
+    },
+    "VNM": {
+        "currency": {
+            "name": "Dong vietnamien",
+            "code": "VND",
+            "symbol": "₫",
+            "centralBank": "Banque d'État du Viêt Nam (SBV)"
+        },
+        "macro": {
+            "gdpNominal": "435 milliards USD",
+            "gdpPerCapita": "4 350 USD",
+            "globalRank": "34e mondial",
+            "growth": "+5,0 %",
+            "inflation": "3,3 %"
+        },
+        "structure": {
+            "services": "42,0 %",
+            "industry": "38,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Électronique grand public et smartphones (hub mondial Samsung et sous-traitants Apple), textile et confection, chaussures de sport, café Robusta (2e exportateur mondial), riz, aquaculture"
+        },
+        "trade": {
+            "mainExports": "Smartphones et tablettes électroniques, circuits intégrés, vêtements confectionnés, chaussures de sport, café, meubles en bois",
+            "mainImports": "Circuits électroniques et microprocesseurs, machines industrielles, tissus et matières textiles, plastiques bruts",
+            "topPartners": [
+                "États-Unis",
+                "Chine",
+                "Union européenne",
+                "Corée du Sud",
+                "Japon"
+            ],
+            "tradeBalance": "Largement excédentaire (+28 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "37,0 % du PIB",
+            "budgetBalance": "-3,6 % du PIB",
+            "sovereignRating": "BB+ (S&P) / Ba2 (Moody's) / BB+ (Fitch)"
+        },
+        "organizations": [
+            "ASEAN",
+            "CPTPP (PTPGP)",
+            "RCEP",
+            "APEC",
+            "Accord EVFTA avec l'UE",
+            "OMC"
+        ]
+    },
+    "THA": {
+        "currency": {
+            "name": "Baht thaïlandais",
+            "code": "THB",
+            "symbol": "฿",
+            "centralBank": "Banque de Thaïlande (BOT)"
+        },
+        "macro": {
+            "gdpNominal": "515 milliards USD",
+            "gdpPerCapita": "7 300 USD",
+            "globalRank": "27e mondial (2e de l'ASEAN)",
+            "growth": "+1,9 %",
+            "inflation": "1,2 %"
+        },
+        "structure": {
+            "services": "58,0 %",
+            "industry": "34,0 %",
+            "agriculture": "8,0 %",
+            "mainSectors": "Industrie automobile ('Detroit de l'Asie' : pick-ups et véhicules électriques), composants électroniques et disques durs, tourisme international, agroalimentaire (riz, caoutchouc, thon)"
+        },
+        "trade": {
+            "mainExports": "Véhicules et pièces détachées, ordinateurs et disques durs, circuits intégrés, caoutchouc naturel, riz, bijoux",
+            "mainImports": "Pétrole brut, machines et équipements électriques, gaz naturel, produits chimiques",
+            "topPartners": [
+                "Chine",
+                "États-Unis",
+                "Japon",
+                "Malaisie",
+                "Viêt Nam"
+            ],
+            "tradeBalance": "Excédentaire au compte courant"
+        },
+        "publicFinance": {
+            "publicDebt": "62,5 % du PIB",
+            "budgetBalance": "-3,0 % du PIB",
+            "sovereignRating": "BBB+ (S&P / Fitch) / Baa1 (Moody's)"
+        },
+        "organizations": [
+            "ASEAN",
+            "RCEP",
+            "APEC",
+            "BIMSTEC",
+            "OMC"
+        ]
+    },
+    "MYS": {
+        "currency": {
+            "name": "Ringgit malaisien",
+            "code": "MYR",
+            "symbol": "RM",
+            "centralBank": "Bank Negara Malaysia (BNM)"
+        },
+        "macro": {
+            "gdpNominal": "400 milliards USD",
+            "gdpPerCapita": "11 800 USD",
+            "globalRank": "37e mondial",
+            "growth": "+3,7 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "56,0 %",
+            "industry": "36,0 %",
+            "agriculture": "8,0 %",
+            "mainSectors": "Assemblage et tests de semi-conducteurs (Penang, 13 % du packaging mondial des puces), hydrocarbures et GNL (Petronas), huile de palme (2e producteur mondial), gants en caoutchouc"
+        },
+        "trade": {
+            "mainExports": "Semi-conducteurs et circuits intégrés, hydrocarbures et GNL, huile de palme et dérivés, appareils électriques",
+            "mainImports": "Composants électroniques, produits pétroliers raffinés, machines, produits chimiques",
+            "topPartners": [
+                "Chine",
+                "Singapour",
+                "États-Unis",
+                "Union européenne",
+                "Japon"
+            ],
+            "tradeBalance": "Excédentaire (+45 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "64,0 % du PIB",
+            "budgetBalance": "-4,9 % du PIB",
+            "sovereignRating": "A- (S&P) / A3 (Moody's) / BBB+ (Fitch)"
+        },
+        "organizations": [
+            "ASEAN",
+            "RCEP",
+            "CPTPP",
+            "APEC",
+            "OMC"
+        ]
+    },
+    "SGP": {
+        "currency": {
+            "name": "Dollar de Singapour",
+            "code": "SGD",
+            "symbol": "S$",
+            "centralBank": "Autorité monétaire de Singapour (MAS)"
+        },
+        "macro": {
+            "gdpNominal": "501 milliards USD",
+            "gdpPerCapita": "85 000 USD",
+            "globalRank": "32e mondial",
+            "growth": "+1,1 %",
+            "inflation": "4,8 %"
+        },
+        "structure": {
+            "services": "71,0 %",
+            "industry": "29,0 %",
+            "agriculture": "0,0 %",
+            "mainSectors": "Services financiers et bancaires mondiaux, hub logistique et port de transbordement (1er port de soutage au monde), raffinage pétrolier et pétrochimie (île de Jurong), fonderie de semi-conducteurs et biomédecine"
+        },
+        "trade": {
+            "mainExports": "Circuits intégrés et puces, produits pétroliers raffinés, instruments scientifiques, médicaments et biotechnologies",
+            "mainImports": "Pétrole brut, circuits intégrés, composants pour télécommunications, métaux précieux",
+            "topPartners": [
+                "Chine",
+                "États-Unis",
+                "Malaisie",
+                "Union européenne",
+                "Indonésie",
+                "Taïwan"
+            ],
+            "tradeBalance": "Colossalement excédentaire (+18 % du PIB au compte courant)"
+        },
+        "publicFinance": {
+            "publicDebt": "168,0 % du PIB (dette purement domestique d'infrastructure via GIC et Temasek)",
+            "budgetBalance": "Structurellement excédentaire",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "ASEAN",
+            "CPTPP",
+            "RCEP",
+            "APEC",
+            "OMC"
+        ]
+    },
+    "PHL": {
+        "currency": {
+            "name": "Peso philippin",
+            "code": "PHP",
+            "symbol": "₱",
+            "centralBank": "Bangko Sentral ng Pilipinas (BSP)"
+        },
+        "macro": {
+            "gdpNominal": "437 milliards USD",
+            "gdpPerCapita": "3 850 USD",
+            "globalRank": "33e mondial",
+            "growth": "+5,6 %",
+            "inflation": "6,0 %"
+        },
+        "structure": {
+            "services": "61,0 %",
+            "industry": "29,0 %",
+            "agriculture": "10,0 %",
+            "mainSectors": "Externalisation des processus d'affaires (BPO et centres d'appels mondiaux), composants et micro-électronique, extraction de nickel et cuivre, agriculture (bananes, ananas, noix de coco), envois de fonds de la diaspora (37 milliards USD)"
+        },
+        "trade": {
+            "mainExports": "Composants électroniques et cartes mères, câbles et fils électriques, minerais de nickel, bananes et fruits tropicaux",
+            "mainImports": "Circuits électroniques, carburants raffinés, véhicules automobiles, fer et acier",
+            "topPartners": [
+                "États-Unis",
+                "Chine",
+                "Japon",
+                "Hong Kong",
+                "Singapour"
+            ],
+            "tradeBalance": "Déficitaire en balance de biens (-50 milliards USD, amorti par le secteur BPO et les remises)"
+        },
+        "publicFinance": {
+            "publicDebt": "60,2 % du PIB",
+            "budgetBalance": "-6,1 % du PIB",
+            "sovereignRating": "BBB+ (S&P / Fitch) / Baa2 (Moody's)"
+        },
+        "organizations": [
+            "ASEAN",
+            "RCEP",
+            "APEC",
+            "OMC"
+        ]
+    },
+    "MMR": {
+        "currency": {
+            "name": "Kyat birman",
+            "code": "MMK",
+            "symbol": "K",
+            "centralBank": "Banque centrale du Myanmar"
+        },
+        "macro": {
+            "gdpNominal": "65 milliards USD",
+            "gdpPerCapita": "1 180 USD",
+            "globalRank": "84e mondial",
+            "growth": "-1,0 % (impact du conflit interne)",
+            "inflation": "25,0 %"
+        },
+        "structure": {
+            "services": "40,0 %",
+            "industry": "35,0 %",
+            "agriculture": "25,0 %",
+            "mainSectors": "Gaz naturel offshore (champs de Yadana et Zawtika exportés vers la Thaïlande et la Chine), jade et pierres précieuses, terres rares, riz, bois de teck, confection textile sous sanctions"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel, confection textile, légumes secs et riz, minerais et jade",
+            "mainImports": "Carburants raffinés, tissus pour la confection, huiles végétales, engrais, machines",
+            "topPartners": [
+                "Chine",
+                "Thaïlande",
+                "Inde",
+                "Singapour",
+                "Japon"
+            ],
+            "tradeBalance": "Déficitaire"
+        },
+        "publicFinance": {
+            "publicDebt": "62,0 % du PIB",
+            "budgetBalance": "-5,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "ASEAN (participation suspendue)",
+            "BIMSTEC",
+            "RCEP",
+            "OMC"
+        ]
+    },
+    "KHM": {
+        "currency": {
+            "name": "Riel cambodgien / Dollar USD",
+            "code": "KHR / USD",
+            "symbol": "៛ / $",
+            "centralBank": "Banque nationale du Cambodge (NBC)"
+        },
+        "macro": {
+            "gdpNominal": "32 milliards USD",
+            "gdpPerCapita": "1 850 USD",
+            "globalRank": "108e mondial",
+            "growth": "+5,3 %",
+            "inflation": "2,1 %"
+        },
+        "structure": {
+            "services": "41,0 %",
+            "industry": "36,0 %",
+            "agriculture": "23,0 %",
+            "mainSectors": "Confection de vêtements et chaussures (plus de 65 % des exportations), tourisme (temples d'Angkor), construction immobilière et infrastructures, riz usiné, caoutchouc"
+        },
+        "trade": {
+            "mainExports": "Vêtements tricotés et tissés, chaussures de sport, sacs et maroquinerie, vélos, riz blanc",
+            "mainImports": "Tissus et fils synthétiques, carburants raffinés, véhicules automobiles, ciment, matériel électronique",
+            "topPartners": [
+                "États-Unis",
+                "Union européenne",
+                "Chine",
+                "Japon",
+                "Viêt Nam"
+            ],
+            "tradeBalance": "Déficitaire (-12 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "37,0 % du PIB",
+            "budgetBalance": "-4,5 % du PIB",
+            "sovereignRating": "B2 (Moody's)"
+        },
+        "organizations": [
+            "ASEAN",
+            "RCEP",
+            "OMC"
+        ]
+    },
+    "LAO": {
+        "currency": {
+            "name": "Kip laotien",
+            "code": "LAK",
+            "symbol": "₭",
+            "centralBank": "Banque de la RDP lao"
+        },
+        "macro": {
+            "gdpNominal": "15,5 milliards USD",
+            "gdpPerCapita": "2 050 USD",
+            "globalRank": "134e mondial",
+            "growth": "+4,0 %",
+            "inflation": "31,0 %"
+        },
+        "structure": {
+            "services": "42,0 %",
+            "industry": "38,0 %",
+            "agriculture": "20,0 %",
+            "mainSectors": "Hydroélectricité ('Batterie de l'Asie du Sud-Est' : exportations vers Thaïlande et Viêt Nam), mines d'or, cuivre et potasse, ligne ferroviaire Boten-Vientiane (reliant la Chine), bois et caoutchouc"
+        },
+        "trade": {
+            "mainExports": "Électricité hydroélectrique, minerai de cuivre et potasse, or, caoutchouc, café",
+            "mainImports": "Carburants raffinés, machines et matériel ferroviaire, camions, produits en fer et acier",
+            "topPartners": [
+                "Thaïlande",
+                "Chine",
+                "Viêt Nam",
+                "Australie"
+            ],
+            "tradeBalance": "Légèrement excédentaire en biens"
+        },
+        "publicFinance": {
+            "publicDebt": "115,0 % du PIB (lourde dette extérieure)",
+            "budgetBalance": "-4,8 % du PIB",
+            "sovereignRating": "CCC (Moody's / Fitch)"
+        },
+        "organizations": [
+            "ASEAN",
+            "RCEP",
+            "OMC"
+        ]
+    },
+    "BRN": {
+        "currency": {
+            "name": "Dollar de Brunei",
+            "code": "BND",
+            "symbol": "B$",
+            "centralBank": "Brunei Darussalam Central Bank (BDCB)"
+        },
+        "macro": {
+            "gdpNominal": "15 milliards USD",
+            "gdpPerCapita": "33 000 USD",
+            "globalRank": "136e mondial",
+            "growth": "+1,2 %",
+            "inflation": "0,4 %"
+        },
+        "structure": {
+            "services": "38,0 %",
+            "industry": "61,0 %",
+            "agriculture": "1,0 %",
+            "mainSectors": "Hydrocarbures (pétrole brut et GNL - Brunei LNG / Shell), complexe de raffinage et pétrochimie de Pulau Muara Besar (Hengyi), services publics et monarchiques"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel liquéfié, produits pétroliers raffinés, pétrole brut, ammoniac et urée",
+            "mainImports": "Pétrole brut (pour le raffinage local), machines et turbines, véhicules, denrées alimentaires",
+            "topPartners": [
+                "Singapour",
+                "Chine",
+                "Japon",
+                "Australie",
+                "Malaisie"
+            ],
+            "tradeBalance": "Largement excédentaire (+4,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "2,3 % du PIB (dette quasi inexistante, réserves gérées par la BIA)",
+            "budgetBalance": "+1,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "ASEAN",
+            "CPTPP",
+            "RCEP",
+            "APEC",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "TLS": {
+        "currency": {
+            "name": "Dollar américain",
+            "code": "USD",
+            "symbol": "$",
+            "centralBank": "Banco Central de Timor-Leste (BCTL)"
+        },
+        "macro": {
+            "gdpNominal": "2,0 milliards USD (PIB non pétrolier)",
+            "gdpPerCapita": "1 450 USD",
+            "globalRank": "168e mondial",
+            "growth": "+3,0 %",
+            "inflation": "7,5 %"
+        },
+        "structure": {
+            "services": "56,0 %",
+            "industry": "18,0 %",
+            "agriculture": "26,0 %",
+            "mainSectors": "Hydrocarbures offshore (fonds pétrolier Petroleum Fund de 18 milliards USD financé par les gisements de la mer de Timor), café biologique arabica, pêche, dépenses publiques"
+        },
+        "trade": {
+            "mainExports": "Pétrole et gaz condensé, café d'origine biologique, vanille",
+            "mainImports": "Carburants raffinés, véhicules et engins de construction, ciment, céréales (riz)",
+            "topPartners": [
+                "Australie",
+                "Indonésie",
+                "Chine",
+                "Singapour"
+            ],
+            "tradeBalance": "Déficitaire hors pétrole"
+        },
+        "publicFinance": {
+            "publicDebt": "15,0 % du PIB",
+            "budgetBalance": "Déficit financé par les tirages du Petroleum Fund",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "ASEAN (observateur en adhésion)",
+            "CPLP",
+            "G7+",
+            "OMC (adhésion 2024)"
+        ]
+    },
+    "TWN": {
+        "currency": {
+            "name": "Nouveau dollar de Taïwan",
+            "code": "TWD",
+            "symbol": "NT$",
+            "centralBank": "Banque centrale de Taïwan (CBC)"
+        },
+        "macro": {
+            "gdpNominal": "755 milliards USD",
+            "gdpPerCapita": "32 300 USD",
+            "globalRank": "21e mondial",
+            "growth": "+1,4 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "61,0 %",
+            "industry": "37,5 %",
+            "agriculture": "1,5 %",
+            "mainSectors": "Semi-conducteurs avancés (TSMC - plus de 90 % des puces les plus avancées du monde de moins de 5 nm), matériel informatique et serveurs d'IA (Foxconn, Quanta, Asus), pétrochimie, optique et écrans plats"
+        },
+        "trade": {
+            "mainExports": "Circuits intégrés et processeurs graphiques, matériel informatique et cartes mères, produits chimiques organiques, écrans LCD/OLED, métaux",
+            "mainImports": "Équipements pour usines de semi-conducteurs (lithographie ASML), pétrole brut, GNL, circuits électroniques, charbon",
+            "topPartners": [
+                "Chine / Hong Kong (35 %)",
+                "États-Unis",
+                "Union européenne",
+                "Japon",
+                "Singapour"
+            ],
+            "tradeBalance": "Massivement excédentaire (+80 milliards USD, 14 % du PIB au compte courant)"
+        },
+        "publicFinance": {
+            "publicDebt": "26,5 % du PIB",
+            "budgetBalance": "+0,5 % du PIB",
+            "sovereignRating": "AA+ (S&P) / Aa3 (Moody's) / AA (Fitch)"
+        },
+        "organizations": [
+            "APEC (sous le nom Chinese Taipei)",
+            "OMC (sous le nom Territoire douanier distinct)",
+            "Banque asiatique de développement (BAD)"
+        ]
+    },
+    "MNG": {
+        "currency": {
+            "name": "Tugrik mongol",
+            "code": "MNT",
+            "symbol": "₮",
+            "centralBank": "Banque de Mongolie (Mongolbank)"
+        },
+        "macro": {
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "5 800 USD",
+            "globalRank": "121e mondial",
+            "growth": "+7,0 % (forte demande chinoise)",
+            "inflation": "8,6 %"
+        },
+        "structure": {
+            "services": "42,0 %",
+            "industry": "45,0 %",
+            "agriculture": "13,0 %",
+            "mainSectors": "Mines géantes à ciel ouvert : cuivre et or (Oyu Tolgoi), charbon à coke (Tavan Tolgoi), cachemire et élevage nomade, viande bovine"
+        },
+        "trade": {
+            "mainExports": "Charbon thermique et à coke, concentré de cuivre, minerai de fer, or brut, laine de cachemire",
+            "mainImports": "Produits pétroliers raffinés, camions miniers et engins lourds, voitures, électricité",
+            "topPartners": [
+                "Chine (plus de 85 % des exportations)",
+                "Russie",
+                "Japon",
+                "Corée du Sud"
+            ],
+            "tradeBalance": "Excédentaire (+3,5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "58,0 % du PIB",
+            "budgetBalance": "+1,2 % du PIB",
+            "sovereignRating": "B (S&P) / B3 (Moody's) / B (Fitch)"
+        },
+        "organizations": [
+            "Mouvement des non-alignés",
+            "AIIB",
+            "OMC"
+        ]
+    },
+    "KAZ": {
+        "currency": {
+            "name": "Tenge kazakh",
+            "code": "KZT",
+            "symbol": "₸",
+            "centralBank": "Banque nationale du Kazakhstan"
+        },
+        "macro": {
+            "gdpNominal": "260 milliards USD",
+            "gdpPerCapita": "13 000 USD",
+            "globalRank": "49e mondial (1ère économie d'Asie centrale)",
+            "growth": "+5,1 %",
+            "inflation": "9,8 %"
+        },
+        "structure": {
+            "services": "54,0 %",
+            "industry": "39,5 %",
+            "agriculture": "6,5 %",
+            "mainSectors": "Pétrole brut (gisements de Tengiz, Kashagan et Karachaganak), uranium (1er producteur mondial - Kazatomprom), cuivre, fer, ferroalliages, blé de force"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (acheminé via le pipeline CPC vers la mer Noire), cuivre raffiné, uranium naturel, ferro-alliages, blé",
+            "mainImports": "Machines et pièces d'automobiles, téléphones portables, médicaments, tuyaux en acier",
+            "topPartners": [
+                "Italie / UE",
+                "Chine",
+                "Russie",
+                "Pays-Bas",
+                "Turquie",
+                "Corée du Sud"
+            ],
+            "tradeBalance": "Excédentaire (+10 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "23,0 % du PIB (fonds national Samruk-Kazyna stratégique)",
+            "budgetBalance": "-2,8 % du PIB",
+            "sovereignRating": "BBB- (S&P / Fitch) / Baa2 (Moody's)"
+        },
+        "organizations": [
+            "Union économique eurasiatique (UEE)",
+            "Organisation de coopération de Shanghai (OCS)",
+            "Organisation des États turciques",
+            "OPEP+ (partenaire)",
+            "OMC"
+        ]
+    },
+    "UZB": {
+        "currency": {
+            "name": "Sum ouzbek",
+            "code": "UZS",
+            "symbol": "so'm",
+            "centralBank": "Banque centrale de la République d'Ouzbékistan"
+        },
+        "macro": {
+            "gdpNominal": "90 milliards USD",
+            "gdpPerCapita": "2 500 USD",
+            "globalRank": "73e mondial",
+            "growth": "+6,0 %",
+            "inflation": "8,8 %"
+        },
+        "structure": {
+            "services": "40,0 %",
+            "industry": "34,0 %",
+            "agriculture": "26,0 %",
+            "mainSectors": "Or (mine géante de Muruntau - l'une des plus grandes au monde), gaz naturel, coton et textiles, cuivre, automobile (UzAuto Motors / Chevrolet), fruits et légumes"
+        },
+        "trade": {
+            "mainExports": "Or monétaire et lingots, fil de coton et vêtements, cuivre raffiné, gaz naturel, engrais",
+            "mainImports": "Véhicules et pièces détachées, machines industrielles, acier, médicaments, bois",
+            "topPartners": [
+                "Russie",
+                "Chine",
+                "Turquie",
+                "Kazakhstan",
+                "Kirghizistan"
+            ],
+            "tradeBalance": "Déficitaire (-13 milliards USD en raison des investissements de modernisation)"
+        },
+        "publicFinance": {
+            "publicDebt": "35,0 % du PIB",
+            "budgetBalance": "-5,0 % du PIB",
+            "sovereignRating": "BB- (S&P / Fitch) / Ba3 (Moody's)"
+        },
+        "organizations": [
+            "Organisation de coopération de Shanghai (OCS)",
+            "Organisation des États turciques",
+            "CEI",
+            "Candidat à l'OMC"
+        ]
+    },
+    "TKM": {
+        "currency": {
+            "name": "Manat turkmène",
+            "code": "TMT",
+            "symbol": "m",
+            "centralBank": "Banque centrale du Turkménistan"
+        },
+        "macro": {
+            "gdpNominal": "60 milliards USD",
+            "gdpPerCapita": "9 000 USD",
+            "globalRank": "87e mondial",
+            "growth": "+6,2 %",
+            "inflation": "10,5 %"
+        },
+        "structure": {
+            "services": "40,0 %",
+            "industry": "48,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Gaz naturel (4es réserves mondiales - gisement colossal de Galkynysh), pipeline Asie centrale-Chine, raffinage pétrolier, coton écru, tapis traditionnels"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel par gazoduc (vers Chine et Russie), produits pétroliers raffinés, engrais à base d'ammoniac, tissus en coton",
+            "mainImports": "Tubes pour gazoducs, machines de forage, équipements électriques, denrées alimentaires",
+            "topPartners": [
+                "Chine (> 75 % des exportations)",
+                "Russie",
+                "Turquie",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Excédentaire (+6 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "8,0 % du PIB",
+            "budgetBalance": "+2,0 % du PIB",
+            "sovereignRating": "B+ (Fitch)"
+        },
+        "organizations": [
+            "État neutre reconnu par l'ONU",
+            "Organisation des États turciques (observateur)",
+            "Observateur OMC"
+        ]
+    },
+    "KGZ": {
+        "currency": {
+            "name": "Som kirghize",
+            "code": "KGS",
+            "symbol": "с",
+            "centralBank": "Banque nationale de la République kirghize"
+        },
+        "macro": {
+            "gdpNominal": "14 milliards USD",
+            "gdpPerCapita": "1 950 USD",
+            "globalRank": "140e mondial",
+            "growth": "+7,0 %",
+            "inflation": "7,3 %"
+        },
+        "structure": {
+            "services": "51,0 %",
+            "industry": "29,0 %",
+            "agriculture": "20,0 %",
+            "mainSectors": "Mines d'or (mine de Kumtor - 10 % du PIB), réexportations de biens manufacturés chinois vers la Russie, hydroélectricité, élevage et viande, confection textile à façon"
+        },
+        "trade": {
+            "mainExports": "Or brut, minerais et concentrés de métaux, vêtements confectionnés, fruits secs et noix",
+            "mainImports": "Carburants raffinés, voitures de tourisme, vêtements en gros, machines, produits chimiques",
+            "topPartners": [
+                "Russie",
+                "Chine",
+                "Kazakhstan",
+                "Turquie",
+                "Ouzbékistan"
+            ],
+            "tradeBalance": "Déficitaire (-8 milliards USD, compensé par les remises migratoires)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "B3 (Moody's)"
+        },
+        "organizations": [
+            "Union économique eurasiatique (UEE)",
+            "Organisation de coopération de Shanghai (OCS)",
+            "Organisation des États turciques",
+            "OMC"
+        ]
+    },
+    "TJK": {
+        "currency": {
+            "name": "Somoni tadjik",
+            "code": "TJS",
+            "symbol": "SM",
+            "centralBank": "Banque nationale du Tadjikistan"
+        },
+        "macro": {
+            "gdpNominal": "12 milliards USD",
+            "gdpPerCapita": "1 180 USD",
+            "globalRank": "145e mondial",
+            "growth": "+8,3 %",
+            "inflation": "3,8 %"
+        },
+        "structure": {
+            "services": "44,0 %",
+            "industry": "32,0 %",
+            "agriculture": "24,0 %",
+            "mainSectors": "Aluminium de première fusion (TALCO - l'une des plus grandes usines d'Asie centrale), mines d'or, hydroélectricité (barrages de Nurek et Rogun), coton brut, transferts d'argent des émigrés en Russie (40 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Or et métaux précieux, aluminium brut, coton écru, minerais de zinc et plomb, électricité",
+            "mainImports": "Produits pétroliers raffinés, blé et farine de blé, véhicules, machines, bois de construction",
+            "topPartners": [
+                "Suisse (achat de l'or)",
+                "Chine",
+                "Russie",
+                "Kazakhstan",
+                "Turquie"
+            ],
+            "tradeBalance": "Déficitaire en balance commerciale"
+        },
+        "publicFinance": {
+            "publicDebt": "32,0 % du PIB",
+            "budgetBalance": "-1,4 % du PIB",
+            "sovereignRating": "B- (S&P) / B3 (Moody's)"
+        },
+        "organizations": [
+            "Organisation de coopération de Shanghai (OCS)",
+            "OTSC",
+            "CEI",
+            "OMC"
+        ]
+    },
+    "AFG": {
+        "currency": {
+            "name": "Afghani",
+            "code": "AFN",
+            "symbol": "؋",
+            "centralBank": "Da Afghanistan Bank (DAB)"
+        },
+        "macro": {
+            "gdpNominal": "14,5 milliards USD",
+            "gdpPerCapita": "360 USD",
+            "globalRank": "138e mondial",
+            "growth": "-2,0 %",
+            "inflation": "-8,0 % (déflation)"
+        },
+        "structure": {
+            "services": "36,0 %",
+            "industry": "22,0 %",
+            "agriculture": "42,0 %",
+            "mainSectors": "Agriculture (fruits secs, raisins secs, safran, coton, figues), artisanat et tapis noués main, extraction minière en concession chinoise (cuivre de Mes Aynak, lithium, charbon), charbon vendu au Pakistan"
+        },
+        "trade": {
+            "mainExports": "Fruits secs et noix, charbon minéral, tapis de laine, coton, safran, pierres précieuses (lapis-lazuli)",
+            "mainImports": "Carburants raffinés (importés d'Iran et Russie), blé et farine, machines, tissus, téléphones",
+            "topPartners": [
+                "Pakistan",
+                "Inde",
+                "Iran",
+                "Chine",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Structurellement déficitaire (-5 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "Non communiquée (réserves gelées à l'étranger)",
+            "budgetBalance": "Non applicable",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "SAARC",
+            "Organisation de la coopération islamique (OCI)",
+            "OMC"
+        ]
+    },
+    "NPL": {
+        "currency": {
+            "name": "Roupie népalaise",
+            "code": "NPR",
+            "symbol": "₨",
+            "centralBank": "Nepal Rastra Bank (NRB)"
+        },
+        "macro": {
+            "gdpNominal": "41 milliards USD",
+            "gdpPerCapita": "1 350 USD",
+            "globalRank": "103e mondial",
+            "growth": "+3,9 %",
+            "inflation": "5,4 %"
+        },
+        "structure": {
+            "services": "54,0 %",
+            "industry": "14,0 %",
+            "agriculture": "32,0 %",
+            "mainSectors": "Tourisme de trekking et d'alpinisme (Himalaya / mont Everest), hydroélectricité (exportée vers l'Inde), agriculture de subsistance (riz, maïs), transferts massifs de la diaspora (30 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Huile de palme et soja raffinées, tapis de laine noués, fils synthétiques, thé orthodoxe, cardamome",
+            "mainImports": "Produits pétroliers, or, acier et fer, machines, équipements de télécommunications",
+            "topPartners": [
+                "Inde (plus de 65 % des échanges)",
+                "Chine",
+                "États-Unis",
+                "Allemagne"
+            ],
+            "tradeBalance": "Chronique et lourdement déficitaire (-10 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "43,0 % du PIB",
+            "budgetBalance": "-5,2 % du PIB",
+            "sovereignRating": "B2 (Moody's non sollicitée)"
+        },
+        "organizations": [
+            "SAARC (siège à Katmandou)",
+            "BIMSTEC",
+            "Mouvement des non-alignés",
+            "OMC"
+        ]
+    },
+    "LKA": {
+        "currency": {
+            "name": "Roupie sri-lankaise",
+            "code": "LKR",
+            "symbol": "Rs",
+            "centralBank": "Banque centrale de Sri Lanka"
+        },
+        "macro": {
+            "gdpNominal": "84 milliards USD",
+            "gdpPerCapita": "3 850 USD",
+            "globalRank": "77e mondial",
+            "growth": "+2,2 % (sortie de crise FMI)",
+            "inflation": "4,0 %"
+        },
+        "structure": {
+            "services": "60,0 %",
+            "industry": "27,0 %",
+            "agriculture": "13,0 %",
+            "mainSectors": "Textile et confection haut de gamme, thé de Ceylan (l'un des premiers exportateurs mondiaux), tourisme balnéaire et culturel, caoutchouc et pneus pleins, transbordement portuaire (Colombo)"
+        },
+        "trade": {
+            "mainExports": "Vêtements et sous-vêtements de marque, thé noir de Ceylan, pneus et produits en caoutchouc, épices (cannelle, poivre)",
+            "mainImports": "Pétrole brut et carburants raffinés, tissus textiles, engrais, machines, riz",
+            "topPartners": [
+                "États-Unis",
+                "Royaume-Uni",
+                "Inde",
+                "Allemagne",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire (-6 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "110,0 % du PIB",
+            "budgetBalance": "-3,5 % du PIB",
+            "sovereignRating": "SD / RD (en cours de restructuration souveraine)"
+        },
+        "organizations": [
+            "SAARC",
+            "BIMSTEC",
+            "IORA",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "BTN": {
+        "currency": {
+            "name": "Ngultrum bhoutanais / Roupie indienne",
+            "code": "BTN / INR",
+            "symbol": "Nu.",
+            "centralBank": "Autorité monétaire royale du Bhoutan (RMA)"
+        },
+        "macro": {
+            "gdpNominal": "3,0 milliards USD",
+            "gdpPerCapita": "3 800 USD",
+            "globalRank": "165e mondial",
+            "growth": "+4,6 %",
+            "inflation": "4,2 %"
+        },
+        "structure": {
+            "services": "48,0 %",
+            "industry": "36,0 %",
+            "agriculture": "16,0 %",
+            "mainSectors": "Énergie hydroélectrique (vendue à l'Inde - 30 % des recettes publiques), ferro-silicium et carbure de calcium, minage d'actifs numériques vert alimenté par barrages, tourisme à haute valeur ajoutée, Bonheur National Brut"
+        },
+        "trade": {
+            "mainExports": "Électricité hydroélectrique, ferro-silicium, ciment, cardamome, dolomite",
+            "mainImports": "Carburants, machines électriques, véhicules, riz et denrées alimentaires",
+            "topPartners": [
+                "Inde (> 80 % du commerce)",
+                "Chine",
+                "Népal",
+                "Bangladesh"
+            ],
+            "tradeBalance": "Déficitaire hors électricité"
+        },
+        "publicFinance": {
+            "publicDebt": "125,0 % du PIB (prêts indiens garantis par l'achat d'électricité)",
+            "budgetBalance": "-4,0 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "SAARC",
+            "BIMSTEC",
+            "Plan de Colombo"
+        ]
+    },
+    "MDV": {
+        "currency": {
+            "name": "Rufiyaa maldivienne",
+            "code": "MVR",
+            "symbol": "Rf",
+            "centralBank": "Autorité monétaire des Maldives (MMA)"
+        },
+        "macro": {
+            "gdpNominal": "6,6 milliards USD",
+            "gdpPerCapita": "12 500 USD",
+            "globalRank": "155e mondial",
+            "growth": "+6,5 %",
+            "inflation": "2,1 %"
+        },
+        "structure": {
+            "services": "78,0 %",
+            "industry": "14,0 %",
+            "agriculture": "8,0 %",
+            "mainSectors": "Tourisme de luxe insulaire ('une île, un hôtel' - plus de 1,8 million de visiteurs), pêche hauturière et conserverie de thon Listao/Albacore, construction hôtelière et maritime"
+        },
+        "trade": {
+            "mainExports": "Thon congelé, thon en conserve, poissons frais",
+            "mainImports": "Pétrole et carburants pour générateurs/bateaux, avions et hydravions, matériaux de construction, denrées alimentaires",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Chine",
+                "Inde",
+                "Singapour",
+                "Thaïlande"
+            ],
+            "tradeBalance": "Lourdement déficitaire en balance de biens (-3 milliards USD, couvert par le tourisme)"
+        },
+        "publicFinance": {
+            "publicDebt": "115,0 % du PIB",
+            "budgetBalance": "-12,0 % du PIB",
+            "sovereignRating": "CCC+ (Fitch) / Caa1 (Moody's)"
+        },
+        "organizations": [
+            "SAARC",
+            "Commonwealth",
+            "AOSIS",
+            "OMC"
+        ]
+    },
+    "GEO": {
+        "currency": {
+            "name": "Lari géorgien",
+            "code": "GEL",
+            "symbol": "₾",
+            "centralBank": "Banque nationale de Géorgie"
+        },
+        "macro": {
+            "gdpNominal": "30 milliards USD",
+            "gdpPerCapita": "8 100 USD",
+            "globalRank": "110e mondial",
+            "growth": "+7,5 %",
+            "inflation": "1,5 %"
+        },
+        "structure": {
+            "services": "68,0 %",
+            "industry": "24,0 %",
+            "agriculture": "8,0 %",
+            "mainSectors": "Hub logistique et corridor du Milieu (liaison mer Noire - mer Caspienne), réexportation de véhicules, tourisme et gastronomie, vinification millénaire (qvevri), ferroalliages et cuivre"
+        },
+        "trade": {
+            "mainExports": "Voitures de tourisme réexportées, ferro-alliages, minerais de cuivre, vin géorgien, eaux minérales (Borjomi)",
+            "mainImports": "Véhicules automobiles, produits pétroliers raffinés, gaz naturel (d'Azerbaïdjan), médicaments, téléphones",
+            "topPartners": [
+                "Arménie",
+                "Azerbaïdjan",
+                "Russie",
+                "Turquie",
+                "Chine",
+                "Union européenne"
+            ],
+            "tradeBalance": "Déficitaire en biens (-9 milliards USD, compensé par services et remises)"
+        },
+        "publicFinance": {
+            "publicDebt": "39,0 % du PIB",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "BB (S&P / Fitch) / Ba2 (Moody's)"
+        },
+        "organizations": [
+            "Candidat à l'Union européenne",
+            "Partenariat oriental de l'UE",
+            "GUAM",
+            "OMC"
+        ]
+    },
+    "ARM": {
+        "currency": {
+            "name": "Dram arménien",
+            "code": "AMD",
+            "symbol": "֏",
+            "centralBank": "Banque centrale d'Arménie (CBA)"
+        },
+        "macro": {
+            "gdpNominal": "24 milliards USD",
+            "gdpPerCapita": "8 200 USD",
+            "globalRank": "117e mondial",
+            "growth": "+8,7 %",
+            "inflation": "2,0 %"
+        },
+        "structure": {
+            "services": "56,0 %",
+            "industry": "32,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Secteur technologique et développement logiciel ('Silicon Mountain'), extraction de cuivre et molybdène, taille de diamants et bijouterie, brandy arménien et agroalimentaire"
+        },
+        "trade": {
+            "mainExports": "Minerais de cuivre et molybdène, or et diamants taillés, brandy (cognac) et vin, cigarettes, équipements électroniques réexportés",
+            "mainImports": "Gaz naturel (importé de Russie), pétrole raffiné, diamants bruts, machines, voitures",
+            "topPartners": [
+                "Russie (1er partenaire)",
+                "Émirats arabes unis",
+                "Chine",
+                "Union européenne",
+                "Iran"
+            ],
+            "tradeBalance": "Légèrement déficitaire"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB",
+            "budgetBalance": "-3,1 % du PIB",
+            "sovereignRating": "BB- (S&P / Fitch) / Ba3 (Moody's)"
+        },
+        "organizations": [
+            "Union économique eurasiatique (UEE)",
+            "Organisation internationale de la Francophonie (OIF)",
+            "Partenariat oriental de l'UE",
+            "OMC"
+        ]
+    },
+    "AZE": {
+        "currency": {
+            "name": "Manat azerbaïdjanais",
+            "code": "AZN",
+            "symbol": "₼",
+            "centralBank": "Banque centrale de la République d'Azerbaïdjan (CBAR)"
+        },
+        "macro": {
+            "gdpNominal": "78 milliards USD",
+            "gdpPerCapita": "7 600 USD",
+            "globalRank": "80e mondial",
+            "growth": "+1,1 %",
+            "inflation": "2,1 %"
+        },
+        "structure": {
+            "services": "36,0 %",
+            "industry": "57,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Hydrocarbures de la mer Caspienne (pétrole via l'oléoduc BTC vers la Méditerranée, gaz naturel via le corridor gazier sud vers l'Italie), fonds souverain SOFAZ (56 milliards USD), raffinage et pétrochimie, logistique est-ouest"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, gaz naturel, produits pétroliers raffinés, polymères d'éthylène, fruits et légumes frais (tomates)",
+            "mainImports": "Machines et équipements pour pipelines, voitures de tourisme, fer et acier, médicaments, blé",
+            "topPartners": [
+                "Italie (1er acheteur du gaz)",
+                "Turquie",
+                "Israël",
+                "Russie",
+                "Chine",
+                "Allemagne"
+            ],
+            "tradeBalance": "Fortement excédentaire (+18 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "21,5 % du PIB",
+            "budgetBalance": "+3,5 % du PIB",
+            "sovereignRating": "BB+ (S&P) / Baa3 (Moody's) / BB+ (Fitch)"
+        },
+        "organizations": [
+            "Organisation des États turciques",
+            "OPEP+ (partenaire)",
+            "Mouvement des non-alignés",
+            "GUAM"
+        ]
+    }
+}
