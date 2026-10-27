@@ -64,7 +64,7 @@ const COUNTRY_NAMES_FR = {
     "EST": "Estonie", "SWZ": "Eswatini", "ETH": "Éthiopie", "FJI": "Fidji", "FIN": "Finlande",
     "FRA": "France", "GAB": "Gabon", "GMB": "Gambie", "GEO": "Géorgie", "DEU": "Allemagne",
     "GHA": "Ghana", "GRC": "Grèce", "GRD": "Grenade", "GTM": "Guatemala", "GIN": "Guinée",
-    "GNB": "Guinée-Bissau", "GUY": "Guyana", "HTI": "Haïti", "HND": "Honduras", "HUN": "Hongrie",
+    "GNB": "Guinée-Bissau", "GUY": "Guyana", "GRL": "Groenland", "HTI": "Haïti", "HND": "Honduras", "HUN": "Hongrie",
     "ISL": "Islande", "IND": "Inde", "IDN": "Indonésie", "IRN": "Iran", "IRQ": "Irak",
     "IRL": "Irlande", "ISR": "Israël", "ITA": "Italie", "JAM": "Jamaïque", "JPN": "Japon",
     "JOR": "Jordanie", "KAZ": "Kazakhstan", "KEN": "Kenya", "KIR": "Kiribati", "PRK": "Corée du Nord",
@@ -113,7 +113,8 @@ const COUNTRY_ALIASES = {
     "TLS": ["Timor-Leste", "Timor"],
     "CPV": ["Cabo Verde", "Cap-Vert"],
     "FSM": ["Micronesie"],
-    "VAT": ["Saint-Siège", "Saint Siege"]
+    "VAT": ["Saint-Siège", "Saint Siege"],
+    "GRL": ["Groenland", "Greenland", "Kalaallit Nunaat", "Nuuk"]
 };
 
 
