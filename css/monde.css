@@ -46,25 +46,168 @@ body {
 
 /* SEARCH */
 
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 14px;
+    font-size: 13px;
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 2;
+}
+
 .search input {
-    width: 250px;
-
-    padding: 11px 15px;
-
-    border-radius: 8px;
-
-    border: 1px solid rgba(255,255,255,0.12);
-
-    background: #101e2e;
-
-    color: white;
-
+    width: 290px;
+    padding: 11px 36px 11px 38px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: #0f1c2b;
+    color: #edf3f8;
+    font-size: 13.5px;
+    font-family: inherit;
     outline: none;
+    transition: all 0.25s ease;
 }
 
 .search input:focus {
-    border-color: #5e8ea8;
+    width: 340px;
+    border-color: #D9AF5E;
+    background: #142539;
+    box-shadow: 0 0 0 3px rgba(217, 175, 94, 0.18), 0 8px 24px rgba(0, 0, 0, 0.35);
 }
+
+.search-clear {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #8ea6ba;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+    display: none;
+    transition: color 0.2s;
+    z-index: 2;
+}
+
+.search-clear:hover {
+    color: #ffffff;
+}
+
+.search-results {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    width: 360px;
+    max-height: 440px;
+    overflow-y: auto;
+    background: rgba(11, 22, 36, 0.98);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(217, 175, 94, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.2);
+    z-index: 2500;
+    display: none;
+    padding: 6px;
+}
+
+.search-results::-webkit-scrollbar {
+    width: 6px;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+    background: #315d78;
+    border-radius: 3px;
+}
+
+.search-count {
+    padding: 8px 12px 6px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #D9AF5E;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 4px;
+}
+
+.search-result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border: 1px solid transparent;
+}
+
+.search-result:hover,
+.search-result.selected {
+    background: rgba(217, 175, 94, 0.14);
+    border-color: rgba(217, 175, 94, 0.35);
+}
+
+.search-result-main {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.search-result-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search-result-name mark,
+.search-result-meta mark {
+    background: transparent;
+    color: #D9AF5E;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.search-result-meta {
+    font-size: 11.5px;
+    color: #8ea6ba;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.search-result-badge {
+    background: rgba(255, 255, 255, 0.08);
+    color: #b5c7d5;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+}
+
+.search-no-result {
+    padding: 24px 16px;
+    text-align: center;
+    color: #8ea6ba;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
 
 
 /* INTRO */
@@ -324,6 +467,59 @@ h1 span {
 
 
 /* FOOTER */
+
+/* PANEL TABS — POLITIQUE / ÉCONOMIE */
+.panel-tabs {
+    display: flex;
+    gap: 8px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.panel-tab {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #8ea6ba;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    padding: 9px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.panel-tab:hover {
+    color: #edf3f8;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.panel-tab.active {
+    background: #D9AF5E;
+    color: #07111f;
+    box-shadow: 0 2px 10px rgba(217, 175, 94, 0.3);
+}
+
+.eco-badge {
+    display: inline-block;
+    background: rgba(217, 175, 94, 0.12);
+    border: 1px solid rgba(217, 175, 94, 0.35);
+    color: #D9AF5E;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin: 3px 4px 3px 0;
+}
 
 footer {
     max-width: 1400px;
