@@ -65,15 +65,106 @@
   .section-head{ margin-bottom:32px; padding-bottom:14px; border-bottom:1px solid var(--line); }
   .section-head h2{ font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:clamp(1.4rem,2.8vw,1.85rem); }
 
-  /* À LA UNE */
-  #a-la-une article{ position:relative; padding-left:clamp(0px,0px,0px); }
-  #a-la-une article::before{
-    content:"🗞️"; position:absolute; top:-6px; left:-4px; font-size:2.1rem;
-    transform:rotate(-9deg); filter:drop-shadow(0 1px 0 rgba(0,0,0,.15));
+  /* À LA UNE — ÉDITORIAL */
+  #a-la-une .hero-dossier{
+    position:relative;
+    background:color-mix(in srgb, var(--gold) 7%, var(--cream));
+    border:1.5px solid var(--line);
+    border-radius:10px;
+    padding:clamp(24px, 4vw, 38px);
+    transition:border-color .2s ease, box-shadow .2s ease;
   }
-  #a-la-une h3{ font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:clamp(1.5rem,3.2vw,2.05rem); line-height:1.16; padding-left:56px; }
-  #a-la-une p{ margin-top:14px; font-size:1.02rem; line-height:1.7; max-width:64ch; color:color-mix(in srgb, var(--ink) 78%, transparent); }
-  #a-la-une a{ display:inline-block; margin-top:16px; font-weight:700; font-size:.94rem; text-decoration:none; color:var(--red); border-bottom:2px solid var(--red); padding-bottom:2px; }
+  #a-la-une .hero-dossier:hover{
+    border-color:var(--gold);
+    box-shadow:0 6px 20px rgba(0,0,0,.04);
+  }
+  .dossier-meta{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:10px;
+    margin-bottom:16px;
+  }
+  .meta-tag{
+    font-size:.72rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+    padding:3px 10px;
+    border-radius:3px;
+    background:var(--navy);
+    color:#F6EFDD;
+  }
+  .meta-reading{
+    font-size:.82rem;
+    font-weight:500;
+    color:color-mix(in srgb, var(--ink) 65%, transparent);
+    margin-left:auto;
+  }
+  .level-badge{
+    display:inline-block;
+    font-size:.66rem;
+    font-weight:700;
+    letter-spacing:.04em;
+    padding:2px 8px;
+    border:1.5px solid currentColor;
+    border-radius:20px;
+  }
+  .lvl-l1{ color:var(--green); }
+  .lvl-m2{ color:var(--red); }
+  #a-la-une h3{
+    font-family:'Bricolage Grotesque',sans-serif;
+    font-weight:800;
+    font-size:clamp(1.55rem,3.3vw,2.15rem);
+    line-height:1.2;
+    margin-bottom:12px;
+  }
+  #a-la-une p.lead{
+    font-size:1.04rem;
+    line-height:1.68;
+    max-width:72ch;
+    color:color-mix(in srgb, var(--ink) 82%, transparent);
+    margin-bottom:20px;
+  }
+  .dossier-pillars{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:24px;
+    padding-top:16px;
+    border-top:1px dashed var(--line);
+  }
+  .pillar-pill{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    font-size:.85rem;
+    font-weight:600;
+    padding:5px 12px;
+    border-radius:4px;
+    background:color-mix(in srgb, var(--line) 45%, transparent);
+    color:var(--ink);
+  }
+  .dossier-cta-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:var(--navy);
+    color:#F6EFDD;
+    text-decoration:none;
+    font-weight:700;
+    font-size:.94rem;
+    padding:11px 22px;
+    border-radius:6px;
+    border:1.5px solid var(--line);
+    transition:background .15s ease, border-color .15s ease, transform .12s ease;
+  }
+  .dossier-cta-btn:hover{
+    background:var(--red);
+    border-color:var(--red);
+    color:#FFF;
+    transform:translateX(3px);
+  }
 
   /* GRILLES — fondamentaux / apprendre */
   .card-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:0; }
@@ -137,13 +228,30 @@
 
                 <div class="section-head"><h2>À la une</h2></div>
 
-                <article>
+                <article class="hero-dossier">
+                    <div class="dossier-meta">
+                        <span class="meta-tag">Dossier #01</span>
+                        <span class="level-badge lvl-l1">NIVEAU L1</span>
+                        <span class="level-badge lvl-m2">NIVEAU M2</span>
+                        <span class="meta-reading">⏱️ ~8 min de lecture</span>
+                    </div>
+
                     <h3>Comprendre les relations internationales</h3>
-                    <p>
-                        Les concepts fondamentaux pour comprendre
-                        le fonctionnement du système international.
+                    <p class="lead">
+                        Les concepts fondamentaux pour comprendre le fonctionnement du système international : anarchie westphalienne, grands paradigmes théoriques (réalisme, libéralisme, constructivisme) et pratique diplomatique.
                     </p>
-                    <a href="dossier.html">Lire le dossier →</a>
+
+                    <div class="dossier-pillars">
+                        <span class="pillar-pill">🏛️ Westphalie & Anarchie</span>
+                        <span class="pillar-pill">⚖️ Réalisme, Libéralisme & Constructivisme</span>
+                        <span class="pillar-pill">📜 Diplomatie & Droit international</span>
+                    </div>
+
+                    <div>
+                        <a class="dossier-cta-btn" href="dossier.html">
+                            Explorer le dossier complet →
+                        </a>
+                    </div>
                 </article>
 
             </div>
