@@ -1,9 +1,9 @@
-﻿{
+{
     "USA":  {
                 "identity":  {
                                  "officialName":  "États-Unis d\u0027Amérique",
                                  "capital":  "Washington, D.C.",
-                                 "economicCapital":  "—",
+                                 "economicCapital":  "New York",
                                  "independence":  "4 juillet 1776 (Déclaration d\u0027indépendance de la Grande-Bretagne)"
                              },
                 "system":  {
@@ -57,7 +57,7 @@
                 "identity":  {
                                  "officialName":  "Canada",
                                  "capital":  "Ottawa",
-                                 "economicCapital":  "—",
+                                 "economicCapital":  "Toronto",
                                  "independence":  "1er juillet 1867 (Confédération) ; 17 avril 1982 (Rapatriement de la Constitution)"
                              },
                 "system":  {
@@ -163,7 +163,7 @@
                 "identity":  {
                                  "officialName":  "République fédérative du Brésil",
                                  "capital":  "Brasília",
-                                 "economicCapital":  "—",
+                                 "economicCapital":  "São Paulo",
                                  "independence":  "7 septembre 1822 (Cri d\u0027Ipiranga du Portugal) ; 15 novembre 1889 (Proclamation de la République)"
                              },
                 "system":  {
@@ -317,7 +317,7 @@
     "CHL":  {
                 "identity":  {
                                  "officialName":  "République du Chili",
-                                 "capital":  "Santiago (siège du gouvernement) ; Valparaíso (siège du Congrès national)",
+                                 "capital":  "Santiago",
                                  "economicCapital":  "—",
                                  "independence":  "18 septembre 1810 (Première junte) ; 12 février 1818 (Proclamation d\u0027indépendance de l\u0027Espagne)"
                              },
@@ -523,7 +523,7 @@
                 "identity":  {
                                  "officialName":  "République de l\u0027Équateur",
                                  "capital":  "Quito",
-                                 "economicCapital":  "—",
+                                 "economicCapital":  "Guayaquil",
                                  "independence":  "10 août 1809 (Premier cri) ; 24 mai 1822 (Bataille de Pichincha de l\u0027Espagne)"
                              },
                 "system":  {
@@ -571,8 +571,8 @@
     "BOL":  {
                 "identity":  {
                                  "officialName":  "État plurinational de Bolivie",
-                                 "capital":  "Sucre (capitale constitutionnelle) ; La Paz (siège du gouvernement et du parlement)",
-                                 "economicCapital":  "—",
+                                 "capital":  "Sucre (capitale constitutionnelle et judiciaire)",
+                                 "economicCapital":  "La Paz (siège du gouvernement et du parlement) / Santa Cruz de la Sierra",
                                  "independence":  "6 août 1825 (Déclaration d\u0027indépendance de l\u0027Espagne)"
                              },
                 "system":  {
@@ -1024,7 +1024,7 @@
                 "identity":  {
                                  "officialName":  "Belize",
                                  "capital":  "Belmopan",
-                                 "economicCapital":  "—",
+                                 "economicCapital":  "Belize City",
                                  "independence":  "21 septembre 1981 (du Royaume-Uni - ancien Honduras britannique)"
                              },
                 "system":  {
@@ -1797,56 +1797,56 @@
                                                                      ]
                                   }
             },
-    "GRL":  {
-                "judiciary":  {
-                                  "highestJudicialInstitution":  "Cour du Groenland (Grønlands Landsret)",
-                                  "constitutionalInstitution":  "Cour suprême du Danemark (Højesteret)"
-                              },
-                "electoral":  {
-                                  "presidentialSystem":  "—",
-                                  "legislativeSystem":  "Scrutin proportionnel plurinominal à liste ouverte (circonscription unique)",
-                                  "votingAge":  "18 ans"
-                              },
-                "foreignPolicy":  {
-                                      "regionalOrganizations":  [
-                                                                    "Conseil nordique",
-                                                                    "Conseil de l\u0027Arctique",
-                                                                    "Conseil circumpolaire inuit (ICC)",
-                                                                    "OCTA (Pays et territoires d\u0027outre-mer de l\u0027UE)"
-                                                                ],
-                                      "internationalOrganizations":  [
-                                                                         "Représenté par le Royaume de Danemark à l\u0027ONU et à l\u0027OTAN",
-                                                                         "Commission baleinière internationale (IWC)",
-                                                                         "Accord de défense États-Unis - Danemark (Base spatiale de Pituffik / Thulé)"
-                                                                     ]
-                                  },
-                "territory":  {
-                                  "type":  "Plus grande île non continentale du monde (2 166 086 km²)",
-                                  "organization":  "5 municipalités décentralisées (Avannaata, Kujalleq, Qeqertalik, Qeqqata, Sermersooq) et parc national du Nord-Est"
-                              },
-                "identity":  {
-                                 "officialName":  "Groenland (Kalaallit Nunaat)",
-                                 "independence":  "Pays constitutif autonome du Royaume de Danemark (loi d\u0027autonomie renforcée de 2009)",
-                                 "economicCapital":  "—",
-                                 "capital":  "Nuuk (Godthåb)"
-                             },
-                "legislative":  {
-                                    "upperHouse":  "—",
-                                    "structure":  "Monocaméral (31 sièges) + 2 députés élus au Folketing danois",
-                                    "parliament":  "Inatsisartut (Parlement du Groenland)",
-                                    "lowerHouse":  "Inatsisartut (31 députés)"
-                                },
-                "system":  {
-                               "territorialOrganization":  "5 municipalités et le parc national du Nord-Est",
-                               "stateForm":  "Territoire autonome d\u0027outre-mer sous souveraineté danoise",
-                               "regime":  "Démocratie parlementaire autonome (Rigsfællesskabet)",
-                               "constitution":  "Loi sur l\u0027autonomie du Groenland (2009) et Constitution du Danemark (1953)"
-                           },
-                "executive":  {
-                                  "headOfGovernment":  "Premier ministre du Groenland (Naalakkersuisut Siulittaasuat)",
-                                  "headOfState":  "Roi de Danemark (représenté par un Haut-Commissaire / Rigsombudsmand)",
-                                  "mandate":  "4 ans (législature)",
-                                  "election":  "Monarchie constitutionnelle héréditaire (Roi) ; élu par le Parlement groenlandais (chef du gouvernement)"
-                              }
-            }
+    "GRL": {
+        "identity": {
+            "officialName": "Groenland (Kalaallit Nunaat)",
+            "capital": "Nuuk (Godthåb)",
+            "economicCapital": "—",
+            "independence": "Pays constitutif autonome du Royaume de Danemark (loi d'autonomie renforcée de 2009)"
+        },
+        "system": {
+            "stateForm": "Territoire autonome d'outre-mer sous souveraineté danoise",
+            "regime": "Démocratie parlementaire autonome (Rigsfællesskabet)",
+            "territorialOrganization": "5 municipalités et le parc national du Nord-Est",
+            "constitution": "Loi sur l'autonomie du Groenland (2009) et Constitution du Danemark (1953)"
+        },
+        "executive": {
+            "headOfState": "Roi de Danemark (représenté par un Haut-Commissaire / Rigsombudsmand)",
+            "headOfGovernment": "Premier ministre du Groenland (Naalakkersuisut Siulittaasuat)",
+            "election": "Monarchie constitutionnelle héréditaire (Roi) ; élu par le Parlement groenlandais (chef du gouvernement)",
+            "mandate": "4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Inatsisartut (Parlement du Groenland)",
+            "structure": "Monocaméral (31 sièges) + 2 députés élus au Folketing danois",
+            "lowerHouse": "Inatsisartut (31 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal à liste ouverte (circonscription unique)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Danemark (Højesteret)",
+            "highestJudicialInstitution": "Cour du Groenland (Grønlands Landsret)"
+        },
+        "territory": {
+            "type": "Plus grande île non continentale du monde (2 166 086 km²)",
+            "organization": "5 municipalités décentralisées (Avannaata, Kujalleq, Qeqertalik, Qeqqata, Sermersooq) et parc national du Nord-Est"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil nordique",
+                "Conseil de l'Arctique",
+                "Conseil circumpolaire inuit (ICC)",
+                "OCTA (Pays et territoires d'outre-mer de l'UE)"
+            ],
+            "internationalOrganizations": [
+                "Représenté par le Royaume de Danemark à l'ONU et à l'OTAN",
+                "Commission baleinière internationale (IWC)",
+                "Accord de défense États-Unis - Danemark (Base spatiale de Pituffik / Thulé)"
+            ]
+        }
+    }
 }
