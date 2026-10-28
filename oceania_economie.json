@@ -1,0 +1,716 @@
+{
+    "AUS": {
+        "currency": {
+            "name": "Dollar australien",
+            "code": "AUD",
+            "symbol": "A$",
+            "centralBank": "Reserve Bank of Australia (RBA)"
+        },
+        "macro": {
+            "gdpNominal": "1 720 milliards USD",
+            "gdpPerCapita": "65 000 USD",
+            "globalRank": "13e mondial (1ère économie d'Océanie)",
+            "growth": "+1,5 %",
+            "inflation": "4,1 %"
+        },
+        "structure": {
+            "services": "71,2 %",
+            "industry": "25,6 %",
+            "agriculture": "3,2 %",
+            "mainSectors": "Superpuissance minière mondiale (1er exportateur mondial de minerai de fer et charbon métallurgique/thermique, lithium, bauxite, or, terres rares), gaz naturel liquéfié (GNL), agriculture d'exportation (blé, bœuf, laine, vin), services financiers et éducation internationale"
+        },
+        "trade": {
+            "mainExports": "Minerai de fer et concentrés, charbon, gaz naturel liquéfié (GNL), or brut, bœuf et mouton, blé, lithium",
+            "mainImports": "Voitures de tourisme et camions, pétrole raffiné, équipements de télécommunication, ordinateurs, médicaments",
+            "topPartners": [
+                "Chine (> 35 % des exportations)",
+                "Japon",
+                "Corée du Sud",
+                "Inde",
+                "États-Unis",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Massivement excédentaire (+105 milliards AUD)"
+        },
+        "publicFinance": {
+            "publicDebt": "51,0 % du PIB (fonds souverain Future Fund > 210 milliards AUD)",
+            "budgetBalance": "+0,9 % du PIB (excédent budgétaire fédéral)",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "G20",
+            "OCDE",
+            "APEC",
+            "CPTPP (PTPGP)",
+            "RCEP",
+            "Forum des îles du Pacifique (FIP)",
+            "Quad",
+            "AUKUS",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "NZL": {
+        "currency": {
+            "name": "Dollar néo-zélandais",
+            "code": "NZD",
+            "symbol": "NZ$",
+            "centralBank": "Banque de réserve de la Nouvelle-Zélande (RBNZ)"
+        },
+        "macro": {
+            "gdpNominal": "250 milliards USD",
+            "gdpPerCapita": "48 500 USD",
+            "globalRank": "51e mondial (2e d'Océanie)",
+            "growth": "+0,6 %",
+            "inflation": "4,7 %"
+        },
+        "structure": {
+            "services": "70,0 %",
+            "industry": "23,0 %",
+            "agriculture": "7,0 %",
+            "mainSectors": "Leader mondial de l'industrie laitière et de l'agroalimentaire (Fonterra - 1er exportateur mondial de produits laitiers : lait en poudre, beurre, fromage), viande d'agneau et de bœuf, vin Sauvignon blanc réputé (Marlborough), kiwis (Zespri), bois et foresterie, tourisme international"
+        },
+        "trade": {
+            "mainExports": "Poudre de lait concentrée, beurre et fromage, viande ovine et bovine congelée, bois brut et scié, kiwis et fruits, vin",
+            "mainImports": "Voitures de tourisme, pétrole raffiné, machines et matériel informatique, téléphones, avions",
+            "topPartners": [
+                "Chine (~ 30 % du commerce)",
+                "Australie",
+                "États-Unis",
+                "Japon",
+                "Union européenne"
+            ],
+            "tradeBalance": "Déficitaire en balance courante (-6,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB (fonds souverain NZ Super Fund)",
+            "budgetBalance": "-2,2 % du PIB",
+            "sovereignRating": "AA+ (S&P) / Aaa (Moody's) / AA+ (Fitch)"
+        },
+        "organizations": [
+            "OCDE",
+            "APEC",
+            "CPTPP (PTPGP)",
+            "RCEP",
+            "Forum des îles du Pacifique (FIP)",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "PNG": {
+        "currency": {
+            "name": "Kina papouan-néo-guinéen",
+            "code": "PGK",
+            "symbol": "K",
+            "centralBank": "Banque de Papouasie-Nouvelle-Guinée (BPNG)"
+        },
+        "macro": {
+            "gdpNominal": "32 milliards USD",
+            "gdpPerCapita": "3 100 USD",
+            "globalRank": "107e mondial (3e d'Océanie)",
+            "growth": "+2,7 %",
+            "inflation": "5,5 %"
+        },
+        "structure": {
+            "services": "36,0 %",
+            "industry": "44,0 %",
+            "agriculture": "20,0 %",
+            "mainSectors": "Hydrocarbures et gaz naturel liquéfié (projet géant PNG LNG - ExxonMobil), mines géantes de cuivre et d'or (Ok Tedi, Porgera, Lihir), bois tropical et huile de palme, café Arabica, cacao, thon de la zone Pacifique"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel liquéfié (GNL), or brut, cuivre, huile de palme brute, bois de grume, café, thon",
+            "mainImports": "Carburants raffinés, machines minières et de terrassement, camions, riz, viande de volaille",
+            "topPartners": [
+                "Australie",
+                "Chine",
+                "Japon",
+                "Singapour",
+                "Taïwan"
+            ],
+            "tradeBalance": "Largement excédentaire (+7 milliards USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "51,5 % du PIB",
+            "budgetBalance": "-4,3 % du PIB",
+            "sovereignRating": "B- (S&P) / B2 (Moody's)"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "APEC",
+            "Commonwealth",
+            "Groupe mélanésien Fer de lance (GMFL)",
+            "OMC"
+        ]
+    },
+    "FJI": {
+        "currency": {
+            "name": "Dollar fidjien",
+            "code": "FJD",
+            "symbol": "FJ$",
+            "centralBank": "Banque de réserve des Fidji (RBF)"
+        },
+        "macro": {
+            "gdpNominal": "5,5 milliards USD",
+            "gdpPerCapita": "6 000 USD",
+            "globalRank": "159e mondial",
+            "growth": "+7,8 % (fort rebond touristique)",
+            "inflation": "2,8 %"
+        },
+        "structure": {
+            "services": "72,0 %",
+            "industry": "16,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Tourisme insulaire et hôtellerie (> 1 million de visiteurs australiens et néo-zélandais), eau minérale naturelle exportée (Fiji Water), canne à sucre et mélasse, or (mine de Vatukoula), pêche au thon, confection"
+        },
+        "trade": {
+            "mainExports": "Eau minérale embouteillée, sucre de canne, or brut, poissons congelés, mélasse, boissons gazeuses",
+            "mainImports": "Pétrole raffiné, avions commerciaux et pièces (Fiji Airways), voitures, denrées alimentaires, machines",
+            "topPartners": [
+                "Australie",
+                "États-Unis",
+                "Nouvelle-Zélande",
+                "Chine",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Déficitaire en biens (-1,8 milliard USD, compensé par le tourisme)"
+        },
+        "publicFinance": {
+            "publicDebt": "80,0 % du PIB",
+            "budgetBalance": "-4,8 % du PIB",
+            "sovereignRating": "B+ (S&P / Moody's)"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP - siège à Suva)",
+            "Commonwealth",
+            "Groupe mélanésien Fer de lance (GMFL)",
+            "OMC"
+        ]
+    },
+    "SLB": {
+        "currency": {
+            "name": "Dollar des Îles Salomon",
+            "code": "SBD",
+            "symbol": "SI$",
+            "centralBank": "Banque centrale des Îles Salomon (CBSI)"
+        },
+        "macro": {
+            "gdpNominal": "1,6 milliard USD",
+            "gdpPerCapita": "2 200 USD",
+            "globalRank": "172e mondial",
+            "growth": "+2,5 %",
+            "inflation": "4,5 %"
+        },
+        "structure": {
+            "services": "48,0 %",
+            "industry": "20,0 %",
+            "agriculture": "32,0 %",
+            "mainSectors": "Exploitation forestière et bois de grume, pêche au thon industrielle et conserverie (Norovalu), coprah et huile de palme, cacao, or (mine de Gold Ridge)"
+        },
+        "trade": {
+            "mainExports": "Bois brut de grume non travaillé (> 65 % des exportations), conserves et longes de thon, huile de palme, coprah, or",
+            "mainImports": "Pétrole raffiné, riz blanc, navires et bateaux de pêche, machines, véhicules",
+            "topPartners": [
+                "Chine (> 60 % du bois)",
+                "Italie",
+                "Inde",
+                "Australie",
+                "Singapour"
+            ],
+            "tradeBalance": "Déficitaire (-200 millions USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "25,0 % du PIB",
+            "budgetBalance": "-5,2 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Groupe mélanésien Fer de lance (GMFL)",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "VUT": {
+        "currency": {
+            "name": "Vatu",
+            "code": "VUV",
+            "symbol": "VT",
+            "centralBank": "Banque de réserve de Vanuatu"
+        },
+        "macro": {
+            "gdpNominal": "1,1 milliard USD",
+            "gdpPerCapita": "3 300 USD",
+            "globalRank": "179e mondial",
+            "growth": "+1,5 %",
+            "inflation": "5,8 %"
+        },
+        "structure": {
+            "services": "68,0 %",
+            "industry": "10,0 %",
+            "agriculture": "22,0 %",
+            "mainSectors": "Tourisme de villégiature et d'aventure (plongée, volcan Yasur), programme de citoyenneté par investissement (DSP - principale source de devises), kava (plante médicinale en plein essor mondial), bœuf biologique élevé sous cocotiers, coprah et cacao"
+        },
+        "trade": {
+            "mainExports": "Racines de kava et extrait, bœuf congelé de haute qualité, coprah, fèves de cacao, poisson",
+            "mainImports": "Produits pétroliers raffinés, machines et matériel de télécommunication, voitures, viande de volaille",
+            "topPartners": [
+                "Japon",
+                "Nouvelle-Calédonie",
+                "Australie",
+                "Fidji",
+                "États-Unis"
+            ],
+            "tradeBalance": "Structurellement déficitaire en biens (-400 millions USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB",
+            "budgetBalance": "-6,0 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Groupe mélanésien Fer de lance (GMFL)",
+            "Organisation internationale de la Francophonie (OIF)",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "WSM": {
+        "currency": {
+            "name": "Tala samoan",
+            "code": "WST",
+            "symbol": "WS$",
+            "centralBank": "Banque centrale du Samoa (CBS)"
+        },
+        "macro": {
+            "gdpNominal": "950 millions USD",
+            "gdpPerCapita": "4 300 USD",
+            "globalRank": "182e mondial",
+            "growth": "+8,0 %",
+            "inflation": "6,2 %"
+        },
+        "structure": {
+            "services": "66,0 %",
+            "industry": "24,0 %",
+            "agriculture": "10,0 %",
+            "mainSectors": "Tourisme côtier et culturel, transferts massifs de fonds de la diaspora en Nouvelle-Zélande, Australie et USA (35 % du PIB), taro d'exportation, huile de noix de coco vierge, bière locale (Vailima)"
+        },
+        "trade": {
+            "mainExports": "Taro frais et tubercules, bière et boissons, huile de coco vierge, poisson frais, farine de coprah",
+            "mainImports": "Pétrole raffiné, voitures et utilitaires, viande de poulet congelée, viande de mouton, machines",
+            "topPartners": [
+                "Australie",
+                "Nouvelle-Zélande",
+                "Samoa américaines",
+                "États-Unis",
+                "Chine"
+            ],
+            "tradeBalance": "Lourdement déficitaire en biens (-450 millions USD, couvert par les remises)"
+        },
+        "publicFinance": {
+            "publicDebt": "42,0 % du PIB",
+            "budgetBalance": "+1,2 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Commonwealth",
+            "AOSIS",
+            "OMC"
+        ]
+    },
+    "TON": {
+        "currency": {
+            "name": "Paʻanga tongien",
+            "code": "TOP",
+            "symbol": "T$",
+            "centralBank": "Banque nationale de réserve des Tonga (NRBT)"
+        },
+        "macro": {
+            "gdpNominal": "520 millions USD",
+            "gdpPerCapita": "5 000 USD",
+            "globalRank": "188e mondial",
+            "growth": "+2,6 %",
+            "inflation": "6,5 %"
+        },
+        "structure": {
+            "services": "60,0 %",
+            "industry": "18,0 %",
+            "agriculture": "22,0 %",
+            "mainSectors": "Transferts massifs de la diaspora tongienne émigrée (40 % du PIB - taux le plus élevé au monde), agriculture vivrière et d'exportation (courges et potirons kabocha vers le Japon, vanille bourbon, racines de taro), pêche côtière et thon, écotourisme des baleines à bosse"
+        },
+        "trade": {
+            "mainExports": "Courges kabocha, vanille naturelle, poisson frais et thon, racines de taro, ignames",
+            "mainImports": "Pétrole raffiné, viandes congelées (mouton, poulet), camions et voitures, machines, ciment",
+            "topPartners": [
+                "Nouvelle-Zélande",
+                "Australie",
+                "Japon",
+                "États-Unis",
+                "Fidji"
+            ],
+            "tradeBalance": "Structurellement déficitaire en biens (-250 millions USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "46,0 % du PIB (prêts bilatéraux concessionnels)",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Commonwealth",
+            "AOSIS",
+            "OMC"
+        ]
+    },
+    "FSM": {
+        "currency": {
+            "name": "Dollar américain",
+            "code": "USD",
+            "symbol": "$",
+            "centralBank": "FSM Banking Board / FDIC"
+        },
+        "macro": {
+            "gdpNominal": "460 millions USD",
+            "gdpPerCapita": "4 200 USD",
+            "globalRank": "189e mondial",
+            "growth": "+2,8 %",
+            "inflation": "5,0 %"
+        },
+        "structure": {
+            "services": "72,0 %",
+            "industry": "6,0 %",
+            "agriculture": "22,0 %",
+            "mainSectors": "Droits de pêche thonière concédés aux flottes étrangères (Accord de Nauru / PNA - thon albacore et listao), subventions massives du Pacte de libre association avec les États-Unis (COFA), agriculture de subsistance (noix de coco, poivre de Pohnpei)"
+        },
+        "trade": {
+            "mainExports": "Poissons congelés et thon frais, poivre noir de Pohnpei, coprah, bétel",
+            "mainImports": "Carburants, riz et denrées alimentaires de base, voitures, bateaux, équipements électriques",
+            "topPartners": [
+                "États-Unis",
+                "Guam",
+                "Japon",
+                "Chine",
+                "Corée du Sud"
+            ],
+            "tradeBalance": "Chronique et lourdement déficitaire hors subventions COFA"
+        },
+        "publicFinance": {
+            "publicDebt": "14,0 % du PIB (fonds fiduciaire Compact Trust Fund)",
+            "budgetBalance": "Équilibré via subventions américaines",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Pacte de libre association avec les USA (COFA)",
+            "Parties à l'Accord de Nauru (PNA)",
+            "AOSIS"
+        ]
+    },
+    "PLW": {
+        "currency": {
+            "name": "Dollar américain",
+            "code": "USD",
+            "symbol": "$",
+            "centralBank": "National Treasury of Palau"
+        },
+        "macro": {
+            "gdpNominal": "300 millions USD",
+            "gdpPerCapita": "16 500 USD",
+            "globalRank": "192e mondial",
+            "growth": "+8,0 % (reprise touristique)",
+            "inflation": "7,2 %"
+        },
+        "structure": {
+            "services": "84,0 %",
+            "industry": "12,0 %",
+            "agriculture": "4,0 %",
+            "mainSectors": "Tourisme écologique et plongée sous-marine de classe mondiale (Rock Islands, sanctuaire marin national des Palaos - 80 % de la ZEE protégée), subventions du Compact of Free Association (COFA) américain, redevances de pêche thonière"
+        },
+        "trade": {
+            "mainExports": "Thon frais et réfrigéré expédié par fret aérien au Japon pour sashimis, métaux de récupération",
+            "mainImports": "Carburants raffinés, bateaux et yachts, denrées alimentaires, voitures, matériel de construction",
+            "topPartners": [
+                "Japon",
+                "États-Unis",
+                "Taïwan",
+                "Corée du Sud",
+                "Guam"
+            ],
+            "tradeBalance": "Lourdement déficitaire en biens (-180 millions USD, compensé par le tourisme et l'aide COFA)"
+        },
+        "publicFinance": {
+            "publicDebt": "85,0 % du PIB (prêts d'urgence post-crise sanitaire)",
+            "budgetBalance": "-6,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Pacte de libre association avec les USA (COFA)",
+            "PNA",
+            "AOSIS"
+        ]
+    },
+    "MHL": {
+        "currency": {
+            "name": "Dollar américain",
+            "code": "USD",
+            "symbol": "$",
+            "centralBank": "Banking Commission of the Marshall Islands"
+        },
+        "macro": {
+            "gdpNominal": "280 millions USD",
+            "gdpPerCapita": "6 700 USD",
+            "globalRank": "193e mondial",
+            "growth": "+3,0 %",
+            "inflation": "3,5 %"
+        },
+        "structure": {
+            "services": "70,0 %",
+            "industry": "18,0 %",
+            "agriculture": "12,0 %",
+            "mainSectors": "Registre maritime international (3e pavillon maritime mondial par tonnage brut sous gestion d'IRI), subventions du Pacte de libre association (COFA) avec les États-Unis et bail de la base militaire de Kwajalein, redevances thonières, huile de coprah"
+        },
+        "trade": {
+            "mainExports": "Bateaux et navires de transport enregistrés, thon congelé, huile et gâteaux de coprah",
+            "mainImports": "Navires marchands (réimmatriculation), pétrole raffiné, machines, viandes, riz",
+            "topPartners": [
+                "États-Unis",
+                "Japon",
+                "Corée du Sud",
+                "Chine",
+                "Singapour"
+            ],
+            "tradeBalance": "Structurellement déficitaire hors pavillon et aide américaine"
+        },
+        "publicFinance": {
+            "publicDebt": "21,0 % du PIB (bénéficie du Marshall Islands Compact Trust Fund)",
+            "budgetBalance": "Équilibré grâce aux aides COFA",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Pacte de libre association avec les USA (COFA)",
+            "PNA",
+            "AOSIS"
+        ]
+    },
+    "KIR": {
+        "currency": {
+            "name": "Dollar australien",
+            "code": "AUD",
+            "symbol": "A$",
+            "centralBank": "Ministry of Finance and Economic Development"
+        },
+        "macro": {
+            "gdpNominal": "280 millions USD",
+            "gdpPerCapita": "2 200 USD",
+            "globalRank": "194e mondial",
+            "growth": "+3,5 %",
+            "inflation": "5,2 %"
+        },
+        "structure": {
+            "services": "64,0 %",
+            "industry": "10,0 %",
+            "agriculture": "26,0 %",
+            "mainSectors": "Redevances de pêche au thon dans une ZEE géante de 3,5 millions de km² (Accord de Nauru / PNA - générant plus de 70 % des recettes publiques), fonds souverain RERF (Revenue Equalisation Reserve Fund de 1,2 milliard AUD), coprah, marins expatriés"
+        },
+        "trade": {
+            "mainExports": "Poissons congelés et thon entier, coprah et pulpe séchée de coco, poissons d'aquarium",
+            "mainImports": "Pétrole raffiné, riz blanc, bateaux de pêche, viandes, sucre",
+            "topPartners": [
+                "Thaïlande (conserveries de thon)",
+                "Japon",
+                "Philippines",
+                "Australie",
+                "Fidji"
+            ],
+            "tradeBalance": "Lourdement déficitaire en balance de biens (-180 millions USD, compensé par licences de pêche et RERF)"
+        },
+        "publicFinance": {
+            "publicDebt": "15,0 % du PIB (fonds souverain RERF valant 4 fois le PIB national)",
+            "budgetBalance": "+8,0 % du PIB grâce aux licences thonières",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Commonwealth",
+            "PNA",
+            "AOSIS"
+        ]
+    },
+    "NRU": {
+        "currency": {
+            "name": "Dollar australien",
+            "code": "AUD",
+            "symbol": "A$",
+            "centralBank": "Nauru Treasury / Nauru Trust Fund"
+        },
+        "macro": {
+            "gdpNominal": "150 millions USD",
+            "gdpPerCapita": "12 000 USD",
+            "globalRank": "196e mondial (plus petite république du monde)",
+            "growth": "+1,8 %",
+            "inflation": "4,0 %"
+        },
+        "structure": {
+            "services": "75,0 %",
+            "industry": "15,0 %",
+            "agriculture": "10,0 %",
+            "mainSectors": "Frais d'hébergement du centre régional australien de traitement des demandeurs d'asile (RPC / Operation Sovereign Borders - principale source de devises), extraction résiduelle de phosphate, licences thonières, pionnier du minage sous-marin des nodules polymétalliques"
+        },
+        "trade": {
+            "mainExports": "Phosphate brut, poissons congelés",
+            "mainImports": "Pétrole raffiné, machines et matériel de terrassement, voitures, viandes, denrées de base",
+            "topPartners": [
+                "Australie",
+                "Thaïlande",
+                "Nouvelle-Zélande",
+                "Chine",
+                "Fidji"
+            ],
+            "tradeBalance": "Déficitaire hors subsides australiens"
+        },
+        "publicFinance": {
+            "publicDebt": "28,0 % du PIB (finances très dépendantes de l'activité du centre australien)",
+            "budgetBalance": "Équilibré par transferts australiens",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Commonwealth",
+            "PNA",
+            "AOSIS"
+        ]
+    },
+    "TUV": {
+        "currency": {
+            "name": "Dollar australien / Dollar tuvaluan",
+            "code": "AUD / TVD",
+            "symbol": "A$ / $",
+            "centralBank": "National Bank of Tuvalu"
+        },
+        "macro": {
+            "gdpNominal": "65 millions USD",
+            "gdpPerCapita": "5 800 USD",
+            "globalRank": "197e mondial (plus petite économie souveraine au monde)",
+            "growth": "+3,0 %",
+            "inflation": "4,5 %"
+        },
+        "structure": {
+            "services": "70,0 %",
+            "industry": "10,0 %",
+            "agriculture": "20,0 %",
+            "mainSectors": "Redevances de location du nom de domaine internet de premier niveau '.tv' (concédé à des diffuseurs vidéo et streamers), licences de pêche au thon, fonds souverain Tuvalu Trust Fund (TTF - 190 millions AUD), traité de mobilité climatique Falepili Union avec l'Australie"
+        },
+        "trade": {
+            "mainExports": "Poissons congelés, coprah",
+            "mainImports": "Pétrole raffiné, navires et bateaux, riz, viandes, machines",
+            "topPartners": [
+                "Japon",
+                "Thaïlande",
+                "Australie",
+                "Fidji",
+                "Nouvelle-Zélande"
+            ],
+            "tradeBalance": "Déficitaire en balance de biens (-35 millions USD)"
+        },
+        "publicFinance": {
+            "publicDebt": "10,0 % du PIB (fonds souverain TTF protégeant les finances publiques)",
+            "budgetBalance": "Équilibré via domaine .tv et licences de pêche",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP)",
+            "Commonwealth",
+            "PNA",
+            "AOSIS"
+        ]
+    },
+    "NCL": {
+        "currency": {
+            "name": "Franc pacifique (indexé sur l'euro)",
+            "code": "XPF",
+            "symbol": "F CFP",
+            "centralBank": "Institut d'émission d'outre-mer (IEOM)"
+        },
+        "macro": {
+            "gdpNominal": "9,5 milliards USD",
+            "gdpPerCapita": "35 000 USD",
+            "globalRank": "Collectivité d'outre-mer sui generis (France)",
+            "growth": "-10,0 % (impact crise métallurgique et émeutes 2024)",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "68,0 %",
+            "industry": "22,0 %",
+            "agriculture": "10,0 %",
+            "mainSectors": "Mines et métallurgie du nickel (20 à 25 % des réserves mondiales de nickel - usines de la SLN, Koniambo KNS, Prony Resources - pour batteries de VE), transferts publics et dépenses régaliennes de l'État français, tourisme, crevettes bleues"
+        },
+        "trade": {
+            "mainExports": "Ferronickel, mattes de nickel, minerai brut de nickel, crevettes d'aquaculture surgelées",
+            "mainImports": "Pétrole raffiné et charbon (pour les usines de nickel), véhicules et camions miniers, machines électriques, denrées alimentaires, médicaments",
+            "topPartners": [
+                "Chine (1er acheteur de nickel)",
+                "France métropolitaine",
+                "Japon",
+                "Corée du Sud",
+                "Australie"
+            ],
+            "tradeBalance": "Déficitaire en biens (-1,5 milliard USD, couvert par les transferts de la métropole)"
+        },
+        "publicFinance": {
+            "publicDebt": "85,0 % du PIB (avances de trésorerie de l'État français)",
+            "budgetBalance": "Déficitaire soutenu par l'État français",
+            "sovereignRating": "Non notée séparément (garantie France)"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP - membre à part entière)",
+            "Communauté du Pacifique (CPS - siège à Nouméa)",
+            "OCTA (UE)"
+        ]
+    },
+    "PYF": {
+        "currency": {
+            "name": "Franc pacifique (indexé sur l'euro)",
+            "code": "XPF",
+            "symbol": "F CFP",
+            "centralBank": "Institut d'émission d'outre-mer (IEOM)"
+        },
+        "macro": {
+            "gdpNominal": "6,0 milliards USD",
+            "gdpPerCapita": "21 000 USD",
+            "globalRank": "Collectivité d'outre-mer autonome (France)",
+            "growth": "+3,2 %",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "78,0 %",
+            "industry": "14,0 %",
+            "agriculture": "8,0 %",
+            "mainSectors": "Tourisme international haut de gamme (Bora-Bora, Tahiti, Moorea - bungalows sur pilotis), perliculture et perles noires de culture de Tahiti (Tuamotu), transferts publics de l'État français (salaires, dotations), vanille de Tahiti, pêche au thon, monoï"
+        },
+        "trade": {
+            "mainExports": "Perles de culture brutes et travaillées, thon frais et congelé expédié par air, vanille de Tahiti, huile de monoï",
+            "mainImports": "Carburants raffinés, avions de ligne et pièces (Air Tahiti Nui), véhicules automobiles, viandes et denrées alimentaires, médicaments",
+            "topPartners": [
+                "France métropolitaine",
+                "Hong Kong (1er marché de la perle)",
+                "Japon",
+                "États-Unis",
+                "Nouvelle-Zélande"
+            ],
+            "tradeBalance": "Lourdement déficitaire en balance de biens (-1,8 milliard USD, compensé par tourisme et transferts métropolitains)"
+        },
+        "publicFinance": {
+            "publicDebt": "38,0 % du PIB (finances saines sous encadrement IEOM et dotations républicaines)",
+            "budgetBalance": "Équilibré",
+            "sovereignRating": "Non notée séparément (garantie France)"
+        },
+        "organizations": [
+            "Forum des îles du Pacifique (FIP - membre à part entière)",
+            "Communauté du Pacifique (CPS)",
+            "OCTA (UE)"
+        ]
+    }
+}
