@@ -76,15 +76,15 @@
 
             <div class="map-controls">
 
-                <button class="layer active" data-layer="political">
+                <button class="layer active" data-layer="political" onclick="switchPanelView('political')">
                     Politique
                 </button>
 
-                <button class="layer" data-layer="economy">
+                <button class="layer" data-layer="economy" onclick="switchPanelView('economy')">
                     Économie
                 </button>
 
-                <button class="layer" data-layer="population">
+                <button class="layer" data-layer="population" onclick="switchPanelView('demography')">
                     Population
                 </button>
 
@@ -132,16 +132,23 @@
 </script>
 
 <!-- Module Politique -->
-<script src="politique.js"></script>
+<script src="politique.js?v=3.1"></script>
 
 <!-- Module Économie -->
-<script src="economie.js"></script>
+<script src="economie.js?v=3.1"></script>
 
 <!-- Module Démographie -->
-<script src="demographie.js"></script>
+<script src="demographie.js?v=3.1"></script>
 
-<!-- Notre JavaScript -->
-<script src="js/monde.js"></script>
+<!-- Notre JavaScript (avec support dossier js/ et racine + cache-busting v=3.1) -->
+<script src="js/monde.js?v=3.1"></script>
+<script>
+if (typeof window.switchPanelView === "undefined") {
+    var fallbackScript = document.createElement("script");
+    fallbackScript.src = "monde.js?v=3.1";
+    document.body.appendChild(fallbackScript);
+}
+</script>
 
 </body>
 </html>

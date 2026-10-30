@@ -163,6 +163,7 @@ function switchPanelView(view) {
     if (view === "population") view = "demography";
     currentActiveView = view;
     window.currentActiveView = view;
+
     // Synchroniser les boutons de contrôle de la carte
     document.querySelectorAll(".map-controls button.layer").forEach(function(btn) {
         const lType = btn.getAttribute("data-layer");
@@ -176,6 +177,39 @@ function switchPanelView(view) {
 
     if (currentSelectedIso3) {
         renderCountryContent(currentSelectedIso3, currentSelectedName);
+    } else {
+        // Si aucun pays n'est sélectionné, ouvrir le volet latéral avec les 3 onglets et un message d'orientation
+        const panel = document.getElementById("countryPanel");
+        const content = document.getElementById("countryContent");
+        if (panel && content) {
+            panel.classList.add("open");
+            const viewLabels = {
+                'political': '🏛️ Mode Politique',
+                'economy': '📊 Mode Économie',
+                'demography': '👥 Mode Démographie'
+            };
+            const currentTitle = viewLabels[view] || 'Données cartographiques';
+            content.innerHTML = `
+                <h2 class="country-title">${currentTitle}</h2>
+                <div class="panel-tabs">
+                    <button class="panel-tab ${currentActiveView === 'political' ? 'active' : ''}" onclick="switchPanelView('political')">
+                        🏛️ Politique
+                    </button>
+                    <button class="panel-tab ${currentActiveView === 'economy' ? 'active' : ''}" onclick="switchPanelView('economy')">
+                        📊 Économie
+                    </button>
+                    <button class="panel-tab ${currentActiveView === 'demography' ? 'active' : ''}" onclick="switchPanelView('demography')">
+                        👥 Démographie
+                    </button>
+                </div>
+                <div class="data-card" style="margin-top:20px; border-left:3px solid #D9AF5E;">
+                    <div class="data-label">Prêt pour l'exploration</div>
+                    <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
+                        👉 <strong>Cliquez sur un pays sur la carte</strong> (par exemple la France, l'Espagne, l'Allemagne, l'Italie...) pour afficher immédiatement sa fiche complète en mode ${currentTitle}.
+                    </div>
+                </div>
+            `;
+        }
     }
 }
 window.switchPanelView = switchPanelView;
