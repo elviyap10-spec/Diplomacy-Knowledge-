@@ -811,5 +811,59 @@
                 "Représentée sur la scène diplomatique régalienne par la France"
             ]
         }
+    },
+    "ATA": {
+        "identity": {
+            "officialName": "Régime du Traité sur l'Antarctique (Antarctic Treaty System - ATS)",
+            "capital": "Aucune (Secrétariat du Traité sur l'Antarctique permanent basé à Buenos Aires, Argentine)",
+            "economicCapital": "— (Aucune capitale économique)",
+            "independence": "1er décembre 1959 (Signature du Traité à Washington par 12 nations fondatrices) ; entrée en vigueur le 23 juin 1961"
+        },
+        "system": {
+            "stateForm": "Condominium international de facto / Bien commun de l'humanité ('Terre de paix et de science')",
+            "regime": "Gouvernance multilatérale consensuelle des 29 Parties Consultatives au Traité sur l'Antarctique (RCTA)",
+            "territorialOrganization": "Continent sans frontière nationale souveraine reconnue ; 7 revendications territoriales sectorielles gelées (Argentine, Australie, Chili, France, Norvège, Nouvelle-Zélande, Royaume-Uni ; Terre Marie Byrd non revendiquée)",
+            "constitution": "Traité sur l'Antarctique (1959), Protocole de Madrid relatif à la protection de l'environnement (1991), Convention CCAMLR (1980)"
+        },
+        "executive": {
+            "headOfState": "Aucun (Réunion Consultative du Traité sur l'Antarctique - RCTA / Organe collégial des 29 États parties consultatives)",
+            "headOfGovernment": "Secrétaire exécutif du Secrétariat du Traité sur l'Antarctique (ATS, Buenos Aires)",
+            "election": "Décisions arrêtées exclusivement par consensus unanime des États parties consultatives ayant démontré un engagement scientifique significatif",
+            "mandate": "Sessions annuelles de la RCTA (RCTA XLVI à Kochi en Inde en 2024 ; RCTA XLVII à Milan en 2025)"
+        },
+        "legislative": {
+            "parliament": "Réunion Consultative du Traité sur l'Antarctique (RCTA / ATCM)",
+            "structure": "Monocamérale / Assemblée diplomatique intergouvernementale",
+            "lowerHouse": "29 Parties Consultatives disposant du droit de vote (sur un total de 56 États signataires adhérents en 2024-2026)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "— (Aucun scrutin populaire citoyen)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Règle du consensus unanime absolu entre les États parties consultatives (droit de veto de fait pour chaque membre votant)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Comité pour la Protection de l'Environnement (CPE / CEP) et Cour permanente d'arbitrage de La Haye (tribunal arbitral désigné)",
+            "highestJudicialInstitution": "Compétence juridictionnelle exclusive de l'État d'origine de chaque ressortissant et personnel des bases scientifiques"
+        },
+        "territory": {
+            "type": "Continent polaire d'une superficie de 14,2 millions de km² (dont 98 % recouverts par un inlandsis d'une épaisseur moyenne de 2 km)",
+            "organization": "Zone internationale démilitarisée au sud du 60e parallèle Sud ; réseau d'environ 75 stations scientifiques en service (40 permanentes annuelles et 35 estivales)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Système du Traité sur l'Antarctique (STA)",
+                "Comité scientifique pour la recherche antarctique (SCAR)",
+                "CCAMLR (Commission conservation faune marine)",
+                "COMNAP (Conseil des directeurs de programmes nationaux)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (suivi sous la 'Question de l'Antarctique')",
+                "Organisation météorologique mondiale (OMM)",
+                "Organisation maritime internationale (OMI - Code Polaire)",
+                "Union internationale pour la conservation de la nature (UICN)",
+                "Organisation hydrographique internationale (OHI)"
+            ]
+        }
     }
 }

@@ -45,7 +45,8 @@ const ISO_FIXES = {
     "Norway": "NOR",
     "Kosovo": "XKX",
     "Somaliland": "SOM",
-    "N. Cyprus": "CYP"
+    "N. Cyprus": "CYP",
+    "Antarctica": "ATA"
 };
 
 // Dictionnaire des noms courants en français
@@ -89,7 +90,8 @@ const COUNTRY_NAMES_FR = {
     "TKM": "Turkménistan", "TUV": "Tuvalu", "UGA": "Ouganda", "UKR": "Ukraine", "ARE": "Émirats arabes unis",
     "GBR": "Royaume-Uni", "USA": "États-Unis", "URY": "Uruguay", "UZB": "Ouzbékistan", "VUT": "Vanuatu",
     "VAT": "Vatican", "VEN": "Venezuela", "VNM": "Viêt Nam", "YEM": "Yémen", "ZMB": "Zambie",
-    "ZWE": "Zimbabwe", "XKX": "Kosovo", "ESH": "Sahara occidental", "NCL": "Nouvelle-Calédonie", "PYF": "Polynésie française"
+    "ZWE": "Zimbabwe", "XKX": "Kosovo", "ESH": "Sahara occidental", "NCL": "Nouvelle-Calédonie", "PYF": "Polynésie française",
+    "ATA": "Antarctique", "ATF": "Terres australes et antarctiques françaises"
 };
 
 // Aliases et synonymes de recherche courants
@@ -114,7 +116,9 @@ const COUNTRY_ALIASES = {
     "CPV": ["Cabo Verde", "Cap-Vert"],
     "FSM": ["Micronesie"],
     "VAT": ["Saint-Siège", "Saint Siege"],
-    "GRL": ["Groenland", "Greenland", "Kalaallit Nunaat", "Nuuk"]
+    "GRL": ["Groenland", "Greenland", "Kalaallit Nunaat", "Nuuk"],
+    "ATA": ["Antarctique", "Antarctica", "Pôle Sud", "Pole Sud", "Continent blanc", "Terre Adélie"],
+    "ATF": ["TAAF", "Terres australes", "Kerguelen", "Crozet"]
 };
 
 
