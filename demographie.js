@@ -68,7 +68,7 @@ function onDemoContinentLoaded(continentName, data) {
 // Lancement simultané des chargements
 const demoLoads = [
     fetchFirstAvailableDemo(europeDemoPaths).then(function(data) { onDemoContinentLoaded("Europe", data); }).catch(function(e) { console.warn("Démographie Europe indisponible :", e); }),
-    fetchFirstAvailableDemo(africaDemoPaths).then(function(data) { onDemoContinentLoaded("Afrique", data); }).catch(function() {}),
+    fetchFirstAvailableDemo(africaDemoPaths).then(function(data) { onDemoContinentLoaded("Afrique", data); }).catch(function(e) { console.warn("Démographie Afrique indisponible :", e); }),
     fetchFirstAvailableDemo(asiaDemoPaths).then(function(data) { onDemoContinentLoaded("Asie", data); }).catch(function() {}),
     fetchFirstAvailableDemo(americaDemoPaths).then(function(data) { onDemoContinentLoaded("Amériques", data); }).catch(function() {}),
     fetchFirstAvailableDemo(oceaniaDemoPaths).then(function(data) { onDemoContinentLoaded("Océanie", data); }).catch(function() {})
