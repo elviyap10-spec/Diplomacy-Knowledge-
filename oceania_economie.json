@@ -7,11 +7,11 @@
             "centralBank": "Reserve Bank of Australia (RBA)"
         },
         "macro": {
-            "gdpNominal": "1 720 milliards USD",
-            "gdpPerCapita": "65 000 USD",
+            "gdpNominal": "1,8 billions USD",
+            "gdpPerCapita": "64 610 USD",
             "globalRank": "13e mondial (1ère économie d'Océanie)",
-            "growth": "+1,5 %",
-            "inflation": "4,1 %"
+            "growth": "+1,4 %",
+            "inflation": "3,2 %"
         },
         "structure": {
             "services": "71,2 %",
@@ -58,11 +58,11 @@
             "centralBank": "Banque de réserve de la Nouvelle-Zélande (RBNZ)"
         },
         "macro": {
-            "gdpNominal": "250 milliards USD",
-            "gdpPerCapita": "48 500 USD",
+            "gdpNominal": "261 milliards USD",
+            "gdpPerCapita": "49 432 USD",
             "globalRank": "51e mondial (2e d'Océanie)",
-            "growth": "+0,6 %",
-            "inflation": "4,7 %"
+            "growth": "-0,9 %",
+            "inflation": "2,9 %"
         },
         "structure": {
             "services": "70,0 %",
@@ -105,11 +105,11 @@
             "centralBank": "Banque de Papouasie-Nouvelle-Guinée (BPNG)"
         },
         "macro": {
-            "gdpNominal": "32 milliards USD",
-            "gdpPerCapita": "3 100 USD",
+            "gdpNominal": "31 milliards USD",
+            "gdpPerCapita": "2 912 USD",
             "globalRank": "107e mondial (3e d'Océanie)",
-            "growth": "+2,7 %",
-            "inflation": "5,5 %"
+            "growth": "+3,9 %",
+            "inflation": "0,6 %"
         },
         "structure": {
             "services": "36,0 %",
@@ -150,11 +150,11 @@
             "centralBank": "Banque de réserve des Fidji (RBF)"
         },
         "macro": {
-            "gdpNominal": "5,5 milliards USD",
-            "gdpPerCapita": "6 000 USD",
+            "gdpNominal": "6 milliards USD",
+            "gdpPerCapita": "6 426 USD",
             "globalRank": "159e mondial",
-            "growth": "+7,8 % (fort rebond touristique)",
-            "inflation": "2,8 %"
+            "growth": "+3,5 %",
+            "inflation": "3,9 %"
         },
         "structure": {
             "services": "72,0 %",
@@ -194,11 +194,11 @@
             "centralBank": "Banque centrale des Îles Salomon (CBSI)"
         },
         "macro": {
-            "gdpNominal": "1,6 milliard USD",
-            "gdpPerCapita": "2 200 USD",
+            "gdpNominal": "2 milliards USD",
+            "gdpPerCapita": "1 934 USD",
             "globalRank": "172e mondial",
-            "growth": "+2,5 %",
-            "inflation": "4,5 %"
+            "growth": "+3,0 %",
+            "inflation": "4,3 %"
         },
         "structure": {
             "services": "48,0 %",
@@ -238,11 +238,11 @@
             "centralBank": "Banque de réserve de Vanuatu"
         },
         "macro": {
-            "gdpNominal": "1,1 milliard USD",
-            "gdpPerCapita": "3 300 USD",
+            "gdpNominal": "1 milliards USD",
+            "gdpPerCapita": "3 960 USD",
             "globalRank": "179e mondial",
-            "growth": "+1,5 %",
-            "inflation": "5,8 %"
+            "growth": "+3,8 %",
+            "inflation": "1,1 %"
         },
         "structure": {
             "services": "68,0 %",
@@ -283,11 +283,11 @@
             "centralBank": "Banque centrale du Samoa (CBS)"
         },
         "macro": {
-            "gdpNominal": "950 millions USD",
-            "gdpPerCapita": "4 300 USD",
+            "gdpNominal": "1 milliards USD",
+            "gdpPerCapita": "5 393 USD",
             "globalRank": "182e mondial",
-            "growth": "+8,0 %",
-            "inflation": "6,2 %"
+            "growth": "+4,7 %",
+            "inflation": "2,2 %"
         },
         "structure": {
             "services": "66,0 %",
@@ -327,11 +327,11 @@
             "centralBank": "Banque nationale de réserve des Tonga (NRBT)"
         },
         "macro": {
-            "gdpNominal": "520 millions USD",
-            "gdpPerCapita": "5 000 USD",
+            "gdpNominal": "647 millions USD",
+            "gdpPerCapita": "6 215 USD",
             "globalRank": "188e mondial",
-            "growth": "+2,6 %",
-            "inflation": "6,5 %"
+            "growth": "+1,7 %",
+            "inflation": "3,2 %"
         },
         "structure": {
             "services": "60,0 %",
@@ -371,11 +371,11 @@
             "centralBank": "FSM Banking Board / FDIC"
         },
         "macro": {
-            "gdpNominal": "460 millions USD",
-            "gdpPerCapita": "4 200 USD",
+            "gdpNominal": "481 millions USD",
+            "gdpPerCapita": "4 252 USD",
             "globalRank": "189e mondial",
-            "growth": "+2,8 %",
-            "inflation": "5,0 %"
+            "growth": "+2,3 %",
+            "inflation": "5,4 %"
         },
         "structure": {
             "services": "72,0 %",
@@ -415,11 +415,11 @@
             "centralBank": "National Treasury of Palau"
         },
         "macro": {
-            "gdpNominal": "300 millions USD",
-            "gdpPerCapita": "16 500 USD",
+            "gdpNominal": "322 millions USD",
+            "gdpPerCapita": "18 169 USD",
             "globalRank": "192e mondial",
-            "growth": "+8,0 % (reprise touristique)",
-            "inflation": "7,2 %"
+            "growth": "+12,0 %",
+            "inflation": "2,2 %"
         },
         "structure": {
             "services": "84,0 %",
@@ -459,10 +459,10 @@
             "centralBank": "Banking Commission of the Marshall Islands"
         },
         "macro": {
-            "gdpNominal": "280 millions USD",
-            "gdpPerCapita": "6 700 USD",
+            "gdpNominal": "285 millions USD",
+            "gdpPerCapita": "7 590 USD",
             "globalRank": "193e mondial",
-            "growth": "+3,0 %",
+            "growth": "+3,3 %",
             "inflation": "3,5 %"
         },
         "structure": {
@@ -503,11 +503,11 @@
             "centralBank": "Ministry of Finance and Economic Development"
         },
         "macro": {
-            "gdpNominal": "280 millions USD",
-            "gdpPerCapita": "2 200 USD",
+            "gdpNominal": "343 millions USD",
+            "gdpPerCapita": "2 551 USD",
             "globalRank": "194e mondial",
-            "growth": "+3,5 %",
-            "inflation": "5,2 %"
+            "growth": "+4,7 %",
+            "inflation": "2,5 %"
         },
         "structure": {
             "services": "64,0 %",
@@ -547,10 +547,10 @@
             "centralBank": "Nauru Treasury / Nauru Trust Fund"
         },
         "macro": {
-            "gdpNominal": "150 millions USD",
-            "gdpPerCapita": "12 000 USD",
+            "gdpNominal": "168 millions USD",
+            "gdpPerCapita": "14 048 USD",
             "globalRank": "196e mondial (plus petite république du monde)",
-            "growth": "+1,8 %",
+            "growth": "+1,4 %",
             "inflation": "4,0 %"
         },
         "structure": {
@@ -591,10 +591,10 @@
             "centralBank": "National Bank of Tuvalu"
         },
         "macro": {
-            "gdpNominal": "65 millions USD",
-            "gdpPerCapita": "5 800 USD",
+            "gdpNominal": "57 millions USD",
+            "gdpPerCapita": "5 884 USD",
             "globalRank": "197e mondial (plus petite économie souveraine au monde)",
-            "growth": "+3,0 %",
+            "growth": "+3,4 %",
             "inflation": "4,5 %"
         },
         "structure": {
@@ -635,10 +635,10 @@
             "centralBank": "Institut d'émission d'outre-mer (IEOM)"
         },
         "macro": {
-            "gdpNominal": "9,5 milliards USD",
-            "gdpPerCapita": "35 000 USD",
+            "gdpNominal": "9 milliards USD",
+            "gdpPerCapita": "29 213 USD",
             "globalRank": "Collectivité d'outre-mer sui generis (France)",
-            "growth": "-10,0 % (impact crise métallurgique et émeutes 2024)",
+            "growth": "-13,5 %",
             "inflation": "3,0 %"
         },
         "structure": {
@@ -678,10 +678,10 @@
             "centralBank": "Institut d'émission d'outre-mer (IEOM)"
         },
         "macro": {
-            "gdpNominal": "6,0 milliards USD",
-            "gdpPerCapita": "21 000 USD",
+            "gdpNominal": "6 milliards USD",
+            "gdpPerCapita": "22 440 USD",
             "globalRank": "Collectivité d'outre-mer autonome (France)",
-            "growth": "+3,2 %",
+            "growth": "+1,1 %",
             "inflation": "3,0 %"
         },
         "structure": {

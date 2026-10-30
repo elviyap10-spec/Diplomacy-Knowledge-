@@ -1,13 +1,13 @@
 {
     "ESP": {
         "general": {
-            "population": "48,6 millions d'habitants",
+            "population": "48,8 millions d'habitants",
             "globalRank": "30e mondial (4e de l'UE)",
             "density": "96 hab./km²",
-            "growthRate": "+0,6 % par an (impulsion migratoire)"
+            "growthRate": "+1,0 % par an (impulsion migratoire)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,16 enfant par femme (parmi les plus bas du monde)",
+            "fertilityRate": "1,1 enfant par femme (parmi les plus bas du monde)",
             "birthRate": "6,7 ‰",
             "deathRate": "9,1 ‰",
             "infantMortality": "2,6 ‰",
@@ -17,8 +17,8 @@
             "medianAge": "45,5 ans",
             "lifeExpectancy": {
                 "total": "83,9 ans",
-                "women": "86,2 ans",
-                "men": "81,1 ans"
+                "women": "86,5 ans",
+                "men": "81,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "13,8 %",
@@ -28,7 +28,7 @@
             "dependencyRatio": "51,7 %"
         },
         "urbanization": {
-            "urbanRate": "81,3 %",
+            "urbanRate": "80,3 %",
             "mainMetropolises": [
                 "Madrid (6,7 millions hab.)",
                 "Barcelone (5,6 millions hab.)",
@@ -49,13 +49,13 @@
     },
     "FRA": {
         "general": {
-            "population": "68,4 millions d'habitants",
+            "population": "68,6 millions d'habitants",
             "globalRank": "20e mondial (2e de l'UE)",
             "density": "106 hab./km²",
             "growthRate": "+0,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,68 enfant par femme",
+            "fertilityRate": "1,6 enfants par femme",
             "birthRate": "9,9 ‰",
             "deathRate": "9,8 ‰",
             "infantMortality": "3,6 ‰",
@@ -65,8 +65,8 @@
             "medianAge": "42,4 ans",
             "lifeExpectancy": {
                 "total": "83,0 ans",
-                "women": "85,7 ans",
-                "men": "80,0 ans"
+                "women": "85,9 ans",
+                "men": "80,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "17,3 %",
@@ -76,7 +76,7 @@
             "dependencyRatio": "62,3 %"
         },
         "urbanization": {
-            "urbanRate": "81,5 %",
+            "urbanRate": "78,8 %",
             "mainMetropolises": [
                 "Paris (12,4 millions hab. aire urbaine)",
                 "Lyon (2,3 millions hab.)",
@@ -98,13 +98,13 @@
     },
     "RUS": {
         "general": {
-            "population": "144,0 millions d'habitants (hors Crimée)",
+            "population": "143,7 millions d'habitants (hors Crimée)",
             "globalRank": "9e mondial (1ère d'Europe)",
             "density": "8,4 hab./km² (l'une des plus faibles densités au monde)",
-            "growthRate": "-0,3 % par an (crise démographique persistante)"
+            "growthRate": "-0,1 % par an (crise démographique persistante)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,42 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "8,7 ‰",
             "deathRate": "12,9 ‰",
             "infantMortality": "4,4 ‰",
@@ -113,9 +113,9 @@
         "ageStructure": {
             "medianAge": "40,3 ans",
             "lifeExpectancy": {
-                "total": "72,8 ans",
-                "women": "78,1 ans",
-                "men": "67,6 ans (très fort écart de surmortalité masculine)"
+                "total": "73,4 ans",
+                "women": "78,9 ans",
+                "men": "68,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "17,2 %",
@@ -147,13 +147,13 @@
     },
     "DEU": {
         "general": {
-            "population": "84,6 millions d'habitants",
+            "population": "83,5 millions d'habitants",
             "globalRank": "19e mondial (1ère de l'UE)",
             "density": "237 hab./km²",
-            "growthRate": "-0,1 % par an (solde naturel négatif comblé par l'immigration)"
+            "growthRate": "+0,3 % par an (solde naturel négatif comblé par l'immigration)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,36 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "8,2 ‰",
             "deathRate": "12,2 ‰",
             "infantMortality": "3,1 ‰",
@@ -162,9 +162,9 @@
         "ageStructure": {
             "medianAge": "45,9 ans (l'une des plus âgées au monde)",
             "lifeExpectancy": {
-                "total": "81,0 ans",
-                "women": "83,4 ans",
-                "men": "78,6 ans"
+                "total": "80,8 ans",
+                "women": "83,2 ans",
+                "men": "78,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,0 %",
@@ -174,7 +174,7 @@
             "dependencyRatio": "57,5 %"
         },
         "urbanization": {
-            "urbanRate": "77,5 %",
+            "urbanRate": "82,0 %",
             "mainMetropolises": [
                 "Région Rhin-Ruhr (conurbation de 10,5 millions hab.)",
                 "Berlin (3,8 millions hab.)",
@@ -196,13 +196,13 @@
     },
     "GBR": {
         "general": {
-            "population": "68,2 millions d'habitants",
+            "population": "69,3 millions d'habitants",
             "globalRank": "21e mondial",
             "density": "281 hab./km²",
-            "growthRate": "+0,4 % par an"
+            "growthRate": "+1,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,56 enfant par femme",
+            "fertilityRate": "1,6 enfants par femme",
             "birthRate": "10,1 ‰",
             "deathRate": "9,6 ‰",
             "infantMortality": "3,4 ‰",
@@ -211,8 +211,8 @@
         "ageStructure": {
             "medianAge": "40,7 ans",
             "lifeExpectancy": {
-                "total": "81,3 ans",
-                "women": "83,1 ans",
+                "total": "81,4 ans",
+                "women": "83,3 ans",
                 "men": "79,5 ans"
             },
             "ageGroups": {
@@ -223,7 +223,7 @@
             "dependencyRatio": "57,5 %"
         },
         "urbanization": {
-            "urbanRate": "84,4 %",
+            "urbanRate": "83,2 %",
             "mainMetropolises": [
                 "Grand Londres (9,7 millions hab.)",
                 "Manchester (2,8 millions hab.)",
@@ -245,13 +245,13 @@
     },
     "ITA": {
         "general": {
-            "population": "58,9 millions d'habitants",
+            "population": "59,0 millions d'habitants",
             "globalRank": "25e mondial (3e de l'UE)",
             "density": "195 hab./km²",
-            "growthRate": "-0,3 % par an (perte de 180 000 hab./an)"
+            "growthRate": "-0,1 % par an (perte de 180 000 hab./an)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,24 enfant par femme (crise de natalité historique)",
+            "fertilityRate": "1,2 enfant par femme (crise de natalité historique)",
             "birthRate": "6,7 ‰",
             "deathRate": "12,1 ‰",
             "infantMortality": "2,4 ‰",
@@ -260,9 +260,9 @@
         "ageStructure": {
             "medianAge": "48,1 ans (2e population la plus âgée au monde après le Japon)",
             "lifeExpectancy": {
-                "total": "83,8 ans",
-                "women": "85,8 ans",
-                "men": "81,7 ans"
+                "total": "84,0 ans",
+                "women": "86,0 ans",
+                "men": "82,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "12,4 %",
@@ -272,7 +272,7 @@
             "dependencyRatio": "57,5 %"
         },
         "urbanization": {
-            "urbanRate": "71,7 %",
+            "urbanRate": "69,6 %",
             "mainMetropolises": [
                 "Rome (4,3 millions hab. aire métropolitaine)",
                 "Milan (3,3 millions hab.)",
@@ -294,13 +294,13 @@
     },
     "BEL": {
         "general": {
-            "population": "11,8 millions d'habitants",
+            "population": "11,9 millions d'habitants",
             "globalRank": "82e mondial",
             "density": "386 hab./km² (l'une des plus fortes densités d'Europe)",
-            "growthRate": "+0,5 % par an"
+            "growthRate": "+0,7 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,53 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,8 ‰",
             "deathRate": "9,5 ‰",
             "infantMortality": "3,2 ‰",
@@ -310,8 +310,8 @@
             "medianAge": "41,8 ans",
             "lifeExpectancy": {
                 "total": "82,3 ans",
-                "women": "84,3 ans",
-                "men": "80,2 ans"
+                "women": "84,4 ans",
+                "men": "80,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,5 %",
@@ -321,7 +321,7 @@
             "dependencyRatio": "56,7 %"
         },
         "urbanization": {
-            "urbanRate": "98,1 % (l'un des pays les plus urbanisés au monde)",
+            "urbanRate": "87,6 % (l'un des pays les plus urbanisés au monde)",
             "mainMetropolises": [
                 "Bruxelles (2,1 millions hab. aire métropolitaine)",
                 "Anvers (1,1 million hab.)",
@@ -343,13 +343,13 @@
     },
     "CHE": {
         "general": {
-            "population": "8,9 millions d'habitants",
+            "population": "9,0 millions d'habitants",
             "globalRank": "100e mondial",
             "density": "216 hab./km²",
-            "growthRate": "+0,8 % par an (croissance portée par l'attractivité migratoire)"
+            "growthRate": "+1,3 % par an (croissance portée par l'attractivité migratoire)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,39 enfant par femme",
+            "fertilityRate": "1,3 enfant par femme",
             "birthRate": "9,2 ‰",
             "deathRate": "8,1 ‰",
             "infantMortality": "3,4 ‰",
@@ -358,8 +358,8 @@
         "ageStructure": {
             "medianAge": "43,1 ans",
             "lifeExpectancy": {
-                "total": "84,0 ans (parmi les plus élevées au monde)",
-                "women": "85,9 ans",
+                "total": "84,4 ans",
+                "women": "86,2 ans",
                 "men": "82,0 ans"
             },
             "ageGroups": {
@@ -370,7 +370,7 @@
             "dependencyRatio": "51,7 %"
         },
         "urbanization": {
-            "urbanRate": "74,2 %",
+            "urbanRate": "85,5 %",
             "mainMetropolises": [
                 "Zurich (1,4 million hab. aire métropolitaine)",
                 "Genève (0,6 million hab.)",
@@ -392,13 +392,13 @@
     },
     "UKR": {
         "general": {
-            "population": "37,0 millions d'habitants (estimation actuelle sous contrôle gouvernemental, contre 44 millions avant 2022)",
+            "population": "37,9 millions d'habitants (estimation actuelle sous contrôle gouvernemental, contre 44 millions avant 2022)",
             "globalRank": "38e mondial",
             "density": "61 hab./km²",
-            "growthRate": "-1,5 % par an (choc de guerre et émigration massive)"
+            "growthRate": "+0,3 % par an (choc de guerre et émigration massive)"
         },
         "fertilityMortality": {
-            "fertilityRate": "0,90 enfant par femme (chute historique liée à la guerre)",
+            "fertilityRate": "1,0 enfant par femme (chute historique liée à la guerre)",
             "birthRate": "5,8 ‰",
             "deathRate": "15,2 ‰",
             "infantMortality": "6,8 ‰",
@@ -407,9 +407,9 @@
         "ageStructure": {
             "medianAge": "44,7 ans",
             "lifeExpectancy": {
-                "total": "69,5 ans",
-                "women": "75,2 ans",
-                "men": "64,1 ans"
+                "total": "74,7 ans",
+                "women": "79,4 ans",
+                "men": "69,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,5 %",
@@ -419,7 +419,7 @@
             "dependencyRatio": "48,1 %"
         },
         "urbanization": {
-            "urbanRate": "70,1 %",
+            "urbanRate": "69,5 %",
             "mainMetropolises": [
                 "Kyiv (3,0 millions hab.)",
                 "Kharkiv (1,4 million hab.)",
@@ -441,13 +441,13 @@
     },
     "POL": {
         "general": {
-            "population": "37,6 millions d'habitants",
+            "population": "36,6 millions d'habitants",
             "globalRank": "39e mondial (5e de l'UE)",
             "density": "120 hab./km²",
-            "growthRate": "-0,2 % par an"
+            "growthRate": "-0,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,26 enfant par femme",
+            "fertilityRate": "1,1 enfant par femme",
             "birthRate": "7,8 ‰",
             "deathRate": "11,1 ‰",
             "infantMortality": "3,6 ‰",
@@ -456,9 +456,9 @@
         "ageStructure": {
             "medianAge": "42,8 ans",
             "lifeExpectancy": {
-                "total": "78,6 ans",
-                "women": "82,7 ans",
-                "men": "74,6 ans"
+                "total": "78,4 ans",
+                "women": "82,2 ans",
+                "men": "74,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,8 %",
@@ -468,7 +468,7 @@
             "dependencyRatio": "52,7 %"
         },
         "urbanization": {
-            "urbanRate": "60,2 %",
+            "urbanRate": "60,0 %",
             "mainMetropolises": [
                 "Varsovie (1,9 million hab.)",
                 "Cracovie (0,8 million hab.)",
@@ -490,13 +490,13 @@
     },
     "NLD": {
         "general": {
-            "population": "17,9 millions d'habitants",
+            "population": "18,0 millions d'habitants",
             "globalRank": "68e mondial",
             "density": "523 hab./km² (l'un des pays les plus densément peuplés au monde)",
             "growthRate": "+0,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,49 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,4 ‰",
             "deathRate": "9,6 ‰",
             "infantMortality": "3,4 ‰",
@@ -505,8 +505,8 @@
         "ageStructure": {
             "medianAge": "42,8 ans",
             "lifeExpectancy": {
-                "total": "82,2 ans",
-                "women": "83,8 ans",
+                "total": "82,0 ans",
+                "women": "83,4 ans",
                 "men": "80,6 ans"
             },
             "ageGroups": {
@@ -517,7 +517,7 @@
             "dependencyRatio": "55,8 %"
         },
         "urbanization": {
-            "urbanRate": "92,9 %",
+            "urbanRate": "95,6 %",
             "mainMetropolises": [
                 "Randstad (conurbation de 8,4 millions hab. : Amsterdam, Rotterdam, La Haye, Utrecht)",
                 "Amsterdam (0,9 million hab. intra-muros)",
@@ -539,13 +539,13 @@
     },
     "PRT": {
         "general": {
-            "population": "10,5 millions d'habitants",
+            "population": "10,7 millions d'habitants",
             "globalRank": "89e mondial",
             "density": "114 hab./km²",
-            "growthRate": "+0,3 % par an (solde migratoire positif compensant le déficit naturel)"
+            "growthRate": "+1,1 % par an (solde migratoire positif compensant le déficit naturel)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,43 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "8,2 ‰",
             "deathRate": "11,8 ‰",
             "infantMortality": "2,8 ‰",
@@ -554,9 +554,9 @@
         "ageStructure": {
             "medianAge": "46,8 ans (3e population la plus âgée d'Europe)",
             "lifeExpectancy": {
-                "total": "82,5 ans",
+                "total": "82,4 ans",
                 "women": "85,2 ans",
-                "men": "79,6 ans"
+                "men": "79,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "12,9 %",
@@ -566,7 +566,7 @@
             "dependencyRatio": "57,2 %"
         },
         "urbanization": {
-            "urbanRate": "67,4 %",
+            "urbanRate": "61,3 %",
             "mainMetropolises": [
                 "Lisbonne (2,9 millions hab. aire métropolitaine)",
                 "Porto (1,8 million hab.)",
@@ -587,13 +587,13 @@
     },
     "SWE": {
         "general": {
-            "population": "10,5 millions d'habitants",
+            "population": "10,6 millions d'habitants",
             "globalRank": "88e mondial",
             "density": "25,5 hab./km²",
-            "growthRate": "+0,5 % par an"
+            "growthRate": "+0,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,52 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,7 ‰",
             "deathRate": "9,0 ‰",
             "infantMortality": "2,2 ‰ (parmi les plus basses du monde)",
@@ -602,9 +602,9 @@
         "ageStructure": {
             "medianAge": "41,1 ans",
             "lifeExpectancy": {
-                "total": "83,3 ans",
-                "women": "85,1 ans",
-                "men": "81,6 ans"
+                "total": "84,1 ans",
+                "women": "85,6 ans",
+                "men": "82,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "17,2 %",
@@ -614,7 +614,7 @@
             "dependencyRatio": "60,3 %"
         },
         "urbanization": {
-            "urbanRate": "88,5 %",
+            "urbanRate": "88,9 %",
             "mainMetropolises": [
                 "Stockholm (2,4 millions hab. aire urbaine)",
                 "Göteborg (1,0 million hab.)",
@@ -635,10 +635,10 @@
     },
     "NOR": {
         "general": {
-            "population": "5,5 millions d'habitants",
+            "population": "5,6 millions d'habitants",
             "globalRank": "119e mondial",
             "density": "17,5 hab./km²",
-            "growthRate": "+0,7 % par an"
+            "growthRate": "+0,9 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "1,41 enfant par femme",
@@ -650,9 +650,9 @@
         "ageStructure": {
             "medianAge": "40,0 ans",
             "lifeExpectancy": {
-                "total": "83,4 ans",
-                "women": "85,0 ans",
-                "men": "81,7 ans"
+                "total": "83,2 ans",
+                "women": "84,8 ans",
+                "men": "81,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,8 %",
@@ -686,10 +686,10 @@
             "population": "10,4 millions d'habitants",
             "globalRank": "90e mondial",
             "density": "80 hab./km²",
-            "growthRate": "-0,5 % par an"
+            "growthRate": "-0,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,32 enfant par femme",
+            "fertilityRate": "1,2 enfant par femme",
             "birthRate": "7,3 ‰",
             "deathRate": "13,2 ‰",
             "infantMortality": "3,1 ‰",
@@ -699,8 +699,8 @@
             "medianAge": "46,1 ans (parmi les plus âgées d'Europe)",
             "lifeExpectancy": {
                 "total": "81,8 ans",
-                "women": "84,3 ans",
-                "men": "79,2 ans"
+                "women": "84,4 ans",
+                "men": "79,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,1 %",
@@ -710,7 +710,7 @@
             "dependencyRatio": "58,0 %"
         },
         "urbanization": {
-            "urbanRate": "80,4 %",
+            "urbanRate": "79,0 %",
             "mainMetropolises": [
                 "Athènes (3,8 millions hab. région métropolitaine)",
                 "Thessalonique (1,1 million hab.)",
@@ -731,13 +731,13 @@
     },
     "AUT": {
         "general": {
-            "population": "9,1 millions d'habitants",
+            "population": "9,2 millions d'habitants",
             "globalRank": "97e mondial",
             "density": "110 hab./km²",
-            "growthRate": "+0,6 % par an"
+            "growthRate": "+0,5 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,41 enfant par femme",
+            "fertilityRate": "1,3 enfant par femme",
             "birthRate": "9,1 ‰",
             "deathRate": "9,8 ‰",
             "infantMortality": "3,2 ‰",
@@ -746,9 +746,9 @@
         "ageStructure": {
             "medianAge": "44,5 ans",
             "lifeExpectancy": {
-                "total": "81,8 ans",
-                "women": "84,2 ans",
-                "men": "79,4 ans"
+                "total": "82,0 ans",
+                "women": "84,3 ans",
+                "men": "79,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,3 %",
@@ -758,7 +758,7 @@
             "dependencyRatio": "51,1 %"
         },
         "urbanization": {
-            "urbanRate": "59,3 %",
+            "urbanRate": "69,5 %",
             "mainMetropolises": [
                 "Vienne (2,0 millions hab. intra-muros, 2,9 M aire urbaine)",
                 "Graz (0,3 million hab.)",
@@ -780,13 +780,13 @@
     },
     "IRL": {
         "general": {
-            "population": "5,3 millions d'habitants",
+            "population": "5,4 millions d'habitants",
             "globalRank": "122e mondial",
             "density": "76 hab./km²",
-            "growthRate": "+1,2 % par an (l'une des croissances les plus dynamiques d'Europe)"
+            "growthRate": "+1,6 % par an (l'une des croissances les plus dynamiques d'Europe)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,70 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "11,2 ‰",
             "deathRate": "6,7 ‰",
             "infantMortality": "2,9 ‰",
@@ -795,9 +795,9 @@
         "ageStructure": {
             "medianAge": "38,8 ans (l'une des populations les plus jeunes d'Europe de l'Ouest)",
             "lifeExpectancy": {
-                "total": "82,6 ans",
-                "women": "84,4 ans",
-                "men": "80,8 ans"
+                "total": "83,0 ans",
+                "women": "84,7 ans",
+                "men": "81,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "19,4 %",
@@ -807,7 +807,7 @@
             "dependencyRatio": "52,4 %"
         },
         "urbanization": {
-            "urbanRate": "64,2 %",
+            "urbanRate": "64,3 %",
             "mainMetropolises": [
                 "Dublin (1,5 million hab. aire métropolitaine)",
                 "Cork (0,32 million hab.)",
@@ -831,10 +831,10 @@
             "population": "5,6 millions d'habitants",
             "globalRank": "118e mondial",
             "density": "18,3 hab./km²",
-            "growthRate": "+0,3 % par an"
+            "growthRate": "+0,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,26 enfant par femme (chute historique de la fécondité)",
+            "fertilityRate": "1,2 enfant par femme (chute historique de la fécondité)",
             "birthRate": "7,8 ‰",
             "deathRate": "10,9 ‰",
             "infantMortality": "1,9 ‰",
@@ -843,9 +843,9 @@
         "ageStructure": {
             "medianAge": "43,3 ans",
             "lifeExpectancy": {
-                "total": "82,1 ans",
-                "women": "84,8 ans",
-                "men": "79,4 ans"
+                "total": "82,3 ans",
+                "women": "85,0 ans",
+                "men": "79,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,2 %",
@@ -855,7 +855,7 @@
             "dependencyRatio": "62,3 %"
         },
         "urbanization": {
-            "urbanRate": "85,8 %",
+            "urbanRate": "74,3 %",
             "mainMetropolises": [
                 "Helsinki (1,5 million hab. aire métropolitaine)",
                 "Tampere (0,4 million hab.)",
@@ -876,13 +876,13 @@
     },
     "DNK": {
         "general": {
-            "population": "5,95 millions d'habitants (hors Groenland et Féroé)",
+            "population": "6,0 millions d'habitants (hors Groenland et Féroé)",
             "globalRank": "115e mondial",
             "density": "138 hab./km²",
             "growthRate": "+0,5 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,50 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "9,8 ‰",
             "deathRate": "9,5 ‰",
             "infantMortality": "2,9 ‰",
@@ -891,9 +891,9 @@
         "ageStructure": {
             "medianAge": "42,2 ans",
             "lifeExpectancy": {
-                "total": "81,9 ans",
-                "women": "83,8 ans",
-                "men": "80,0 ans"
+                "total": "82,3 ans",
+                "women": "84,2 ans",
+                "men": "80,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,1 %",
@@ -903,7 +903,7 @@
             "dependencyRatio": "57,2 %"
         },
         "urbanization": {
-            "urbanRate": "88,4 %",
+            "urbanRate": "88,7 %",
             "mainMetropolises": [
                 "Copenhague (1,4 million hab. aire métropolitaine, 4,0 M région transfrontalière de l'Øresund)",
                 "Aarhus (0,36 million hab.)",
@@ -927,10 +927,10 @@
             "population": "10,9 millions d'habitants",
             "globalRank": "86e mondial",
             "density": "138 hab./km²",
-            "growthRate": "+0,3 % par an (porté par les réfugiés ukrainiens)"
+            "growthRate": "+0,4 % par an (porté par les réfugiés ukrainiens)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,62 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,3 ‰",
             "deathRate": "11,2 ‰",
             "infantMortality": "2,2 ‰",
@@ -939,9 +939,9 @@
         "ageStructure": {
             "medianAge": "43,5 ans",
             "lifeExpectancy": {
-                "total": "79,8 ans",
-                "women": "82,8 ans",
-                "men": "76,8 ans"
+                "total": "80,0 ans",
+                "women": "83,0 ans",
+                "men": "77,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,8 %",
@@ -951,7 +951,7 @@
             "dependencyRatio": "57,2 %"
         },
         "urbanization": {
-            "urbanRate": "74,4 %",
+            "urbanRate": "72,8 %",
             "mainMetropolises": [
                 "Prague (1,4 million hab. intra-muros, 2,2 M aire urbaine)",
                 "Brno (0,4 million hab.)",
@@ -972,13 +972,13 @@
     },
     "ROU": {
         "general": {
-            "population": "19,0 millions d'habitants",
+            "population": "19,1 millions d'habitants",
             "globalRank": "62e mondial (6e de l'UE)",
             "density": "83 hab./km²",
-            "growthRate": "-0,4 % par an"
+            "growthRate": "-0,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,71 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,0 ‰",
             "deathRate": "13,6 ‰",
             "infantMortality": "5,6 ‰",
@@ -987,9 +987,9 @@
         "ageStructure": {
             "medianAge": "43,2 ans",
             "lifeExpectancy": {
-                "total": "75,3 ans",
-                "women": "79,3 ans",
-                "men": "71,5 ans"
+                "total": "76,5 ans",
+                "women": "80,3 ans",
+                "men": "72,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,8 %",
@@ -999,7 +999,7 @@
             "dependencyRatio": "54,6 %"
         },
         "urbanization": {
-            "urbanRate": "54,5 %",
+            "urbanRate": "52,2 %",
             "mainMetropolises": [
                 "Bucarest (2,2 millions hab. aire métropolitaine)",
                 "Cluj-Napoca (0,42 million hab.)",
@@ -1027,7 +1027,7 @@
             "growthRate": "-0,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,52 enfant par femme (stimulé par des politiques natalistes agressives)",
+            "fertilityRate": "1,4 enfant par femme (stimulé par des politiques natalistes agressives)",
             "birthRate": "9,1 ‰",
             "deathRate": "13,8 ‰",
             "infantMortality": "3,4 ‰",
@@ -1036,9 +1036,9 @@
         "ageStructure": {
             "medianAge": "43,7 ans",
             "lifeExpectancy": {
-                "total": "76,9 ans",
-                "women": "80,7 ans",
-                "men": "73,0 ans"
+                "total": "76,7 ans",
+                "women": "79,9 ans",
+                "men": "73,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,5 %",
@@ -1048,7 +1048,7 @@
             "dependencyRatio": "53,8 %"
         },
         "urbanization": {
-            "urbanRate": "72,5 %",
+            "urbanRate": "70,5 %",
             "mainMetropolises": [
                 "Budapest (1,75 million hab. intra-muros, 3,0 M aire métropolitaine)",
                 "Debrecen (0,2 million hab.)",
@@ -1070,13 +1070,13 @@
     },
     "LUX": {
         "general": {
-            "population": "672 000 habitants",
+            "population": "677 012 habitants",
             "globalRank": "165e mondial",
             "density": "260 hab./km²",
-            "growthRate": "+1,7 % par an (croissance démographique la plus rapide d'Europe)"
+            "growthRate": "+1,6 % par an (croissance démographique la plus rapide d'Europe)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,31 enfant par femme",
+            "fertilityRate": "1,2 enfant par femme",
             "birthRate": "9,6 ‰",
             "deathRate": "7,1 ‰",
             "infantMortality": "2,4 ‰",
@@ -1085,9 +1085,9 @@
         "ageStructure": {
             "medianAge": "39,7 ans",
             "lifeExpectancy": {
-                "total": "83,0 ans",
-                "women": "85,1 ans",
-                "men": "80,8 ans"
+                "total": "83,2 ans",
+                "women": "85,5 ans",
+                "men": "81,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,0 %",
@@ -1097,7 +1097,7 @@
             "dependencyRatio": "44,3 %"
         },
         "urbanization": {
-            "urbanRate": "91,9 %",
+            "urbanRate": "94,8 %",
             "mainMetropolises": [
                 "Luxembourg-Ville (135 000 hab. intra-muros, 300 000 agglomération)",
                 "Esch-sur-Alzette (37 000 hab.)",
@@ -1118,13 +1118,13 @@
     },
     "TUR": {
         "general": {
-            "population": "85,3 millions d'habitants",
+            "population": "85,5 millions d'habitants",
             "globalRank": "18e mondial",
             "density": "111 hab./km²",
-            "growthRate": "+0,6 % par an"
+            "growthRate": "+0,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,51 enfant par femme (chute rapide de la fécondité)",
+            "fertilityRate": "1,5 enfant par femme (chute rapide de la fécondité)",
             "birthRate": "11,8 ‰",
             "deathRate": "6,1 ‰",
             "infantMortality": "8,5 ‰",
@@ -1133,9 +1133,9 @@
         "ageStructure": {
             "medianAge": "33,5 ans (population la plus jeune de la zone européenne)",
             "lifeExpectancy": {
-                "total": "78,5 ans",
-                "women": "81,3 ans",
-                "men": "75,8 ans"
+                "total": "77,4 ans",
+                "women": "80,3 ans",
+                "men": "74,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "21,4 %",
@@ -1145,7 +1145,7 @@
             "dependencyRatio": "46,2 %"
         },
         "urbanization": {
-            "urbanRate": "77,5 %",
+            "urbanRate": "89,3 %",
             "mainMetropolises": [
                 "Istanbul (16,0 millions hab. - mégapole transcontinentale)",
                 "Ankara (5,8 millions hab.)",
@@ -1167,13 +1167,13 @@
     },
     "EST": {
         "general": {
-            "population": "1,36 million d'habitants",
+            "population": "1,4 millions d'habitants",
             "globalRank": "156e mondial",
             "density": "30 hab./km²",
-            "growthRate": "+0,4 % par an"
+            "growthRate": "+0,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,41 enfant par femme",
+            "fertilityRate": "1,2 enfant par femme",
             "birthRate": "8,1 ‰",
             "deathRate": "11,8 ‰",
             "infantMortality": "1,6 ‰ (taux record de faible mortalité)",
@@ -1182,9 +1182,9 @@
         "ageStructure": {
             "medianAge": "42,4 ans",
             "lifeExpectancy": {
-                "total": "78,8 ans",
-                "women": "83,1 ans",
-                "men": "74,4 ans"
+                "total": "79,3 ans",
+                "women": "83,7 ans",
+                "men": "75,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,4 %",
@@ -1194,7 +1194,7 @@
             "dependencyRatio": "58,0 %"
         },
         "urbanization": {
-            "urbanRate": "69,6 %",
+            "urbanRate": "70,7 %",
             "mainMetropolises": [
                 "Tallinn (450 000 hab.)",
                 "Tartu (95 000 hab.)",
@@ -1215,13 +1215,13 @@
     },
     "LVA": {
         "general": {
-            "population": "1,87 million d'habitants",
+            "population": "1,9 millions d'habitants",
             "globalRank": "153e mondial",
             "density": "29 hab./km²",
-            "growthRate": "-0,4 % par an"
+            "growthRate": "-0,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,44 enfant par femme",
+            "fertilityRate": "1,2 enfant par femme",
             "birthRate": "8,3 ‰",
             "deathRate": "14,3 ‰",
             "infantMortality": "3,4 ‰",
@@ -1230,9 +1230,9 @@
         "ageStructure": {
             "medianAge": "44,4 ans",
             "lifeExpectancy": {
-                "total": "75,9 ans",
-                "women": "80,8 ans",
-                "men": "70,9 ans"
+                "total": "76,4 ans",
+                "women": "81,5 ans",
+                "men": "71,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,0 %",
@@ -1242,7 +1242,7 @@
             "dependencyRatio": "58,2 %"
         },
         "urbanization": {
-            "urbanRate": "68,3 %",
+            "urbanRate": "68,5 %",
             "mainMetropolises": [
                 "Riga (605 000 hab. intra-muros, 900 000 aire métropolitaine)",
                 "Daugavpils (80 000 hab.)",
@@ -1263,13 +1263,13 @@
     },
     "LTU": {
         "general": {
-            "population": "2,88 millions d'habitants",
+            "population": "2,9 millions d'habitants",
             "globalRank": "141e mondial",
             "density": "44 hab./km²",
-            "growthRate": "+0,3 % par an (solde migratoire redevenu positif)"
+            "growthRate": "+0,6 % par an (solde migratoire redevenu positif)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,34 enfant par femme",
+            "fertilityRate": "1,1 enfant par femme",
             "birthRate": "7,8 ‰",
             "deathRate": "14,2 ‰",
             "infantMortality": "3,0 ‰",
@@ -1278,9 +1278,9 @@
         "ageStructure": {
             "medianAge": "44,5 ans",
             "lifeExpectancy": {
-                "total": "76,0 ans",
-                "women": "81,2 ans",
-                "men": "70,7 ans"
+                "total": "77,2 ans",
+                "women": "81,6 ans",
+                "men": "73,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,1 %",
@@ -1290,7 +1290,7 @@
             "dependencyRatio": "54,6 %"
         },
         "urbanization": {
-            "urbanRate": "68,2 %",
+            "urbanRate": "68,8 %",
             "mainMetropolises": [
                 "Vilnius (590 000 hab. intra-muros, 700 000 aire urbaine)",
                 "Kaunas (300 000 hab.)",
@@ -1311,13 +1311,13 @@
     },
     "SVK": {
         "general": {
-            "population": "5,43 millions d'habitants",
+            "population": "5,4 millions d'habitants",
             "globalRank": "120e mondial",
             "density": "111 hab./km²",
             "growthRate": "-0,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,57 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "9,6 ‰",
             "deathRate": "11,0 ‰",
             "infantMortality": "4,9 ‰",
@@ -1326,9 +1326,9 @@
         "ageStructure": {
             "medianAge": "41,8 ans",
             "lifeExpectancy": {
-                "total": "77,8 ans",
-                "women": "81,4 ans",
-                "men": "74,2 ans"
+                "total": "78,4 ans",
+                "women": "81,7 ans",
+                "men": "75,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,9 %",
@@ -1338,7 +1338,7 @@
             "dependencyRatio": "49,7 %"
         },
         "urbanization": {
-            "urbanRate": "53,8 %",
+            "urbanRate": "53,2 %",
             "mainMetropolises": [
                 "Bratislava (475 000 hab. intra-muros, 650 000 aire métropolitaine)",
                 "Košice (230 000 hab.)",
@@ -1359,13 +1359,13 @@
     },
     "BGR": {
         "general": {
-            "population": "6,45 millions d'habitants",
+            "population": "6,4 millions d'habitants",
             "globalRank": "111e mondial",
             "density": "58 hab./km²",
-            "growthRate": "-0,6 % par an (pays ayant perdu 25 % de sa population depuis 1990)"
+            "growthRate": "-0,1 % par an (pays ayant perdu 25 % de sa population depuis 1990)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,58 enfant par femme",
+            "fertilityRate": "1,7 enfants par femme",
             "birthRate": "8,8 ‰",
             "deathRate": "15,4 ‰ (taux de mortalité parmi les plus hauts d'Europe)",
             "infantMortality": "4,8 ‰",
@@ -1374,9 +1374,9 @@
         "ageStructure": {
             "medianAge": "45,2 ans",
             "lifeExpectancy": {
-                "total": "74,3 ans",
-                "women": "78,3 ans",
-                "men": "70,6 ans"
+                "total": "75,8 ans",
+                "women": "79,5 ans",
+                "men": "72,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,3 %",
@@ -1386,7 +1386,7 @@
             "dependencyRatio": "57,0 %"
         },
         "urbanization": {
-            "urbanRate": "76,2 %",
+            "urbanRate": "73,9 %",
             "mainMetropolises": [
                 "Sofia (1,35 million hab.)",
                 "Plovdiv (0,35 million hab.)",
@@ -1407,13 +1407,13 @@
     },
     "BLR": {
         "general": {
-            "population": "9,20 millions d'habitants",
+            "population": "9,1 millions d'habitants",
             "globalRank": "96e mondial",
             "density": "44 hab./km²",
-            "growthRate": "-0,4 % par an"
+            "growthRate": "-0,5 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,38 enfant par femme",
+            "fertilityRate": "1,2 enfant par femme",
             "birthRate": "8,5 ‰",
             "deathRate": "13,1 ‰",
             "infantMortality": "2,6 ‰",
@@ -1422,9 +1422,9 @@
         "ageStructure": {
             "medianAge": "41,2 ans",
             "lifeExpectancy": {
-                "total": "74,5 ans",
-                "women": "79,4 ans",
-                "men": "69,3 ans"
+                "total": "74,4 ans",
+                "women": "79,2 ans",
+                "men": "69,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,8 %",
@@ -1434,7 +1434,7 @@
             "dependencyRatio": "48,4 %"
         },
         "urbanization": {
-            "urbanRate": "79,9 %",
+            "urbanRate": "79,2 %",
             "mainMetropolises": [
                 "Minsk (2,0 millions hab.)",
                 "Homiel (0,5 million hab.)",
@@ -1456,13 +1456,13 @@
     },
     "MDA": {
         "general": {
-            "population": "2,51 millions d'habitants (hors région séparatiste de Transnistrie)",
+            "population": "2,4 millions d'habitants (hors région séparatiste de Transnistrie)",
             "globalRank": "144e mondial",
             "density": "74 hab./km²",
-            "growthRate": "-0,8 % par an"
+            "growthRate": "-2,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,77 enfant par femme",
+            "fertilityRate": "1,7 enfants par femme",
             "birthRate": "10,2 ‰",
             "deathRate": "13,9 ‰",
             "infantMortality": "9,1 ‰",
@@ -1471,9 +1471,9 @@
         "ageStructure": {
             "medianAge": "38,5 ans",
             "lifeExpectancy": {
-                "total": "71,4 ans",
-                "women": "75,8 ans",
-                "men": "67,1 ans"
+                "total": "71,3 ans",
+                "women": "75,7 ans",
+                "men": "66,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,6 %",
@@ -1483,7 +1483,7 @@
             "dependencyRatio": "45,3 %"
         },
         "urbanization": {
-            "urbanRate": "43,4 % (l'un des pays les moins urbanisés d'Europe)",
+            "urbanRate": "43,5 % (l'un des pays les moins urbanisés d'Europe)",
             "mainMetropolises": [
                 "Chișinău (640 000 hab. intra-muros, 780 000 aire métropolitaine)",
                 "Bălți (100 000 hab.)",
@@ -1504,13 +1504,13 @@
     },
     "ISL": {
         "general": {
-            "population": "395 000 habitants",
+            "population": "386 506 habitants",
             "globalRank": "178e mondial",
             "density": "3,8 hab./km² (densité la plus faible d'Europe)",
-            "growthRate": "+1,8 % par an"
+            "growthRate": "+0,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,59 enfant par femme",
+            "fertilityRate": "1,6 enfants par femme",
             "birthRate": "11,2 ‰",
             "deathRate": "6,7 ‰",
             "infantMortality": "1,5 ‰ (parmi les plus bas records mondiaux)",
@@ -1519,8 +1519,8 @@
         "ageStructure": {
             "medianAge": "37,5 ans",
             "lifeExpectancy": {
-                "total": "83,2 ans",
-                "women": "84,7 ans",
+                "total": "82,8 ans",
+                "women": "84,5 ans",
                 "men": "81,8 ans"
             },
             "ageGroups": {
@@ -1531,7 +1531,7 @@
             "dependencyRatio": "50,1 %"
         },
         "urbanization": {
-            "urbanRate": "94,0 %",
+            "urbanRate": "94,2 %",
             "mainMetropolises": [
                 "Grand Reykjavík (240 000 hab. - concentre 64 % de la population totale)",
                 "Akureyri (20 000 hab.)",
@@ -1551,13 +1551,13 @@
     },
     "HRV": {
         "general": {
-            "population": "3,85 millions d'habitants",
+            "population": "3,9 millions d'habitants",
             "globalRank": "130e mondial",
             "density": "68 hab./km²",
-            "growthRate": "-0,4 % par an"
+            "growthRate": "+0,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,53 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "8,8 ‰",
             "deathRate": "13,6 ‰",
             "infantMortality": "3,8 ‰",
@@ -1566,9 +1566,9 @@
         "ageStructure": {
             "medianAge": "44,9 ans",
             "lifeExpectancy": {
-                "total": "78,5 ans",
-                "women": "81,6 ans",
-                "men": "75,4 ans"
+                "total": "78,9 ans",
+                "women": "81,9 ans",
+                "men": "76,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,3 %",
@@ -1578,7 +1578,7 @@
             "dependencyRatio": "58,2 %"
         },
         "urbanization": {
-            "urbanRate": "58,5 %",
+            "urbanRate": "57,5 %",
             "mainMetropolises": [
                 "Zagreb (800 000 hab. intra-muros, 1,1 M aire urbaine)",
                 "Split (180 000 hab.)",
@@ -1599,13 +1599,13 @@
     },
     "SRB": {
         "general": {
-            "population": "6,60 millions d'habitants (hors Kosovo)",
+            "population": "6,6 millions d'habitants (hors Kosovo)",
             "globalRank": "106e mondial",
             "density": "75 hab./km²",
-            "growthRate": "-0,5 % par an"
+            "growthRate": "-0,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,63 enfant par femme",
+            "fertilityRate": "1,6 enfants par femme",
             "birthRate": "9,2 ‰",
             "deathRate": "14,5 ‰",
             "infantMortality": "4,7 ‰",
@@ -1614,9 +1614,9 @@
         "ageStructure": {
             "medianAge": "44,1 ans",
             "lifeExpectancy": {
-                "total": "75,5 ans",
-                "women": "78,2 ans",
-                "men": "72,8 ans"
+                "total": "76,0 ans",
+                "women": "78,3 ans",
+                "men": "73,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,4 %",
@@ -1626,7 +1626,7 @@
             "dependencyRatio": "57,2 %"
         },
         "urbanization": {
-            "urbanRate": "56,9 %",
+            "urbanRate": "62,4 %",
             "mainMetropolises": [
                 "Belgrade (1,7 million hab. région urbaine)",
                 "Novi Sad (0,37 million hab.)",
@@ -1647,13 +1647,13 @@
     },
     "SVN": {
         "general": {
-            "population": "2,12 millions d'habitants",
+            "population": "2,1 millions d'habitants",
             "globalRank": "148e mondial",
             "density": "105 hab./km²",
             "growthRate": "+0,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,55 enfant par femme",
+            "fertilityRate": "1,5 enfants par femme",
             "birthRate": "8,5 ‰",
             "deathRate": "10,5 ‰",
             "infantMortality": "1,7 ‰ (l'une des plus faibles au monde)",
@@ -1662,9 +1662,9 @@
         "ageStructure": {
             "medianAge": "44,8 ans",
             "lifeExpectancy": {
-                "total": "81,6 ans",
-                "women": "84,3 ans",
-                "men": "78,8 ans"
+                "total": "82,3 ans",
+                "women": "85,0 ans",
+                "men": "79,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,0 %",
@@ -1674,7 +1674,7 @@
             "dependencyRatio": "57,0 %"
         },
         "urbanization": {
-            "urbanRate": "55,7 %",
+            "urbanRate": "55,8 %",
             "mainMetropolises": [
                 "Ljubljana (300 000 hab. intra-muros, 540 000 aire métropolitaine)",
                 "Maribor (115 000 hab.)",
@@ -1695,13 +1695,13 @@
     },
     "BIH": {
         "general": {
-            "population": "3,21 millions d'habitants",
+            "population": "3,2 millions d'habitants",
             "globalRank": "136e mondial",
             "density": "63 hab./km²",
-            "growthRate": "-0,6 % par an"
+            "growthRate": "-0,7 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,25 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "7,6 ‰",
             "deathRate": "12,8 ‰",
             "infantMortality": "4,9 ‰",
@@ -1710,9 +1710,9 @@
         "ageStructure": {
             "medianAge": "43,3 ans",
             "lifeExpectancy": {
-                "total": "75,3 ans",
-                "women": "77,8 ans",
-                "men": "72,8 ans"
+                "total": "78,0 ans",
+                "women": "81,1 ans",
+                "men": "74,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,2 %",
@@ -1722,7 +1722,7 @@
             "dependencyRatio": "48,6 %"
         },
         "urbanization": {
-            "urbanRate": "49,8 %",
+            "urbanRate": "52,1 %",
             "mainMetropolises": [
                 "Sarajevo (350 000 hab. intra-muros, 450 000 aire métropolitaine)",
                 "Banja Luka (185 000 hab.)",
@@ -1744,13 +1744,13 @@
     },
     "ALB": {
         "general": {
-            "population": "2,75 millions d'habitants",
+            "population": "2,4 millions d'habitants",
             "globalRank": "142e mondial",
             "density": "96 hab./km²",
-            "growthRate": "-1,0 % par an"
+            "growthRate": "-1,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,32 enfant par femme",
+            "fertilityRate": "1,3 enfant par femme",
             "birthRate": "9,2 ‰",
             "deathRate": "8,5 ‰",
             "infantMortality": "7,8 ‰",
@@ -1759,9 +1759,9 @@
         "ageStructure": {
             "medianAge": "38,2 ans",
             "lifeExpectancy": {
-                "total": "79,1 ans",
-                "women": "81,2 ans",
-                "men": "77,0 ans"
+                "total": "79,8 ans",
+                "women": "81,6 ans",
+                "men": "77,9 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,5 %",
@@ -1771,7 +1771,7 @@
             "dependencyRatio": "47,1 %"
         },
         "urbanization": {
-            "urbanRate": "64,5 %",
+            "urbanRate": "58,5 %",
             "mainMetropolises": [
                 "Tirana (550 000 hab. intra-muros, 900 000 aire métropolitaine)",
                 "Durrës (175 000 hab. - principal port)",
@@ -1792,13 +1792,13 @@
     },
     "MKD": {
         "general": {
-            "population": "1,83 million d'habitants",
+            "population": "1,8 millions d'habitants",
             "globalRank": "154e mondial",
             "density": "71 hab./km²",
-            "growthRate": "-0,3 % par an"
+            "growthRate": "-0,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,48 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,8 ‰",
             "deathRate": "11,5 ‰",
             "infantMortality": "5,6 ‰",
@@ -1807,9 +1807,9 @@
         "ageStructure": {
             "medianAge": "40,3 ans",
             "lifeExpectancy": {
-                "total": "76,0 ans",
-                "women": "78,2 ans",
-                "men": "73,8 ans"
+                "total": "76,6 ans",
+                "women": "78,9 ans",
+                "men": "74,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,2 %",
@@ -1819,7 +1819,7 @@
             "dependencyRatio": "44,9 %"
         },
         "urbanization": {
-            "urbanRate": "59,1 %",
+            "urbanRate": "62,6 %",
             "mainMetropolises": [
                 "Skopje (550 000 hab. aire urbaine)",
                 "Bitola (85 000 hab.)",
@@ -1841,13 +1841,13 @@
     },
     "MNE": {
         "general": {
-            "population": "620 000 habitants",
+            "population": "623 525 habitants",
             "globalRank": "168e mondial",
             "density": "45 hab./km²",
-            "growthRate": "-0,1 % par an"
+            "growthRate": "-0,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,76 enfant par femme",
+            "fertilityRate": "1,8 enfants par femme",
             "birthRate": "11,2 ‰",
             "deathRate": "11,5 ‰",
             "infantMortality": "2,1 ‰",
@@ -1856,9 +1856,9 @@
         "ageStructure": {
             "medianAge": "39,8 ans",
             "lifeExpectancy": {
-                "total": "76,8 ans",
-                "women": "79,6 ans",
-                "men": "73,9 ans"
+                "total": "77,9 ans",
+                "women": "80,4 ans",
+                "men": "75,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "17,9 %",
@@ -1868,7 +1868,7 @@
             "dependencyRatio": "51,3 %"
         },
         "urbanization": {
-            "urbanRate": "68,2 %",
+            "urbanRate": "65,5 %",
             "mainMetropolises": [
                 "Podgorica (190 000 hab. - concentre 30 % de la population)",
                 "Nikšić (70 000 hab.)",
@@ -1889,13 +1889,13 @@
     },
     "XKX": {
         "general": {
-            "population": "1,76 million d'habitants",
+            "population": "1,6 millions d'habitants",
             "globalRank": "155e mondial",
             "density": "161 hab./km²",
-            "growthRate": "+0,2 % par an"
+            "growthRate": "-5,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,55 enfant par femme",
+            "fertilityRate": "1,5 enfants par femme",
             "birthRate": "12,5 ‰",
             "deathRate": "5,8 ‰",
             "infantMortality": "8,2 ‰",
@@ -1904,9 +1904,9 @@
         "ageStructure": {
             "medianAge": "31,5 ans (population la plus jeune d'Europe continentale)",
             "lifeExpectancy": {
-                "total": "74,0 ans",
-                "women": "76,5 ans",
-                "men": "71,5 ans"
+                "total": "78,2 ans",
+                "women": "80,3 ans",
+                "men": "76,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "24,0 %",
@@ -1916,7 +1916,7 @@
             "dependencyRatio": "47,1 %"
         },
         "urbanization": {
-            "urbanRate": "50,5 %",
+            "urbanRate": "50,3 %",
             "mainMetropolises": [
                 "Pristina (220 000 hab. intra-muros, 350 000 aire métropolitaine)",
                 "Prizren (180 000 hab.)",
@@ -1937,13 +1937,13 @@
     },
     "CYP": {
         "general": {
-            "population": "1,25 million d'habitants (ensemble de l'île)",
+            "population": "1,4 millions d'habitants (ensemble de l'île)",
             "globalRank": "158e mondial",
             "density": "135 hab./km²",
-            "growthRate": "+0,7 % par an"
+            "growthRate": "+1,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,37 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "10,1 ‰",
             "deathRate": "7,5 ‰",
             "infantMortality": "2,1 ‰",
@@ -1952,9 +1952,9 @@
         "ageStructure": {
             "medianAge": "38,5 ans",
             "lifeExpectancy": {
-                "total": "81,7 ans",
+                "total": "81,8 ans",
                 "women": "83,8 ans",
-                "men": "79,6 ans"
+                "men": "79,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,0 %",
@@ -1964,7 +1964,7 @@
             "dependencyRatio": "43,9 %"
         },
         "urbanization": {
-            "urbanRate": "67,0 %",
+            "urbanRate": "66,7 %",
             "mainMetropolises": [
                 "Nicosie (340 000 hab. - dernière capitale divisée d'Europe)",
                 "Limassol (240 000 hab. - hub maritime et financier)",
@@ -1985,13 +1985,13 @@
     },
     "MLT": {
         "general": {
-            "population": "535 000 habitants",
+            "population": "568 847 habitants",
             "globalRank": "173e mondial",
             "density": "1 700 hab./km² (pays le plus densément peuplé de l'UE)",
-            "growthRate": "+1,5 % par an (impulsion migratoire)"
+            "growthRate": "+2,9 % par an (impulsion migratoire)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,08 enfant par femme (le taux le plus bas de toute l'Union européenne)",
+            "fertilityRate": "1,0 enfant par femme (le taux le plus bas de toute l'Union européenne)",
             "birthRate": "7,3 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "4,9 ‰",
@@ -2012,7 +2012,7 @@
             "dependencyRatio": "48,4 %"
         },
         "urbanization": {
-            "urbanRate": "95,0 % (territoire insulaire quasi intégralement urbanisé)",
+            "urbanRate": "95,7 % (territoire insulaire quasi intégralement urbanisé)",
             "mainMetropolises": [
                 "Zone urbaine du Grand Port / La Valette (260 000 hab.)",
                 "Birkirkara (25 000 hab.)",
@@ -2033,13 +2033,13 @@
     },
     "MCO": {
         "general": {
-            "population": "39 000 habitants (dont ~9 600 Monégasques de nationalité)",
+            "population": "38 631 habitants (dont ~9 600 Monégasques de nationalité)",
             "globalRank": "195e mondial",
             "density": "19 500 hab./km² (la plus forte densité au monde sur 2 km²)",
-            "growthRate": "+0,5 % par an"
+            "growthRate": "-0,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,52 enfant par femme",
+            "fertilityRate": "2,1 enfants par femme",
             "birthRate": "6,6 ‰",
             "deathRate": "9,2 ‰",
             "infantMortality": "1,8 ‰",
@@ -2048,9 +2048,9 @@
         "ageStructure": {
             "medianAge": "54,5 ans (la population la plus âgée au monde)",
             "lifeExpectancy": {
-                "total": "87,0 ans (record mondial absolu de longévité)",
-                "women": "89,0 ans",
-                "men": "85,1 ans"
+                "total": "86,5 ans",
+                "women": "88,6 ans",
+                "men": "84,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "11,8 %",
@@ -2078,13 +2078,13 @@
     },
     "AND": {
         "general": {
-            "population": "85 000 habitants",
+            "population": "81 938 habitants",
             "globalRank": "186e mondial",
             "density": "181 hab./km² (concentrée dans les vallées pyrénéennes)",
-            "growthRate": "+1,2 % par an"
+            "growthRate": "+1,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,22 enfant par femme",
+            "fertilityRate": "1,1 enfant par femme",
             "birthRate": "6,8 ‰",
             "deathRate": "5,1 ‰",
             "infantMortality": "2,7 ‰",
@@ -2093,9 +2093,9 @@
         "ageStructure": {
             "medianAge": "44,3 ans",
             "lifeExpectancy": {
-                "total": "83,5 ans",
-                "women": "85,7 ans",
-                "men": "81,3 ans"
+                "total": "84,2 ans",
+                "women": "86,2 ans",
+                "men": "82,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "13,2 %",
@@ -2105,7 +2105,7 @@
             "dependencyRatio": "39,9 %"
         },
         "urbanization": {
-            "urbanRate": "88,2 %",
+            "urbanRate": "88,9 %",
             "mainMetropolises": [
                 "Andorre-la-Vieille (23 000 hab. - capitale la plus haute d'Europe)",
                 "Escaldes-Engordany (15 000 hab.)",
@@ -2126,13 +2126,13 @@
     },
     "SMR": {
         "general": {
-            "population": "34 000 habitants",
+            "population": "33 977 habitants",
             "globalRank": "199e mondial",
             "density": "555 hab./km²",
-            "growthRate": "+0,4 % par an"
+            "growthRate": "+0,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,26 enfant par femme",
+            "fertilityRate": "1,2 enfant par femme",
             "birthRate": "6,5 ‰",
             "deathRate": "8,2 ‰",
             "infantMortality": "1,8 ‰",
@@ -2141,9 +2141,9 @@
         "ageStructure": {
             "medianAge": "45,5 ans",
             "lifeExpectancy": {
-                "total": "85,4 ans (l'une des plus hautes d'Europe)",
-                "women": "87,1 ans",
-                "men": "83,7 ans"
+                "total": "85,8 ans",
+                "women": "87,2 ans",
+                "men": "84,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,5 %",
@@ -2153,7 +2153,7 @@
             "dependencyRatio": "51,5 %"
         },
         "urbanization": {
-            "urbanRate": "97,5 %",
+            "urbanRate": "97,2 %",
             "mainMetropolises": [
                 "Dogana / Serravalle (11 000 hab. - centre économique)",
                 "Ville de Saint-Marin (4 100 hab. - capitale historique sur le mont Titano)",
@@ -2173,13 +2173,13 @@
     },
     "LIE": {
         "general": {
-            "population": "40 000 habitants",
+            "population": "40 450 habitants",
             "globalRank": "194e mondial",
             "density": "250 hab./km²",
-            "growthRate": "+0,7 % par an"
+            "growthRate": "+1,5 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,45 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,0 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "2,4 ‰",
@@ -2188,9 +2188,9 @@
         "ageStructure": {
             "medianAge": "43,7 ans",
             "lifeExpectancy": {
-                "total": "84,5 ans",
-                "women": "86,2 ans",
-                "men": "82,8 ans"
+                "total": "84,2 ans",
+                "women": "86,3 ans",
+                "men": "82,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "15,2 %",
@@ -2200,7 +2200,7 @@
             "dependencyRatio": "52,0 %"
         },
         "urbanization": {
-            "urbanRate": "14,5 % (habitat dispersé en bourgs alpins continus)",
+            "urbanRate": "14,7 % (habitat dispersé en bourgs alpins continus)",
             "mainMetropolises": [
                 "Schaan (6 100 hab. - centre économique et industriel)",
                 "Vaduz (5 700 hab. - capitale princière)",
@@ -2266,13 +2266,13 @@
     },
     "GRL": {
         "general": {
-            "population": "56 600 habitants",
+            "population": "56 836 habitants",
             "globalRank": "Territoire autonome d'outre-mer (Danemark)",
             "density": "0,026 hab./km² (la plus faible densité au monde sur 2,16 millions de km²)",
-            "growthRate": "+0,1 % par an"
+            "growthRate": "-0,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,01 enfants par femme (le plus haut taux de la zone nordique)",
+            "fertilityRate": "1,7 enfants par femme (le plus haut taux de la zone nordique)",
             "birthRate": "13,2 ‰",
             "deathRate": "9,8 ‰",
             "infantMortality": "7,5 ‰",
@@ -2281,9 +2281,9 @@
         "ageStructure": {
             "medianAge": "34,3 ans (population nettement plus jeune que l'Europe occidentale)",
             "lifeExpectancy": {
-                "total": "71,8 ans",
-                "women": "74,2 ans",
-                "men": "69,6 ans"
+                "total": "70,3 ans",
+                "women": "72,2 ans",
+                "men": "68,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "20,5 %",
@@ -2293,7 +2293,7 @@
             "dependencyRatio": "42,7 %"
         },
         "urbanization": {
-            "urbanRate": "87,5 % (concentration dans des bourgs côtiers sans aucune route reliant les villes)",
+            "urbanRate": "88,3 % (concentration dans des bourgs côtiers sans aucune route reliant les villes)",
             "mainMetropolises": [
                 "Nuuk / Godthåb (19 800 hab. - capitale concentrant 35 % de la population)",
                 "Sisimiut (5 600 hab.)",

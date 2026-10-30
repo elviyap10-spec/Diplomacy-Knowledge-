@@ -1,13 +1,13 @@
 {
     "CIV": {
         "general": {
-            "population": "30,9 millions d'habitants",
+            "population": "31,9 millions d'habitants",
             "globalRank": "52e mondial (3e d'Afrique de l'Ouest)",
             "density": "96 hab./km²",
-            "growthRate": "+2,5 % par an (forte dynamique naturelle et migratoire)"
+            "growthRate": "+2,4 % par an (forte dynamique naturelle et migratoire)"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,3 enfants par femme",
+            "fertilityRate": "4,2 enfants par femme",
             "birthRate": "33,2 ‰",
             "deathRate": "8,1 ‰",
             "infantMortality": "53,0 ‰",
@@ -16,9 +16,9 @@
         "ageStructure": {
             "medianAge": "19,1 ans (extrême jeunesse)",
             "lifeExpectancy": {
-                "total": "59,3 ans",
-                "women": "61,2 ans",
-                "men": "57,6 ans"
+                "total": "62,1 ans",
+                "women": "64,3 ans",
+                "men": "60,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,5 %",
@@ -28,7 +28,7 @@
             "dependencyRatio": "80,5 %"
         },
         "urbanization": {
-            "urbanRate": "53,1 %",
+            "urbanRate": "54,0 %",
             "mainMetropolises": [
                 "Abidjan (5,6 millions hab. - pôle économique et carrefour d'Afrique de l'Ouest)",
                 "Bouaké (850 000 hab. - centre géopolitique du centre)",
@@ -50,10 +50,10 @@
     },
     "DZA": {
         "general": {
-            "population": "45,6 millions d'habitants",
+            "population": "46,8 millions d'habitants",
             "globalRank": "34e mondial (2e du monde arabe, 1er pays d'Afrique par la superficie)",
             "density": "19 hab./km² (fortement contrastée : plus de 300 hab./km² sur la bande côtière tellienne, quasi déserte au Sahara)",
-            "growthRate": "+1,6 % par an"
+            "growthRate": "+1,4 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,7 enfants par femme",
@@ -65,9 +65,9 @@
         "ageStructure": {
             "medianAge": "28,9 ans",
             "lifeExpectancy": {
-                "total": "77,3 ans (l'une des plus élevées d'Afrique)",
-                "women": "78,6 ans",
-                "men": "76,1 ans"
+                "total": "76,5 ans",
+                "women": "77,9 ans",
+                "men": "75,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "30,8 %",
@@ -77,7 +77,7 @@
             "dependencyRatio": "59,5 %"
         },
         "urbanization": {
-            "urbanRate": "74,8 %",
+            "urbanRate": "75,3 %",
             "mainMetropolises": [
                 "Alger (4,1 millions hab. - capitale et centre politique)",
                 "Oran (1,6 million hab. - métropole économique et industrielle de l'Ouest)",
@@ -99,13 +99,13 @@
     },
     "AGO": {
         "general": {
-            "population": "36,7 millions d'habitants",
+            "population": "37,9 millions d'habitants",
             "globalRank": "42e mondial",
             "density": "29 hab./km²",
-            "growthRate": "+3,1 % par an (l'une des plus fortes croissances démographiques au monde)"
+            "growthRate": "+3,0 % par an (l'une des plus fortes croissances démographiques au monde)"
         },
         "fertilityMortality": {
-            "fertilityRate": "5,1 enfants par femme",
+            "fertilityRate": "5,0 enfants par femme",
             "birthRate": "38,8 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "48,5 ‰",
@@ -114,9 +114,9 @@
         "ageStructure": {
             "medianAge": "16,2 ans (l'une des populations les plus jeunes de la planète)",
             "lifeExpectancy": {
-                "total": "62,4 ans",
-                "women": "64,8 ans",
-                "men": "60,1 ans"
+                "total": "64,8 ans",
+                "women": "67,3 ans",
+                "men": "62,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "46,2 % (près de la moitié de la population)",
@@ -126,7 +126,7 @@
             "dependencyRatio": "95,7 %"
         },
         "urbanization": {
-            "urbanRate": "68,1 %",
+            "urbanRate": "70,7 %",
             "mainMetropolises": [
                 "Luanda (9,3 millions hab. - mégapole côtière hypertrophiée concentrant un quart des Angolais)",
                 "Lubango (900 000 hab. - haut plateau de Huíla)",
@@ -148,13 +148,13 @@
     },
     "BEN": {
         "general": {
-            "population": "13,7 millions d'habitants",
+            "population": "14,5 millions d'habitants",
             "globalRank": "78e mondial",
             "density": "121 hab./km²",
-            "growthRate": "+2,7 % par an"
+            "growthRate": "+2,5 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,8 enfants par femme",
+            "fertilityRate": "4,5 enfants par femme",
             "birthRate": "35,1 ‰",
             "deathRate": "8,2 ‰",
             "infantMortality": "55,4 ‰",
@@ -163,9 +163,9 @@
         "ageStructure": {
             "medianAge": "18,2 ans",
             "lifeExpectancy": {
-                "total": "61,2 ans",
-                "women": "63,1 ans",
-                "men": "59,4 ans"
+                "total": "61,0 ans",
+                "women": "62,4 ans",
+                "men": "59,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "43,8 %",
@@ -175,7 +175,7 @@
             "dependencyRatio": "88,0 %"
         },
         "urbanization": {
-            "urbanRate": "49,5 %",
+            "urbanRate": "52,5 %",
             "mainMetropolises": [
                 "Cotonou (1,2 million hab. agglomération - poumon économique et portuaire)",
                 "Abomey-Calavi (950 000 hab. - ville dortoir en expansion fulgurante)",
@@ -197,13 +197,13 @@
     },
     "BWA": {
         "general": {
-            "population": "2,63 millions d'habitants",
+            "population": "2,5 millions d'habitants",
             "globalRank": "143e mondial",
             "density": "4,5 hab./km² (l'une des plus faibles densités au monde en raison du désert du Kalahari)",
-            "growthRate": "+1,4 % par an"
+            "growthRate": "+1,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,6 enfants par femme",
+            "fertilityRate": "2,7 enfants par femme",
             "birthRate": "20,8 ‰",
             "deathRate": "7,3 ‰",
             "infantMortality": "27,2 ‰",
@@ -212,9 +212,9 @@
         "ageStructure": {
             "medianAge": "25,8 ans",
             "lifeExpectancy": {
-                "total": "65,9 ans (fort redressement grâce aux trithérapies universelles anti-VIH)",
-                "women": "68,4 ans",
-                "men": "63,2 ans"
+                "total": "69,3 ans",
+                "women": "71,9 ans",
+                "men": "66,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "31,8 %",
@@ -224,7 +224,7 @@
             "dependencyRatio": "58,2 %"
         },
         "urbanization": {
-            "urbanRate": "72,2 % (urbanisation élevée pour l'Afrique subsaharienne)",
+            "urbanRate": "67,5 % (urbanisation élevée pour l'Afrique subsaharienne)",
             "mainMetropolises": [
                 "Gaborone (280 000 hab. intra-muros, 450 000 aire métropolitaine)",
                 "Francistown (110 000 hab. - centre minier du Nord)",
@@ -246,13 +246,13 @@
     },
     "BFA": {
         "general": {
-            "population": "23,3 millions d'habitants",
+            "population": "23,5 millions d'habitants",
             "globalRank": "59e mondial",
             "density": "85 hab./km²",
-            "growthRate": "+2,6 % par an"
+            "growthRate": "+2,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,9 enfants par femme",
+            "fertilityRate": "4,1 enfants par femme",
             "birthRate": "34,8 ‰",
             "deathRate": "7,6 ‰",
             "infantMortality": "50,1 ‰",
@@ -261,9 +261,9 @@
         "ageStructure": {
             "medianAge": "17,6 ans",
             "lifeExpectancy": {
-                "total": "62,7 ans",
-                "women": "64,5 ans",
-                "men": "60,8 ans"
+                "total": "61,3 ans",
+                "women": "63,4 ans",
+                "men": "59,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "44,1 %",
@@ -273,7 +273,7 @@
             "dependencyRatio": "88,7 %"
         },
         "urbanization": {
-            "urbanRate": "32,4 % (société encore très rurale)",
+            "urbanRate": "28,3 % (société encore très rurale)",
             "mainMetropolises": [
                 "Ouagadougou (3,0 millions hab. - capitale et centre politique/culturel)",
                 "Bobo-Dioulasso (1,1 million hab. - capitale économique et carrefour cotonnier)",
@@ -295,13 +295,13 @@
     },
     "BDI": {
         "general": {
-            "population": "13,2 millions d'habitants",
+            "population": "14,0 millions d'habitants",
             "globalRank": "80e mondial",
             "density": "475 hab./km² (2e plus forte densité d'Afrique continentale après le Rwanda)",
-            "growthRate": "+2,7 % par an"
+            "growthRate": "+2,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "5,0 enfants par femme",
+            "fertilityRate": "4,8 enfants par femme",
             "birthRate": "35,4 ‰",
             "deathRate": "7,1 ‰",
             "infantMortality": "41,8 ‰",
@@ -311,7 +311,7 @@
             "medianAge": "17,7 ans",
             "lifeExpectancy": {
                 "total": "63,8 ans",
-                "women": "65,8 ans",
+                "women": "65,9 ans",
                 "men": "61,8 ans"
             },
             "ageGroups": {
@@ -322,7 +322,7 @@
             "dependencyRatio": "90,1 %"
         },
         "urbanization": {
-            "urbanRate": "14,8 % (l'un des pays les moins urbanisés de la planète)",
+            "urbanRate": "24,8 % (l'un des pays les moins urbanisés de la planète)",
             "mainMetropolises": [
                 "Bujumbura (1,2 million hab. - capitale économique sur le lac Tanganyika)",
                 "Gitega (150 000 hab. - capitale politique depuis 2019)",
@@ -343,13 +343,13 @@
     },
     "CPV": {
         "general": {
-            "population": "595 000 habitants (diaspora estimée à plus de 700 000 personnes à l'étranger)",
+            "population": "524 877 habitants (diaspora estimée à plus de 700 000 personnes à l'étranger)",
             "globalRank": "171e mondial",
             "density": "147 hab./km² (répartie sur 9 îles habitées)",
-            "growthRate": "+1,1 % par an (transition démographique la plus avancée d'Afrique de l'Ouest)"
+            "growthRate": "+0,5 % par an (transition démographique la plus avancée d'Afrique de l'Ouest)"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,1 enfants par femme (au seuil exact de renouvellement)",
+            "fertilityRate": "1,5 enfants par femme (au seuil exact de renouvellement)",
             "birthRate": "18,2 ‰",
             "deathRate": "5,4 ‰",
             "infantMortality": "14,5 ‰ (l'une des plus faibles d'Afrique subsaharienne)",
@@ -358,9 +358,9 @@
         "ageStructure": {
             "medianAge": "29,4 ans",
             "lifeExpectancy": {
-                "total": "74,3 ans",
-                "women": "78,2 ans",
-                "men": "70,4 ans"
+                "total": "76,2 ans",
+                "women": "79,4 ans",
+                "men": "73,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "26,1 %",
@@ -370,7 +370,7 @@
             "dependencyRatio": "46,8 %"
         },
         "urbanization": {
-            "urbanRate": "67,5 %",
+            "urbanRate": "76,8 %",
             "mainMetropolises": [
                 "Praia (170 000 hab. - capitale sur l'île de Santiago, concentrant un tiers du pays)",
                 "Mindelo (75 000 hab. - capitale culturelle et port de São Vicente)",
@@ -391,13 +391,13 @@
     },
     "CMR": {
         "general": {
-            "population": "28,6 millions d'habitants",
+            "population": "29,1 millions d'habitants",
             "globalRank": "54e mondial",
             "density": "60 hab./km²",
             "growthRate": "+2,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,4 enfants par femme",
+            "fertilityRate": "4,3 enfants par femme",
             "birthRate": "33,6 ‰",
             "deathRate": "8,5 ‰",
             "infantMortality": "47,2 ‰",
@@ -406,9 +406,9 @@
         "ageStructure": {
             "medianAge": "18,9 ans",
             "lifeExpectancy": {
-                "total": "61,1 ans",
-                "women": "62,8 ans",
-                "men": "59,4 ans"
+                "total": "64,0 ans",
+                "women": "66,2 ans",
+                "men": "61,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,8 %",
@@ -418,7 +418,7 @@
             "dependencyRatio": "82,1 %"
         },
         "urbanization": {
-            "urbanRate": "58,8 %",
+            "urbanRate": "55,4 %",
             "mainMetropolises": [
                 "Douala (3,9 millions hab. - capitale économique et 1er port d'Afrique centrale)",
                 "Yaoundé (3,8 millions hab. - capitale politique)",
@@ -440,13 +440,13 @@
     },
     "CAF": {
         "general": {
-            "population": "5,55 millions d'habitants",
+            "population": "5,3 millions d'habitants",
             "globalRank": "123e mondial",
             "density": "8,9 hab./km² (l'une des plus faibles densités d'Afrique centrale)",
-            "growthRate": "+1,9 % par an"
+            "growthRate": "+3,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,1 enfants par femme",
+            "fertilityRate": "6,0 enfants par femme",
             "birthRate": "32,8 ‰",
             "deathRate": "11,8 ‰ (l'un des taux de mortalité les plus élevés au monde)",
             "infantMortality": "77,5 ‰ (catastrophique)",
@@ -455,9 +455,9 @@
         "ageStructure": {
             "medianAge": "17,6 ans",
             "lifeExpectancy": {
-                "total": "55,5 ans (l'une des plus faibles espérances de vie de la planète)",
-                "women": "57,8 ans",
-                "men": "53,4 ans"
+                "total": "57,7 ans",
+                "women": "59,6 ans",
+                "men": "55,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,5 %",
@@ -467,7 +467,7 @@
             "dependencyRatio": "81,2 %"
         },
         "urbanization": {
-            "urbanRate": "43,1 %",
+            "urbanRate": "44,1 %",
             "mainMetropolises": [
                 "Bangui (1,1 million hab. - concentre l'essentiel de l'appareil d'État)",
                 "Bimbo (270 000 hab. - périphérie sud de Bangui)",
@@ -489,13 +489,13 @@
     },
     "TCD": {
         "general": {
-            "population": "18,3 millions d'habitants",
+            "population": "20,3 millions d'habitants",
             "globalRank": "66e mondial",
             "density": "14,3 hab./km²",
-            "growthRate": "+3,1 % par an"
+            "growthRate": "+4,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "5,6 enfants par femme (l'un des 5 pays les plus féconds du monde)",
+            "fertilityRate": "6,0 enfants par femme (l'un des 5 pays les plus féconds du monde)",
             "birthRate": "39,8 ‰",
             "deathRate": "10,2 ‰",
             "infantMortality": "68,2 ‰",
@@ -504,9 +504,9 @@
         "ageStructure": {
             "medianAge": "15,8 ans (extrême jeunesse démographique)",
             "lifeExpectancy": {
-                "total": "54,3 ans (l'une des plus faibles de la planète)",
-                "women": "56,2 ans",
-                "men": "52,5 ans"
+                "total": "55,2 ans",
+                "women": "57,2 ans",
+                "men": "53,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "47,2 % (près de la moitié de la population)",
@@ -516,7 +516,7 @@
             "dependencyRatio": "98,8 %"
         },
         "urbanization": {
-            "urbanRate": "24,5 % (pays majoritairement pastoral et rural)",
+            "urbanRate": "26,9 % (pays majoritairement pastoral et rural)",
             "mainMetropolises": [
                 "N'Djamena (1,6 million hab. - capitale)",
                 "Moundou (160 000 hab. - poumon industriel cotonnier et brassicole du Sud)",
@@ -538,7 +538,7 @@
     },
     "COM": {
         "general": {
-            "population": "852 000 habitants (diaspora comorienne estimée à plus de 350 000 personnes en France métropolitaine, notamment à Marseille)",
+            "population": "866 628 habitants (diaspora comorienne estimée à plus de 350 000 personnes en France métropolitaine, notamment à Marseille)",
             "globalRank": "163e mondial",
             "density": "458 hab./km² (très forte densité insulaire)",
             "growthRate": "+1,9 % par an"
@@ -553,9 +553,9 @@
         "ageStructure": {
             "medianAge": "20,5 ans",
             "lifeExpectancy": {
-                "total": "64,8 ans",
-                "women": "67,2 ans",
-                "men": "62,5 ans"
+                "total": "67,0 ans",
+                "women": "69,2 ans",
+                "men": "65,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "38,5 %",
@@ -565,7 +565,7 @@
             "dependencyRatio": "73,9 %"
         },
         "urbanization": {
-            "urbanRate": "29,6 %",
+            "urbanRate": "33,5 %",
             "mainMetropolises": [
                 "Moroni (80 000 hab. - capitale sur la Grande Comore / Ngazidja)",
                 "Mutsamudu (35 000 hab. - principal port sur Anjouan / Nzwani)",
@@ -586,13 +586,13 @@
     },
     "COG": {
         "general": {
-            "population": "6,1 millions d'habitants",
+            "population": "6,3 millions d'habitants",
             "globalRank": "112e mondial",
             "density": "17,8 hab./km²",
             "growthRate": "+2,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,3 enfants par femme",
+            "fertilityRate": "4,1 enfants par femme",
             "birthRate": "31,8 ‰",
             "deathRate": "7,4 ‰",
             "infantMortality": "44,1 ‰",
@@ -601,9 +601,9 @@
         "ageStructure": {
             "medianAge": "19,2 ans",
             "lifeExpectancy": {
-                "total": "64,2 ans",
-                "women": "65,8 ans",
-                "men": "62,7 ans"
+                "total": "66,0 ans",
+                "women": "67,7 ans",
+                "men": "64,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,0 %",
@@ -613,7 +613,7 @@
             "dependencyRatio": "80,2 %"
         },
         "urbanization": {
-            "urbanRate": "68,8 % (l'un des pays les plus urbanisés d'Afrique, concentré le long du chemin de fer CFCO)",
+            "urbanRate": "63,9 % (l'un des pays les plus urbanisés d'Afrique, concentré le long du chemin de fer CFCO)",
             "mainMetropolises": [
                 "Brazzaville (2,4 millions hab. - capitale politique faisant face à Kinshasa de l'autre côté du fleuve)",
                 "Pointe-Noire (1,3 million hab. - capitale pétrolière et port maritime atlantique)",
@@ -635,13 +635,13 @@
     },
     "COD": {
         "general": {
-            "population": "102,3 millions d'habitants",
+            "population": "109,3 millions d'habitants",
             "globalRank": "15e mondial (4e d'Afrique, 1er pays francophone du monde par la population)",
             "density": "44 hab./km²",
             "growthRate": "+3,2 % par an (gain annuel net de plus de 3 millions d'habitants)"
         },
         "fertilityMortality": {
-            "fertilityRate": "5,8 enfants par femme (l'un des plus élevés au monde)",
+            "fertilityRate": "6,0 enfants par femme (l'un des plus élevés au monde)",
             "birthRate": "41,0 ‰",
             "deathRate": "9,1 ‰",
             "infantMortality": "62,5 ‰",
@@ -650,9 +650,9 @@
         "ageStructure": {
             "medianAge": "16,7 ans",
             "lifeExpectancy": {
-                "total": "60,4 ans",
-                "women": "62,2 ans",
-                "men": "58,6 ans"
+                "total": "62,1 ans",
+                "women": "64,2 ans",
+                "men": "60,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "46,3 %",
@@ -685,13 +685,13 @@
     },
     "DJI": {
         "general": {
-            "population": "1,14 million d'habitants",
+            "population": "1,2 millions d'habitants",
             "globalRank": "160e mondial",
             "density": "49 hab./km²",
             "growthRate": "+1,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,8 enfants par femme",
+            "fertilityRate": "2,6 enfants par femme",
             "birthRate": "22,5 ‰",
             "deathRate": "7,3 ‰",
             "infantMortality": "46,2 ‰",
@@ -700,9 +700,9 @@
         "ageStructure": {
             "medianAge": "25,1 ans",
             "lifeExpectancy": {
-                "total": "65,3 ans",
-                "women": "67,4 ans",
-                "men": "63,2 ans"
+                "total": "66,2 ans",
+                "women": "68,7 ans",
+                "men": "63,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "30,1 %",
@@ -712,7 +712,7 @@
             "dependencyRatio": "53,1 %"
         },
         "urbanization": {
-            "urbanRate": "78,4 % (l'un des plus élevés d'Afrique, cité-port stratégique)",
+            "urbanRate": "72,9 % (l'un des plus élevés d'Afrique, cité-port stratégique)",
             "mainMetropolises": [
                 "Djibouti-Ville (750 000 hab. - concentre plus de 70 % de la population totale)",
                 "Ali Sabieh (45 000 hab. - carrefour ferroviaire vers l'Éthiopie)",
@@ -734,13 +734,13 @@
     },
     "EGY": {
         "general": {
-            "population": "106,5 millions d'habitants",
+            "population": "116,5 millions d'habitants",
             "globalRank": "14e mondial (3e d'Afrique, 1er du monde arabe)",
             "density": "106 hab./km² (chiffre trompeur : 95 % de la population vit concentrée sur 5 % du territoire dans la vallée et le delta du Nil, où la densité dépasse 1 800 hab./km²)",
-            "growthRate": "+1,5 % par an (gain net d'environ 1,5 million d'habitants chaque année)"
+            "growthRate": "+1,7 % par an (gain net d'environ 1,5 million d'habitants chaque année)"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,85 enfants par femme (en recul grâce aux campagnes de planning familial)",
+            "fertilityRate": "2,7 enfants par femme (en recul grâce aux campagnes de planning familial)",
             "birthRate": "21,2 ‰",
             "deathRate": "5,8 ‰",
             "infantMortality": "16,8 ‰",
@@ -749,9 +749,9 @@
         "ageStructure": {
             "medianAge": "24,8 ans",
             "lifeExpectancy": {
-                "total": "72,1 ans",
-                "women": "74,5 ans",
-                "men": "69,8 ans"
+                "total": "71,8 ans",
+                "women": "74,0 ans",
+                "men": "69,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "33,2 %",
@@ -761,7 +761,7 @@
             "dependencyRatio": "62,3 %"
         },
         "urbanization": {
-            "urbanRate": "43,0 % (la majorité demeure dans les campagnes fertiles du Delta)",
+            "urbanRate": "42,8 % (la majorité demeure dans les campagnes fertiles du Delta)",
             "mainMetropolises": [
                 "Grand Le Caire (22,2 millions hab. - 1ère mégapole du monde arabe et 2e d'Afrique)",
                 "Alexandrie (5,5 millions hab. - grand port méditerranéen)",
@@ -784,13 +784,13 @@
     },
     "GNQ": {
         "general": {
-            "population": "1,71 million d'habitants",
+            "population": "1,9 millions d'habitants",
             "globalRank": "152e mondial",
             "density": "61 hab./km² (partagée entre la province insulaire de Bioko et la partie continentale du Rio Muni)",
             "growthRate": "+2,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,2 enfants par femme",
+            "fertilityRate": "4,1 enfants par femme",
             "birthRate": "30,5 ‰",
             "deathRate": "8,2 ‰",
             "infantMortality": "60,1 ‰",
@@ -799,9 +799,9 @@
         "ageStructure": {
             "medianAge": "21,8 ans",
             "lifeExpectancy": {
-                "total": "61,8 ans",
-                "women": "63,6 ans",
-                "men": "60,1 ans"
+                "total": "63,9 ans",
+                "women": "65,9 ans",
+                "men": "62,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "37,0 %",
@@ -811,7 +811,7 @@
             "dependencyRatio": "68,9 %"
         },
         "urbanization": {
-            "urbanRate": "73,6 %",
+            "urbanRate": "71,4 %",
             "mainMetropolises": [
                 "Bata (350 000 hab. - métropole de la région continentale)",
                 "Malabo (300 000 hab. - capitale historique sur l'île de Bioko)",
@@ -832,13 +832,13 @@
     },
     "ERI": {
         "general": {
-            "population": "3,75 millions d'habitants (diaspora réfugiée massive en Europe, Éthiopie et Israël)",
+            "population": "3,5 millions d'habitants (diaspora réfugiée massive en Europe, Éthiopie et Israël)",
             "globalRank": "132e mondial",
             "density": "32 hab./km²",
-            "growthRate": "+1,4 % par an (affaibli par l'émigration clandestine des jeunes)"
+            "growthRate": "+1,9 % par an (affaibli par l'émigration clandestine des jeunes)"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,8 enfants par femme",
+            "fertilityRate": "3,7 enfants par femme",
             "birthRate": "27,5 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "34,2 ‰",
@@ -847,9 +847,9 @@
         "ageStructure": {
             "medianAge": "20,1 ans",
             "lifeExpectancy": {
-                "total": "67,4 ans",
-                "women": "69,8 ans",
-                "men": "65,1 ans"
+                "total": "68,9 ans",
+                "women": "70,9 ans",
+                "men": "66,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "38,2 %",
@@ -859,7 +859,7 @@
             "dependencyRatio": "74,2 %"
         },
         "urbanization": {
-            "urbanRate": "36,8 %",
+            "urbanRate": "34,5 %",
             "mainMetropolises": [
                 "Asmara (1,0 million hab. - capitale classée au patrimoine mondial de l'UNESCO pour son architecture moderniste italienne)",
                 "Keren (120 000 hab. - centre commerçant de l'Anseba)",
@@ -881,13 +881,13 @@
     },
     "SWZ": {
         "general": {
-            "population": "1,21 million d'habitants",
+            "population": "1,2 millions d'habitants",
             "globalRank": "159e mondial",
             "density": "70 hab./km²",
             "growthRate": "+1,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,8 enfants par femme",
+            "fertilityRate": "2,7 enfants par femme",
             "birthRate": "23,1 ‰",
             "deathRate": "9,2 ‰",
             "infantMortality": "41,0 ‰",
@@ -896,9 +896,9 @@
         "ageStructure": {
             "medianAge": "22,5 ans",
             "lifeExpectancy": {
-                "total": "61,2 ans (impact persistant de l'épidémie de VIH)",
-                "women": "64,1 ans",
-                "men": "58,5 ans"
+                "total": "64,3 ans",
+                "women": "67,1 ans",
+                "men": "61,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "34,8 %",
@@ -908,7 +908,7 @@
             "dependencyRatio": "63,4 %"
         },
         "urbanization": {
-            "urbanRate": "24,6 % (habitat majoritairement dispersé en kraals ruraux)",
+            "urbanRate": "26,2 % (habitat majoritairement dispersé en kraals ruraux)",
             "mainMetropolises": [
                 "Manzini (110 000 hab. - poumon commercial et industriel)",
                 "Mbabane (95 000 hab. - capitale administrative)",
@@ -930,13 +930,13 @@
     },
     "ETH": {
         "general": {
-            "population": "126,5 millions d'habitants",
+            "population": "132,1 millions d'habitants",
             "globalRank": "11e mondial (2e d'Afrique après le Nigeria)",
             "density": "115 hab./km² (concentrée sur les hauts plateaux tempérés de la Weyna Dega)",
-            "growthRate": "+2,5 % par an (gain net d'environ 3 millions d'habitants par an)"
+            "growthRate": "+2,6 % par an (gain net d'environ 3 millions d'habitants par an)"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,0 enfants par femme",
+            "fertilityRate": "3,9 enfants par femme",
             "birthRate": "30,8 ‰",
             "deathRate": "6,1 ‰",
             "infantMortality": "35,2 ‰",
@@ -945,9 +945,9 @@
         "ageStructure": {
             "medianAge": "19,5 ans",
             "lifeExpectancy": {
-                "total": "66,2 ans",
-                "women": "68,4 ans",
-                "men": "64,1 ans"
+                "total": "67,6 ans",
+                "women": "71,0 ans",
+                "men": "64,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "39,8 %",
@@ -957,7 +957,7 @@
             "dependencyRatio": "76,4 %"
         },
         "urbanization": {
-            "urbanRate": "23,2 % (pays encore massivement rural d'agriculteurs de teff et de café)",
+            "urbanRate": "23,6 % (pays encore massivement rural d'agriculteurs de teff et de café)",
             "mainMetropolises": [
                 "Addis-Abeba (5,4 millions hab. - capitale diplomatique de l'Afrique et siège de l'Union africaine)",
                 "Dire Dawa (500 000 hab. - carrefour ferroviaire vers Djibouti)",
@@ -979,13 +979,13 @@
     },
     "GAB": {
         "general": {
-            "population": "2,43 millions d'habitants",
+            "population": "2,5 millions d'habitants",
             "globalRank": "146e mondial",
             "density": "9,1 hab./km² (l'une des plus faibles densités d'Afrique, 88 % du territoire sous forêt tropicale)",
-            "growthRate": "+2,1 % par an"
+            "growthRate": "+2,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,7 enfants par femme",
+            "fertilityRate": "3,6 enfants par femme",
             "birthRate": "27,2 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "31,8 ‰",
@@ -994,9 +994,9 @@
         "ageStructure": {
             "medianAge": "22,5 ans",
             "lifeExpectancy": {
-                "total": "66,8 ans",
-                "women": "69,1 ans",
-                "men": "64,7 ans"
+                "total": "68,5 ans",
+                "women": "71,2 ans",
+                "men": "66,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "36,2 %",
@@ -1006,7 +1006,7 @@
             "dependencyRatio": "67,8 %"
         },
         "urbanization": {
-            "urbanRate": "90,4 % (l'un des pays les plus urbanisés du continent, quasi cité-État concentrée sur deux pôles)",
+            "urbanRate": "91,9 % (l'un des pays les plus urbanisés du continent, quasi cité-État concentrée sur deux pôles)",
             "mainMetropolises": [
                 "Libreville (850 000 hab. intra-muros, 1,2 M Grand Libreville - concentre la moitié du pays)",
                 "Port-Gentil (180 000 hab. - capitale pétrolière sur l'île Mandji)",
@@ -1028,13 +1028,13 @@
     },
     "GMB": {
         "general": {
-            "population": "2,77 millions d'habitants",
+            "population": "2,8 millions d'habitants",
             "globalRank": "142e mondial (plus petit pays d'Afrique continentale)",
             "density": "245 hab./km² (très forte densité le long de la vallée du fleuve Gambie)",
-            "growthRate": "+2,4 % par an"
+            "growthRate": "+2,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,7 enfants par femme",
+            "fertilityRate": "3,9 enfants par femme",
             "birthRate": "34,2 ‰",
             "deathRate": "7,5 ‰",
             "infantMortality": "48,5 ‰",
@@ -1043,9 +1043,9 @@
         "ageStructure": {
             "medianAge": "17,8 ans",
             "lifeExpectancy": {
-                "total": "63,2 ans",
-                "women": "64,8 ans",
-                "men": "61,6 ans"
+                "total": "66,1 ans",
+                "women": "67,8 ans",
+                "men": "64,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "43,5 %",
@@ -1055,7 +1055,7 @@
             "dependencyRatio": "86,9 %"
         },
         "urbanization": {
-            "urbanRate": "63,9 %",
+            "urbanRate": "64,3 %",
             "mainMetropolises": [
                 "Brikama (850 000 hab. région métropolitaine ouest)",
                 "Serekunda / Kanifing (400 000 hab. - poumon commercial)",
@@ -1077,13 +1077,13 @@
     },
     "GHA": {
         "general": {
-            "population": "34,1 millions d'habitants",
+            "population": "34,4 millions d'habitants",
             "globalRank": "47e mondial (2e d'Afrique de l'Ouest)",
             "density": "143 hab./km²",
             "growthRate": "+1,9 % par an (transition démographique en progression)"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,6 enfants par femme (en recul net, 2,5 dans le Grand Accra)",
+            "fertilityRate": "3,3 enfants par femme (en recul net, 2,5 dans le Grand Accra)",
             "birthRate": "27,5 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "33,5 ‰",
@@ -1092,9 +1092,9 @@
         "ageStructure": {
             "medianAge": "21,5 ans",
             "lifeExpectancy": {
-                "total": "64,8 ans",
-                "women": "66,9 ans",
-                "men": "62,8 ans"
+                "total": "65,7 ans",
+                "women": "68,2 ans",
+                "men": "63,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "36,8 %",
@@ -1104,7 +1104,7 @@
             "dependencyRatio": "69,5 %"
         },
         "urbanization": {
-            "urbanRate": "59,2 %",
+            "urbanRate": "58,4 %",
             "mainMetropolises": [
                 "Grand Accra (4,4 millions hab. - pôle économique, technologique et financier)",
                 "Kumasi (3,6 millions hab. - capitale historique du royaume Ashanti)",
@@ -1126,13 +1126,13 @@
     },
     "GIN": {
         "general": {
-            "population": "14,2 millions d'habitants",
+            "population": "14,8 millions d'habitants",
             "globalRank": "76e mondial",
             "density": "58 hab./km² (répartie sur 4 zones géographiques naturelles distinctes)",
             "growthRate": "+2,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,4 enfants par femme",
+            "fertilityRate": "4,1 enfants par femme",
             "birthRate": "33,8 ‰",
             "deathRate": "8,5 ‰",
             "infantMortality": "58,2 ‰",
@@ -1141,9 +1141,9 @@
         "ageStructure": {
             "medianAge": "18,9 ans",
             "lifeExpectancy": {
-                "total": "59,8 ans",
-                "women": "61,2 ans",
-                "men": "58,4 ans"
+                "total": "60,9 ans",
+                "women": "62,1 ans",
+                "men": "59,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "42,2 %",
@@ -1153,7 +1153,7 @@
             "dependencyRatio": "84,2 %"
         },
         "urbanization": {
-            "urbanRate": "37,5 %",
+            "urbanRate": "38,1 %",
             "mainMetropolises": [
                 "Conakry (2,3 millions hab. - presqu'île de Kaloum et banlieues surpeuplées de Ratoma/Matoto)",
                 "Nzérékoré (350 000 hab. - capitale de la Guinée forestière)",
@@ -1175,13 +1175,13 @@
     },
     "GNB": {
         "general": {
-            "population": "2,15 millions d'habitants",
+            "population": "2,2 millions d'habitants",
             "globalRank": "149e mondial",
             "density": "60 hab./km² (incluant l'archipel insulaire des Bijagos)",
             "growthRate": "+2,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,3 enfants par femme",
+            "fertilityRate": "3,8 enfants par femme",
             "birthRate": "32,8 ‰",
             "deathRate": "9,8 ‰",
             "infantMortality": "66,8 ‰",
@@ -1190,9 +1190,9 @@
         "ageStructure": {
             "medianAge": "19,4 ans",
             "lifeExpectancy": {
-                "total": "60,2 ans",
-                "women": "62,1 ans",
-                "men": "58,2 ans"
+                "total": "64,3 ans",
+                "women": "66,5 ans",
+                "men": "61,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,0 %",
@@ -1202,7 +1202,7 @@
             "dependencyRatio": "79,2 %"
         },
         "urbanization": {
-            "urbanRate": "45,5 %",
+            "urbanRate": "46,1 %",
             "mainMetropolises": [
                 "Bissau (550 000 hab. - capitale concentrant un quart des Bissau-Guinéens)",
                 "Bafatá (40 000 hab. - centre de l'Est)",
@@ -1224,13 +1224,13 @@
     },
     "KEN": {
         "general": {
-            "population": "55,1 millions d'habitants",
+            "population": "56,4 millions d'habitants",
             "globalRank": "27e mondial (1ère économie et pôle démographique d'Afrique de l'Est)",
             "density": "95 hab./km² (fortement concentrée sur les hautes terres centrales fertiles et autour du lac Victoria)",
-            "growthRate": "+1,9 % par an (transition de fécondité rapide)"
+            "growthRate": "+2,0 % par an (transition de fécondité rapide)"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,3 enfants par femme (en chute rapide : 6,7 en 1989)",
+            "fertilityRate": "3,2 enfants par femme (en chute rapide : 6,7 en 1989)",
             "birthRate": "26,1 ‰",
             "deathRate": "5,8 ‰",
             "infantMortality": "30,5 ‰",
@@ -1239,8 +1239,8 @@
         "ageStructure": {
             "medianAge": "20,4 ans",
             "lifeExpectancy": {
-                "total": "67,5 ans",
-                "women": "70,1 ans",
+                "total": "63,8 ans",
+                "women": "66,1 ans",
                 "men": "64,8 ans"
             },
             "ageGroups": {
@@ -1251,7 +1251,7 @@
             "dependencyRatio": "70,9 %"
         },
         "urbanization": {
-            "urbanRate": "29,0 % (la majorité réside dans des campagnes à forte densité rurale)",
+            "urbanRate": "31,9 % (la majorité réside dans des campagnes à forte densité rurale)",
             "mainMetropolises": [
                 "Nairobi (5,1 millions hab. - 'Silicon Savannah', hub aérien, financier et onusien mondial)",
                 "Mombasa (1,4 million hab. - 1er port maritime d'Afrique de l'Est et cité swahilie historique)",
@@ -1273,13 +1273,13 @@
     },
     "LSO": {
         "general": {
-            "population": "2,33 millions d'habitants",
+            "population": "2,3 millions d'habitants",
             "globalRank": "145e mondial (royaume enclavé au sein de l'Afrique du Sud)",
             "density": "77 hab./km² (concentrée dans les basses terres occidentales)",
-            "growthRate": "+0,9 % par an"
+            "growthRate": "+1,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,9 enfants par femme",
+            "fertilityRate": "2,7 enfants par femme",
             "birthRate": "24,8 ‰",
             "deathRate": "11,8 ‰",
             "infantMortality": "43,0 ‰",
@@ -1288,9 +1288,9 @@
         "ageStructure": {
             "medianAge": "24,1 ans",
             "lifeExpectancy": {
-                "total": "55,2 ans (fortement grevée par la pandémie de VIH)",
-                "women": "58,2 ans",
-                "men": "52,4 ans"
+                "total": "57,8 ans",
+                "women": "60,4 ans",
+                "men": "55,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "33,8 %",
@@ -1300,7 +1300,7 @@
             "dependencyRatio": "62,9 %"
         },
         "urbanization": {
-            "urbanRate": "30,1 %",
+            "urbanRate": "43,7 %",
             "mainMetropolises": [
                 "Maseru (350 000 hab. - capitale frontalière sur la rivière Caledon)",
                 "Teyateyaneng (80 000 hab.)",
@@ -1322,13 +1322,13 @@
     },
     "LBR": {
         "general": {
-            "population": "5,42 millions d'habitants",
+            "population": "5,6 millions d'habitants",
             "globalRank": "124e mondial",
             "density": "56 hab./km²",
-            "growthRate": "+2,3 % par an"
+            "growthRate": "+2,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,0 enfants par femme",
+            "fertilityRate": "3,9 enfants par femme",
             "birthRate": "30,5 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "58,5 ‰",
@@ -1337,9 +1337,9 @@
         "ageStructure": {
             "medianAge": "19,2 ans",
             "lifeExpectancy": {
-                "total": "62,5 ans",
-                "women": "64,2 ans",
-                "men": "60,8 ans"
+                "total": "62,3 ans",
+                "women": "63,6 ans",
+                "men": "61,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,2 %",
@@ -1349,7 +1349,7 @@
             "dependencyRatio": "80,5 %"
         },
         "urbanization": {
-            "urbanRate": "53,2 %",
+            "urbanRate": "55,5 %",
             "mainMetropolises": [
                 "Monrovia (1,6 million hab. - capitale concentrant près d'un tiers des Libériens)",
                 "Gbarnga (60 000 hab. - centre intérieur)",
@@ -1371,10 +1371,10 @@
     },
     "LBY": {
         "general": {
-            "population": "6,90 millions d'habitants",
+            "population": "7,4 millions d'habitants",
             "globalRank": "108e mondial",
             "density": "3,9 hab./km² (l'une des plus faibles au monde, 90 % du pays sous le désert du Sahara)",
-            "growthRate": "+1,2 % par an"
+            "growthRate": "+1,0 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,3 enfants par femme (forte transition de fécondité maghrébine)",
@@ -1386,9 +1386,9 @@
         "ageStructure": {
             "medianAge": "29,2 ans",
             "lifeExpectancy": {
-                "total": "73,2 ans",
-                "women": "75,8 ans",
-                "men": "70,8 ans"
+                "total": "71,1 ans",
+                "women": "72,7 ans",
+                "men": "69,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "27,5 %",
@@ -1398,7 +1398,7 @@
             "dependencyRatio": "48,8 %"
         },
         "urbanization": {
-            "urbanRate": "81,3 % (population très urbanisée concentrée sur la frange côtière)",
+            "urbanRate": "87,9 % (population très urbanisée concentrée sur la frange côtière)",
             "mainMetropolises": [
                 "Tripoli (2,3 millions hab. - capitale et centre de la Tripolitaine à l'Ouest)",
                 "Benghazi (850 000 hab. - capitale historique de la Cyrénaïque à l'Est)",
@@ -1420,13 +1420,13 @@
     },
     "MDG": {
         "general": {
-            "population": "30,3 millions d'habitants",
+            "population": "32,0 millions d'habitants",
             "globalRank": "51e mondial (plus grande île d'Afrique et 4e plus grande île au monde)",
             "density": "52 hab./km² (concentrée sur les Hautes Terres centrales)",
             "growthRate": "+2,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,0 enfants par femme",
+            "fertilityRate": "3,9 enfants par femme",
             "birthRate": "30,8 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "38,2 ‰",
@@ -1435,9 +1435,9 @@
         "ageStructure": {
             "medianAge": "19,8 ans",
             "lifeExpectancy": {
-                "total": "65,2 ans",
-                "women": "67,5 ans",
-                "men": "63,1 ans"
+                "total": "63,8 ans",
+                "women": "65,6 ans",
+                "men": "62,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "39,5 %",
@@ -1447,7 +1447,7 @@
             "dependencyRatio": "74,8 %"
         },
         "urbanization": {
-            "urbanRate": "40,1 %",
+            "urbanRate": "32,4 %",
             "mainMetropolises": [
                 "Antananarivo (3,6 millions hab. aire métropolitaine - 'Tana', capitale sur les Hautes Terres)",
                 "Toamasina / Tamatave (350 000 hab. - 1er port maritime sur l'océan Indien)",
@@ -1470,13 +1470,13 @@
     },
     "MWI": {
         "general": {
-            "population": "20,9 millions d'habitants",
+            "population": "21,7 millions d'habitants",
             "globalRank": "61e mondial",
             "density": "222 hab./km² (l'une des plus fortes densités d'Afrique australe)",
-            "growthRate": "+2,5 % par an"
+            "growthRate": "+2,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,1 enfants par femme",
+            "fertilityRate": "3,6 enfants par femme",
             "birthRate": "32,5 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "36,5 ‰",
@@ -1485,9 +1485,9 @@
         "ageStructure": {
             "medianAge": "17,5 ans",
             "lifeExpectancy": {
-                "total": "63,5 ans",
-                "women": "66,8 ans",
-                "men": "60,2 ans"
+                "total": "67,6 ans",
+                "women": "70,8 ans",
+                "men": "64,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "43,0 %",
@@ -1497,7 +1497,7 @@
             "dependencyRatio": "84,5 %"
         },
         "urbanization": {
-            "urbanRate": "18,2 % (société rurale de petits exploitants de maïs et tabac)",
+            "urbanRate": "17,3 % (société rurale de petits exploitants de maïs et tabac)",
             "mainMetropolises": [
                 "Lilongwe (1,2 million hab. - capitale administrative et politique)",
                 "Blantyre (950 000 hab. - capitale économique et historique du Sud)",
@@ -1518,13 +1518,13 @@
     },
     "MLI": {
         "general": {
-            "population": "23,3 millions d'habitants",
+            "population": "24,5 millions d'habitants",
             "globalRank": "60e mondial",
             "density": "19 hab./km² (90 % de la population concentrée dans le tiers sud irrigué par les fleuves Niger et Sénégal)",
             "growthRate": "+2,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "5,6 enfants par femme (3e taux le plus élevé au monde)",
+            "fertilityRate": "5,5 enfants par femme (3e taux le plus élevé au monde)",
             "birthRate": "40,5 ‰",
             "deathRate": "9,2 ‰",
             "infantMortality": "61,2 ‰",
@@ -1533,9 +1533,9 @@
         "ageStructure": {
             "medianAge": "16,1 ans (l'une des populations les plus jeunes de la planète)",
             "lifeExpectancy": {
-                "total": "59,8 ans",
-                "women": "61,2 ans",
-                "men": "58,4 ans"
+                "total": "60,7 ans",
+                "women": "62,1 ans",
+                "men": "59,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "46,8 %",
@@ -1545,7 +1545,7 @@
             "dependencyRatio": "97,2 %"
         },
         "urbanization": {
-            "urbanRate": "45,2 %",
+            "urbanRate": "31,6 %",
             "mainMetropolises": [
                 "Bamako (3,0 millions hab. - capitale traversée par le fleuve Niger)",
                 "Sikasso (300 000 hab. - grenier agricole et carrefour frontalier)",
@@ -1568,13 +1568,13 @@
     },
     "MRT": {
         "general": {
-            "population": "4,95 millions d'habitants",
+            "population": "5,2 millions d'habitants",
             "globalRank": "127e mondial",
             "density": "4,8 hab./km² (quasi intégralement saharienne)",
-            "growthRate": "+2,6 % par an"
+            "growthRate": "+2,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,3 enfants par femme",
+            "fertilityRate": "4,6 enfants par femme",
             "birthRate": "32,1 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "48,2 ‰",
@@ -1583,9 +1583,9 @@
         "ageStructure": {
             "medianAge": "20,1 ans",
             "lifeExpectancy": {
-                "total": "65,2 ans",
-                "women": "67,1 ans",
-                "men": "63,4 ans"
+                "total": "68,7 ans",
+                "women": "70,7 ans",
+                "men": "66,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "39,8 %",
@@ -1595,7 +1595,7 @@
             "dependencyRatio": "76,1 %"
         },
         "urbanization": {
-            "urbanRate": "56,9 % (sédentarisation brutale des nomades depuis les grandes sécheresses des années 1970)",
+            "urbanRate": "60,6 % (sédentarisation brutale des nomades depuis les grandes sécheresses des années 1970)",
             "mainMetropolises": [
                 "Nouakchott (1,4 million hab. - capitale atlantique sortie des sables, abritant près d'un tiers du pays)",
                 "Nouadhibou (160 000 hab. - capitale économique, pêche et minerai de fer)",
@@ -1619,13 +1619,13 @@
     },
     "MUS": {
         "general": {
-            "population": "1,26 million d'habitants",
+            "population": "1,2 millions d'habitants",
             "globalRank": "158e mondial",
             "density": "620 hab./km² (plus forte densité d'Afrique)",
-            "growthRate": "-0,1 % par an (seul pays africain en transition démographique achevée et déclin naturel)"
+            "growthRate": "-0,2 % par an (seul pays africain en transition démographique achevée et déclin naturel)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,39 enfant par femme (sous le seuil de remplacement depuis plus d'une décennie)",
+            "fertilityRate": "1,4 enfant par femme (sous le seuil de remplacement depuis plus d'une décennie)",
             "birthRate": "9,8 ‰",
             "deathRate": "9,2 ‰",
             "infantMortality": "13,1 ‰",
@@ -1634,9 +1634,9 @@
         "ageStructure": {
             "medianAge": "37,8 ans (population la plus âgée d'Afrique subsaharienne)",
             "lifeExpectancy": {
-                "total": "74,8 ans",
-                "women": "78,2 ans",
-                "men": "71,5 ans"
+                "total": "73,8 ans",
+                "women": "77,4 ans",
+                "men": "70,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,5 %",
@@ -1646,7 +1646,7 @@
             "dependencyRatio": "41,8 %"
         },
         "urbanization": {
-            "urbanRate": "40,8 % (conurbation continue de Curepipe à Port-Louis le long de la ligne de tram Metro Express)",
+            "urbanRate": "39,0 % (conurbation continue de Curepipe à Port-Louis le long de la ligne de tram Metro Express)",
             "mainMetropolises": [
                 "Port-Louis (145 000 hab. - capitale et centre financier)",
                 "Beau Bassin-Rose Hill (110 000 hab.)",
@@ -1668,13 +1668,13 @@
     },
     "MAR": {
         "general": {
-            "population": "37,8 millions d'habitants (diaspora marocaine MRE estimée à plus de 5,5 millions de personnes en Europe)",
+            "population": "38,1 millions d'habitants (diaspora marocaine MRE estimée à plus de 5,5 millions de personnes en Europe)",
             "globalRank": "39e mondial",
             "density": "85 hab./km²",
             "growthRate": "+1,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,28 enfants par femme (en convergence vers le seuil de remplacement)",
+            "fertilityRate": "2,2 enfants par femme (en convergence vers le seuil de remplacement)",
             "birthRate": "16,8 ‰",
             "deathRate": "5,5 ‰",
             "infantMortality": "16,5 ‰",
@@ -1683,9 +1683,9 @@
         "ageStructure": {
             "medianAge": "29,5 ans",
             "lifeExpectancy": {
-                "total": "74,8 ans",
-                "women": "76,5 ans",
-                "men": "73,1 ans"
+                "total": "75,5 ans",
+                "women": "77,8 ans",
+                "men": "73,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "25,8 %",
@@ -1695,7 +1695,7 @@
             "dependencyRatio": "51,1 %"
         },
         "urbanization": {
-            "urbanRate": "64,6 %",
+            "urbanRate": "62,8 %",
             "mainMetropolises": [
                 "Grand Casablanca (4,3 millions hab. - cœur économique, financier et industriel)",
                 "Rabat-Salé-Kénitra (2,2 millions hab. - capitale politique et diplomatique)",
@@ -1718,13 +1718,13 @@
     },
     "MOZ": {
         "general": {
-            "population": "33,9 millions d'habitants",
+            "population": "34,6 millions d'habitants",
             "globalRank": "48e mondial",
             "density": "43 hab./km²",
-            "growthRate": "+2,8 % par an"
+            "growthRate": "+2,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,6 enfants par femme",
+            "fertilityRate": "4,7 enfants par femme",
             "birthRate": "36,2 ‰",
             "deathRate": "8,5 ‰",
             "infantMortality": "53,0 ‰",
@@ -1733,9 +1733,9 @@
         "ageStructure": {
             "medianAge": "17,2 ans",
             "lifeExpectancy": {
-                "total": "59,3 ans",
-                "women": "62,1 ans",
-                "men": "56,4 ans"
+                "total": "63,8 ans",
+                "women": "66,7 ans",
+                "men": "60,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "44,5 %",
@@ -1745,7 +1745,7 @@
             "dependencyRatio": "90,1 %"
         },
         "urbanization": {
-            "urbanRate": "38,2 %",
+            "urbanRate": "36,4 %",
             "mainMetropolises": [
                 "Maputo (1,2 million hab. intra-muros, 2,8 M agglomération Maputo-Matola)",
                 "Matola (1,6 million hab. - cité industrielle)",
@@ -1768,13 +1768,13 @@
     },
     "NAM": {
         "general": {
-            "population": "2,60 millions d'habitants",
+            "population": "3,0 millions d'habitants",
             "globalRank": "144e mondial",
             "density": "3,1 hab./km² (2e pays le moins densément peuplé du monde après la Mongolie)",
-            "growthRate": "+1,4 % par an"
+            "growthRate": "+2,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,1 enfants par femme",
+            "fertilityRate": "3,2 enfants par femme",
             "birthRate": "24,5 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "31,5 ‰",
@@ -1783,9 +1783,9 @@
         "ageStructure": {
             "medianAge": "22,1 ans",
             "lifeExpectancy": {
-                "total": "64,8 ans",
-                "women": "68,2 ans",
-                "men": "61,2 ans"
+                "total": "67,5 ans",
+                "women": "71,5 ans",
+                "men": "63,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "36,5 %",
@@ -1795,7 +1795,7 @@
             "dependencyRatio": "68,1 %"
         },
         "urbanization": {
-            "urbanRate": "54,0 %",
+            "urbanRate": "50,4 %",
             "mainMetropolises": [
                 "Windhoek (460 000 hab. - capitale au centre du plateau)",
                 "Walvis Bay (90 000 hab. - principal port commercial atlantique)",
@@ -1817,13 +1817,13 @@
     },
     "NER": {
         "general": {
-            "population": "27,2 millions d'habitants",
+            "population": "27,0 millions d'habitants",
             "globalRank": "55e mondial",
             "density": "21,5 hab./km² (95 % de la population concentrée sur une étroite bande sahélienne le long de la frontière nigériane)",
-            "growthRate": "+3,7 % par an (l'accroissement naturel le plus rapide au monde, doublement tous les 19 ans)"
+            "growthRate": "+3,3 % par an (l'accroissement naturel le plus rapide au monde, doublement tous les 19 ans)"
         },
         "fertilityMortality": {
-            "fertilityRate": "6,7 enfants par femme (record mondial absolu de fécondité)",
+            "fertilityRate": "5,9 enfants par femme (record mondial absolu de fécondité)",
             "birthRate": "44,8 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "44,5 ‰",
@@ -1832,9 +1832,9 @@
         "ageStructure": {
             "medianAge": "14,8 ans (la population la plus jeune au monde, plus de la moitié a moins de 15 ans)",
             "lifeExpectancy": {
-                "total": "62,8 ans",
-                "women": "64,2 ans",
-                "men": "61,5 ans"
+                "total": "61,4 ans",
+                "women": "62,4 ans",
+                "men": "60,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "50,6 % (majorité absolue d'enfants)",
@@ -1844,7 +1844,7 @@
             "dependencyRatio": "113,7 % (le plus lourd ratio de dépendance de la planète)"
         },
         "urbanization": {
-            "urbanRate": "17,1 % (pays massivement rural de cultivateurs de mil et d'éleveurs)",
+            "urbanRate": "18,0 % (pays massivement rural de cultivateurs de mil et d'éleveurs)",
             "mainMetropolises": [
                 "Niamey (1,5 million hab. - capitale sur le fleuve Niger)",
                 "Maradi (400 000 hab. - capitale économique et carrefour commercial haoussa vers Kano)",
@@ -1866,13 +1866,13 @@
     },
     "NGA": {
         "general": {
-            "population": "223,8 millions d'habitants",
+            "population": "232,7 millions d'habitants",
             "globalRank": "6e mondial (1er d'Afrique, 1 Africain sur 6 est Nigérian)",
             "density": "243 hab./km²",
-            "growthRate": "+2,4 % par an (gain net d'environ 5,3 millions d'habitants par an)"
+            "growthRate": "+2,1 % par an (gain net d'environ 5,3 millions d'habitants par an)"
         },
         "fertilityMortality": {
-            "fertilityRate": "5,1 enfants par femme (fort contraste : 6,6 au Nord-Ouest contre 3,8 au Sud-Ouest)",
+            "fertilityRate": "4,4 enfants par femme (fort contraste : 6,6 au Nord-Ouest contre 3,8 au Sud-Ouest)",
             "birthRate": "36,5 ‰",
             "deathRate": "11,5 ‰",
             "infantMortality": "68,0 ‰",
@@ -1881,9 +1881,9 @@
         "ageStructure": {
             "medianAge": "18,1 ans",
             "lifeExpectancy": {
-                "total": "53,6 ans (l'une des plus faibles espérances de vie d'Afrique)",
-                "women": "54,8 ans",
-                "men": "52,4 ans"
+                "total": "54,6 ans",
+                "women": "54,9 ans",
+                "men": "54,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "43,8 %",
@@ -1893,7 +1893,7 @@
             "dependencyRatio": "87,3 %"
         },
         "urbanization": {
-            "urbanRate": "53,5 %",
+            "urbanRate": "63,0 %",
             "mainMetropolises": [
                 "Lagos (16,0 millions hab. - 1ère mégapole d'Afrique, géant financier, portuaire et culturel de Nollywood)",
                 "Kano (4,3 millions hab. - métropole historique et commerciale du Nord sahélien)",
@@ -1917,13 +1917,13 @@
     },
     "RWA": {
         "general": {
-            "population": "14,1 millions d'habitants",
+            "population": "14,3 millions d'habitants",
             "globalRank": "77e mondial",
             "density": "540 hab./km² (pays le plus densément peuplé d'Afrique continentale, 'pays des mille collines')",
-            "growthRate": "+2,3 % par an"
+            "growthRate": "+2,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,8 enfants par femme (en forte baisse grâce à la généralisation de la santé communautaire)",
+            "fertilityRate": "3,6 enfants par femme (en forte baisse grâce à la généralisation de la santé communautaire)",
             "birthRate": "28,5 ‰",
             "deathRate": "5,2 ‰",
             "infantMortality": "27,5 ‰ (l'une des plus spectaculaires baisses de mortalité infantile d'Afrique)",
@@ -1932,9 +1932,9 @@
         "ageStructure": {
             "medianAge": "20,0 ans",
             "lifeExpectancy": {
-                "total": "67,1 ans (en bond historique depuis 1994 : 32 ans)",
-                "women": "69,4 ans",
-                "men": "64,8 ans"
+                "total": "68,0 ans",
+                "women": "70,1 ans",
+                "men": "65,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "39,2 %",
@@ -1944,7 +1944,7 @@
             "dependencyRatio": "73,9 %"
         },
         "urbanization": {
-            "urbanRate": "17,8 % (habitat rural dense réparti sur toutes les collines)",
+            "urbanRate": "29,9 % (habitat rural dense réparti sur toutes les collines)",
             "mainMetropolises": [
                 "Kigali (1,4 million hab. - capitale moderne, réputée la plus propre et sûre d'Afrique)",
                 "Gisenyi / Rubavu (160 000 hab. - frontière de Goma / RDC sur le lac Kivu)",
@@ -1965,13 +1965,13 @@
     },
     "STP": {
         "general": {
-            "population": "232 000 habitants (2e plus petit État d'Afrique après les Seychelles)",
+            "population": "235 536 habitants (2e plus petit État d'Afrique après les Seychelles)",
             "globalRank": "187e mondial",
             "density": "241 hab./km² (sur les îles de São Tomé et Príncipe)",
-            "growthRate": "+1,9 % par an"
+            "growthRate": "+2,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,9 enfants par femme",
+            "fertilityRate": "3,6 enfants par femme",
             "birthRate": "28,0 ‰",
             "deathRate": "6,1 ‰",
             "infantMortality": "24,8 ‰",
@@ -1980,9 +1980,9 @@
         "ageStructure": {
             "medianAge": "19,5 ans",
             "lifeExpectancy": {
-                "total": "68,2 ans",
-                "women": "70,5 ans",
-                "men": "65,8 ans"
+                "total": "69,9 ans",
+                "women": "73,9 ans",
+                "men": "66,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "39,8 %",
@@ -1992,7 +1992,7 @@
             "dependencyRatio": "76,1 %"
         },
         "urbanization": {
-            "urbanRate": "75,8 %",
+            "urbanRate": "68,9 %",
             "mainMetropolises": [
                 "São Tomé (85 000 hab. - capitale concentrant près de 40 % de la population)",
                 "Neves (12 000 hab. - port industriel)",
@@ -2013,13 +2013,13 @@
     },
     "SEN": {
         "general": {
-            "population": "18,0 millions d'habitants (diaspora sénégalaise estimée à plus d'un million en France, Italie, Espagne et États-Unis)",
+            "population": "18,5 millions d'habitants (diaspora sénégalaise estimée à plus d'un million en France, Italie, Espagne et États-Unis)",
             "globalRank": "69e mondial",
             "density": "92 hab./km²",
-            "growthRate": "+2,5 % par an"
+            "growthRate": "+2,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,3 enfants par femme (en recul net à Dakar : 2,8)",
+            "fertilityRate": "3,8 enfants par femme (en recul net à Dakar : 2,8)",
             "birthRate": "31,5 ‰",
             "deathRate": "5,8 ‰",
             "infantMortality": "31,2 ‰",
@@ -2028,9 +2028,9 @@
         "ageStructure": {
             "medianAge": "19,0 ans",
             "lifeExpectancy": {
-                "total": "67,9 ans",
-                "women": "70,2 ans",
-                "men": "65,4 ans"
+                "total": "68,9 ans",
+                "women": "71,0 ans",
+                "men": "67,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,2 %",
@@ -2040,7 +2040,7 @@
             "dependencyRatio": "80,2 %"
         },
         "urbanization": {
-            "urbanRate": "49,1 %",
+            "urbanRate": "55,2 %",
             "mainMetropolises": [
                 "Dakar (3,9 millions hab. - presqu'île surpeuplée concentrant 23 % de la population et 80 % de l'activité économique)",
                 "Touba (1,1 million hab. - cité sainte autonome de la confrérie mouride en croissance démographique vertigineuse)",
@@ -2063,13 +2063,13 @@
     },
     "SYC": {
         "general": {
-            "population": "100 400 habitants (le pays le moins peuplé d'Afrique)",
+            "population": "121 354 habitants (le pays le moins peuplé d'Afrique)",
             "globalRank": "198e mondial",
             "density": "220 hab./km² (archipel de 115 îles granitiques et coralliennes)",
-            "growthRate": "+0,6 % par an (seul pays africain classé à 'Très haut développement humain')"
+            "growthRate": "+1,3 % par an (seul pays africain classé à 'Très haut développement humain')"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,2 enfants par femme",
+            "fertilityRate": "1,9 enfants par femme",
             "birthRate": "16,2 ‰",
             "deathRate": "8,1 ‰",
             "infantMortality": "11,5 ‰ (la plus basse d'Afrique)",
@@ -2078,9 +2078,9 @@
         "ageStructure": {
             "medianAge": "36,8 ans (l'une des populations les plus mûres du continent)",
             "lifeExpectancy": {
-                "total": "74,2 ans",
-                "women": "78,5 ans",
-                "men": "70,2 ans"
+                "total": "76,3 ans",
+                "women": "80,7 ans",
+                "men": "72,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "19,5 %",
@@ -2090,7 +2090,7 @@
             "dependencyRatio": "40,8 %"
         },
         "urbanization": {
-            "urbanRate": "58,2 %",
+            "urbanRate": "45,3 %",
             "mainMetropolises": [
                 "Victoria (28 000 hab. - plus petite capitale d'Afrique sur l'île de Mahé, concentrant 85 % de la population totale)",
                 "Anse Etoile (5 000 hab.)",
@@ -2112,13 +2112,13 @@
     },
     "SLE": {
         "general": {
-            "population": "8,79 millions d'habitants",
+            "population": "8,6 millions d'habitants",
             "globalRank": "102e mondial",
             "density": "122 hab./km²",
             "growthRate": "+2,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,0 enfants par femme",
+            "fertilityRate": "3,7 enfants par femme",
             "birthRate": "30,8 ‰",
             "deathRate": "10,2 ‰",
             "infantMortality": "75,0 ‰ (l'une des plus tragiques au monde)",
@@ -2127,9 +2127,9 @@
         "ageStructure": {
             "medianAge": "19,4 ans",
             "lifeExpectancy": {
-                "total": "55,8 ans (parmi les 5 plus faibles espérances de vie du globe)",
-                "women": "57,2 ans",
-                "men": "54,4 ans"
+                "total": "62,0 ans",
+                "women": "63,7 ans",
+                "men": "60,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "40,5 %",
@@ -2139,7 +2139,7 @@
             "dependencyRatio": "77,9 %"
         },
         "urbanization": {
-            "urbanRate": "44,5 %",
+            "urbanRate": "45,4 %",
             "mainMetropolises": [
                 "Freetown (1,3 million hab. - capitale historique fondée pour les esclaves noirs libérés)",
                 "Bo (250 000 hab. - métropole du Sud)",
@@ -2161,13 +2161,13 @@
     },
     "SOM": {
         "general": {
-            "population": "18,1 millions d'habitants (diaspora somalienne massive de plus de 2 millions de personnes en Europe, au Kenya, en Éthiopie et aux États-Unis)",
+            "population": "19,0 millions d'habitants (diaspora somalienne massive de plus de 2 millions de personnes en Europe, au Kenya, en Éthiopie et aux États-Unis)",
             "globalRank": "67e mondial",
             "density": "28,5 hab./km²",
-            "growthRate": "+3,1 % par an"
+            "growthRate": "+3,5 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "6,1 enfants par femme (2e taux le plus élevé au monde après le Niger)",
+            "fertilityRate": "6,0 enfants par femme (2e taux le plus élevé au monde après le Niger)",
             "birthRate": "41,8 ‰",
             "deathRate": "10,8 ‰",
             "infantMortality": "69,5 ‰",
@@ -2176,9 +2176,9 @@
         "ageStructure": {
             "medianAge": "16,5 ans",
             "lifeExpectancy": {
-                "total": "56,5 ans",
-                "women": "58,8 ans",
-                "men": "54,2 ans"
+                "total": "59,0 ans",
+                "women": "61,6 ans",
+                "men": "56,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "46,5 %",
@@ -2188,7 +2188,7 @@
             "dependencyRatio": "96,8 %"
         },
         "urbanization": {
-            "urbanRate": "47,3 % (exode massif des pasteurs nomades vers les camps urbains suite aux sécheresses)",
+            "urbanRate": "54,6 % (exode massif des pasteurs nomades vers les camps urbains suite aux sécheresses)",
             "mainMetropolises": [
                 "Mogadiscio (2,6 millions hab. - 'Xamar', capitale sur l'océan Indien)",
                 "Hargeisa (1,2 million hab. - capitale de la république autoproclamée du Somaliland)",
@@ -2210,13 +2210,13 @@
     },
     "ZAF": {
         "general": {
-            "population": "60,6 millions d'habitants",
+            "population": "64,0 millions d'habitants",
             "globalRank": "24e mondial (pôle économique et technologique le plus avancé d'Afrique)",
             "density": "50 hab./km²",
-            "growthRate": "+1,0 % par an"
+            "growthRate": "+1,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,3 enfants par femme (transition de fécondité achevée)",
+            "fertilityRate": "2,2 enfants par femme (transition de fécondité achevée)",
             "birthRate": "19,5 ‰",
             "deathRate": "9,8 ‰",
             "infantMortality": "25,8 ‰",
@@ -2225,9 +2225,9 @@
         "ageStructure": {
             "medianAge": "28,0 ans",
             "lifeExpectancy": {
-                "total": "65,3 ans (fort rebond après l'hécatombe du VIH des années 2000)",
-                "women": "68,2 ans",
-                "men": "62,4 ans"
+                "total": "66,3 ans",
+                "women": "69,8 ans",
+                "men": "62,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "28,8 %",
@@ -2237,7 +2237,7 @@
             "dependencyRatio": "53,4 %"
         },
         "urbanization": {
-            "urbanRate": "68,3 %",
+            "urbanRate": "63,7 %",
             "mainMetropolises": [
                 "Johannesburg (5,9 millions hab. - 'Egoli', cœur financier, minier et commercial)",
                 "Le Cap / Cape Town (4,8 millions hab. - capitale législative et pôle touristique/tech)",
@@ -2259,13 +2259,13 @@
     },
     "SSD": {
         "general": {
-            "population": "11,1 millions d'habitants (plus jeune État souverain de la planète, indépendant depuis 2011)",
+            "population": "11,9 millions d'habitants (plus jeune État souverain de la planète, indépendant depuis 2011)",
             "globalRank": "87e mondial",
             "density": "17,2 hab./km²",
-            "growthRate": "+1,6 % par an"
+            "growthRate": "+3,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,4 enfants par femme",
+            "fertilityRate": "3,8 enfants par femme",
             "birthRate": "28,8 ‰",
             "deathRate": "10,5 ‰",
             "infantMortality": "63,5 ‰",
@@ -2274,9 +2274,9 @@
         "ageStructure": {
             "medianAge": "18,2 ans",
             "lifeExpectancy": {
-                "total": "55,8 ans",
-                "women": "57,5 ans",
-                "men": "54,1 ans"
+                "total": "57,7 ans",
+                "women": "60,7 ans",
+                "men": "54,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,8 %",
@@ -2286,7 +2286,7 @@
             "dependencyRatio": "81,2 %"
         },
         "urbanization": {
-            "urbanRate": "21,2 % (habitat pastoral le long des marécages géants du Sudd)",
+            "urbanRate": "21,4 % (habitat pastoral le long des marécages géants du Sudd)",
             "mainMetropolises": [
                 "Juba (550 000 hab. - capitale en croissance rapide sur le Nil blanc)",
                 "Wau (180 000 hab. - centre du Bahr el-Ghazal)",
@@ -2308,13 +2308,13 @@
     },
     "SDN": {
         "general": {
-            "population": "48,1 millions d'habitants",
+            "population": "50,4 millions d'habitants",
             "globalRank": "31e mondial (3e d'Afrique par la superficie)",
             "density": "25,5 hab./km²",
-            "growthRate": "+2,3 % par an (actuellement bouleversé par la guerre civile déclenchée en avril 2023)"
+            "growthRate": "+0,8 % par an (actuellement bouleversé par la guerre civile déclenchée en avril 2023)"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,2 enfants par femme",
+            "fertilityRate": "4,3 enfants par femme",
             "birthRate": "31,8 ‰",
             "deathRate": "7,1 ‰",
             "infantMortality": "41,2 ‰",
@@ -2323,9 +2323,9 @@
         "ageStructure": {
             "medianAge": "19,5 ans",
             "lifeExpectancy": {
-                "total": "65,3 ans",
-                "women": "67,2 ans",
-                "men": "63,5 ans"
+                "total": "66,5 ans",
+                "women": "69,8 ans",
+                "men": "63,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "40,2 %",
@@ -2335,7 +2335,7 @@
             "dependencyRatio": "76,7 %"
         },
         "urbanization": {
-            "urbanRate": "36,2 %",
+            "urbanRate": "34,9 %",
             "mainMetropolises": [
                 "Khartoum-Omdurman-Bahri (6,5 millions hab. avant la guerre - conurbation des trois villes au confluent du Nil Blanc et du Nil Bleu, aujourd'hui champ de ruines)",
                 "Port-Soudan (700 000 hab. - capitale administrative de repli et unique débouché sur la mer Rouge)",
@@ -2358,13 +2358,13 @@
     },
     "TZA": {
         "general": {
-            "population": "67,4 millions d'habitants",
+            "population": "68,6 millions d'habitants",
             "globalRank": "23e mondial (2e d'Afrique de l'Est)",
             "density": "71 hab./km² (incluant l'archipel autonome de Zanzibar)",
             "growthRate": "+2,9 % par an (gain net de près de 2 millions d'habitants chaque année)"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,6 enfants par femme (en recul régulier : 6,2 en 1991)",
+            "fertilityRate": "4,5 enfants par femme (en recul régulier : 6,2 en 1991)",
             "birthRate": "34,8 ‰",
             "deathRate": "6,1 ‰",
             "infantMortality": "34,0 ‰",
@@ -2373,9 +2373,9 @@
         "ageStructure": {
             "medianAge": "18,2 ans",
             "lifeExpectancy": {
-                "total": "66,8 ans",
-                "women": "69,1 ans",
-                "men": "64,5 ans"
+                "total": "67,2 ans",
+                "women": "70,0 ans",
+                "men": "64,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "43,0 %",
@@ -2385,7 +2385,7 @@
             "dependencyRatio": "85,5 %"
         },
         "urbanization": {
-            "urbanRate": "36,8 %",
+            "urbanRate": "36,2 %",
             "mainMetropolises": [
                 "Dar es Salaam (7,5 millions hab. - mégapole côtière galopante, pôle portuaire de toute l'Afrique centrale)",
                 "Mwanza (1,3 million hab. - capitale économique sur le lac Victoria)",
@@ -2407,10 +2407,10 @@
     },
     "TGO": {
         "general": {
-            "population": "9,05 millions d'habitants",
+            "population": "8,4 millions d'habitants",
             "globalRank": "99e mondial",
             "density": "159 hab./km²",
-            "growthRate": "+2,3 % par an"
+            "growthRate": "+2,2 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "4,1 enfants par femme",
@@ -2422,9 +2422,9 @@
         "ageStructure": {
             "medianAge": "19,5 ans",
             "lifeExpectancy": {
-                "total": "61,9 ans",
-                "women": "63,5 ans",
-                "men": "60,2 ans"
+                "total": "62,9 ans",
+                "women": "63,2 ans",
+                "men": "62,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "40,8 %",
@@ -2434,7 +2434,7 @@
             "dependencyRatio": "79,2 %"
         },
         "urbanization": {
-            "urbanRate": "43,9 %",
+            "urbanRate": "43,8 %",
             "mainMetropolises": [
                 "Lomé (2,1 millions hab. agglomération - hub maritime en eau profonde et pôle financier régional)",
                 "Sokodé (130 000 hab. - métropole kotokoli du Centre)",
@@ -2456,13 +2456,13 @@
     },
     "TUN": {
         "general": {
-            "population": "12,45 millions d'habitants (diaspora de plus de 1,4 million de Tunisiens à l'étranger, principalement en France, Italie et Allemagne)",
+            "population": "12,3 millions d'habitants (diaspora de plus de 1,4 million de Tunisiens à l'étranger, principalement en France, Italie et Allemagne)",
             "globalRank": "79e mondial",
             "density": "76 hab./km²",
-            "growthRate": "+0,7 % par an (pionnière de la transition démographique dans le monde arabe)"
+            "growthRate": "+0,6 % par an (pionnière de la transition démographique dans le monde arabe)"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,0 enfants par femme (en dessous du seuil de remplacement)",
+            "fertilityRate": "1,8 enfants par femme (en dessous du seuil de remplacement)",
             "birthRate": "14,8 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "11,8 ‰",
@@ -2471,9 +2471,9 @@
         "ageStructure": {
             "medianAge": "33,8 ans (population la plus mûre du Maghreb)",
             "lifeExpectancy": {
-                "total": "76,8 ans",
-                "women": "79,2 ans",
-                "men": "74,5 ans"
+                "total": "76,7 ans",
+                "women": "79,3 ans",
+                "men": "74,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "23,5 %",
@@ -2483,7 +2483,7 @@
             "dependencyRatio": "48,8 %"
         },
         "urbanization": {
-            "urbanRate": "70,2 %",
+            "urbanRate": "70,4 %",
             "mainMetropolises": [
                 "Grand Tunis (2,8 millions hab. - concentre un quart de la population tunisienne)",
                 "Sfax (1,0 million hab. - capitale économique, industrielle et oléicole)",
@@ -2506,13 +2506,13 @@
     },
     "UGA": {
         "general": {
-            "population": "48,6 millions d'habitants",
+            "population": "50,0 millions d'habitants",
             "globalRank": "30e mondial (3e d'Afrique de l'Est)",
             "density": "201 hab./km²",
-            "growthRate": "+3,0 % par an"
+            "growthRate": "+2,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,7 enfants par femme",
+            "fertilityRate": "4,2 enfants par femme",
             "birthRate": "35,8 ‰",
             "deathRate": "5,9 ‰",
             "infantMortality": "38,5 ‰",
@@ -2521,9 +2521,9 @@
         "ageStructure": {
             "medianAge": "16,7 ans (l'une des 4 populations les plus jeunes de la planète)",
             "lifeExpectancy": {
-                "total": "63,8 ans",
-                "women": "66,1 ans",
-                "men": "61,4 ans"
+                "total": "68,5 ans",
+                "women": "71,4 ans",
+                "men": "65,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "46,0 %",
@@ -2533,7 +2533,7 @@
             "dependencyRatio": "93,1 %"
         },
         "urbanization": {
-            "urbanRate": "26,2 %",
+            "urbanRate": "31,3 %",
             "mainMetropolises": [
                 "Grand Kampala (3,8 millions hab. - capitale étalée sur sept collines au bord du lac Victoria)",
                 "Nansana (400 000 hab. - banlieue de Kampala)",
@@ -2556,13 +2556,13 @@
     },
     "ZMB": {
         "general": {
-            "population": "20,6 millions d'habitants",
+            "population": "21,3 millions d'habitants",
             "globalRank": "63e mondial",
             "density": "27,5 hab./km²",
             "growthRate": "+2,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,3 enfants par femme",
+            "fertilityRate": "4,0 enfants par femme",
             "birthRate": "33,8 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "39,0 ‰",
@@ -2571,9 +2571,9 @@
         "ageStructure": {
             "medianAge": "17,6 ans",
             "lifeExpectancy": {
-                "total": "64,2 ans",
-                "women": "66,8 ans",
-                "men": "61,5 ans"
+                "total": "66,5 ans",
+                "women": "68,9 ans",
+                "men": "64,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "43,8 %",
@@ -2606,13 +2606,13 @@
     },
     "ZWE": {
         "general": {
-            "population": "16,7 millions d'habitants (diaspora zimbabwéenne estimée à plus de 3 millions de personnes, principalement en Afrique du Sud et au Royaume-Uni)",
+            "population": "16,6 millions d'habitants (diaspora zimbabwéenne estimée à plus de 3 millions de personnes, principalement en Afrique du Sud et au Royaume-Uni)",
             "globalRank": "74e mondial",
             "density": "43 hab./km²",
-            "growthRate": "+2,0 % par an"
+            "growthRate": "+1,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,5 enfants par femme",
+            "fertilityRate": "3,7 enfants par femme",
             "birthRate": "29,2 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "34,8 ‰",
@@ -2621,9 +2621,9 @@
         "ageStructure": {
             "medianAge": "19,2 ans",
             "lifeExpectancy": {
-                "total": "61,8 ans",
-                "women": "64,2 ans",
-                "men": "59,1 ans"
+                "total": "63,1 ans",
+                "women": "65,3 ans",
+                "men": "60,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "41,0 %",
@@ -2633,7 +2633,7 @@
             "dependencyRatio": "79,2 %"
         },
         "urbanization": {
-            "urbanRate": "32,5 %",
+            "urbanRate": "39,9 %",
             "mainMetropolises": [
                 "Harare (2,5 millions hab. intra-muros, 3,2 M aire métropolitaine)",
                 "Bulawayo (700 000 hab. - capitale historique du Matabeleland)",

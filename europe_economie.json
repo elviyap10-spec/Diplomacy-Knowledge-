@@ -7,11 +7,11 @@
             "centralBank": "Deutsche Bundesbank / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "4 456 milliards USD",
-            "gdpPerCapita": "52 800 USD",
+            "gdpNominal": "4,7 billions USD",
+            "gdpPerCapita": "56 104 USD",
             "globalRank": "3e mondial (1er en Europe)",
-            "growth": "-0,3 %",
-            "inflation": "2,4 %"
+            "growth": "-0,5 %",
+            "inflation": "2,3 %"
         },
         "structure": {
             "services": "69 %",
@@ -53,11 +53,11 @@
             "centralBank": "Banque de France / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "3 030 milliards USD",
-            "gdpPerCapita": "44 500 USD",
+            "gdpNominal": "3,2 billions USD",
+            "gdpPerCapita": "46 103 USD",
             "globalRank": "7e mondial (2e en Europe)",
-            "growth": "+0,9 %",
-            "inflation": "2,3 %"
+            "growth": "+1,2 %",
+            "inflation": "2,0 %"
         },
         "structure": {
             "services": "79 %",
@@ -99,11 +99,11 @@
             "centralBank": "Banque d'Angleterre (Bank of England)"
         },
         "macro": {
-            "gdpNominal": "3 340 milliards USD",
-            "gdpPerCapita": "49 000 USD",
+            "gdpNominal": "3,7 billions USD",
+            "gdpPerCapita": "53 341 USD",
             "globalRank": "6e mondial (3e en Europe)",
-            "growth": "+0,5 %",
-            "inflation": "2,6 %"
+            "growth": "+1,1 %",
+            "inflation": "3,3 %"
         },
         "structure": {
             "services": "81 %",
@@ -145,11 +145,11 @@
             "centralBank": "Banca d'Italia / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "2 250 milliards USD",
-            "gdpPerCapita": "38 200 USD",
+            "gdpNominal": "2,4 billions USD",
+            "gdpPerCapita": "40 430 USD",
             "globalRank": "8e mondial (4e en Europe)",
-            "growth": "+0,7 %",
-            "inflation": "1,2 %"
+            "growth": "+0,8 %",
+            "inflation": "1,0 %"
         },
         "structure": {
             "services": "73 %",
@@ -191,11 +191,11 @@
             "centralBank": "Banque centrale de la Fédération de Russie"
         },
         "macro": {
-            "gdpNominal": "2 020 milliards USD",
-            "gdpPerCapita": "14 000 USD",
+            "gdpNominal": "2,2 billions USD",
+            "gdpPerCapita": "14 962 USD",
             "globalRank": "11e mondial",
-            "growth": "+3,6 %",
-            "inflation": "7,5 %"
+            "growth": "+4,9 %",
+            "inflation": "8,4 %"
         },
         "structure": {
             "services": "56 %",
@@ -235,10 +235,10 @@
             "centralBank": "Banco de España / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "1 580 milliards USD",
-            "gdpPerCapita": "32 700 USD",
+            "gdpNominal": "1,7 billions USD",
+            "gdpPerCapita": "35 327 USD",
             "globalRank": "14e mondial",
-            "growth": "+2,5 %",
+            "growth": "+3,5 %",
             "inflation": "2,8 %"
         },
         "structure": {
@@ -280,11 +280,11 @@
             "centralBank": "De Nederlandsche Bank / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "1 110 milliards USD",
-            "gdpPerCapita": "62 500 USD",
+            "gdpNominal": "1,2 billions USD",
+            "gdpPerCapita": "67 465 USD",
             "globalRank": "18e mondial",
-            "growth": "+0,6 %",
-            "inflation": "2,7 %"
+            "growth": "+1,1 %",
+            "inflation": "3,3 %"
         },
         "structure": {
             "services": "80 %",
@@ -325,11 +325,11 @@
             "centralBank": "Banque centrale de la République de Turquie (TCMB)"
         },
         "macro": {
-            "gdpNominal": "1 150 milliards USD",
-            "gdpPerCapita": "13 300 USD",
+            "gdpNominal": "1,4 billions USD",
+            "gdpPerCapita": "15 893 USD",
             "globalRank": "17e mondial",
-            "growth": "+4,5 %",
-            "inflation": "65,0 %"
+            "growth": "+3,3 %",
+            "inflation": "58,5 %"
         },
         "structure": {
             "services": "55 %",
@@ -369,11 +369,11 @@
             "centralBank": "Banque nationale suisse (BNS)"
         },
         "macro": {
-            "gdpNominal": "885 milliards USD",
-            "gdpPerCapita": "99 000 USD",
+            "gdpNominal": "970 milliards USD",
+            "gdpPerCapita": "107 702 USD",
             "globalRank": "20e mondial",
-            "growth": "+1,3 %",
-            "inflation": "1,4 %"
+            "growth": "+1,4 %",
+            "inflation": "1,1 %"
         },
         "structure": {
             "services": "74 %",
@@ -412,11 +412,11 @@
             "centralBank": "Banque nationale de Pologne (NBP)"
         },
         "macro": {
-            "gdpNominal": "811 milliards USD",
-            "gdpPerCapita": "21 800 USD",
+            "gdpNominal": "918 milliards USD",
+            "gdpPerCapita": "25 104 USD",
             "globalRank": "21e mondial",
-            "growth": "+2,8 %",
-            "inflation": "4,2 %"
+            "growth": "+3,0 %",
+            "inflation": "3,8 %"
         },
         "structure": {
             "services": "63 %",
@@ -456,10 +456,10 @@
             "centralBank": "Banque nationale de Belgique / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "632 milliards USD",
-            "gdpPerCapita": "53 800 USD",
+            "gdpNominal": "671 milliards USD",
+            "gdpPerCapita": "56 582 USD",
             "globalRank": "25e mondial",
-            "growth": "+1,4 %",
+            "growth": "+1,1 %",
             "inflation": "3,1 %"
         },
         "structure": {
@@ -501,11 +501,11 @@
             "centralBank": "Sveriges Riksbank"
         },
         "macro": {
-            "gdpNominal": "593 milliards USD",
-            "gdpPerCapita": "56 200 USD",
+            "gdpNominal": "605 milliards USD",
+            "gdpPerCapita": "57 223 USD",
             "globalRank": "24e mondial",
             "growth": "+0,8 %",
-            "inflation": "2,1 %"
+            "inflation": "2,8 %"
         },
         "structure": {
             "services": "74 %",
@@ -545,11 +545,11 @@
             "centralBank": "Banque centrale d'Irlande / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "545 milliards USD",
-            "gdpPerCapita": "103 000 USD",
+            "gdpNominal": "609 milliards USD",
+            "gdpPerCapita": "112 895 USD",
             "globalRank": "28e mondial",
-            "growth": "+2,0 %",
-            "inflation": "2,2 %"
+            "growth": "+2,6 %",
+            "inflation": "2,1 %"
         },
         "structure": {
             "services": "75 %",
@@ -589,11 +589,11 @@
             "centralBank": "Oesterreichische Nationalbank / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "516 milliards USD",
-            "gdpPerCapita": "56 800 USD",
+            "gdpNominal": "535 milliards USD",
+            "gdpPerCapita": "58 269 USD",
             "globalRank": "32e mondial",
             "growth": "-0,7 %",
-            "inflation": "3,2 %"
+            "inflation": "2,9 %"
         },
         "structure": {
             "services": "70 %",
@@ -633,11 +633,11 @@
             "centralBank": "Norges Bank"
         },
         "macro": {
-            "gdpNominal": "485 milliards USD",
-            "gdpPerCapita": "88 000 USD",
+            "gdpNominal": "501 milliards USD",
+            "gdpPerCapita": "89 889 USD",
             "globalRank": "33e mondial",
-            "growth": "+1,2 %",
-            "inflation": "3,5 %"
+            "growth": "+1,4 %",
+            "inflation": "3,2 %"
         },
         "structure": {
             "services": "64 %",
@@ -678,11 +678,11 @@
             "centralBank": "Danmarks Nationalbank"
         },
         "macro": {
-            "gdpNominal": "404 milliards USD",
-            "gdpPerCapita": "68 000 USD",
+            "gdpNominal": "425 milliards USD",
+            "gdpPerCapita": "71 026 USD",
             "globalRank": "36e mondial",
-            "growth": "+1,9 %",
-            "inflation": "1,8 %"
+            "growth": "+3,5 %",
+            "inflation": "1,4 %"
         },
         "structure": {
             "services": "76 %",
@@ -722,11 +722,11 @@
             "centralBank": "Banca Națională a României (BNR)"
         },
         "macro": {
-            "gdpNominal": "350 milliards USD",
-            "gdpPerCapita": "18 500 USD",
+            "gdpNominal": "383 milliards USD",
+            "gdpPerCapita": "20 080 USD",
             "globalRank": "44e mondial",
-            "growth": "+2,6 %",
-            "inflation": "5,4 %"
+            "growth": "+0,9 %",
+            "inflation": "5,7 %"
         },
         "structure": {
             "services": "62 %",
@@ -764,11 +764,11 @@
             "centralBank": "Banque nationale tchèque (ČNB)"
         },
         "macro": {
-            "gdpNominal": "330 milliards USD",
-            "gdpPerCapita": "30 400 USD",
+            "gdpNominal": "347 milliards USD",
+            "gdpPerCapita": "31 828 USD",
             "globalRank": "46e mondial",
-            "growth": "+1,1 %",
-            "inflation": "2,5 %"
+            "growth": "+1,3 %",
+            "inflation": "2,4 %"
         },
         "structure": {
             "services": "60 %",
@@ -808,10 +808,10 @@
             "centralBank": "Banque de Finlande / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "300 milliards USD",
-            "gdpPerCapita": "54 000 USD",
+            "gdpNominal": "299 milliards USD",
+            "gdpPerCapita": "53 156 USD",
             "globalRank": "45e mondial",
-            "growth": "-0,2 %",
+            "growth": "+0,4 %",
             "inflation": "1,6 %"
         },
         "structure": {
@@ -853,11 +853,11 @@
             "centralBank": "Banco de Portugal / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "287 milliards USD",
-            "gdpPerCapita": "27 900 USD",
+            "gdpNominal": "314 milliards USD",
+            "gdpPerCapita": "29 328 USD",
             "globalRank": "47e mondial",
-            "growth": "+2,3 %",
-            "inflation": "2,6 %"
+            "growth": "+2,2 %",
+            "inflation": "2,4 %"
         },
         "structure": {
             "services": "76 %",
@@ -897,11 +897,11 @@
             "centralBank": "Banque de Grèce / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "242 milliards USD",
-            "gdpPerCapita": "23 000 USD",
+            "gdpNominal": "256 milliards USD",
+            "gdpPerCapita": "24 626 USD",
             "globalRank": "52e mondial",
-            "growth": "+2,0 %",
-            "inflation": "3,0 %"
+            "growth": "+2,1 %",
+            "inflation": "2,7 %"
         },
         "structure": {
             "services": "80 %",
@@ -941,11 +941,11 @@
             "centralBank": "Banque nationale de Hongrie (MNB)"
         },
         "macro": {
-            "gdpNominal": "212 milliards USD",
+            "gdpNominal": "223 milliards USD",
             "gdpPerCapita": "22 000 USD",
             "globalRank": "57e mondial",
             "growth": "+1,5 %",
-            "inflation": "3,8 %"
+            "inflation": "3,7 %"
         },
         "structure": {
             "services": "66 %",
@@ -985,11 +985,11 @@
             "centralBank": "Banque nationale d'Ukraine (NBU)"
         },
         "macro": {
-            "gdpNominal": "178 milliards USD",
-            "gdpPerCapita": "4 700 USD",
+            "gdpNominal": "191 milliards USD",
+            "gdpPerCapita": "5 392 USD",
             "globalRank": "60e mondial",
-            "growth": "+5,3 % (reprise post-choc 2022)",
-            "inflation": "5,8 %"
+            "growth": "+3,2 %",
+            "inflation": "6,5 %"
         },
         "structure": {
             "services": "60 %",
@@ -1027,11 +1027,11 @@
             "centralBank": "Národná banka Slovenska / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "132 milliards USD",
-            "gdpPerCapita": "24 500 USD",
+            "gdpNominal": "141 milliards USD",
+            "gdpPerCapita": "25 993 USD",
             "globalRank": "65e mondial",
-            "growth": "+2,2 %",
-            "inflation": "2,7 %"
+            "growth": "+1,9 %",
+            "inflation": "2,8 %"
         },
         "structure": {
             "services": "65 %",
@@ -1072,11 +1072,11 @@
             "centralBank": "Banque nationale de Bulgarie (arrimé à l'euro via Currency Board)"
         },
         "macro": {
-            "gdpNominal": "102 milliards USD",
-            "gdpPerCapita": "15 800 USD",
+            "gdpNominal": "113 milliards USD",
+            "gdpPerCapita": "17 597 USD",
             "globalRank": "71e mondial",
-            "growth": "+2,1 %",
-            "inflation": "2,5 %"
+            "growth": "+3,4 %",
+            "inflation": "2,4 %"
         },
         "structure": {
             "services": "67 %",
@@ -1115,10 +1115,10 @@
             "centralBank": "Banque centrale du Luxembourg / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "86 milliards USD",
-            "gdpPerCapita": "131 000 USD",
+            "gdpNominal": "93 milliards USD",
+            "gdpPerCapita": "137 782 USD",
             "globalRank": "73e mondial (1er mondial par habitant)",
-            "growth": "+1,2 %",
+            "growth": "+0,4 %",
             "inflation": "2,1 %"
         },
         "structure": {
@@ -1160,11 +1160,11 @@
             "centralBank": "Hrvatska narodna banka / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "82 milliards USD",
-            "gdpPerCapita": "21 300 USD",
+            "gdpNominal": "93 milliards USD",
+            "gdpPerCapita": "24 050 USD",
             "globalRank": "77e mondial",
-            "growth": "+3,6 %",
-            "inflation": "3,5 %"
+            "growth": "+3,8 %",
+            "inflation": "3,0 %"
         },
         "structure": {
             "services": "70 %",
@@ -1204,11 +1204,11 @@
             "centralBank": "Lietuvos bankas / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "78 milliards USD",
-            "gdpPerCapita": "27 100 USD",
+            "gdpNominal": "86 milliards USD",
+            "gdpPerCapita": "29 604 USD",
             "globalRank": "80e mondial",
-            "growth": "+2,0 %",
-            "inflation": "1,1 %"
+            "growth": "+3,0 %",
+            "inflation": "0,7 %"
         },
         "structure": {
             "services": "68 %",
@@ -1249,11 +1249,11 @@
             "centralBank": "Banque nationale de Serbie (NBS)"
         },
         "macro": {
-            "gdpNominal": "75 milliards USD",
-            "gdpPerCapita": "11 200 USD",
+            "gdpNominal": "90 milliards USD",
+            "gdpPerCapita": "13 678 USD",
             "globalRank": "82e mondial",
-            "growth": "+3,8 %",
-            "inflation": "4,3 %"
+            "growth": "+3,9 %",
+            "inflation": "4,7 %"
         },
         "structure": {
             "services": "62 %",
@@ -1291,10 +1291,10 @@
             "centralBank": "Banque nationale de la République de Biélorussie"
         },
         "macro": {
-            "gdpNominal": "72 milliards USD",
-            "gdpPerCapita": "7 800 USD",
+            "gdpNominal": "79 milliards USD",
+            "gdpPerCapita": "8 606 USD",
             "globalRank": "83e mondial",
-            "growth": "+3,9 %",
+            "growth": "+4,3 %",
             "inflation": "5,8 %"
         },
         "structure": {
@@ -1332,11 +1332,11 @@
             "centralBank": "Banka Slovenije / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "68 milliards USD",
-            "gdpPerCapita": "32 200 USD",
+            "gdpNominal": "73 milliards USD",
+            "gdpPerCapita": "34 301 USD",
             "globalRank": "84e mondial",
-            "growth": "+1,5 %",
-            "inflation": "2,4 %"
+            "growth": "+1,7 %",
+            "inflation": "2,0 %"
         },
         "structure": {
             "services": "66 %",
@@ -1377,9 +1377,9 @@
         },
         "macro": {
             "gdpNominal": "44 milliards USD",
-            "gdpPerCapita": "23 500 USD",
+            "gdpPerCapita": "23 579 USD",
             "globalRank": "99e mondial",
-            "growth": "+1,1 %",
+            "growth": "-0,0 %",
             "inflation": "1,3 %"
         },
         "structure": {
@@ -1421,11 +1421,11 @@
             "centralBank": "Eesti Pank / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "41 milliards USD",
-            "gdpPerCapita": "30 000 USD",
+            "gdpNominal": "43 milliards USD",
+            "gdpPerCapita": "31 428 USD",
             "globalRank": "102e mondial",
-            "growth": "-0,4 %",
-            "inflation": "3,4 %"
+            "growth": "-0,1 %",
+            "inflation": "3,5 %"
         },
         "structure": {
             "services": "73 %",
@@ -1466,11 +1466,11 @@
             "centralBank": "Banque centrale de Chypre / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "32 milliards USD",
-            "gdpPerCapita": "34 500 USD",
+            "gdpNominal": "38 milliards USD",
+            "gdpPerCapita": "38 674 USD",
             "globalRank": "108e mondial",
-            "growth": "+3,0 %",
-            "inflation": "2,1 %"
+            "growth": "+3,9 %",
+            "inflation": "1,8 %"
         },
         "structure": {
             "services": "84 %",
@@ -1510,11 +1510,11 @@
             "centralBank": "Seðlabanki Íslands (Banque centrale d'Islande)"
         },
         "macro": {
-            "gdpNominal": "31 milliards USD",
-            "gdpPerCapita": "79 000 USD",
+            "gdpNominal": "33 milliards USD",
+            "gdpPerCapita": "85 863 USD",
             "globalRank": "109e mondial",
-            "growth": "+1,0 %",
-            "inflation": "5,8 %"
+            "growth": "-1,3 %",
+            "inflation": "5,9 %"
         },
         "structure": {
             "services": "76 %",
@@ -1555,11 +1555,11 @@
             "centralBank": "Banque centrale de Bosnie-Herzégovine (arrimé à l'euro : 1 EUR = 1,95583 BAM)"
         },
         "macro": {
-            "gdpNominal": "27 milliards USD",
-            "gdpPerCapita": "8 200 USD",
+            "gdpNominal": "30 milliards USD",
+            "gdpPerCapita": "9 398 USD",
             "globalRank": "115e mondial",
-            "growth": "+2,5 %",
-            "inflation": "2,0 %"
+            "growth": "+3,2 %",
+            "inflation": "1,7 %"
         },
         "structure": {
             "services": "66 %",
@@ -1597,10 +1597,10 @@
             "centralBank": "Banque d'Albanie"
         },
         "macro": {
-            "gdpNominal": "23 milliards USD",
-            "gdpPerCapita": "8 100 USD",
+            "gdpNominal": "27 milliards USD",
+            "gdpPerCapita": "11 374 USD",
             "globalRank": "122e mondial",
-            "growth": "+3,6 %",
+            "growth": "+4,0 %",
             "inflation": "2,2 %"
         },
         "structure": {
@@ -1640,11 +1640,11 @@
             "centralBank": "Banque centrale de Malte / Banque centrale européenne (BCE)"
         },
         "macro": {
-            "gdpNominal": "21 milliards USD",
-            "gdpPerCapita": "38 500 USD",
+            "gdpNominal": "25 milliards USD",
+            "gdpPerCapita": "44 024 USD",
             "globalRank": "126e mondial",
-            "growth": "+4,3 %",
-            "inflation": "2,4 %"
+            "growth": "+6,2 %",
+            "inflation": "1,7 %"
         },
         "structure": {
             "services": "88 %",
@@ -1684,11 +1684,11 @@
             "centralBank": "Banque nationale de Moldavie (BNM)"
         },
         "macro": {
-            "gdpNominal": "17 milliards USD",
-            "gdpPerCapita": "6 700 USD",
+            "gdpNominal": "18 milliards USD",
+            "gdpPerCapita": "7 579 USD",
             "globalRank": "134e mondial",
-            "growth": "+2,2 %",
-            "inflation": "3,8 %"
+            "growth": "+0,3 %",
+            "inflation": "4,7 %"
         },
         "structure": {
             "services": "63 %",
@@ -1727,11 +1727,11 @@
             "centralBank": "Banque nationale de la République de Macédoine du Nord (arrimé à l'euro)"
         },
         "macro": {
-            "gdpNominal": "15,8 milliards USD",
-            "gdpPerCapita": "8 500 USD",
+            "gdpNominal": "17 milliards USD",
+            "gdpPerCapita": "9 292 USD",
             "globalRank": "136e mondial",
-            "growth": "+2,3 %",
-            "inflation": "3,0 %"
+            "growth": "+3,0 %",
+            "inflation": "3,5 %"
         },
         "structure": {
             "services": "63 %",
@@ -1770,11 +1770,11 @@
             "centralBank": "Banque centrale de la République du Kosovo (utilisation unilatérale de facto)"
         },
         "macro": {
-            "gdpNominal": "10,4 milliards USD",
-            "gdpPerCapita": "5 800 USD",
+            "gdpNominal": "11 milliards USD",
+            "gdpPerCapita": "7 027 USD",
             "globalRank": "145e mondial",
-            "growth": "+3,8 %",
-            "inflation": "2,5 %"
+            "growth": "+4,6 %",
+            "inflation": "1,6 %"
         },
         "structure": {
             "services": "71 %",
@@ -1813,11 +1813,11 @@
             "centralBank": "Banque centrale du Monténégro (utilisation unilatérale de facto)"
         },
         "macro": {
-            "gdpNominal": "7,4 milliards USD",
-            "gdpPerCapita": "12 000 USD",
+            "gdpNominal": "8 milliards USD",
+            "gdpPerCapita": "13 270 USD",
             "globalRank": "151e mondial",
-            "growth": "+3,8 %",
-            "inflation": "3,5 %"
+            "growth": "+3,2 %",
+            "inflation": "3,3 %"
         },
         "structure": {
             "services": "76 %",
@@ -1856,10 +1856,10 @@
             "centralBank": "Banque de France / Banque centrale européenne (BCE - accord monétaire officiel)"
         },
         "macro": {
-            "gdpNominal": "9,0 milliards USD",
-            "gdpPerCapita": "240 000 USD",
+            "gdpNominal": "11 milliards USD",
+            "gdpPerCapita": "288 002 USD",
             "globalRank": "Parmi les plus élevés au monde",
-            "growth": "+5,0 %",
+            "growth": "+8,5 %",
             "inflation": "2,5 %"
         },
         "structure": {
@@ -1897,8 +1897,8 @@
             "centralBank": "Banque nationale suisse (BNS - union monétaire avec la Suisse)"
         },
         "macro": {
-            "gdpNominal": "7,2 milliards USD",
-            "gdpPerCapita": "180 000 USD",
+            "gdpNominal": "9 milliards USD",
+            "gdpPerCapita": "220 167 USD",
             "globalRank": "Parmi les plus élevés au monde",
             "growth": "+2,1 %",
             "inflation": "1,4 %"
@@ -1939,10 +1939,10 @@
             "centralBank": "Autorité financière andorrane (AFA / accord monétaire UE)"
         },
         "macro": {
-            "gdpNominal": "3,8 milliards USD",
-            "gdpPerCapita": "46 000 USD",
+            "gdpNominal": "4 milliards USD",
+            "gdpPerCapita": "49 357 USD",
             "globalRank": "165e mondial",
-            "growth": "+2,8 %",
+            "growth": "+3,8 %",
             "inflation": "3,4 %"
         },
         "structure": {
@@ -1981,10 +1981,10 @@
         },
         "macro": {
             "gdpNominal": "1,8 milliard USD",
-            "gdpPerCapita": "53 000 USD",
+            "gdpPerCapita": "59 871 USD",
             "globalRank": "178e mondial",
-            "growth": "+2,0 %",
-            "inflation": "2,8 %"
+            "growth": "+0,4 %",
+            "inflation": "1,2 %"
         },
         "structure": {
             "services": "63 %",
@@ -2060,10 +2060,10 @@
             "centralBank": "Danmarks Nationalbank"
         },
         "macro": {
-            "gdpNominal": "3,2 milliards USD",
-            "gdpPerCapita": "57 000 USD",
+            "gdpNominal": "3 milliards USD",
+            "gdpPerCapita": "58 499 USD",
             "globalRank": "Territoire insulaire arctique",
-            "growth": "+1,8 %",
+            "growth": "+0,9 %",
             "inflation": "2,4 %"
         },
         "structure": {

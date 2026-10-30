@@ -7,11 +7,11 @@
             "centralBank": "South African Reserve Bank (SARB)"
         },
         "macro": {
-            "gdpNominal": "373 milliards USD",
-            "gdpPerCapita": "6 100 USD",
+            "gdpNominal": "401 milliards USD",
+            "gdpPerCapita": "6 267 USD",
             "globalRank": "38e mondial (top 3 africain)",
-            "growth": "+0,7 %",
-            "inflation": "5,2 %"
+            "growth": "+0,5 %",
+            "inflation": "4,4 %"
         },
         "structure": {
             "services": "68 %",
@@ -53,11 +53,11 @@
             "centralBank": "Banque centrale d'Égypte (CBE)"
         },
         "macro": {
-            "gdpNominal": "395 milliards USD",
-            "gdpPerCapita": "3 700 USD",
+            "gdpNominal": "389 milliards USD",
+            "gdpPerCapita": "3 338 USD",
             "globalRank": "37e mondial (1re ou 2e économie d'Afrique)",
-            "growth": "+3,8 %",
-            "inflation": "33,0 %"
+            "growth": "+2,4 %",
+            "inflation": "28,3 %"
         },
         "structure": {
             "services": "54 %",
@@ -99,11 +99,11 @@
             "centralBank": "Banque centrale du Nigéria (CBN)"
         },
         "macro": {
-            "gdpNominal": "253 milliards USD",
-            "gdpPerCapita": "1 150 USD",
+            "gdpNominal": "252 milliards USD",
+            "gdpPerCapita": "1 084 USD",
             "globalRank": "4e économie d'Afrique",
-            "growth": "+3,1 %",
-            "inflation": "32,0 %"
+            "growth": "+4,1 %",
+            "inflation": "33,2 %"
         },
         "structure": {
             "services": "56 %",
@@ -145,11 +145,11 @@
             "centralBank": "Banque d'Algérie"
         },
         "macro": {
-            "gdpNominal": "260 milliards USD",
-            "gdpPerCapita": "5 700 USD",
+            "gdpNominal": "269 milliards USD",
+            "gdpPerCapita": "5 753 USD",
             "globalRank": "53e mondial (3e économie d'Afrique)",
-            "growth": "+4,1 %",
-            "inflation": "7,5 %"
+            "growth": "+3,7 %",
+            "inflation": "4,0 %"
         },
         "structure": {
             "services": "46 %",
@@ -190,11 +190,11 @@
             "centralBank": "Bank Al-Maghrib"
         },
         "macro": {
-            "gdpNominal": "152 milliards USD",
-            "gdpPerCapita": "4 100 USD",
+            "gdpNominal": "161 milliards USD",
+            "gdpPerCapita": "4 153 USD",
             "globalRank": "58e mondial (5e en Afrique)",
-            "growth": "+3,4 %",
-            "inflation": "2,0 %"
+            "growth": "+3,8 %",
+            "inflation": "1,0 %"
         },
         "structure": {
             "services": "56 %",
@@ -235,11 +235,11 @@
             "centralBank": "Banque nationale d'Éthiopie (NBE)"
         },
         "macro": {
-            "gdpNominal": "163 milliards USD",
-            "gdpPerCapita": "1 250 USD",
+            "gdpNominal": "150 milliards USD",
+            "gdpPerCapita": "1 134 USD",
             "globalRank": "56e mondial",
-            "growth": "+6,2 %",
-            "inflation": "28,0 %"
+            "growth": "+7,6 %",
+            "inflation": "21,0 %"
         },
         "structure": {
             "services": "41 %",
@@ -279,10 +279,10 @@
             "centralBank": "Banque centrale du Kenya (CBK)"
         },
         "macro": {
-            "gdpNominal": "115 milliards USD",
-            "gdpPerCapita": "2 100 USD",
+            "gdpNominal": "120 milliards USD",
+            "gdpPerCapita": "2 133 USD",
             "globalRank": "69e mondial",
-            "growth": "+5,0 %",
+            "growth": "+4,7 %",
             "inflation": "4,5 %"
         },
         "structure": {
@@ -324,11 +324,11 @@
             "centralBank": "Banco Nacional de Angola (BNA)"
         },
         "macro": {
-            "gdpNominal": "93 milliards USD",
-            "gdpPerCapita": "2 500 USD",
+            "gdpNominal": "103 milliards USD",
+            "gdpPerCapita": "2 721 USD",
             "globalRank": "74e mondial",
-            "growth": "+2,6 %",
-            "inflation": "25,0 %"
+            "growth": "+5,0 %",
+            "inflation": "28,2 %"
         },
         "structure": {
             "services": "47 %",
@@ -370,10 +370,10 @@
         },
         "macro": {
             "gdpNominal": "87 milliards USD",
-            "gdpPerCapita": "2 700 USD",
+            "gdpPerCapita": "2 728 USD",
             "globalRank": "76e mondial (1re économie de l'UEMOA)",
-            "growth": "+6,5 %",
-            "inflation": "4,0 %"
+            "growth": "+6,0 %",
+            "inflation": "3,5 %"
         },
         "structure": {
             "services": "55 %",
@@ -415,10 +415,10 @@
             "centralBank": "Banque de Tanzanie (BoT)"
         },
         "macro": {
-            "gdpNominal": "85 milliards USD",
-            "gdpPerCapita": "1 300 USD",
+            "gdpNominal": "79 milliards USD",
+            "gdpPerCapita": "1 193 USD",
             "globalRank": "78e mondial",
-            "growth": "+5,4 %",
+            "growth": "+5,5 %",
             "inflation": "3,1 %"
         },
         "structure": {
@@ -460,11 +460,11 @@
             "centralBank": "Bank of Ghana"
         },
         "macro": {
-            "gdpNominal": "76 milliards USD",
-            "gdpPerCapita": "2 250 USD",
+            "gdpNominal": "83 milliards USD",
+            "gdpPerCapita": "2 419 USD",
             "globalRank": "81e mondial",
-            "growth": "+4,0 %",
-            "inflation": "20,0 %"
+            "growth": "+5,8 %",
+            "inflation": "22,8 %"
         },
         "structure": {
             "services": "48 %",
@@ -505,10 +505,10 @@
             "centralBank": "Banque centrale du Congo (BCC)"
         },
         "macro": {
-            "gdpNominal": "70 milliards USD",
-            "gdpPerCapita": "700 USD",
+            "gdpNominal": "76 milliards USD",
+            "gdpPerCapita": "693 USD",
             "globalRank": "86e mondial",
-            "growth": "+6,0 %",
+            "growth": "+6,1 %",
             "inflation": "15,0 %"
         },
         "structure": {
@@ -550,11 +550,11 @@
             "centralBank": "Banque de l'Ouganda (BoU)"
         },
         "macro": {
-            "gdpNominal": "53 milliards USD",
-            "gdpPerCapita": "1 050 USD",
+            "gdpNominal": "54 milliards USD",
+            "gdpPerCapita": "1 078 USD",
             "globalRank": "93e mondial",
-            "growth": "+6,0 %",
-            "inflation": "3,5 %"
+            "growth": "+6,1 %",
+            "inflation": "3,3 %"
         },
         "structure": {
             "services": "44 %",
@@ -596,11 +596,11 @@
             "centralBank": "Banque centrale de Tunisie (BCT)"
         },
         "macro": {
-            "gdpNominal": "52 milliards USD",
-            "gdpPerCapita": "4 200 USD",
+            "gdpNominal": "51 milliards USD",
+            "gdpPerCapita": "4 188 USD",
             "globalRank": "94e mondial",
-            "growth": "+1,2 %",
-            "inflation": "7,0 %"
+            "growth": "+1,6 %",
+            "inflation": "7,2 %"
         },
         "structure": {
             "services": "64 %",
@@ -641,11 +641,11 @@
             "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
         },
         "macro": {
-            "gdpNominal": "51 milliards USD",
-            "gdpPerCapita": "1 800 USD",
+            "gdpNominal": "53 milliards USD",
+            "gdpPerCapita": "1 830 USD",
             "globalRank": "95e mondial (moteur de la CEMAC)",
-            "growth": "+4,1 %",
-            "inflation": "5,5 %"
+            "growth": "+3,5 %",
+            "inflation": "4,5 %"
         },
         "structure": {
             "services": "52 %",
@@ -689,10 +689,10 @@
         },
         "macro": {
             "gdpNominal": "48 milliards USD",
-            "gdpPerCapita": "6 900 USD",
+            "gdpPerCapita": "6 569 USD",
             "globalRank": "97e mondial",
-            "growth": "+8,0 % (forte volatilité selon production)",
-            "inflation": "2,8 %"
+            "growth": "+1,9 %",
+            "inflation": "2,1 %"
         },
         "structure": {
             "services": "38 %",
@@ -733,11 +733,11 @@
             "centralBank": "Banque centrale du Soudan (CBOS)"
         },
         "macro": {
-            "gdpNominal": "32 milliards USD",
-            "gdpPerCapita": "650 USD",
+            "gdpNominal": "50 milliards USD",
+            "gdpPerCapita": "985 USD",
             "globalRank": "110e mondial (contexte de conflit civil)",
-            "growth": "-12,0 %",
-            "inflation": "> 150 %"
+            "growth": "-14,0 %",
+            "inflation": "138,8 %"
         },
         "structure": {
             "services": "45 %",
@@ -777,11 +777,11 @@
             "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
         },
         "macro": {
-            "gdpNominal": "31 milliards USD",
-            "gdpPerCapita": "1 750 USD",
+            "gdpNominal": "32 milliards USD",
+            "gdpPerCapita": "1 739 USD",
             "globalRank": "111e mondial",
-            "growth": "+8,3 % (démarrage de la production pétrolière et gazière)",
-            "inflation": "3,0 %"
+            "growth": "+6,5 %",
+            "inflation": "0,8 %"
         },
         "structure": {
             "services": "52 %",
@@ -826,8 +826,8 @@
             "gdpNominal": "29 milliards USD",
             "gdpPerCapita": "1 450 USD",
             "globalRank": "113e mondial",
-            "growth": "+4,5 %",
-            "inflation": "13,5 %"
+            "growth": "+3,8 %",
+            "inflation": "15,0 %"
         },
         "structure": {
             "services": "52 %",
@@ -868,11 +868,11 @@
             "centralBank": "Reserve Bank of Zimbabwe (RBZ)"
         },
         "macro": {
-            "gdpNominal": "28 milliards USD",
-            "gdpPerCapita": "1 700 USD",
+            "gdpNominal": "42 milliards USD",
+            "gdpPerCapita": "2 496 USD",
             "globalRank": "114e mondial",
-            "growth": "+3,5 %",
-            "inflation": "Stabilisée via le ZiG adossé à l'or"
+            "growth": "+1,7 %",
+            "inflation": "104,7 %"
         },
         "structure": {
             "services": "58 %",
@@ -912,11 +912,11 @@
             "centralBank": "Banque centrale de la République de Guinée (BCRG)"
         },
         "macro": {
-            "gdpNominal": "24 milliards USD",
-            "gdpPerCapita": "1 600 USD",
+            "gdpNominal": "25 milliards USD",
+            "gdpPerCapita": "1 695 USD",
             "globalRank": "120e mondial",
-            "growth": "+5,7 %",
-            "inflation": "8,0 %"
+            "growth": "+5,4 %",
+            "inflation": "8,1 %"
         },
         "structure": {
             "services": "38 %",
@@ -956,11 +956,11 @@
             "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
         },
         "macro": {
-            "gdpNominal": "21 milliards USD",
-            "gdpPerCapita": "950 USD",
+            "gdpNominal": "27 milliards USD",
+            "gdpPerCapita": "1 093 USD",
             "globalRank": "125e mondial",
-            "growth": "+4,0 %",
-            "inflation": "3,8 %"
+            "growth": "+5,0 %",
+            "inflation": "3,2 %"
         },
         "structure": {
             "services": "40 %",
@@ -1000,11 +1000,11 @@
             "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
         },
         "macro": {
-            "gdpNominal": "20 milliards USD",
-            "gdpPerCapita": "900 USD",
+            "gdpNominal": "23 milliards USD",
+            "gdpPerCapita": "982 USD",
             "globalRank": "128e mondial",
-            "growth": "+3,6 %",
-            "inflation": "3,0 %"
+            "growth": "+4,8 %",
+            "inflation": "4,2 %"
         },
         "structure": {
             "services": "46 %",
@@ -1044,11 +1044,11 @@
             "centralBank": "Banco de Moçambique"
         },
         "macro": {
-            "gdpNominal": "21 milliards USD",
-            "gdpPerCapita": "650 USD",
+            "gdpNominal": "23 milliards USD",
+            "gdpPerCapita": "657 USD",
             "globalRank": "127e mondial",
-            "growth": "+5,0 %",
-            "inflation": "4,2 %"
+            "growth": "+2,1 %",
+            "inflation": "4,1 %"
         },
         "structure": {
             "services": "46 %",
@@ -1090,11 +1090,11 @@
             "centralBank": "Bank of Botswana"
         },
         "macro": {
-            "gdpNominal": "20 milliards USD",
-            "gdpPerCapita": "8 200 USD",
+            "gdpNominal": "19 milliards USD",
+            "gdpPerCapita": "7 650 USD",
             "globalRank": "129e mondial (l'un des PIB/hab les plus élevés d'Afrique)",
-            "growth": "+3,2 %",
-            "inflation": "3,1 %"
+            "growth": "-2,8 %",
+            "inflation": "2,8 %"
         },
         "structure": {
             "services": "62 %",
@@ -1135,11 +1135,11 @@
             "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
         },
         "macro": {
-            "gdpNominal": "19,5 milliards USD",
-            "gdpPerCapita": "1 450 USD",
+            "gdpNominal": "21 milliards USD",
+            "gdpPerCapita": "1 485 USD",
             "globalRank": "130e mondial",
-            "growth": "+6,3 %",
-            "inflation": "2,7 %"
+            "growth": "+7,5 %",
+            "inflation": "1,2 %"
         },
         "structure": {
             "services": "49 %",
@@ -1181,10 +1181,10 @@
         },
         "macro": {
             "gdpNominal": "21 milliards USD",
-            "gdpPerCapita": "9 200 USD",
+            "gdpPerCapita": "8 230 USD",
             "globalRank": "124e mondial (parmi les plus hauts revenus par tête d'Afrique)",
-            "growth": "+2,8 %",
-            "inflation": "3,6 %"
+            "growth": "+3,4 %",
+            "inflation": "1,2 %"
         },
         "structure": {
             "services": "42 %",
@@ -1226,11 +1226,11 @@
             "centralBank": "Banque centrale de Madagascar (BFM)"
         },
         "macro": {
-            "gdpNominal": "16 milliards USD",
+            "gdpNominal": "18 milliards USD",
             "gdpPerCapita": "550 USD",
             "globalRank": "135e mondial",
-            "growth": "+4,2 %",
-            "inflation": "7,8 %"
+            "growth": "+4,3 %",
+            "inflation": "7,6 %"
         },
         "structure": {
             "services": "54 %",
@@ -1272,11 +1272,11 @@
             "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
         },
         "macro": {
-            "gdpNominal": "17 milliards USD",
-            "gdpPerCapita": "650 USD",
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "730 USD",
             "globalRank": "133e mondial",
-            "growth": "+8,8 % (démarrage des exportations pétrolières via l'oléoduc Niger-Bénin)",
-            "inflation": "4,2 %"
+            "growth": "+8,3 %",
+            "inflation": "9,1 %"
         },
         "structure": {
             "services": "39 %",
@@ -1316,11 +1316,11 @@
             "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
         },
         "macro": {
-            "gdpNominal": "13 milliards USD",
-            "gdpPerCapita": "750 USD",
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "981 USD",
             "globalRank": "140e mondial",
-            "growth": "+3,0 %",
-            "inflation": "5,0 %"
+            "growth": "+5,0 %",
+            "inflation": "8,9 %"
         },
         "structure": {
             "services": "40 %",
@@ -1361,11 +1361,11 @@
             "centralBank": "Banque de Maurice (BoM)"
         },
         "macro": {
-            "gdpNominal": "14,5 milliards USD",
-            "gdpPerCapita": "11 500 USD",
+            "gdpNominal": "15 milliards USD",
+            "gdpPerCapita": "11 991 USD",
             "globalRank": "138e mondial (revenu intermédiaire supérieur / top africain)",
-            "growth": "+5,5 %",
-            "inflation": "4,5 %"
+            "growth": "+4,9 %",
+            "inflation": "3,6 %"
         },
         "structure": {
             "services": "74 %",
@@ -1408,11 +1408,11 @@
             "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
         },
         "macro": {
-            "gdpNominal": "15 milliards USD",
-            "gdpPerCapita": "2 500 USD",
+            "gdpNominal": "16 milliards USD",
+            "gdpPerCapita": "2 482 USD",
             "globalRank": "137e mondial",
-            "growth": "+3,8 %",
-            "inflation": "3,5 %"
+            "growth": "+2,1 %",
+            "inflation": "3,1 %"
         },
         "structure": {
             "services": "38 %",
@@ -1454,11 +1454,11 @@
             "centralBank": "Bank of Namibia (arrimé au rand sud-africain 1:1)"
         },
         "macro": {
-            "gdpNominal": "13 milliards USD",
-            "gdpPerCapita": "4 800 USD",
+            "gdpNominal": "14 milliards USD",
+            "gdpPerCapita": "4 502 USD",
             "globalRank": "141e mondial",
-            "growth": "+3,6 %",
-            "inflation": "4,5 %"
+            "growth": "+3,8 %",
+            "inflation": "4,2 %"
         },
         "structure": {
             "services": "58 %",
@@ -1500,11 +1500,11 @@
             "centralBank": "Banque nationale du Rwanda (BNR)"
         },
         "macro": {
-            "gdpNominal": "14 milliards USD",
-            "gdpPerCapita": "1 000 USD",
+            "gdpNominal": "15 milliards USD",
+            "gdpPerCapita": "1 060 USD",
             "globalRank": "139e mondial",
-            "growth": "+7,2 % (parmi les plus fortes croissances d'Afrique)",
-            "inflation": "4,8 %"
+            "growth": "+7,2 %",
+            "inflation": "1,8 %"
         },
         "structure": {
             "services": "48 %",
@@ -1546,11 +1546,11 @@
             "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
         },
         "macro": {
-            "gdpNominal": "12 milliards USD",
-            "gdpPerCapita": "7 500 USD",
+            "gdpNominal": "13 milliards USD",
+            "gdpPerCapita": "7 004 USD",
             "globalRank": "142e mondial",
-            "growth": "-3,5 % (déclin naturel des gisements pétroliers historiques)",
-            "inflation": "2,5 %"
+            "growth": "+0,4 %",
+            "inflation": "2,9 %"
         },
         "structure": {
             "services": "28 %",
@@ -1592,10 +1592,10 @@
             "centralBank": "Banque centrale de Somalie (CBS)"
         },
         "macro": {
-            "gdpNominal": "11 milliards USD",
-            "gdpPerCapita": "650 USD",
+            "gdpNominal": "12 milliards USD",
+            "gdpPerCapita": "630 USD",
             "globalRank": "144e mondial",
-            "growth": "+3,7 %",
+            "growth": "+4,1 %",
             "inflation": "5,0 %"
         },
         "structure": {
@@ -1636,11 +1636,11 @@
             "centralBank": "Reserve Bank of Malawi"
         },
         "macro": {
-            "gdpNominal": "10,5 milliards USD",
-            "gdpPerCapita": "480 USD",
+            "gdpNominal": "11 milliards USD",
+            "gdpPerCapita": "522 USD",
             "globalRank": "146e mondial",
-            "growth": "+2,8 %",
-            "inflation": "28,0 %"
+            "growth": "+1,7 %",
+            "inflation": "32,2 %"
         },
         "structure": {
             "services": "52 %",
@@ -1681,11 +1681,11 @@
             "centralBank": "Banque centrale de Mauritanie (BCM)"
         },
         "macro": {
-            "gdpNominal": "10,2 milliards USD",
-            "gdpPerCapita": "2 150 USD",
+            "gdpNominal": "11 milliards USD",
+            "gdpPerCapita": "2 105 USD",
             "globalRank": "147e mondial",
-            "growth": "+5,1 %",
-            "inflation": "3,0 %"
+            "growth": "+6,3 %",
+            "inflation": "2,5 %"
         },
         "structure": {
             "services": "44 %",
@@ -1726,11 +1726,11 @@
             "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
         },
         "macro": {
-            "gdpNominal": "9,5 milliards USD",
-            "gdpPerCapita": "1 050 USD",
+            "gdpNominal": "11 milliards USD",
+            "gdpPerCapita": "1 266 USD",
             "globalRank": "148e mondial",
-            "growth": "+5,3 %",
-            "inflation": "3,2 %"
+            "growth": "+6,5 %",
+            "inflation": "2,9 %"
         },
         "structure": {
             "services": "55 %",
@@ -1772,10 +1772,10 @@
             "centralBank": "Central Bank of Eswatini"
         },
         "macro": {
-            "gdpNominal": "4,8 milliards USD",
-            "gdpPerCapita": "4 000 USD",
+            "gdpNominal": "5 milliards USD",
+            "gdpPerCapita": "3 910 USD",
             "globalRank": "158e mondial",
-            "growth": "+3,2 %",
+            "growth": "+3,0 %",
             "inflation": "4,5 %"
         },
         "structure": {
@@ -1818,11 +1818,11 @@
             "centralBank": "Bank of Sierra Leone"
         },
         "macro": {
-            "gdpNominal": "4,2 milliards USD",
-            "gdpPerCapita": "490 USD",
+            "gdpNominal": "7 milliards USD",
+            "gdpPerCapita": "807 USD",
             "globalRank": "162e mondial",
-            "growth": "+4,0 %",
-            "inflation": "38,0 %"
+            "growth": "+4,3 %",
+            "inflation": "28,6 %"
         },
         "structure": {
             "services": "36 %",
@@ -1863,11 +1863,11 @@
             "centralBank": "Banque de la République du Burundi (BRB)"
         },
         "macro": {
-            "gdpNominal": "3,8 milliards USD",
-            "gdpPerCapita": "280 USD",
+            "gdpNominal": "3 milliards USD",
+            "gdpPerCapita": "216 USD",
             "globalRank": "166e mondial",
-            "growth": "+2,7 %",
-            "inflation": "22,0 %"
+            "growth": "+4,1 %",
+            "inflation": "20,2 %"
         },
         "structure": {
             "services": "45 %",
@@ -1908,11 +1908,11 @@
             "centralBank": "Central Bank of Lesotho"
         },
         "macro": {
-            "gdpNominal": "2,4 milliards USD",
-            "gdpPerCapita": "1 100 USD",
+            "gdpNominal": "2 milliards USD",
+            "gdpPerCapita": "1 023 USD",
             "globalRank": "173e mondial",
-            "growth": "+2,1 %",
-            "inflation": "6,0 %"
+            "growth": "+5,2 %",
+            "inflation": "6,1 %"
         },
         "structure": {
             "services": "60 %",
@@ -1952,11 +1952,11 @@
             "centralBank": "Banque centrale de Djibouti (arrimé au dollar US : 1 USD = 177,721 DJF)"
         },
         "macro": {
-            "gdpNominal": "4,1 milliards USD",
-            "gdpPerCapita": "3 800 USD",
+            "gdpNominal": "4 milliards USD",
+            "gdpPerCapita": "3 553 USD",
             "globalRank": "163e mondial",
-            "growth": "+6,5 %",
-            "inflation": "2,0 %"
+            "growth": "+7,0 %",
+            "inflation": "2,1 %"
         },
         "structure": {
             "services": "80 %",
@@ -1998,11 +1998,11 @@
             "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
         },
         "macro": {
-            "gdpNominal": "2,7 milliards USD",
-            "gdpPerCapita": "500 USD",
+            "gdpNominal": "3 milliards USD",
+            "gdpPerCapita": "516 USD",
             "globalRank": "170e mondial",
             "growth": "+1,5 %",
-            "inflation": "3,5 %"
+            "inflation": "1,5 %"
         },
         "structure": {
             "services": "40 %",
@@ -2043,11 +2043,11 @@
             "centralBank": "Banco de Cabo Verde (arrimé à l'euro : 1 EUR = 110,265 CVE)"
         },
         "macro": {
-            "gdpNominal": "2,6 milliards USD",
-            "gdpPerCapita": "4 400 USD",
+            "gdpNominal": "3 milliards USD",
+            "gdpPerCapita": "5 170 USD",
             "globalRank": "171e mondial (revenu intermédiaire / démocratie modèle)",
-            "growth": "+5,1 %",
-            "inflation": "2,5 %"
+            "growth": "+7,0 %",
+            "inflation": "1,0 %"
         },
         "structure": {
             "services": "72 %",
@@ -2089,11 +2089,11 @@
             "centralBank": "Central Bank of The Gambia"
         },
         "macro": {
-            "gdpNominal": "2,3 milliards USD",
-            "gdpPerCapita": "850 USD",
+            "gdpNominal": "2 milliards USD",
+            "gdpPerCapita": "871 USD",
             "globalRank": "174e mondial",
-            "growth": "+5,5 %",
-            "inflation": "14,0 %"
+            "growth": "+5,6 %",
+            "inflation": "11,6 %"
         },
         "structure": {
             "services": "58 %",
@@ -2178,11 +2178,11 @@
             "centralBank": "Banque centrale des Seychelles (CBS)"
         },
         "macro": {
-            "gdpNominal": "2,1 milliards USD",
-            "gdpPerCapita": "19 500 USD",
+            "gdpNominal": "2 milliards USD",
+            "gdpPerCapita": "18 365 USD",
             "globalRank": "176e mondial (PIB par habitant le plus élevé d'Afrique)",
-            "growth": "+3,8 %",
-            "inflation": "1,5 %"
+            "growth": "+3,3 %",
+            "inflation": "0,3 %"
         },
         "structure": {
             "services": "82 %",
@@ -2225,10 +2225,10 @@
             "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
         },
         "macro": {
-            "gdpNominal": "2,0 milliards USD",
-            "gdpPerCapita": "950 USD",
+            "gdpNominal": "2 milliards USD",
+            "gdpPerCapita": "998 USD",
             "globalRank": "177e mondial",
-            "growth": "+4,5 %",
+            "growth": "+4,4 %",
             "inflation": "3,8 %"
         },
         "structure": {
@@ -2271,11 +2271,11 @@
             "centralBank": "Banque centrale des Comores (arrimé à l'euro : 1 EUR = 491,96775 KMF)"
         },
         "macro": {
-            "gdpNominal": "1,4 milliard USD",
-            "gdpPerCapita": "1 500 USD",
+            "gdpNominal": "2 milliards USD",
+            "gdpPerCapita": "1 858 USD",
             "globalRank": "180e mondial",
             "growth": "+3,3 %",
-            "inflation": "4,2 %"
+            "inflation": "5,1 %"
         },
         "structure": {
             "services": "55 %",
@@ -2318,11 +2318,11 @@
             "centralBank": "Banco Central de São Tomé e Príncipe (arrimé à l'euro : 1 EUR = 24,5 STN)"
         },
         "macro": {
-            "gdpNominal": "650 millions USD",
-            "gdpPerCapita": "2 800 USD",
+            "gdpNominal": "825 millions USD",
+            "gdpPerCapita": "3 503 USD",
             "globalRank": "186e mondial",
-            "growth": "+2,5 %",
-            "inflation": "18,0 %"
+            "growth": "+1,5 %",
+            "inflation": "14,4 %"
         },
         "structure": {
             "services": "65 %",
@@ -2367,7 +2367,7 @@
             "gdpPerCapita": "500 USD",
             "globalRank": "153e mondial",
             "growth": "-10,0 % (impact de la rupture de l'oléoduc au Soudan en 2024)",
-            "inflation": "> 80 %"
+            "inflation": "91,4 %"
         },
         "structure": {
             "services": "25 %",
@@ -2407,11 +2407,11 @@
             "centralBank": "Banque centrale du Libéria (Central Bank of Liberia)"
         },
         "macro": {
-            "gdpNominal": "4,3 milliards USD",
-            "gdpPerCapita": "800 USD",
+            "gdpNominal": "5 milliards USD",
+            "gdpPerCapita": "851 USD",
             "globalRank": "161e mondial",
-            "growth": "+4,6 %",
-            "inflation": "10,1 %"
+            "growth": "+4,0 %",
+            "inflation": "8,2 %"
         },
         "structure": {
             "services": "48 %",
