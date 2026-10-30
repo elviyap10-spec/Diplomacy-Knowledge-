@@ -485,17 +485,18 @@ h1 span {
     background: transparent;
     border: none;
     color: #8ea6ba;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     font-family: inherit;
-    padding: 9px 12px;
+    padding: 8px 6px;
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
+    gap: 5px;
+    white-space: nowrap;
 }
 
 .panel-tab:hover {
