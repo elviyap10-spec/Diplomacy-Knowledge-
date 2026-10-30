@@ -1,0 +1,2384 @@
+{
+    "CHN": {
+        "identity": {
+            "officialName": "République populaire de Chine",
+            "capital": "Pékin",
+            "economicCapital": "Shanghai",
+            "independence": "1er octobre 1949 (Proclamation de la République populaire)"
+        },
+        "system": {
+            "stateForm": "République socialiste",
+            "regime": "Système des assemblées populaires (État à parti unique dirigé par le PCC)",
+            "territorialOrganization": "État unitaire avec régions autonomes et RAS",
+            "constitution": "Constitution du 4 décembre 1982 (amendée en 2018)"
+        },
+        "executive": {
+            "headOfState": "Président de la République populaire de Chine (et Secrétaire général du PCC)",
+            "headOfGovernment": "Premier ministre (Président du Conseil des affaires d'État)",
+            "election": "Élu par l'Assemblée populaire nationale (APN)",
+            "mandate": "5 ans (limitation levée en 2018)"
+        },
+        "legislative": {
+            "parliament": "Assemblée populaire nationale (APN)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée populaire nationale (près de 3 000 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par l'Assemblée populaire nationale",
+            "legislativeSystem": "Scrutin indirect pyramidal à degrés multiples sous contrôle du PCC"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Comité permanent de l'Assemblée populaire nationale (contrôle de constitutionnalité)",
+            "highestJudicialInstitution": "Cour populaire suprême"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "23 provinces (y compris Taïwan selon Pékin), 5 régions autonomes, 4 municipalités centrales et 2 régions administratives spéciales (Hong Kong, Macao)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (OCS)",
+                "APEC",
+                "RCEP (Partenariat régional économique global)",
+                "ASEAN+3"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre permanent CSNU)",
+                "BRICS+ (membre fondateur)",
+                "G20"
+            ]
+        }
+    },
+    "JPN": {
+        "identity": {
+            "officialName": "Japon",
+            "capital": "Tokyo",
+            "economicCapital": "—",
+            "independence": "— (Empire historique unifié au VIIe siècle av. J.-C. selon la tradition)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du Japon du 3 mai 1947 (clause pacifiste de l'Article 9)"
+        },
+        "executive": {
+            "headOfState": "Empereur du Japon (Symbole de l'État et de l'unité du peuple sans pouvoir de gouvernement)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire agnatique (Empereur) ; désigné par la Diète (généralement chef de la majorité parlementaire)",
+            "mandate": "4 ans max. (législature)"
+        },
+        "legislative": {
+            "parliament": "Diète nationale (Kokkai)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (Shūgiin - 465 sièges, prépondérante)",
+            "upperHouse": "Chambre des conseillers (Sangiin - 248 sièges)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin parallèle (majoritaire uninominal et proportionnel de liste)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Japon (Saikō-Saibansho, contrôle judiciaire diffus)",
+            "highestJudicialInstitution": "Cour suprême du Japon"
+        },
+        "territory": {
+            "type": "État unitaire archipélagique",
+            "organization": "47 préfectures (todōfuken) administrées par des gouverneurs élus"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "APEC",
+                "Quad (Dialogue quadrilatéral pour la sécurité)",
+                "CPTPP (PTPGP)",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "G7",
+                "G20",
+                "OCDE"
+            ]
+        }
+    },
+    "IND": {
+        "identity": {
+            "officialName": "République de l'Inde (Bharat)",
+            "capital": "New Delhi",
+            "economicCapital": "Mumbai (Bombay)",
+            "independence": "15 août 1947 (du Royaume-Uni) ; 26 janvier 1950 (entrée en vigueur de la République)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Parlementaire (système de Westminster fédéral)",
+            "territorialOrganization": "Union fédérale (28 États et 8 territoires de l'Union)",
+            "constitution": "Constitution de l'Inde du 26 janvier 1950 (la plus longue constitution écrite au monde)"
+        },
+        "executive": {
+            "headOfState": "Président de l'Inde (Rashtrapati)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par un collège électoral (président) ; nommé par le président selon la majorité à la Lok Sabha",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement de l'Inde (Sansad)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Lok Sabha (Chambre du peuple - 543 sièges)",
+            "upperHouse": "Rajya Sabha (Conseil des États - 245 sièges)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post pour la Lok Sabha)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de l'Inde (Supreme Court of India, doctrine de la structure de base)",
+            "highestJudicialInstitution": "Cour suprême de l'Inde"
+        },
+        "territory": {
+            "type": "État fédéral (démocratie la plus peuplée du monde)",
+            "organization": "28 États dotés de gouvernements et d'assemblées élues, et 8 territoires de l'Union"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Association sud-asiatique pour la coopération régionale (SAARC)",
+                "Organisation de coopération de Shanghai (OCS)",
+                "Quad",
+                "BIMSTEC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "BRICS+ (membre fondateur)",
+                "G20",
+                "Commonwealth of Nations"
+            ]
+        }
+    },
+    "KOR": {
+        "identity": {
+            "officialName": "République de Corée",
+            "capital": "Séoul",
+            "economicCapital": "—",
+            "independence": "15 août 1945 (libération) ; 15 août 1948 (proclamation de la République)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 17 juillet 1948 (amendée en 1987, VIe République)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (nommé par le président avec accord de l'Assemblée)",
+            "election": "Suffrage universel direct uninominal à un tour (majorité relative)",
+            "mandate": "5 ans (mandat unique non renouvelable)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Gukhoe)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (300 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour",
+            "legislativeSystem": "Système mixte (254 sièges majoritaires et 46 à la proportionnelle compensatoire)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Corée",
+            "highestJudicialInstitution": "Cour suprême de Corée"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "8 provinces, 1 province autonome spéciale (Jeju), 6 villes métropolitaines, 1 ville spéciale (Séoul) et 1 ville autonome (Sejong)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "APEC",
+                "RCEP",
+                "ASEAN+3"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE",
+                "G20"
+            ]
+        }
+    },
+    "PRK": {
+        "identity": {
+            "officialName": "République populaire démocratique de Corée",
+            "capital": "Pyongyang",
+            "economicCapital": "—",
+            "independence": "9 septembre 1948 (fondation de la RPDC)"
+        },
+        "system": {
+            "stateForm": "République socialiste dynastique",
+            "regime": "Régime totalitaire à parti unique (Parti du travail de Corée, idéologie du Juche et Songun)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution socialiste du 27 décembre 1972 (révisée en 2019)"
+        },
+        "executive": {
+            "headOfState": "Président des affaires d'État (Leader suprême) ; Président du Présidium de l'Assemblée (représentation protocolaire extérieure)",
+            "headOfGovernment": "Premier ministre du cabinet",
+            "election": "Hérédité de fait (Dynastie Kim) ; élection formelle par l'Assemblée populaire suprême",
+            "mandate": "5 ans (renouvelable indéfiniment)"
+        },
+        "legislative": {
+            "parliament": "Assemblée populaire suprême (APS)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée populaire suprême (687 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "17 ans",
+            "presidentialSystem": "Désignation par les organes du Parti du travail",
+            "legislativeSystem": "Élections à candidat unique sans pluralisme partisan"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Présidium de l'Assemblée populaire suprême",
+            "highestJudicialInstitution": "Cour centrale"
+        },
+        "territory": {
+            "type": "État unitaire militarisé (puissance nucléaire de facto)",
+            "organization": "9 provinces, 1 ville directement administrée (Pyongyang) et villes à statut spécial"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Forum régional de l'ASEAN (ARF)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion conjointe en 1991)",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "IDN": {
+        "identity": {
+            "officialName": "République d'Indonésie",
+            "capital": "Jakarta (en transition vers Nusantara)",
+            "economicCapital": "—",
+            "independence": "17 août 1945 (Proclamation) ; 27 décembre 1949 (reconnaissance des Pays-Bas)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 18 août 1945 (amendée entre 1999 et 2002, basée sur le Pancasila)"
+        },
+        "executive": {
+            "headOfState": "Président de la République d'Indonésie",
+            "headOfGovernment": "Président de la République (chef de l'État et du gouvernement)",
+            "election": "Suffrage universel direct à deux tours (ticket président/vice-président avec exigences géographiques de répartition)",
+            "mandate": "5 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Assemblée délibérative du peuple (MPR)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Conseil représentatif du peuple (DPR - 580 sièges, prépondérant)",
+            "upperHouse": "Conseil représentatif des régions (DPD - 152 sièges)"
+        },
+        "electoral": {
+            "votingAge": "17 ans (ou sans condition d'âge si marié)",
+            "presidentialSystem": "Scrutin majoritaire à deux tours qualifié",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste ouverte avec seuil de 4%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle d'Indonésie (Mahkamah Konstitusi)",
+            "highestJudicialInstitution": "Cour suprême (Mahkamah Agung)"
+        },
+        "territory": {
+            "type": "État archipélagique (plus de 17 000 îles, 1er pays musulman en population)",
+            "organization": "38 provinces (dont régions à statut spécial : Aceh, Yogyakarta, Jakarta et provinces papoues)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (membre fondateur et siège du Secrétariat à Jakarta)",
+                "APEC",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "G20",
+                "Organisation de la coopération islamique (OCI)",
+                "Mouvement des non-alignés (Conférence de Bandung de 1955)"
+            ]
+        }
+    },
+    "SAU": {
+        "identity": {
+            "officialName": "Royaume d'Arabie saoudite",
+            "capital": "Riyad",
+            "economicCapital": "—",
+            "independence": "23 septembre 1932 (Unification du Royaume par Ibn Séoud)"
+        },
+        "system": {
+            "stateForm": "Monarchie absolue",
+            "regime": "Monarchie absolue islamique",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Loi fondamentale sur le pouvoir de 1992 (Coran et Sunna formant la constitution suprême)"
+        },
+        "executive": {
+            "headOfState": "Roi d'Arabie saoudite (Gardien des deux saintes mosquées)",
+            "headOfGovernment": "Premier ministre (traditionnellement le Roi, confié au Prince héritier par décret)",
+            "election": "Succession héréditaire dynastique (Maison des Saoud, régulée par le Conseil d'allégeance)",
+            "mandate": "À vie"
+        },
+        "legislative": {
+            "parliament": "Assemblée consultative (Majlis al-Shura)",
+            "structure": "Monocaméral (organe consultatif sans pouvoir législatif souverain)",
+            "lowerHouse": "Assemblée consultative (150 membres nommés par le Roi)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans (uniquement pour les élections municipales locales)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Nomination royale discrétionnaire"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil judiciaire suprême et contrôle royal",
+            "highestJudicialInstitution": "Cour suprême d'Arabie saoudite (droit islamique / charia hanbalite)"
+        },
+        "territory": {
+            "type": "Monarchie unitaire",
+            "organization": "13 provinces (mintaqat) gouvernées par des princes émirs"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de coopération du Golfe (CCG - siège à Riyad)",
+                "Ligue des États arabes",
+                "OPEP (chef de file mondial)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "G20",
+                "Organisation de la coopération islamique (OCI - siège à Djeddah)",
+                "BRICS+ (invité permanent)"
+            ]
+        }
+    },
+    "IRN": {
+        "identity": {
+            "officialName": "République islamique d'Iran",
+            "capital": "Téhéran",
+            "economicCapital": "—",
+            "independence": "1er avril 1979 (Proclamation de la République islamique après la Révolution)"
+        },
+        "system": {
+            "stateForm": "République islamique théocratique",
+            "regime": "Théocratie élective constitutionnelle (Velayat-e Faqih)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 3 décembre 1979 (révisée en 1989)"
+        },
+        "executive": {
+            "headOfState": "Guide suprême de la Révolution (Rahbar, autorité suprême politique et religieuse)",
+            "headOfGovernment": "Président de la République islamique d'Iran (chef de l'exécutif civil)",
+            "election": "Désigné par l'Assemblée des experts (Guide) ; suffrage universel direct à deux tours après filtrage des candidatures (président)",
+            "mandate": "À vie (Guide) ; 4 ans renouvelable une fois (président)"
+        },
+        "legislative": {
+            "parliament": "Assemblée consultative islamique (Majlis)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Majlis (290 sièges)",
+            "upperHouse": "— (les lois sont soumises au Conseil des gardiens de la Constitution)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours sous validation du Conseil des gardiens",
+            "legislativeSystem": "Scrutin majoritaire plurinominal à deux tours"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil des gardiens de la Constitution (12 juristes et religieux) et Conseil de discernement",
+            "highestJudicialInstitution": "Cour suprême d'Iran (dirigée par le chef du pouvoir judiciaire nommé par le Guide)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "31 provinces (ostanha) administrées par des gouverneurs généraux"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (OCS - adhésion pleine 2023)",
+                "Organisation de coopération économique (ECO - siège à Téhéran)",
+                "OPEP (membre fondateur)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "BRICS+ (adhésion 2024)",
+                "Mouvement des non-alignés",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "ISR": {
+        "identity": {
+            "officialName": "État d'Israël",
+            "capital": "Jérusalem (reconnue comme capitale par Israël et les États-Unis)",
+            "economicCapital": "Tel-Aviv (cœur financier, boursier, technologique et siège de nombreuses ambassades)",
+            "independence": "14 mai 1948 (Déclaration d'indépendance de David Ben Gourion)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Lois fondamentales d'Israël (constitution matérielle non codifiée)"
+        },
+        "executive": {
+            "headOfState": "Président de l'État d'Israël (rôle cérémoniel)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par la Knesset (président) ; désigné par le président selon la majorité parlementaire (Premier ministre)",
+            "mandate": "7 ans non renouvelable (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Knesset",
+            "structure": "Monocaméral",
+            "lowerHouse": "Knesset (120 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel intégral de liste nationale bloquée avec seuil électoral de 3,25%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême d'Israël (siégeant comme Haute Cour de justice - Bagatz)",
+            "highestJudicialInstitution": "Cour suprême d'Israël"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "6 districts administratifs (mehozot) et secteur de Judée-Samarie sous administration militaire"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Accords d'Abraham (normalisation avec EAU, Bahreïn, Maroc, Soudan)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OCDE (adhésion en 2010)"
+            ]
+        }
+    },
+    "PSE": {
+        "identity": {
+            "officialName": "État de Palestine",
+            "capital": "Jérusalem-Est (revendiquée) ; Ramallah (siège administratif de l'Autorité palestinienne)",
+            "economicCapital": "—",
+            "independence": "15 novembre 1988 (Déclaration à Alger par l'OLP)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel (régime d'autonomie sous occupation et partition Gaza/Cisjordanie)",
+            "territorialOrganization": "Territoires palestiniens occupés (Cisjordanie et Bande de Gaza)",
+            "constitution": "Loi fondamentale palestinienne de 2002 (amendée en 2003)"
+        },
+        "executive": {
+            "headOfState": "Président de l'État de Palestine (et Président du Comité exécutif de l'OLP)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct (président) ; nommé par le président",
+            "mandate": "4 ans (en pratique prorogé depuis 2009)"
+        },
+        "legislative": {
+            "parliament": "Conseil législatif palestinien (CLP) / Conseil national palestinien (CNP - organe souverain de l'OLP)",
+            "structure": "Monocaméral (suspendu de facto)",
+            "lowerHouse": "Conseil législatif palestinien",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (proportionnel et majoritaire de district)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle suprême palestinienne",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "Territoire sous occupation et blocus fragmenté (Zones A, B, C en Cisjordanie et Bande de Gaza)",
+            "organization": "16 gouvernorats (11 en Cisjordanie, 5 dans la Bande de Gaza)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Ligue des États arabes",
+                "Organisation de la coopération islamique (OCI)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (État observateur non-membre depuis 2012, reconnu par plus de 145 États)",
+                "Cour pénale internationale (CPI)",
+                "UNESCO"
+            ]
+        }
+    },
+    "ARE": {
+        "identity": {
+            "officialName": "Émirats arabes unis",
+            "capital": "Abou Dabi",
+            "economicCapital": "Dubaï",
+            "independence": "2 décembre 1971 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Fédération d'émirats monarchiques",
+            "regime": "Monarchie constitutionnelle fédérale élective",
+            "territorialOrganization": "État fédéral (7 émirats souverains)",
+            "constitution": "Constitution permanente des Émirats arabes unis de 1971 (rendue définitive en 1996)"
+        },
+        "executive": {
+            "headOfState": "Président de la Fédération (traditionnellement l'Émir d'Abou Dabi)",
+            "headOfGovernment": "Premier ministre et Vice-président (traditionnellement l'Émir de Dubaï)",
+            "election": "Élu par le Conseil suprême fédéral regroupant les souverains des 7 émirats",
+            "mandate": "5 ans (renouvelable sans limitation)"
+        },
+        "legislative": {
+            "parliament": "Conseil national fédéral (FNC)",
+            "structure": "Monocaméral (rôle consultatif)",
+            "lowerHouse": "Conseil national fédéral (40 membres : 20 élus par collèges restreints, 20 nommés par les émirs)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "Variable selon désignation par chaque émirat",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin indirect par des collèges électoraux désignés par les souverains"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême fédérale des Émirats arabes unis",
+            "highestJudicialInstitution": "Cour suprême fédérale"
+        },
+        "territory": {
+            "type": "Fédération d'émirats",
+            "organization": "7 émirats : Abou Dabi, Dubaï, Charjah, Ajman, Oumm al-Qaïwaïn, Ras al-Khaïmah, Fujaïrah"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de coopération du Golfe (CCG)",
+                "Ligue des États arabes",
+                "OPEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "BRICS+ (adhésion pleine en 2024)",
+                "Organisation de la coopération islamique (OCI)",
+                "Signataire des Accords d'Abraham (2020)"
+            ]
+        }
+    },
+    "QAT": {
+        "identity": {
+            "officialName": "État du Qatar",
+            "capital": "Doha",
+            "economicCapital": "—",
+            "independence": "3 septembre 1971 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Émirat (Monarchie héréditaire)",
+            "regime": "Monarchie constitutionnelle autoritaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution permanente du 8 juin 2004"
+        },
+        "executive": {
+            "headOfState": "Émir du Qatar",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire agnatique dans la dynastie Al Thani ; nommé par l'Émir",
+            "mandate": "À vie (Émir)"
+        },
+        "legislative": {
+            "parliament": "Conseil de la Choura (Majlis al-Choura)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Conseil de la Choura (45 membres)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Système mixte (30 membres élus, 15 nommés par l'Émir - réforme vers nomination intégrale en 2024)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle suprême",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "Émirat péninsulaire (1er exportateur mondial de GNL avec le champ North Dome / South Pars)",
+            "organization": "8 municipalités (baladiyat)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de coopération du Golfe (CCG)",
+                "Ligue des États arabes",
+                "Forum des pays exportateurs de gaz (GECF - siège à Doha)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Médiateur international clé et allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "KWT": {
+        "identity": {
+            "officialName": "État du Koweït",
+            "capital": "Koweït",
+            "economicCapital": "—",
+            "independence": "19 juin 1961 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Émirat (Monarchie constitutionnelle)",
+            "regime": "Monarchie semi-constitutionnelle parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 11 novembre 1962"
+        },
+        "executive": {
+            "headOfState": "Émir du Koweït",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire dans la dynastie Al Sabah avec approbation parlementaire ; nommé par l'Émir",
+            "mandate": "À vie (Émir)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Majlis al-Oumma)",
+            "structure": "Monocaméral (parlement le plus virulent du Golfe)",
+            "lowerHouse": "Assemblée nationale (50 députés élus + ministres membres de droit)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "21 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal non transférable (SNTV) dans 5 circonscriptions de 10 sièges"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle du Koweït",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "Émirat côtier pétrolier",
+            "organization": "6 gouvernorats (muhafazat)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de coopération du Golfe (CCG)",
+                "Ligue des États arabes",
+                "OPEP (membre fondateur)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "OMN": {
+        "identity": {
+            "officialName": "Sultanat d'Oman",
+            "capital": "Mascate",
+            "economicCapital": "—",
+            "independence": "1650 (expulsion des Portugais - plus ancien État indépendant du monde arabe)"
+        },
+        "system": {
+            "stateForm": "Monarchie absolue (Sultanat)",
+            "regime": "Monarchie absolue consultative",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Loi fondamentale de l'État de 1996 (amendée en 2011 et 2021 instituant un Prince héritier)"
+        },
+        "executive": {
+            "headOfState": "Sultan d'Oman",
+            "headOfGovernment": "Sultan d'Oman (chef de l'État et du gouvernement)",
+            "election": "Succession héréditaire de primogéniture masculine dans la dynastie Al Saïd",
+            "mandate": "À vie"
+        },
+        "legislative": {
+            "parliament": "Conseil d'Oman (Majlis Oman)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Conseil consultatif (Majlis al-Choura - 90 membres élus)",
+            "upperHouse": "Conseil d'État (Majlis al-Dawla - membres nommés par le Sultan)"
+        },
+        "electoral": {
+            "votingAge": "21 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour pour le Majlis al-Choura"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil judiciaire suprême présidé par le Sultan",
+            "highestJudicialInstitution": "Cour suprême d'Oman"
+        },
+        "territory": {
+            "type": "Sultanat stratégique (contrôle de la rive sud du détroit d'Ormuz via l'enclave de Moussandam)",
+            "organization": "11 gouvernorats (muhafazat)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de coopération du Golfe (CCG)",
+                "Ligue des États arabes",
+                "OPEP+ (partenaire)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Politique traditionnelle de neutralité diplomatique active (la 'Suisse du Moyen-Orient')"
+            ]
+        }
+    },
+    "BHR": {
+        "identity": {
+            "officialName": "Royaume de Bahreïn",
+            "capital": "Manama",
+            "economicCapital": "—",
+            "independence": "15 août 1971 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Monarchie semi-constitutionnelle",
+            "territorialOrganization": "État unitaire insulaire",
+            "constitution": "Constitution du 14 février 2002"
+        },
+        "executive": {
+            "headOfState": "Roi de Bahreïn",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire dans la dynastie Al Khalifa ; nommé par le Roi",
+            "mandate": "À vie (Roi)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale",
+            "structure": "Bicaméral",
+            "lowerHouse": "Conseil des représentants (Majlis al-Nuwab - 40 députés élus)",
+            "upperHouse": "Conseil consultatif (Majlis al-Choura - 40 membres nommés par le Roi)"
+        },
+        "electoral": {
+            "votingAge": "20 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin majoritaire uninominal à deux tours"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Bahreïn",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "Archipel insulaire du Golfe relié à l'Arabie saoudite par la chaussée du Roi Fahd",
+            "organization": "4 gouvernorats"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de coopération du Golfe (CCG)",
+                "Ligue des États arabes"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Signataire des Accords d'Abraham (2020)",
+                "Siège de la Ve Flotte de l'US Navy"
+            ]
+        }
+    },
+    "YEM": {
+        "identity": {
+            "officialName": "République du Yémen",
+            "capital": "Sanaa (occupée par les Houthis) ; Aden (capitale temporaire reconnue)",
+            "economicCapital": "—",
+            "independence": "22 mai 1990 (Unification du Yémen du Nord et du Sud)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel (en guerre civile et partition institutionnelle)",
+            "territorialOrganization": "État unitaire en fragmentation",
+            "constitution": "Constitution du 16 mai 1991 (amendée en 2001)"
+        },
+        "executive": {
+            "headOfState": "Président du Conseil de direction présidentiel (PLC - autorité légitime reconnue) / Conseil politique suprême houthi à Sanaa",
+            "headOfGovernment": "Premier ministre",
+            "election": "Organe collégial de transition établi en 2022",
+            "mandate": "Période transitoire"
+        },
+        "legislative": {
+            "parliament": "Chambre des députés (Majlis al-Nuwab)",
+            "structure": "Bicaméral (parlement divisé)",
+            "lowerHouse": "Chambre des députés (301 sièges)",
+            "upperHouse": "Conseil de la Choura (111 membres nommés)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de la République",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État stratégique de la péninsule Arabique (contrôle de la rive orientale du détroit de Bab-el-Mandeb)",
+            "organization": "21 gouvernorats et la municipalité de Sanaa"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Ligue des États arabes",
+                "Organisation de la coopération islamique (OCI)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "IRQ": {
+        "identity": {
+            "officialName": "République d'Irak",
+            "capital": "Bagdad",
+            "economicCapital": "—",
+            "independence": "3 octobre 1932 (du mandat britannique)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Parlementaire consociationnel (Muhassasa : Président kurde, Premier ministre chiite, Président du Parlement sunnite)",
+            "territorialOrganization": "État fédéral avec région autonome du Kurdistan",
+            "constitution": "Constitution du 15 octobre 2005"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (Président du Conseil des ministres - détenteur du pouvoir exécutif)",
+            "election": "Élu par le Conseil des représentants aux deux tiers (président) ; désigné par le bloc parlementaire majoritaire",
+            "mandate": "4 ans"
+        },
+        "legislative": {
+            "parliament": "Conseil des représentants (Majlis al-Nuwab)",
+            "structure": "Monocaméral de fait (le Conseil de la Fédération n'a pas été institué)",
+            "lowerHouse": "Conseil des représentants (329 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin à vote unique non transférable (SNTV) dans 83 circonscriptions avec quotas réservés aux femmes (25%) et minorités"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême fédérale d'Irak",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État fédéral",
+            "organization": "18 gouvernorats (muhafazat) et Région autonome du Kurdistan irakien (KRG)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Ligue des États arabes (membre fondateur)",
+                "OPEP (membre fondateur)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "SYR": {
+        "identity": {
+            "officialName": "République arabe syrienne",
+            "capital": "Damas",
+            "economicCapital": "—",
+            "independence": "17 avril 1946 (évacuation des troupes françaises)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel autoritaire",
+            "territorialOrganization": "État unitaire en conflit territorial",
+            "constitution": "Constitution du 26 février 2012"
+        },
+        "executive": {
+            "headOfState": "Président de la République arabe syrienne",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct sous strict contrôle étatique",
+            "mandate": "7 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée du peuple (Majlis al-Chaab)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée du peuple (250 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin de liste plurinominal majoritaire à un tour sous bannière du Front national progressiste"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Haute Cour constitutionnelle",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État unitaire fragmenté par la guerre civile (zones sous contrôle gouvernemental, kurde AANES et factions rebelles/turques)",
+            "organization": "14 gouvernorats (muhafazat)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Ligue des États arabes (réintégrée en 2023)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "LBN": {
+        "identity": {
+            "officialName": "République libanaise",
+            "capital": "Beyrouth",
+            "economicCapital": "—",
+            "independence": "22 novembre 1943 (de la France)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire confessionnel (Pacte national de 1943 et Accord de Taëf de 1989 : Président chrétien maronite, Premier ministre musulman sunnite, Président du Parlement musulman chiite)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 23 mai 1926 (amendée par l'Accord de Taëf en 1990)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Président du Conseil des ministres (Premier ministre)",
+            "election": "Élu par la Chambre des députés à la majorité des deux tiers (président) ; désigné après consultations parlementaires obligatoires",
+            "mandate": "6 ans non renouvelable consécutivement"
+        },
+        "legislative": {
+            "parliament": "Chambre des députés (Majlis al-Nuwab)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Chambre des députés (128 sièges : parité stricte 64 chrétiens et 64 musulmans)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "21 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal avec vote préférentiel et quotas confessionnels stricts dans 15 circonscriptions"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel libanais",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État unitaire multiconfessionnel (18 communautés religieuses reconnues)",
+            "organization": "8 gouvernorats (mohafazat) subdivisés en cazas"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Ligue des États arabes (membre fondateur)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre fondateur)",
+                "Organisation internationale de la Francophonie",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "JOR": {
+        "identity": {
+            "officialName": "Royaume hachémite de Jordanie",
+            "capital": "Amman",
+            "economicCapital": "—",
+            "independence": "25 mai 1946 (du mandat britannique)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Monarchie semi-constitutionnelle parlementaire (pouvoirs royaux prépondérants)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 1er janvier 1952"
+        },
+        "executive": {
+            "headOfState": "Roi de Jordanie",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire dans la dynastie hachémite de descendance prophétique ; nommé par le Roi",
+            "mandate": "À vie (Roi)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Majlis al-Oumma)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des députés (Majlis al-Nuwab - 138 sièges élus)",
+            "upperHouse": "Sénat (Majlis al-Aayan - 69 membres nommés par le Roi)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Système mixte (listes locales proportionnelles et liste nationale avec quotas pour femmes, chrétiens, circassiens/tchétchènes)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Jordanie",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État unitaire stratégique (gardien du statu quo des lieux saints musulmans et chrétiens à Jérusalem)",
+            "organization": "12 gouvernorats (muhafazat)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Ligue des États arabes (membre fondateur)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Traité de paix avec Israël (Accord de Wadi Araba de 1994)",
+                "Allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "PAK": {
+        "identity": {
+            "officialName": "République islamique du Pakistan",
+            "capital": "Islamabad",
+            "economicCapital": "Karachi",
+            "independence": "14 août 1947 (Partition des Indes britanniques)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Parlementaire fédéral",
+            "territorialOrganization": "État fédéral (4 provinces et un territoire fédéral)",
+            "constitution": "Constitution du 14 août 1973 (amendée notamment par le 18e amendement décentralisateur de 2010)"
+        },
+        "executive": {
+            "headOfState": "Président de la République islamique du Pakistan",
+            "headOfGovernment": "Premier ministre (détenteur de l'autorité exécutive)",
+            "election": "Élu par un collège électoral fédéral et provincial (président) ; élu par l'Assemblée nationale (Premier ministre)",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement du Pakistan (Majlis-e-Shoora)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (336 sièges, dont 60 réservés aux femmes et 10 aux minorités non-musulmanes)",
+            "upperHouse": "Sénat (96 sénateurs représentant les provinces à égalité)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post) et sièges réservés à la proportionnelle"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Pakistan et Cour fédérale de la charia",
+            "highestJudicialInstitution": "Cour suprême du Pakistan"
+        },
+        "territory": {
+            "type": "État fédéral (puissance nucléaire militaire déclarée depuis 1998)",
+            "organization": "4 provinces autonomes (Pendjab, Sind, Khyber Pakhtunkhwa, Baloutchistan), Territoire de la capitale (Islamabad) et zones administrées (Azad Cachemire et Gilgit-Baltistan)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (OCS - adhésion 2017)",
+                "SAARC",
+                "Organisation de coopération économique (ECO)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "Commonwealth of Nations",
+                "Partenaire stratégique majeur de la Chine (Corridor CPEC)"
+            ]
+        }
+    },
+    "BGD": {
+        "identity": {
+            "officialName": "République populaire du Bangladesh",
+            "capital": "Dacca (Dhaka)",
+            "economicCapital": "—",
+            "independence": "26 mars 1971 (Déclaration) ; 16 décembre 1971 (Victoire dans la guerre de libération du Pakistan)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 16 décembre 1972"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (ou Conseiller principal lors des gouvernements d'intérim)",
+            "election": "Élu par le Parlement (président) ; nommé selon la majorité parlementaire",
+            "mandate": "5 ans (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Jatiya Sangsad (Parlement national)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Jatiya Sangsad (350 sièges : 300 élus au scrutin uninominal et 50 réservés aux femmes)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Division de la Haute Cour de la Cour suprême",
+            "highestJudicialInstitution": "Cour suprême du Bangladesh (Appellate Division)"
+        },
+        "territory": {
+            "type": "État unitaire du delta du Gange-Brahmapoutre (l'un des pays les plus densément peuplés au monde)",
+            "organization": "8 divisions administratives subdivisées en 64 districts (zilas)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "SAARC (initiateur historique)",
+                "BIMSTEC (siège du Secrétariat à Dacca)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (l'un des plus grands contributeurs mondiaux aux casques bleus)",
+                "Commonwealth of Nations",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "VNM": {
+        "identity": {
+            "officialName": "République socialiste du Viêt Nam",
+            "capital": "Hanoï",
+            "economicCapital": "Hô Chi Minh-Ville",
+            "independence": "2 septembre 1945 (Déclaration d'indépendance de Hô Chi Minh) ; 1976 (Réunification)"
+        },
+        "system": {
+            "stateForm": "République socialiste",
+            "regime": "État socialiste à parti unique dirigé par le Parti communiste vietnamien (PCV)",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 28 novembre 2013"
+        },
+        "executive": {
+            "headOfState": "Président de l'État (et Secrétaire général du PCV - système des 'quatre piliers')",
+            "headOfGovernment": "Premier ministre (Chef du gouvernement)",
+            "election": "Élu par l'Assemblée nationale sur proposition du PCV",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Quốc hội)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (500 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par l'Assemblée nationale",
+            "legislativeSystem": "Scrutin majoritaire plurinominal à deux tours sous encadrement du Front de la Patrie"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Commission juridique de l'Assemblée nationale (pas de cour constitutionnelle séparée)",
+            "highestJudicialInstitution": "Cour populaire suprême"
+        },
+        "territory": {
+            "type": "État unitaire côtier d'Asie du Sud-Est",
+            "organization": "58 provinces et 5 municipalités sous autorité centrale (Hanoï, Hô Chi Minh-Ville, Da Nang, Haïphong, Cần Thơ)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (adhésion 1995)",
+                "APEC",
+                "CPTPP",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Mouvement des non-alignés",
+                "Partenariat stratégique global diversifié ('diplomatie du bambou')"
+            ]
+        }
+    },
+    "THA": {
+        "identity": {
+            "officialName": "Royaume de Thaïlande",
+            "capital": "Bangkok",
+            "economicCapital": "—",
+            "independence": "— (Seul pays d'Asie du Sud-Est à n'avoir jamais été colonisé par une puissance occidentale)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Monarchie constitutionnelle parlementaire (sous forte influence militaire et monarchique)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 6 avril 2017"
+        },
+        "executive": {
+            "headOfState": "Roi de Thaïlande (Maison Chakri)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Succession héréditaire (Roi) ; élu par l'Assemblée nationale",
+            "mandate": "8 ans max. (Premier ministre)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Rathasapha)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (Saphaphoothaen Ratsadon - 500 sièges)",
+            "upperHouse": "Sénat (Wuthisapha - 200 sénateurs issus de collèges professionnels)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Système parallèle mixte (400 sièges au scrutin uninominal et 100 à la proportionnelle de parti)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Thaïlande",
+            "highestJudicialInstitution": "Cour suprême de justice (San Dika)"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "76 provinces (changwat) et la zone administrative spéciale de Bangkok"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (membre fondateur, Déclaration de Bangkok de 1967)",
+                "APEC",
+                "RCEP",
+                "BIMSTEC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "MYS": {
+        "identity": {
+            "officialName": "Malaisie",
+            "capital": "Kuala Lumpur (capitale royale et législative) ; Putrajaya (centre administratif fédéral)",
+            "economicCapital": "—",
+            "independence": "31 août 1957 (Fédération de Malaisie du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle fédérale",
+            "regime": "Parlementaire fédéral à monarchie élective",
+            "territorialOrganization": "État fédéral (13 États et 3 territoires fédéraux)",
+            "constitution": "Constitution fédérale du 27 août 1957"
+        },
+        "executive": {
+            "headOfState": "Roi de Malaisie (Yang di-Pertuan Agong)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu pour 5 ans par la Conférence des Rulers parmi les 9 sultans héréditaires malais ; Premier ministre nommé d'après la majorité parlementaire",
+            "mandate": "5 ans non renouvelable consécutivement (Roi) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Malaisie (Parlimen Malaysia)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Dewan Rakyat (Chambre des représentants - 222 sièges élus)",
+            "upperHouse": "Dewan Negara (Sénat - 70 sénateurs nommés et élus par les parlements d'États)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour fédérale de Malaisie (Federal Court)",
+            "highestJudicialInstitution": "Cour fédérale de Malaisie"
+        },
+        "territory": {
+            "type": "Fédération bicéphale (Malaisie péninsulaire et Bornéo malaisien : Sabah et Sarawak)",
+            "organization": "13 États (dont 9 monarchies héréditaires) et 3 territoires fédéraux (Kuala Lumpur, Putrajaya, Labuan)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (membre fondateur)",
+                "APEC",
+                "CPTPP",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Organisation de la coopération islamique (OCI)",
+                "Contrôle partagé du détroit stratégique de Malacca"
+            ]
+        }
+    },
+    "SGP": {
+        "identity": {
+            "officialName": "République de Singapour",
+            "capital": "Singapour",
+            "economicCapital": "—",
+            "independence": "9 août 1965 (séparation de la Fédération de Malaisie)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "Cité-État unitaire",
+            "constitution": "Constitution de la République de Singapour du 9 août 1965"
+        },
+        "executive": {
+            "headOfState": "Président de la République (rôle cérémoniel avec pouvoirs de veto financier)",
+            "headOfGovernment": "Premier ministre (détenteur de l'autorité exécutive)",
+            "election": "Suffrage universel direct (président) ; nommé selon la majorité parlementaire (Premier ministre)",
+            "mandate": "6 ans (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement de Singapour",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement de Singapour (93 sièges élus + sièges non-partisans et de l'opposition)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "21 ans (vote obligatoire)",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Système de circonscriptions de représentation de groupe (GRC, scrutin de liste majoritaire garantissant la représentation multiethnique) et circonscriptions uninominales"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Singapour (Cour d'appel)",
+            "highestJudicialInstitution": "Cour suprême de Singapour"
+        },
+        "territory": {
+            "type": "Cité-État insulaire souveraine (hub portuaire et financier mondial)",
+            "organization": "Territoire urbain unique subdivisé en 5 conseils de développement communautaire (CDC)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (membre fondateur)",
+                "APEC (siège du Secrétariat)",
+                "CPTPP",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Place financière mondiale et 2e port de conteneurs au monde sur le détroit de Singapour"
+            ]
+        }
+    },
+    "PHL": {
+        "identity": {
+            "officialName": "République des Philippines",
+            "capital": "Manille",
+            "economicCapital": "—",
+            "independence": "12 juin 1898 (de l'Espagne) ; 4 juillet 1946 (des États-Unis)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire avec région autonome musulmane",
+            "constitution": "Constitution du 2 février 1987"
+        },
+        "executive": {
+            "headOfState": "Président de la République des Philippines",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement)",
+            "election": "Suffrage universel direct uninominal à un tour (scrutin distinct pour le président et le vice-président)",
+            "mandate": "6 ans (mandat unique non renouvelable)"
+        },
+        "legislative": {
+            "parliament": "Congrès des Philippines (Kongreso ng Pilipinas)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (Kapulungan ng mga Kinatawan - 316 sièges)",
+            "upperHouse": "Sénat des Philippines (Senado - 24 sénateurs élus au suffrage national)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour",
+            "legislativeSystem": "Système mixte (circonscriptions uninominales et 20% de sièges de liste sectorielle pour les députés)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême des Philippines (Supreme Court of the Philippines)",
+            "highestJudicialInstitution": "Cour suprême des Philippines"
+        },
+        "territory": {
+            "type": "État archipélagique (plus de 7 600 îles réparties en Luçon, Visayas, Mindanao)",
+            "organization": "17 régions administratives (dont la Région autonome Bangsamoro en Mindanao musulman - BARMM) et 82 provinces"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (membre fondateur)",
+                "APEC",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (membre fondateur)",
+                "Traité de défense mutuelle avec les États-Unis (1951)",
+                "Allié majeur non-OTAN des États-Unis"
+            ]
+        }
+    },
+    "MMR": {
+        "identity": {
+            "officialName": "République de l'Union du Myanmar (Birmanie)",
+            "capital": "Naypyidaw",
+            "economicCapital": "Rangoun (Yangon)",
+            "independence": "4 janvier 1948 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Junte militaire (Conseil d'administration de l'État suite au coup d'État de 2021)",
+            "territorialOrganization": "État unitaire fédéralisé en conflit civil",
+            "constitution": "Constitution de 2008 (rédigée par les militaires)"
+        },
+        "executive": {
+            "headOfState": "Président par intérim / Commandant en chef des services de défense (Premier ministre du régime militaire)",
+            "headOfGovernment": "Premier ministre de la junte",
+            "election": "Pouvoir militaire de facto",
+            "mandate": "État d'urgence prorogé"
+        },
+        "legislative": {
+            "parliament": "Assemblée de l'Union (Pyidaungsu Hluttaw)",
+            "structure": "Bicaméral (dissous de facto / caduc depuis 2021)",
+            "lowerHouse": "Chambre des représentants (Pyithu Hluttaw)",
+            "upperHouse": "Chambre des nationalités (Amyotha Hluttaw)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par le Parlement",
+            "legislativeSystem": "Scrutin uninominal majoritaire (25% des sièges réservés constitutionnellement aux militaires)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Tribunal constitutionnel de l'Union",
+            "highestJudicialInstitution": "Cour suprême de l'Union"
+        },
+        "territory": {
+            "type": "État en guerre civile multiethnique",
+            "organization": "7 régions administratives (majorité birmane) et 7 États ethniques (Chin, Kachin, Karen, Kayah, Mon, Rakhine, Shan)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (adhésion 1997, réunions ministérielles suspendues aux représentants politiques)",
+                "BIMSTEC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "KHM": {
+        "identity": {
+            "officialName": "Royaume du Cambodge",
+            "capital": "Phnom Penh",
+            "economicCapital": "—",
+            "independence": "9 novembre 1953 (de la France)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Monarchie parlementaire (régime autoritaire dominé par le Parti du peuple cambodgien - PPC)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 24 septembre 1993 (rétablissant la monarchie après les accords de paix de Paris de 1991)"
+        },
+        "executive": {
+            "headOfState": "Roi du Cambodge (règne mais ne gouverne pas)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu à vie parmi les princes royaux par le Conseil royal du trône ; Premier ministre nommé par le Roi sur proposition de l'Assemblée",
+            "mandate": "À vie (Roi) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Cambodge",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (125 députés)",
+            "upperHouse": "Sénat (62 sénateurs, élus au scrutin indirect par les conseillers municipaux et députés)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal dans 25 circonscriptions provinciales (méthode D'Hondt)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil constitutionnel du Cambodge",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État unitaire",
+            "organization": "24 provinces (khaet) et la municipalité autonome de Phnom Penh"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (adhésion en 1999, dernier membre intégré du bloc originel)",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Partenaire stratégique étroit de la Chine"
+            ]
+        }
+    },
+    "LAO": {
+        "identity": {
+            "officialName": "République démocratique populaire lao (Laos)",
+            "capital": "Vientiane",
+            "economicCapital": "—",
+            "independence": "19 juillet 1949 (de la France) ; 2 décembre 1975 (Proclamation de la République)"
+        },
+        "system": {
+            "stateForm": "République socialiste",
+            "regime": "État communiste à parti unique (Parti révolutionnaire populaire lao - PRPL)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 14 août 1991 (amendée en 2015)"
+        },
+        "executive": {
+            "headOfState": "Président de la République (généralement Secrétaire général du PRPL)",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par l'Assemblée nationale à la majorité des deux tiers",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Sapha Heng Xat)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (164 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Élection indirecte par l'Assemblée nationale",
+            "legislativeSystem": "Scrutin plurinominal majoritaire sous sélection stricte du Front lao pour la construction nationale"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Comité permanent de l'Assemblée nationale",
+            "highestJudicialInstitution": "Cour populaire suprême"
+        },
+        "territory": {
+            "type": "État enclavé d'Asie du Sud-Est",
+            "organization": "17 provinces (khoueng) et la préfecture de Vientiane"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (adhésion en 1997)",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "BRN": {
+        "identity": {
+            "officialName": "Nation de Brunei, demeure de la paix (Brunei Darussalam)",
+            "capital": "Bandar Seri Begawan",
+            "economicCapital": "—",
+            "independence": "1er janvier 1984 (du protectorat britannique)"
+        },
+        "system": {
+            "stateForm": "Sultanat islamique (Monarchie absolue)",
+            "regime": "Monarchie absolue islamique (Monarchie malaise islamique - MIB)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution de 1959 (dispositions d'urgence de 1962 suspendant les libertés partisanes)"
+        },
+        "executive": {
+            "headOfState": "Sultan de Brunei (Maison de Bolkiah, régnant depuis le XIVe siècle)",
+            "headOfGovernment": "Premier ministre (cumulé par le Sultan, également ministre des Finances et de la Défense)",
+            "election": "Succession héréditaire agnatique",
+            "mandate": "À vie"
+        },
+        "legislative": {
+            "parliament": "Conseil législatif (Majlis Mesyuarat Negara)",
+            "structure": "Monocaméral (organe consultatif)",
+            "lowerHouse": "Conseil législatif (membres nommés par le Sultan)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "Pas de suffrage populaire législatif national",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Nomination royale discrétionnaire"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Sultan in Council",
+            "highestJudicialInstitution": "Cour suprême (droit coutumier/common law) et Cour de la charia (code pénal islamique adopté en 2014)"
+        },
+        "territory": {
+            "type": "Enclave côtière pétrolière sur l'île de Bornéo séparée en deux parties",
+            "organization": "4 districts (daerah)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (adhésion 1984)",
+                "APEC",
+                "CPTPP",
+                "RCEP"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "TLS": {
+        "identity": {
+            "officialName": "République démocratique du Timor oriental (Timor-Leste)",
+            "capital": "Dili",
+            "economicCapital": "—",
+            "independence": "28 novembre 1975 (du Portugal) ; 20 mai 2002 (restauration d'indépendance de l'Indonésie sous égide de l'ONU)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 22 mars 2002"
+        },
+        "executive": {
+            "headOfState": "Président de la République démocratique du Timor-Leste",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; nommé selon la majorité parlementaire",
+            "mandate": "5 ans (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement national",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement national (65 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "17 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de liste bloquée nationale avec seuil électoral de 4%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour d'appel (exerçant provisoirement les compétences de la Cour constitutionnelle)",
+            "highestJudicialInstitution": "Cour d'appel"
+        },
+        "territory": {
+            "type": "État insulaire d'Asie du Sud-Est (moitié orientale de l'île de Timor, enclave d'Oecusse et île d'Atauro)",
+            "organization": "14 municipalités"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "ASEAN (statut d'observateur officiel avec feuille de route vers l'adhésion pleine)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 2002)",
+                "Communauté des pays de langue portugaise (CPLP)",
+                "Organisation des États d'Afrique, des Caraïbes et du Pacifique (OEACP)"
+            ]
+        }
+    },
+    "TWN": {
+        "identity": {
+            "officialName": "République de Chine (Taïwan)",
+            "capital": "Taipei",
+            "economicCapital": "—",
+            "independence": "1er janvier 1912 (fondation de la République de Chine) ; repli à Taïwan en 1949"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel (Régime des Cinq Pouvoirs / Yuans de Sun Yat-sen)",
+            "territorialOrganization": "État unitaire démocratique insulaire",
+            "constitution": "Constitution de la République de Chine du 25 décembre 1946 (modifiée par les Articles additionnels)"
+        },
+        "executive": {
+            "headOfState": "Président de la République de Chine (Taïwan)",
+            "headOfGovernment": "Premier ministre (Président du Yuan exécutif)",
+            "election": "Suffrage universel direct uninominal à un tour (majorité simple)",
+            "mandate": "4 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Yuan législatif",
+            "structure": "Monocaméral",
+            "lowerHouse": "Yuan législatif (113 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "20 ans (vote populaire)",
+            "presidentialSystem": "Scrutin uninominal majoritaire à un tour",
+            "legislativeSystem": "Système de vote parallèle mixte (73 circonscriptions uninominales, 34 proportionnelles avec seuil de 5%, 6 pour les aborigènes)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Conseil des Grands Juges du Yuan judiciaire (Cour constitutionnelle)",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Démocratie insulaire souveraine de facto (leader mondial des semi-conducteurs via TSMC)",
+            "organization": "6 municipalités spéciales (Taipei, Nouveau Taipei, Kaohsiung, Taichung, Tainan, Taoyuan), 3 villes provinciales et 13 comtés"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "APEC (sous le nom de 'Chinese Taipei')"
+            ],
+            "internationalOrganizations": [
+                "OMC (sous le nom de 'Territoire douanier distinct de Taïwan, Penghu, Kinmen et Matsu')",
+                "Relations diplomatiques officielles maintenues avec 12 États souverains et partenariats stratégiques mondiaux de facto"
+            ]
+        }
+    },
+    "MNG": {
+        "identity": {
+            "officialName": "Mongolie",
+            "capital": "Oulan-Bator",
+            "economicCapital": "—",
+            "independence": "29 décembre 1911 (de la dynastie Qing) ; 11 juillet 1921 (Révolution populaire)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution démocratique du 13 janvier 1992"
+        },
+        "executive": {
+            "headOfState": "Président de la Mongolie",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours (président) ; désigné par le parti majoritaire au Parlement",
+            "mandate": "6 ans non renouvelable (président) ; 4 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Grand Khoural d'État (State Great Khural)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Grand Khoural d'État (126 députés suite à la réforme constitutionnelle de 2023)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (78 au scrutin majoritaire plurinominal et 48 à la proportionnelle avec seuil de 4%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Mongolie (Tsets)",
+            "highestJudicialInstitution": "Cour suprême de Mongolie"
+        },
+        "territory": {
+            "type": "État enclavé d'Asie centrale/orientale (situé entre la Russie et la Chine)",
+            "organization": "21 provinces (aïmags) et la municipalité de la capitale Oulan-Bator"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (statut d'observateur depuis 2004)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE (adhésion en 2012)",
+                "Doctrine diplomatique active du 'Troisième Voisin' (liens forts avec États-Unis, UE, Japon, Corée)"
+            ]
+        }
+    },
+    "KAZ": {
+        "identity": {
+            "officialName": "République du Kazakhstan",
+            "capital": "Astana",
+            "economicCapital": "Almaty",
+            "independence": "16 décembre 1991 (dernière république soviétique à proclamer son indépendance)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 30 août 1995 (révisée par référendum en 2022)"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Kazakhstan",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "7 ans (mandat unique non renouvelable introduit en 2022)"
+        },
+        "legislative": {
+            "parliament": "Parlement de la République du Kazakhstan",
+            "structure": "Bicaméral",
+            "lowerHouse": "Mäjilis (98 députés)",
+            "upperHouse": "Sénat (50 sénateurs : 40 élus par les assemblées régionales, 10 nommés par le président)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (69 à la proportionnelle avec seuil de 5%, 29 au scrutin majoritaire uninominal)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle du Kazakhstan (rétablie en 2023)",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Plus grand État enclavé du monde en superficie (9e puissance territoriale mondiale)",
+            "organization": "17 régions (oblystar) et 3 villes d'importance républicaine (Astana, Almaty, Chymkent)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (OCS - membre fondateur)",
+                "Union économique eurasiatique (UEE)",
+                "Organisation du traité de sécurité collective (OTSC)",
+                "Organisation des États turciques"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE",
+                "Organisation de la coopération islamique (OCI)",
+                "Politique étrangère 'multivectorielle'"
+            ]
+        }
+    },
+    "UZB": {
+        "identity": {
+            "officialName": "République d'Ouzbékistan",
+            "capital": "Tachkent",
+            "economicCapital": "—",
+            "independence": "1er septembre 1991 (de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire avec république autonome",
+            "constitution": "Constitution du 8 décembre 1992 (amendée en 2023)"
+        },
+        "executive": {
+            "headOfState": "Président de la République d'Ouzbékistan",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "7 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Oliy Majlis (Assemblée suprême)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre législative (150 sièges)",
+            "upperHouse": "Sénat (100 sénateurs : 84 élus régionaux, 16 nommés)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin parallèle mixte (75 uninominal majoritaire, 75 à la proportionnelle avec seuil de 7%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République d'Ouzbékistan",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État doublement enclavé d'Asie centrale (l'un des deux seuls au monde avec le Liechtenstein)",
+            "organization": "12 régions (viloyatlar), 1 ville indépendante (Tachkent) et la République autonome du Karakalpakistan"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (OCS - siège du RATS à Tachkent)",
+                "Organisation des États turciques",
+                "Communauté des États indépendants (CEI)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation de la coopération islamique (OCI)",
+                "OSCE"
+            ]
+        }
+    },
+    "TKM": {
+        "identity": {
+            "officialName": "Turkménistan",
+            "capital": "Achgabat",
+            "economicCapital": "—",
+            "independence": "27 octobre 1991 (de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel autoritaire dynastique",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 18 mai 1992 (révisée en 2020 et 2023)"
+        },
+        "executive": {
+            "headOfState": "Président du Turkménistan",
+            "headOfGovernment": "Président du Turkménistan (cumule les fonctions de chef de l'État et du cabinet)",
+            "election": "Suffrage universel direct uninominal à un tour sous contrôle absolu de l'État",
+            "mandate": "7 ans (sans limitation)"
+        },
+        "legislative": {
+            "parliament": "Assemblée (Mejlis)",
+            "structure": "Monocaméral (repassé en monocaméral en 2023 sous le Halk Maslahaty suprême)",
+            "lowerHouse": "Mejlis (125 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire uninominal",
+            "legislativeSystem": "Scrutin uninominal majoritaire sous contrôle étatique"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême (pas de cour constitutionnelle séparée)",
+            "highestJudicialInstitution": "Cour suprême du Turkménistan"
+        },
+        "territory": {
+            "type": "État unitaire d'Asie centrale désertique (possesseur du gigantesque gisement gazier de Galkynysh)",
+            "organization": "5 provinces (welayatlar) et la ville capitale Achgabat"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation des États turciques (observateur)",
+                "Communauté des États indépendants (membre associé)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (statut de neutralité permanente reconnu par l'AGNU en 1995)",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "KGZ": {
+        "identity": {
+            "officialName": "République kirghize (Kirghizistan)",
+            "capital": "Bichkek",
+            "economicCapital": "—",
+            "independence": "31 août 1991 (de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel fort (retour au présidentialisme en 2021)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 5 mai 1993 (révisée par référendum en avril 2021)"
+        },
+        "executive": {
+            "headOfState": "Président de la République kirghize",
+            "headOfGovernment": "Président du Cabinet des ministres (chef de l'administration présidentielle)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (limité à deux mandats)"
+        },
+        "legislative": {
+            "parliament": "Conseil suprême (Jogorku Kengesh)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Jogorku Kengesh (90 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Système mixte (54 à la proportionnelle avec seuil de 5%, 36 au scrutin majoritaire uninominal)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République kirghize",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État enclavé montagneux d'Asie centrale (massif des Tian Shan)",
+            "organization": "7 régions (oblaster) et 2 villes indépendantes (Bichkek et Och)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (OCS - membre fondateur)",
+                "Union économique eurasiatique (UEE)",
+                "Organisation du traité de sécurité collective (OTSC)",
+                "Organisation des États turciques"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "TJK": {
+        "identity": {
+            "officialName": "République du Tadjikistan",
+            "capital": "Douchanbé",
+            "economicCapital": "—",
+            "independence": "9 septembre 1991 (de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel autoritaire",
+            "territorialOrganization": "État unitaire avec province autonome",
+            "constitution": "Constitution du 6 novembre 1994 (amendée en 1999, 2003 et 2016)"
+        },
+        "executive": {
+            "headOfState": "Président de la République du Tadjikistan",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "7 ans (sans limitation pour le 'Leader de la Nation')"
+        },
+        "legislative": {
+            "parliament": "Assemblée suprême (Majlisi Oli)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée des représentants (Majlisi Namoyandagon - 63 sièges)",
+            "upperHouse": "Assemblée nationale (Majlisi Milliy - 33 sénateurs)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Système mixte parallèle (41 sièges au majoritaire uninominal et 22 à la proportionnelle avec seuil de 5%)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République du Tadjikistan",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État montagneux d'Asie centrale persanophone (massif du Pamir, frontière sensible avec l'Afghanistan)",
+            "organization": "2 provinces (viloyatho), 1 province autonome (Haut-Badakhchan), 1 région sous subordination républicaine et Douchanbé"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation de coopération de Shanghai (OCS - membre fondateur)",
+                "Organisation du traité de sécurité collective (OTSC)",
+                "Communauté des États indépendants (CEI)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "OSCE",
+                "Organisation de la coopération islamique (OCI)"
+            ]
+        }
+    },
+    "AFG": {
+        "identity": {
+            "officialName": "Émirat islamique d'Afghanistan",
+            "capital": "Kaboul",
+            "economicCapital": "—",
+            "independence": "19 août 1919 (Traité de Rawalpindi du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "Émirat islamique théocratique",
+            "regime": "Théocratie totalitaire islamique sunnite deobandie (Gouvernement des Talibans rétabli en août 2021)",
+            "territorialOrganization": "État unitaire sous contrôle centralisé théocratique",
+            "constitution": "Charia islamique appliquée directement par décrets émiraux (constitution républicaine de 2004 abolie de facto)"
+        },
+        "executive": {
+            "headOfState": "Commandeur des croyants (Émir suprême de l'Émirat islamique, résidant à Kandahar)",
+            "headOfGovernment": "Premier ministre du gouvernement taliban (à Kaboul)",
+            "election": "Désignation par la direction religieuse et le conseil consultatif des oulémas talibans",
+            "mandate": "À vie"
+        },
+        "legislative": {
+            "parliament": "Conseil des oulémas et choura religieuse",
+            "structure": "Monocaméral (pas de parlement élu)",
+            "lowerHouse": "Assemblée consultative des érudits religieux",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "Pas de suffrage populaire civil",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Désignation théocratique"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de l'Émirat islamique (Dar al-Ifta)",
+            "highestJudicialInstitution": "Cour suprême de l'Émirat islamique"
+        },
+        "territory": {
+            "type": "État enclavé montagneux d'Asie du Sud/Centrale au carrefour stratégique historique",
+            "organization": "34 provinces (wilayats)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "SAARC (suspendu de fait des sommets)",
+                "ECO"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (siège officiellement disputé, non reconnu formellement par la communauté internationale)"
+            ]
+        }
+    },
+    "NPL": {
+        "identity": {
+            "officialName": "République démocratique fédérale du Népal",
+            "capital": "Katmandou",
+            "economicCapital": "—",
+            "independence": "21 décembre 1923 (Traité avec le Royaume-Uni garantissant l'indépendance)"
+        },
+        "system": {
+            "stateForm": "République fédérale",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État fédéral (7 provinces)",
+            "constitution": "Constitution du Népal du 20 septembre 2015"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par un collège électoral fédéral et provincial (président) ; nommé selon la majorité parlementaire",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement fédéral du Népal (Sanghiya Sansad)",
+            "structure": "Bicaméral",
+            "lowerHouse": "Chambre des représentants (Pratinidhi Sabha - 275 sièges)",
+            "upperHouse": "Assemblée nationale (Rastriya Sabha - 59 sièges)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Système mixte (165 au scrutin uninominal et 110 à la proportionnelle avec quotas d'inclusivité)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Banc constitutionnel de la Cour suprême",
+            "highestJudicialInstitution": "Cour suprême du Népal"
+        },
+        "territory": {
+            "type": "État himalayen enclavé (comprenant l'Everest)",
+            "organization": "7 provinces fédérales subdivisées en 77 districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "SAARC (siège du Secrétariat général à Katmandou)",
+                "BIMSTEC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Mouvement des non-alignés (politique d'équidistance entre l'Inde et la Chine)"
+            ]
+        }
+    },
+    "LKA": {
+        "identity": {
+            "officialName": "République socialiste démocratique de Sri Lanka",
+            "capital": "Sri Jayawardenepura Kotte (capitale administrative et parlementaire)",
+            "economicCapital": "Colombo (capitale économique, commerciale et siège du gouvernement)",
+            "independence": "4 février 1948 (du Royaume-Uni - ancien Ceylan)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Semi-présidentiel",
+            "territorialOrganization": "État unitaire décentralisé",
+            "constitution": "Constitution du 7 septembre 1978"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct au vote préférentiel alternatif (président)",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement de Sri Lanka",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement (225 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Vote alternatif préférentiel uninominal",
+            "legislativeSystem": "Scrutin proportionnel plurinominal de circonscription avec seuil électoral de 5% et liste nationale"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême de Sri Lanka",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État insulaire stratégique de l'océan Indien (détroit de Palk, port en eaux profondes de Hambantota)",
+            "organization": "9 provinces et 25 districts"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "SAARC",
+                "BIMSTEC",
+                "Association des États riverains de l'océan Indien (IORA)"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Mouvement des non-alignés"
+            ]
+        }
+    },
+    "BTN": {
+        "identity": {
+            "officialName": "Royaume du Bhoutan",
+            "capital": "Thimphou",
+            "economicCapital": "—",
+            "independence": "17 décembre 1907 (instauration de la monarchie héréditaire Wangchuck)"
+        },
+        "system": {
+            "stateForm": "Monarchie constitutionnelle",
+            "regime": "Parlementaire (axé sur la philosophie du Bonheur National Brut - BNB)",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 18 juillet 2008"
+        },
+        "executive": {
+            "headOfState": "Roi-Dragon du Bhoutan (Druk Gyalpo)",
+            "headOfGovernment": "Premier ministre (Lyonchhen)",
+            "election": "Succession héréditaire de primogéniture masculine ; chef du parti vainqueur des législatives",
+            "mandate": "À vie (abdication obligatoire à 65 ans pour le Roi) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Parlement du Bhoutan",
+            "structure": "Bicaméral",
+            "lowerHouse": "Assemblée nationale (Gyelyong Tshokdu - 47 sièges)",
+            "upperHouse": "Conseil national (Gyelyong Tshokde - 25 membres, non-partisans)"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin uninominal majoritaire à deux tours (primaire nationale pour retenir 2 partis, puis second tour uninominal)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême du Bhoutan",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "Royaume himalayen enclavé à bilan carbone négatif",
+            "organization": "20 districts (dzongkhags)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "SAARC",
+                "BIMSTEC"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies (adhésion 1971)",
+                "Mouvement des non-alignés",
+                "Traité spécial d'amitié et de coopération étroite avec l'Inde"
+            ]
+        }
+    },
+    "MDV": {
+        "identity": {
+            "officialName": "République des Maldives",
+            "capital": "Malé",
+            "economicCapital": "—",
+            "independence": "26 juillet 1965 (du Royaume-Uni)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel",
+            "territorialOrganization": "État unitaire archipélagique",
+            "constitution": "Constitution du 7 août 2008"
+        },
+        "executive": {
+            "headOfState": "Président de la République des Maldives",
+            "headOfGovernment": "Président de la République (chef d'État et de gouvernement)",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "5 ans (renouvelable une fois)"
+        },
+        "legislative": {
+            "parliament": "Majlis du peuple (People's Majlis)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Majlis du peuple (93 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour (First-past-the-post)"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour suprême des Maldives",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État insulaire corallien (1 192 îles réparties sur 26 atolls naturels, pays le plus plat au monde)",
+            "organization": "19 atolls administratifs et les villes autonomes de Malé, Addu et Fuvahmulah"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "SAARC",
+                "IORA"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Commonwealth of Nations",
+                "Organisation de la coopération islamique (OCI)",
+                "Alliance des petits États insulaires (AOSIS - pionnier de la diplomatie climatique)"
+            ]
+        }
+    },
+    "GEO": {
+        "identity": {
+            "officialName": "Géorgie",
+            "capital": "Tbilissi",
+            "economicCapital": "—",
+            "independence": "9 avril 1991 (de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire avec républiques autonomes",
+            "constitution": "Constitution du 24 août 1995 (amendée en 2017-2018)"
+        },
+        "executive": {
+            "headOfState": "Président de la Géorgie",
+            "headOfGovernment": "Premier ministre",
+            "election": "Élu par un collège électoral de 300 délégués (président) ; nommé selon la majorité parlementaire (Premier ministre)",
+            "mandate": "5 ans"
+        },
+        "legislative": {
+            "parliament": "Parlement de Géorgie (Sakartvelos Parlamenti)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Parlement de Géorgie (150 députés)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel plurinominal intégral de liste avec seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de Géorgie (siégeant à Batoumi)",
+            "highestJudicialInstitution": "Cour suprême de Géorgie"
+        },
+        "territory": {
+            "type": "État unitaire du Caucase du Sud (territoires occupés d'Abkhazie et d'Ossétie du Sud)",
+            "organization": "9 régions (mkhare), 1 ville indépendante (Tbilissi) et 2 républiques autonomes (Adjarie et Abkhazie)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "OSCE",
+                "GUAM",
+                "Candidat officiel à l'Union européenne"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies"
+            ]
+        }
+    },
+    "ARM": {
+        "identity": {
+            "officialName": "République d'Arménie",
+            "capital": "Erevan",
+            "economicCapital": "—",
+            "independence": "21 septembre 1991 (de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Parlementaire",
+            "territorialOrganization": "État unitaire",
+            "constitution": "Constitution du 5 juillet 1995 (réforme parlementaire de 2015)"
+        },
+        "executive": {
+            "headOfState": "Président de la République",
+            "headOfGovernment": "Premier ministre (détenteur de l'exécutif)",
+            "election": "Élu par l'Assemblée nationale (président) ; nommé selon la majorité parlementaire",
+            "mandate": "7 ans non renouvelable (président) ; 5 ans (législature)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Azgayin Zhoghov)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (au moins 101 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "—",
+            "legislativeSystem": "Scrutin proportionnel de liste avec prime de majorité stable et seuil de 5%"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République d'Arménie",
+            "highestJudicialInstitution": "Cour de cassation"
+        },
+        "territory": {
+            "type": "État enclavé du Caucase du Sud",
+            "organization": "10 provinces (marzer) et la capitale Erevan"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Conseil de l'Europe",
+                "Union économique eurasiatique (UEE)",
+                "Organisation du traité de sécurité collective (OTSC - participation gelée)",
+                "OSCE"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Organisation internationale de la Francophonie (membre de plein droit)"
+            ]
+        }
+    },
+    "AZE": {
+        "identity": {
+            "officialName": "République d'Azerbaïdjan",
+            "capital": "Bakou",
+            "economicCapital": "—",
+            "independence": "18 octobre 1991 (de l'URSS)"
+        },
+        "system": {
+            "stateForm": "République",
+            "regime": "Présidentiel fort (autoritaire)",
+            "territorialOrganization": "État unitaire avec république autonome",
+            "constitution": "Constitution du 12 novembre 1995 (révisée en 2002, 2009 et 2016)"
+        },
+        "executive": {
+            "headOfState": "Président de la République d'Azerbaïdjan",
+            "headOfGovernment": "Premier ministre",
+            "election": "Suffrage universel direct à deux tours",
+            "mandate": "7 ans (réélection sans limitation)"
+        },
+        "legislative": {
+            "parliament": "Assemblée nationale (Milli Majlis)",
+            "structure": "Monocaméral",
+            "lowerHouse": "Assemblée nationale (125 sièges)",
+            "upperHouse": "—"
+        },
+        "electoral": {
+            "votingAge": "18 ans",
+            "presidentialSystem": "Scrutin majoritaire à deux tours",
+            "legislativeSystem": "Scrutin uninominal majoritaire à un tour dans 125 circonscriptions"
+        },
+        "judiciary": {
+            "constitutionalInstitution": "Cour constitutionnelle de la République d'Azerbaïdjan",
+            "highestJudicialInstitution": "Cour suprême"
+        },
+        "territory": {
+            "type": "État caucasien riverain de la mer Caspienne (contrôle rétabli sur le Haut-Karabakh en 2023)",
+            "organization": "66 districts (rayons), 11 villes sous autorité républicaine et la République autonome du Nakhitchevan (enclave)"
+        },
+        "foreignPolicy": {
+            "regionalOrganizations": [
+                "Organisation des États turciques (membre clé)",
+                "Communauté des États indépendants (CEI)",
+                "Conseil de l'Europe",
+                "OSCE",
+                "GUAM"
+            ],
+            "internationalOrganizations": [
+                "Organisation des Nations unies",
+                "Mouvement des non-alignés",
+                "Organisation de la coopération islamique (OCI)",
+                "OPEP+ (partenaire)"
+            ]
+        }
+    }
+}

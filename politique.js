@@ -11,7 +11,7 @@ const dataFiles = [
     "data/politique/africa.json",
     "data/politique/europe.json",
     "data/politique/asia.json",
-    "data/politique/americas.json",
+    "data/politique/america.json",
     "data/politique/oceania.json"
 ];
 

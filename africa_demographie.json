@@ -1,0 +1,2705 @@
+{
+    "CIV": {
+        "general": {
+            "population": "30,9 millions d'habitants",
+            "globalRank": "52e mondial (3e d'Afrique de l'Ouest)",
+            "density": "96 hab./km²",
+            "growthRate": "+2,5 % par an (forte dynamique naturelle et migratoire)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,3 enfants par femme",
+            "birthRate": "33,2 ‰",
+            "deathRate": "8,1 ‰",
+            "infantMortality": "53,0 ‰",
+            "netMigration": "+1,2 ‰ (pôle d'attraction régional historique)"
+        },
+        "ageStructure": {
+            "medianAge": "19,1 ans (extrême jeunesse)",
+            "lifeExpectancy": {
+                "total": "59,3 ans",
+                "women": "61,2 ans",
+                "men": "57,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,5 %",
+                "fifteenToSixtyFour": "55,4 %",
+                "sixtyFivePlus": "3,1 %"
+            },
+            "dependencyRatio": "80,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,1 %",
+            "mainMetropolises": [
+                "Abidjan (5,6 millions hab. - pôle économique et carrefour d'Afrique de l'Ouest)",
+                "Bouaké (850 000 hab. - centre géopolitique du centre)",
+                "Daloa (400 000 hab. - boucle du cacao)",
+                "Yamoussoukro (360 000 hab. - capitale politique)",
+                "San-Pédro (320 000 hab. - 1er port mondial d'exportation de fèves de cacao)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Akan (38,9 % - Baoulé, Agni), Voltaïques / Gur (21,3 % - Sénoufo), Mandé du Nord (19,3 % - Malinké, Dioula), Krou (11,0 % - Bété, Guéré), Mandé du Sud (9,5 % - Yacouba, Gouro), population étrangère résidente estimée à plus de 22 % (Burkinabè, Maliens, Guinéens)",
+            "languages": "Français (officiel et langue véhiculaire de scolarisation), Dioula (langue véhiculaire commerciale dominante), Baoulé, Bété, Sénoufo, plus de 60 langues nationales",
+            "religions": "Islam (42,5 % - majoritaire au Nord et grandes villes), Christianisme (39,8 % - catholiques 17 %, évangéliques 14 %, méthodistes), Religions traditionnelles animistes (12,6 %), Sans religion (5,1 %)"
+        },
+        "development": {
+            "hdi": "0,550 (Moyen - 159e mondial)",
+            "literacyRate": "53,1 % (hommes 63 %, femmes 43 %)",
+            "keyChallenges": "Absorption d'une jeunesse pléthorique sur le marché de l'emploi formel, intégration foncière et politique des populations allochtones et étrangères dans la boucle cacaoyère, saturation des infrastructures de transport et d'assainissement du Grand Abidjan"
+        }
+    },
+    "DZA": {
+        "general": {
+            "population": "45,6 millions d'habitants",
+            "globalRank": "34e mondial (2e du monde arabe, 1er pays d'Afrique par la superficie)",
+            "density": "19 hab./km² (fortement contrastée : plus de 300 hab./km² sur la bande côtière tellienne, quasi déserte au Sahara)",
+            "growthRate": "+1,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,7 enfants par femme",
+            "birthRate": "21,5 ‰",
+            "deathRate": "5,1 ‰",
+            "infantMortality": "18,2 ‰",
+            "netMigration": "-0,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "28,9 ans",
+            "lifeExpectancy": {
+                "total": "77,3 ans (l'une des plus élevées d'Afrique)",
+                "women": "78,6 ans",
+                "men": "76,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "30,8 %",
+                "fifteenToSixtyFour": "62,7 %",
+                "sixtyFivePlus": "6,5 %"
+            },
+            "dependencyRatio": "59,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "74,8 %",
+            "mainMetropolises": [
+                "Alger (4,1 millions hab. - capitale et centre politique)",
+                "Oran (1,6 million hab. - métropole économique et industrielle de l'Ouest)",
+                "Constantine (1,0 million hab. - carrefour universitaire de l'Est)",
+                "Annaba (650 000 hab. - pôle sidérurgique)",
+                "Sétif (500 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes-Berbères (99 % - fusion historique), minorités sahariennes Mozabites et Touaregs",
+            "languages": "Arabe (officiel et national, arabe algérien dialectal/dardja), Tamazight / Berbère (officiel et national depuis 2016, kabyle, chaoui, mozabite, touareg), Français (largement utilisé dans l'administration, l'université et l'économie)",
+            "religions": "Islam sunnite de rite malékite (99 % - religion d'État), minorités chrétiennes protestantes et catholiques (< 1 %)"
+        },
+        "development": {
+            "hdi": "0,745 (Élevé - 93e mondial, 3e d'Afrique continentale)",
+            "literacyRate": "81,4 %",
+            "keyChallenges": "Transition post-rente pétrolière pour employer la jeunesse éduquée, exode des compétences et médecins (harragas et fuite des cerveaux), déséquilibre d'aménagement entre le littoral surpeuplé et l'immensité saharienne enclavée"
+        }
+    },
+    "AGO": {
+        "general": {
+            "population": "36,7 millions d'habitants",
+            "globalRank": "42e mondial",
+            "density": "29 hab./km²",
+            "growthRate": "+3,1 % par an (l'une des plus fortes croissances démographiques au monde)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "5,1 enfants par femme",
+            "birthRate": "38,8 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "48,5 ‰",
+            "netMigration": "+0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "16,2 ans (l'une des populations les plus jeunes de la planète)",
+            "lifeExpectancy": {
+                "total": "62,4 ans",
+                "women": "64,8 ans",
+                "men": "60,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "46,2 % (près de la moitié de la population)",
+                "fifteenToSixtyFour": "51,1 %",
+                "sixtyFivePlus": "2,7 %"
+            },
+            "dependencyRatio": "95,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "68,1 %",
+            "mainMetropolises": [
+                "Luanda (9,3 millions hab. - mégapole côtière hypertrophiée concentrant un quart des Angolais)",
+                "Lubango (900 000 hab. - haut plateau de Huíla)",
+                "Huambo (850 000 hab. - grenier central)",
+                "Benguela (700 000 hab. - façade atlantique et débouché ferroviaire de Lobito)",
+                "Cabinda (650 000 hab. - enclave pétrolière)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Ovimbundu (37 % - plateau central), Ambundu (25 % - région de Luanda et Kwanza), Bakongo (13 % - nord et frontière avec les Congos), Tchokwé (5 %), Ovambo (2 %), métis et Portugais résidents (2 %)",
+            "languages": "Portugais (officiel d'État, langue maternelle de plus de 70 % des habitants de Luanda), Umbundu, Kimbundu, Kikongo, Chokwe, Kwanyama",
+            "religions": "Catholicisme (53 %), Protestantisme et églises évangéliques (38 %), Croyances animistes traditionnelles (7 %)"
+        },
+        "development": {
+            "hdi": "0,591 (Moyen - 150e mondial)",
+            "literacyRate": "72,3 %",
+            "keyChallenges": "Explosion démographique dans les musseques (bidonvilles) de Luanda sans accès adéquat à l'eau potable, fracture sociale béante entre élite pétrolière et majorité vulnérable, investissement colossal requis dans l'éducation primaire et technique"
+        }
+    },
+    "BEN": {
+        "general": {
+            "population": "13,7 millions d'habitants",
+            "globalRank": "78e mondial",
+            "density": "121 hab./km²",
+            "growthRate": "+2,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,8 enfants par femme",
+            "birthRate": "35,1 ‰",
+            "deathRate": "8,2 ‰",
+            "infantMortality": "55,4 ‰",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "18,2 ans",
+            "lifeExpectancy": {
+                "total": "61,2 ans",
+                "women": "63,1 ans",
+                "men": "59,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "43,8 %",
+                "fifteenToSixtyFour": "53,2 %",
+                "sixtyFivePlus": "3,0 %"
+            },
+            "dependencyRatio": "88,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "49,5 %",
+            "mainMetropolises": [
+                "Cotonou (1,2 million hab. agglomération - poumon économique et portuaire)",
+                "Abomey-Calavi (950 000 hab. - ville dortoir en expansion fulgurante)",
+                "Porto-Novo (300 000 hab. - capitale institutionnelle)",
+                "Parakou (280 000 hab. - métropole du septentrion)",
+                "Djougou (250 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Fon et apparentés (38,4 % - sud), Adja et Mina (15,1 %), Yoruba et Nagot (12,0 % - est et frontière nigériane), Bariba (9,6 % - nord-est), Peuls / Fulbe (8,6 %), Ottamari / Somba (6,1 %), Dendi (3,2 %)",
+            "languages": "Français (officiel), Fon-gbe, Yoruba, Bariba, Adja, Dendi, Mina, Fulfulde",
+            "religions": "Christianisme (52,2 % - catholiques 34 %, célestes et évangéliques 18 %), Islam (27,7 % - nord et communautés commerçantes), Vodun et cultes traditionnels autochtones (17,9 % - berceau mondial du culte Vodun)"
+        },
+        "development": {
+            "hdi": "0,504 (Faible - 173e mondial)",
+            "literacyRate": "45,8 % (fortes inégalités hommes/femmes)",
+            "keyChallenges": "Pression démographique sur les terres arables du Sud, précarité de l'emploi informel dépendant du transit commercial vers le Nigeria, lutte contre le travail des enfants et déscolarisation des jeunes filles"
+        }
+    },
+    "BWA": {
+        "general": {
+            "population": "2,63 millions d'habitants",
+            "globalRank": "143e mondial",
+            "density": "4,5 hab./km² (l'une des plus faibles densités au monde en raison du désert du Kalahari)",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,6 enfants par femme",
+            "birthRate": "20,8 ‰",
+            "deathRate": "7,3 ‰",
+            "infantMortality": "27,2 ‰",
+            "netMigration": "+1,5 ‰ (immigration zimbabwéenne et sud-africaine)"
+        },
+        "ageStructure": {
+            "medianAge": "25,8 ans",
+            "lifeExpectancy": {
+                "total": "65,9 ans (fort redressement grâce aux trithérapies universelles anti-VIH)",
+                "women": "68,4 ans",
+                "men": "63,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "31,8 %",
+                "fifteenToSixtyFour": "63,2 %",
+                "sixtyFivePlus": "5,0 %"
+            },
+            "dependencyRatio": "58,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "72,2 % (urbanisation élevée pour l'Afrique subsaharienne)",
+            "mainMetropolises": [
+                "Gaborone (280 000 hab. intra-muros, 450 000 aire métropolitaine)",
+                "Francistown (110 000 hab. - centre minier du Nord)",
+                "Molepolole (75 000 hab.)",
+                "Maun (70 000 hab. - porte du delta de l'Okavango)",
+                "Serowe (60 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Tswana (79 % - huit tribus principales reconnues constitutionnellement), Kalanga (11 %), Basarwa / San / Bochimans autochtones (3 %), Kgalagadi, Blancs et Indiens (3 %)",
+            "languages": "Setswana (langue nationale parlée par 90 % de la population), Anglais (langue officielle des affaires et du parlement), Ikalanga",
+            "religions": "Christianisme (79 % - protestants, anglicans, églises zionistes africaines), Badimo / Croyances ancestrales (15 %), Sans religion (5 %)"
+        },
+        "development": {
+            "hdi": "0,708 (Élevé - 114e mondial, parmi les réussites démocratiques d'Afrique)",
+            "literacyRate": "88,5 %",
+            "keyChallenges": "Prévalence du VIH la plus élevée au monde (environ 19 % des adultes), diversification hors de la dépendance aux diamants pour absorber le chômage des diplômés, gestion de la pénurie d'eau dans le bassin du Kalahari"
+        }
+    },
+    "BFA": {
+        "general": {
+            "population": "23,3 millions d'habitants",
+            "globalRank": "59e mondial",
+            "density": "85 hab./km²",
+            "growthRate": "+2,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,9 enfants par femme",
+            "birthRate": "34,8 ‰",
+            "deathRate": "7,6 ‰",
+            "infantMortality": "50,1 ‰",
+            "netMigration": "-1,0 ‰ (migrations historiques vers la Côte d'Ivoire)"
+        },
+        "ageStructure": {
+            "medianAge": "17,6 ans",
+            "lifeExpectancy": {
+                "total": "62,7 ans",
+                "women": "64,5 ans",
+                "men": "60,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "44,1 %",
+                "fifteenToSixtyFour": "53,0 %",
+                "sixtyFivePlus": "2,9 %"
+            },
+            "dependencyRatio": "88,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "32,4 % (société encore très rurale)",
+            "mainMetropolises": [
+                "Ouagadougou (3,0 millions hab. - capitale et centre politique/culturel)",
+                "Bobo-Dioulasso (1,1 million hab. - capitale économique et carrefour cotonnier)",
+                "Koudougou (180 000 hab.)",
+                "Ouahigouya (140 000 hab. - métropole du Yatenga)",
+                "Kaya (120 000 hab. - zone d'accueil de déplacés internes)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Mossi (52,5 % - plateau central et chefferie du Mogho Naaba), Peuls / Fulbe (8,4 %), Gourmantché (7,0 %), Bobo (4,9 %), Bissa (3,7 %), Bwaba (3,2 %), Sénoufo, Lobi, Dagara",
+            "languages": "Mooré, Dioula, Foulfouldé (érigées en langues officielles par la réforme constitutionnelle de 2023), Français (relégué au statut de langue de travail)",
+            "religions": "Islam sunnite (63,8 %), Christianisme (26,3 % - catholiques 20 %, protestants 6 %), Religions traditionnelles animistes (9,0 %)"
+        },
+        "development": {
+            "hdi": "0,438 (Faible - 185e mondial)",
+            "literacyRate": "41,2 %",
+            "keyChallenges": "Crise sécuritaire sahélienne ayant provoqué plus de 2 millions de personnes déplacées internes (PDI), fermeture de milliers d'écoles dans les zones rurales contestées, pression démographique sur des sols sahéliens vulnérables à la sécheresse"
+        }
+    },
+    "BDI": {
+        "general": {
+            "population": "13,2 millions d'habitants",
+            "globalRank": "80e mondial",
+            "density": "475 hab./km² (2e plus forte densité d'Afrique continentale après le Rwanda)",
+            "growthRate": "+2,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "5,0 enfants par femme",
+            "birthRate": "35,4 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "41,8 ‰",
+            "netMigration": "+0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "17,7 ans",
+            "lifeExpectancy": {
+                "total": "63,8 ans",
+                "women": "65,8 ans",
+                "men": "61,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "44,6 %",
+                "fifteenToSixtyFour": "52,6 %",
+                "sixtyFivePlus": "2,8 %"
+            },
+            "dependencyRatio": "90,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "14,8 % (l'un des pays les moins urbanisés de la planète)",
+            "mainMetropolises": [
+                "Bujumbura (1,2 million hab. - capitale économique sur le lac Tanganyika)",
+                "Gitega (150 000 hab. - capitale politique depuis 2019)",
+                "Ngozi (100 000 hab.)",
+                "Rumonge (80 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Hutu (85 %), Tutsi (14 %), Twa / Pygmées autochtones (1 %)",
+            "languages": "Kirundi (langue nationale et officielle parlée par 100 % de la population - fait unique en Afrique), Français (officiel), Anglais (officiel depuis l'adhésion à la CAE)",
+            "religions": "Catholicisme (62 %), Protestantisme et églises de réveil (24 %), Islam (3 %), Croyances traditionnelles (11 %)"
+        },
+        "development": {
+            "hdi": "0,420 (Faible - 187e mondial)",
+            "literacyRate": "68,4 %",
+            "keyChallenges": "Pénurie critique d'espace foncier (parcelles agricoles morcelées à l'extrême < 0,5 ha par famille), insécurité alimentaire chronique et malnutrition infantile, équilibres démographiques ethniques sensibles post-guerre civile (quotas des accords d'Arusha)"
+        }
+    },
+    "CPV": {
+        "general": {
+            "population": "595 000 habitants (diaspora estimée à plus de 700 000 personnes à l'étranger)",
+            "globalRank": "171e mondial",
+            "density": "147 hab./km² (répartie sur 9 îles habitées)",
+            "growthRate": "+1,1 % par an (transition démographique la plus avancée d'Afrique de l'Ouest)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,1 enfants par femme (au seuil exact de renouvellement)",
+            "birthRate": "18,2 ‰",
+            "deathRate": "5,4 ‰",
+            "infantMortality": "14,5 ‰ (l'une des plus faibles d'Afrique subsaharienne)",
+            "netMigration": "-1,8 ‰ (tradition séculaire d'émigration)"
+        },
+        "ageStructure": {
+            "medianAge": "29,4 ans",
+            "lifeExpectancy": {
+                "total": "74,3 ans",
+                "women": "78,2 ans",
+                "men": "70,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "26,1 %",
+                "fifteenToSixtyFour": "68,1 %",
+                "sixtyFivePlus": "5,8 %"
+            },
+            "dependencyRatio": "46,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "67,5 %",
+            "mainMetropolises": [
+                "Praia (170 000 hab. - capitale sur l'île de Santiago, concentrant un tiers du pays)",
+                "Mindelo (75 000 hab. - capitale culturelle et port de São Vicente)",
+                "Espargos (25 000 hab. - île touristique de Sal)",
+                "Assomada (20 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Créoles / Mestiços (71 % - métissage hispano-portugais et ouest-africain), Noirs africains (28 %), Européens (1 %)",
+            "languages": "Portugais (officiel d'État), Crioulo capverdien / Kabuverdianu (langue nationale parlée par 100 % de la population sous différentes variantes insulaires)",
+            "religions": "Catholicisme (77 %), Protestantisme et églises de réveil (10 %), Sans religion (10 %), Islam (2 %)"
+        },
+        "development": {
+            "hdi": "0,661 (Moyen - 131e mondial)",
+            "literacyRate": "86,8 %",
+            "keyChallenges": "Vulnérabilité extrême au changement climatique et stress hydrique aigu (dépendance au dessalement d'eau de mer), dépendance vitale aux envois de fonds de la diaspora (États-Unis, Portugal, France), coût élevé de l'insularité"
+        }
+    },
+    "CMR": {
+        "general": {
+            "population": "28,6 millions d'habitants",
+            "globalRank": "54e mondial",
+            "density": "60 hab./km²",
+            "growthRate": "+2,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,4 enfants par femme",
+            "birthRate": "33,6 ‰",
+            "deathRate": "8,5 ‰",
+            "infantMortality": "47,2 ‰",
+            "netMigration": "-0,3 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "18,9 ans",
+            "lifeExpectancy": {
+                "total": "61,1 ans",
+                "women": "62,8 ans",
+                "men": "59,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,8 %",
+                "fifteenToSixtyFour": "54,9 %",
+                "sixtyFivePlus": "3,3 %"
+            },
+            "dependencyRatio": "82,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "58,8 %",
+            "mainMetropolises": [
+                "Douala (3,9 millions hab. - capitale économique et 1er port d'Afrique centrale)",
+                "Yaoundé (3,8 millions hab. - capitale politique)",
+                "Garoua (750 000 hab. - métropole du Nord cotonnier)",
+                "Bamenda (600 000 hab. - cœur de la zone anglophone du Nord-Ouest)",
+                "Bafoussam (500 000 hab. - région des hauts plateaux de l'Ouest)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bamiléké et Bamoun (24 % - hauts plateaux de l'Ouest), Fang-Béti-Bulu (19 % - centre et sud forestier), Soudanais et Peuls / Fulbe (20 % - septentrion sahélien), Kirdi (12 %), Sawa (8 % - côte littorale), plus de 250 ethnies ('Afrique en miniature')",
+            "languages": "Français et Anglais (deux langues officielles constitutionnelles d'État), plus de 280 langues nationales (ewondo, douala, fufulde, ghomala, bafia)",
+            "religions": "Christianisme (70 % - catholiques 38 %, protestants 26 %, églises de réveil 6 %), Islam (21 % - dominant dans le Grand Nord et chez les Bamoun), Religions traditionnelles animistes (8 %)"
+        },
+        "development": {
+            "hdi": "0,587 (Moyen - 151e mondial)",
+            "literacyRate": "77,1 %",
+            "keyChallenges": "Crise anglophone (conflit séparatiste dans les régions du Nord-Ouest et Sud-Ouest) ayant entraîné le déplacement de plus de 700 000 personnes, chômage et sous-emploi massif de la jeunesse urbaine diplômée, équilibre confessionnel et régional délicat"
+        }
+    },
+    "CAF": {
+        "general": {
+            "population": "5,55 millions d'habitants",
+            "globalRank": "123e mondial",
+            "density": "8,9 hab./km² (l'une des plus faibles densités d'Afrique centrale)",
+            "growthRate": "+1,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,1 enfants par femme",
+            "birthRate": "32,8 ‰",
+            "deathRate": "11,8 ‰ (l'un des taux de mortalité les plus élevés au monde)",
+            "infantMortality": "77,5 ‰ (catastrophique)",
+            "netMigration": "-2,5 ‰ (crise persistante de réfugiés)"
+        },
+        "ageStructure": {
+            "medianAge": "17,6 ans",
+            "lifeExpectancy": {
+                "total": "55,5 ans (l'une des plus faibles espérances de vie de la planète)",
+                "women": "57,8 ans",
+                "men": "53,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,5 %",
+                "fifteenToSixtyFour": "55,2 %",
+                "sixtyFivePlus": "3,3 %"
+            },
+            "dependencyRatio": "81,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "43,1 %",
+            "mainMetropolises": [
+                "Bangui (1,1 million hab. - concentre l'essentiel de l'appareil d'État)",
+                "Bimbo (270 000 hab. - périphérie sud de Bangui)",
+                "Berbérati (110 000 hab. - zone diamantifère de l'Ouest)",
+                "Carnot (85 000 hab.)",
+                "Bambari (80 000 hab. - centre stratégique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Baya / Gbaya (33 %), Banda (27 %), Mandjia (13 %), Sara (10 %), Mboum (7 %), Yakoma (4 % - fleuve Oubangui), Peuls Mbororo nomades",
+            "languages": "Sango (langue nationale et officielle parlée par 92 % de la population - fait rare d'intégration linguistique), Français (officiel de l'administration et de l'enseignement)",
+            "religions": "Christianisme (89 % - protestants évangéliques 51 %, catholiques 38 %), Islam (9 % - concentré dans le Nord et l'Est marchand), Animisme (2 %)"
+        },
+        "development": {
+            "hdi": "0,387 (Faible - 191e mondial, au bas régulier des classements de développement)",
+            "literacyRate": "37,4 %",
+            "keyChallenges": "Instabilité militaro-politique chronique avec de larges pans du territoire contrôlés par des factions armées, plus de 500 000 personnes déplacées internes et autant de réfugiés au Cameroun et au Tchad, désertification sanitaire presque totale en province"
+        }
+    },
+    "TCD": {
+        "general": {
+            "population": "18,3 millions d'habitants",
+            "globalRank": "66e mondial",
+            "density": "14,3 hab./km²",
+            "growthRate": "+3,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "5,6 enfants par femme (l'un des 5 pays les plus féconds du monde)",
+            "birthRate": "39,8 ‰",
+            "deathRate": "10,2 ‰",
+            "infantMortality": "68,2 ‰",
+            "netMigration": "+1,4 ‰ (accueil de plus de 1,1 million de réfugiés soudanais du Darfour)"
+        },
+        "ageStructure": {
+            "medianAge": "15,8 ans (extrême jeunesse démographique)",
+            "lifeExpectancy": {
+                "total": "54,3 ans (l'une des plus faibles de la planète)",
+                "women": "56,2 ans",
+                "men": "52,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "47,2 % (près de la moitié de la population)",
+                "fifteenToSixtyFour": "50,3 %",
+                "sixtyFivePlus": "2,5 %"
+            },
+            "dependencyRatio": "98,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "24,5 % (pays majoritairement pastoral et rural)",
+            "mainMetropolises": [
+                "N'Djamena (1,6 million hab. - capitale)",
+                "Moundou (160 000 hab. - poumon industriel cotonnier et brassicole du Sud)",
+                "Sarh (120 000 hab.)",
+                "Abéché (110 000 hab. - carrefour historique du Ouaddaï et hub humanitaire de l'Est)",
+                "Kélo (65 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 200 ethnies réparties entre le Nord et le Sud : Sara (30 % - sud chrétien/animiste), Arabes tchadiens (12 %), Kanembu (9 %), Toubou / Gourane (7 % - nord saharien et désert du Tibesti), Zaghawa (5 % - ethnie dirigeante), Massa, Kotoko",
+            "languages": "Français et Arabe standard (deux langues officielles constitutionnelles), Arabe tchadien (langue véhiculaire interethnique dominante), Sara, Ngambay, Tedaga",
+            "religions": "Islam sunnite (58 % - nord, centre et est), Christianisme (35 % - catholiques 19 %, protestants évangéliques 16 % au sud), Animisme (7 %)"
+        },
+        "development": {
+            "hdi": "0,394 (Faible - 189e mondial)",
+            "literacyRate": "22,3 % (l'un des taux les plus bas au monde, particulièrement critique chez les femmes avec 14 %)",
+            "keyChallenges": "Pression humanitaire sans précédent provoquée par la guerre au Soudan (afflux de plus de 600 000 réfugiés à l'Est), déséquilibre Nord/Sud, transition de l'économie pastorale face à l'avancée du désert et à la fragilité du lac Tchad"
+        }
+    },
+    "COM": {
+        "general": {
+            "population": "852 000 habitants (diaspora comorienne estimée à plus de 350 000 personnes en France métropolitaine, notamment à Marseille)",
+            "globalRank": "163e mondial",
+            "density": "458 hab./km² (très forte densité insulaire)",
+            "growthRate": "+1,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,8 enfants par femme",
+            "birthRate": "28,2 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "48,0 ‰",
+            "netMigration": "-2,5 ‰ (émigration clandestine incessante en kwassa-kwassa vers l'île voisine de Mayotte)"
+        },
+        "ageStructure": {
+            "medianAge": "20,5 ans",
+            "lifeExpectancy": {
+                "total": "64,8 ans",
+                "women": "67,2 ans",
+                "men": "62,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "38,5 %",
+                "fifteenToSixtyFour": "57,5 %",
+                "sixtyFivePlus": "4,0 %"
+            },
+            "dependencyRatio": "73,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "29,6 %",
+            "mainMetropolises": [
+                "Moroni (80 000 hab. - capitale sur la Grande Comore / Ngazidja)",
+                "Mutsamudu (35 000 hab. - principal port sur Anjouan / Nzwani)",
+                "Fomboni (20 000 hab. - chef-lieu de Mohéli / Mwali)",
+                "Domoni (18 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Antalote, Cafre, Makoa, Oimatsaha, Sakalava (mélange historique swahili, bantou, arabe, malgache et chirazien)",
+            "languages": "Shikomori / Comorien (langue nationale et officielle de la vie quotidienne), Français et Arabe (deux langues officielles administratives et religieuses)",
+            "religions": "Islam sunnite de rite chaféite (99 % - religion d'État constitutionnelle), minorité chrétienne catholique infime"
+        },
+        "development": {
+            "hdi": "0,586 (Moyen - 152e mondial)",
+            "literacyRate": "60,2 %",
+            "keyChallenges": "Drame humain des traversées clandestines périlleuses vers Mayotte (département français), surpeuplement sur l'île d'Anjouan, dépendance économique vitale aux devises de la diaspora et aux dépenses des 'Grands Mariages' traditionnels (Anda)"
+        }
+    },
+    "COG": {
+        "general": {
+            "population": "6,1 millions d'habitants",
+            "globalRank": "112e mondial",
+            "density": "17,8 hab./km²",
+            "growthRate": "+2,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,3 enfants par femme",
+            "birthRate": "31,8 ‰",
+            "deathRate": "7,4 ‰",
+            "infantMortality": "44,1 ‰",
+            "netMigration": "+0,0 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "19,2 ans",
+            "lifeExpectancy": {
+                "total": "64,2 ans",
+                "women": "65,8 ans",
+                "men": "62,7 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,0 %",
+                "fifteenToSixtyFour": "55,5 %",
+                "sixtyFivePlus": "3,5 %"
+            },
+            "dependencyRatio": "80,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "68,8 % (l'un des pays les plus urbanisés d'Afrique, concentré le long du chemin de fer CFCO)",
+            "mainMetropolises": [
+                "Brazzaville (2,4 millions hab. - capitale politique faisant face à Kinshasa de l'autre côté du fleuve)",
+                "Pointe-Noire (1,3 million hab. - capitale pétrolière et port maritime atlantique)",
+                "Dolisie (110 000 hab. - carrefour ferroviaire du Niari)",
+                "Nkayi (70 000 hab. - bassin sucrier)",
+                "Ouesso (45 000 hab. - frontière nord forestière)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Kongo / Bakongo (48 % - sud et pool), Sangha (20 % - nord), Teké (17 % - plateaux centraux), Mbochi (12 % - ethnie du pouvoir présidentiel au nord), Pygmées autochtones Aka (2 %)",
+            "languages": "Français (officiel unique), Lingala (langue nationale au nord et dans l'armée), Kituba / Munukutuba (langue nationale créolisée du sud et des chemins de fer)",
+            "religions": "Christianisme (88 % - catholiques 33 %, églises de réveil évangéliques et pentecôtistes 32 %, églises kimbanguistes 15 %, protestants), Islam (6 % - ouest-africains commerçants), Animisme (6 %)"
+        },
+        "development": {
+            "hdi": "0,593 (Moyen - 149e mondial)",
+            "literacyRate": "80,3 % (relativement élevé pour la zone CEMAC)",
+            "keyChallenges": "Bipolarisation urbaine excessive Brazzaville-Pointe-Noire laissant l'intérieur forestier dépeuplé, chômage élevé des jeunes malgré les revenus pétroliers, précarité des populations autochtones dans le bassin de la Sangha"
+        }
+    },
+    "COD": {
+        "general": {
+            "population": "102,3 millions d'habitants",
+            "globalRank": "15e mondial (4e d'Afrique, 1er pays francophone du monde par la population)",
+            "density": "44 hab./km²",
+            "growthRate": "+3,2 % par an (gain annuel net de plus de 3 millions d'habitants)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "5,8 enfants par femme (l'un des plus élevés au monde)",
+            "birthRate": "41,0 ‰",
+            "deathRate": "9,1 ‰",
+            "infantMortality": "62,5 ‰",
+            "netMigration": "-0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "16,7 ans",
+            "lifeExpectancy": {
+                "total": "60,4 ans",
+                "women": "62,2 ans",
+                "men": "58,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "46,3 %",
+                "fifteenToSixtyFour": "50,8 %",
+                "sixtyFivePlus": "2,9 %"
+            },
+            "dependencyRatio": "96,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "46,8 %",
+            "mainMetropolises": [
+                "Kinshasa (17,1 millions hab. - 1ère mégapole d'Afrique francophone et 3e d'Afrique)",
+                "Lubumbashi (2,8 millions hab. - capitale du cuivre et du cobalt au Katanga)",
+                "Mbuji-Mayi (2,5 millions hab. - capitale diamantifère du Kasaï)",
+                "Kananga (1,6 million hab.)",
+                "Goma (1,5 million hab. - carrefour stratégique et humanitaire du Nord-Kivu)",
+                "Kisangani (1,3 million hab. - carrefour fluvial du fleuve Congo)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 250 ethnies : Luba (18 % - Kasaï et Katanga), Mongo (17 % - cuvette centrale forestière), Kongo (12 % - Bas-Congo et Kinshasa), Mangbetu-Azande (10 %), Tutsi Banyamulenge et Hutu (Est), Pygmées Batwa",
+            "languages": "Français (officiel d'État), Lingala (langue nationale dominant Kinshasa, le fleuve et la musique), Swahili (langue nationale dans tout l'Est et les zones minières), Kikongo / Kikongo ya leta (langue nationale à l'Ouest), Tshiluba (langue nationale au Centre)",
+            "religions": "Catholicisme (45 %), Protestantisme et églises de réveil évangéliques (35 %), Église kimbanguiste (10 % - mouvement religieux d'origine congolaise), Islam (5 % - Maniema et grandes villes), Religions traditionnelles (5 %)"
+        },
+        "development": {
+            "hdi": "0,481 (Faible - 180e mondial)",
+            "literacyRate": "77,0 %",
+            "keyChallenges": "Défi titanesque d'intégration territoriale d'un pays-sous-continent grand comme l'Europe occidentale dépourvu de réseau routier reliant ses provinces, crise humanitaire chronique à l'Est (plus de 6,9 millions de déplacés internes causés par les conflits du M23 et FDLR), croissance explosive de Kinshasa"
+        }
+    },
+    "DJI": {
+        "general": {
+            "population": "1,14 million d'habitants",
+            "globalRank": "160e mondial",
+            "density": "49 hab./km²",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,8 enfants par femme",
+            "birthRate": "22,5 ‰",
+            "deathRate": "7,3 ‰",
+            "infantMortality": "46,2 ‰",
+            "netMigration": "+2,2 ‰ (carrefour migratoire entre la Corne de l'Afrique et la péninsule arabique)"
+        },
+        "ageStructure": {
+            "medianAge": "25,1 ans",
+            "lifeExpectancy": {
+                "total": "65,3 ans",
+                "women": "67,4 ans",
+                "men": "63,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "30,1 %",
+                "fifteenToSixtyFour": "65,3 %",
+                "sixtyFivePlus": "4,6 %"
+            },
+            "dependencyRatio": "53,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "78,4 % (l'un des plus élevés d'Afrique, cité-port stratégique)",
+            "mainMetropolises": [
+                "Djibouti-Ville (750 000 hab. - concentre plus de 70 % de la population totale)",
+                "Ali Sabieh (45 000 hab. - carrefour ferroviaire vers l'Éthiopie)",
+                "Dikhil (35 000 hab.)",
+                "Tadjourah (25 000 hab. - cité blanche historique)",
+                "Obock (22 000 hab. - porte maritime du détroit de Bab-el-Mandeb)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Somalis / Issa (60 % - clan Issa prédominant dans l'appareil d'État), Afars / Danakil (35 % - nord et ouest), Arabes yéménites (3 %), Européens et expatriés des bases militaires",
+            "languages": "Français et Arabe (deux langues officielles constitutionnelles), Somali et Afar (langues nationales maternelles)",
+            "religions": "Islam sunnite de rite chaféite (94 % - religion d'État), Catholicisme et protestantisme (6 % - principalement expatriés et militaires des bases étrangères)"
+        },
+        "development": {
+            "hdi": "0,515 (Faible - 171e mondial)",
+            "literacyRate": "67,9 %",
+            "keyChallenges": "Aridité absolue du territoire et dépendance totale aux importations alimentaires et à l'eau d'Éthiopie, chômage structurel de la jeunesse locale contrastant avec l'activité portuaire hautement capitalistique, transit de réfugiés yéménites, éthiopiens et somaliens"
+        }
+    },
+    "EGY": {
+        "general": {
+            "population": "106,5 millions d'habitants",
+            "globalRank": "14e mondial (3e d'Afrique, 1er du monde arabe)",
+            "density": "106 hab./km² (chiffre trompeur : 95 % de la population vit concentrée sur 5 % du territoire dans la vallée et le delta du Nil, où la densité dépasse 1 800 hab./km²)",
+            "growthRate": "+1,5 % par an (gain net d'environ 1,5 million d'habitants chaque année)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,85 enfants par femme (en recul grâce aux campagnes de planning familial)",
+            "birthRate": "21,2 ‰",
+            "deathRate": "5,8 ‰",
+            "infantMortality": "16,8 ‰",
+            "netMigration": "-0,4 ‰ (forte diaspora de travailleurs en Arabie saoudite et dans les pays du Golfe)"
+        },
+        "ageStructure": {
+            "medianAge": "24,8 ans",
+            "lifeExpectancy": {
+                "total": "72,1 ans",
+                "women": "74,5 ans",
+                "men": "69,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "33,2 %",
+                "fifteenToSixtyFour": "61,6 %",
+                "sixtyFivePlus": "5,2 %"
+            },
+            "dependencyRatio": "62,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "43,0 % (la majorité demeure dans les campagnes fertiles du Delta)",
+            "mainMetropolises": [
+                "Grand Le Caire (22,2 millions hab. - 1ère mégapole du monde arabe et 2e d'Afrique)",
+                "Alexandrie (5,5 millions hab. - grand port méditerranéen)",
+                "Gizeh (4,3 millions hab.)",
+                "Nouvelle Capitale Administrative (NCA - ville géante planifiée pour désengorger Le Caire)",
+                "Port-Saïd (800 000 hab. - entrée nord du canal de Suez)",
+                "Suez (750 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Égyptiens (98 % - continuité historique pharaonique et arabe), Bédouins du Sinaï et du désert occidental, Nubiens (extrême Sud vers Assouan), Berbères de Siwa, communauté de réfugiés soudanais, syriens et palestiniens (> 4 millions)",
+            "languages": "Arabe standard moderne (officiel), Arabe égyptien dialectal / Masri (compris universellement dans le monde arabe via le cinéma et la musique), Copte (langue liturgique chrétienne héritière de l'égyptien ancien), langues nubiennes",
+            "religions": "Islam sunnite (88 % - siège mondial de l'université sunnite d'Al-Azhar), Christianisme copte orthodoxe (10-12 % - plus grande minorité chrétienne du Moyen-Orient), Églises copte catholique et évangélique (< 1 %)"
+        },
+        "development": {
+            "hdi": "0,728 (Élevé - 105e mondial)",
+            "literacyRate": "73,1 % (inégalités femmes/hommes)",
+            "keyChallenges": "Bombe démographique sur une bande arable étroite et non extensible (perte de terres fertiles par urbanisation sauvage), sécurité hydrique absolue du Nil face au grand barrage de la Renaissance éthiopien (GERD), coût massif des subventions au pain (Aish Baladi)"
+        }
+    },
+    "GNQ": {
+        "general": {
+            "population": "1,71 million d'habitants",
+            "globalRank": "152e mondial",
+            "density": "61 hab./km² (partagée entre la province insulaire de Bioko et la partie continentale du Rio Muni)",
+            "growthRate": "+2,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,2 enfants par femme",
+            "birthRate": "30,5 ‰",
+            "deathRate": "8,2 ‰",
+            "infantMortality": "60,1 ‰",
+            "netMigration": "+2,8 ‰ (forte attraction de travailleurs ouest-africains et camerounais dans le secteur pétrolier)"
+        },
+        "ageStructure": {
+            "medianAge": "21,8 ans",
+            "lifeExpectancy": {
+                "total": "61,8 ans",
+                "women": "63,6 ans",
+                "men": "60,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "37,0 %",
+                "fifteenToSixtyFour": "59,2 %",
+                "sixtyFivePlus": "3,8 %"
+            },
+            "dependencyRatio": "68,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "73,6 %",
+            "mainMetropolises": [
+                "Bata (350 000 hab. - métropole de la région continentale)",
+                "Malabo (300 000 hab. - capitale historique sur l'île de Bioko)",
+                "Ciudad de la Paz / Oyala (future capitale administrative en construction au cœur du continent)",
+                "Ebebiyín (45 000 hab. - carrefour frontalier Gabon/Cameroun)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Fang (85 % - prédominants sur le continent et au pouvoir), Bubi (7 % - autochtones de l'île de Bioko), Ndowe / 'Playeros' côtiers (4 %), Annobonais, Fernandinos créoles",
+            "languages": "Espagnol (officiel d'État unique en Afrique subsaharienne), Français (officiel depuis 1997 pour faciliter l'intégration CEMAC), Portugais (officiel depuis 2011 pour adhésion à la CPLP), Fang, Bubi",
+            "religions": "Catholicisme (88 %), Protestantisme (5 %), Croyances animistes ancestrales (5 %), Islam (2 %)"
+        },
+        "development": {
+            "hdi": "0,575 (Moyen - 153e mondial)",
+            "literacyRate": "95,3 % (taux élevé hérité du système éducatif)",
+            "keyChallenges": "Paradoxe d'un PIB par habitant élevé lié à la rente pétrolière masquant des indices sanitaires et sociaux très dégradés, tensions communautaires historiques entre Fang continentaux et minorité Bubi insulaire"
+        }
+    },
+    "ERI": {
+        "general": {
+            "population": "3,75 millions d'habitants (diaspora réfugiée massive en Europe, Éthiopie et Israël)",
+            "globalRank": "132e mondial",
+            "density": "32 hab./km²",
+            "growthRate": "+1,4 % par an (affaibli par l'émigration clandestine des jeunes)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,8 enfants par femme",
+            "birthRate": "27,5 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "34,2 ‰",
+            "netMigration": "-7,5 ‰ (l'une des plus fortes émigrations de jeunesse au monde)"
+        },
+        "ageStructure": {
+            "medianAge": "20,1 ans",
+            "lifeExpectancy": {
+                "total": "67,4 ans",
+                "women": "69,8 ans",
+                "men": "65,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "38,2 %",
+                "fifteenToSixtyFour": "57,4 %",
+                "sixtyFivePlus": "4,4 %"
+            },
+            "dependencyRatio": "74,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "36,8 %",
+            "mainMetropolises": [
+                "Asmara (1,0 million hab. - capitale classée au patrimoine mondial de l'UNESCO pour son architecture moderniste italienne)",
+                "Keren (120 000 hab. - centre commerçant de l'Anseba)",
+                "Massaoua (65 000 hab. - port historique de la mer Rouge)",
+                "Assab (50 000 hab. - port méridional du détroit)",
+                "Barentu (35 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Neuf groupes ethniques reconnus : Tigrigna (55 % - hauts plateaux chrétiens), Tigré (30 % - basses terres musulmanes), Saho (4 %), Afar (3 % - littoral maritime), Bilen (2 %), Hedareb, Nara, Kunama, Rashaida (arabophones nomades)",
+            "languages": "Pas de langue officielle constitutionnelle mais trois langues de travail d'État : Tigrigna, Arabe et Anglais",
+            "religions": "Chrétiens orthodoxes érythréens tewahedo et catholiques (50 %), Musulmans sunnites (48 %), Protestants (2 %)"
+        },
+        "development": {
+            "hdi": "0,492 (Faible - 176e mondial)",
+            "literacyRate": "76,6 %",
+            "keyChallenges": "Service national obligatoire et indéfini forçant des dizaines de milliers de jeunes à fuir le pays par le Soudan et la Méditerranée, dépendance aux transferts de la diaspora soumis à une taxe consulaire de 2 %, isolement politique"
+        }
+    },
+    "SWZ": {
+        "general": {
+            "population": "1,21 million d'habitants",
+            "globalRank": "159e mondial",
+            "density": "70 hab./km²",
+            "growthRate": "+1,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,8 enfants par femme",
+            "birthRate": "23,1 ‰",
+            "deathRate": "9,2 ‰",
+            "infantMortality": "41,0 ‰",
+            "netMigration": "-1,5 ‰ (migrations de travail vers les mines sud-africaines)"
+        },
+        "ageStructure": {
+            "medianAge": "22,5 ans",
+            "lifeExpectancy": {
+                "total": "61,2 ans (impact persistant de l'épidémie de VIH)",
+                "women": "64,1 ans",
+                "men": "58,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "34,8 %",
+                "fifteenToSixtyFour": "61,2 %",
+                "sixtyFivePlus": "4,0 %"
+            },
+            "dependencyRatio": "63,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "24,6 % (habitat majoritairement dispersé en kraals ruraux)",
+            "mainMetropolises": [
+                "Manzini (110 000 hab. - poumon commercial et industriel)",
+                "Mbabane (95 000 hab. - capitale administrative)",
+                "Lobamba (capitale royale et législative traditionnelle)",
+                "Big Bend (canne à sucre)",
+                "Nhlangano (centre agricole du Sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Swazi (97 % - forte homogénéité culturelle autour de la royauté coutumière), Zoulous (2 %), Blancs et métis (1 %)",
+            "languages": "Siswati (langue nationale parlée par 95 % des habitants), Anglais (langue officielle des affaires et du gouvernement)",
+            "religions": "Christianisme syncrétique (88 % - églises zionistes africaines 40 %, protestants 30 %, catholiques 18 %), Croyances swazies traditionnelles (10 %), Islam (1 %)"
+        },
+        "development": {
+            "hdi": "0,610 (Moyen - 144e mondial)",
+            "literacyRate": "88,4 %",
+            "keyChallenges": "Taux de prévalence du VIH le plus élevé au monde chez les adultes (environ 26-27 %), orphelins du sida, tensions entre monarchie absolue coutumière (Tinkhundla) et aspirations démocratiques de la jeunesse éduquée"
+        }
+    },
+    "ETH": {
+        "general": {
+            "population": "126,5 millions d'habitants",
+            "globalRank": "11e mondial (2e d'Afrique après le Nigeria)",
+            "density": "115 hab./km² (concentrée sur les hauts plateaux tempérés de la Weyna Dega)",
+            "growthRate": "+2,5 % par an (gain net d'environ 3 millions d'habitants par an)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,0 enfants par femme",
+            "birthRate": "30,8 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "35,2 ‰",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "19,5 ans",
+            "lifeExpectancy": {
+                "total": "66,2 ans",
+                "women": "68,4 ans",
+                "men": "64,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "39,8 %",
+                "fifteenToSixtyFour": "56,7 %",
+                "sixtyFivePlus": "3,5 %"
+            },
+            "dependencyRatio": "76,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "23,2 % (pays encore massivement rural d'agriculteurs de teff et de café)",
+            "mainMetropolises": [
+                "Addis-Abeba (5,4 millions hab. - capitale diplomatique de l'Afrique et siège de l'Union africaine)",
+                "Dire Dawa (500 000 hab. - carrefour ferroviaire vers Djibouti)",
+                "Mekele (450 000 hab. - métropole du Tigré)",
+                "Hawassa (420 000 hab. - pôle industriel textile de la vallée du Rift)",
+                "Gondar (400 000 hab. - cité impériale historique des Amharas)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 80 nations et nationalités : Oromo (34,5 %), Amhara (26,9 %), Somali (6,2 %), Tigréen (6,1 %), Sidama (4,0 %), Gurage (2,5 %), Welayta (2,3 %), Hadiya, Afar, Gamo",
+            "languages": "Amharique (langue de travail du gouvernement fédéral), Afaan Oromo (langue la plus parlée démographiquement), Tigrigna, Somali, Afar (récemment admises comme langues officielles fédérales de travail), Anglais (enseignement secondaire et supérieur)",
+            "religions": "Chrétiens orthodoxes éthiopiens tewahedo (43,8 %), Musulmans sunnites (31,3 %), Protestants évangéliques / P'ent'ay (22,8 % - croissance spectaculaire), Croyances traditionnelles Waaqeffanna (1,5 %)"
+        },
+        "development": {
+            "hdi": "0,498 (Faible - 175e mondial)",
+            "literacyRate": "51,8 % (hommes 57 %, femmes 44 %)",
+            "keyChallenges": "Fédéralisme ethnique sous haute tension (conflits au Tigré, Amhara, Oromia ayant engendré plus de 4 millions de déplacés internes), impératif de créer 2 millions d'emplois par an pour la jeunesse, sécurité alimentaire face aux sécheresses cycliques de la Corne"
+        }
+    },
+    "GAB": {
+        "general": {
+            "population": "2,43 millions d'habitants",
+            "globalRank": "146e mondial",
+            "density": "9,1 hab./km² (l'une des plus faibles densités d'Afrique, 88 % du territoire sous forêt tropicale)",
+            "growthRate": "+2,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,7 enfants par femme",
+            "birthRate": "27,2 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "31,8 ‰",
+            "netMigration": "+2,5 ‰ (forte attraction historique de main-d'œuvre ouest-africaine et camerounaise)"
+        },
+        "ageStructure": {
+            "medianAge": "22,5 ans",
+            "lifeExpectancy": {
+                "total": "66,8 ans",
+                "women": "69,1 ans",
+                "men": "64,7 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "36,2 %",
+                "fifteenToSixtyFour": "59,6 %",
+                "sixtyFivePlus": "4,2 %"
+            },
+            "dependencyRatio": "67,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "90,4 % (l'un des pays les plus urbanisés du continent, quasi cité-État concentrée sur deux pôles)",
+            "mainMetropolises": [
+                "Libreville (850 000 hab. intra-muros, 1,2 M Grand Libreville - concentre la moitié du pays)",
+                "Port-Gentil (180 000 hab. - capitale pétrolière sur l'île Mandji)",
+                "Franceville (120 000 hab. - métropole du Haut-Ogooué et manganèse de Moanda)",
+                "Oyem (70 000 hab. - carrefour du Woleu-Ntem vers le Cameroun)",
+                "Moanda (60 000 hab. - mines géantes de manganèse)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Fang (32 % - nord et estuaire), Punu et Eshira (20 % - sud-ouest), Nzebi (11 %), Mbede/Téké (8 % - Haut-Ogooué), Myènè (5 % - notables côtiers historiques), Pygmées Babongo autochtones (1 %)",
+            "languages": "Français (officiel d'État, langue maternelle d'une majorité d'enfants à Libreville - cas exceptionnel en Afrique), Fang, Punu, Nzebi, Téké, Myènè",
+            "religions": "Christianisme (82 % - catholiques 55 %, protestants et églises de réveil 27 %), Islam (10 % - commerçants allogènes), Bwiti et cultes traditionnels de l'iboga (7 %)"
+        },
+        "development": {
+            "hdi": "0,706 (Élevé - 116e mondial, 6e d'Afrique)",
+            "literacyRate": "84,7 %",
+            "keyChallenges": "Hyper-concentration urbaine laissant l'intérieur forestier quasi vide, chômage des jeunes diplômés (dépassant 35 % en ville) malgré un PIB par habitant élevé, coût de la vie élevé dû à l'importation de 85 % de la nourriture"
+        }
+    },
+    "GMB": {
+        "general": {
+            "population": "2,77 millions d'habitants",
+            "globalRank": "142e mondial (plus petit pays d'Afrique continentale)",
+            "density": "245 hab./km² (très forte densité le long de la vallée du fleuve Gambie)",
+            "growthRate": "+2,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,7 enfants par femme",
+            "birthRate": "34,2 ‰",
+            "deathRate": "7,5 ‰",
+            "infantMortality": "48,5 ‰",
+            "netMigration": "-1,8 ‰ (forte émigration clandestine de jeunes via la route de la Méditerranée centrale)"
+        },
+        "ageStructure": {
+            "medianAge": "17,8 ans",
+            "lifeExpectancy": {
+                "total": "63,2 ans",
+                "women": "64,8 ans",
+                "men": "61,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "43,5 %",
+                "fifteenToSixtyFour": "53,5 %",
+                "sixtyFivePlus": "3,0 %"
+            },
+            "dependencyRatio": "86,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "63,9 %",
+            "mainMetropolises": [
+                "Brikama (850 000 hab. région métropolitaine ouest)",
+                "Serekunda / Kanifing (400 000 hab. - poumon commercial)",
+                "Banjul (35 000 hab. intra-muros - capitale insulaire enclavée)",
+                "Bakau (60 000 hab.)",
+                "Farafenni (35 000 hab. - carrefour du pont Sénégambie)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Mandinka (34 %), Fula / Peuls (22 %), Wolof (13 % - dominant à Banjul), Jola (11 % - liens avec la Casamance), Sarahule / Soninké (8 %), Serere (3 %), Aku créoles (1 %)",
+            "languages": "Anglais (officiel d'État), Mandinka, Wolof (langue véhiculaire urbaine la plus parlée), Fula, Jola, Sarahule",
+            "religions": "Islam sunnite de rite malékite (96 %), Christianisme (3,5 % - catholiques et anglicans), Croyances traditionnelles (0,5 %)"
+        },
+        "development": {
+            "hdi": "0,500 (Faible - 174e mondial)",
+            "literacyRate": "58,1 %",
+            "keyChallenges": "Phénomène du 'Backway' (émigration irrégulière massive des jeunes garçons vers l'Europe), dépendance extrême aux transferts de fonds de la diaspora (représentant plus de 23 % du PIB national), enclavement géographique au cœur du Sénégal"
+        }
+    },
+    "GHA": {
+        "general": {
+            "population": "34,1 millions d'habitants",
+            "globalRank": "47e mondial (2e d'Afrique de l'Ouest)",
+            "density": "143 hab./km²",
+            "growthRate": "+1,9 % par an (transition démographique en progression)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,6 enfants par femme (en recul net, 2,5 dans le Grand Accra)",
+            "birthRate": "27,5 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "33,5 ‰",
+            "netMigration": "-0,5 ‰ (diaspora très influente aux États-Unis et au Royaume-Uni)"
+        },
+        "ageStructure": {
+            "medianAge": "21,5 ans",
+            "lifeExpectancy": {
+                "total": "64,8 ans",
+                "women": "66,9 ans",
+                "men": "62,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "36,8 %",
+                "fifteenToSixtyFour": "59,0 %",
+                "sixtyFivePlus": "4,2 %"
+            },
+            "dependencyRatio": "69,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "59,2 %",
+            "mainMetropolises": [
+                "Grand Accra (4,4 millions hab. - pôle économique, technologique et financier)",
+                "Kumasi (3,6 millions hab. - capitale historique du royaume Ashanti)",
+                "Tamale (650 000 hab. - métropole du Nord sahélien)",
+                "Sekondi-Takoradi (550 000 hab. - pôle pétrolier et portuaire de l'Ouest)",
+                "Cape Coast (180 000 hab. - centre universitaire et patrimonial)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Akan (47,5 % - Ashanti, Fante, Akuapem), Mole-Dagbon (16,6 % - nord), Ewe (13,9 % - est du lac Volta), Ga-Dangme (7,4 % - plaine d'Accra), Gurma (5,7 %), Guan (3,2 %)",
+            "languages": "Anglais (officiel d'État), Twi / Ashanti (langue véhiculaire nationale la plus parlée), Fante, Ewe, Ga, Dagbani, plus de 50 langues nationales",
+            "religions": "Christianisme (71,3 % - pentecôtistes et charismatiques 31,6 %, protestants 17,4 %, catholiques 10,0 %), Islam (19,9 % - prédominant au Nord et quartiers Zongo), Croyances traditionnelles ancestrales (3,2 %), Sans religion (5,2 %)"
+        },
+        "development": {
+            "hdi": "0,602 (Moyen - 145e mondial)",
+            "literacyRate": "79,0 % (parmi les meilleurs d'Afrique de l'Ouest)",
+            "keyChallenges": "Inégalités Nord/Sud persistantes (Nord savanicole plus aride et pauvre), pression immobilière et inondations côtières récurrentes à Accra, fuite des soignants et médecins vers le NHS britannique"
+        }
+    },
+    "GIN": {
+        "general": {
+            "population": "14,2 millions d'habitants",
+            "globalRank": "76e mondial",
+            "density": "58 hab./km² (répartie sur 4 zones géographiques naturelles distinctes)",
+            "growthRate": "+2,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,4 enfants par femme",
+            "birthRate": "33,8 ‰",
+            "deathRate": "8,5 ‰",
+            "infantMortality": "58,2 ‰",
+            "netMigration": "-1,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "18,9 ans",
+            "lifeExpectancy": {
+                "total": "59,8 ans",
+                "women": "61,2 ans",
+                "men": "58,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "42,2 %",
+                "fifteenToSixtyFour": "54,3 %",
+                "sixtyFivePlus": "3,5 %"
+            },
+            "dependencyRatio": "84,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "37,5 %",
+            "mainMetropolises": [
+                "Conakry (2,3 millions hab. - presqu'île de Kaloum et banlieues surpeuplées de Ratoma/Matoto)",
+                "Nzérékoré (350 000 hab. - capitale de la Guinée forestière)",
+                "Kankan (300 000 hab. - capitale de la Haute-Guinée mandingue)",
+                "Kindia (250 000 hab. - cité des agrumes en Basse-Guinée)",
+                "Labé (220 000 hab. - métropole du Fouta-Djalon)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Peuls / Fulbe (33,4 % - Fouta-Djalon), Malinké / Mandingues (29,4 % - Haute-Guinée), Soussou (21,2 % - Basse-Guinée maritime et Conakry), Guerzé / Kpelle (4,0 % - Guinée forestière), Kissi (3,8 %), Toma (1,8 %)",
+            "languages": "Français (officiel d'État), Pulaar / Peul (Fouta-Djalon), Maninka / Malinké, Soussou (dominant à Conakry), Kpelle, Kissi, Toma",
+            "religions": "Islam sunnite de rite malékite et confréries tidjane/qadiriya (89,1 %), Christianisme (6,8 % - catholiques et protestants en Forêt et Conakry), Animisme traditionnel (3,8 %)"
+        },
+        "development": {
+            "hdi": "0,465 (Faible - 182e mondial)",
+            "literacyRate": "39,6 % (très fort retard chez les femmes : 27 %)",
+            "keyChallenges": "Déficit criant d'infrastructures de base à Conakry (électricité, eau, ramassage des déchets), tensions intercommunautaires récurrentes instrumentalisées lors des transitions politiques, prévalence des mutilations génitales féminines (MGF) la 2e plus haute au monde (> 90 %)"
+        }
+    },
+    "GNB": {
+        "general": {
+            "population": "2,15 millions d'habitants",
+            "globalRank": "149e mondial",
+            "density": "60 hab./km² (incluant l'archipel insulaire des Bijagos)",
+            "growthRate": "+2,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,3 enfants par femme",
+            "birthRate": "32,8 ‰",
+            "deathRate": "9,8 ‰",
+            "infantMortality": "66,8 ‰",
+            "netMigration": "-1,0 ‰ (émigration vers le Sénégal, la Gambie et le Portugal)"
+        },
+        "ageStructure": {
+            "medianAge": "19,4 ans",
+            "lifeExpectancy": {
+                "total": "60,2 ans",
+                "women": "62,1 ans",
+                "men": "58,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,0 %",
+                "fifteenToSixtyFour": "55,8 %",
+                "sixtyFivePlus": "3,2 %"
+            },
+            "dependencyRatio": "79,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "45,5 %",
+            "mainMetropolises": [
+                "Bissau (550 000 hab. - capitale concentrant un quart des Bissau-Guinéens)",
+                "Bafatá (40 000 hab. - centre de l'Est)",
+                "Gabú (45 000 hab. - carrefour commercial frontalier vers la Guinée)",
+                "Bissorã (15 000 hab.)",
+                "Bolama (ancienne capitale coloniale de l'archipel des Bijagos)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Balante (30,5 % - riziculteurs du littoral et piliers de l'armée), Fula / Peuls (29,0 % - éleveurs et marchands de l'Est), Mandinga (14,1 %), Mandjaque (12,0 %), Papel (8,8 % - autochtones de l'île de Bissau), Bijagos insulaires",
+            "languages": "Portugais (officiel d'État, parlé par seulement 12 % de la population), Crioulo de Guiné (créole portugais parlé par 90 % de la population comme langue véhiculaire nationale universelle)",
+            "religions": "Islam (46,1 % - majoritaire chez les Fula et Mandinga), Croyances animistes traditionnelles (30,6 % - très enracinées chez les Balante et Bijagos), Christianisme (18,9 % - principalement catholiques)"
+        },
+        "development": {
+            "hdi": "0,483 (Faible - 179e mondial)",
+            "literacyRate": "53,8 %",
+            "keyChallenges": "Instabilité institutionnelle chronique ('narco-État' de transit fragilisant les services publics), monoculture d'exportation de la noix de cajou dictant le pouvoir d'achat des ménages ruraux, mortalité maternelle et infantile très élevée"
+        }
+    },
+    "KEN": {
+        "general": {
+            "population": "55,1 millions d'habitants",
+            "globalRank": "27e mondial (1ère économie et pôle démographique d'Afrique de l'Est)",
+            "density": "95 hab./km² (fortement concentrée sur les hautes terres centrales fertiles et autour du lac Victoria)",
+            "growthRate": "+1,9 % par an (transition de fécondité rapide)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,3 enfants par femme (en chute rapide : 6,7 en 1989)",
+            "birthRate": "26,1 ‰",
+            "deathRate": "5,8 ‰",
+            "infantMortality": "30,5 ‰",
+            "netMigration": "-0,2 ‰ (accueille plus de 600 000 réfugiés somaliens et sud-soudanais à Dadaab et Kakuma)"
+        },
+        "ageStructure": {
+            "medianAge": "20,4 ans",
+            "lifeExpectancy": {
+                "total": "67,5 ans",
+                "women": "70,1 ans",
+                "men": "64,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "38,2 %",
+                "fifteenToSixtyFour": "58,5 %",
+                "sixtyFivePlus": "3,3 %"
+            },
+            "dependencyRatio": "70,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "29,0 % (la majorité réside dans des campagnes à forte densité rurale)",
+            "mainMetropolises": [
+                "Nairobi (5,1 millions hab. - 'Silicon Savannah', hub aérien, financier et onusien mondial)",
+                "Mombasa (1,4 million hab. - 1er port maritime d'Afrique de l'Est et cité swahilie historique)",
+                "Kisumu (650 000 hab. - grand port sur le lac Victoria)",
+                "Nakuru (600 000 hab. - vallée du Rift agricole)",
+                "Eldoret (500 000 hab. - grenier du Nord-Ouest et patrie des coureurs de fond)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 40 groupes ethniques : Kikuyu (17,1 % - hautes terres centrales), Luhya (14,3 % - ouest), Kalenjin (13,4 % - vallée du Rift), Luo (10,7 % - rives du lac Victoria), Kamba (9,8 % - est), Somali (5,8 %), Kisii (5,7 %), Mijikenda (5,2 % - côte), Masaï (2,5 %)",
+            "languages": "Anglais (officiel de l'administration et des affaires) et Swahili / Kiswahili (officiel et national, langue véhiculaire de toute l'Afrique de l'Est), Sheng (argot urbain branché parlé par la jeunesse de Nairobi)",
+            "religions": "Christianisme (85,5 % - protestants évangéliques 33 %, catholiques 21 %, anglicans et églises africaines 31 %), Islam (11,0 % - dominant sur la côte swahilie et dans le comté du Nord-Est somali), Croyances traditionnelles (1,5 %)"
+        },
+        "development": {
+            "hdi": "0,601 (Moyen - 146e mondial)",
+            "literacyRate": "82,6 % (parmi les plus hauts d'Afrique subsaharienne)",
+            "keyChallenges": "Pression sur l'emploi d'une jeunesse instruite et connectée (mouvement Gen Z protestant contre la vie chère), bidonvilles géants de Nairobi (Kibera, Mathare) dépourvus d'égouts, tensions ethniques politiques récurrentes lors des élections générales"
+        }
+    },
+    "LSO": {
+        "general": {
+            "population": "2,33 millions d'habitants",
+            "globalRank": "145e mondial (royaume enclavé au sein de l'Afrique du Sud)",
+            "density": "77 hab./km² (concentrée dans les basses terres occidentales)",
+            "growthRate": "+0,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,9 enfants par femme",
+            "birthRate": "24,8 ‰",
+            "deathRate": "11,8 ‰",
+            "infantMortality": "43,0 ‰",
+            "netMigration": "-4,1 ‰ (très forte dépendance au travail frontalier en Afrique du Sud)"
+        },
+        "ageStructure": {
+            "medianAge": "24,1 ans",
+            "lifeExpectancy": {
+                "total": "55,2 ans (fortement grevée par la pandémie de VIH)",
+                "women": "58,2 ans",
+                "men": "52,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "33,8 %",
+                "fifteenToSixtyFour": "61,4 %",
+                "sixtyFivePlus": "4,8 %"
+            },
+            "dependencyRatio": "62,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "30,1 %",
+            "mainMetropolises": [
+                "Maseru (350 000 hab. - capitale frontalière sur la rivière Caledon)",
+                "Teyateyaneng (80 000 hab.)",
+                "Mafeteng (65 000 hab.)",
+                "Hlotse (50 000 hab.)",
+                "Maputsoe (45 000 hab. - pôle textile frontalier)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Basotho (99,7 % - peuple d'altitude unifié au XIXe siècle par le roi Moshoeshoe Ier, cas exceptionnel d'homogénéité nationale en Afrique)",
+            "languages": "Sesotho (officiel et langue maternelle de 99 % des habitants), Anglais (officiel dans l'administration et les affaires)",
+            "religions": "Christianisme (92 % - catholiques 45 %, évangéliques de l'Église de Lesotho 26 %, anglicans et méthodistes 21 %), Croyances ancestrales africaines (7 %)"
+        },
+        "development": {
+            "hdi": "0,521 (Faible - 168e mondial)",
+            "literacyRate": "81,0 % (fait rare : taux d'alphabétisation des femmes nettement supérieur à celui des hommes)",
+            "keyChallenges": "Deuxième taux de prévalence du VIH le plus élevé au monde (~21-23 % des adultes), vulnérabilité climatique aiguë dans les montagnes du Drakensberg/Maloti, dépendance absolue à l'économie sud-africaine (union douanière SACU et transferts miniers)"
+        }
+    },
+    "LBR": {
+        "general": {
+            "population": "5,42 millions d'habitants",
+            "globalRank": "124e mondial",
+            "density": "56 hab./km²",
+            "growthRate": "+2,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,0 enfants par femme",
+            "birthRate": "30,5 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "58,5 ‰",
+            "netMigration": "-0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "19,2 ans",
+            "lifeExpectancy": {
+                "total": "62,5 ans",
+                "women": "64,2 ans",
+                "men": "60,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,2 %",
+                "fifteenToSixtyFour": "55,4 %",
+                "sixtyFivePlus": "3,4 %"
+            },
+            "dependencyRatio": "80,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,2 %",
+            "mainMetropolises": [
+                "Monrovia (1,6 million hab. - capitale concentrant près d'un tiers des Libériens)",
+                "Gbarnga (60 000 hab. - centre intérieur)",
+                "Kakata (45 000 hab.)",
+                "Buchanan (40 000 hab. - port d'exportation du minerai de fer)",
+                "Harper (25 000 hab. - littoral sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "16 ethnies autochtones reconnues : Kpelle (20,3 %), Bassa (13,4 %), Grebo (10,0 %), Gio / Dan (8,0 %), Mano (7,9 %), Kru (6,0 %), Lorma (5,1 %), Krahn (4,0 %), descendants d'esclaves afro-américains affranchis ('Américano-Libériens' ou Congos - 2,5 % historiquement dominants)",
+            "languages": "Anglais (officiel d'État unique), Kpelle, Bassa, Liberian Kreyol (anglais créolisé véhiculaire de la rue)",
+            "religions": "Christianisme (85,6 % - protestants méthodistes, baptistes, évangéliques), Islam (12,2 % - Mandingo et Vai), Religions traditionnelles animistes (2,2 %)"
+        },
+        "development": {
+            "hdi": "0,487 (Faible - 177e mondial)",
+            "literacyRate": "48,3 %",
+            "keyChallenges": "Séquelles durables de deux guerres civiles dévastatrices (1989-2003) et de l'épidémie d'Ebola (2014-2016) ayant anéanti le système hospitalier, fracture foncière entre Américano-Libériens et populations autochtones, chômage endémique des jeunes"
+        }
+    },
+    "LBY": {
+        "general": {
+            "population": "6,90 millions d'habitants",
+            "globalRank": "108e mondial",
+            "density": "3,9 hab./km² (l'une des plus faibles au monde, 90 % du pays sous le désert du Sahara)",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme (forte transition de fécondité maghrébine)",
+            "birthRate": "18,4 ‰",
+            "deathRate": "5,2 ‰",
+            "infantMortality": "10,8 ‰",
+            "netMigration": "-1,5 ‰ (zone de transit et rétention de plus de 700 000 migrants subsahariens)"
+        },
+        "ageStructure": {
+            "medianAge": "29,2 ans",
+            "lifeExpectancy": {
+                "total": "73,2 ans",
+                "women": "75,8 ans",
+                "men": "70,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "27,5 %",
+                "fifteenToSixtyFour": "67,2 %",
+                "sixtyFivePlus": "5,3 %"
+            },
+            "dependencyRatio": "48,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "81,3 % (population très urbanisée concentrée sur la frange côtière)",
+            "mainMetropolises": [
+                "Tripoli (2,3 millions hab. - capitale et centre de la Tripolitaine à l'Ouest)",
+                "Benghazi (850 000 hab. - capitale historique de la Cyrénaïque à l'Est)",
+                "Misrata (450 000 hab. - grand port commercial et industriel)",
+                "Zaouïa (250 000 hab. - pôle de raffinage)",
+                "Sébha (150 000 hab. - capitale saharienne du Fezzan au Sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes et Arabo-Berbères (97 % - structure tribale prégnante : Warfalla, Tarhuna, Magarha), Berbères autochtones Amazighs (Zuwarah, monts Nefoussa), Toubous (sud saharien), Touaregs (sud-ouest)",
+            "languages": "Arabe standard moderne (officiel), Arabe libyen dialectal, Tamazight / Berbère (revendiqué depuis la révolution de 2011), Tedaga (Toubou), Tamahaq (Touareg)",
+            "religions": "Islam sunnite de rite malékite (99,5 % - religion d'État, influence du salafisme madkhaliste), minorités chrétiennes coptes et catholiques étrangères (< 1 %)"
+        },
+        "development": {
+            "hdi": "0,746 (Élevé - 92e mondial, malgré les destructions)",
+            "literacyRate": "91,0 %",
+            "keyChallenges": "Division politique et militaire entre gouvernements rivaux de l'Est et de l'Ouest, vulnérabilité extrême aux chocs climatiques (inondations catastrophiques de Derna en 2023 ayant fait des milliers de morts), gestion dramatique des flux migratoires clandestins vers l'Europe"
+        }
+    },
+    "MDG": {
+        "general": {
+            "population": "30,3 millions d'habitants",
+            "globalRank": "51e mondial (plus grande île d'Afrique et 4e plus grande île au monde)",
+            "density": "52 hab./km² (concentrée sur les Hautes Terres centrales)",
+            "growthRate": "+2,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,0 enfants par femme",
+            "birthRate": "30,8 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "38,2 ‰",
+            "netMigration": "-0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "19,8 ans",
+            "lifeExpectancy": {
+                "total": "65,2 ans",
+                "women": "67,5 ans",
+                "men": "63,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "39,5 %",
+                "fifteenToSixtyFour": "57,2 %",
+                "sixtyFivePlus": "3,3 %"
+            },
+            "dependencyRatio": "74,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "40,1 %",
+            "mainMetropolises": [
+                "Antananarivo (3,6 millions hab. aire métropolitaine - 'Tana', capitale sur les Hautes Terres)",
+                "Toamasina / Tamatave (350 000 hab. - 1er port maritime sur l'océan Indien)",
+                "Antsirabe (280 000 hab. - cité thermale et pôle agro-industriel)",
+                "Mahajanga / Majunga (260 000 hab. - débouché du canal du Mozambique)",
+                "Fianarantsoa (210 000 hab. - capitale du pays Betsileo)",
+                "Toliara / Tuléar (180 000 hab. - grand sud semi-aride)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "18 tribus issues du métissage austronésien (indonésien) et africain bantou : Merina (26 % - hautes terres), Betsileo (12 %), Betsimisaraka (15 % - côte orientale), Tsimihety (7 %), Sakalava (6 % - ouest), Antandroy (grand sud), Antaisaka",
+            "languages": "Malgache / Malagasy (officiel et langue nationale unique parlée par 100 % de la population, langue de la famille austronésienne/malayo-polynésienne), Français (officiel pour l'administration et le droit)",
+            "religions": "Christianisme (85 % - catholiques 41 %, protestants FJKM et luthériens 44 %), Croyances ancestrales et culte des ancêtres / Fomba Gasy (omniprésent de manière syncrétique - retournement des morts/Famadihana), Islam (7 % - nord-ouest et côte)"
+        },
+        "development": {
+            "hdi": "0,487 (Faible - 177e mondial)",
+            "literacyRate": "76,8 %",
+            "keyChallenges": "Pauvreté extrême touchant plus de 75 % de la population, malnutrition chronique des enfants dans le Grand Sud aride touché par la sécheresse (Kere), vulnérabilité dévastatrice aux cyclones tropicaux récurrents de l'océan Indien, déforestation de la forêt primaire (tavy)"
+        }
+    },
+    "MWI": {
+        "general": {
+            "population": "20,9 millions d'habitants",
+            "globalRank": "61e mondial",
+            "density": "222 hab./km² (l'une des plus fortes densités d'Afrique australe)",
+            "growthRate": "+2,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,1 enfants par femme",
+            "birthRate": "32,5 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "36,5 ‰",
+            "netMigration": "-0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "17,5 ans",
+            "lifeExpectancy": {
+                "total": "63,5 ans",
+                "women": "66,8 ans",
+                "men": "60,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "43,0 %",
+                "fifteenToSixtyFour": "54,2 %",
+                "sixtyFivePlus": "2,8 %"
+            },
+            "dependencyRatio": "84,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "18,2 % (société rurale de petits exploitants de maïs et tabac)",
+            "mainMetropolises": [
+                "Lilongwe (1,2 million hab. - capitale administrative et politique)",
+                "Blantyre (950 000 hab. - capitale économique et historique du Sud)",
+                "Mzuzu (250 000 hab. - métropole de la région Nord)",
+                "Zomba (110 000 hab. - ancienne capitale coloniale et centre universitaire)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Chewa (34,3 % - centre), Lomwe (18,8 % - sud), Yao (13,2 % - sud et rives du lac), Ngoni (10,4 %), Tumbuka (9,2 % - nord), Sena (3,8 %), Tonga (1,8 %)",
+            "languages": "Chichewa / Nyanja (officiel et langue nationale parlée par plus de 70 % des habitants), Anglais (officiel pour l'administration et le commerce), Chitumbuka, Chiyao",
+            "religions": "Christianisme (77,3 % - protestants 44 %, catholiques 33 %), Islam (13,8 % - principalement chez les Yao le long du lac Malawi), Croyances traditionnelles (8,9 %)"
+        },
+        "development": {
+            "hdi": "0,508 (Faible - 172e mondial)",
+            "literacyRate": "65,8 %",
+            "keyChallenges": "Surpeuplement agricole aigu conduisant à l'épuisement des sols et à des crises alimentaires lors des inondations cycloniques (cyclone Freddy en 2023), prévalence du VIH (~8 % des adultes), dépendance totale à l'aide étrangère pour le budget de santé"
+        }
+    },
+    "MLI": {
+        "general": {
+            "population": "23,3 millions d'habitants",
+            "globalRank": "60e mondial",
+            "density": "19 hab./km² (90 % de la population concentrée dans le tiers sud irrigué par les fleuves Niger et Sénégal)",
+            "growthRate": "+2,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "5,6 enfants par femme (3e taux le plus élevé au monde)",
+            "birthRate": "40,5 ‰",
+            "deathRate": "9,2 ‰",
+            "infantMortality": "61,2 ‰",
+            "netMigration": "-1,8 ‰ (forte tradition d'émigration vers la Côte d'Ivoire, le Sénégal et la France)"
+        },
+        "ageStructure": {
+            "medianAge": "16,1 ans (l'une des populations les plus jeunes de la planète)",
+            "lifeExpectancy": {
+                "total": "59,8 ans",
+                "women": "61,2 ans",
+                "men": "58,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "46,8 %",
+                "fifteenToSixtyFour": "50,7 %",
+                "sixtyFivePlus": "2,5 %"
+            },
+            "dependencyRatio": "97,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "45,2 %",
+            "mainMetropolises": [
+                "Bamako (3,0 millions hab. - capitale traversée par le fleuve Niger)",
+                "Sikasso (300 000 hab. - grenier agricole et carrefour frontalier)",
+                "Mopti (150 000 hab. - 'Venise du Mali', confluent Niger-Bani sous pression sécuritaire)",
+                "Ségou (140 000 hab. - capitale de l'ancien royaume bambara)",
+                "Kayes (130 000 hab. - porte de l'Ouest et pôle de transferts de la diaspora)",
+                "Gao et Tombouctou (villes historiques du Nord saharo-sahélien)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bambara / Bamananke (33,3 %), Peuls / Fulbe (13,3 %), Soninké (9,8 %), Sénoufo (9,6 %), Malinké / Mandingues (8,8 %), Dogon (8,7 % - falaise de Bandiagara), Songhaï (5,9 % - boucle du Niger), Touaregs / Kel Tamasheq (3,2 % - Sahara), Maures arabes (1,7 %)",
+            "languages": "13 langues nationales érigées au rang de langues officielles par la Constitution de 2023 : Bambara (parlé par plus de 80 % de la population comme lingua franca), Peul, Soninké, Songhaï, Tamasheq, etc. ; le Français a été relégué au statut de langue de travail",
+            "religions": "Islam sunnite de tradition soufie malékite (94,8 %), Christianisme (2,4 % - catholiques et protestants), Croyances animistes traditionnelles (2,8 %)"
+        },
+        "development": {
+            "hdi": "0,410 (Faible - 188e mondial)",
+            "literacyRate": "35,5 % (inégalités extrêmes, seulement 25 % chez les femmes)",
+            "keyChallenges": "Conflit armé complexe au Nord et au Centre (djihadistes, séparatistes touaregs, milices communautaires) ayant provoqué plus de 400 000 personnes déplacées internes, fermeture de centaines d'écoles, choc démographique de 600 000 naissances par an à intégrer"
+        }
+    },
+    "MRT": {
+        "general": {
+            "population": "4,95 millions d'habitants",
+            "globalRank": "127e mondial",
+            "density": "4,8 hab./km² (quasi intégralement saharienne)",
+            "growthRate": "+2,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,3 enfants par femme",
+            "birthRate": "32,1 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "48,2 ‰",
+            "netMigration": "+1,2 ‰ (transit de migrants vers les îles Canaries espagnoles et accueil de réfugiés maliens à Mbera)"
+        },
+        "ageStructure": {
+            "medianAge": "20,1 ans",
+            "lifeExpectancy": {
+                "total": "65,2 ans",
+                "women": "67,1 ans",
+                "men": "63,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "39,8 %",
+                "fifteenToSixtyFour": "56,8 %",
+                "sixtyFivePlus": "3,4 %"
+            },
+            "dependencyRatio": "76,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "56,9 % (sédentarisation brutale des nomades depuis les grandes sécheresses des années 1970)",
+            "mainMetropolises": [
+                "Nouakchott (1,4 million hab. - capitale atlantique sortie des sables, abritant près d'un tiers du pays)",
+                "Nouadhibou (160 000 hab. - capitale économique, pêche et minerai de fer)",
+                "Kiffa (70 000 hab. - centre intérieur)",
+                "Kaédi (60 000 hab. - rive du fleuve Sénégal)",
+                "Rosso (55 000 hab. - frontière sénégalaise)",
+                "Zouérate (50 000 hab. - cité minière de fer du désert)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Maures / Beidanes / Maures blancs arabo-berbères (30 % - élite politique historique), Haratines / Maures noirs affranchis (40 % - communauté arabophone d'ascendance servile), Négro-Mauritaniens de la vallée du fleuve Sénégal (30 % - Halpulaar/Toucouleurs/Peuls, Soninké, Wolof)",
+            "languages": "Arabe standard moderne (seule langue officielle de l'État), Hassaniyya (arabe bédouin parlé par 70 % de la population), Pulaar, Soninké et Wolof (langues nationales reconnues), Français (utilisé dans l'économie)",
+            "religions": "Islam sunnite de rite malékite (100 % - République islamique constitutionnelle, apostasie passible de mort)",
+            "hdi": "0,540 (Faible - 164e mondial)"
+        },
+        "development": {
+            "hdi": "0,540 (Faible - 164e mondial)",
+            "literacyRate": "53,5 %",
+            "keyChallenges": "Séquelles sociales profondes des pratiques d'esclavage traditionnel touchant les Haratines (criminalisé mais persistant), tensions communautaires entre Maures arabophones et populations négro-africaines du fleuve, camp géant de Mbera abritant plus de 100 000 réfugiés maliens"
+        }
+    },
+    "MUS": {
+        "general": {
+            "population": "1,26 million d'habitants",
+            "globalRank": "158e mondial",
+            "density": "620 hab./km² (plus forte densité d'Afrique)",
+            "growthRate": "-0,1 % par an (seul pays africain en transition démographique achevée et déclin naturel)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,39 enfant par femme (sous le seuil de remplacement depuis plus d'une décennie)",
+            "birthRate": "9,8 ‰",
+            "deathRate": "9,2 ‰",
+            "infantMortality": "13,1 ‰",
+            "netMigration": "-1,2 ‰ (émigration des élites vers le Canada, la France et l'Australie)"
+        },
+        "ageStructure": {
+            "medianAge": "37,8 ans (population la plus âgée d'Afrique subsaharienne)",
+            "lifeExpectancy": {
+                "total": "74,8 ans",
+                "women": "78,2 ans",
+                "men": "71,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,5 %",
+                "fifteenToSixtyFour": "70,5 %",
+                "sixtyFivePlus": "13,0 %"
+            },
+            "dependencyRatio": "41,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "40,8 % (conurbation continue de Curepipe à Port-Louis le long de la ligne de tram Metro Express)",
+            "mainMetropolises": [
+                "Port-Louis (145 000 hab. - capitale et centre financier)",
+                "Beau Bassin-Rose Hill (110 000 hab.)",
+                "Vacoas-Phoenix (110 000 hab.)",
+                "Curepipe (85 000 hab.)",
+                "Quatre Bornes (80 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Indo-Mauriciens (68 % - descendants d'engagés indiens sous contrat arrivés au XIXe siècle, divisés entre hindous et musulmans), Créoles mauriciens (27 % - d'ascendance africaine et malgache), Sino-Mauriciens (3 %), Franco-Mauriciens / Blancs (2 % - élite sucrière historique)",
+            "languages": "Anglais (officiel du Parlement et des tribunaux), Français (largement dominant dans les médias et l'économie), Créole mauricien / Morisien (langue maternelle nationale parlée par 90 % de la population), Bhojpuri (parlé chez les aînés hindous)",
+            "religions": "Hindouisme (48,5 % - seul pays à majorité hindoue d'Afrique), Christianisme (32,7 % - catholiques 26 %, protestants), Islam sunnite (17,3 %), Bouddhisme (0,4 %)"
+        },
+        "development": {
+            "hdi": "0,796 (Élevé - 72e mondial, au sommet de l'Afrique)",
+            "literacyRate": "91,9 %",
+            "keyChallenges": "Vieillissement rapide inédit pour l'Afrique mettant sous tension le système de retraites universelles, pénurie de main-d'œuvre qualifiée obligeant à importer des ouvriers du Bangladesh et d'Inde pour le textile et la construction, vulnérabilité écologique insulaire"
+        }
+    },
+    "MAR": {
+        "general": {
+            "population": "37,8 millions d'habitants (diaspora marocaine MRE estimée à plus de 5,5 millions de personnes en Europe)",
+            "globalRank": "39e mondial",
+            "density": "85 hab./km²",
+            "growthRate": "+1,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,28 enfants par femme (en convergence vers le seuil de remplacement)",
+            "birthRate": "16,8 ‰",
+            "deathRate": "5,5 ‰",
+            "infantMortality": "16,5 ‰",
+            "netMigration": "-1,3 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "29,5 ans",
+            "lifeExpectancy": {
+                "total": "74,8 ans",
+                "women": "76,5 ans",
+                "men": "73,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,8 %",
+                "fifteenToSixtyFour": "66,2 %",
+                "sixtyFivePlus": "8,0 %"
+            },
+            "dependencyRatio": "51,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "64,6 %",
+            "mainMetropolises": [
+                "Grand Casablanca (4,3 millions hab. - cœur économique, financier et industriel)",
+                "Rabat-Salé-Kénitra (2,2 millions hab. - capitale politique et diplomatique)",
+                "Tanger (1,3 million hab. - métropole industrielle du détroit et hub portuaire Tanger Med)",
+                "Fès (1,2 million hab. - capitale spirituelle et artisanale)",
+                "Marrakech (1,1 million hab. - pôle touristique mondial)",
+                "Agadir (650 000 hab. - capitale du Souss agricole et touristique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes et Berbères / Amazighs (99 % - fusion historique millénaire), communauté juive marocaine historique résiduelle (~2 500 résidents, diaspora d'un million en Israël et France)",
+            "languages": "Arabe et Tamazight (deux langues officielles de l'État consacrées par la Constitution de 2011), Darija / Arabe marocain (langue quotidienne), Français (utilisé dans les affaires, l'enseignement supérieur et l'administration), Espagnol au Nord",
+            "religions": "Islam sunnite de rite malékite sous le magistère du Roi 'Commandeur des croyants' (99 % - religion d'État), Judaïsme et Christianisme (< 1 %)"
+        },
+        "development": {
+            "hdi": "0,698 (Moyen - 120e mondial, progression rapide)",
+            "literacyRate": "76,0 % (effort massif de scolarisation rurale des filles)",
+            "keyChallenges": "Stress hydrique structurel extrême (baisse historique des réserves des barrages imposant des autoroutes de l'eau et méga-usines de dessalement), disparités régionales entre l'axe atlantique Tanger-Casablanca et le Maroc rural de l'Atlas, absorption des jeunes sans diplôme (NEET)"
+        }
+    },
+    "MOZ": {
+        "general": {
+            "population": "33,9 millions d'habitants",
+            "globalRank": "48e mondial",
+            "density": "43 hab./km²",
+            "growthRate": "+2,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,6 enfants par femme",
+            "birthRate": "36,2 ‰",
+            "deathRate": "8,5 ‰",
+            "infantMortality": "53,0 ‰",
+            "netMigration": "-0,3 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "17,2 ans",
+            "lifeExpectancy": {
+                "total": "59,3 ans",
+                "women": "62,1 ans",
+                "men": "56,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "44,5 %",
+                "fifteenToSixtyFour": "52,6 %",
+                "sixtyFivePlus": "2,9 %"
+            },
+            "dependencyRatio": "90,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "38,2 %",
+            "mainMetropolises": [
+                "Maputo (1,2 million hab. intra-muros, 2,8 M agglomération Maputo-Matola)",
+                "Matola (1,6 million hab. - cité industrielle)",
+                "Nampula (800 000 hab. - métropole du Nord)",
+                "Beira (600 000 hab. - grand port du Centre souvent frappé par les cyclones)",
+                "Chimoio (400 000 hab.)",
+                "Nacala (300 000 hab. - port en eau profonde et terminus de corridor minier)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Makhuwa (37 % - nord), Tsonga (10 % - sud), Lomwe (8 %), Sena (7 %), Chuwabu (5 %), Ndau, Shona, Makonde (frontière tanzanienne)",
+            "languages": "Portugais (officiel d'État, parlé par 50 % de la population et dominant dans les villes), Emakhuwa (langue nationale la plus parlée), Xichangana / Tsonga, Cisena, Elomwe, Echuwabu",
+            "religions": "Christianisme (59,8 % - catholiques 28 %, églises zionistes africaines et évangéliques 32 %), Islam (18,9 % - prédominant sur la côte nord de Nampula et Cabo Delgado), Croyances animistes traditionnelles (14,0 %), Sans religion (7,3 %)"
+        },
+        "development": {
+            "hdi": "0,461 (Faible - 183e mondial)",
+            "literacyRate": "60,7 %",
+            "keyChallenges": "Insurrection djihadiste d'Al-Shabab au Cabo Delgado ayant provoqué plus d'un million de personnes déplacées internes et paralysé les méga-projets de GNL, vulnérabilité climatique dramatique aux cyclones tropicaux récurrents de l'océan Indien (Idai, Kenneth)"
+        }
+    },
+    "NAM": {
+        "general": {
+            "population": "2,60 millions d'habitants",
+            "globalRank": "144e mondial",
+            "density": "3,1 hab./km² (2e pays le moins densément peuplé du monde après la Mongolie)",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,1 enfants par femme",
+            "birthRate": "24,5 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "31,5 ‰",
+            "netMigration": "-0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "22,1 ans",
+            "lifeExpectancy": {
+                "total": "64,8 ans",
+                "women": "68,2 ans",
+                "men": "61,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "36,5 %",
+                "fifteenToSixtyFour": "59,5 %",
+                "sixtyFivePlus": "4,0 %"
+            },
+            "dependencyRatio": "68,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "54,0 %",
+            "mainMetropolises": [
+                "Windhoek (460 000 hab. - capitale au centre du plateau)",
+                "Walvis Bay (90 000 hab. - principal port commercial atlantique)",
+                "Swakopmund (65 000 hab. - station balnéaire à l'architecture coloniale allemande)",
+                "Oshakati (55 000 hab. - métropole de la région ovambo au nord)",
+                "Rundu (50 000 hab. - sur la rivière Okavango)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Ovambo (50 % - nord), Kavango (9 %), Herero (7 %), Damara (7 %), Nama (5 %), Capriviens (4 %), San / Bushmen (3 %), Blancs namibiens (6 % - d'ascendance afrikaner et allemande, possédant une large part des terres agricoles commerciales)",
+            "languages": "Anglais (officiel d'État unique depuis l'indépendance de 1990), Oshiwambo (langue la plus parlée par 49 % des ménages), Afrikaans (langue véhiculaire interethnique la plus courante), Allemand, Khoekhoegowab / Nama-Damara, Otjiherero",
+            "religions": "Christianisme (87 % - luthériens 50 %, catholiques 20 %, anglicans et évangéliques), Croyances traditionnelles autochtones (10 %)"
+        },
+        "development": {
+            "hdi": "0,610 (Moyen - 142e mondial)",
+            "literacyRate": "91,5 %",
+            "keyChallenges": "Inégalités de revenus parmi les plus prononcées au monde (coefficient de Gini élevé hérité de l'apartheid sud-africain), question foncière sensible de la redistribution des terres agricoles, aridité extrême des déserts du Namib et du Kalahari"
+        }
+    },
+    "NER": {
+        "general": {
+            "population": "27,2 millions d'habitants",
+            "globalRank": "55e mondial",
+            "density": "21,5 hab./km² (95 % de la population concentrée sur une étroite bande sahélienne le long de la frontière nigériane)",
+            "growthRate": "+3,7 % par an (l'accroissement naturel le plus rapide au monde, doublement tous les 19 ans)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "6,7 enfants par femme (record mondial absolu de fécondité)",
+            "birthRate": "44,8 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "44,5 ‰",
+            "netMigration": "-0,3 ‰ (hub migratoire saharien d'Agadez)"
+        },
+        "ageStructure": {
+            "medianAge": "14,8 ans (la population la plus jeune au monde, plus de la moitié a moins de 15 ans)",
+            "lifeExpectancy": {
+                "total": "62,8 ans",
+                "women": "64,2 ans",
+                "men": "61,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "50,6 % (majorité absolue d'enfants)",
+                "fifteenToSixtyFour": "46,8 %",
+                "sixtyFivePlus": "2,6 %"
+            },
+            "dependencyRatio": "113,7 % (le plus lourd ratio de dépendance de la planète)"
+        },
+        "urbanization": {
+            "urbanRate": "17,1 % (pays massivement rural de cultivateurs de mil et d'éleveurs)",
+            "mainMetropolises": [
+                "Niamey (1,5 million hab. - capitale sur le fleuve Niger)",
+                "Maradi (400 000 hab. - capitale économique et carrefour commercial haoussa vers Kano)",
+                "Zinder (350 000 hab. - ancienne capitale historique du sultanat du Damagaram)",
+                "Tahoua (160 000 hab. - carrefour pastoral)",
+                "Agadez (150 000 hab. - cité caravanière touarègue et porte du Sahara)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Haoussa (53,1 % - centre et est frontalier du Nigeria), Djerma-Songhaï (21,2 % - ouest et vallée du fleuve), Touaregs (11,0 % - nord saharien et massif de l'Aïr), Peuls / Fulbe (6,5 %), Kanouri (5,9 % - bassin du lac Tchad), Toubou (0,8 %), Arabes (0,4 %)",
+            "languages": "Haoussa (langue nationale parlée par 85 % de la population comme lingua franca), Djerma / Zarma, Tamajaq (Touareg), Peul, Kanouri, Français (langue administrative d'État)",
+            "religions": "Islam sunnite de rite malékite (99,3 % - confréries tidjane et qadiriya), Christianisme et animisme (< 1 %)"
+        },
+        "development": {
+            "hdi": "0,394 (Faible - 189e mondial, abonné aux derniers rangs de l'IDH)",
+            "literacyRate": "37,3 % (scolarisation des filles très faible en zone rurale : 14 %)",
+            "keyChallenges": "Urgence démographique critique (plus de 1,2 million de nouvelles bouches à nourrir chaque année sur des terres arides en voie de désertification), mariages très précoces des filles (76 % mariées avant 18 ans), fermeture de centaines d'écoles sous menace djihadiste à Tillabéri et Diffa"
+        }
+    },
+    "NGA": {
+        "general": {
+            "population": "223,8 millions d'habitants",
+            "globalRank": "6e mondial (1er d'Afrique, 1 Africain sur 6 est Nigérian)",
+            "density": "243 hab./km²",
+            "growthRate": "+2,4 % par an (gain net d'environ 5,3 millions d'habitants par an)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "5,1 enfants par femme (fort contraste : 6,6 au Nord-Ouest contre 3,8 au Sud-Ouest)",
+            "birthRate": "36,5 ‰",
+            "deathRate": "11,5 ‰",
+            "infantMortality": "68,0 ‰",
+            "netMigration": "-0,3 ‰ (diaspora mondiale très influente au Royaume-Uni, aux États-Unis et au Canada)"
+        },
+        "ageStructure": {
+            "medianAge": "18,1 ans",
+            "lifeExpectancy": {
+                "total": "53,6 ans (l'une des plus faibles espérances de vie d'Afrique)",
+                "women": "54,8 ans",
+                "men": "52,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "43,8 %",
+                "fifteenToSixtyFour": "53,4 %",
+                "sixtyFivePlus": "2,8 %"
+            },
+            "dependencyRatio": "87,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,5 %",
+            "mainMetropolises": [
+                "Lagos (16,0 millions hab. - 1ère mégapole d'Afrique, géant financier, portuaire et culturel de Nollywood)",
+                "Kano (4,3 millions hab. - métropole historique et commerciale du Nord sahélien)",
+                "Ibadan (3,8 millions hab. - métropole yoruba de l'Ouest)",
+                "Abuja (3,8 millions hab. aire métropolitaine - capitale fédérale planifiée au centre géographique neutre)",
+                "Port Harcourt (3,3 millions hab. - capitale pétrolière du delta du Niger)",
+                "Benin City (1,8 million hab.)",
+                "Kaduna (1,6 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 250 ethnies : Haoussa et Peuls / Fulani (30 % - nord musulman), Yoruba (15,5 % - sud-ouest chrétien/musulman), Igbo (15,2 % - sud-est chrétien), Ijaw (10 % - delta pétrolier), Kanuri (4 %), Ibibio, Tiv, Nupe",
+            "languages": "Anglais (officiel d'État fédéral), Nigerian Pidgin (créole anglais véhiculaire national parlé par plus de 100 millions de Nigérians), Haoussa, Yoruba, Igbo (trois langues nationales majeures)",
+            "religions": "Islam (53,5 % - sunnites majoritaires au Nord, soufis, chiites et mouvance izala), Christianisme (45,9 % - pentecôtistes/évangéliques méga-églises au Sud, anglicans, catholiques), Religions traditionnelles (0,6 %)"
+        },
+        "development": {
+            "hdi": "0,548 (Faible - 161e mondial)",
+            "literacyRate": "62,0 % (fracture abyssale entre le Sud scolarisé à 85 % et le Nord rural à moins de 35 %)",
+            "keyChallenges": "Pression démographique gigantesque (projection à plus de 400 millions d'habitants d'ici 2050), fracture géopolitique et religieuse Nord/Sud, insécurité multiforme (Boko Haram et ISWAP au Nord-Est, banditisme et enlèvements au Nord-Ouest, violences communautaires éleveurs/agriculteurs de la Middle Belt, piraterie et siphonnage pétrolier dans le Delta)"
+        }
+    },
+    "RWA": {
+        "general": {
+            "population": "14,1 millions d'habitants",
+            "globalRank": "77e mondial",
+            "density": "540 hab./km² (pays le plus densément peuplé d'Afrique continentale, 'pays des mille collines')",
+            "growthRate": "+2,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,8 enfants par femme (en forte baisse grâce à la généralisation de la santé communautaire)",
+            "birthRate": "28,5 ‰",
+            "deathRate": "5,2 ‰",
+            "infantMortality": "27,5 ‰ (l'une des plus spectaculaires baisses de mortalité infantile d'Afrique)",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "20,0 ans",
+            "lifeExpectancy": {
+                "total": "67,1 ans (en bond historique depuis 1994 : 32 ans)",
+                "women": "69,4 ans",
+                "men": "64,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "39,2 %",
+                "fifteenToSixtyFour": "57,5 %",
+                "sixtyFivePlus": "3,3 %"
+            },
+            "dependencyRatio": "73,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "17,8 % (habitat rural dense réparti sur toutes les collines)",
+            "mainMetropolises": [
+                "Kigali (1,4 million hab. - capitale moderne, réputée la plus propre et sûre d'Afrique)",
+                "Gisenyi / Rubavu (160 000 hab. - frontière de Goma / RDC sur le lac Kivu)",
+                "Ruhengeri / Musanze (120 000 hab. - pôle touristique des gorilles de montagne)",
+                "Butare / Huye (110 000 hab. - pôle universitaire historique du Sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Banyarwanda (100 % - identité civique unique promue constitutionnellement, les mentions ethniques Hutu 84 %, Tutsi 14 % et Twa 1 % ont été abolies après le génocide de 1994)",
+            "languages": "Kinyarwanda (langue nationale et officielle parlée par 100 % des citoyens), Anglais (officiel d'enseignement et des affaires depuis 2008), Français (officiel réhabilité), Swahili (officiel depuis 2017)",
+            "religions": "Catholicisme (43,7 %), Protestantisme et églises évangéliques (37,7 %), Adventistes du septième jour (11,8 %), Islam (2,0 %), Sans religion (2,5 %)"
+        },
+        "development": {
+            "hdi": "0,548 (Faible - 161e mondial, modèle salué pour son assurance-santé universelle Mutuelle de santé couvrant 90 % de la population)",
+            "literacyRate": "75,9 %",
+            "keyChallenges": "Pression foncière extrême sans frontière d'expansion agricole (parcelles familiales inférieures à 0,3 hectare), nécessité d'industrialiser et de numériser l'économie pour sortir du secteur agricole, mémoire du génocide de 1994 et réconciliation nationale"
+        }
+    },
+    "STP": {
+        "general": {
+            "population": "232 000 habitants (2e plus petit État d'Afrique après les Seychelles)",
+            "globalRank": "187e mondial",
+            "density": "241 hab./km² (sur les îles de São Tomé et Príncipe)",
+            "growthRate": "+1,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,9 enfants par femme",
+            "birthRate": "28,0 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "24,8 ‰",
+            "netMigration": "-2,8 ‰ (forte émigration vers le Portugal et l'Angola)"
+        },
+        "ageStructure": {
+            "medianAge": "19,5 ans",
+            "lifeExpectancy": {
+                "total": "68,2 ans",
+                "women": "70,5 ans",
+                "men": "65,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "39,8 %",
+                "fifteenToSixtyFour": "56,8 %",
+                "sixtyFivePlus": "3,4 %"
+            },
+            "dependencyRatio": "76,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "75,8 %",
+            "mainMetropolises": [
+                "São Tomé (85 000 hab. - capitale concentrant près de 40 % de la population)",
+                "Neves (12 000 hab. - port industriel)",
+                "Santana (10 000 hab.)",
+                "Santo António (3 000 hab. - chef-lieu de l'île autonome de Príncipe)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Mestiços / Forros (créoles affranchis descendants de colons portugais et d'esclaves africains), Angolares (descendants de rescapés d'un navire négrier naufragé au XVIe siècle), Serviçais (travailleurs sous contrat venus d'Angola, Mozambique et Cap-Vert dans les roças de cacao), Tongas (enfants nés sur l'île)",
+            "languages": "Portugais (officiel d'État parlé par 98 % des habitants), Forro / Créole santoméen (créole à base portugaise parlé par 36 %), Angolar (créole du Sud), Principense / Lungie (sur l'île de Príncipe)",
+            "religions": "Catholicisme (55,7 %), Protestantisme et églises évangéliques (15,0 %), Adventistes (4,1 %), Sans religion (21,2 %)"
+        },
+        "development": {
+            "hdi": "0,618 (Moyen - 141e mondial)",
+            "literacyRate": "92,8 % (taux remarquable pour l'Afrique subsaharienne)",
+            "keyChallenges": "Étroitesse du marché insulaire et isolement géographique, dépendance à l'importation de carburant et de denrées de base, vulnérabilité à l'érosion côtière et au changement climatique"
+        }
+    },
+    "SEN": {
+        "general": {
+            "population": "18,0 millions d'habitants (diaspora sénégalaise estimée à plus d'un million en France, Italie, Espagne et États-Unis)",
+            "globalRank": "69e mondial",
+            "density": "92 hab./km²",
+            "growthRate": "+2,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,3 enfants par femme (en recul net à Dakar : 2,8)",
+            "birthRate": "31,5 ‰",
+            "deathRate": "5,8 ‰",
+            "infantMortality": "31,2 ‰",
+            "netMigration": "-1,5 ‰ (phénomène dramatique du 'Barça ou Barsakh' / émigration en pirogue vers les Canaries)"
+        },
+        "ageStructure": {
+            "medianAge": "19,0 ans",
+            "lifeExpectancy": {
+                "total": "67,9 ans",
+                "women": "70,2 ans",
+                "men": "65,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,2 %",
+                "fifteenToSixtyFour": "55,5 %",
+                "sixtyFivePlus": "3,3 %"
+            },
+            "dependencyRatio": "80,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "49,1 %",
+            "mainMetropolises": [
+                "Dakar (3,9 millions hab. - presqu'île surpeuplée concentrant 23 % de la population et 80 % de l'activité économique)",
+                "Touba (1,1 million hab. - cité sainte autonome de la confrérie mouride en croissance démographique vertigineuse)",
+                "Thiès (400 000 hab. - carrefour ferroviaire et industriel)",
+                "Kaolack (270 000 hab. - bassin arachidier)",
+                "Saint-Louis / Ndar (250 000 hab. - ancienne capitale historique menacée par la montée des eaux)",
+                "Ziguinchor (230 000 hab. - capitale de la Casamance)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Wolof (39,7 % - ouest et bassin arachidier), Pulaar / Peuls et Toucouleurs (26,3 % - Fouta-Toro et Ferlo), Sérère (15,2 % - Sine-Saloum), Jola / Diola (4,0 % - Casamance), Mandinka (4,0 %), Soninké (1,3 %), Lebou (pêcheurs autochtones de la presqu'île du Cap-Vert)",
+            "languages": "Français (officiel d'État), Wolof (langue nationale véhiculaire comprise et parlée par plus de 90 % des Sénégalais), Pulaar, Sérère, Jola, Mandinka, Soninké",
+            "religions": "Islam sunnite de rite malékite organisé en puissantes confréries soufies (96,1 % - Mourides 33 %, Tijanes 50 %, Qadiris, Layènes), Christianisme catholique (3,5 % - Sérères, Diolas et Lebous), Animisme (0,4 % - teranga sénégalaise et tolérance religieuse exemplaire)"
+        },
+        "development": {
+            "hdi": "0,517 (Faible - 169e mondial)",
+            "literacyRate": "56,3 % (fort contraste hommes 65 %, femmes 47 %)",
+            "keyChallenges": "Macrocéphalie urbaine étouffante de Dakar (saturation du trafic et du foncier justifiant la création de la ville nouvelle de Diamniadio), drame de l'émigration clandestine des jeunes sans emploi en mer, érosion côtière sévère menaçant les quartiers de Saint-Louis et Rufisque"
+        }
+    },
+    "SYC": {
+        "general": {
+            "population": "100 400 habitants (le pays le moins peuplé d'Afrique)",
+            "globalRank": "198e mondial",
+            "density": "220 hab./km² (archipel de 115 îles granitiques et coralliennes)",
+            "growthRate": "+0,6 % par an (seul pays africain classé à 'Très haut développement humain')"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,2 enfants par femme",
+            "birthRate": "16,2 ‰",
+            "deathRate": "8,1 ‰",
+            "infantMortality": "11,5 ‰ (la plus basse d'Afrique)",
+            "netMigration": "-1,0 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "36,8 ans (l'une des populations les plus mûres du continent)",
+            "lifeExpectancy": {
+                "total": "74,2 ans",
+                "women": "78,5 ans",
+                "men": "70,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "19,5 %",
+                "fifteenToSixtyFour": "71,0 %",
+                "sixtyFivePlus": "9,5 %"
+            },
+            "dependencyRatio": "40,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "58,2 %",
+            "mainMetropolises": [
+                "Victoria (28 000 hab. - plus petite capitale d'Afrique sur l'île de Mahé, concentrant 85 % de la population totale)",
+                "Anse Etoile (5 000 hab.)",
+                "Mont Fleuri (4 000 hab.)",
+                "Grand'Anse Praslin (île de Praslin)",
+                "La Digue (célèbre pour l'anse Source d'Argent)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Créoles seychellois (90 % - synthèse harmonieuse de colons français, esclaves africains, marins britanniques, commerçants indiens et chinois), Indiens (6 %), Chinois (2 %), Européens (2 %)",
+            "languages": "Créole seychellois / Seselwa (langue nationale officielle parlée par 95 % des habitants), Anglais et Français (trois langues officielles de la République)",
+            "religions": "Catholicisme (76,2 %), Protestantisme anglican et évangélique (10,6 %), Hindouisme (2,4 %), Islam (1,6 %), Sans religion (9,2 %)"
+        },
+        "development": {
+            "hdi": "0,802 (Très élevé - 67e mondial, 1er pays d'Afrique à franchir le seuil de très haut développement humain)",
+            "literacyRate": "95,9 %",
+            "keyChallenges": "Fléau de la toxicomanie à l'héroïne touchant une proportion alarmante de la jeunesse adulte, vulnérabilité climatique aiguë (montée du niveau des océans et blanchissement des coraux), dépendance presque exclusive au tourisme de luxe et aux licences de thon"
+        }
+    },
+    "SLE": {
+        "general": {
+            "population": "8,79 millions d'habitants",
+            "globalRank": "102e mondial",
+            "density": "122 hab./km²",
+            "growthRate": "+2,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,0 enfants par femme",
+            "birthRate": "30,8 ‰",
+            "deathRate": "10,2 ‰",
+            "infantMortality": "75,0 ‰ (l'une des plus tragiques au monde)",
+            "netMigration": "-0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "19,4 ans",
+            "lifeExpectancy": {
+                "total": "55,8 ans (parmi les 5 plus faibles espérances de vie du globe)",
+                "women": "57,2 ans",
+                "men": "54,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "40,5 %",
+                "fifteenToSixtyFour": "56,2 %",
+                "sixtyFivePlus": "3,3 %"
+            },
+            "dependencyRatio": "77,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "44,5 %",
+            "mainMetropolises": [
+                "Freetown (1,3 million hab. - capitale historique fondée pour les esclaves noirs libérés)",
+                "Bo (250 000 hab. - métropole du Sud)",
+                "Kenema (230 000 hab. - centre diamantifère de l'Est)",
+                "Makeni (140 000 hab. - métropole du Nord)",
+                "Koidu (130 000 hab. - cœur des mines de diamants de Kono)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Temne (35,4 % - nord et ouest), Mende (31,2 % - sud et est), Limba (8,4 %), Kono (5,2 %), Koranko (4,4 %), Peuls / Fula (3,8 %), Krio (1,3 % - descendants créoles d'esclaves affranchis à Freetown, élite historique intellectuelle)",
+            "languages": "Anglais (officiel d'État), Krio (créole anglais parlé et compris par 97 % des habitants comme langue véhiculaire nationale universelle), Temne, Mende",
+            "religions": "Islam sunnite (78,0 %), Christianisme (20,9 % - protestants méthodistes et catholiques), Croyances traditionnelles animistes (1,1 % - sociétés secrètes initiatiques Poro pour les hommes et Sande pour les femmes)"
+        },
+        "development": {
+            "hdi": "0,458 (Faible - 184e mondial)",
+            "literacyRate": "47,7 %",
+            "keyChallenges": "Taux de mortalité maternelle le plus lourd de la planète (environ 1 120 décès pour 100 000 naissances), séquelles de la guerre des 'diamants de sang' (1991-2002) et d'Ebola, précarité extrême des quartiers insalubres accrochés aux collines de Freetown (glissements de terrain meurtriers)"
+        }
+    },
+    "SOM": {
+        "general": {
+            "population": "18,1 millions d'habitants (diaspora somalienne massive de plus de 2 millions de personnes en Europe, au Kenya, en Éthiopie et aux États-Unis)",
+            "globalRank": "67e mondial",
+            "density": "28,5 hab./km²",
+            "growthRate": "+3,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "6,1 enfants par femme (2e taux le plus élevé au monde après le Niger)",
+            "birthRate": "41,8 ‰",
+            "deathRate": "10,8 ‰",
+            "infantMortality": "69,5 ‰",
+            "netMigration": "-2,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "16,5 ans",
+            "lifeExpectancy": {
+                "total": "56,5 ans",
+                "women": "58,8 ans",
+                "men": "54,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "46,5 %",
+                "fifteenToSixtyFour": "50,8 %",
+                "sixtyFivePlus": "2,7 %"
+            },
+            "dependencyRatio": "96,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "47,3 % (exode massif des pasteurs nomades vers les camps urbains suite aux sécheresses)",
+            "mainMetropolises": [
+                "Mogadiscio (2,6 millions hab. - 'Xamar', capitale sur l'océan Indien)",
+                "Hargeisa (1,2 million hab. - capitale de la république autoproclamée du Somaliland)",
+                "Kismayo (350 000 hab. - port méridional du Jubaland)",
+                "Burao (300 000 hab.)",
+                "Bosaso (250 000 hab. - grand port du Puntland sur le golfe d'Aden)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Somalis ethniques (85 % - unité linguistique et religieuse exceptionnelle divisée en clans majeurs : Hawiye, Darod, Isaaq, Rahanweyn/Digil-Mirifle, Dir), minorités non somalies (15 % - Bantous somaliens/Jareer, Benadiris d'origine arabo-persane, Bajunis)",
+            "languages": "Somali / Af-Soomaali (officiel d'État, langue couchitique écrite en alphabet latin depuis 1972), Arabe (officiel), Anglais et Italien (héritages coloniaux du Nord et du Sud)",
+            "religions": "Islam sunnite de rite chaféite (99,8 % - religion d'État, charia intégrée au système judiciaire, influence du salafisme)"
+        },
+        "development": {
+            "hdi": "0,380 (Faible - non classé officiellement par manque de données, estimé parmi les 3 derniers au monde)",
+            "literacyRate": "37,8 %",
+            "keyChallenges": "État failli en reconstruction lente, menace terroriste permanente des islamistes radicaux Al-Shabab, plus de 3,8 millions de personnes déplacées internes dépendant de l'aide humanitaire d'urgence, prévalence des mutilations génitales féminines la plus haute au monde (98 %)"
+        }
+    },
+    "ZAF": {
+        "general": {
+            "population": "60,6 millions d'habitants",
+            "globalRank": "24e mondial (pôle économique et technologique le plus avancé d'Afrique)",
+            "density": "50 hab./km²",
+            "growthRate": "+1,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme (transition de fécondité achevée)",
+            "birthRate": "19,5 ‰",
+            "deathRate": "9,8 ‰",
+            "infantMortality": "25,8 ‰",
+            "netMigration": "+1,8 ‰ (destination numéro un des flux migratoires de tout le continent africain)"
+        },
+        "ageStructure": {
+            "medianAge": "28,0 ans",
+            "lifeExpectancy": {
+                "total": "65,3 ans (fort rebond après l'hécatombe du VIH des années 2000)",
+                "women": "68,2 ans",
+                "men": "62,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "28,8 %",
+                "fifteenToSixtyFour": "65,2 %",
+                "sixtyFivePlus": "6,0 %"
+            },
+            "dependencyRatio": "53,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "68,3 %",
+            "mainMetropolises": [
+                "Johannesburg (5,9 millions hab. - 'Egoli', cœur financier, minier et commercial)",
+                "Le Cap / Cape Town (4,8 millions hab. - capitale législative et pôle touristique/tech)",
+                "Durban / eThekwini (3,9 millions hab. - 1er port à conteneurs d'Afrique)",
+                "Pretoria / Tshwane (3,3 millions hab. - capitale administrative)",
+                "Gqeberha / Port Elizabeth (1,3 million hab. - pôle automobile)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Noirs africains (81,4 % - Zoulous 23 %, Xhosas 17 %, Pedi/Sotho du Nord 9 %, Tswana 8 %, Sotho du Sud 7 %, Tsonga 4 %, Swazi, Venda, Ndebele), Métis / Coloureds (8,2 % - Western Cape), Blancs sud-africains (7,3 % - Afrikaners et Anglo-Sud-Africains), Indiens et Asiatiques (2,7 % - plus grande communauté d'ascendance indienne hors d'Asie)",
+            "languages": "12 langues officielles reconnues par la Constitution : isiZulu (23 %), isiXhosa (16 %), Afrikaans (14 %), Sepedi (9 %), Setswana (8 %), Anglais (officiel dominant des médias, des affaires et de la politique), Sesotho, Xitsonga, siSwati, Tshivenda, isiNdebele et Langue des signes sud-africaine",
+            "religions": "Christianisme (86,0 % - églises zionistes africaines 25 %, pentecôtistes/évangéliques 15 %, catholiques 7 %, méthodistes), Sans religion (5,2 %), Islam (1,9 % - Malais du Cap et Indiens), Hindouisme (1,1 % - Durban), Croyances traditionnelles ancestrales (5,8 %)"
+        },
+        "development": {
+            "hdi": "0,717 (Élevé - 110e mondial)",
+            "literacyRate": "95,0 %",
+            "keyChallenges": "Inégalités économiques et spatiales les plus vertigineuses au monde (coefficient de Gini record de 0,67 persistant 30 ans après la fin de l'apartheid), chômage structurel de masse frappant plus de 33 % de la population active (et plus de 60 % des jeunes), épidémie de VIH touchant 7,8 millions de personnes (13,7 % de la population totale)"
+        }
+    },
+    "SSD": {
+        "general": {
+            "population": "11,1 millions d'habitants (plus jeune État souverain de la planète, indépendant depuis 2011)",
+            "globalRank": "87e mondial",
+            "density": "17,2 hab./km²",
+            "growthRate": "+1,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,4 enfants par femme",
+            "birthRate": "28,8 ‰",
+            "deathRate": "10,5 ‰",
+            "infantMortality": "63,5 ‰",
+            "netMigration": "-1,8 ‰ (plus de 2,2 millions de réfugiés sud-soudanais dans les pays voisins)"
+        },
+        "ageStructure": {
+            "medianAge": "18,2 ans",
+            "lifeExpectancy": {
+                "total": "55,8 ans",
+                "women": "57,5 ans",
+                "men": "54,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,8 %",
+                "fifteenToSixtyFour": "55,2 %",
+                "sixtyFivePlus": "3,0 %"
+            },
+            "dependencyRatio": "81,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "21,2 % (habitat pastoral le long des marécages géants du Sudd)",
+            "mainMetropolises": [
+                "Juba (550 000 hab. - capitale en croissance rapide sur le Nil blanc)",
+                "Wau (180 000 hab. - centre du Bahr el-Ghazal)",
+                "Malakal (140 000 hab. - cité pétrolière du Haut-Nil lourdement détruite)",
+                "Yei (100 000 hab. - carrefour agricole d'Équatoria)",
+                "Rumbek (90 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Dinka / Jieng (35,8 % - plus grand groupe agro-pastoral), Nuer / Naath (15,6 % - rivaux historiques des Dinka), Shilluk / Chollo (bassin du Nil), Azande (sud-ouest forestier), Bari (région de Juba), Murle, Toposa",
+            "languages": "Anglais (officiel d'État unique), Arabe de Juba / Juba Arabic (langue véhiculaire commerciale dominante), Dinka, Nuer, Shilluk, Zande, Bari",
+            "religions": "Christianisme (60,5 % - catholiques 30 %, épiscopaliens/anglicans 25 %, presbytériens), Religions traditionnelles animistes africaines (32,9 %), Islam (6,2 %)"
+        },
+        "development": {
+            "hdi": "0,381 (Faible - 192e mondial sur 193 pays)",
+            "literacyRate": "34,5 % (seulement 28 % chez les femmes)",
+            "keyChallenges": "Guerre civile dévastatrice (2013-2018) ayant fait 400 000 morts et déplacé plus d'un tiers de la population, rivalités ethniques sanglantes Dinka/Nuer instrumentalisées par les chefs de guerre, dépendance totale aux revenus du pétrole acheminé par les oléoducs d'un Soudan lui-même en guerre"
+        }
+    },
+    "SDN": {
+        "general": {
+            "population": "48,1 millions d'habitants",
+            "globalRank": "31e mondial (3e d'Afrique par la superficie)",
+            "density": "25,5 hab./km²",
+            "growthRate": "+2,3 % par an (actuellement bouleversé par la guerre civile déclenchée en avril 2023)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,2 enfants par femme",
+            "birthRate": "31,8 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "41,2 ‰",
+            "netMigration": "-4,8 ‰ (plus de 2 millions de Soudanais réfugiés en Égypte, au Tchad et au Soudan du Sud)"
+        },
+        "ageStructure": {
+            "medianAge": "19,5 ans",
+            "lifeExpectancy": {
+                "total": "65,3 ans",
+                "women": "67,2 ans",
+                "men": "63,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "40,2 %",
+                "fifteenToSixtyFour": "56,6 %",
+                "sixtyFivePlus": "3,2 %"
+            },
+            "dependencyRatio": "76,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "36,2 %",
+            "mainMetropolises": [
+                "Khartoum-Omdurman-Bahri (6,5 millions hab. avant la guerre - conurbation des trois villes au confluent du Nil Blanc et du Nil Bleu, aujourd'hui champ de ruines)",
+                "Port-Soudan (700 000 hab. - capitale administrative de repli et unique débouché sur la mer Rouge)",
+                "Nyala (600 000 hab. - capitale du Sud-Darfour)",
+                "Kassala (500 000 hab. - pôle de l'Est)",
+                "Wad Madani (400 000 hab. - cœur du projet cotonnier de la Gezira)",
+                "El Fasher (400 000 hab. - chef-lieu du Nord-Darfour assiégé)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes soudanais (environ 70 % - tribus Ja'alin, Shaigiya, Baggara/Rizeigat éleveurs), Four (Darfour), Béja (mer Rouge), Nubiens (Nil nord), Nouba (monts Nouba du Kordofan), Zaghawa, Ingessana",
+            "languages": "Arabe (officiel d'État et langue maternelle dominante), Anglais (officiel constitutionnel de travail), langues béja (Bedawiyet), langues four, langues nubiennes",
+            "religions": "Islam sunnite de rite malékite et confréries soufies Khatmiyya et Ansar (91 %), Christianisme (6 % - coptes, catholiques et évangéliques), Croyances traditionnelles autochtones (3 %)"
+        },
+        "development": {
+            "hdi": "0,516 (Faible - 170e mondial)",
+            "literacyRate": "60,7 %",
+            "keyChallenges": "Pire crise de déplacement humain au monde (plus de 10 millions de personnes déplacées internes suite à la guerre entre l'armée régulière des SAF et les paramilitaires des RSF), famine de masse menaçant plus de 25 millions de personnes, destruction quasi totale des hôpitaux et universités de Khartoum"
+        }
+    },
+    "TZA": {
+        "general": {
+            "population": "67,4 millions d'habitants",
+            "globalRank": "23e mondial (2e d'Afrique de l'Est)",
+            "density": "71 hab./km² (incluant l'archipel autonome de Zanzibar)",
+            "growthRate": "+2,9 % par an (gain net de près de 2 millions d'habitants chaque année)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,6 enfants par femme (en recul régulier : 6,2 en 1991)",
+            "birthRate": "34,8 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "34,0 ‰",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "18,2 ans",
+            "lifeExpectancy": {
+                "total": "66,8 ans",
+                "women": "69,1 ans",
+                "men": "64,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "43,0 %",
+                "fifteenToSixtyFour": "53,9 %",
+                "sixtyFivePlus": "3,1 %"
+            },
+            "dependencyRatio": "85,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "36,8 %",
+            "mainMetropolises": [
+                "Dar es Salaam (7,5 millions hab. - mégapole côtière galopante, pôle portuaire de toute l'Afrique centrale)",
+                "Mwanza (1,3 million hab. - capitale économique sur le lac Victoria)",
+                "Zanzibar City / Stone Town (650 000 hab. - joyau historique de l'océan Indien)",
+                "Arusha (550 000 hab. - capitale touristique des safaris et siège de la CAE)",
+                "Dodoma (450 000 hab. - capitale politique et législative désignée au centre)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 120 ethnies unifiées sans domination hégémonique : Sukuma (16 % - région du lac Victoria), Nyamwezi, Chagga (flancs du Kilimandjaro, élite commerçante), Haya, Ha, Makonde, Hehe, Gogo, Masaï (pasteurs du Nord)",
+            "languages": "Swahili / Kiswahili (langue nationale et officielle universelle unissant le pays, héritage de la politique Ujamaa de Julius Nyerere - modèle d'intégration africain), Anglais (officiel dans l'enseignement supérieur et les tribunaux supérieurs)",
+            "religions": "Christianisme (63,1 % - catholiques 31 %, protestants luthériens et pentecôtistes 32 %), Islam (34,1 % - majoritaire à Zanzibar avec 99 % et très présent sur la côte swahilie), Croyances animistes traditionnelles (2,8 %)"
+        },
+        "development": {
+            "hdi": "0,532 (Faible - 167e mondial)",
+            "literacyRate": "78,9 %",
+            "keyChallenges": "Explosion urbaine de Dar es Salaam en passe de devenir une des 5 plus grandes métropoles mondiales d'ici 2100, scolarisation et emploi d'une jeunesse immense, équilibres politiques délicats entre le Tanganyika continental et l'archipel semi-autonome de Zanzibar"
+        }
+    },
+    "TGO": {
+        "general": {
+            "population": "9,05 millions d'habitants",
+            "globalRank": "99e mondial",
+            "density": "159 hab./km²",
+            "growthRate": "+2,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,1 enfants par femme",
+            "birthRate": "31,5 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "47,2 ‰",
+            "netMigration": "-0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "19,5 ans",
+            "lifeExpectancy": {
+                "total": "61,9 ans",
+                "women": "63,5 ans",
+                "men": "60,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "40,8 %",
+                "fifteenToSixtyFour": "55,8 %",
+                "sixtyFivePlus": "3,4 %"
+            },
+            "dependencyRatio": "79,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "43,9 %",
+            "mainMetropolises": [
+                "Lomé (2,1 millions hab. agglomération - hub maritime en eau profonde et pôle financier régional)",
+                "Sokodé (130 000 hab. - métropole kotokoli du Centre)",
+                "Kara (110 000 hab. - métropole du pays kabyè au Nord)",
+                "Atakpamé (95 000 hab. - centre cotonnier des Plateaux)",
+                "Dapaong (70 000 hab. - région des Savanes à la frontière burkinabè)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Éwé et Mina / Guen (42,4 % - sud côtier commerçant), Kabyè et Losso (25,9 % - nord, historiquement prépondérants dans l'armée et l'administration), Kotokoli / Tem (10,5 %), Moba-Gurma (10,0 % - extrême nord), Tchamba, Bassar",
+            "languages": "Français (officiel d'État), Éwé (langue nationale véhiculaire du Sud), Kabyè (langue nationale du Nord), Mina, Tem",
+            "religions": "Christianisme (47,8 % - catholiques 27 %, protestants et églises évangéliques 21 %), Croyances animistes et Vodun (33,0 % - très vivaces au Sud), Islam (18,4 % - majoritaire chez les Kotokoli et Peuls au Nord)"
+        },
+        "development": {
+            "hdi": "0,547 (Faible - 163e mondial)",
+            "literacyRate": "66,5 %",
+            "keyChallenges": "Contagion terroriste sahélienne dans la région septentrionale des Savanes (déplacements de populations), disparité historique Nord/Sud au cœur des crispations politiques, accès à l'eau potable et à l'électricité en milieu rural"
+        }
+    },
+    "TUN": {
+        "general": {
+            "population": "12,45 millions d'habitants (diaspora de plus de 1,4 million de Tunisiens à l'étranger, principalement en France, Italie et Allemagne)",
+            "globalRank": "79e mondial",
+            "density": "76 hab./km²",
+            "growthRate": "+0,7 % par an (pionnière de la transition démographique dans le monde arabe)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme (en dessous du seuil de remplacement)",
+            "birthRate": "14,8 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "11,8 ‰",
+            "netMigration": "-2,5 ‰ (forte hausse des départs de jeunes diplômés et de migrants clandestins vers l'Italie/Lampedusa)"
+        },
+        "ageStructure": {
+            "medianAge": "33,8 ans (population la plus mûre du Maghreb)",
+            "lifeExpectancy": {
+                "total": "76,8 ans",
+                "women": "79,2 ans",
+                "men": "74,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "23,5 %",
+                "fifteenToSixtyFour": "67,2 %",
+                "sixtyFivePlus": "9,3 %"
+            },
+            "dependencyRatio": "48,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "70,2 %",
+            "mainMetropolises": [
+                "Grand Tunis (2,8 millions hab. - concentre un quart de la population tunisienne)",
+                "Sfax (1,0 million hab. - capitale économique, industrielle et oléicole)",
+                "Sousse (700 000 hab. - pôle touristique et universitaire du Sahel)",
+                "Kairouan (200 000 hab. - cité sainte historique)",
+                "Bizerte (180 000 hab. - grand port septentrional)",
+                "Gabès (160 000 hab. - pôle chimique du Sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes et Arabo-Berbères (98 % - synthèse séculaire), minorités berbères autochtones de Djerba et Chenini, communauté juive de Djerba (synagogue de la Ghriba, l'une des plus anciennes au monde - ~1 500 résidents)",
+            "languages": "Arabe standard moderne (officiel), Darija tunisienne (arabe dialectal local), Français (largement maîtrisé dans les universités, les affaires et l'administration), Chelha (berbère parlé à Djerba et Matmata)",
+            "religions": "Islam sunnite de rite malékite (99 % - Code du statut personnel historique garantissant les droits des femmes depuis 1956), Judaïsme et Christianisme (< 1 %)"
+        },
+        "development": {
+            "hdi": "0,732 (Élevé - 101e mondial)",
+            "literacyRate": "82,7 % (très fort investissement historique dans l'éducation)",
+            "keyChallenges": "Fuite massive des médecins, ingénieurs et universitaires vers l'Europe et le Golfe, fracture socio-économique profonde entre le littoral développé (Sahel/Tunis) et l'intérieur marginalisé (Kasserine, Sidi Bouzid, Gafsa), chômage des jeunes diplômés dépassant 30 %"
+        }
+    },
+    "UGA": {
+        "general": {
+            "population": "48,6 millions d'habitants",
+            "globalRank": "30e mondial (3e d'Afrique de l'Est)",
+            "density": "201 hab./km²",
+            "growthRate": "+3,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,7 enfants par femme",
+            "birthRate": "35,8 ‰",
+            "deathRate": "5,9 ‰",
+            "infantMortality": "38,5 ‰",
+            "netMigration": "+1,5 ‰ (1er pays d'accueil de réfugiés en Afrique avec plus de 1,6 million de Sud-Soudanais et Congolais)"
+        },
+        "ageStructure": {
+            "medianAge": "16,7 ans (l'une des 4 populations les plus jeunes de la planète)",
+            "lifeExpectancy": {
+                "total": "63,8 ans",
+                "women": "66,1 ans",
+                "men": "61,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "46,0 %",
+                "fifteenToSixtyFour": "51,8 %",
+                "sixtyFivePlus": "2,2 %"
+            },
+            "dependencyRatio": "93,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "26,2 %",
+            "mainMetropolises": [
+                "Grand Kampala (3,8 millions hab. - capitale étalée sur sept collines au bord du lac Victoria)",
+                "Nansana (400 000 hab. - banlieue de Kampala)",
+                "Kira (380 000 hab.)",
+                "Mbarara (220 000 hab. - métropole de l'Ouest)",
+                "Gulu (180 000 hab. - centre du pays acholi au Nord)",
+                "Jinja (100 000 hab. - source historique du Nil)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bantous au Sud (70 %) et Nilotiques/Soudanais au Nord (30 %) : Baganda (16,5 % - royaume historique du Buganda), Banyankole (9,6 %), Basoga (8,8 %), Bakiga (7,1 %), Iteso (7,0 %), Langi (6,3 %), Acholi (4,4 %), Bagisu (4,9 %)",
+            "languages": "Anglais et Swahili (deux langues officielles constitutionnelles d'État), Luganda (langue la plus parlée dans la capitale et au centre), Runyankole, Lusoga, Acholi",
+            "religions": "Christianisme (84,5 % - catholiques 39,3 %, anglicans de l'Église d'Ouganda 32,0 %, pentecôtistes/évangéliques 11,1 %), Islam sunnite (13,7 %), Croyances traditionnelles (1,8 %)"
+        },
+        "development": {
+            "hdi": "0,550 (Moyen - 159e mondial)",
+            "literacyRate": "76,5 %",
+            "keyChallenges": "Pression colossale sur les écoles et l'emploi face à 1,5 million de naissances par an, coexistence foncière avec l'accueil modèle mais saturé de 1,6 million de réfugiés (système de parcelles d'installation libre), déforestation liée au bois de chauffe"
+        }
+    },
+    "ZMB": {
+        "general": {
+            "population": "20,6 millions d'habitants",
+            "globalRank": "63e mondial",
+            "density": "27,5 hab./km²",
+            "growthRate": "+2,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,3 enfants par femme",
+            "birthRate": "33,8 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "39,0 ‰",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "17,6 ans",
+            "lifeExpectancy": {
+                "total": "64,2 ans",
+                "women": "66,8 ans",
+                "men": "61,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "43,8 %",
+                "fifteenToSixtyFour": "53,8 %",
+                "sixtyFivePlus": "2,4 %"
+            },
+            "dependencyRatio": "85,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "45,8 % (urbanisation élevée héritée des cités minières du Copperbelt)",
+            "mainMetropolises": [
+                "Lusaka (3,3 millions hab. - capitale en expansion rapide)",
+                "Kitwe (700 000 hab. - capitale du cuivre)",
+                "Ndola (600 000 hab. - pôle industriel et raffineries du Copperbelt)",
+                "Kabwe (230 000 hab. - ancienne Broken Hill minière)",
+                "Chingola (220 000 hab.)",
+                "Livingstone (180 000 hab. - porte des chutes Victoria)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 70 groupes ethniques bantous : Bemba (21,0 % - nord et Copperbelt), Tonga (13,6 % - sud), Chewa (7,4 % - est), Lozi / Barotse (5,7 % - ouest et royaume du Barotseland), Nsenga (5,3 %), Tumbuka (4,4 %)",
+            "languages": "Anglais (officiel d'État unique), 7 langues nationales majeures reconnues : Bemba (la plus parlée, véhiculaire urbaine), Nyanja / Chewa (dominant à Lusaka), Tonga, Lozi, Lunda, Luvale, Kaonde",
+            "religions": "Christianisme (95,5 % - protestants 75,3 %, catholiques 20,2 %, désignée constitutionnellement comme 'Nation chrétienne'), Islam (2,7 %), Croyances traditionnelles et Bahaïsme (1,8 %)"
+        },
+        "development": {
+            "hdi": "0,565 (Moyen - 154e mondial)",
+            "literacyRate": "86,7 %",
+            "keyChallenges": "Prévalence du VIH (~11 % des adultes), vulnérabilité extrême aux sécheresses sévères réduisant la production hydroélectrique du barrage de Kariba (délestages de 18 heures par jour pénalisant les ménages), chômage urbain"
+        }
+    },
+    "ZWE": {
+        "general": {
+            "population": "16,7 millions d'habitants (diaspora zimbabwéenne estimée à plus de 3 millions de personnes, principalement en Afrique du Sud et au Royaume-Uni)",
+            "globalRank": "74e mondial",
+            "density": "43 hab./km²",
+            "growthRate": "+2,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,5 enfants par femme",
+            "birthRate": "29,2 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "34,8 ‰",
+            "netMigration": "-3,2 ‰ (émigration économique continue vers l'Afrique du Sud voisine)"
+        },
+        "ageStructure": {
+            "medianAge": "19,2 ans",
+            "lifeExpectancy": {
+                "total": "61,8 ans",
+                "women": "64,2 ans",
+                "men": "59,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "41,0 %",
+                "fifteenToSixtyFour": "55,8 %",
+                "sixtyFivePlus": "3,2 %"
+            },
+            "dependencyRatio": "79,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "32,5 %",
+            "mainMetropolises": [
+                "Harare (2,5 millions hab. intra-muros, 3,2 M aire métropolitaine)",
+                "Bulawayo (700 000 hab. - capitale historique du Matabeleland)",
+                "Chitungwiza (400 000 hab. - cité dortoir de Harare)",
+                "Mutare (220 000 hab. - débouché du corridor de Beira vers le Mozambique)",
+                "Gweru (160 000 hab. - centre minier)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Shona (82 % - divisés en Zezuru, Karanga, Manyika, Korekore), Ndebele / Matabele (14 % - sud-ouest, descendants des guerriers zoulous de Mzilikazi), Tonga, Shangaan, Venda, Blancs zimbabwéens résiduels (< 30 000 personnes)",
+            "languages": "16 langues officielles reconnues par la Constitution de 2013 : Shona (parlé par 80 % de la population), Ndebele (15 %), Anglais (utilisé dans l'administration et les affaires), Chewa, Tonga, Venda, Shangani, Kalanga, etc.",
+            "religions": "Christianisme syncrétique (87 % - églises apostoliques africaines Vapostori 33 %, protestants et pentecôtistes 40 %, catholiques 14 %), Croyances traditionnelles Shona/Mwari (11 %), Islam (1 %)"
+        },
+        "development": {
+            "hdi": "0,550 (Moyen - 159e mondial)",
+            "literacyRate": "88,7 % (l'un des plus élevés d'Afrique, héritage des politiques éducatives post-indépendance)",
+            "keyChallenges": "Exode massif des soignants et enseignants vers le Royaume-Uni (visas santé) vidant les hôpitaux de province, précarité monétaire forçant l'économie informelle en dollars américains, tensions politiques mémorielles (massacres de Gukurahundi dans les années 1980 au Matabeleland)"
+        }
+    },
+    "ESH": {
+        "general": {
+            "population": "610 000 habitants (environ 450 000 sous contrôle marocain et 160 000 réfugiés sahraouis dans les camps de Tindouf en Algérie)",
+            "globalRank": "Territoire non autonome (statut politique contesté selon l'ONU)",
+            "density": "2,3 hab./km² (sur 266 000 km² de désert atlantique)",
+            "growthRate": "+1,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,4 enfants par femme",
+            "birthRate": "18,5 ‰",
+            "deathRate": "5,5 ‰",
+            "infantMortality": "22,0 ‰",
+            "netMigration": "+1,2 ‰ (arrivée continue de fonctionnaires et investisseurs marocains dans les villes côtières)"
+        },
+        "ageStructure": {
+            "medianAge": "28,2 ans",
+            "lifeExpectancy": {
+                "total": "71,5 ans",
+                "women": "73,8 ans",
+                "men": "69,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "29,5 %",
+                "fifteenToSixtyFour": "65,8 %",
+                "sixtyFivePlus": "4,7 %"
+            },
+            "dependencyRatio": "52,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "87,0 % (sédentarisation quasi intégrale dans les villes côtières modernes ou dans les camps de toile)",
+            "mainMetropolises": [
+                "Laâyoune / El Aaiún (240 000 hab. - plus grande ville et centre administratif)",
+                "Dakhla / Villa Cisneros (130 000 hab. - presqu'île du Sud, grand pôle de pêche et kitesurf)",
+                "Smara (60 000 hab. - cité sainte de l'intérieur)",
+                "Boujdour (50 000 hab.)",
+                "Camps de réfugiés de Tindouf / Algérie (campagnes de Rabouni, Smara, Aousserd, Dakhla, Laâyoune)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Sahraouis (tribus arabophones nomades issues de la confédération Tekna, Reguibat, Oulad Delim, Laarousiyin), résidents marocains originaires des provinces du Nord",
+            "languages": "Hassaniyya (variété d'arabe bédouin propre aux Sahraouis), Arabe standard moderne (officiel), Espagnol (deuxième langue historique très parlée chez les Sahraouis des camps et de la diaspora), Français (utilisé dans la zone administrée par le Maroc)",
+            "religions": "Islam sunnite de rite malékite (100 %)"
+        },
+        "development": {
+            "hdi": "Non calculé séparément par l'ONU (~0,68 dans la zone côtière sous investissements marocains, dépendant de l'aide humanitaire internationale du HCR dans les camps de Tindouf)",
+            "literacyRate": "78,0 % (fort taux d'alphabétisation des femmes sahraouies formé dans les camps et à Cuba)",
+            "keyChallenges": "Impasse diplomatique de cinq décennies séparant les familles sahraouies de part et d'autre du Mur des sables (berm) de 2 700 km, dépendance à l'aide alimentaire internationale pour les camps du désert algérien, reconversion des jeunes sans perspective dans l'exil"
+        }
+    }
+}

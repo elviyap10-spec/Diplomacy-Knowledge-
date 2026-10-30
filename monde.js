@@ -234,7 +234,7 @@ function renderDemographyProfile(demoData, iso3, name, frenchTitle) {
                 <div class="data-label">Données en cours de déploiement</div>
                 <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
                     Les données démographiques détaillées de <strong>${frenchTitle}</strong> sont en cours d'intégration.<br><br>
-                    Actuellement, les profils démographiques complets sont disponibles pour l'<strong>Europe (48 pays et territoires)</strong>.<br><br>
+                    Actuellement, les profils démographiques complets sont disponibles pour l'<strong>Europe (48 entités)</strong> et l'<strong>Afrique (55 pays)</strong>.<br><br>
                     👉 <a href="javascript:void(0)" onclick="switchPanelView('political')" style="color:#D9AF5E; font-weight:bold; text-decoration:underline;">Consulter sa fiche politique →</a> ou <a href="javascript:void(0)" onclick="switchPanelView('economy')" style="color:#D9AF5E; font-weight:bold; text-decoration:underline;">sa fiche économique →</a>
                 </div>
             </div>

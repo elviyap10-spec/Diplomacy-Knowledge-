@@ -1,0 +1,2488 @@
+{
+    "ZAF": {
+        "currency": {
+            "name": "Rand sud-africain",
+            "code": "ZAR",
+            "symbol": "R",
+            "centralBank": "South African Reserve Bank (SARB)"
+        },
+        "macro": {
+            "gdpNominal": "373 milliards USD",
+            "gdpPerCapita": "6 100 USD",
+            "globalRank": "38e mondial (top 3 africain)",
+            "growth": "+0,7 %",
+            "inflation": "5,2 %"
+        },
+        "structure": {
+            "services": "68 %",
+            "industry": "29 %",
+            "agriculture": "3 %",
+            "mainSectors": "Mines et métaux précieux (platine, or, chrome, manganèse), secteur financier (Bourse de Johannesburg JSE), industrie automobile, énergies renouvelables"
+        },
+        "trade": {
+            "mainExports": "Or, métaux du groupe du platine, minerai de fer, charbon, véhicules de tourisme, agrumes",
+            "mainImports": "Pétrole brut et carburants raffinés, machines électriques, véhicules, composants électroniques",
+            "topPartners": [
+                "Chine",
+                "États-Unis",
+                "Allemagne",
+                "Japon",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Excédentaire (+1,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "73,9 % du PIB",
+            "budgetBalance": "-5,8 % du PIB",
+            "sovereignRating": "BB- (S&P) / Ba2 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "BRICS",
+            "G20",
+            "SADC",
+            "SACU",
+            "OMC"
+        ]
+    },
+    "EGY": {
+        "currency": {
+            "name": "Livre égyptienne",
+            "code": "EGP",
+            "symbol": "E£",
+            "centralBank": "Banque centrale d'Égypte (CBE)"
+        },
+        "macro": {
+            "gdpNominal": "395 milliards USD",
+            "gdpPerCapita": "3 700 USD",
+            "globalRank": "37e mondial (1re ou 2e économie d'Afrique)",
+            "growth": "+3,8 %",
+            "inflation": "33,0 %"
+        },
+        "structure": {
+            "services": "54 %",
+            "industry": "34 %",
+            "agriculture": "12 %",
+            "mainSectors": "Droits de transit du Canal de Suez, gaz naturel offshore (gisement Zohr), tourisme pharaonique et balnéaire, textile et engrais"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel liquéfié, produits pétroliers raffinés, engrais azotés, agrumes, vêtements confectionnés",
+            "mainImports": "Blé (1er importateur mondial), pétrole raffiné, machines, voitures, produits pharmaceutiques",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Arabie saoudite",
+                "Italie",
+                "Turquie",
+                "États-Unis"
+            ],
+            "tradeBalance": "Déficitaire (-7,0 % du PIB compensé par le Canal de Suez et le tourisme)"
+        },
+        "publicFinance": {
+            "publicDebt": "89,0 % du PIB",
+            "budgetBalance": "-6,0 % du PIB",
+            "sovereignRating": "B- (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "BRICS (membre depuis 2024)",
+            "COMESA",
+            "Ligue arabe",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "NGA": {
+        "currency": {
+            "name": "Naira nigérian",
+            "code": "NGN",
+            "symbol": "₦",
+            "centralBank": "Banque centrale du Nigéria (CBN)"
+        },
+        "macro": {
+            "gdpNominal": "253 milliards USD",
+            "gdpPerCapita": "1 150 USD",
+            "globalRank": "4e économie d'Afrique",
+            "growth": "+3,1 %",
+            "inflation": "32,0 %"
+        },
+        "structure": {
+            "services": "56 %",
+            "industry": "21 %",
+            "agriculture": "23 %",
+            "mainSectors": "Pétrole brut et raffinage (mégaraffinerie Dangote), industries créatives (Nollywood, Afrobeats), fintech et tech (Lagos), agriculture vivrière (manioc, igname)"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (plus de 75 % des exportations), gaz naturel liquéfié (NLNG), cacao, engrais urée",
+            "mainImports": "Carburants raffinés, blé, machines industrielles, électronique grand public",
+            "topPartners": [
+                "Pays-Bas",
+                "Inde",
+                "Espagne",
+                "États-Unis",
+                "Chine"
+            ],
+            "tradeBalance": "Légèrement excédentaire (+1,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "42,0 % du PIB",
+            "budgetBalance": "-5,4 % du PIB",
+            "sovereignRating": "B- (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO (ECOWAS)",
+            "OPEP (OPEC)",
+            "ZLECAf",
+            "G24",
+            "OMC"
+        ]
+    },
+    "DZA": {
+        "currency": {
+            "name": "Dinar algérien",
+            "code": "DZD",
+            "symbol": "د.ج",
+            "centralBank": "Banque d'Algérie"
+        },
+        "macro": {
+            "gdpNominal": "260 milliards USD",
+            "gdpPerCapita": "5 700 USD",
+            "globalRank": "53e mondial (3e économie d'Afrique)",
+            "growth": "+4,1 %",
+            "inflation": "7,5 %"
+        },
+        "structure": {
+            "services": "46 %",
+            "industry": "41 %",
+            "agriculture": "13 %",
+            "mainSectors": "Hydrocarbures (Sonatrach - gaz naturel liquéfié et par gazoduc vers l'Europe), sidérurgie (complexe d'El Hadjar, Bellara), ciment, agriculture maraîchère et dattes (Deglet Nour)"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel, pétrole brut, condensats et carburants raffinés, ammoniac et engrais, dattes",
+            "mainImports": "Biens d'équipement industriels, blé et céréales, matières plastiques, produits pharmaceutiques",
+            "topPartners": [
+                "Italie",
+                "Espagne",
+                "France",
+                "États-Unis",
+                "Chine"
+            ],
+            "tradeBalance": "Excédentaire (+4,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "49,0 % du PIB (dette quasi-exclusivement intérieure, dette extérieure quasi-nulle)",
+            "budgetBalance": "-5,8 % du PIB",
+            "sovereignRating": "Non notée (absence d'émission d'obligations sur les marchés internationaux)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "OPEP",
+            "OAPEC",
+            "ZLECAf"
+        ]
+    },
+    "MAR": {
+        "currency": {
+            "name": "Dirham marocain",
+            "code": "MAD",
+            "symbol": "د.م.",
+            "centralBank": "Bank Al-Maghrib"
+        },
+        "macro": {
+            "gdpNominal": "152 milliards USD",
+            "gdpPerCapita": "4 100 USD",
+            "globalRank": "58e mondial (5e en Afrique)",
+            "growth": "+3,4 %",
+            "inflation": "2,0 %"
+        },
+        "structure": {
+            "services": "56 %",
+            "industry": "32 %",
+            "agriculture": "12 %",
+            "mainSectors": "Phosphates et engrais (Groupe OCP - 1er exportateur mondial), construction automobile (Tanger Med - Renault, Stellantis), aéronautique, tourisme et agroalimentaire"
+        },
+        "trade": {
+            "mainExports": "Voitures de tourisme et câblages électriques, engrais phosphatés et acide phosphorique, vêtements confectionnés, agrumes et tomates",
+            "mainImports": "Pétrole brut et gaz, céréales (blé), machines industrielles, plastiques",
+            "topPartners": [
+                "Espagne",
+                "France",
+                "Chine",
+                "États-Unis",
+                "Italie"
+            ],
+            "tradeBalance": "Déficitaire en biens (-7,5 % du PIB compensé par le tourisme et les transferts des MRE)"
+        },
+        "publicFinance": {
+            "publicDebt": "69,5 % du PIB",
+            "budgetBalance": "-4,3 % du PIB",
+            "sovereignRating": "BB+ (S&P, perspective positive / investment grade visé)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "ZLECAf",
+            "OMC",
+            "Partenaire stratégique de l'UE"
+        ]
+    },
+    "ETH": {
+        "currency": {
+            "name": "Birr éthiopien",
+            "code": "ETB",
+            "symbol": "Br",
+            "centralBank": "Banque nationale d'Éthiopie (NBE)"
+        },
+        "macro": {
+            "gdpNominal": "163 milliards USD",
+            "gdpPerCapita": "1 250 USD",
+            "globalRank": "56e mondial",
+            "growth": "+6,2 %",
+            "inflation": "28,0 %"
+        },
+        "structure": {
+            "services": "41 %",
+            "industry": "24 %",
+            "agriculture": "35 %",
+            "mainSectors": "Café Arabica d'origine, compagnie aérienne continentale (Ethiopian Airlines), énergie hydroélectrique (Grand barrage de la Renaissance - GERD), parcs industriels textiles"
+        },
+        "trade": {
+            "mainExports": "Café vert, fleurs coupées fraîches (roses), graines oléagineuses, or brut, qat, cuir",
+            "mainImports": "Produits pétroliers, machines industrielles, engrais, céréales, matériel de transport",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Chine",
+                "États-Unis",
+                "Arabie saoudite",
+                "Allemagne"
+            ],
+            "tradeBalance": "Déficitaire (-9,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "41,0 % du PIB (restructuration de la dette extérieure sous le cadre commun du G20)",
+            "budgetBalance": "-2,6 % du PIB",
+            "sovereignRating": "CCC (S&P) / Restreinte"
+        },
+        "organizations": [
+            "Union africaine (UA - siège à Addis-Abeba)",
+            "BRICS (membre depuis 2024)",
+            "COMESA",
+            "ZLECAf"
+        ]
+    },
+    "KEN": {
+        "currency": {
+            "name": "Shilling kényan",
+            "code": "KES",
+            "symbol": "KSh",
+            "centralBank": "Banque centrale du Kenya (CBK)"
+        },
+        "macro": {
+            "gdpNominal": "115 milliards USD",
+            "gdpPerCapita": "2 100 USD",
+            "globalRank": "69e mondial",
+            "growth": "+5,0 %",
+            "inflation": "4,5 %"
+        },
+        "structure": {
+            "services": "58 %",
+            "industry": "18 %",
+            "agriculture": "24 %",
+            "mainSectors": "Hub financier et technologique régional (« Silicon Savannah », M-Pesa), thé noir (1er exportateur mondial), fleurs coupées, géothermie (Olkaria), tourisme de safari"
+        },
+        "trade": {
+            "mainExports": "Thé noir, fleurs fraîches, café, légumes frais et fruits tropicaux, ciment, titane",
+            "mainImports": "Pétrole raffiné, machines et équipements industriels, véhicules, huile de palme, acier",
+            "topPartners": [
+                "Ouganda",
+                "États-Unis",
+                "Pays-Bas",
+                "Royaume-Uni",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire (-5,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "68,0 % du PIB",
+            "budgetBalance": "-5,2 % du PIB",
+            "sovereignRating": "B- (S&P) / B3 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CAE (EAC - Communauté d'Afrique de l'Est)",
+            "COMESA",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "AGO": {
+        "currency": {
+            "name": "Kwanza angolais",
+            "code": "AOA",
+            "symbol": "Kz",
+            "centralBank": "Banco Nacional de Angola (BNA)"
+        },
+        "macro": {
+            "gdpNominal": "93 milliards USD",
+            "gdpPerCapita": "2 500 USD",
+            "globalRank": "74e mondial",
+            "growth": "+2,6 %",
+            "inflation": "25,0 %"
+        },
+        "structure": {
+            "services": "47 %",
+            "industry": "43 %",
+            "agriculture": "10 %",
+            "mainSectors": "Pétrole offshore (Sonangol - 2e producteur d'Afrique subsaharienne), extraction de diamants (Catoca), gaz naturel liquéfié (Angola LNG), pêche"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (plus de 90 % des exportations totales), diamants bruts, gaz naturel liquéfié",
+            "mainImports": "Machines et matériel d'extraction pétrolière, navires, carburants raffinés, viandes et denrées alimentaires",
+            "topPartners": [
+                "Chine (plus de 50 % des ventes)",
+                "Inde",
+                "France",
+                "Espagne",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Excédentaire (+6,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "70,0 % du PIB",
+            "budgetBalance": "+1,2 % du PIB (excédent pétrolier)",
+            "sovereignRating": "B- (S&P) / B3 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "CEEAC",
+            "CPLP",
+            "ZLECAf"
+        ]
+    },
+    "CIV": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "87 milliards USD",
+            "gdpPerCapita": "2 700 USD",
+            "globalRank": "76e mondial (1re économie de l'UEMOA)",
+            "growth": "+6,5 %",
+            "inflation": "4,0 %"
+        },
+        "structure": {
+            "services": "55 %",
+            "industry": "25 %",
+            "agriculture": "20 %",
+            "mainSectors": "Cacao (1er producteur et broyeur mondial, ~45 % de l'offre), noix de cajou/anacarde (1er exportateur mondial), hydrocarbures offshore (gisements géants Baleine et Calao), caoutchouc naturel"
+        },
+        "trade": {
+            "mainExports": "Fèves de cacao et dérivés (pâte, beurre), pétrole brut, or brut, caoutchouc naturel, noix de cajou, huile de palme",
+            "mainImports": "Pétrole brut pour raffinage (SIR), riz, machines industrielles, véhicules",
+            "topPartners": [
+                "Pays-Bas",
+                "États-Unis",
+                "France",
+                "Chine",
+                "Suisse"
+            ],
+            "tradeBalance": "Excédentaire (+2,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "58,1 % du PIB",
+            "budgetBalance": "-4,0 % du PIB",
+            "sovereignRating": "BB- (S&P - parmi les notes les plus élevées d'Afrique subsaharienne)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "UEMOA",
+            "BAD (siège à Abidjan)",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "TZA": {
+        "currency": {
+            "name": "Shilling tanzanien",
+            "code": "TZS",
+            "symbol": "TSh",
+            "centralBank": "Banque de Tanzanie (BoT)"
+        },
+        "macro": {
+            "gdpNominal": "85 milliards USD",
+            "gdpPerCapita": "1 300 USD",
+            "globalRank": "78e mondial",
+            "growth": "+5,4 %",
+            "inflation": "3,1 %"
+        },
+        "structure": {
+            "services": "40 %",
+            "industry": "31 %",
+            "agriculture": "29 %",
+            "mainSectors": "Extraction d'or et tanzanite, tourisme mondial de safari (Serengeti, Ngorongoro, Zanzibar), hub portuaire de Dar es Salaam, gaz naturel offshore"
+        },
+        "trade": {
+            "mainExports": "Or non monétaire, tanzanite, noix de cajou brutes, café, tabac, épices (clou de girofle de Zanzibar)",
+            "mainImports": "Produits pétroliers raffinés, machines de construction, véhicules, produits chimiques",
+            "topPartners": [
+                "Inde",
+                "Émirats arabes unis",
+                "Afrique du Sud",
+                "Chine",
+                "Suisse"
+            ],
+            "tradeBalance": "Déficitaire (-4,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "44,0 % du PIB",
+            "budgetBalance": "-3,5 % du PIB",
+            "sovereignRating": "B+ (Moody's / Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "CAE (EAC)",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "GHA": {
+        "currency": {
+            "name": "Cedi ghanéen",
+            "code": "GHS",
+            "symbol": "GH₵",
+            "centralBank": "Bank of Ghana"
+        },
+        "macro": {
+            "gdpNominal": "76 milliards USD",
+            "gdpPerCapita": "2 250 USD",
+            "globalRank": "81e mondial",
+            "growth": "+4,0 %",
+            "inflation": "20,0 %"
+        },
+        "structure": {
+            "services": "48 %",
+            "industry": "32 %",
+            "agriculture": "20 %",
+            "mainSectors": "Extraction d'or (1er producteur d'Afrique), cacao en fèves (2e producteur mondial), pétrole offshore (champs Jubilee et TEN), aluminium"
+        },
+        "trade": {
+            "mainExports": "Or brut, pétrole brut, fèves de cacao et pâte de cacao, minerai de manganèse, bois scié",
+            "mainImports": "Carburants raffinés, machines et automobiles, riz, produits chimiques",
+            "topPartners": [
+                "Suisse",
+                "Émirats arabes unis",
+                "Chine",
+                "Inde",
+                "États-Unis"
+            ],
+            "tradeBalance": "Excédentaire (+1,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "72,0 % du PIB (post-restructuration de la dette avec le FMI)",
+            "budgetBalance": "-3,7 % du PIB",
+            "sovereignRating": "CCC+ (S&P, en cours de relèvement)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "ZLECAf (siège du secrétariat permanent à Accra)",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "COD": {
+        "currency": {
+            "name": "Franc congolais",
+            "code": "CDF",
+            "symbol": "FC",
+            "centralBank": "Banque centrale du Congo (BCC)"
+        },
+        "macro": {
+            "gdpNominal": "70 milliards USD",
+            "gdpPerCapita": "700 USD",
+            "globalRank": "86e mondial",
+            "growth": "+6,0 %",
+            "inflation": "15,0 %"
+        },
+        "structure": {
+            "services": "41 %",
+            "industry": "40 %",
+            "agriculture": "19 %",
+            "mainSectors": "Cuivre (1er producteur d'Afrique, 2e mondial) et cobalt (> 70 % de l'offre mondiale), coltan, lithium, hydroélectricité (barrages d'Inga), bois du bassin du Congo"
+        },
+        "trade": {
+            "mainExports": "Cuivre raffiné et minerais, hydroxydes de cobalt, diamants bruts, or, étain",
+            "mainImports": "Carburants et lubrifiants, machines minières lourdes, véhicules utilitaires, produits alimentaires",
+            "topPartners": [
+                "Chine (plus de 60 % des exportations)",
+                "Émirats arabes unis",
+                "Afrique du Sud",
+                "Zambie"
+            ],
+            "tradeBalance": "Excédentaire (+3,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "24,0 % du PIB (l'un des plus faibles taux d'endettement d'Afrique)",
+            "budgetBalance": "-1,8 % du PIB",
+            "sovereignRating": "B- (S&P) / B3 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "CEEAC",
+            "CAE (EAC)",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "UGA": {
+        "currency": {
+            "name": "Shilling ougandais",
+            "code": "UGX",
+            "symbol": "USh",
+            "centralBank": "Banque de l'Ouganda (BoU)"
+        },
+        "macro": {
+            "gdpNominal": "53 milliards USD",
+            "gdpPerCapita": "1 050 USD",
+            "globalRank": "93e mondial",
+            "growth": "+6,0 %",
+            "inflation": "3,5 %"
+        },
+        "structure": {
+            "services": "44 %",
+            "industry": "28 %",
+            "agriculture": "28 %",
+            "mainSectors": "Or raffiné, café (2e producteur d'Afrique), thé, gisements de pétrole du lac Albert (projets Tilenga, Kingfisher et oléoduc EACOP)"
+        },
+        "trade": {
+            "mainExports": "Or raffiné, café vert, poissons (filets de perche du Nil), maïs, cacao",
+            "mainImports": "Pétrole raffiné, médicaments, machines et équipements de télécoms, véhicules",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Kenya",
+                "Inde",
+                "Chine",
+                "Italie"
+            ],
+            "tradeBalance": "Déficitaire (-6,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "49,5 % du PIB",
+            "budgetBalance": "-4,8 % du PIB",
+            "sovereignRating": "B- (S&P) / B2 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CAE (EAC)",
+            "COMESA",
+            "Commonwealth",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "TUN": {
+        "currency": {
+            "name": "Dinar tunisien",
+            "code": "TND",
+            "symbol": "د.ت",
+            "centralBank": "Banque centrale de Tunisie (BCT)"
+        },
+        "macro": {
+            "gdpNominal": "52 milliards USD",
+            "gdpPerCapita": "4 200 USD",
+            "globalRank": "94e mondial",
+            "growth": "+1,2 %",
+            "inflation": "7,0 %"
+        },
+        "structure": {
+            "services": "64 %",
+            "industry": "26 %",
+            "agriculture": "10 %",
+            "mainSectors": "Composants électriques et câblages automobiles/aéronautiques, textile et confection, huile d'olive (parmi les premiers exportateurs mondiaux), tourisme, phosphates"
+        },
+        "trade": {
+            "mainExports": "Fils et câbles isolés, vêtements et bonneterie, huile d'olive vierge, pièces pour l'aéronautique, dattes",
+            "mainImports": "Gaz naturel et pétrole raffiné, blé et céréales, matières plastiques, voitures",
+            "topPartners": [
+                "France",
+                "Italie",
+                "Allemagne",
+                "Espagne",
+                "Libye"
+            ],
+            "tradeBalance": "Déficitaire (-6,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "80,0 % du PIB",
+            "budgetBalance": "-5,5 % du PIB",
+            "sovereignRating": "CCC+ (Fitch) / Caa2 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "COMESA",
+            "UMA (Union du Maghreb arabe)",
+            "OMC"
+        ]
+    },
+    "CMR": {
+        "currency": {
+            "name": "Franc CFA d'Afrique centrale",
+            "code": "XAF",
+            "symbol": "FCFA",
+            "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
+        },
+        "macro": {
+            "gdpNominal": "51 milliards USD",
+            "gdpPerCapita": "1 800 USD",
+            "globalRank": "95e mondial (moteur de la CEMAC)",
+            "growth": "+4,1 %",
+            "inflation": "5,5 %"
+        },
+        "structure": {
+            "services": "52 %",
+            "industry": "26 %",
+            "agriculture": "22 %",
+            "mainSectors": "Pétrole brut et gaz naturel (SNH), cacao et café, bois en grumes et transformé, aluminium (Alucam), banane et huile de palme, hub portuaire de Kribi"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, gaz naturel liquéfié, fèves de cacao, sciages et grumes de bois, aluminium brut",
+            "mainImports": "Carburants raffinés, riz, poissons de mer congelés, médicaments, véhicules",
+            "topPartners": [
+                "Chine",
+                "Pays-Bas",
+                "France",
+                "Inde",
+                "Espagne"
+            ],
+            "tradeBalance": "Légèrement déficitaire (-3,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "44,5 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "B- (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEEAC",
+            "CEMAC",
+            "Commonwealth",
+            "OIF",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "LBY": {
+        "currency": {
+            "name": "Dinar libyen",
+            "code": "LYD",
+            "symbol": "ل.د",
+            "centralBank": "Banque centrale de Libye (CBL)"
+        },
+        "macro": {
+            "gdpNominal": "48 milliards USD",
+            "gdpPerCapita": "6 900 USD",
+            "globalRank": "97e mondial",
+            "growth": "+8,0 % (forte volatilité selon production)",
+            "inflation": "2,8 %"
+        },
+        "structure": {
+            "services": "38 %",
+            "industry": "60 %",
+            "agriculture": "2 %",
+            "mainSectors": "Pétrole brut de haute qualité (NOC - plus grandes réserves prouvées d'Afrique), gaz naturel, raffinage et pétrochimie"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (plus de 95 % des exportations), gaz naturel, produits pétroliers raffinés",
+            "mainImports": "Produits alimentaires, machines industrielles, véhicules, équipements électriques, médicaments",
+            "topPartners": [
+                "Italie",
+                "Allemagne",
+                "Espagne",
+                "Chine",
+                "Turquie"
+            ],
+            "tradeBalance": "Très excédentaire (+12,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "35,0 % du PIB (adossée aux réserves de change de la CBL)",
+            "budgetBalance": "+4,5 % du PIB (excédent pétrolier)",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "OPEP",
+            "OAPEC",
+            "COMESA"
+        ]
+    },
+    "SDN": {
+        "currency": {
+            "name": "Livre soudanaise",
+            "code": "SDG",
+            "symbol": "ج.س",
+            "centralBank": "Banque centrale du Soudan (CBOS)"
+        },
+        "macro": {
+            "gdpNominal": "32 milliards USD",
+            "gdpPerCapita": "650 USD",
+            "globalRank": "110e mondial (contexte de conflit civil)",
+            "growth": "-12,0 %",
+            "inflation": "> 150 %"
+        },
+        "structure": {
+            "services": "45 %",
+            "industry": "25 %",
+            "agriculture": "30 %",
+            "mainSectors": "Or artisanal et industriel, gomme arabique (1er producteur mondial, ~70 % de l'offre), bétail et sésame, pétrole brut de transit"
+        },
+        "trade": {
+            "mainExports": "Or brut, graines de sésame, bétail vivant (ovins, camelins), gomme arabique, arachides",
+            "mainImports": "Blé et farine, produits pétroliers, sucre, médicaments, machines",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Chine",
+                "Arabie saoudite",
+                "Égypte",
+                "Inde"
+            ],
+            "tradeBalance": "Déficitaire (-8,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "> 180 % du PIB (en défaut souverain)",
+            "budgetBalance": "-6,0 % du PIB",
+            "sovereignRating": "Non notée / Défaut"
+        },
+        "organizations": [
+            "Union africaine (UA - suspension temporaire)",
+            "Ligue arabe",
+            "COMESA",
+            "ZLECAf"
+        ]
+    },
+    "SEN": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "31 milliards USD",
+            "gdpPerCapita": "1 750 USD",
+            "globalRank": "111e mondial",
+            "growth": "+8,3 % (démarrage de la production pétrolière et gazière)",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "52 %",
+            "industry": "28 %",
+            "agriculture": "20 %",
+            "mainSectors": "Hydrocarbures émergents (champs Sangomar et Grand Tortue Ahmeyim - GTA), or, phosphates et acide phosphorique, pêche maritime, tourisme"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, or non monétaire, acide phosphorique, poissons et crustacés, arachides et huile",
+            "mainImports": "Pétrole raffiné, riz, blé, machines et matériel de transport",
+            "topPartners": [
+                "Mali",
+                "Suisse",
+                "Inde",
+                "Chine",
+                "France"
+            ],
+            "tradeBalance": "Déficitaire (-7,2 % du PIB en cours de réduction grâce aux hydrocarbures)"
+        },
+        "publicFinance": {
+            "publicDebt": "72,0 % du PIB",
+            "budgetBalance": "-4,9 % du PIB",
+            "sovereignRating": "B+ (S&P) / Ba3 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "UEMOA",
+            "OIF",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "ZMB": {
+        "currency": {
+            "name": "Kwacha zambien",
+            "code": "ZMW",
+            "symbol": "ZK",
+            "centralBank": "Banque de Zambie (BoZ)"
+        },
+        "macro": {
+            "gdpNominal": "29 milliards USD",
+            "gdpPerCapita": "1 450 USD",
+            "globalRank": "113e mondial",
+            "growth": "+4,5 %",
+            "inflation": "13,5 %"
+        },
+        "structure": {
+            "services": "52 %",
+            "industry": "38 %",
+            "agriculture": "10 %",
+            "mainSectors": "Mines de cuivre (Copperbelt - 2e producteur d'Afrique) et cobalt, énergie hydroélectrique (Kariba), maïs et canne à sucre"
+        },
+        "trade": {
+            "mainExports": "Cuivre raffiné et anodes en cuivre (plus de 70 % des exportations), cobalt, tabac",
+            "mainImports": "Machines et équipements d'extraction, engrais, produits pétroliers raffinés, véhicules",
+            "topPartners": [
+                "Suisse",
+                "Chine",
+                "RD Congo",
+                "Afrique du Sud",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Excédentaire (+3,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "85,0 % du PIB (accord historique de restructuration de la dette avec les créanciers)",
+            "budgetBalance": "-5,5 % du PIB",
+            "sovereignRating": "CCC+ (S&P, en cours de reclassement)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "COMESA (siège à Lusaka)",
+            "SADC",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "ZWE": {
+        "currency": {
+            "name": "Zimbabwe Gold (ZiG) / Dollar US",
+            "code": "ZWG / USD",
+            "symbol": "ZiG",
+            "centralBank": "Reserve Bank of Zimbabwe (RBZ)"
+        },
+        "macro": {
+            "gdpNominal": "28 milliards USD",
+            "gdpPerCapita": "1 700 USD",
+            "globalRank": "114e mondial",
+            "growth": "+3,5 %",
+            "inflation": "Stabilisée via le ZiG adossé à l'or"
+        },
+        "structure": {
+            "services": "58 %",
+            "industry": "30 %",
+            "agriculture": "12 %",
+            "mainSectors": "Mines de platine et lithium (1re réserve de lithium d'Afrique), or, tabac de Virginie (1er exportateur africain), chrome, tourisme (Chutes Victoria)"
+        },
+        "trade": {
+            "mainExports": "Or brut, tabac en feuilles, minerai de platine et lithium, ferrochrome",
+            "mainImports": "Carburants minéraux, machines industrielles, véhicules, céréales, électricité",
+            "topPartners": [
+                "Afrique du Sud",
+                "Chine",
+                "Émirats arabes unis",
+                "Mozambique",
+                "Belgique"
+            ],
+            "tradeBalance": "Déficitaire (-3,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "87,0 % du PIB",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "COMESA",
+            "ZLECAf"
+        ]
+    },
+    "GIN": {
+        "currency": {
+            "name": "Franc guinéen",
+            "code": "GNF",
+            "symbol": "FG",
+            "centralBank": "Banque centrale de la République de Guinée (BCRG)"
+        },
+        "macro": {
+            "gdpNominal": "24 milliards USD",
+            "gdpPerCapita": "1 600 USD",
+            "globalRank": "120e mondial",
+            "growth": "+5,7 %",
+            "inflation": "8,0 %"
+        },
+        "structure": {
+            "services": "38 %",
+            "industry": "42 %",
+            "agriculture": "20 %",
+            "mainSectors": "Bauxite (2e producteur mondial, 1er exportateur mondial vers la Chine), mégagisement de fer de Simandou, or artisanal et industriel, potentiel hydroélectrique (barrage de Souapiti)"
+        },
+        "trade": {
+            "mainExports": "Bauxite et minerai d'aluminium (plus de 65 % des recettes), or brut, diamants",
+            "mainImports": "Machines et matériel de transport, carburants raffinés, riz, céréales",
+            "topPartners": [
+                "Chine (plus de 65 % des exportations)",
+                "Émirats arabes unis",
+                "Inde",
+                "Espagne",
+                "France"
+            ],
+            "tradeBalance": "Excédentaire (+5,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "38,0 % du PIB",
+            "budgetBalance": "-2,2 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "MLI": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "21 milliards USD",
+            "gdpPerCapita": "950 USD",
+            "globalRank": "125e mondial",
+            "growth": "+4,0 %",
+            "inflation": "3,8 %"
+        },
+        "structure": {
+            "services": "40 %",
+            "industry": "24 %",
+            "agriculture": "36 %",
+            "mainSectors": "Extraction aurifère (3e producteur d'or d'Afrique), coton en fibre (parmi les premiers producteurs africains), élevage bovin et ovin, céréales vivrières (mil, sorgho)"
+        },
+        "trade": {
+            "mainExports": "Or non monétaire (plus de 75 % des exportations), coton égrené, bétail sur pied, sésame",
+            "mainImports": "Carburants raffinés, machines et matériel électrique, riz, médicaments, véhicules",
+            "topPartners": [
+                "Suisse",
+                "Émirats arabes unis",
+                "Australie",
+                "Côte d'Ivoire",
+                "Sénégal"
+            ],
+            "tradeBalance": "Déficitaire (-4,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "52,0 % du PIB",
+            "budgetBalance": "-4,4 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Alliance des États du Sahel (AES)",
+            "UEMOA",
+            "ZLECAf"
+        ]
+    },
+    "BFA": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "900 USD",
+            "globalRank": "128e mondial",
+            "growth": "+3,6 %",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "46 %",
+            "industry": "28 %",
+            "agriculture": "26 %",
+            "mainSectors": "Extraction industrielle d'or (Essakane, Houndé), coton blanc, karité (beurre d'amandes), élevage et sésame"
+        },
+        "trade": {
+            "mainExports": "Or brut (plus de 80 % des exportations), coton en fibre, graines de sésame, noix de karité, bétail",
+            "mainImports": "Carburants minéraux, machines industrielles et électriques, riz, véhicules",
+            "topPartners": [
+                "Suisse",
+                "Émirats arabes unis",
+                "Côte d'Ivoire",
+                "Singapour",
+                "France"
+            ],
+            "tradeBalance": "Excédentaire (+1,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "56,0 % du PIB",
+            "budgetBalance": "-5,2 % du PIB",
+            "sovereignRating": "CCC+ (S&P)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Alliance des États du Sahel (AES)",
+            "UEMOA",
+            "ZLECAf"
+        ]
+    },
+    "MOZ": {
+        "currency": {
+            "name": "Metical mozambicain",
+            "code": "MZN",
+            "symbol": "MT",
+            "centralBank": "Banco de Moçambique"
+        },
+        "macro": {
+            "gdpNominal": "21 milliards USD",
+            "gdpPerCapita": "650 USD",
+            "globalRank": "127e mondial",
+            "growth": "+5,0 %",
+            "inflation": "4,2 %"
+        },
+        "structure": {
+            "services": "46 %",
+            "industry": "28 %",
+            "agriculture": "26 %",
+            "mainSectors": "Gaz naturel liquéfié offshore (bassin du Rovuma - projet Coral Sul FLNG), aluminium (fonderie Mozal), charbon minéral (Moatize), énergie hydroélectrique (Cahora Bassa)"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel liquéfié, lingots d'aluminium, charbon thermique et à coke, électricité, sables minéralisés (titane)",
+            "mainImports": "Carburants raffinés, machines et matériel de forage, véhicules, céréales",
+            "topPartners": [
+                "Inde",
+                "Afrique du Sud",
+                "Royaume-Uni",
+                "Chine",
+                "Italie"
+            ],
+            "tradeBalance": "Déficitaire en phase de développement (-12,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "92,0 % du PIB",
+            "budgetBalance": "-4,0 % du PIB",
+            "sovereignRating": "CCC+ (S&P) / Caa2 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "Commonwealth",
+            "CPLP",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "BWA": {
+        "currency": {
+            "name": "Pula botswanais",
+            "code": "BWP",
+            "symbol": "P",
+            "centralBank": "Bank of Botswana"
+        },
+        "macro": {
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "8 200 USD",
+            "globalRank": "129e mondial (l'un des PIB/hab les plus élevés d'Afrique)",
+            "growth": "+3,2 %",
+            "inflation": "3,1 %"
+        },
+        "structure": {
+            "services": "62 %",
+            "industry": "36 %",
+            "agriculture": "2 %",
+            "mainSectors": "Diamants (Debswana / De Beers - 1er producteur mondial en valeur), taille et négoce de pierres précieuses, élevage bovin et viande de bœuf certifiée, écotourisme haut de gamme (Delta de l'Okavango)"
+        },
+        "trade": {
+            "mainExports": "Diamants bruts et taillés (plus de 85 % des exportations), cuivre, viande bovine, carbonate de sodium",
+            "mainImports": "Diamants bruts pour tri, produits pétroliers, machines et véhicules, denrées alimentaires",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Belgique (Anvers)",
+                "Inde",
+                "Afrique du Sud",
+                "Israël"
+            ],
+            "tradeBalance": "Excédentaire (+2,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "21,0 % du PIB (l'un des pays les moins endettés et les mieux gérés au monde)",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "BBB+ (S&P / Moody's - meilleure notation souveraine d'Afrique subsaharienne)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC (siège à Gaborone)",
+            "SACU",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "BEN": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "19,5 milliards USD",
+            "gdpPerCapita": "1 450 USD",
+            "globalRank": "130e mondial",
+            "growth": "+6,3 %",
+            "inflation": "2,7 %"
+        },
+        "structure": {
+            "services": "49 %",
+            "industry": "23 %",
+            "agriculture": "28 %",
+            "mainSectors": "Coton blanc (1er producteur d'Afrique de l'Ouest), hub portuaire de Cotonou (transit vers le Niger et le Nigéria), zone industrielle de Glo-Djigbé (GDIZ - textile et cajou), ananas et soja"
+        },
+        "trade": {
+            "mainExports": "Coton en fibre, noix de cajou, graines de soja et tourteaux, huile de palme, pétrole brut de transit (oléoduc Niger-Bénin)",
+            "mainImports": "Riz, produits pétroliers raffinés, machines et automobiles, viande de volaille",
+            "topPartners": [
+                "Bangladesh",
+                "Inde",
+                "Chine",
+                "Nigéria",
+                "France"
+            ],
+            "tradeBalance": "Déficitaire (-5,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "54,0 % du PIB",
+            "budgetBalance": "-4,1 % du PIB",
+            "sovereignRating": "B+ (S&P - rehaussée en 2024 / obligations ODD réussies)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "UEMOA",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "GAB": {
+        "currency": {
+            "name": "Franc CFA d'Afrique centrale",
+            "code": "XAF",
+            "symbol": "FCFA",
+            "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
+        },
+        "macro": {
+            "gdpNominal": "21 milliards USD",
+            "gdpPerCapita": "9 200 USD",
+            "globalRank": "124e mondial (parmi les plus hauts revenus par tête d'Afrique)",
+            "growth": "+2,8 %",
+            "inflation": "3,6 %"
+        },
+        "structure": {
+            "services": "42 %",
+            "industry": "53 %",
+            "agriculture": "5 %",
+            "mainSectors": "Pétrole brut (champs matures et offshore), manganèse (Comilog / Eramet - 2e producteur mondial), filière bois et contreplaqué (zone spéciale de Nkok), huile de palme"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (plus de 65 % des recettes), minerai de manganèse, bois scié et placages de bois (okoumé)",
+            "mainImports": "Machines industrielles et navires, produits alimentaires, véhicules, médicaments",
+            "topPartners": [
+                "Chine (plus de 40 % des exportations)",
+                "Italie",
+                "Espagne",
+                "États-Unis",
+                "France"
+            ],
+            "tradeBalance": "Très excédentaire (+10,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "70,5 % du PIB",
+            "budgetBalance": "-1,8 % du PIB",
+            "sovereignRating": "Caa1 (Moody's) / B- (Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEEAC (siège à Libreville)",
+            "CEMAC",
+            "OPEP",
+            "Commonwealth",
+            "OIF"
+        ]
+    },
+    "MDG": {
+        "currency": {
+            "name": "Ariary malgache",
+            "code": "MGA",
+            "symbol": "Ar",
+            "centralBank": "Banque centrale de Madagascar (BFM)"
+        },
+        "macro": {
+            "gdpNominal": "16 milliards USD",
+            "gdpPerCapita": "550 USD",
+            "globalRank": "135e mondial",
+            "growth": "+4,2 %",
+            "inflation": "7,8 %"
+        },
+        "structure": {
+            "services": "54 %",
+            "industry": "22 %",
+            "agriculture": "24 %",
+            "mainSectors": "Vanille Bourbon (1er producteur et exportateur mondial, ~80 % du marché mondial), nickel et cobalt (projet Ambatovy), confection textile en zone franche, girofle et épices, tourisme de biodiversité"
+        },
+        "trade": {
+            "mainExports": "Gousses de vanille, nickel raffiné et cobalt, vêtements confectionnés, clous de girofle, crevettes d'élevage",
+            "mainImports": "Riz (aliment de base), carburants raffinés, machines et tissus industriels, véhicules",
+            "topPartners": [
+                "France",
+                "États-Unis",
+                "Chine",
+                "Japon",
+                "Allemagne"
+            ],
+            "tradeBalance": "Déficitaire (-5,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "54,0 % du PIB",
+            "budgetBalance": "-4,2 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "COMESA",
+            "Commission de l'océan Indien (COI)",
+            "OIF",
+            "OMC"
+        ]
+    },
+    "NER": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "17 milliards USD",
+            "gdpPerCapita": "650 USD",
+            "globalRank": "133e mondial",
+            "growth": "+8,8 % (démarrage des exportations pétrolières via l'oléoduc Niger-Bénin)",
+            "inflation": "4,2 %"
+        },
+        "structure": {
+            "services": "39 %",
+            "industry": "21 %",
+            "agriculture": "40 %",
+            "mainSectors": "Uranium (Somaïr / Orano - fournisseur stratégique mondial), pétrole brut (bassin d'Agadem et raffinerie de Zinder), or artisanal, élevage pastoral et oignons violets de Galmi"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (exporté via l'oléoduc vers le port de Sèmè-Kpodji), concentrés d'uranium (yellowcake), or, bétail sur pied, oignons",
+            "mainImports": "Machines et matériel de transport, céréales (riz, blé), médicaments, véhicules",
+            "topPartners": [
+                "France",
+                "Chine",
+                "Émirats arabes unis",
+                "Nigéria",
+                "Mali"
+            ],
+            "tradeBalance": "En voie de rééquilibrage grâce au pétrole (-4,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "51,0 % du PIB",
+            "budgetBalance": "-4,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Alliance des États du Sahel (AES)",
+            "UEMOA",
+            "ZLECAf"
+        ]
+    },
+    "TCD": {
+        "currency": {
+            "name": "Franc CFA d'Afrique centrale",
+            "code": "XAF",
+            "symbol": "FCFA",
+            "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
+        },
+        "macro": {
+            "gdpNominal": "13 milliards USD",
+            "gdpPerCapita": "750 USD",
+            "globalRank": "140e mondial",
+            "growth": "+3,0 %",
+            "inflation": "5,0 %"
+        },
+        "structure": {
+            "services": "40 %",
+            "industry": "15 %",
+            "agriculture": "45 %",
+            "mainSectors": "Pétrole brut (bassin de Doba exporté via l'oléoduc Tchad-Cameroun), élevage pastoral (l'un des plus grands cheptels bovins d'Afrique), gomme arabique, sésame"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (plus de 85 % des exportations), bétail vivant, graines de sésame, gomme arabique",
+            "mainImports": "Machines et outillage, carburants raffinés, céréales, véhicules, produits pharmaceutiques",
+            "topPartners": [
+                "Chine",
+                "Émirats arabes unis",
+                "France",
+                "États-Unis",
+                "Cameroun"
+            ],
+            "tradeBalance": "Excédentaire (+4,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB",
+            "budgetBalance": "+1,5 % du PIB (excédent grâce aux recettes pétrolières)",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEEAC",
+            "CEMAC",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "MUS": {
+        "currency": {
+            "name": "Roupie mauricienne",
+            "code": "MUR",
+            "symbol": "₨",
+            "centralBank": "Banque de Maurice (BoM)"
+        },
+        "macro": {
+            "gdpNominal": "14,5 milliards USD",
+            "gdpPerCapita": "11 500 USD",
+            "globalRank": "138e mondial (revenu intermédiaire supérieur / top africain)",
+            "growth": "+5,5 %",
+            "inflation": "4,5 %"
+        },
+        "structure": {
+            "services": "74 %",
+            "industry": "22 %",
+            "agriculture": "4 %",
+            "mainSectors": "Hub financier international et offshore (centres de gestion de fonds vers l'Inde et l'Afrique), tourisme haut de gamme, textile de luxe, sucres spéciaux et canne à sucre, medtech"
+        },
+        "trade": {
+            "mainExports": "Services financiers, vêtements de qualité, thon transformé en conserve, sucres roux raffinés, diamants polis",
+            "mainImports": "Pétrole raffiné, navires et avions, automobiles, denrées alimentaires, machines",
+            "topPartners": [
+                "France",
+                "Royaume-Uni",
+                "Afrique du Sud",
+                "États-Unis",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire en biens (-18 % du PIB très largement compensé par les services financiers et touristiques)"
+        },
+        "publicFinance": {
+            "publicDebt": "79,0 % du PIB",
+            "budgetBalance": "-3,9 % du PIB",
+            "sovereignRating": "Baa3 (Moody's - investment grade maintenu)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "COMESA",
+            "Commission de l'océan Indien (COI)",
+            "Commonwealth",
+            "OIF",
+            "OMC"
+        ]
+    },
+    "COG": {
+        "currency": {
+            "name": "Franc CFA d'Afrique centrale",
+            "code": "XAF",
+            "symbol": "FCFA",
+            "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
+        },
+        "macro": {
+            "gdpNominal": "15 milliards USD",
+            "gdpPerCapita": "2 500 USD",
+            "globalRank": "137e mondial",
+            "growth": "+3,8 %",
+            "inflation": "3,5 %"
+        },
+        "structure": {
+            "services": "38 %",
+            "industry": "54 %",
+            "agriculture": "8 %",
+            "mainSectors": "Pétrole brut offshore (Pointe-Noire - 3e producteur d'Afrique subsaharienne), gaz naturel liquéfié (projet Congo LNG d'Eni), bois grumes et sciages, hub portuaire en eau profonde de Pointe-Noire"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (plus de 80 % des exportations), gaz naturel liquéfié, cuivre raffiné, bois d'œuvre",
+            "mainImports": "Tubes et plateformes pétrolières, navires, produits alimentaires, machines",
+            "topPartners": [
+                "Chine (plus de 55 % des ventes)",
+                "Émirats arabes unis",
+                "France",
+                "Italie",
+                "États-Unis"
+            ],
+            "tradeBalance": "Très excédentaire (+14,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "94,0 % du PIB (restructurée avec le FMI)",
+            "budgetBalance": "+2,0 % du PIB",
+            "sovereignRating": "CCC+ (S&P) / B- (Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEEAC",
+            "CEMAC",
+            "OPEP",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "NAM": {
+        "currency": {
+            "name": "Dollar namibien",
+            "code": "NAD",
+            "symbol": "N$",
+            "centralBank": "Bank of Namibia (arrimé au rand sud-africain 1:1)"
+        },
+        "macro": {
+            "gdpNominal": "13 milliards USD",
+            "gdpPerCapita": "4 800 USD",
+            "globalRank": "141e mondial",
+            "growth": "+3,6 %",
+            "inflation": "4,5 %"
+        },
+        "structure": {
+            "services": "58 %",
+            "industry": "32 %",
+            "agriculture": "10 %",
+            "mainSectors": "Mines de diamants marins (Debmarine - extraction par navires), uranium (mines Rössing et Husab - 3e producteur mondial), hydrocarbures offshore découverts (bassins d'Orange - TotalEnergies, Shell), hydrogène vert, pêche"
+        },
+        "trade": {
+            "mainExports": "Diamants bruts, oxyde d'uranium (yellowcake), cuivre, poissons de mer et langoustes, or",
+            "mainImports": "Pétrole raffiné, machines et véhicules, produits chimiques, électricité",
+            "topPartners": [
+                "Afrique du Sud",
+                "Chine",
+                "Belgique",
+                "Émirats arabes unis",
+                "Zambie"
+            ],
+            "tradeBalance": "Déficitaire (-6,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "66,0 % du PIB",
+            "budgetBalance": "-3,8 % du PIB",
+            "sovereignRating": "BB- (Fitch) / Ba3 (Moody's)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "SACU",
+            "Commonwealth",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "RWA": {
+        "currency": {
+            "name": "Franc rwandais",
+            "code": "RWF",
+            "symbol": "FRw",
+            "centralBank": "Banque nationale du Rwanda (BNR)"
+        },
+        "macro": {
+            "gdpNominal": "14 milliards USD",
+            "gdpPerCapita": "1 000 USD",
+            "globalRank": "139e mondial",
+            "growth": "+7,2 % (parmi les plus fortes croissances d'Afrique)",
+            "inflation": "4,8 %"
+        },
+        "structure": {
+            "services": "48 %",
+            "industry": "21 %",
+            "agriculture": "31 %",
+            "mainSectors": "Hub de congrès et tourisme d'affaires (Kigali Convention Centre), écotourisme des gorilles de montagne, minerais stratégiques 3T (étain/cassitérite, tantale/coltan, tungstène/wolframite), café et thé de haute altitude"
+        },
+        "trade": {
+            "mainExports": "Or raffiné, minerais de tantale et d'étain, thé noir, café Arabica, peaux",
+            "mainImports": "Machines et matériel de construction, carburants, denrées alimentaires, médicaments",
+            "topPartners": [
+                "Émirats arabes unis",
+                "RD Congo",
+                "Chine",
+                "Kenya",
+                "Suisse"
+            ],
+            "tradeBalance": "Déficitaire (-9,5 % du PIB compensé par le tourisme et l'aide au développement)"
+        },
+        "publicFinance": {
+            "publicDebt": "71,0 % du PIB",
+            "budgetBalance": "-5,1 % du PIB",
+            "sovereignRating": "B+ (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CAE (EAC)",
+            "COMESA",
+            "Commonwealth",
+            "OIF",
+            "ZLECAf"
+        ]
+    },
+    "GNQ": {
+        "currency": {
+            "name": "Franc CFA d'Afrique centrale",
+            "code": "XAF",
+            "symbol": "FCFA",
+            "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
+        },
+        "macro": {
+            "gdpNominal": "12 milliards USD",
+            "gdpPerCapita": "7 500 USD",
+            "globalRank": "142e mondial",
+            "growth": "-3,5 % (déclin naturel des gisements pétroliers historiques)",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "28 %",
+            "industry": "70 %",
+            "agriculture": "2 %",
+            "mainSectors": "Pétrole brut et gaz naturel liquéfié (champs offshore Zafiro, Alba et complexe de Punta Europa), méthanol, pêche maritime"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, gaz naturel liquéfié (GNL), méthanol, gaz de pétrole liquéfié (GPL)",
+            "mainImports": "Navires et équipements offshore, produits alimentaires, machines industrielles, véhicules",
+            "topPartners": [
+                "Chine",
+                "Inde",
+                "Espagne",
+                "États-Unis",
+                "Italie"
+            ],
+            "tradeBalance": "Excédentaire (+8,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "35,0 % du PIB",
+            "budgetBalance": "+0,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEEAC",
+            "CEMAC",
+            "OPEP",
+            "CPLP",
+            "ZLECAf"
+        ]
+    },
+    "SOM": {
+        "currency": {
+            "name": "Shilling somalien / Dollar US",
+            "code": "SOS / USD",
+            "symbol": "Ssh",
+            "centralBank": "Banque centrale de Somalie (CBS)"
+        },
+        "macro": {
+            "gdpNominal": "11 milliards USD",
+            "gdpPerCapita": "650 USD",
+            "globalRank": "144e mondial",
+            "growth": "+3,7 %",
+            "inflation": "5,0 %"
+        },
+        "structure": {
+            "services": "45 %",
+            "industry": "10 %",
+            "agriculture": "45 %",
+            "mainSectors": "Élevage camelin et ovin (exportation de bétail vers le Golfe), pêche côtière, transferts de fonds de la diaspora (remittances ~30 % du PIB), téléphonie mobile et argent mobile (Hormuud)"
+        },
+        "trade": {
+            "mainExports": "Bétail vivant (chameaux, moutons, chèvres), peaux et cuirs, poisson séché, encens et myrrhe",
+            "mainImports": "Sucre, riz, farine de blé, carburants, matériaux de construction, tabac/qat",
+            "topPartners": [
+                "Émirats arabes unis",
+                "Arabie saoudite",
+                "Oman",
+                "Inde",
+                "Chine"
+            ],
+            "tradeBalance": "Très déficitaire (-35 % du PIB couvert par les transferts de fonds de la diaspora)"
+        },
+        "publicFinance": {
+            "publicDebt": "6,0 % du PIB (allègement historique de 4,5 Mrd $ sous l'initiative PPTE en 2024)",
+            "budgetBalance": "-0,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "CAE (EAC - nouveau membre)",
+            "ZLECAf"
+        ]
+    },
+    "MWI": {
+        "currency": {
+            "name": "Kwacha malawite",
+            "code": "MWK",
+            "symbol": "MK",
+            "centralBank": "Reserve Bank of Malawi"
+        },
+        "macro": {
+            "gdpNominal": "10,5 milliards USD",
+            "gdpPerCapita": "480 USD",
+            "globalRank": "146e mondial",
+            "growth": "+2,8 %",
+            "inflation": "28,0 %"
+        },
+        "structure": {
+            "services": "52 %",
+            "industry": "18 %",
+            "agriculture": "30 %",
+            "mainSectors": "Tabac Burley (plus de 50 % des recettes d'exportation), thé noir, canne à sucre, légumineuses (pois d'Angole), pêche dans le lac Malawi"
+        },
+        "trade": {
+            "mainExports": "Tabac brut en feuilles, thé noir, sucre de canne, soja, arachides",
+            "mainImports": "Engrais minéraux, produits pétroliers raffinés, médicaments, machines",
+            "topPartners": [
+                "Belgique",
+                "Afrique du Sud",
+                "Chine",
+                "États-Unis",
+                "Émirats arabes unis"
+            ],
+            "tradeBalance": "Déficitaire (-12 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "78,0 % du PIB (restructuration en cours avec le FMI)",
+            "budgetBalance": "-7,0 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "COMESA",
+            "Commonwealth",
+            "ZLECAf"
+        ]
+    },
+    "MRT": {
+        "currency": {
+            "name": "Ouguiya mauritanienne",
+            "code": "MRU",
+            "symbol": "UM",
+            "centralBank": "Banque centrale de Mauritanie (BCM)"
+        },
+        "macro": {
+            "gdpNominal": "10,2 milliards USD",
+            "gdpPerCapita": "2 150 USD",
+            "globalRank": "147e mondial",
+            "growth": "+5,1 %",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "44 %",
+            "industry": "32 %",
+            "agriculture": "24 %",
+            "mainSectors": "Minerai de fer (SNIM - train minéralier de Zouérate), or industriel (mine de Tasiast), pêche maritime industrielle (banc d'Arguin - céphalopodes), gaz offshore (projet GTA partagé avec le Sénégal)"
+        },
+        "trade": {
+            "mainExports": "Minerai de fer, or brut, poissons de mer congelés et farine de poisson, cuivre",
+            "mainImports": "Produits pétroliers, machines de chantier, blé et riz, véhicules",
+            "topPartners": [
+                "Chine (plus de 35 % des exportations)",
+                "Espagne",
+                "Japon",
+                "Suisse",
+                "France"
+            ],
+            "tradeBalance": "Légèrement excédentaire (+1,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "52,0 % du PIB",
+            "budgetBalance": "-1,8 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "Union du Maghreb arabe (UMA)",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "TGO": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "9,5 milliards USD",
+            "gdpPerCapita": "1 050 USD",
+            "globalRank": "148e mondial",
+            "growth": "+5,3 %",
+            "inflation": "3,2 %"
+        },
+        "structure": {
+            "services": "55 %",
+            "industry": "22 %",
+            "agriculture": "23 %",
+            "mainSectors": "Hub de transbordement maritime (Port autonome de Lomé - seul port en eau profonde naturel d'Afrique de l'Ouest), place financière régionale (siège d'Ecobank, BIDC), phosphates naturels, soja et café-cacao"
+        },
+        "trade": {
+            "mainExports": "Phosphates de chaux, clinker et ciment, graines de soja, coton en fibre, produits de réexportation",
+            "mainImports": "Carburants raffinés, machines, riz, véhicules d'occasion, produits chimiques",
+            "topPartners": [
+                "Burkina Faso",
+                "Mali",
+                "Inde",
+                "Ghana",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire en biens (-7,0 % du PIB compensé par les activités portuaires et financières)"
+        },
+        "publicFinance": {
+            "publicDebt": "66,0 % du PIB",
+            "budgetBalance": "-5,8 % du PIB",
+            "sovereignRating": "B (S&P)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "UEMOA",
+            "Commonwealth (membre depuis 2022)",
+            "OIF",
+            "OMC"
+        ]
+    },
+    "SWZ": {
+        "currency": {
+            "name": "Lilangeni / Rand sud-africain",
+            "code": "SZL / ZAR",
+            "symbol": "E",
+            "centralBank": "Central Bank of Eswatini"
+        },
+        "macro": {
+            "gdpNominal": "4,8 milliards USD",
+            "gdpPerCapita": "4 000 USD",
+            "globalRank": "158e mondial",
+            "growth": "+3,2 %",
+            "inflation": "4,5 %"
+        },
+        "structure": {
+            "services": "54 %",
+            "industry": "37 %",
+            "agriculture": "9 %",
+            "mainSectors": "Concentrés de sodas et boissons gazeuses (Coca-Cola hub Afrique), sucre de canne (4e producteur d'Afrique), filière bois et pâte à papier, confection textile"
+        },
+        "trade": {
+            "mainExports": "Concentrés aromatiques de boissons, sucre de canne raffiné, bois de sciage, vêtements",
+            "mainImports": "Carburants minéraux, machines industrielles, céréales, matériel de transport",
+            "topPartners": [
+                "Afrique du Sud (plus de 70 % des échanges)",
+                "Kenya",
+                "Nigeria",
+                "Mozambique",
+                "États-Unis"
+            ],
+            "tradeBalance": "Excédentaire (+3,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "41,0 % du PIB",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "B (Moody's / Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "SACU",
+            "COMESA",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "SLE": {
+        "currency": {
+            "name": "Leone sierra-léonais",
+            "code": "SLE",
+            "symbol": "Le",
+            "centralBank": "Bank of Sierra Leone"
+        },
+        "macro": {
+            "gdpNominal": "4,2 milliards USD",
+            "gdpPerCapita": "490 USD",
+            "globalRank": "162e mondial",
+            "growth": "+4,0 %",
+            "inflation": "38,0 %"
+        },
+        "structure": {
+            "services": "36 %",
+            "industry": "11 %",
+            "agriculture": "53 %",
+            "mainSectors": "Diamants alluvionnaires, minerai de fer (mine de Marampa), rutile et bauxite, huile de palme, cacao"
+        },
+        "trade": {
+            "mainExports": "Minerai de fer, diamants bruts, titane/rutile, bauxite, fèves de cacao",
+            "mainImports": "Riz, produits pétroliers raffinés, machines, voitures, médicaments",
+            "topPartners": [
+                "Chine",
+                "Belgique",
+                "Roumanie",
+                "Émirats arabes unis",
+                "États-Unis"
+            ],
+            "tradeBalance": "Déficitaire (-8,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "79,0 % du PIB",
+            "budgetBalance": "-4,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "Commonwealth",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "BDI": {
+        "currency": {
+            "name": "Franc burundais",
+            "code": "BIF",
+            "symbol": "FBu",
+            "centralBank": "Banque de la République du Burundi (BRB)"
+        },
+        "macro": {
+            "gdpNominal": "3,8 milliards USD",
+            "gdpPerCapita": "280 USD",
+            "globalRank": "166e mondial",
+            "growth": "+2,7 %",
+            "inflation": "22,0 %"
+        },
+        "structure": {
+            "services": "45 %",
+            "industry": "15 %",
+            "agriculture": "40 %",
+            "mainSectors": "Café Arabica d'altitude (principale recette d'exportation), thé noir, or artisanal, gisements de nickel et terres rares (Gakara)"
+        },
+        "trade": {
+            "mainExports": "Café vert, or raffiné, thé, terres rares, minerais de tantale",
+            "mainImports": "Carburants raffinés, engrais chimiques, machines, céréales, ciment",
+            "topPartners": [
+                "Émirats arabes unis",
+                "RD Congo",
+                "Suisse",
+                "Ouganda",
+                "Chine"
+            ],
+            "tradeBalance": "Très déficitaire (-14 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "68,0 % du PIB",
+            "budgetBalance": "-6,2 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CAE (EAC)",
+            "COMESA",
+            "CEEAC",
+            "OIF"
+        ]
+    },
+    "LSO": {
+        "currency": {
+            "name": "Loti lesothan / Rand sud-africain",
+            "code": "LSL / ZAR",
+            "symbol": "L",
+            "centralBank": "Central Bank of Lesotho"
+        },
+        "macro": {
+            "gdpNominal": "2,4 milliards USD",
+            "gdpPerCapita": "1 100 USD",
+            "globalRank": "173e mondial",
+            "growth": "+2,1 %",
+            "inflation": "6,0 %"
+        },
+        "structure": {
+            "services": "60 %",
+            "industry": "33 %",
+            "agriculture": "7 %",
+            "mainSectors": "Diamants de très haute valeur (mine de Letseng - pierres géantes exceptionnelles), vente d'eau et hydroélectricité à l'Afrique du Sud (projet LHWP), confection textile (usines AGOA)"
+        },
+        "trade": {
+            "mainExports": "Diamants bruts de grande valeur, vêtements et jeans confectionnés, eau douce vendue à l'Afrique du Sud, laine et mohair",
+            "mainImports": "Produits pétroliers, électricité, produits alimentaires, machines, tissus",
+            "topPartners": [
+                "Afrique du Sud (plus de 85 % des échanges)",
+                "États-Unis",
+                "Belgique",
+                "Suisse"
+            ],
+            "tradeBalance": "Déficitaire (-15 % du PIB compensé par les recettes douanières de la SACU)"
+        },
+        "publicFinance": {
+            "publicDebt": "56,0 % du PIB",
+            "budgetBalance": "-2,8 % du PIB",
+            "sovereignRating": "B (Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "SACU",
+            "Commonwealth",
+            "OMC"
+        ]
+    },
+    "DJI": {
+        "currency": {
+            "name": "Franc de Djibouti",
+            "code": "DJF",
+            "symbol": "Fdj",
+            "centralBank": "Banque centrale de Djibouti (arrimé au dollar US : 1 USD = 177,721 DJF)"
+        },
+        "macro": {
+            "gdpNominal": "4,1 milliards USD",
+            "gdpPerCapita": "3 800 USD",
+            "globalRank": "163e mondial",
+            "growth": "+6,5 %",
+            "inflation": "2,0 %"
+        },
+        "structure": {
+            "services": "80 %",
+            "industry": "17 %",
+            "agriculture": "3 %",
+            "mainSectors": "Hub logistique et portuaire géostratégique (détroit de Bab-el-Mandeb - débouché maritime de l'Éthiopie), loyers des bases militaires étrangères (France, États-Unis, Chine, Japon, Italie), câbles sous-marins de télécoms"
+        },
+        "trade": {
+            "mainExports": "Services de transit portuaire et ferroviaire (ligne Addis-Abeba - Djibouti), bétail de transit, réexportations",
+            "mainImports": "Aliments, carburants, machines et matériel ferroviaire, biens de consommation",
+            "topPartners": [
+                "Éthiopie (plus de 80 % de l'activité portuaire)",
+                "Chine",
+                "Arabie saoudite",
+                "Émirats arabes unis",
+                "France"
+            ],
+            "tradeBalance": "Déficitaire en biens (-25 % du PIB largement couvert par les services et rentes des bases)"
+        },
+        "publicFinance": {
+            "publicDebt": "68,0 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "COMESA",
+            "IGAD (siège à Djibouti)",
+            "OIF",
+            "OMC"
+        ]
+    },
+    "CAF": {
+        "currency": {
+            "name": "Franc CFA d'Afrique centrale",
+            "code": "XAF",
+            "symbol": "FCFA",
+            "centralBank": "Banque des États de l'Afrique centrale (BEAC)"
+        },
+        "macro": {
+            "gdpNominal": "2,7 milliards USD",
+            "gdpPerCapita": "500 USD",
+            "globalRank": "170e mondial",
+            "growth": "+1,5 %",
+            "inflation": "3,5 %"
+        },
+        "structure": {
+            "services": "40 %",
+            "industry": "15 %",
+            "agriculture": "45 %",
+            "mainSectors": "Bois d'œuvre et grumes précieuses, diamants alluvionnaires, or, agriculture vivrière (manioc, maïs)"
+        },
+        "trade": {
+            "mainExports": "Bois grumes et sciages, diamants bruts (processus de Kimberley), or, coton",
+            "mainImports": "Carburants, médicaments, machines industrielles, denrées alimentaires, véhicules",
+            "topPartners": [
+                "Chine",
+                "Émirats arabes unis",
+                "France",
+                "Cameroun",
+                "Italie"
+            ],
+            "tradeBalance": "Déficitaire (-6,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "50,0 % du PIB",
+            "budgetBalance": "-3,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEEAC",
+            "CEMAC",
+            "OIF",
+            "ZLECAf"
+        ]
+    },
+    "CPV": {
+        "currency": {
+            "name": "Escudo cap-verdien",
+            "code": "CVE",
+            "symbol": "$",
+            "centralBank": "Banco de Cabo Verde (arrimé à l'euro : 1 EUR = 110,265 CVE)"
+        },
+        "macro": {
+            "gdpNominal": "2,6 milliards USD",
+            "gdpPerCapita": "4 400 USD",
+            "globalRank": "171e mondial (revenu intermédiaire / démocratie modèle)",
+            "growth": "+5,1 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "72 %",
+            "industry": "19 %",
+            "agriculture": "9 %",
+            "mainSectors": "Tourisme balnéaire international (Sal, Boa Vista - ~25 % du PIB), services aéroportuaires et maritimes, pêche et conserverie de thon, énergies renouvelables (éolien, solaire)"
+        },
+        "trade": {
+            "mainExports": "Poissons de mer transformés et conserves de thon, chaussures et vêtements, services touristiques",
+            "mainImports": "Carburants raffinés, produits alimentaires (riz, viande, blé), matériaux de construction, véhicules",
+            "topPartners": [
+                "Portugal (plus de 50 % des flux)",
+                "Espagne",
+                "Italie",
+                "Pays-Bas",
+                "Chine"
+            ],
+            "tradeBalance": "Très déficitaire en biens (-30 % du PIB compensé par le tourisme et la diaspora)"
+        },
+        "publicFinance": {
+            "publicDebt": "112,0 % du PIB (dette concessionnelle à long terme)",
+            "budgetBalance": "-3,0 % du PIB",
+            "sovereignRating": "B- (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "CPLP",
+            "OIF",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "GMB": {
+        "currency": {
+            "name": "Dalasi gambien",
+            "code": "GMD",
+            "symbol": "D",
+            "centralBank": "Central Bank of The Gambia"
+        },
+        "macro": {
+            "gdpNominal": "2,3 milliards USD",
+            "gdpPerCapita": "850 USD",
+            "globalRank": "174e mondial",
+            "growth": "+5,5 %",
+            "inflation": "14,0 %"
+        },
+        "structure": {
+            "services": "58 %",
+            "industry": "15 %",
+            "agriculture": "27 %",
+            "mainSectors": "Tourisme côtier et d'observation d'oiseaux, arachides (huile et tourteaux), commerce de réexportation fluviale et portuaire (Banjul), pêche"
+        },
+        "trade": {
+            "mainExports": "Produits d'arachide, poissons congelés, réexportations vers la sous-région, noix de cajou",
+            "mainImports": "Riz, sucre, carburants raffinés, ciment, véhicules, tissus",
+            "topPartners": [
+                "Sénégal",
+                "Inde",
+                "Chine",
+                "Royaume-Uni",
+                "Brésil"
+            ],
+            "tradeBalance": "Déficitaire (-12 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "76,0 % du PIB",
+            "budgetBalance": "-3,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "Commonwealth",
+            "OCI",
+            "OMC"
+        ]
+    },
+    "ERI": {
+        "currency": {
+            "name": "Nakfa érythréen",
+            "code": "ERN",
+            "symbol": "Nkf",
+            "centralBank": "Banque d'Érythrée"
+        },
+        "macro": {
+            "gdpNominal": "2,4 milliards USD",
+            "gdpPerCapita": "680 USD",
+            "globalRank": "172e mondial",
+            "growth": "+2,8 %",
+            "inflation": "6,5 %"
+        },
+        "structure": {
+            "services": "60 %",
+            "industry": "25 %",
+            "agriculture": "15 %",
+            "mainSectors": "Mines de cuivre, zinc et or (mine de Bisha), gisement géant de potasse (Colluli), pêche maritime en mer Rouge, transferts de la diaspora (taxe de réhabilitation de 2 %)"
+        },
+        "trade": {
+            "mainExports": "Concentrés de zinc et de cuivre, or brut, poissons de mer",
+            "mainImports": "Céréales et aliments, carburants, machines d'extraction, véhicules",
+            "topPartners": [
+                "Chine (plus de 60 % des exportations)",
+                "Émirats arabes unis",
+                "Corée du Sud",
+                "Italie",
+                "Arabie saoudite"
+            ],
+            "tradeBalance": "Excédentaire (+3,5 % du PIB grâce aux minerais)"
+        },
+        "publicFinance": {
+            "publicDebt": "> 160 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "COMESA",
+            "Ligue arabe (observateur)",
+            "ZLECAf"
+        ]
+    },
+    "SYC": {
+        "currency": {
+            "name": "Roupie des Seychelles",
+            "code": "SCR",
+            "symbol": "SR",
+            "centralBank": "Banque centrale des Seychelles (CBS)"
+        },
+        "macro": {
+            "gdpNominal": "2,1 milliards USD",
+            "gdpPerCapita": "19 500 USD",
+            "globalRank": "176e mondial (PIB par habitant le plus élevé d'Afrique)",
+            "growth": "+3,8 %",
+            "inflation": "1,5 %"
+        },
+        "structure": {
+            "services": "82 %",
+            "industry": "15 %",
+            "agriculture": "3 %",
+            "mainSectors": "Tourisme de luxe et écotourisme insulaire (plus de 65 % du PIB direct/indirect), pêche thonière industrielle et conserverie (Indian Ocean Tuna), économie bleue et finance durable (obligations bleues souveraines pionnières)"
+        },
+        "trade": {
+            "mainExports": "Thon en boîte de conserve préparé, poissons congelés entiers, services touristiques",
+            "mainImports": "Carburants d'aviation et maritimes, navires, produits alimentaires gastronomiques, voitures",
+            "topPartners": [
+                "France",
+                "Royaume-Uni",
+                "Italie",
+                "Émirats arabes unis",
+                "Maurice"
+            ],
+            "tradeBalance": "Déficitaire en biens (-20 % du PIB très largement compensé par les recettes touristiques)"
+        },
+        "publicFinance": {
+            "publicDebt": "62,0 % du PIB (forte trajectoire de désendettement post-crise Covid)",
+            "budgetBalance": "-1,2 % du PIB",
+            "sovereignRating": "BB- (Fitch / S&P)"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "SADC",
+            "COMESA",
+            "Commission de l'océan Indien (COI)",
+            "Commonwealth",
+            "OIF",
+            "OMC"
+        ]
+    },
+    "GNB": {
+        "currency": {
+            "name": "Franc CFA d'Afrique de l'Ouest",
+            "code": "XOF",
+            "symbol": "FCFA",
+            "centralBank": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO)"
+        },
+        "macro": {
+            "gdpNominal": "2,0 milliards USD",
+            "gdpPerCapita": "950 USD",
+            "globalRank": "177e mondial",
+            "growth": "+4,5 %",
+            "inflation": "3,8 %"
+        },
+        "structure": {
+            "services": "40 %",
+            "industry": "12 %",
+            "agriculture": "48 %",
+            "mainSectors": "Noix de cajou brutes (monoculture d'exportation : plus de 85 % des recettes extérieures), pêche maritime et licences de pêche, bauxite et phosphates non exploités"
+        },
+        "trade": {
+            "mainExports": "Noix de cajou brutes en coque, poissons et crevettes de mer, arachides",
+            "mainImports": "Riz (aliment de base importé), carburants raffinés, ciment, véhicules, médicaments",
+            "topPartners": [
+                "Inde (plus de 75 % des achats d'anacarde)",
+                "Chine",
+                "Portugal",
+                "Sénégal",
+                "Vietnam"
+            ],
+            "tradeBalance": "Déficitaire (-6,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "78,0 % du PIB",
+            "budgetBalance": "-4,8 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "UEMOA",
+            "CPLP",
+            "OIF",
+            "OMC"
+        ]
+    },
+    "COM": {
+        "currency": {
+            "name": "Franc comorien",
+            "code": "KMF",
+            "symbol": "FC",
+            "centralBank": "Banque centrale des Comores (arrimé à l'euro : 1 EUR = 491,96775 KMF)"
+        },
+        "macro": {
+            "gdpNominal": "1,4 milliard USD",
+            "gdpPerCapita": "1 500 USD",
+            "globalRank": "180e mondial",
+            "growth": "+3,3 %",
+            "inflation": "4,2 %"
+        },
+        "structure": {
+            "services": "55 %",
+            "industry": "12 %",
+            "agriculture": "33 %",
+            "mainSectors": "Huile essentielle d'ylang-ylang (1er producteur mondial, essence clé pour la parfumerie française), vanille Bourbon, clous de girofle, transferts de la diaspora (~20 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Clous de girofle, essence d'ylang-ylang, gousses de vanille",
+            "mainImports": "Riz, viandes et volailles, carburants, ciment, véhicules",
+            "topPartners": [
+                "France",
+                "Inde",
+                "Émirats arabes unis",
+                "Madagascar",
+                "Turquie"
+            ],
+            "tradeBalance": "Très déficitaire (-18 % du PIB compensé par la diaspora comorienne en France)"
+        },
+        "publicFinance": {
+            "publicDebt": "35,0 % du PIB",
+            "budgetBalance": "-3,2 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "Ligue arabe",
+            "COMESA",
+            "SADC",
+            "Commission de l'océan Indien (COI)",
+            "OIF",
+            "OMC (adhésion en 2024)"
+        ]
+    },
+    "STP": {
+        "currency": {
+            "name": "Dobra santoméenne",
+            "code": "STN",
+            "symbol": "Db",
+            "centralBank": "Banco Central de São Tomé e Príncipe (arrimé à l'euro : 1 EUR = 24,5 STN)"
+        },
+        "macro": {
+            "gdpNominal": "650 millions USD",
+            "gdpPerCapita": "2 800 USD",
+            "globalRank": "186e mondial",
+            "growth": "+2,5 %",
+            "inflation": "18,0 %"
+        },
+        "structure": {
+            "services": "65 %",
+            "industry": "15 %",
+            "agriculture": "20 %",
+            "mainSectors": "Cacao fin et biologique d'excellence (chocolaterie de luxe), huile de palme certifiée, écotourisme insulaire, exploration pétrolière conjointe avec le Nigéria (JDZ)"
+        },
+        "trade": {
+            "mainExports": "Fèves de cacao bio de haute qualité, huile de palme brute, café bio, poivre",
+            "mainImports": "Carburants raffinés, produits alimentaires, machines, véhicules, ciment",
+            "topPartners": [
+                "Portugal (plus de 55 % des échanges)",
+                "France",
+                "Espagne",
+                "Angola",
+                "Chine"
+            ],
+            "tradeBalance": "Très déficitaire (-22 % du PIB compensé par l'aide internationale et le tourisme)"
+        },
+        "publicFinance": {
+            "publicDebt": "85,0 % du PIB",
+            "budgetBalance": "-3,5 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEEAC",
+            "CPLP",
+            "OIF",
+            "ZLECAf"
+        ]
+    },
+    "SSD": {
+        "currency": {
+            "name": "Livre sud-soudanaise",
+            "code": "SSP",
+            "symbol": "SS£",
+            "centralBank": "Bank of South Sudan"
+        },
+        "macro": {
+            "gdpNominal": "6,5 milliards USD",
+            "gdpPerCapita": "500 USD",
+            "globalRank": "153e mondial",
+            "growth": "-10,0 % (impact de la rupture de l'oléoduc au Soudan en 2024)",
+            "inflation": "> 80 %"
+        },
+        "structure": {
+            "services": "25 %",
+            "industry": "65 %",
+            "agriculture": "10 %",
+            "mainSectors": "Pétrole brut (champs du Haut-Nil et d'Unité - plus de 98 % des recettes fiscales), élevage bovin traditionnel, bois précieux (teck)"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut (acheminé via les oléoducs vers Port-Soudan), bois d'œuvre",
+            "mainImports": "Carburants raffinés, céréales et denrées alimentaires, médicaments, machines, véhicules",
+            "topPartners": [
+                "Chine (plus de 60 % du pétrole)",
+                "Émirats arabes unis",
+                "Ouganda",
+                "Kenya",
+                "Inde"
+            ],
+            "tradeBalance": "Légèrement excédentaire hors crise de pipeline"
+        },
+        "publicFinance": {
+            "publicDebt": "62,0 % du PIB",
+            "budgetBalance": "-4,0 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CAE (EAC)",
+            "IGAD",
+            "ZLECAf"
+        ]
+    },
+    "LBR": {
+        "currency": {
+            "name": "Dollar libérien",
+            "code": "LRD",
+            "symbol": "L$",
+            "centralBank": "Banque centrale du Libéria (Central Bank of Liberia)"
+        },
+        "macro": {
+            "gdpNominal": "4,3 milliards USD",
+            "gdpPerCapita": "800 USD",
+            "globalRank": "161e mondial",
+            "growth": "+4,6 %",
+            "inflation": "10,1 %"
+        },
+        "structure": {
+            "services": "48 %",
+            "industry": "15 %",
+            "agriculture": "37 %",
+            "mainSectors": "Pavillons de complaisance (2e registre maritime mondial), minerai de fer, caoutchouc naturel (plantations Firestone), or, huile de palme"
+        },
+        "trade": {
+            "mainExports": "Minerai de fer, or brut, caoutchouc naturel, bois précieux, huile de palme",
+            "mainImports": "Carburants raffinés, navires et bateaux (réimmatriculation), riz et denrées alimentaires, machines",
+            "topPartners": [
+                "Suisse",
+                "Chine",
+                "États-Unis",
+                "Japon",
+                "Allemagne"
+            ],
+            "tradeBalance": "Déficitaire (-12,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "55,2 % du PIB",
+            "budgetBalance": "-5,1 % du PIB",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (UA)",
+            "CEDEAO",
+            "Mano River Union",
+            "ZLECAf",
+            "OMC"
+        ]
+    },
+    "ESH": {
+        "currency": {
+            "name": "Dirham marocain / Peseta sahraouie",
+            "code": "MAD / EHP",
+            "symbol": "د.م. / Ptas",
+            "centralBank": "Bank Al-Maghrib (zone sous contrôle marocain) / RASD"
+        },
+        "macro": {
+            "gdpNominal": "Non calculé séparément (~1,5 milliard USD)",
+            "gdpPerCapita": "~2 500 USD",
+            "globalRank": "Territoire non autonome (statut contesté)",
+            "growth": "—",
+            "inflation": "—"
+        },
+        "structure": {
+            "services": "45 %",
+            "industry": "35 %",
+            "agriculture": "20 %",
+            "mainSectors": "Extraction de phosphate (mine à ciel ouvert de Boukraa - Phosboucraa / OCP), pêche maritime industrielle (eaux côtières atlantiques très poissonneuses), élevage camelin, énergies éoliennes"
+        },
+        "trade": {
+            "mainExports": "Phosphate brut (acheminé par le plus long tapis roulant du monde vers le port de Laâyoune), poissons et poulpes congelés, sable de construction",
+            "mainImports": "Carburants, biens manufacturés, denrées alimentaires, matériel d'extraction",
+            "topPartners": [
+                "Maroc",
+                "Nouvelle-Zélande",
+                "Inde",
+                "Espagne",
+                "Brésil"
+            ],
+            "tradeBalance": "Excédentaire en ressources brutes"
+        },
+        "publicFinance": {
+            "publicDebt": "Non applicable",
+            "budgetBalance": "Financé par les investissements publics marocains (zone Ouest) et l'aide humanitaire (camps de Tindouf)",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union africaine (la RASD est membre fondateur de l'UA)"
+        ]
+    }
+}

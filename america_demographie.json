@@ -1,0 +1,1706 @@
+{
+    "USA": {
+        "general": {
+            "population": "335,8 millions d'habitants",
+            "globalRank": "3e mondial (1er des Amériques)",
+            "density": "37 hab./km² (fortes concentrations sur les façades atlantique et pacifique)",
+            "growthRate": "+0,5 % par an (porté majoritairement par l'immigration internationale)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,66 enfant par femme",
+            "birthRate": "11,0 ‰",
+            "deathRate": "9,3 ‰",
+            "infantMortality": "5,4 ‰",
+            "netMigration": "+3,3 ‰ (1er pays d'accueil de migrants au monde avec >50 millions d'immigrés)"
+        },
+        "ageStructure": {
+            "medianAge": "38,9 ans",
+            "lifeExpectancy": {
+                "total": "77,5 ans",
+                "women": "80,2 ans",
+                "men": "74,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "17,8 %",
+                "fifteenToSixtyFour": "64,7 %",
+                "sixtyFivePlus": "17,5 %"
+            },
+            "dependencyRatio": "54,6 %"
+        },
+        "urbanization": {
+            "urbanRate": "83,3 %",
+            "mainMetropolises": [
+                "New York (19,6 millions hab. aire métropolitaine - capitale financière mondiale)",
+                "Los Angeles (12,8 millions hab. - hub mondial du divertissement, tech et logistique)",
+                "Chicago (9,4 millions hab. - pôle industriel, ferroviaire et boursier du Midwest)",
+                "Dallas-Fort Worth (7,9 millions hab. - pôle tech, énergie et aéronautique)",
+                "Houston (7,3 millions hab. - capitale énergétique mondiale et centre spatial NASA)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Blancs non hispaniques (57,7 %), Hispaniques et Latinos (19,1 % - 1re minorité en forte hausse), Afro-Américains (12,6 %), Asiatiques-Américains (6,2 %), Amérindiens et natifs d'Alaska (1,1 %)",
+            "languages": "Anglais (de facto langue nationale et d'usage généralisé), Espagnol (parlé par plus de 42 millions d'habitants à la maison)",
+            "religions": "Christianisme protestant (40 % évangéliques, baptistes, luthériens), Catholicisme romain (21 %), Sans affiliation religieuse / Nones (28 %), Judaïsme (2,4 %), Islam (1,3 %)"
+        },
+        "development": {
+            "hdi": "0,927 (Très élevé - 20e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Inégalités d'accès au système de santé privé et surmortalité liée à la crise des opioïdes (fentanyl), polarisation politique et raciale, réformes des politiques migratoires à la frontière sud"
+        }
+    },
+    "CAN": {
+        "general": {
+            "population": "40,8 millions d'habitants (seuil des 40M franchi en juin 2023)",
+            "globalRank": "37e mondial",
+            "density": "4,2 hab./km² (90 % de la population réside à moins de 160 km de la frontière américaine)",
+            "growthRate": "+2,9 % par an (croissance démographique la plus rapide du G7 via l'immigration)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,33 enfant par femme (plus bas niveau historique)",
+            "birthRate": "9,2 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "4,3 ‰",
+            "netMigration": "+21,5 ‰ (record mondial parmi les grands pays industriels : accueil de >1M de résidents par an)"
+        },
+        "ageStructure": {
+            "medianAge": "40,8 ans",
+            "lifeExpectancy": {
+                "total": "82,6 ans",
+                "women": "84,7 ans",
+                "men": "80,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,5 %",
+                "fifteenToSixtyFour": "65,2 %",
+                "sixtyFivePlus": "19,3 %"
+            },
+            "dependencyRatio": "53,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "81,8 %",
+            "mainMetropolises": [
+                "Toronto (6,7 millions hab. Grand Toronto - centre financier et carrefour multiculturel)",
+                "Montréal (4,3 millions hab. - métropole francophone d'Amérique du Nord, hub IA et aérospatial)",
+                "Vancouver (2,8 millions hab. - porte maritime et économique sur le Pacifique)",
+                "Calgary (1,6 million hab. - capitale énergétique de l'Alberta)",
+                "Ottawa-Gatineau (1,5 million hab. - capitale fédérale bilingue)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Origines européennes (69,8 % : britanniques, françaises, italiennes, allemandes, ukrainiennes), minorités visibles (26,5 % : Sud-Asiatiques 7 %, Chinois 5 %, Noirs 4 %, Philippins, Arabes), Premières Nations autochtones (5,0 % : Amérindiens, Métis, Inuits)",
+            "languages": "Anglais (58,4 % langue maternelle, officiel) et Français (20,9 % langue maternelle, officiel, majoritaire au Québec)",
+            "religions": "Christianisme (53,3 % : catholiques 29,9 %, protestants et orthodoxes 23,4 %), Sans religion (34,6 %), Islam (4,9 %), Hindouisme (2,3 %), Sikhisme (2,1 %)"
+        },
+        "development": {
+            "hdi": "0,935 (Très élevé - 18e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Crise aiguë du logement et de l'accessibilité immobilière face aux flux migratoires records, réconciliation historique et réparation envers les peuples autochtones, transition écologique des sables bitumineux albertains"
+        }
+    },
+    "MEX": {
+        "general": {
+            "population": "129,5 millions d'habitants",
+            "globalRank": "10e mondial (1er pays hispanophone au monde)",
+            "density": "66 hab./km²",
+            "growthRate": "+0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "14,5 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "11,8 ‰",
+            "netMigration": "-0,8 ‰ (pays de départ historique mais aussi corridor de transit pour des millions de migrants)"
+        },
+        "ageStructure": {
+            "medianAge": "29,8 ans (dividende démographique actif)",
+            "lifeExpectancy": {
+                "total": "74,8 ans",
+                "women": "77,8 ans",
+                "men": "71,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "24,5 %",
+                "fifteenToSixtyFour": "67,2 %",
+                "sixtyFivePlus": "8,3 %"
+            },
+            "dependencyRatio": "48,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "81,3 %",
+            "mainMetropolises": [
+                "Mexico / CDMX (22,1 millions hab. aire métropolitaine de la Vallée de Mexico - mégapole historique)",
+                "Guadalajara (5,4 millions hab. - Silicon Valley mexicaine et pôle agroalimentaire de Jalisco)",
+                "Monterrey (5,3 millions hab. - pôle industriel et technologique du Nord, hub du nearshoring)",
+                "Puebla (3,3 millions hab. - grand centre automobile Volkswagen/Audi)",
+                "Tijuana (2,2 millions hab. - ville frontière la plus traversée au monde)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis amérindiens-européens (62 %), Peuples indigènes originaires (21,5 % s'auto-identifient : Nahuas, Mayas, Zapotèques, Mixtèques, Otomis), Blancs d'origine européenne (15 %), Afro-Mexicains (2,0 %)",
+            "languages": "Espagnol (de facto officiel et universel), 68 langues indigènes reconnues comme langues nationales (nahuatl 1,7M, maya yucatèque 800k, tzeltal, zapotèque)",
+            "religions": "Catholicisme romain (77,7 % - culte fervent de Notre-Dame de Guadalupe), Protestantisme et évangélisme (11,2 %), Sans religion (10,6 %)"
+        },
+        "development": {
+            "hdi": "0,781 (Élevé - 77e mondial)",
+            "literacyRate": "95,2 %",
+            "keyChallenges": "Violence des cartels du narcotrafic et insécurité publique, gestion des flux migratoires centraméricains et sud-américains vers les USA, opportunité économique du nearshoring industriel"
+        }
+    },
+    "BRA": {
+        "general": {
+            "population": "203,1 millions d'habitants (recensement officiel IBGE 2022)",
+            "globalRank": "7e mondial (1er d'Amérique latine)",
+            "density": "24 hab./km² (littoral atlantique très dense, Amazonie clairsemée)",
+            "growthRate": "+0,52 % par an (décélération marquée par rapport aux décennies antérieures)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,60 enfant par femme",
+            "birthRate": "12,8 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "11,2 ‰",
+            "netMigration": "+0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "35,2 ans (vieillissement accéléré)",
+            "lifeExpectancy": {
+                "total": "76,2 ans",
+                "women": "79,7 ans",
+                "men": "72,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "19,8 %",
+                "fifteenToSixtyFour": "69,3 %",
+                "sixtyFivePlus": "10,9 % (seuil de 10 % franchi)"
+            },
+            "dependencyRatio": "44,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "87,6 %",
+            "mainMetropolises": [
+                "São Paulo (22,4 millions hab. Grand São Paulo - plus grande agglomération de l'hémisphère sud et capitale financière)",
+                "Rio de Janeiro (13,4 millions hab. - pôle touristique mondial, pétrolier et culturel)",
+                "Belo Horizonte (6,1 millions hab. - métropole du Minas Gerais minier et métallurgique)",
+                "Brasília (4,8 millions hab. aire métropolitaine - capitale fédérale planifiée par Niemeyer)",
+                "Salvador da Bahia (3,9 millions hab. - capitale historique et cœur de la culture afro-brésilienne)",
+                "Fortaleza (4,1 millions hab. - métropole du Nordeste)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Pardos / Métis (45,3 % - devenu le groupe majoritaire au recensement 2022), Blancs d'origine européenne (43,5 %), Noirs / Pretos (10,2 %), Indigènes originaires (0,8 % soit 1,7 million d'âmes), Jaunes / Asiatiques (0,4 % - forte communauté nippo-brésilienne)",
+            "languages": "Portugais (officiel et universel, variante brésilienne), plus de 270 langues indigènes vivantes en Amazonie (tupi-guarani, yanomami)",
+            "religions": "Catholicisme romain (50 % - en reflux historique mais 1er pays catholique au monde en nombre), Évangélisme pentecôtiste et néo-pentecôtiste (31 % - en expansion fulgurante), Sans religion (10 %), Spiritisme kardéciste (2 %), Religions afro-brésiliennes Candomblé et Umbanda"
+        },
+        "development": {
+            "hdi": "0,760 (Élevé - 89e mondial)",
+            "literacyRate": "94,4 %",
+            "keyChallenges": "Inégalités sociales criantes (favelas vs quartiers aisés), préservation de l'Amazonie et protection des territoires indigènes ancestraux, réforme fiscale et réindustrialisation verte"
+        }
+    },
+    "ARG": {
+        "general": {
+            "population": "46,2 millions d'habitants (recensement INDEC)",
+            "globalRank": "32e mondial",
+            "density": "16,8 hab./km²",
+            "growthRate": "+0,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,9 enfant par femme",
+            "birthRate": "14,2 ‰",
+            "deathRate": "7,6 ‰",
+            "infantMortality": "8,0 ‰",
+            "netMigration": "+0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "32,5 ans",
+            "lifeExpectancy": {
+                "total": "77,8 ans",
+                "women": "81,2 ans",
+                "men": "74,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "22,5 %",
+                "fifteenToSixtyFour": "65,3 %",
+                "sixtyFivePlus": "12,2 %"
+            },
+            "dependencyRatio": "53,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "92,5 % (l'un des pays les plus urbanisés au monde)",
+            "mainMetropolises": [
+                "Buenos Aires (15,4 millions hab. Grand Buenos Aires - concentre un tiers de la population nationale)",
+                "Córdoba (1,6 million hab. - centre universitaire et industriel)",
+                "Rosario (1,4 million hab. - grand port céréalier et agro-exportateur sur le fleuve Paraná)",
+                "Mendoza (1,1 million hab. - capitale viticole au pied des Andes)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Ascendance européenne (85 % : Italiens, Espagnols, Allemands, Français), Métis amérindiens (12 %), Peuples indigènes originaires (2,4 % : Mapuches, Collas, Qom/Tobas, Wichís)",
+            "languages": "Espagnol (officiel, dialecte rioplatense avec voseo caractéristique), quechua, guarani, mapudungun",
+            "religions": "Catholicisme romain (63 % - patrie du Pape François), Protestantisme évangélique (15 %), Sans religion déclarée (19 %), Judaïsme (plus grande communauté juive d'Amérique latine ~200 000)"
+        },
+        "development": {
+            "hdi": "0,849 (Très élevé - 48e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Crise macroéconomique violente et inflation à trois chiffres, paupérisation des classes moyennes sous les plans d'austérité budgétaire, macrocéphalie écrasante de Buenos Aires face aux provinces de l'intérieur"
+        }
+    },
+    "COL": {
+        "general": {
+            "population": "52,2 millions d'habitants",
+            "globalRank": "28e mondial (3e d'Amérique du Sud)",
+            "density": "46 hab./km²",
+            "growthRate": "+0,9 % par an (accentué par l'accueil de 2,9 millions de réfugiés vénézuéliens)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,7 enfant par femme",
+            "birthRate": "13,8 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "11,5 ‰",
+            "netMigration": "+3,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "31,8 ans",
+            "lifeExpectancy": {
+                "total": "77,3 ans",
+                "women": "80,2 ans",
+                "men": "74,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "21,5 %",
+                "fifteenToSixtyFour": "69,0 %",
+                "sixtyFivePlus": "9,5 %"
+            },
+            "dependencyRatio": "44,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "82,0 %",
+            "mainMetropolises": [
+                "Bogotá (11,5 millions hab. aire métropolitaine - capitale andine à 2 600 m d'altitude)",
+                "Medellín (4,1 millions hab. Vallée d'Aburrá - métropole d'innovation et textile)",
+                "Cali (2,8 millions hab. - capitale du Valle del Cauca et pôle pacifique)",
+                "Barranquilla (2,3 millions hab. - grand port sur la mer des Caraïbes)",
+                "Carthagène des Indes (1,1 million hab. - joyau historique classé à l'UNESCO et pôle pétrochimique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis (53,5 %), Blancs d'ascendance européenne (30,5 %), Afro-Colombiens / Noirs / Palenqueros (9,3 % sur les côtes Pacifique et Caraïbes), Peuples indigènes (4,4 % : Wayuu, Nasa, Embera, Zenú)",
+            "languages": "Espagnol (officiel), 65 langues indigènes reconnues, 2 langues créoles (palenquero, créole de San Andrés)",
+            "religions": "Catholicisme romain (71 %), Protestantisme évangélique (17 %), Sans religion (10 %)"
+        },
+        "development": {
+            "hdi": "0,758 (Élevé - 91e mondial)",
+            "literacyRate": "95,6 %",
+            "keyChallenges": "Mise en œuvre complexe de la politique de 'Paix totale' face aux groupes armés dissidents et narcotrafiquants, intégration socio-économique des migrants vénézuéliens régularisés, vulnérabilité climatique andine"
+        }
+    },
+    "CHL": {
+        "general": {
+            "population": "19,6 millions d'habitants",
+            "globalRank": "66e mondial",
+            "density": "26 hab./km²",
+            "growthRate": "+0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,5 enfant par femme",
+            "birthRate": "10,8 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "6,2 ‰ (l'une des plus faibles d'Amérique latine)",
+            "netMigration": "+2,8 ‰ (immigration soutenue de Vénézuéliens, Péruviens et Haïtiens)"
+        },
+        "ageStructure": {
+            "medianAge": "36,2 ans (l'une des populations les plus mûres de la région)",
+            "lifeExpectancy": {
+                "total": "80,7 ans (record d'Amérique du Sud)",
+                "women": "83,2 ans",
+                "men": "78,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "18,2 %",
+                "fifteenToSixtyFour": "68,6 %",
+                "sixtyFivePlus": "13,2 %"
+            },
+            "dependencyRatio": "45,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "88,0 %",
+            "mainMetropolises": [
+                "Santiago (7,1 millions hab. Grand Santiago - concentre 37 % de la population nationale)",
+                "Valparaíso-Viña del Mar (1,0 million hab. - siège du Congrès national et port historique)",
+                "Concepción (980 000 hab. - grand pôle industriel et universitaire du sud)",
+                "La Serena-Coquimbo (500 000 hab. - pôle touristique du Norte Chico)",
+                "Antofagasta (420 000 hab. - capitale mondiale de l'extraction de cuivre)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Population d'origine européenne et métisse (87 %), Peuples autochtones reconnus (12,8 % : Mapuches 80 % des indigènes, Aymaras, Rapa Nui de l'île de Pâques, Diaguitas)",
+            "languages": "Espagnol (officiel et universel), mapudungun (Mapuches), aymara, rapanui",
+            "religions": "Catholicisme romain (55 % - en fort recul suite aux crises d'abus), Évangélisme protestant (16 %), Sans religion / laïcs (25 % - taux très élevé pour le continent)"
+        },
+        "development": {
+            "hdi": "0,860 (Très élevé - 44e mondial, 1er d'Amérique latine)",
+            "literacyRate": "97,0 %",
+            "keyChallenges": "Sécheresse historique décennale (mégasécheresse) affectant l'agriculture centrale et l'eau potable, réformes des retraites (AFP privées) et de la santé, tensions territoriales ancestrales en Araucanie mapuche"
+        }
+    },
+    "PER": {
+        "general": {
+            "population": "34,0 millions d'habitants",
+            "globalRank": "44e mondial",
+            "density": "26 hab./km² (macrocéphalie côtière désertique contrastant avec les Andes et l'Amazonie)",
+            "growthRate": "+1,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,1 enfants par femme",
+            "birthRate": "16,5 ‰",
+            "deathRate": "6,0 ‰",
+            "infantMortality": "11,0 ‰",
+            "netMigration": "+1,5 ‰ (accueil de plus de 1,5 million de réfugiés vénézuéliens)"
+        },
+        "ageStructure": {
+            "medianAge": "29,4 ans",
+            "lifeExpectancy": {
+                "total": "76,8 ans",
+                "women": "79,5 ans",
+                "men": "74,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,0 %",
+                "fifteenToSixtyFour": "66,2 %",
+                "sixtyFivePlus": "8,8 %"
+            },
+            "dependencyRatio": "51,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "78,5 %",
+            "mainMetropolises": [
+                "Lima (10,5 millions hab. aire métropolitaine de Lima-Callao - capitale concentrant un tiers du pays)",
+                "Arequipa (1,1 million hab. - 'Ville Blanche' et métropole économique du sud)",
+                "Trujillo (1,0 million hab. - cœur agro-industriel de la côte nord)",
+                "Chiclayo (800 000 hab. - carrefour commercial du nord)",
+                "Cuzco (480 000 hab. - capitale historique de l'Empire Inca et tourisme mondial)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis (60,2 %), Quechuas indigènes (22,3 %), Blancs d'ascendance européenne (5,9 %), Aymaras (2,4 %), Afro-Péruviens (3,6 %), Peuples d'Amazonie (Ashaninkas, Awajún)",
+            "languages": "Espagnol (82,6 %, officiel), Quechua (13,9 %, officiel), Aymara (1,7 %, officiel), 44 langues amazoniennes",
+            "religions": "Catholicisme romain (76 %), Évangélisme protestant (14 %), Sans religion (5 %)"
+        },
+        "development": {
+            "hdi": "0,762 (Élevé - 87e mondial)",
+            "literacyRate": "95,0 %",
+            "keyChallenges": "Instabilité politique chronique (six présidents en six ans), fossé abyssal de développement entre Lima et les régions andines du sud (Puno, Ayacucho), informalité du travail frappant plus de 70 % des actifs"
+        }
+    },
+    "VEN": {
+        "general": {
+            "population": "28,8 millions d'habitants (résidents dans le pays, amputée d'un quart par l'exode)",
+            "globalRank": "51e mondial",
+            "density": "32 hab./km²",
+            "growthRate": "-0,5 % par an (décroissance provoquée par l'émigration massive)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,2 enfants par femme",
+            "birthRate": "16,8 ‰",
+            "deathRate": "7,4 ‰",
+            "infantMortality": "21,0 ‰",
+            "netMigration": "-14,0 ‰ (plus de 7,7 millions de Vénézuéliens ont fui le pays selon le HCR/R4V)"
+        },
+        "ageStructure": {
+            "medianAge": "30,0 ans",
+            "lifeExpectancy": {
+                "total": "71,2 ans (recul sous la crise sanitaire)",
+                "women": "75,5 ans",
+                "men": "67,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,5 %",
+                "fifteenToSixtyFour": "66,0 %",
+                "sixtyFivePlus": "8,5 %"
+            },
+            "dependencyRatio": "51,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "88,4 %",
+            "mainMetropolises": [
+                "Caracas (3,2 millions hab. Grand Caracas - capitale politique et administrative)",
+                "Maracaibo (2,2 millions hab. - capitale pétrolière sur le lac de Maracaibo)",
+                "Valencia (1,9 million hab. - grand centre industriel)",
+                "Barquisimeto (1,3 million hab. - carrefour du centre-ouest)",
+                "Maracay (1,2 million hab. - centre textile et militaire)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis / Pardos (51,6 %), Blancs d'ascendance européenne (43,6 %), Noirs et Afro-descendants (3,5 %), Peuples indigènes (2,8 % : Wayuu, Warao, Pemon, Yanomami)",
+            "languages": "Espagnol (officiel), langues indigènes constitutionnellement reconnues",
+            "religions": "Catholicisme romain (71 %), Évangélisme protestant (17 %), Santería et syncrétismes populaires (culte de María Lionza)"
+        },
+        "development": {
+            "hdi": "0,699 (Moyen - 119e mondial, chute spectaculaire par rapport à l'an 2000)",
+            "literacyRate": "97,5 %",
+            "keyChallenges": "Crise humanitaire complexe, hyperinflation historique, effondrement du système hospitalier et de la production pétrolière de PDVSA, réunification des familles éclatées par la diaspora"
+        }
+    },
+    "CUB": {
+        "general": {
+            "population": "11,0 millions d'habitants (déclin continu accentué par la vague migratoire récente)",
+            "globalRank": "85e mondial",
+            "density": "100 hab./km²",
+            "growthRate": "-0,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,4 enfant par femme (sous le seuil de remplacement depuis 1978)",
+            "birthRate": "8,9 ‰",
+            "deathRate": "10,2 ‰ (solde naturel devenu négatif)",
+            "infantMortality": "4,4 ‰ (remarquable performance du modèle médical de proximité)",
+            "netMigration": "-12,0 ‰ (exode historique de plus de 500 000 jeunes vers les USA et l'Espagne depuis 2022)"
+        },
+        "ageStructure": {
+            "medianAge": "42,2 ans (le pays le plus âgé d'Amérique latine)",
+            "lifeExpectancy": {
+                "total": "78,2 ans",
+                "women": "80,4 ans",
+                "men": "76,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,8 %",
+                "fifteenToSixtyFour": "62,8 %",
+                "sixtyFivePlus": "21,4 % (société hyper-vieillie)"
+            },
+            "dependencyRatio": "59,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "77,3 %",
+            "mainMetropolises": [
+                "La Havane (2,15 millions hab. - capitale historique, port maritime et pôle culturel)",
+                "Santiago de Cuba (510 000 hab. - berceau de la Révolution et cœur afro-cubain de l'Oriente)",
+                "Camagüey (330 000 hab. - cité d'élevage et d'artisanat)",
+                "Holguín (350 000 hab. - pôle touristique et minier du nickel)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Blancs d'ascendance espagnole (64,1 %), Métis / Mulâtres (26,6 %), Noirs afro-cubains (9,3 %)",
+            "languages": "Espagnol (officiel et universel)",
+            "religions": "Catholicisme romain (59 %), Santería et cultes afro-cubains syncrétiques Regla de Ocha (très largement pratiqués par la majorité), Protestantisme (5 %), Sans religion déclarée"
+        },
+        "development": {
+            "hdi": "0,764 (Élevé - 85e mondial)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Pénuries chroniques d'électricité (blackouts généraux), de carburant et de denrées alimentaires de base, embargo américain (bloqueo), vieillissement démographique extrême combiné à l'exode des jeunes actifs"
+        }
+    },
+    "ECU": {
+        "general": {
+            "population": "17,0 millions d'habitants (recensement INEC)",
+            "globalRank": "67e mondial",
+            "density": "66 hab./km²",
+            "growthRate": "+1,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme",
+            "birthRate": "16,8 ‰",
+            "deathRate": "5,6 ‰",
+            "infantMortality": "11,8 ‰",
+            "netMigration": "+0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "29,0 ans",
+            "lifeExpectancy": {
+                "total": "77,9 ans",
+                "women": "80,6 ans",
+                "men": "75,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "26,2 %",
+                "fifteenToSixtyFour": "65,6 %",
+                "sixtyFivePlus": "8,2 %"
+            },
+            "dependencyRatio": "52,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "64,8 %",
+            "mainMetropolises": [
+                "Guayaquil (3,1 millions hab. aire métropolitaine - 1er port commercial et capitale économique côtière)",
+                "Quito (2,8 millions hab. - capitale politique andine à 2 850 m d'altitude, classée à l'UNESCO)",
+                "Cuenca (650 000 hab. - pôle culturel du sud)",
+                "Santo Domingo (460 000 hab. - carrefour agricole)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis (77,4 %), Peuples indigènes originaires (7,0 % : Kichwas des Andes et d'Amazonie, Shuar, Achuar), Blancs (6,1 %), Afro-Équatoriens (4,8 % en Esmeraldas et vallée du Chota), Montubios paysans de la côte (7,4 %)",
+            "languages": "Espagnol (officiel), Kichwa et Shuar (langues officielles de relation interculturelle)",
+            "religions": "Catholicisme romain (74 %), Protestantisme évangélique (15 %), Sans religion (8 %)"
+        },
+        "development": {
+            "hdi": "0,765 (Élevé - 83e mondial)",
+            "literacyRate": "94,5 %",
+            "keyChallenges": "Flambée dramatique de la violence liée au narcotrafic transnational (ports transformés en plaques tournantes de la cocaïne), décrépitude du réseau électrique hydroélectrique sous sécheresse, dollarisation intégrale"
+        }
+    },
+    "BOL": {
+        "general": {
+            "population": "12,2 millions d'habitants",
+            "globalRank": "80e mondial",
+            "density": "11 hab./km²",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,6 enfants par femme",
+            "birthRate": "21,2 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "21,2 ‰",
+            "netMigration": "-0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "26,2 ans (jeunesse)",
+            "lifeExpectancy": {
+                "total": "71,5 ans",
+                "women": "74,4 ans",
+                "men": "68,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "30,5 %",
+                "fifteenToSixtyFour": "63,2 %",
+                "sixtyFivePlus": "6,3 %"
+            },
+            "dependencyRatio": "58,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "70,2 % (basculement démographique historique de l'Altiplano vers les plaines orientales)",
+            "mainMetropolises": [
+                "Santa Cruz de la Sierra (2,2 millions hab. - métropole agro-industrielle la plus dynamique)",
+                "La Paz (1,8 million hab. conurbation La Paz-El Alto - siège du gouvernement à 3 600-4 100 m)",
+                "Cochabamba (1,3 million hab. - vallée centrale)",
+                "Sucre (360 000 hab. - capitale constitutionnelle et judiciaire historique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "État plurinational : Peuples indigènes originaires (41 % s'auto-identifient : Quechuas 25 %, Aymaras 17 %, Guaranis, Chiquitanos), Métis (50 %), Blancs d'ascendance européenne (8 %)",
+            "languages": "Espagnol et 36 langues indigènes reconnues officielles par la constitution de 2009 (quechua, aymara, guarani)",
+            "religions": "Catholicisme romain (70 %), Évangélisme protestant (17 %), Culte de la Pachamama (Terre-Mère) syncrétique"
+        },
+        "development": {
+            "hdi": "0,698 (Moyen - 120e mondial)",
+            "literacyRate": "94,0 %",
+            "keyChallenges": "Chute de la production de gaz naturel et épuisement des réserves en devises de la Banque centrale, industrialisation des réserves géantes de lithium du Salar d'Uyuni, enclavement maritime hérité de la guerre du Pacifique"
+        }
+    },
+    "PRY": {
+        "general": {
+            "population": "6,1 millions d'habitants (recensement INE révisé)",
+            "globalRank": "112e mondial",
+            "density": "15 hab./km² (97 % à l'est du fleuve Paraguay)",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme",
+            "birthRate": "19,8 ‰",
+            "deathRate": "5,8 ‰",
+            "infantMortality": "16,5 ‰",
+            "netMigration": "-1,5 ‰ (forte diaspora en Argentine et au Brésil)"
+        },
+        "ageStructure": {
+            "medianAge": "27,8 ans",
+            "lifeExpectancy": {
+                "total": "74,5 ans",
+                "women": "77,4 ans",
+                "men": "71,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "28,0 %",
+                "fifteenToSixtyFour": "65,0 %",
+                "sixtyFivePlus": "7,0 %"
+            },
+            "dependencyRatio": "53,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "62,5 %",
+            "mainMetropolises": [
+                "Asunción (2,7 millions hab. Grand Asunción - capitale politique et commerciale)",
+                "Ciudad del Este (650 000 hab. - métropole de la Triple Frontière avec le Brésil et l'Argentine)",
+                "Encarnación (150 000 hab. - pôle du sud sur le Paraná)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis hispano-guaranis (95 %), minorités indigènes pures (1,7 % : Enxet, Ayoreo dans le Chaco), descendants d'immigrants allemands (Mennonites du Chaco), brésiliens (Brasiguaios)"
+        ,
+            "languages": "Guarani (90 % de la population le parle) et Espagnol (deux langues officielles constitutionnelles, bilinguisme Jopará)",
+            "religions": "Catholicisme romain (88 % - l'un des plus forts taux du continent), Protestantisme évangélique (8 %)"
+        },
+        "development": {
+            "hdi": "0,731 (Élevé - 105e mondial)",
+            "literacyRate": "95,0 %",
+            "keyChallenges": "Concentration foncière extrême des terres agricoles (soja et élevage bovin), informalité et contrebande à la frontière de Ciudad del Este, gestion énergétique binationale des barrages géants d'Itaipu et Yacyretá"
+        }
+    },
+    "URY": {
+        "general": {
+            "population": "3,44 millions d'habitants (stagnation démographique durable)",
+            "globalRank": "136e mondial",
+            "density": "20 hab./km²",
+            "growthRate": "+0,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,45 enfant par femme",
+            "birthRate": "9,8 ‰",
+            "deathRate": "9,5 ‰ (croissance naturelle quasi nulle)",
+            "infantMortality": "5,8 ‰ (très basse)",
+            "netMigration": "+1,2 ‰ (pôle d'attraction pour retraités et investisseurs argentins)"
+        },
+        "ageStructure": {
+            "medianAge": "36,0 ans (société vieillie précoce)",
+            "lifeExpectancy": {
+                "total": "78,2 ans",
+                "women": "81,8 ans",
+                "men": "74,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "19,2 %",
+                "fifteenToSixtyFour": "65,4 %",
+                "sixtyFivePlus": "15,4 %"
+            },
+            "dependencyRatio": "52,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "95,6 % (le pays le plus urbanisé d'Amérique du Sud)",
+            "mainMetropolises": [
+                "Montevideo (1,85 million hab. Grand Montevideo - concentre plus de la moitié de la nation)",
+                "Ciudad de la Costa (120 000 hab. - banlieue balnéaire)",
+                "Salto (110 000 hab. - 2e ville sur le fleuve Uruguay)",
+                "Punta del Este (pôle touristique et financier international de Maldonado)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Ascendance européenne (87,7 % : Espagnols, Italiens), Afro-Uruguayens (7,8 % - culture du Candombe), ascendance indigène Charrúa résiduelle (4,5 %)",
+            "languages": "Espagnol (officiel, dialecte rioplatense), Portuñol à la frontière brésilienne",
+            "religions": "Sécularisation extrême : Sans religion / agnostiques / athées (47 % - pays le plus laïque des Amériques), Catholicisme romain (41 %), Protestantisme évangélique (8 %)"
+        },
+        "development": {
+            "hdi": "0,830 (Très élevé - 52e mondial, 2e d'Amérique du Sud)",
+            "literacyRate": "98,8 %",
+            "keyChallenges": "Poids des retraites et vieillissement démographique, vulnérabilité hydrique de la métropole de Montevideo révélée par la sécheresse de 2023, compétitivité industrielle face aux géants voisins du Mercosur"
+        }
+    },
+    "PAN": {
+        "general": {
+            "population": "4,45 millions d'habitants",
+            "globalRank": "128e mondial",
+            "density": "59 hab./km²",
+            "growthRate": "+1,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,2 enfants par femme",
+            "birthRate": "17,5 ‰",
+            "deathRate": "5,4 ‰",
+            "infantMortality": "12,2 ‰",
+            "netMigration": "+1,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "30,2 ans",
+            "lifeExpectancy": {
+                "total": "78,8 ans",
+                "women": "81,9 ans",
+                "men": "75,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,5 %",
+                "fifteenToSixtyFour": "65,5 %",
+                "sixtyFivePlus": "9,0 %"
+            },
+            "dependencyRatio": "52,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "69,2 %",
+            "mainMetropolises": [
+                "Panama City (1,95 million hab. Grand Panama - skyline de gratte-ciels et hub financier)",
+                "Colón (250 000 hab. - entrée atlantique du canal et zone franche franche de Colón)",
+                "David (170 000 hab. - pôle agricole de Chiriquí)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis (65 %), Peuples indigènes reconnus en Comarcas (12,3 % : Ngäbe-Buglé, Guna Yala, Emberá-Wounaan), Noirs et Afro-Panaméens (15 %), Blancs (7 %)",
+            "languages": "Espagnol (officiel), Anglais très répandu dans la finance et le commerce maritime, langues indigènes (ngäbere, guna)",
+            "religions": "Catholicisme romain (75 %), Protestantisme évangélique (18 %)"
+        },
+        "development": {
+            "hdi": "0,820 (Très élevé - 57e mondial)",
+            "literacyRate": "95,7 %",
+            "keyChallenges": "Pénurie d'eau douce pour alimenter les écluses du Canal de Panama suite aux sécheresses d'El Niño, passage migratoire périlleux et massif de la jungle du Darién (>500 000 migrants par an), inégalités territoriales extrêmes avec les Comarcas indigènes"
+        }
+    },
+    "CRI": {
+        "general": {
+            "population": "5,22 millions d'habitants",
+            "globalRank": "124e mondial",
+            "density": "102 hab./km²",
+            "growthRate": "+0,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,4 enfant par femme (chute rapide de la natalité)",
+            "birthRate": "11,2 ‰",
+            "deathRate": "5,8 ‰",
+            "infantMortality": "7,4 ‰",
+            "netMigration": "+2,2 ‰ (refuge historique pour plus de 400 000 Nicaraguayens et Vénézuéliens)"
+        },
+        "ageStructure": {
+            "medianAge": "34,0 ans",
+            "lifeExpectancy": {
+                "total": "80,8 ans (péninsule de Nicoya classée 'Zone Bleue' mondiale de centenaires)",
+                "women": "83,4 ans",
+                "men": "78,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "20,0 %",
+                "fifteenToSixtyFour": "69,2 %",
+                "sixtyFivePlus": "10,8 %"
+            },
+            "dependencyRatio": "44,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "82,4 %",
+            "mainMetropolises": [
+                "San José (1,55 million hab. Grand Aire Métropolitaine GAM - capitale politique et tech)",
+                "Alajuela (310 000 hab. - pôle industriel et aéroport international)",
+                "Heredia (140 000 hab. - pôle universitaire)",
+                "Limón (100 000 hab. - grand port caribéen et pôle afro-costaricien)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Blancs d'origine européenne et métis (83,6 %), Immigrants nicaraguayens et résidents (9 %), Afro-Costariciens (7,8 % concentrés dans le Limón), Peuples indigènes (2,4 % : Bribri, Cabécar)",
+            "languages": "Espagnol (officiel), Créole anglais limonais (mekatelyu), bribri",
+            "religions": "Catholicisme romain (62 % - religion d'État constitutionnelle officielle), Protestantisme évangélique (22 %), Sans religion (15 %)"
+        },
+        "development": {
+            "hdi": "0,806 (Très élevé - 64e mondial)",
+            "literacyRate": "98,0 %",
+            "keyChallenges": "Déficit budgétaire public et progression des inégalités dans un modèle d'état-providence sans armée (abolie en 1948), saturation des services publics face aux flux de réfugiés nicaraguayens"
+        }
+    },
+    "GTM": {
+        "general": {
+            "population": "17,6 millions d'habitants (pays le plus peuplé d'Amérique centrale)",
+            "globalRank": "69e mondial",
+            "density": "162 hab./km²",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme",
+            "birthRate": "20,5 ‰",
+            "deathRate": "5,6 ‰",
+            "infantMortality": "18,2 ‰",
+            "netMigration": "-2,5 ‰ (flux massif de départs vers les États-Unis)"
+        },
+        "ageStructure": {
+            "medianAge": "23,5 ans (population très jeune)",
+            "lifeExpectancy": {
+                "total": "73,2 ans",
+                "women": "76,2 ans",
+                "men": "70,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "32,8 %",
+                "fifteenToSixtyFour": "61,8 %",
+                "sixtyFivePlus": "5,4 %"
+            },
+            "dependencyRatio": "61,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "52,8 %",
+            "mainMetropolises": [
+                "Guatemala City (3,1 millions hab. aire métropolitaine - capitale économique et politique)",
+                "Quetzaltenango / Xela (200 000 hab. - métropole culturelle des hautes terres mayas)",
+                "Escuintla (170 000 hab. - pôle agro-industriel de la plaine côtière pacifique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Peuples indigènes mayas (43,8 % : K'iche' 11 %, Q'eqchi' 8 %, Kaqchikel 8 %, Mam 7 %), Ladinos / Métis hispanisés (56,0 %), Garifunas afro-caribéens et Xincas (0,5 %)",
+            "languages": "Espagnol (officiel), 22 langues mayas reconnues d'État (k'iche', q'eqchi', kaqchikel, mam)",
+            "religions": "Catholicisme romain (42 %), Protestantisme évangélique (41 % - l'un des pays les plus évangéliques d'Amérique latine), Spiritualité maya traditionnelle"
+        },
+        "development": {
+            "hdi": "0,629 (Moyen - 136e mondial)",
+            "literacyRate": "83,2 % (mais <60 % chez les femmes indigènes rurales)",
+            "keyChallenges": "Sous-nutrition chronique frappant près de 50 % des enfants de moins de cinq ans (taux alarmant), corruption institutionnelle et fragilité de l'État de droit, dépendance vitale aux remesas des migrants (>19 % du PIB)"
+        }
+    },
+    "HND": {
+        "general": {
+            "population": "10,6 millions d'habitants",
+            "globalRank": "89e mondial",
+            "density": "95 hab./km²",
+            "growthRate": "+1,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme",
+            "birthRate": "20,2 ‰",
+            "deathRate": "5,2 ‰",
+            "infantMortality": "14,5 ‰",
+            "netMigration": "-3,5 ‰ (caravanes de migrants récurrentes vers le nord)"
+        },
+        "ageStructure": {
+            "medianAge": "24,5 ans",
+            "lifeExpectancy": {
+                "total": "73,4 ans",
+                "women": "75,8 ans",
+                "men": "71,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "31,0 %",
+                "fifteenToSixtyFour": "63,8 %",
+                "sixtyFivePlus": "5,2 %"
+            },
+            "dependencyRatio": "56,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "59,4 %",
+            "mainMetropolises": [
+                "Tegucigalpa (1,5 million hab. - capitale politique andine)",
+                "San Pedro Sula (1,1 million hab. - capitale économique et industrielle de la vallée de Sula)",
+                "La Ceiba (220 000 hab. - grand port caribéen)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis (90 %), Peuples indigènes (7 % : Lencas, Miskitos, Ch'orti'), Garifunas afro-indigènes de la côte nord (2 %), Blancs (1 %)",
+            "languages": "Espagnol (officiel), garifuna, miskito, anglais créole des îles de la Baie (Roatán)",
+            "religions": "Protestantisme évangélique (48 %), Catholicisme romain (41 %), Sans religion (10 %)"
+        },
+        "development": {
+            "hdi": "0,624 (Moyen - 138e mondial)",
+            "literacyRate": "88,5 %",
+            "keyChallenges": "Violence des gangs (maras MS-13 et Barrio 18), vulnérabilité extrême aux ouragans tropicaux (catastrophe récurrente après Mitch et Eta/Iota), pauvreté touchant plus de 60 % de la population"
+        }
+    },
+    "SLV": {
+        "general": {
+            "population": "6,36 millions d'habitants",
+            "globalRank": "110e mondial",
+            "density": "308 hab./km² (le pays le plus densément peuplé du continent américain)",
+            "growthRate": "+0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "15,8 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "11,2 ‰",
+            "netMigration": "-4,2 ‰ (immense communauté de plus de 2,5 millions de Salvadoriens aux USA)"
+        },
+        "ageStructure": {
+            "medianAge": "28,2 ans",
+            "lifeExpectancy": {
+                "total": "73,6 ans",
+                "women": "77,8 ans",
+                "men": "69,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,8 %",
+                "fifteenToSixtyFour": "65,4 %",
+                "sixtyFivePlus": "8,8 %"
+            },
+            "dependencyRatio": "52,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "74,2 %",
+            "mainMetropolises": [
+                "San Salvador (1,85 million hab. aire métropolitaine AMSS - capitale politique et économique)",
+                "Santa Ana (280 000 hab. - pôle caféier de l'ouest)",
+                "San Miguel (230 000 hab. - pôle commercial de l'est)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis (86,3 %), Blancs d'ascendance européenne (12,7 %), Minorités indigènes Nahua-Pipil résiduelles (1,0 % suite au massacre de 1932 La Matanza)",
+            "languages": "Espagnol (officiel et universel), nawat pipil (en voie de revitalisation)",
+            "religions": "Catholicisme romain (43 %), Protestantisme évangélique (40 % - en voie de devenir majoritaire), Sans religion (15 %)"
+        },
+        "development": {
+            "hdi": "0,674 (Moyen - 127e mondial)",
+            "literacyRate": "89,1 %",
+            "keyChallenges": "Pérennité du modèle sécuritaire de masse du président Bukele (incarcération de plus de 75 000 membres présumés de gangs dans le CECOT), adoption controversée du Bitcoin comme monnaie légale, dépendance absolue aux remises migratoires (~24 % du PIB)"
+        }
+    },
+    "NIC": {
+        "general": {
+            "population": "6,95 millions d'habitants",
+            "globalRank": "109e mondial",
+            "density": "53 hab./km²",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme",
+            "birthRate": "19,2 ‰",
+            "deathRate": "5,1 ‰",
+            "infantMortality": "13,8 ‰",
+            "netMigration": "-3,0 ‰ (exode massif vers le Costa Rica et les USA suite aux répressions politiques)"
+        },
+        "ageStructure": {
+            "medianAge": "26,5 ans",
+            "lifeExpectancy": {
+                "total": "74,8 ans",
+                "women": "77,8 ans",
+                "men": "71,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "28,5 %",
+                "fifteenToSixtyFour": "65,5 %",
+                "sixtyFivePlus": "6,0 %"
+            },
+            "dependencyRatio": "52,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "59,8 %",
+            "mainMetropolises": [
+                "Managua (1,4 million hab. - capitale au bord du lac Xolotlán)",
+                "León (215 000 hab. - capitale intellectuelle et historique libérale)",
+                "Chinandega (140 000 hab. - pôle agro-industriel sucrier)",
+                "Matagalpa (165 000 hab. - capitale caféière du nord)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis (69 %), Blancs d'origine européenne (17 %), Noirs et Créoles (9 % sur la côte caraïbe), Peuples indigènes (5 % : Miskitos, Mayangnas, Ramas)",
+            "languages": "Espagnol (officiel), langues indigènes de la côte caribéenne (miskito, sumo/mayangna, créole anglais)",
+            "religions": "Catholicisme romain (50 % - cible de persécutions étatiques du régime Ortega), Évangélisme protestant (36 %), Sans religion (13 %)"
+        },
+        "development": {
+            "hdi": "0,669 (Moyen - 130e mondial)",
+            "literacyRate": "82,6 %",
+            "keyChallenges": "Dérive autoritaire et isolement diplomatique sous le régime Ortega-Murillo (fermeture de milliers d'ONG et universités), fuite des cerveaux, vulnérabilité aux aléas climatiques tropicaux"
+        }
+    },
+    "BLZ": {
+        "general": {
+            "population": "405 000 habitants",
+            "globalRank": "177e mondial",
+            "density": "18 hab./km² (l'une des densités les plus faibles d'Amérique centrale)",
+            "growthRate": "+1,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme",
+            "birthRate": "19,5 ‰",
+            "deathRate": "5,4 ‰",
+            "infantMortality": "11,5 ‰",
+            "netMigration": "+1,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "26,0 ans",
+            "lifeExpectancy": {
+                "total": "74,8 ans",
+                "women": "78,0 ans",
+                "men": "71,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "29,5 %",
+                "fifteenToSixtyFour": "65,2 %",
+                "sixtyFivePlus": "5,3 %"
+            },
+            "dependencyRatio": "53,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "46,2 %",
+            "mainMetropolises": [
+                "Belize City (70 000 hab. - capitale économique et port historique)",
+                "San Ignacio (25 000 hab. - pôle touristique de l'ouest)",
+                "Belmopan (25 000 hab. - capitale administrative construite à l'intérieur des terres après l'ouragan Hattie)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis hispanophones (52,9 %), Créoles afro-descendants (25,9 %), Mayas autochtones (11,3 % : Q'eqchi', Mopan, Yucatèques), Garifunas (6,1 %), Mennonites germanophones (3,6 %)",
+            "languages": "Anglais (officiel, seul pays anglophone d'Amérique centrale), Espagnol (parlé par 56 %), Kriol bélizien (lingua franca)",
+            "religions": "Catholicisme romain (40 %), Protestantisme (31 % pentecôtistes, adventistes, anglicans, mennonites), Sans religion (15 %)"
+        },
+        "development": {
+            "hdi": "0,700 (Élevé - 118e mondial)",
+            "literacyRate": "88,9 %",
+            "keyChallenges": "Différend frontalier historique avec le Guatemala (revendiquant la moitié du territoire, porté devant la CIJ), protection de la barrière de corail du Bélize face au réchauffement, transition hors de la dette souveraine"
+        }
+    },
+    "DOM": {
+        "general": {
+            "population": "10,8 millions d'habitants",
+            "globalRank": "87e mondial",
+            "density": "223 hab./km²",
+            "growthRate": "+0,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,2 enfants par femme",
+            "birthRate": "17,8 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "22,5 ‰",
+            "netMigration": "-2,5 ‰ (forte émigration vers New York, compensée par l'immigration haïtienne)"
+        },
+        "ageStructure": {
+            "medianAge": "28,5 ans",
+            "lifeExpectancy": {
+                "total": "74,4 ans",
+                "women": "77,8 ans",
+                "men": "71,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "27,2 %",
+                "fifteenToSixtyFour": "65,2 %",
+                "sixtyFivePlus": "7,6 %"
+            },
+            "dependencyRatio": "53,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "83,2 %",
+            "mainMetropolises": [
+                "Saint-Domingue / Santo Domingo (3,5 millions hab. aire métropolitaine - 1re cité espagnole du Nouveau Monde)",
+                "Santiago de los Caballeros (1,2 million hab. - cœur industriel et tabacolier de la vallée du Cibao)",
+                "Punta Cana / Bavaro (pôle hôtelier mondial majeur)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Métis et mulâtres / Indios (70,4 %), Noirs d'ascendance africaine (15,8 %), Blancs d'origine européenne (13,5 %), résidents et travailleurs haïtiens (~500 000 à 1 million)",
+            "languages": "Espagnol (officiel et universel)",
+            "religions": "Catholicisme romain (65 %), Protestantisme évangélique (22 %), Sans religion (12 %)"
+        },
+        "development": {
+            "hdi": "0,766 (Élevé - 82e mondial)",
+            "literacyRate": "93,8 %",
+            "keyChallenges": "Tensions frontalières aiguës et politique de rapatriement massif vis-à-vis d'Haïti en crise, dépendance au tourisme international et à la logistique des zones franches, modernisation du réseau électrique"
+        }
+    },
+    "HTI": {
+        "general": {
+            "population": "11,7 millions d'habitants",
+            "globalRank": "83e mondial",
+            "density": "422 hab./km²",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,7 enfants par femme",
+            "birthRate": "22,5 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "48,0 ‰ (la plus élevée des Amériques)",
+            "netMigration": "-3,5 ‰ (exode massif par mer et terre)"
+        },
+        "ageStructure": {
+            "medianAge": "24,5 ans",
+            "lifeExpectancy": {
+                "total": "64,2 ans (la plus faible de l'hémisphère ouest)",
+                "women": "66,8 ans",
+                "men": "61,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "32,0 %",
+                "fifteenToSixtyFour": "63,2 %",
+                "sixtyFivePlus": "4,8 %"
+            },
+            "dependencyRatio": "58,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "59,0 %",
+            "mainMetropolises": [
+                "Port-au-Prince (2,9 millions hab. aire métropolitaine - capitale sous le contrôle quasi total des gangs armés)",
+                "Cap-Haïtien (300 000 hab. - pôle historique du nord)",
+                "Les Cayes (150 000 hab. - pôle du sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants (95 % - 1re République noire indépendante en 1804), Mulâtres et minorités européennes/arabes (5 %)",
+            "languages": "Créole haïtien / Kreyòl ayisyen (officiel, parlé par 100 %) et Français (officiel, maîtrisé par les élites éduquées ~10 %)",
+            "religions": "Catholicisme romain (55 %), Protestantisme évangélique (35 %), Vaudou haïtien (religion traditionnelle ancestrale coexistant avec le christianisme)"
+        },
+        "development": {
+            "hdi": "0,552 (Faible - 158e mondial, lanterne rouge des Amériques)",
+            "literacyRate": "61,7 %",
+            "keyChallenges": "Effondrement total de l'État et de la sécurité publique (emprise des coalitions de gangs Viv Ansanm à Port-au-Prince), faim aiguë touchant la moitié de la population, déploiement de la mission multinationale MSS menée par le Kenya"
+        }
+    },
+    "JAM": {
+        "general": {
+            "population": "2,83 millions d'habitants",
+            "globalRank": "140e mondial",
+            "density": "260 hab./km²",
+            "growthRate": "+0,2 % par an (stagnation sous forte émigration)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,9 enfant par femme",
+            "birthRate": "15,2 ‰",
+            "deathRate": "7,5 ‰",
+            "infantMortality": "11,8 ‰",
+            "netMigration": "-5,5 ‰ (diaspora géante à Londres, Toronto, New York)"
+        },
+        "ageStructure": {
+            "medianAge": "31,4 ans",
+            "lifeExpectancy": {
+                "total": "74,8 ans",
+                "women": "77,2 ans",
+                "men": "72,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "24,0 %",
+                "fifteenToSixtyFour": "66,5 %",
+                "sixtyFivePlus": "9,5 %"
+            },
+            "dependencyRatio": "50,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "56,5 %",
+            "mainMetropolises": [
+                "Kingston (670 000 hab. Grand Kingston - capitale culturelle du reggae et hub portuaire)",
+                "Montego Bay (120 000 hab. - capitale touristique du nord-ouest)",
+                "Spanish Town (160 000 hab. - ancienne capitale historique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants noirs (92,1 %), Métis (6,1 %), Indiens est-indiens (0,8 %), Chinois (0,4 %), Européens",
+            "languages": "Anglais (officiel), Patois jamaïcain / Patwa (créole à base anglaise d'usage universel)",
+            "religions": "Protestantisme (64,8 % : adventistes, pentecôtistes, baptistes, anglicans), Mouvement Rastafari (symbolique et culturellement mondial), Catholicisme (2 %), Sans religion (21 %)"
+        },
+        "development": {
+            "hdi": "0,706 (Élevé - 116e mondial)",
+            "literacyRate": "88,7 %",
+            "keyChallenges": "Taux d'homicide élevé lié aux guerres de gangs à Kingston et Montego Bay, vulnérabilité extrême aux chocs d'ouragans caribéens, transition institutionnelle vers une république (abolition de la monarchie britannique)"
+        }
+    },
+    "TTO": {
+        "general": {
+            "population": "1,53 million d'habitants",
+            "globalRank": "154e mondial",
+            "density": "298 hab./km²",
+            "growthRate": "+0,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme",
+            "birthRate": "11,8 ‰",
+            "deathRate": "8,2 ‰",
+            "infantMortality": "13,5 ‰",
+            "netMigration": "-0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "36,8 ans",
+            "lifeExpectancy": {
+                "total": "74,5 ans",
+                "women": "77,5 ans",
+                "men": "71,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "18,5 %",
+                "fifteenToSixtyFour": "68,5 %",
+                "sixtyFivePlus": "13,0 %"
+            },
+            "dependencyRatio": "46,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,2 %",
+            "mainMetropolises": [
+                "Port-d'Espagne / Port of Spain (540 000 hab. conurbation métropolitaine - capitale et pôle pétrolier)",
+                "San Fernando (80 000 hab. - cœur industriel du sud et pôle raffinage)",
+                "Chaguanas (90 000 hab. - métropole commerciale centrale la plus peuplée)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Indo-Trinidadiens (35,4 % - descendants d'engagés indiens), Afro-Trinidadiens (34,2 %), Métis / Dougla afro-indiens (22,8 %), Européens, Chinois, Arabes syro-libanais",
+            "languages": "Anglais (officiel), Créole trinidadien à base anglaise, Créole tobagonien, hindi caribéen résiduel",
+            "religions": "Christianisme (63,4 % : catholiques 21 %, pentecôtistes 12 %, anglicans), Hindouisme (18,1 %), Islam (5,0 %)"
+        },
+        "development": {
+            "hdi": "0,814 (Très élevé - 60e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Dépendance économique absolue aux cours mondiaux du pétrole et du GNL de Point Fortin, tensions interethniques entre communautés indienne et africaine, criminalité liée aux trafics caribéens"
+        }
+    },
+    "BHS": {
+        "general": {
+            "population": "410 000 habitants",
+            "globalRank": "176e mondial",
+            "density": "40 hab./km²",
+            "growthRate": "+0,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,7 enfant par femme",
+            "birthRate": "13,5 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "9,2 ‰",
+            "netMigration": "+2,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "33,0 ans",
+            "lifeExpectancy": {
+                "total": "74,4 ans",
+                "women": "77,2 ans",
+                "men": "71,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "20,5 %",
+                "fifteenToSixtyFour": "70,0 %",
+                "sixtyFivePlus": "9,5 %"
+            },
+            "dependencyRatio": "42,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "83,4 %",
+            "mainMetropolises": [
+                "Nassau (280 000 hab. sur l'île de New Providence - capitale concentrant 70 % du pays)",
+                "Freeport (45 000 hab. sur l'île de Grand Bahama - zone franche et port de croisière)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-Bahaméens (90,6 %), Blancs d'origine britannique et loyaliste américaine (4,7 %), Métis (2,1 %), minorité haïtienne",
+            "languages": "Anglais (officiel), Créole bahaméen, créole haïtien",
+            "religions": "Protestantisme (70 % : baptistes 35 %, anglicans 14 %, pentecôtistes 9 %), Catholicisme (12 %)"
+        },
+        "development": {
+            "hdi": "0,820 (Très élevé - 57e mondial)",
+            "literacyRate": "95,6 %",
+            "keyChallenges": "Vulnérabilité dévastatrice aux ouragans de catégorie 5 (mémoire du monstre Dorian en 2019 à Abaco), dépendance totale au tourisme américain et à la finance offshore, élévation du niveau marin sur les îles basses"
+        }
+    },
+    "BRB": {
+        "general": {
+            "population": "282 000 habitants",
+            "globalRank": "182e mondial",
+            "density": "660 hab./km² (l'une des îles les plus denses des Caraïbes)",
+            "growthRate": "+0,15 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme",
+            "birthRate": "10,2 ‰",
+            "deathRate": "9,8 ‰",
+            "infantMortality": "8,5 ‰",
+            "netMigration": "+1,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "39,5 ans (population avancée en âge)",
+            "lifeExpectancy": {
+                "total": "77,8 ans",
+                "women": "80,2 ans",
+                "men": "75,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "17,2 %",
+                "fifteenToSixtyFour": "66,8 %",
+                "sixtyFivePlus": "16,0 %"
+            },
+            "dependencyRatio": "49,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "31,2 % (fort habitat linéaire périurbain dense)",
+            "mainMetropolises": [
+                "Bridgetown (110 000 hab. agglomération métropolitaine - capitale historique et port)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-Barbadiens / Bajans (92,4 %), Métis (3,1 %), Blancs (2,7 %), Sud-Asiatiques (1,3 %)",
+            "languages": "Anglais (officiel), Créole bajan",
+            "religions": "Protestantisme (66,4 % : anglicans 24 %, pentecôtistes 18 %, adventistes), Sans religion (21 %), Catholicisme (4 %)"
+        },
+        "development": {
+            "hdi": "0,809 (Très élevé - 62e mondial)",
+            "literacyRate": "99,6 %",
+            "keyChallenges": "Leadership mondial de la Première ministre Mia Mottley pour l'Initiative de Bridgetown réformant l'architecture financière climatique internationale (Banque Mondiale/FMI), endettement public"
+        }
+    },
+    "GUY": {
+        "general": {
+            "population": "815 000 habitants",
+            "globalRank": "164e mondial",
+            "density": "3,8 hab./km² (90 % de la population sur la bande côtière)",
+            "growthRate": "+0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,4 enfants par femme",
+            "birthRate": "18,8 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "22,0 ‰",
+            "netMigration": "-5,0 ‰ (historiquement forte diaspora aux USA et Canada, en ralentissement avec le boom pétrolier)"
+        },
+        "ageStructure": {
+            "medianAge": "27,2 ans",
+            "lifeExpectancy": {
+                "total": "70,2 ans",
+                "women": "73,4 ans",
+                "men": "67,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "27,5 %",
+                "fifteenToSixtyFour": "66,0 %",
+                "sixtyFivePlus": "6,5 %"
+            },
+            "dependencyRatio": "51,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "27,0 %",
+            "mainMetropolises": [
+                "Georgetown (240 000 hab. - capitale côtière et siège du Secrétariat de la CARICOM)",
+                "Linden (45 000 hab. - pôle d'extraction de bauxite)",
+                "New Amsterdam (35 000 hab. - pôle agricole du Berbice)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Indo-Guyanais (39,8 % - descendants d'engagés indiens), Afro-Guyanais (29,3 %), Métis (19,9 %), Peuples amérindiens autochtones (10,5 % : Lokonos, Wapishanas, Macushis)",
+            "languages": "Anglais (officiel, seul pays anglophone d'Amérique du Sud), Créole guyanais, langues amérindiennes",
+            "religions": "Christianisme (64 % : pentecôtistes, catholiques, anglicans), Hindouisme (25 %), Islam (7 %)"
+        },
+        "development": {
+            "hdi": "0,742 (Élevé - 95e mondial)",
+            "literacyRate": "88,5 %",
+            "keyChallenges": "Gestion du boom pétrolier le plus explosif au monde (croissance du PIB >30-60 % par an avec ExxonMobil), menaces d'annexion territoriale de la région de l'Essequibo par le Venezuela de Maduro"
+        }
+    },
+    "SUR": {
+        "general": {
+            "population": "620 000 habitants",
+            "globalRank": "171e mondial",
+            "density": "3,8 hab./km²",
+            "growthRate": "+0,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme",
+            "birthRate": "17,5 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "15,5 ‰",
+            "netMigration": "-1,5 ‰ (plus de 350 000 Surinamais résidant aux Pays-Bas)"
+        },
+        "ageStructure": {
+            "medianAge": "29,5 ans",
+            "lifeExpectancy": {
+                "total": "73,2 ans",
+                "women": "76,5 ans",
+                "men": "70,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,8 %",
+                "fifteenToSixtyFour": "67,0 %",
+                "sixtyFivePlus": "7,2 %"
+            },
+            "dependencyRatio": "49,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "66,2 %",
+            "mainMetropolises": [
+                "Paramaribo (240 000 hab. - capitale historique coloniale en bois classée à l'UNESCO, abritant la moitié de la nation)",
+                "Lelydorp (20 000 hab. - 2e pôle)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Mosaïque plurielle : Hindoustanis / Indo-Surinamais (27,4 %), Marrons descendants d'esclaves marrons de l'intérieur (21,7 % : Saramacas, Ndjuka), Créoles afro-descendants (15,7 %), Javanais (13,7 %), Métis (13,4 %), Chinois (7,3 %), Amérindiens (3,8 % : Kali'na, Lokono)",
+            "languages": "Néerlandais (officiel, seul pays néerlandophone d'Amérique du Sud), Sranan Tongo (créole véhiculaire universel), sarnami hindoustani, javanais surinamais",
+            "religions": "Christianisme (48,4 % : protestants et catholiques), Hindouisme (22,3 %), Islam (13,9 %)"
+        },
+        "development": {
+            "hdi": "0,690 (Moyen - 124e mondial)",
+            "literacyRate": "95,6 %",
+            "keyChallenges": "Redressement économique sous programme FMI après la crise de la dette souveraine, préparation de l'exploitation pétrolière offshore géante du bloc 58, préservation de la forêt amazonienne (couvrant 93 % du pays)"
+        }
+    },
+    "LCA": {
+        "general": {
+            "population": "180 000 habitants",
+            "globalRank": "189e mondial",
+            "density": "295 hab./km²",
+            "growthRate": "+0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,4 enfant par femme",
+            "birthRate": "11,5 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "11,2 ‰",
+            "netMigration": "+0,3 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "35,2 ans",
+            "lifeExpectancy": {
+                "total": "74,5 ans",
+                "women": "77,4 ans",
+                "men": "71,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "18,5 %",
+                "fifteenToSixtyFour": "71,0 %",
+                "sixtyFivePlus": "10,5 %"
+            },
+            "dependencyRatio": "40,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "19,0 % (habitat très dispersé)",
+            "mainMetropolises": [
+                "Castries (70 000 hab. agglomération - capitale et port)",
+                "Vieux Fort (20 000 hab. - pôle du sud et aéroport international Hewanorra)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants noirs (85,3 %), Métis (10,8 %), Indo-Caribéens (2,2 %), Européens",
+            "languages": "Anglais (officiel), Kwéyòl / Créole sainte-lucien à base lexicale française (parlé par 75 %)",
+            "religions": "Catholicisme romain (61,5 %), Protestantisme (25,5 % : adventistes, pentecôtistes), Sans religion (6 %)"
+        },
+        "development": {
+            "hdi": "0,725 (Élevé - 108e mondial)",
+            "literacyRate": "90,1 %",
+            "keyChallenges": "Vulnérabilité aux tempêtes tropicales et montée des eaux, dépendance au tourisme balnéaire haut de gamme, chômage des jeunes"
+        }
+    },
+    "VCT": {
+        "general": {
+            "population": "104 000 habitants",
+            "globalRank": "194e mondial",
+            "density": "267 hab./km²",
+            "growthRate": "-0,2 % par an (impact de l'éruption de la Soufrière en 2021)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "13,2 ‰",
+            "deathRate": "7,9 ‰",
+            "infantMortality": "13,0 ‰",
+            "netMigration": "-7,3 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "33,8 ans",
+            "lifeExpectancy": {
+                "total": "73,2 ans",
+                "women": "75,8 ans",
+                "men": "70,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "21,5 %",
+                "fifteenToSixtyFour": "68,0 %",
+                "sixtyFivePlus": "10,5 %"
+            },
+            "dependencyRatio": "47,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,5 %",
+            "mainMetropolises": [
+                "Kingstown (25 000 hab. - capitale portuaire)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants (66 %), Métis (19 %), Indiens d'Inde (6 %), Européens, Caraïbes noirs indigènes Garifunas résiduels",
+            "languages": "Anglais (officiel), Créole vincentien",
+            "religions": "Protestantisme (75 % : anglicans, méthodistes, adventistes), Catholicisme (13 %)"
+        },
+        "development": {
+            "hdi": "0,772 (Élevé - 81e mondial)",
+            "literacyRate": "96,0 %",
+            "keyChallenges": "Reconstruction post-éruption volcanique de La Soufrière (avril 2021) et dévastation causée par l'ouragan Béryl (juillet 2024 sur les îles Grenadines d'Union et Canouan)"
+        }
+    },
+    "GRD": {
+        "general": {
+            "population": "125 000 habitants",
+            "globalRank": "191e mondial",
+            "density": "363 hab./km²",
+            "growthRate": "+0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme",
+            "birthRate": "14,5 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "12,8 ‰",
+            "netMigration": "-1,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "33,2 ans",
+            "lifeExpectancy": {
+                "total": "75,2 ans",
+                "women": "78,0 ans",
+                "men": "72,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "23,0 %",
+                "fifteenToSixtyFour": "67,5 %",
+                "sixtyFivePlus": "9,5 %"
+            },
+            "dependencyRatio": "48,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "36,8 %",
+            "mainMetropolises": [
+                "Saint-Georges / St. George's (35 000 hab. - capitale portuaire en fer à cheval)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants (82,4 %), Métis (13,3 %), Indiens (2,2 %)",
+            "languages": "Anglais (officiel), Créole grenadien",
+            "religions": "Catholicisme romain (44,6 %), Protestantisme (43,5 % : anglicans, pentecôtistes, adventistes)"
+        },
+        "development": {
+            "hdi": "0,793 (Élevé - 73e mondial)",
+            "literacyRate": "98,6 %",
+            "keyChallenges": "Destructions catastrophiques subies lors du passage de l'ouragan Béryl en 2024 sur l'île de Carriacou, diversification agricole (noix de muscade - 'l'île aux épices')"
+        }
+    },
+    "ATG": {
+        "general": {
+            "population": "94 000 habitants",
+            "globalRank": "196e mondial",
+            "density": "213 hab./km²",
+            "growthRate": "+0,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme",
+            "birthRate": "12,8 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "9,8 ‰",
+            "netMigration": "+0,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "32,8 ans",
+            "lifeExpectancy": {
+                "total": "78,5 ans",
+                "women": "81,0 ans",
+                "men": "76,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "21,5 %",
+                "fifteenToSixtyFour": "69,0 %",
+                "sixtyFivePlus": "9,5 %"
+            },
+            "dependencyRatio": "44,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "24,5 %",
+            "mainMetropolises": [
+                "Saint John's (25 000 hab. - capitale et terminal de croisières)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants (87,3 %), Métis (4,7 %), Hispaniques (2,7 %), Blancs (1,6 %)",
+            "languages": "Anglais (officiel), Créole antiguais",
+            "religions": "Protestantisme (68,3 % : anglicans 17 %, adventistes 12 %, pentecôtistes 12 %), Catholicisme (8,2 %)"
+        },
+        "development": {
+            "hdi": "0,826 (Très élevé - 54e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Reconstruction intégrale de l'île de Barbuda post-ouragan Irma, stress hydrique sévère nécessitant une désalinisation totale de l'eau potable, citoyenneté par investissement"
+        }
+    },
+    "DMA": {
+        "general": {
+            "population": "73 000 habitants",
+            "globalRank": "200e mondial",
+            "density": "97 hab./km²",
+            "growthRate": "+0,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,9 enfant par femme",
+            "birthRate": "13,8 ‰",
+            "deathRate": "8,2 ‰",
+            "infantMortality": "10,5 ‰",
+            "netMigration": "-2,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "35,0 ans",
+            "lifeExpectancy": {
+                "total": "78,2 ans",
+                "women": "81,2 ans",
+                "men": "75,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "20,5 %",
+                "fifteenToSixtyFour": "67,5 %",
+                "sixtyFivePlus": "12,0 %"
+            },
+            "dependencyRatio": "48,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "71,5 %",
+            "mainMetropolises": [
+                "Roseau (15 000 hab. - capitale nichée entre mer et volcans)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants (86,6 %), Métis (8,9 %), Kalinagos / Caraïbes autochtones (3,0 % - seul territoire autonome indigène préservé de toutes les Petites Antilles : le Territoire Kalinago)",
+            "languages": "Anglais (officiel), Créole dominiquais / Kwéyòl (langue vernaculaire française)",
+            "religions": "Catholicisme romain (61,4 %), Protestantisme (28,6 % : évangéliques, adventistes)"
+        },
+        "development": {
+            "hdi": "0,740 (Élevé - 97e mondial)",
+            "literacyRate": "94,0 %",
+            "keyChallenges": "Objectif de devenir la 1re nation 100 % résiliente au climat au monde après la dévastation de l'ouragan Maria (2017), énergie géothermique, protection du peuple Kalinago"
+        }
+    },
+    "KNA": {
+        "general": {
+            "population": "48 000 habitants (le plus petit État souverain des Amériques)",
+            "globalRank": "207e mondial",
+            "density": "184 hab./km²",
+            "growthRate": "+0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,7 enfant par femme",
+            "birthRate": "12,2 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "8,2 ‰",
+            "netMigration": "+1,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "36,5 ans",
+            "lifeExpectancy": {
+                "total": "76,8 ans",
+                "women": "79,5 ans",
+                "men": "74,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "19,5 %",
+                "fifteenToSixtyFour": "71,0 %",
+                "sixtyFivePlus": "9,5 %"
+            },
+            "dependencyRatio": "40,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "31,0 %",
+            "mainMetropolises": [
+                "Basseterre (14 000 hab. - capitale portuaire sur l'île de Saint-Kitts)",
+                "Charlestown (1 500 hab. - capitale de l'île de Niévès)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Afro-descendants (92,5 %), Métis (3,0 %), Blancs (2,1 %), Indiens (1,5 %)",
+            "languages": "Anglais (officiel), Créole christophien",
+            "religions": "Protestantisme (74 % : anglicans 16 %, méthodistes, pentecôtistes), Catholicisme (6 %)"
+        },
+        "development": {
+            "hdi": "0,838 (Très élevé - 51e mondial)",
+            "literacyRate": "97,8 %",
+            "keyChallenges": "Pionnier mondial du programme de Citoyenneté par Investissement (CBI) sous surveillance accrue de l'UE et des USA, équilibre politique fédéral délicat entre les îles de Saint-Kitts et Niévès"
+        }
+    },
+    "GRL": {
+        "general": {
+            "population": "56 600 habitants",
+            "globalRank": "205e mondial",
+            "density": "0,03 hab./km² (le territoire le moins densément peuplé du globe, inlandsis couvrant 81 % de l'île)",
+            "growthRate": "+0,1 % par an (stabilité démographique)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme",
+            "birthRate": "14,2 ‰",
+            "deathRate": "9,1 ‰",
+            "infantMortality": "7,8 ‰",
+            "netMigration": "-4,5 ‰ (départ régulier de jeunes vers le Danemark continental pour les études supérieures)"
+        },
+        "ageStructure": {
+            "medianAge": "34,2 ans",
+            "lifeExpectancy": {
+                "total": "71,8 ans",
+                "women": "74,2 ans",
+                "men": "69,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "20,5 %",
+                "fifteenToSixtyFour": "70,2 %",
+                "sixtyFivePlus": "9,3 %"
+            },
+            "dependencyRatio": "42,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "87,5 % (concentrée dans les ports de la côte ouest libre de glaces)",
+            "mainMetropolises": [
+                "Nuuk / Godthåb (19 800 hab. - capitale autonome concentrant plus du tiers des Groenlandais)",
+                "Sisimiut (5 600 hab. - 2e ville et pôle de pêche)",
+                "Ilulissat (4 800 hab. - fjord glacé classé à l'UNESCO et pôle touristique)",
+                "Qaqortoq (3 100 hab. - métropole du sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Inuits groenlandais / Kalaallit (89,5 %), Danois et Européens (10,5 %)",
+            "languages": "Groenlandais / Kalaallisut (officiel unique depuis 2009, langue eskimo-aléoute), Danois (langue administrative et d'enseignement supérieur), Anglais",
+            "religions": "Christianisme protestant luthérien (95 % - Église évangélique luthérienne du Danemark), Traditions chamaniques inuites ancestrales"
+        },
+        "development": {
+            "hdi": "0,868 (Très élevé - équivalent au rang mondial danois)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Émancipation et indépendance vis-à-vis du Danemark (subvention annuelle d'environ 500M$ de bloc grant), convoitises géopolitiques mondiales sur les terres rares et la fonte de la calotte glaciaire arctique, taux de suicide des jeunes dramatiquement élevé"
+        }
+    }
+}

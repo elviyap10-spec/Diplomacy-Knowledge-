@@ -468,6 +468,60 @@ h1 span {
 
 /* FOOTER */
 
+/* PANEL TABS — POLITIQUE / ÉCONOMIE */
+.panel-tabs {
+    display: flex;
+    gap: 8px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.panel-tab {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #8ea6ba;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: inherit;
+    padding: 8px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.panel-tab:hover {
+    color: #edf3f8;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.panel-tab.active {
+    background: #D9AF5E;
+    color: #07111f;
+    box-shadow: 0 2px 10px rgba(217, 175, 94, 0.3);
+}
+
+.eco-badge {
+    display: inline-block;
+    background: rgba(217, 175, 94, 0.12);
+    border: 1px solid rgba(217, 175, 94, 0.35);
+    color: #D9AF5E;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin: 3px 4px 3px 0;
+}
+
 footer {
     max-width: 1400px;
 

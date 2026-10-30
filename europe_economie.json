@@ -1,0 +1,2098 @@
+{
+    "DEU": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Deutsche Bundesbank / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "4 456 milliards USD",
+            "gdpPerCapita": "52 800 USD",
+            "globalRank": "3e mondial (1er en Europe)",
+            "growth": "-0,3 %",
+            "inflation": "2,4 %"
+        },
+        "structure": {
+            "services": "69 %",
+            "industry": "30 %",
+            "agriculture": "1 %",
+            "mainSectors": "Automobile, machines-outils (Mittelstand), chimie-pharmacie, électrotechnique"
+        },
+        "trade": {
+            "mainExports": "Véhicules et pièces automobiles, machines industrielles, produits chimiques, électronique",
+            "mainImports": "Machines, données & équipements électriques, véhicules, métaux, énergie",
+            "topPartners": [
+                "États-Unis",
+                "France",
+                "Chine",
+                "Pays-Bas",
+                "Pologne"
+            ],
+            "tradeBalance": "Excédentaire (+5,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "63,6 % du PIB",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "G7",
+            "G20"
+        ]
+    },
+    "FRA": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque de France / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "3 030 milliards USD",
+            "gdpPerCapita": "44 500 USD",
+            "globalRank": "7e mondial (2e en Europe)",
+            "growth": "+0,9 %",
+            "inflation": "2,3 %"
+        },
+        "structure": {
+            "services": "79 %",
+            "industry": "19 %",
+            "agriculture": "2 %",
+            "mainSectors": "Aéronautique & spatial, industrie du luxe, agroalimentaire & vins, pharmacie, énergie nucléaire"
+        },
+        "trade": {
+            "mainExports": "Aéronefs et composants, vins et spiritueux, médicaments, cosmétiques, véhicules",
+            "mainImports": "Hydrocarbures et gaz, machines industrielles, électronique, biens de consommation",
+            "topPartners": [
+                "Allemagne",
+                "Italie",
+                "États-Unis",
+                "Espagne",
+                "Belgique"
+            ],
+            "tradeBalance": "Déficitaire (-2,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "111,2 % du PIB",
+            "budgetBalance": "-5,5 % du PIB",
+            "sovereignRating": "AA- (S&P) / Aa2 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "G7",
+            "G20"
+        ]
+    },
+    "GBR": {
+        "currency": {
+            "name": "Livre sterling",
+            "code": "GBP",
+            "symbol": "£",
+            "centralBank": "Banque d'Angleterre (Bank of England)"
+        },
+        "macro": {
+            "gdpNominal": "3 340 milliards USD",
+            "gdpPerCapita": "49 000 USD",
+            "globalRank": "6e mondial (3e en Europe)",
+            "growth": "+0,5 %",
+            "inflation": "2,6 %"
+        },
+        "structure": {
+            "services": "81 %",
+            "industry": "18 %",
+            "agriculture": "1 %",
+            "mainSectors": "Services financiers & bancaires (City de Londres), industrie pharmaceutique, aéronautique, tech & industries créatives"
+        },
+        "trade": {
+            "mainExports": "Services financiers & d'assurance, machines et turbines, véhicules, pharmacie, pétrole brut",
+            "mainImports": "Machines industrielles, véhicules, métaux précieux, carburants, électronique",
+            "topPartners": [
+                "États-Unis",
+                "Allemagne",
+                "Pays-Bas",
+                "Irlande",
+                "France"
+            ],
+            "tradeBalance": "Déficitaire (-3,3 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "98,0 % du PIB",
+            "budgetBalance": "-4,4 % du PIB",
+            "sovereignRating": "AA (S&P) / Aa3 (Moody's)"
+        },
+        "organizations": [
+            "OMC",
+            "OCDE",
+            "G7",
+            "G20",
+            "Commonwealth",
+            "CPTPP"
+        ]
+    },
+    "ITA": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banca d'Italia / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "2 250 milliards USD",
+            "gdpPerCapita": "38 200 USD",
+            "globalRank": "8e mondial (4e en Europe)",
+            "growth": "+0,7 %",
+            "inflation": "1,2 %"
+        },
+        "structure": {
+            "services": "73 %",
+            "industry": "25 %",
+            "agriculture": "2 %",
+            "mainSectors": "Mécanique de précision & outillage, mode & maroquinerie de luxe, automobile & motocycles, agroalimentaire de qualité"
+        },
+        "trade": {
+            "mainExports": "Machines mécaniques, médicaments, vêtements et maroquinerie, véhicules de tourisme, métallurgie",
+            "mainImports": "Pétrole brut & gaz naturel, produits chimiques, véhicules, métaux",
+            "topPartners": [
+                "Allemagne",
+                "États-Unis",
+                "France",
+                "Espagne",
+                "Suisse"
+            ],
+            "tradeBalance": "Excédentaire (+1,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "137,3 % du PIB",
+            "budgetBalance": "-7,4 % du PIB",
+            "sovereignRating": "BBB (S&P) / Baa3 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "G7",
+            "G20"
+        ]
+    },
+    "RUS": {
+        "currency": {
+            "name": "Rouble russe",
+            "code": "RUB",
+            "symbol": "₽",
+            "centralBank": "Banque centrale de la Fédération de Russie"
+        },
+        "macro": {
+            "gdpNominal": "2 020 milliards USD",
+            "gdpPerCapita": "14 000 USD",
+            "globalRank": "11e mondial",
+            "growth": "+3,6 %",
+            "inflation": "7,5 %"
+        },
+        "structure": {
+            "services": "56 %",
+            "industry": "39 %",
+            "agriculture": "5 %",
+            "mainSectors": "Pétrole, gaz et raffinage, armement, métallurgie (acier, aluminium, nickel), engrais et céréales"
+        },
+        "trade": {
+            "mainExports": "Pétrole brut, produits pétroliers raffinés, gaz naturel liquéfié, blé, charbon, engrais",
+            "mainImports": "Machines et équipements électriques, véhicules, produits chimiques, électronique grand public",
+            "topPartners": [
+                "Chine",
+                "Inde",
+                "Turquie",
+                "Émirats arabes unis",
+                "Biélorussie"
+            ],
+            "tradeBalance": "Excédentaire (+4,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "15,0 % du PIB",
+            "budgetBalance": "-1,9 % du PIB",
+            "sovereignRating": "Non notée (sanctions et suspension)"
+        },
+        "organizations": [
+            "OMC",
+            "BRICS",
+            "UEEA (Union eurasiatique)",
+            "G20"
+        ]
+    },
+    "ESP": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banco de España / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "1 580 milliards USD",
+            "gdpPerCapita": "32 700 USD",
+            "globalRank": "14e mondial",
+            "growth": "+2,5 %",
+            "inflation": "2,8 %"
+        },
+        "structure": {
+            "services": "75 %",
+            "industry": "22 %",
+            "agriculture": "3 %",
+            "mainSectors": "Tourisme (2e destination mondiale), construction automobile, énergies renouvelables (éolien, solaire), agroalimentaire"
+        },
+        "trade": {
+            "mainExports": "Voitures et pièces automobiles, fruits & légumes, médicaments, produits pétroliers raffinés, machines",
+            "mainImports": "Hydrocarbures et gaz, machines industrielles, produits chimiques, équipements électroniques",
+            "topPartners": [
+                "France",
+                "Allemagne",
+                "Italie",
+                "Portugal",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Déficitaire (-2,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "105,5 % du PIB",
+            "budgetBalance": "-3,6 % du PIB",
+            "sovereignRating": "A (S&P) / Baa1 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "G20 (invité permanent)"
+        ]
+    },
+    "NLD": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "De Nederlandsche Bank / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "1 110 milliards USD",
+            "gdpPerCapita": "62 500 USD",
+            "globalRank": "18e mondial",
+            "growth": "+0,6 %",
+            "inflation": "2,7 %"
+        },
+        "structure": {
+            "services": "80 %",
+            "industry": "18 %",
+            "agriculture": "2 %",
+            "mainSectors": "Hub logistique mondial (Port de Rotterdam, Schiphol), haute technologie (ASML - lithographie), chimie, agro-industrie de précision"
+        },
+        "trade": {
+            "mainExports": "Machines de pointe et semi-conducteurs, produits pétroliers raffinés, denrées agricoles et fleurs, chimie",
+            "mainImports": "Pétrole brut, produits manufacturés, matériel électronique, véhicules",
+            "topPartners": [
+                "Allemagne",
+                "Belgique",
+                "France",
+                "Royaume-Uni",
+                "États-Unis"
+            ],
+            "tradeBalance": "Excédentaire (+10,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "46,5 % du PIB",
+            "budgetBalance": "-0,3 % du PIB",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "Benelux"
+        ]
+    },
+    "TUR": {
+        "currency": {
+            "name": "Livre turque",
+            "code": "TRY",
+            "symbol": "₺",
+            "centralBank": "Banque centrale de la République de Turquie (TCMB)"
+        },
+        "macro": {
+            "gdpNominal": "1 150 milliards USD",
+            "gdpPerCapita": "13 300 USD",
+            "globalRank": "17e mondial",
+            "growth": "+4,5 %",
+            "inflation": "65,0 %"
+        },
+        "structure": {
+            "services": "55 %",
+            "industry": "38 %",
+            "agriculture": "7 %",
+            "mainSectors": "Automobile, sidérurgie, textile & habillement, électroménager, construction et tourisme"
+        },
+        "trade": {
+            "mainExports": "Automobiles et utilitaires, machines et équipements, fer et acier, vêtements, or ouvragé",
+            "mainImports": "Or non monétaire, gaz naturel et pétrole, machines, pièces détachées automobiles",
+            "topPartners": [
+                "Allemagne",
+                "États-Unis",
+                "Italie",
+                "Royaume-Uni",
+                "Russie"
+            ],
+            "tradeBalance": "Déficitaire (-4,1 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "29,5 % du PIB",
+            "budgetBalance": "-5,4 % du PIB",
+            "sovereignRating": "BB- (S&P) / B1 (Moody's)"
+        },
+        "organizations": [
+            "OMC",
+            "OCDE",
+            "G20",
+            "Union douanière UE-Turquie"
+        ]
+    },
+    "CHE": {
+        "currency": {
+            "name": "Franc suisse",
+            "code": "CHF",
+            "symbol": "CHF",
+            "centralBank": "Banque nationale suisse (BNS)"
+        },
+        "macro": {
+            "gdpNominal": "885 milliards USD",
+            "gdpPerCapita": "99 000 USD",
+            "globalRank": "20e mondial",
+            "growth": "+1,3 %",
+            "inflation": "1,4 %"
+        },
+        "structure": {
+            "services": "74 %",
+            "industry": "25 %",
+            "agriculture": "1 %",
+            "mainSectors": "Gestion de fortune et banque privée, pharmacie & chimie (Roche, Novartis), horlogerie d'exception, négoce international de matières premières"
+        },
+        "trade": {
+            "mainExports": "Produits pharmaceutiques et chimiques, métaux précieux (or raffiné), montres, instruments de précision",
+            "mainImports": "Or non transformé, médicaments et principes actifs, véhicules, machines",
+            "topPartners": [
+                "États-Unis",
+                "Allemagne",
+                "Chine",
+                "Italie",
+                "France"
+            ],
+            "tradeBalance": "Excédentaire (+8,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "38,0 % du PIB",
+            "budgetBalance": "+0,2 % du PIB",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "AELE",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "POL": {
+        "currency": {
+            "name": "Złoty polonais",
+            "code": "PLN",
+            "symbol": "zł",
+            "centralBank": "Banque nationale de Pologne (NBP)"
+        },
+        "macro": {
+            "gdpNominal": "811 milliards USD",
+            "gdpPerCapita": "21 800 USD",
+            "globalRank": "21e mondial",
+            "growth": "+2,8 %",
+            "inflation": "4,2 %"
+        },
+        "structure": {
+            "services": "63 %",
+            "industry": "34 %",
+            "agriculture": "3 %",
+            "mainSectors": "Construction automobile, électroménager blanc (1er fabricant de l'UE), métallurgie, machinerie, tech & centres de services partagés"
+        },
+        "trade": {
+            "mainExports": "Pièces et moteurs automobiles, appareils électroniques et ménagers, meubles, produits métalliques",
+            "mainImports": "Pétrole brut et carburants, machines, composants électroniques, plastiques",
+            "topPartners": [
+                "Allemagne",
+                "République tchèque",
+                "France",
+                "Royaume-Uni",
+                "Italie"
+            ],
+            "tradeBalance": "Quasi-équilibrée (+0,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "49,6 % du PIB",
+            "budgetBalance": "-5,1 % du PIB",
+            "sovereignRating": "A- (S&P) / A2 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "OMC",
+            "OCDE",
+            "Groupe de Visegrád (V4)"
+        ]
+    },
+    "BEL": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque nationale de Belgique / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "632 milliards USD",
+            "gdpPerCapita": "53 800 USD",
+            "globalRank": "25e mondial",
+            "growth": "+1,4 %",
+            "inflation": "3,1 %"
+        },
+        "structure": {
+            "services": "77 %",
+            "industry": "22 %",
+            "agriculture": "1 %",
+            "mainSectors": "Chimie et pétrochimie (Port d'Anvers), biotechnologies & pharmacie, logistique multimodale, négoce du diamant"
+        },
+        "trade": {
+            "mainExports": "Produits chimiques & pharmaceutiques, véhicules automobiles, diamants taillés, plastiques, denrées alimentaires",
+            "mainImports": "Matières premières chimiques, voitures, produits pharmaceutiques, pétrole",
+            "topPartners": [
+                "Allemagne",
+                "France",
+                "Pays-Bas",
+                "États-Unis",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Excédentaire (+1,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "105,2 % du PIB",
+            "budgetBalance": "-4,4 % du PIB",
+            "sovereignRating": "AA (S&P) / Aa3 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "Benelux"
+        ]
+    },
+    "SWE": {
+        "currency": {
+            "name": "Couronne suédoise",
+            "code": "SEK",
+            "symbol": "kr",
+            "centralBank": "Sveriges Riksbank"
+        },
+        "macro": {
+            "gdpNominal": "593 milliards USD",
+            "gdpPerCapita": "56 200 USD",
+            "globalRank": "24e mondial",
+            "growth": "+0,8 %",
+            "inflation": "2,1 %"
+        },
+        "structure": {
+            "services": "74 %",
+            "industry": "24 %",
+            "agriculture": "2 %",
+            "mainSectors": "Télécommunications (Ericsson), construction automobile et poids lourds (Volvo, Scania), sylviculture & papier, technologies de l'information & fintech"
+        },
+        "trade": {
+            "mainExports": "Machines industrielles, véhicules, papier et bois, produits sidérurgiques de spécialité, médicaments",
+            "mainImports": "Véhicules, pétrole brut, équipements électroniques, produits alimentaires",
+            "topPartners": [
+                "Allemagne",
+                "Norvège",
+                "États-Unis",
+                "Danemark",
+                "Finlande"
+            ],
+            "tradeBalance": "Excédentaire (+6,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "31,5 % du PIB",
+            "budgetBalance": "-0,6 % du PIB",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Conseil nordique",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "IRL": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque centrale d'Irlande / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "545 milliards USD",
+            "gdpPerCapita": "103 000 USD",
+            "globalRank": "28e mondial",
+            "growth": "+2,0 %",
+            "inflation": "2,2 %"
+        },
+        "structure": {
+            "services": "75 %",
+            "industry": "24 %",
+            "agriculture": "1 %",
+            "mainSectors": "Hub européen des géants de la tech (GAFAM), industrie pharmaceutique & dispositifs médicaux, services financiers internationaux"
+        },
+        "trade": {
+            "mainExports": "Médicaments et vaccins, dispositifs médicaux, produits chimiques organiques, services informatiques & logiciels",
+            "mainImports": "Aéronefs, produits chimiques, machines de traitement de l'information, carburants",
+            "topPartners": [
+                "États-Unis",
+                "Royaume-Uni",
+                "Allemagne",
+                "Belgique",
+                "Pays-Bas"
+            ],
+            "tradeBalance": "Très excédentaire (+9,9 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "43,0 % du PIB",
+            "budgetBalance": "+1,5 % du PIB (excédent)",
+            "sovereignRating": "AA (S&P) / Aa3 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "AUT": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Oesterreichische Nationalbank / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "516 milliards USD",
+            "gdpPerCapita": "56 800 USD",
+            "globalRank": "32e mondial",
+            "growth": "-0,7 %",
+            "inflation": "3,2 %"
+        },
+        "structure": {
+            "services": "70 %",
+            "industry": "28 %",
+            "agriculture": "2 %",
+            "mainSectors": "Machines industrielles, sous-traitance automobile, métallurgie & aciers spéciaux, tourisme alpin & culturel"
+        },
+        "trade": {
+            "mainExports": "Machines mécaniques et moteurs, pièces automobiles, fer et acier, médicaments",
+            "mainImports": "Véhicules automobiles, gaz et pétrole, machines, produits chimiques",
+            "topPartners": [
+                "Allemagne",
+                "États-Unis",
+                "Italie",
+                "Suisse",
+                "France"
+            ],
+            "tradeBalance": "Excédentaire (+2,1 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "77,8 % du PIB",
+            "budgetBalance": "-2,7 % du PIB",
+            "sovereignRating": "AA+ (S&P) / Aa1 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "NOR": {
+        "currency": {
+            "name": "Couronne norvégienne",
+            "code": "NOK",
+            "symbol": "kr",
+            "centralBank": "Norges Bank"
+        },
+        "macro": {
+            "gdpNominal": "485 milliards USD",
+            "gdpPerCapita": "88 000 USD",
+            "globalRank": "33e mondial",
+            "growth": "+1,2 %",
+            "inflation": "3,5 %"
+        },
+        "structure": {
+            "services": "64 %",
+            "industry": "34 %",
+            "agriculture": "2 %",
+            "mainSectors": "Pétrole et gaz offshore (1er producteur d'Europe de l'Ouest), pêche et aquaculture (saumon), énergie hydroélectrique, transport maritime"
+        },
+        "trade": {
+            "mainExports": "Gaz naturel, pétrole brut, poissons et fruits de mer, aluminium, électricité",
+            "mainImports": "Voitures et véhicules électriques, machines, métaux, produits manufacturés",
+            "topPartners": [
+                "Royaume-Uni",
+                "Allemagne",
+                "Pays-Bas",
+                "France",
+                "Suède"
+            ],
+            "tradeBalance": "Très excédentaire (+18,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "44,0 % du PIB (Fonds souverain > 1 650 Mrd USD)",
+            "budgetBalance": "+14,2 % du PIB (excédent pétrolier)",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "AELE",
+            "Espace économique européen (EEE)",
+            "Conseil nordique",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "DNK": {
+        "currency": {
+            "name": "Couronne danoise",
+            "code": "DKK",
+            "symbol": "kr",
+            "centralBank": "Danmarks Nationalbank"
+        },
+        "macro": {
+            "gdpNominal": "404 milliards USD",
+            "gdpPerCapita": "68 000 USD",
+            "globalRank": "36e mondial",
+            "growth": "+1,9 %",
+            "inflation": "1,8 %"
+        },
+        "structure": {
+            "services": "76 %",
+            "industry": "22 %",
+            "agriculture": "2 %",
+            "mainSectors": "Pharmacie (Novo Nordisk), énergies éoliennes (Vestas, Ørsted), transport maritime mondial (Maersk), industrie laitière et porcine"
+        },
+        "trade": {
+            "mainExports": "Médicaments et insuline, turbines éoliennes, viande de porc et produits laitiers, machines",
+            "mainImports": "Machines, véhicules automobiles, carburants minéraux, métaux",
+            "topPartners": [
+                "Allemagne",
+                "États-Unis",
+                "Suède",
+                "Pays-Bas",
+                "Norvège"
+            ],
+            "tradeBalance": "Excédentaire (+10,9 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "29,3 % du PIB",
+            "budgetBalance": "+3,1 % du PIB (excédent)",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Conseil nordique",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "ROU": {
+        "currency": {
+            "name": "Leu roumain",
+            "code": "RON",
+            "symbol": "lei",
+            "centralBank": "Banca Națională a României (BNR)"
+        },
+        "macro": {
+            "gdpNominal": "350 milliards USD",
+            "gdpPerCapita": "18 500 USD",
+            "globalRank": "44e mondial",
+            "growth": "+2,6 %",
+            "inflation": "5,4 %"
+        },
+        "structure": {
+            "services": "62 %",
+            "industry": "33 %",
+            "agriculture": "5 %",
+            "mainSectors": "Automobile (Dacia, Ford Otosan), technologies de l'information (hub IT régional), métallurgie, céréales et oléagineux"
+        },
+        "trade": {
+            "mainExports": "Voitures et pièces automobiles, câbles et équipements électriques, céréales (blé, maïs), machines",
+            "mainImports": "Pièces détachées, produits chimiques, carburants, électronique",
+            "topPartners": [
+                "Allemagne",
+                "Italie",
+                "France",
+                "Hongrie",
+                "Bulgarie"
+            ],
+            "tradeBalance": "Déficitaire (-6,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,8 % du PIB",
+            "budgetBalance": "-6,6 % du PIB",
+            "sovereignRating": "BBB- (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "OMC"
+        ]
+    },
+    "CZE": {
+        "currency": {
+            "name": "Couronne tchèque",
+            "code": "CZK",
+            "symbol": "Kč",
+            "centralBank": "Banque nationale tchèque (ČNB)"
+        },
+        "macro": {
+            "gdpNominal": "330 milliards USD",
+            "gdpPerCapita": "30 400 USD",
+            "globalRank": "46e mondial",
+            "growth": "+1,1 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "60 %",
+            "industry": "38 %",
+            "agriculture": "2 %",
+            "mainSectors": "Construction automobile (Škoda, Toyota, Hyundai), métallurgie, électronique grand public, machines-outils"
+        },
+        "trade": {
+            "mainExports": "Voitures de tourisme et pièces détachées, ordinateurs et composants, équipements électriques",
+            "mainImports": "Composants électroniques, pièces automobiles, pétrole et gaz, machines",
+            "topPartners": [
+                "Allemagne",
+                "Slovaquie",
+                "Pologne",
+                "France",
+                "Autriche"
+            ],
+            "tradeBalance": "Excédentaire (+2,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "44,0 % du PIB",
+            "budgetBalance": "-3,7 % du PIB",
+            "sovereignRating": "AA- (S&P) / Aa3 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "OMC",
+            "OCDE",
+            "Groupe de Visegrád (V4)"
+        ]
+    },
+    "FIN": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque de Finlande / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "300 milliards USD",
+            "gdpPerCapita": "54 000 USD",
+            "globalRank": "45e mondial",
+            "growth": "-0,2 %",
+            "inflation": "1,6 %"
+        },
+        "structure": {
+            "services": "70 %",
+            "industry": "28 %",
+            "agriculture": "2 %",
+            "mainSectors": "Sylviculture, pâte à papier & carton, télécommunications & réseaux 5G (Nokia), machinerie lourde, chantiers navals de paquebots"
+        },
+        "trade": {
+            "mainExports": "Pâte à papier, papier et carton, produits pétroliers raffinés, machines électriques, aciers spéciaux",
+            "mainImports": "Pétrole brut, produits manufacturés, produits chimiques, véhicules",
+            "topPartners": [
+                "Allemagne",
+                "Suède",
+                "États-Unis",
+                "Pays-Bas",
+                "Chine"
+            ],
+            "tradeBalance": "Légèrement déficitaire (-1,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "75,8 % du PIB",
+            "budgetBalance": "-2,7 % du PIB",
+            "sovereignRating": "AA+ (S&P) / Aa1 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "Conseil nordique",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "PRT": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banco de Portugal / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "287 milliards USD",
+            "gdpPerCapita": "27 900 USD",
+            "globalRank": "47e mondial",
+            "growth": "+2,3 %",
+            "inflation": "2,6 %"
+        },
+        "structure": {
+            "services": "76 %",
+            "industry": "22 %",
+            "agriculture": "2 %",
+            "mainSectors": "Tourisme (secteur moteur), énergies renouvelables (solaire/éolien), industrie du liège (1er producteur mondial), automobile (Autoeuropa), textile"
+        },
+        "trade": {
+            "mainExports": "Voitures et pièces automobiles, produits en liège, vêtements et chaussures, papier, carburants raffinés",
+            "mainImports": "Véhicules, machines, hydrocarbures, produits chimiques, denrées alimentaires",
+            "topPartners": [
+                "Espagne",
+                "France",
+                "Allemagne",
+                "États-Unis",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Excédentaire grâce aux services (+1,4 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "99,1 % du PIB (forte baisse continue)",
+            "budgetBalance": "+1,2 % du PIB (excédent)",
+            "sovereignRating": "A- (S&P) / A3 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "GRC": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque de Grèce / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "242 milliards USD",
+            "gdpPerCapita": "23 000 USD",
+            "globalRank": "52e mondial",
+            "growth": "+2,0 %",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "80 %",
+            "industry": "16 %",
+            "agriculture": "4 %",
+            "mainSectors": "Armement naval & marine marchande (1re flotte mondiale en tonnage), tourisme international, raffinage pétrolier, agroalimentaire méditerranéen"
+        },
+        "trade": {
+            "mainExports": "Produits pétroliers raffinés, médicaments, aluminium, huile d'olive, fruits et légumes frais",
+            "mainImports": "Pétrole brut, navires, produits chimiques, machines et matériel électrique",
+            "topPartners": [
+                "Italie",
+                "Allemagne",
+                "Chypre",
+                "Bulgarie",
+                "Turquie"
+            ],
+            "tradeBalance": "Déficitaire en biens (-6,2 % du PIB compensé par le tourisme)"
+        },
+        "publicFinance": {
+            "publicDebt": "161,9 % du PIB (baisse la plus rapide d'Europe)",
+            "budgetBalance": "-1,6 % du PIB",
+            "sovereignRating": "BBB- (S&P / Fitch - investment grade regagné)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "HUN": {
+        "currency": {
+            "name": "Forint hongrois",
+            "code": "HUF",
+            "symbol": "Ft",
+            "centralBank": "Banque nationale de Hongrie (MNB)"
+        },
+        "macro": {
+            "gdpNominal": "212 milliards USD",
+            "gdpPerCapita": "22 000 USD",
+            "globalRank": "57e mondial",
+            "growth": "+1,5 %",
+            "inflation": "3,8 %"
+        },
+        "structure": {
+            "services": "66 %",
+            "industry": "30 %",
+            "agriculture": "4 %",
+            "mainSectors": "Production de batteries pour véhicules électriques (CATL, Samsung SDI), assemblage automobile (Audi, Mercedes, BMW), pharmacie, électronique"
+        },
+        "trade": {
+            "mainExports": "Batteries et accumulateurs, moteurs et voitures, machines électriques, médicaments",
+            "mainImports": "Éléments chimiques pour batteries, pièces automobiles, gaz naturel, produits électroniques",
+            "topPartners": [
+                "Allemagne",
+                "Italie",
+                "Roumanie",
+                "Slovaquie",
+                "Autriche"
+            ],
+            "tradeBalance": "Excédentaire (+1,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "73,5 % du PIB",
+            "budgetBalance": "-6,7 % du PIB",
+            "sovereignRating": "BBB- (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "OMC",
+            "OCDE",
+            "Groupe de Visegrád (V4)"
+        ]
+    },
+    "UKR": {
+        "currency": {
+            "name": "Hryvnia",
+            "code": "UAH",
+            "symbol": "₴",
+            "centralBank": "Banque nationale d'Ukraine (NBU)"
+        },
+        "macro": {
+            "gdpNominal": "178 milliards USD",
+            "gdpPerCapita": "4 700 USD",
+            "globalRank": "60e mondial",
+            "growth": "+5,3 % (reprise post-choc 2022)",
+            "inflation": "5,8 %"
+        },
+        "structure": {
+            "services": "60 %",
+            "industry": "28 %",
+            "agriculture": "12 %",
+            "mainSectors": "Agriculture céréalière (grenier à blé, maïs, tournesol), métallurgie et sidérurgie, secteur technologique & informatique"
+        },
+        "trade": {
+            "mainExports": "Graines oléagineuses et huiles de tournesol, céréales (blé, maïs), minerai de fer, produits sidérurgiques",
+            "mainImports": "Carburants et produits pétroliers, matériel militaire et de défense, véhicules, machines",
+            "topPartners": [
+                "Pologne",
+                "Roumanie",
+                "Chine",
+                "Turquie",
+                "Allemagne"
+            ],
+            "tradeBalance": "Très déficitaire (-15,0 % du PIB, compensé par l'aide financière internationale)"
+        },
+        "publicFinance": {
+            "publicDebt": "85,0 % du PIB",
+            "budgetBalance": "-20,5 % du PIB (contexte de guerre soutenu par UE/FMI/USA)",
+            "sovereignRating": "CC / SD (S&P)"
+        },
+        "organizations": [
+            "OMC",
+            "Candidat officiel à l'Union européenne"
+        ]
+    },
+    "SVK": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Národná banka Slovenska / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "132 milliards USD",
+            "gdpPerCapita": "24 500 USD",
+            "globalRank": "65e mondial",
+            "growth": "+2,2 %",
+            "inflation": "2,7 %"
+        },
+        "structure": {
+            "services": "65 %",
+            "industry": "32 %",
+            "agriculture": "3 %",
+            "mainSectors": "Automobile (1er producteur mondial de voitures par habitant : Volkswagen, Stellantis, Kia, Jaguar Land Rover, Volvo), électronique"
+        },
+        "trade": {
+            "mainExports": "Voitures de tourisme, composants mécaniques et moteurs, téléviseurs et écrans, fils électriques",
+            "mainImports": "Pièces détachées automobiles, machines, pétrole et gaz, métaux",
+            "topPartners": [
+                "Allemagne",
+                "République tchèque",
+                "Pologne",
+                "Hongrie",
+                "France"
+            ],
+            "tradeBalance": "Excédentaire (+3,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "57,8 % du PIB",
+            "budgetBalance": "-5,2 % du PIB",
+            "sovereignRating": "A+ (S&P) / A2 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "Groupe de Visegrád (V4)"
+        ]
+    },
+    "BGR": {
+        "currency": {
+            "name": "Lev bulgare",
+            "code": "BGN",
+            "symbol": "лв",
+            "centralBank": "Banque nationale de Bulgarie (arrimé à l'euro via Currency Board)"
+        },
+        "macro": {
+            "gdpNominal": "102 milliards USD",
+            "gdpPerCapita": "15 800 USD",
+            "globalRank": "71e mondial",
+            "growth": "+2,1 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "67 %",
+            "industry": "28 %",
+            "agriculture": "5 %",
+            "mainSectors": "Métallurgie et cuivre raffiné, énergie (nucléaire Kozlodouy), sous-traitance automobile, technologies de l'information"
+        },
+        "trade": {
+            "mainExports": "Cuivre raffiné et anodes, produits pétroliers, blé et tournesol, médicaments, composants électriques",
+            "mainImports": "Pétrole brut, minerai de cuivre, machines, véhicules, produits chimiques",
+            "topPartners": [
+                "Allemagne",
+                "Roumanie",
+                "Italie",
+                "Turquie",
+                "Grèce"
+            ],
+            "tradeBalance": "Déficitaire (-3,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "23,1 % du PIB (l'une des dettes les plus basses de l'UE)",
+            "budgetBalance": "-2,8 % du PIB",
+            "sovereignRating": "BBB (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "OMC",
+            "Candidat officiel à la Zone euro"
+        ]
+    },
+    "LUX": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque centrale du Luxembourg / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "86 milliards USD",
+            "gdpPerCapita": "131 000 USD",
+            "globalRank": "73e mondial (1er mondial par habitant)",
+            "growth": "+1,2 %",
+            "inflation": "2,1 %"
+        },
+        "structure": {
+            "services": "88 %",
+            "industry": "11 %",
+            "agriculture": "1 %",
+            "mainSectors": "Fonds d'investissement (2e centre mondial), banque privée & réassurance, sidérurgie de haute technicité (siège ArcelorMittal), télécoms satellitaires (SES)"
+        },
+        "trade": {
+            "mainExports": "Services financiers et d'investissement, produits sidérurgiques, machines spécialisées, plastiques",
+            "mainImports": "Véhicules, produits manufacturés, biens de consommation, énergie",
+            "topPartners": [
+                "Allemagne",
+                "France",
+                "Belgique",
+                "Pays-Bas",
+                "États-Unis"
+            ],
+            "tradeBalance": "Très excédentaire en services (+7,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "25,7 % du PIB",
+            "budgetBalance": "-0,7 % du PIB",
+            "sovereignRating": "AAA (S&P / Moody's / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "Benelux"
+        ]
+    },
+    "HRV": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Hrvatska narodna banka / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "82 milliards USD",
+            "gdpPerCapita": "21 300 USD",
+            "globalRank": "77e mondial",
+            "growth": "+3,6 %",
+            "inflation": "3,5 %"
+        },
+        "structure": {
+            "services": "70 %",
+            "industry": "26 %",
+            "agriculture": "4 %",
+            "mainSectors": "Tourisme adriatique (près de 20 % du PIB), industrie pharmaceutique, transformation du bois, construction navale"
+        },
+        "trade": {
+            "mainExports": "Médicaments, énergie électrique, bois et meubles, produits pétroliers raffinés, machines",
+            "mainImports": "Pétrole et gaz, voitures, machines électriques, produits chimiques",
+            "topPartners": [
+                "Italie",
+                "Allemagne",
+                "Slovénie",
+                "Bosnie-Herzégovine",
+                "Autriche"
+            ],
+            "tradeBalance": "Déficitaire en biens (-8,5 % du PIB compensé par le tourisme)"
+        },
+        "publicFinance": {
+            "publicDebt": "63,0 % du PIB",
+            "budgetBalance": "-1,0 % du PIB",
+            "sovereignRating": "A- (S&P, rehaussée)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "Espace Schengen",
+            "OMC"
+        ]
+    },
+    "LTU": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Lietuvos bankas / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "78 milliards USD",
+            "gdpPerCapita": "27 100 USD",
+            "globalRank": "80e mondial",
+            "growth": "+2,0 %",
+            "inflation": "1,1 %"
+        },
+        "structure": {
+            "services": "68 %",
+            "industry": "28 %",
+            "agriculture": "4 %",
+            "mainSectors": "Technologies financières (Fintech), biotechnologies & lasers optiques de précision, raffinage pétrolier (Mažeikiai), transport routier et logistique"
+        },
+        "trade": {
+            "mainExports": "Produits pétroliers raffinés, meubles (fournisseur majeur IKEA), plastiques, optique laser, blé",
+            "mainImports": "Pétrole brut, machines industrielles, véhicules, produits chimiques",
+            "topPartners": [
+                "Pologne",
+                "Lettonie",
+                "Allemagne",
+                "États-Unis",
+                "Estonie"
+            ],
+            "tradeBalance": "Légèrement déficitaire (-1,6 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "38,3 % du PIB",
+            "budgetBalance": "-1,8 % du PIB",
+            "sovereignRating": "A+ (S&P) / A2 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "Assemblée balte"
+        ]
+    },
+    "SRB": {
+        "currency": {
+            "name": "Dinar serbe",
+            "code": "RSD",
+            "symbol": "дин",
+            "centralBank": "Banque nationale de Serbie (NBS)"
+        },
+        "macro": {
+            "gdpNominal": "75 milliards USD",
+            "gdpPerCapita": "11 200 USD",
+            "globalRank": "82e mondial",
+            "growth": "+3,8 %",
+            "inflation": "4,3 %"
+        },
+        "structure": {
+            "services": "62 %",
+            "industry": "31 %",
+            "agriculture": "7 %",
+            "mainSectors": "Automobile (Stellantis Kragujevac - véhicules électriques), extraction de cuivre et or (Bor), secteur IT et développement de logiciels, agroalimentaire (framboises, maïs)"
+        },
+        "trade": {
+            "mainExports": "Ensembles de câbles électriques, cuivre raffiné, pneumatiques, moteurs, maïs et fruits surgelés",
+            "mainImports": "Pétrole et gaz, machines industrielles, véhicules, composants électroniques",
+            "topPartners": [
+                "Allemagne",
+                "Bosnie-Herzégovine",
+                "Italie",
+                "Russie",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire (-6,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "48,0 % du PIB",
+            "budgetBalance": "-2,2 % du PIB",
+            "sovereignRating": "BBB- (S&P - investment grade obtenu en 2024)"
+        },
+        "organizations": [
+            "CEFTA",
+            "Candidat officiel à l'Union européenne"
+        ]
+    },
+    "BLR": {
+        "currency": {
+            "name": "Rouble biélorusse",
+            "code": "BYN",
+            "symbol": "Br",
+            "centralBank": "Banque nationale de la République de Biélorussie"
+        },
+        "macro": {
+            "gdpNominal": "72 milliards USD",
+            "gdpPerCapita": "7 800 USD",
+            "globalRank": "83e mondial",
+            "growth": "+3,9 %",
+            "inflation": "5,8 %"
+        },
+        "structure": {
+            "services": "51 %",
+            "industry": "40 %",
+            "agriculture": "9 %",
+            "mainSectors": "Engrais potassiques (Belaruskali), raffinage de pétrole brut, machinerie lourde et tracteurs (MTZ, MAZ, BelAZ), produits laitiers"
+        },
+        "trade": {
+            "mainExports": "Engrais minéraux potassiques, produits pétroliers raffinés, camions et tracteurs, fromage et lait",
+            "mainImports": "Pétrole brut russe, gaz naturel, machines et composants, métaux",
+            "topPartners": [
+                "Russie (plus de 65 % des flux)",
+                "Chine",
+                "Kazakhstan"
+            ],
+            "tradeBalance": "Déficitaire (-3,8 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "35,0 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "Restreinte / Défaut technique (sanctions internationales)"
+        },
+        "organizations": [
+            "UEEA (Union eurasiatique)",
+            "Union de la Russie et de la Biélorussie",
+            "CEI"
+        ]
+    },
+    "SVN": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banka Slovenije / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "68 milliards USD",
+            "gdpPerCapita": "32 200 USD",
+            "globalRank": "84e mondial",
+            "growth": "+1,5 %",
+            "inflation": "2,4 %"
+        },
+        "structure": {
+            "services": "66 %",
+            "industry": "31 %",
+            "agriculture": "3 %",
+            "mainSectors": "Industrie pharmaceutique (Krka, Lek), automobile (Revoz / Renault), électroménager haut de gamme (Gorenje), logistique (Port de Koper)"
+        },
+        "trade": {
+            "mainExports": "Médicaments génériques, voitures et composants automobiles, matériel électrique, métaux",
+            "mainImports": "Composants chimiques et pharmaceutiques, véhicules, hydrocarbures, machines",
+            "topPartners": [
+                "Allemagne",
+                "Suisse",
+                "Italie",
+                "Croatie",
+                "Autriche"
+            ],
+            "tradeBalance": "Excédentaire (+4,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "69,2 % du PIB",
+            "budgetBalance": "-2,5 % du PIB",
+            "sovereignRating": "AA- (S&P) / A3 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "LVA": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Latvijas Banka / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "44 milliards USD",
+            "gdpPerCapita": "23 500 USD",
+            "globalRank": "99e mondial",
+            "growth": "+1,1 %",
+            "inflation": "1,3 %"
+        },
+        "structure": {
+            "services": "74 %",
+            "industry": "22 %",
+            "agriculture": "4 %",
+            "mainSectors": "Exploitation forestière et filière bois, agroalimentaire, transport maritime et logistique de transit, industrie pharmaceutique (Grindeks)"
+        },
+        "trade": {
+            "mainExports": "Bois scié et granulés de bois, blé, médicaments, équipements de télécoms",
+            "mainImports": "Machines et appareils électriques, carburants minéraux, véhicules, produits chimiques",
+            "topPartners": [
+                "Lituanie",
+                "Estonie",
+                "Allemagne",
+                "Royaume-Uni",
+                "Suède"
+            ],
+            "tradeBalance": "Déficitaire (-4,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "43,6 % du PIB",
+            "budgetBalance": "-2,8 % du PIB",
+            "sovereignRating": "A+ (S&P) / A3 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "Assemblée balte"
+        ]
+    },
+    "EST": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Eesti Pank / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "41 milliards USD",
+            "gdpPerCapita": "30 000 USD",
+            "globalRank": "102e mondial",
+            "growth": "-0,4 %",
+            "inflation": "3,4 %"
+        },
+        "structure": {
+            "services": "73 %",
+            "industry": "24 %",
+            "agriculture": "3 %",
+            "mainSectors": "Économie numérique et services IT (e-Residency, licornes Skype/Bolt/Wise), transformation du bois et maisons préfabriquées, électronique"
+        },
+        "trade": {
+            "mainExports": "Équipements de communication et électronique, maisons en bois préfabriquées, bois scié, huiles minérales",
+            "mainImports": "Produits électroniques, machines industrielles, carburants, véhicules",
+            "topPartners": [
+                "Finlande",
+                "Suède",
+                "Lettonie",
+                "Lituanie",
+                "Allemagne"
+            ],
+            "tradeBalance": "Déficitaire (-2,9 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "20,1 % du PIB (le taux le plus bas de toute l'Union européenne)",
+            "budgetBalance": "-3,4 % du PIB",
+            "sovereignRating": "AA- (S&P) / A1 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "OCDE",
+            "Assemblée balte"
+        ]
+    },
+    "CYP": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque centrale de Chypre / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "32 milliards USD",
+            "gdpPerCapita": "34 500 USD",
+            "globalRank": "108e mondial",
+            "growth": "+3,0 %",
+            "inflation": "2,1 %"
+        },
+        "structure": {
+            "services": "84 %",
+            "industry": "14 %",
+            "agriculture": "2 %",
+            "mainSectors": "Services juridiques et financiers internationaux, tourisme balnéaire, gestion de flottes maritimes (pavillon chypriote)"
+        },
+        "trade": {
+            "mainExports": "Services financiers et maritimes, navires de plaisance, médicaments, fromage halloumi",
+            "mainImports": "Navires et embarcations, carburants raffinés, voitures, électronique",
+            "topPartners": [
+                "Grèce",
+                "Royaume-Uni",
+                "Liban",
+                "Italie",
+                "Israël"
+            ],
+            "tradeBalance": "Déficitaire en biens (-8,0 % du PIB compensé par les services)"
+        },
+        "publicFinance": {
+            "publicDebt": "77,3 % du PIB (forte trajectoire de désendettement)",
+            "budgetBalance": "+3,1 % du PIB (excédent)",
+            "sovereignRating": "A- (S&P) / Baa2 (Moody's)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "Commonwealth"
+        ]
+    },
+    "ISL": {
+        "currency": {
+            "name": "Couronne islandaise",
+            "code": "ISK",
+            "symbol": "kr",
+            "centralBank": "Seðlabanki Íslands (Banque centrale d'Islande)"
+        },
+        "macro": {
+            "gdpNominal": "31 milliards USD",
+            "gdpPerCapita": "79 000 USD",
+            "globalRank": "109e mondial",
+            "growth": "+1,0 %",
+            "inflation": "5,8 %"
+        },
+        "structure": {
+            "services": "76 %",
+            "industry": "18 %",
+            "agriculture": "6 %",
+            "mainSectors": "Tourisme d'aventure et naturel, fusion d'aluminium (énergie géothermique à bas coût), pêche et transformation du poisson, centres de données"
+        },
+        "trade": {
+            "mainExports": "Aluminium brut et alliages, poissons frais et congelés, farine de poisson, services touristiques",
+            "mainImports": "Alumine (matière première), carburants, véhicules, machines",
+            "topPartners": [
+                "Pays-Bas",
+                "Royaume-Uni",
+                "Allemagne",
+                "États-Unis",
+                "Norvège"
+            ],
+            "tradeBalance": "Excédentaire (+1,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "63,0 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "A+ (S&P / Moody's)"
+        },
+        "organizations": [
+            "AELE",
+            "Espace économique européen (EEE)",
+            "Conseil nordique",
+            "OMC",
+            "OCDE"
+        ]
+    },
+    "BIH": {
+        "currency": {
+            "name": "Mark convertible",
+            "code": "BAM",
+            "symbol": "KM",
+            "centralBank": "Banque centrale de Bosnie-Herzégovine (arrimé à l'euro : 1 EUR = 1,95583 BAM)"
+        },
+        "macro": {
+            "gdpNominal": "27 milliards USD",
+            "gdpPerCapita": "8 200 USD",
+            "globalRank": "115e mondial",
+            "growth": "+2,5 %",
+            "inflation": "2,0 %"
+        },
+        "structure": {
+            "services": "66 %",
+            "industry": "27 %",
+            "agriculture": "7 %",
+            "mainSectors": "Métallurgie (aluminium, acier), énergie électrique (exportatrice nette via hydroélectricité et charbon), industrie du bois et du meuble, confection textile"
+        },
+        "trade": {
+            "mainExports": "Énergie électrique, sièges et meubles en bois, profilés d'aluminium brut, pièces mécaniques",
+            "mainImports": "Pétrole raffiné, voitures de tourisme, produits pharmaceutiques, machines",
+            "topPartners": [
+                "Croatie",
+                "Allemagne",
+                "Serbie",
+                "Italie",
+                "Autriche"
+            ],
+            "tradeBalance": "Déficitaire (-8,2 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "28,0 % du PIB",
+            "budgetBalance": "-0,5 % du PIB",
+            "sovereignRating": "B+ (S&P)"
+        },
+        "organizations": [
+            "CEFTA",
+            "Candidat officiel à l'Union européenne"
+        ]
+    },
+    "ALB": {
+        "currency": {
+            "name": "Lek albanais",
+            "code": "ALL",
+            "symbol": "L",
+            "centralBank": "Banque d'Albanie"
+        },
+        "macro": {
+            "gdpNominal": "23 milliards USD",
+            "gdpPerCapita": "8 100 USD",
+            "globalRank": "122e mondial",
+            "growth": "+3,6 %",
+            "inflation": "2,2 %"
+        },
+        "structure": {
+            "services": "55 %",
+            "industry": "26 %",
+            "agriculture": "19 %",
+            "mainSectors": "Tourisme côtier en plein essor (Riviera albanaise), confection de vêtements & chaussures (façonnage pour l'Italie), hydroélectricité, extraction de chrome et pétrole"
+        },
+        "trade": {
+            "mainExports": "Chaussures et vêtements, matériaux de construction et métaux, électricité, pétrole brut",
+            "mainImports": "Carburants et lubrifiants, machines industrielles, voitures, produits alimentaires",
+            "topPartners": [
+                "Italie (plus de 40 % des exportations)",
+                "Allemagne",
+                "Grèce",
+                "Espagne",
+                "Chine"
+            ],
+            "tradeBalance": "Déficitaire (-7,5 % du PIB compensé par le tourisme et les transferts de la diaspora)"
+        },
+        "publicFinance": {
+            "publicDebt": "59,0 % du PIB",
+            "budgetBalance": "-1,8 % du PIB",
+            "sovereignRating": "BB- (S&P, rehaussée en 2024)"
+        },
+        "organizations": [
+            "CEFTA",
+            "OMC",
+            "Candidat officiel à l'Union européenne"
+        ]
+    },
+    "MLT": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque centrale de Malte / Banque centrale européenne (BCE)"
+        },
+        "macro": {
+            "gdpNominal": "21 milliards USD",
+            "gdpPerCapita": "38 500 USD",
+            "globalRank": "126e mondial",
+            "growth": "+4,3 %",
+            "inflation": "2,4 %"
+        },
+        "structure": {
+            "services": "88 %",
+            "industry": "11 %",
+            "agriculture": "1 %",
+            "mainSectors": "iGaming (jeux et paris en ligne - hub mondial), tourisme balnéaire et linguistique, services financiers, industrie pharmaceutique, réparation et maintenance navale"
+        },
+        "trade": {
+            "mainExports": "Services numériques et informatiques, composants électroniques et semi-conducteurs, médicaments, instruments de précision",
+            "mainImports": "Pétrole raffiné, navires, avions, matériel de télécommunications",
+            "topPartners": [
+                "Allemagne",
+                "France",
+                "Italie",
+                "Royaume-Uni",
+                "États-Unis"
+            ],
+            "tradeBalance": "Excédentaire (+3,5 % du PIB grâce aux services)"
+        },
+        "publicFinance": {
+            "publicDebt": "50,4 % du PIB",
+            "budgetBalance": "-4,9 % du PIB",
+            "sovereignRating": "A- (S&P / Fitch)"
+        },
+        "organizations": [
+            "Union européenne",
+            "Zone euro",
+            "OMC",
+            "Commonwealth"
+        ]
+    },
+    "MDA": {
+        "currency": {
+            "name": "Leu moldave",
+            "code": "MDL",
+            "symbol": "L",
+            "centralBank": "Banque nationale de Moldavie (BNM)"
+        },
+        "macro": {
+            "gdpNominal": "17 milliards USD",
+            "gdpPerCapita": "6 700 USD",
+            "globalRank": "134e mondial",
+            "growth": "+2,2 %",
+            "inflation": "3,8 %"
+        },
+        "structure": {
+            "services": "63 %",
+            "industry": "25 %",
+            "agriculture": "12 %",
+            "mainSectors": "Viticulture et vins réputés, filière agroalimentaire (pommes, tournesol, noix), sous-traitance automobile (câblage), textile"
+        },
+        "trade": {
+            "mainExports": "Fils et câbles isolés, vins et spiritueux, graines de tournesol, céréales, vêtements",
+            "mainImports": "Pétrole raffiné et gaz naturel, véhicules, machines électriques, produits pharmaceutiques",
+            "topPartners": [
+                "Roumanie (plus de 35 % des flux)",
+                "Ukraine",
+                "Allemagne",
+                "Italie",
+                "Turquie"
+            ],
+            "tradeBalance": "Très déficitaire (-25,0 % du PIB compensé par les transferts de la diaspora)"
+        },
+        "publicFinance": {
+            "publicDebt": "35,0 % du PIB",
+            "budgetBalance": "-5,0 % du PIB",
+            "sovereignRating": "B+ (Fitch)"
+        },
+        "organizations": [
+            "CEFTA",
+            "OMC",
+            "Candidat officiel à l'Union européenne"
+        ]
+    },
+    "MKD": {
+        "currency": {
+            "name": "Denar macédonien",
+            "code": "MKD",
+            "symbol": "ден",
+            "centralBank": "Banque nationale de la République de Macédoine du Nord (arrimé à l'euro)"
+        },
+        "macro": {
+            "gdpNominal": "15,8 milliards USD",
+            "gdpPerCapita": "8 500 USD",
+            "globalRank": "136e mondial",
+            "growth": "+2,3 %",
+            "inflation": "3,0 %"
+        },
+        "structure": {
+            "services": "63 %",
+            "industry": "28 %",
+            "agriculture": "9 %",
+            "mainSectors": "Composants et équipementiers automobiles (zones franches industrielles TIDZ), textile et confection, métallurgie et sidérurgie, tabac et vins"
+        },
+        "trade": {
+            "mainExports": "Catalyseurs chimiques pour l'automobile, câblages électriques, fer et acier, vêtements, tabac",
+            "mainImports": "Métaux précieux pour catalyseurs (platine), pétrole raffiné, électricité, voitures",
+            "topPartners": [
+                "Allemagne (plus de 45 % des exportations)",
+                "Grèce",
+                "Serbie",
+                "Bulgarie",
+                "Royaume-Uni"
+            ],
+            "tradeBalance": "Déficitaire (-6,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "51,0 % du PIB",
+            "budgetBalance": "-4,9 % du PIB",
+            "sovereignRating": "BB- (S&P / Fitch)"
+        },
+        "organizations": [
+            "CEFTA",
+            "OMC",
+            "Candidat officiel à l'Union européenne"
+        ]
+    },
+    "XKX": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque centrale de la République du Kosovo (utilisation unilatérale de facto)"
+        },
+        "macro": {
+            "gdpNominal": "10,4 milliards USD",
+            "gdpPerCapita": "5 800 USD",
+            "globalRank": "145e mondial",
+            "growth": "+3,8 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "71 %",
+            "industry": "19 %",
+            "agriculture": "10 %",
+            "mainSectors": "Services informatiques & centres d'appels BPO, industrie de la construction, métaux de base et plastiques, transferts de la diaspora (remittances ~15 % du PIB)"
+        },
+        "trade": {
+            "mainExports": "Profilés métalliques et ferronnerie, plastiques et emballages, meubles en bois, boissons et aliments",
+            "mainImports": "Véhicules automobiles, hydrocarbures, machines industrielles, denrées alimentaires",
+            "topPartners": [
+                "Albanie",
+                "Macédoine du Nord",
+                "Allemagne",
+                "Suisse",
+                "Serbie"
+            ],
+            "tradeBalance": "Très déficitaire (-28,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "18,0 % du PIB (l'un des niveaux les plus faibles de la région)",
+            "budgetBalance": "-2,0 % du PIB",
+            "sovereignRating": "BB- (S&P - première notation souveraine en 2024)"
+        },
+        "organizations": [
+            "CEFTA",
+            "FMI",
+            "Banque mondiale"
+        ]
+    },
+    "MNE": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque centrale du Monténégro (utilisation unilatérale de facto)"
+        },
+        "macro": {
+            "gdpNominal": "7,4 milliards USD",
+            "gdpPerCapita": "12 000 USD",
+            "globalRank": "151e mondial",
+            "growth": "+3,8 %",
+            "inflation": "3,5 %"
+        },
+        "structure": {
+            "services": "76 %",
+            "industry": "16 %",
+            "agriculture": "8 %",
+            "mainSectors": "Tourisme de luxe et nautique (Baie de Kotor, Porto Montenegro), hydroélectricité, extraction de bauxite et industrie de l'aluminium"
+        },
+        "trade": {
+            "mainExports": "Énergie électrique, aluminium brut, bauxite, bois d'œuvre, vins (Vranac)",
+            "mainImports": "Pétrole raffiné, voitures, produits alimentaires, machines électriques",
+            "topPartners": [
+                "Serbie",
+                "Slovénie",
+                "Italie",
+                "Croatie",
+                "Bosnie-Herzégovine"
+            ],
+            "tradeBalance": "Très déficitaire en biens (-22,0 % du PIB compensé par le tourisme)"
+        },
+        "publicFinance": {
+            "publicDebt": "61,0 % du PIB",
+            "budgetBalance": "-1,5 % du PIB",
+            "sovereignRating": "B+ (S&P, perspective positive)"
+        },
+        "organizations": [
+            "CEFTA",
+            "OMC",
+            "Candidat officiel à l'Union européenne"
+        ]
+    },
+    "MCO": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banque de France / Banque centrale européenne (BCE - accord monétaire officiel)"
+        },
+        "macro": {
+            "gdpNominal": "9,0 milliards USD",
+            "gdpPerCapita": "240 000 USD",
+            "globalRank": "Parmi les plus élevés au monde",
+            "growth": "+5,0 %",
+            "inflation": "2,5 %"
+        },
+        "structure": {
+            "services": "90 %",
+            "industry": "9 %",
+            "agriculture": "0 %",
+            "mainSectors": "Banque privée et gestion de fortune, immobilier de grand prestige, tourisme de luxe et hôtellerie, yachting et services aux grandes fortunes"
+        },
+        "trade": {
+            "mainExports": "Services financiers spécialisés, produits cosmétiques, emballages plastiques de précision, services maritimes",
+            "mainImports": "Matériaux de construction de luxe, alimentation gastronomique, biens d'équipement, énergie",
+            "topPartners": [
+                "France",
+                "Italie",
+                "Suisse",
+                "Allemagne"
+            ],
+            "tradeBalance": "Structurellement excédentaire"
+        },
+        "publicFinance": {
+            "publicDebt": "0 % du PIB (aucune dette souveraine, fonds de réserve constitutionnel excédentaire)",
+            "budgetBalance": "+3,2 % des recettes (excédentaire)",
+            "sovereignRating": "Non notée (aucune dette sur les marchés)"
+        },
+        "organizations": [
+            "Union douanière avec la France / UE",
+            "Conseil de l'Europe"
+        ]
+    },
+    "LIE": {
+        "currency": {
+            "name": "Franc suisse",
+            "code": "CHF",
+            "symbol": "CHF",
+            "centralBank": "Banque nationale suisse (BNS - union monétaire avec la Suisse)"
+        },
+        "macro": {
+            "gdpNominal": "7,2 milliards USD",
+            "gdpPerCapita": "180 000 USD",
+            "globalRank": "Parmi les plus élevés au monde",
+            "growth": "+2,1 %",
+            "inflation": "1,4 %"
+        },
+        "structure": {
+            "services": "55 %",
+            "industry": "40 %",
+            "agriculture": "5 %",
+            "mainSectors": "Industrie manufacturière de très haute technologie (Hilti, outillage), prothèses et instruments dentaires (Ivoclar), banque privée et gestion de trusts"
+        },
+        "trade": {
+            "mainExports": "Machines et outillage spécialisé de fixation, pièces automobiles de précision, prothèses dentaires, optique",
+            "mainImports": "Matières premières métalliques, machines, produits chimiques, denrées alimentaires",
+            "topPartners": [
+                "Allemagne",
+                "États-Unis",
+                "Suisse",
+                "France"
+            ],
+            "tradeBalance": "Très excédentaire (+12,0 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "0 % du PIB (dette nette nulle, réserves d'actifs considérables)",
+            "budgetBalance": "+2,0 % du PIB (excédent)",
+            "sovereignRating": "AAA (S&P)"
+        },
+        "organizations": [
+            "AELE",
+            "Espace économique européen (EEE)",
+            "OMC"
+        ]
+    },
+    "AND": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Autorité financière andorrane (AFA / accord monétaire UE)"
+        },
+        "macro": {
+            "gdpNominal": "3,8 milliards USD",
+            "gdpPerCapita": "46 000 USD",
+            "globalRank": "165e mondial",
+            "growth": "+2,8 %",
+            "inflation": "3,4 %"
+        },
+        "structure": {
+            "services": "87 %",
+            "industry": "12 %",
+            "agriculture": "1 %",
+            "mainSectors": "Tourisme de montagne et sports d'hiver (Grandvalira), commerce de détail détaxé, secteur bancaire et gestion de patrimoine"
+        },
+        "trade": {
+            "mainExports": "Produits du tabac transformés, instruments d'optique et de précision, parfums et cosmétiques",
+            "mainImports": "Produits manufacturés, carburants, denrées alimentaires, vêtements",
+            "topPartners": [
+                "Espagne (plus de 65 % des échanges)",
+                "France (environ 15 %)",
+                "Allemagne"
+            ],
+            "tradeBalance": "Déficitaire en biens (compensé par les dépenses touristiques)"
+        },
+        "publicFinance": {
+            "publicDebt": "36,0 % du PIB",
+            "budgetBalance": "+1,0 % du PIB (excédent)",
+            "sovereignRating": "BBB+ (S&P / Fitch)"
+        },
+        "organizations": [
+            "FMI",
+            "OMC (observateur)",
+            "Union douanière avec l'UE"
+        ]
+    },
+    "SMR": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Banca Centrale della Repubblica di San Marino (accord monétaire UE)"
+        },
+        "macro": {
+            "gdpNominal": "1,8 milliard USD",
+            "gdpPerCapita": "53 000 USD",
+            "globalRank": "178e mondial",
+            "growth": "+2,0 %",
+            "inflation": "2,8 %"
+        },
+        "structure": {
+            "services": "63 %",
+            "industry": "36 %",
+            "agriculture": "1 %",
+            "mainSectors": "Industrie légère (machines d'emballage, céramique, peintures), secteur bancaire, tourisme et philatélie/numismatique"
+        },
+        "trade": {
+            "mainExports": "Machines industrielles d'emballage, céramique et carrelages, vins et liqueurs, timbres et monnaies de collection",
+            "mainImports": "Matières premières industrielles, denrées alimentaires, énergie, biens d'équipement",
+            "topPartners": [
+                "Italie (plus de 85 % des flux)",
+                "Allemagne",
+                "France"
+            ],
+            "tradeBalance": "Excédentaire (+2,5 % du PIB)"
+        },
+        "publicFinance": {
+            "publicDebt": "70,0 % du PIB",
+            "budgetBalance": "-1,2 % du PIB",
+            "sovereignRating": "BB+ (Fitch)"
+        },
+        "organizations": [
+            "FMI",
+            "OSCE",
+            "Union douanière avec l'UE"
+        ]
+    },
+    "VAT": {
+        "currency": {
+            "name": "Euro",
+            "code": "EUR",
+            "symbol": "€",
+            "centralBank": "Institut pour les œuvres de religion (IOR / accord monétaire UE)"
+        },
+        "macro": {
+            "gdpNominal": "Non applicable (économie non marchande)",
+            "gdpPerCapita": "Non applicable",
+            "globalRank": "Économie souveraine singulière",
+            "growth": "—",
+            "inflation": "—"
+        },
+        "structure": {
+            "services": "100 %",
+            "industry": "0 %",
+            "agriculture": "0 %",
+            "mainSectors": "Gestion patrimoniale et immobilière (APSA), entrées des Musées du Vatican, dons des fidèles (Denier de Saint-Pierre), émissions de timbres et médailles pontificales"
+        },
+        "trade": {
+            "mainExports": "Timbres, médailles, publications religieuses, pièces commémoratives en euro",
+            "mainImports": "Énergie, biens de consommation courante, matériel de bureau et d'imprimerie",
+            "topPartners": [
+                "Italie"
+            ],
+            "tradeBalance": "Non applicable"
+        },
+        "publicFinance": {
+            "publicDebt": "0 % du PIB (aucun endettement obligataire)",
+            "budgetBalance": "Déficit opérationnel couvert par les réserves patrimoniales",
+            "sovereignRating": "Non notée"
+        },
+        "organizations": [
+            "Union postale universelle (UPU)",
+            "Union internationale des télécommunications (UIT)",
+            "Accord monétaire officiel avec l'UE"
+        ]
+    },
+    "GRL": {
+        "currency": {
+            "name": "Couronne danoise",
+            "code": "DKK",
+            "symbol": "kr",
+            "centralBank": "Danmarks Nationalbank"
+        },
+        "macro": {
+            "gdpNominal": "3,2 milliards USD",
+            "gdpPerCapita": "57 000 USD",
+            "globalRank": "Territoire insulaire arctique",
+            "growth": "+1,8 %",
+            "inflation": "2,4 %"
+        },
+        "structure": {
+            "services": "68 %",
+            "industry": "16 %",
+            "agriculture": "16 %",
+            "mainSectors": "Pêche industrielle (crevettes nordiques, flétan), subvention d'équilibre de Copenhague (bloktilskud ~500 M$), tourisme arctique, potentiel minier (terres rares)"
+        },
+        "trade": {
+            "mainExports": "Crevettes nordiques sauvages, flétan noir du Groenland, cabillaud, produits de la mer transformés",
+            "mainImports": "Carburants et fioul, navires et bateaux de pêche, machines industrielles, denrées alimentaires",
+            "topPartners": [
+                "Danemark (plus de 80 % des échanges)",
+                "Chine",
+                "Japon",
+                "Royaume-Uni",
+                "États-Unis"
+            ],
+            "tradeBalance": "Déficitaire en biens (compensé par la dotation budgétaire annuelle du Danemark)"
+        },
+        "publicFinance": {
+            "publicDebt": "2,5 % du PIB (quasi-nulle, adossée au Danemark)",
+            "budgetBalance": "Équilibré (soutenu par le transfert annuel danois)",
+            "sovereignRating": "Adossé au Danemark (AAA)"
+        },
+        "organizations": [
+            "Conseil de l'Arctique",
+            "Conseil nordique",
+            "PTOM (Pays et territoires d'outre-mer associés à l'UE)"
+        ]
+    }
+}
