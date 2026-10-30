@@ -1,0 +1,2315 @@
+{
+    "ESP": {
+        "general": {
+            "population": "48,6 millions d'habitants",
+            "globalRank": "30e mondial (4e de l'UE)",
+            "density": "96 hab./km²",
+            "growthRate": "+0,6 % par an (impulsion migratoire)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,16 enfant par femme (parmi les plus bas du monde)",
+            "birthRate": "6,7 ‰",
+            "deathRate": "9,1 ‰",
+            "infantMortality": "2,6 ‰",
+            "netMigration": "+8,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "45,5 ans",
+            "lifeExpectancy": {
+                "total": "83,9 ans",
+                "women": "86,2 ans",
+                "men": "81,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "13,8 %",
+                "fifteenToSixtyFour": "65,9 %",
+                "sixtyFivePlus": "20,3 %"
+            },
+            "dependencyRatio": "51,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "81,3 %",
+            "mainMetropolises": [
+                "Madrid (6,7 millions hab.)",
+                "Barcelone (5,6 millions hab.)",
+                "Valence (1,6 million hab.)",
+                "Séville (1,3 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Espagnols (Castillans, Catalans, Galiciens, Basques) 87 %, résidents étrangers 13 % (Marocains, Roumains, Colombiens, Vénézuéliens)",
+            "languages": "Castillan / Espagnol (officiel d'État), Catalan/Valencien (co-officiel), Galicien (co-officiel), Basque/Euskara (co-officiel)",
+            "religions": "Catholicisme (56 %), Sans religion / Athées / Agnostiques (39 %), Islam (3 %), Autres (2 %)"
+        },
+        "development": {
+            "hdi": "0,911 (Très élevé - 27e mondial)",
+            "literacyRate": "98,6 %",
+            "keyChallenges": "Hiver démographique sévère, phénomène de l'España vaciada (désertification rurale de l'intérieur au profit des littoraux et de Madrid), pérennité du système de retraite, fort recours à l'immigration latino-américaine pour renouveler la population active"
+        }
+    },
+    "FRA": {
+        "general": {
+            "population": "68,4 millions d'habitants",
+            "globalRank": "20e mondial (2e de l'UE)",
+            "density": "106 hab./km²",
+            "growthRate": "+0,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,68 enfant par femme",
+            "birthRate": "9,9 ‰",
+            "deathRate": "9,8 ‰",
+            "infantMortality": "3,6 ‰",
+            "netMigration": "+2,4 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "42,4 ans",
+            "lifeExpectancy": {
+                "total": "83,0 ans",
+                "women": "85,7 ans",
+                "men": "80,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "17,3 %",
+                "fifteenToSixtyFour": "61,6 %",
+                "sixtyFivePlus": "21,1 %"
+            },
+            "dependencyRatio": "62,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "81,5 %",
+            "mainMetropolises": [
+                "Paris (12,4 millions hab. aire urbaine)",
+                "Lyon (2,3 millions hab.)",
+                "Marseille-Aix (1,9 million hab.)",
+                "Toulouse (1,5 million hab.)",
+                "Lille (1,5 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Origines françaises et européennes (90 %), maghrébines et subsahariennes (statistiques ethniques interdites par la loi républicaine)",
+            "languages": "Français (officiel), langues régionales patrimoniales (breton, occitan, corse, alsacien, basque, créoles outre-mer)",
+            "religions": "Catholicisme (47 %), Sans religion / Laïcs (40 %), Islam (8 %), Protestantisme (2 %), Judaïsme (1 %)"
+        },
+        "development": {
+            "hdi": "0,910 (Très élevé - 28e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Baisse tendancielle du taux de natalité sous le seuil de remplacement (historiquement le plus haut d'Europe), vieillissement des baby-boomers, fracture territoriale le long de la 'diagonale des faibles densités' et déserts médicaux ruraux"
+        }
+    },
+    "RUS": {
+        "general": {
+            "population": "144,0 millions d'habitants (hors Crimée)",
+            "globalRank": "9e mondial (1ère d'Europe)",
+            "density": "8,4 hab./km² (l'une des plus faibles densités au monde)",
+            "growthRate": "-0,3 % par an (crise démographique persistante)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,42 enfant par femme",
+            "birthRate": "8,7 ‰",
+            "deathRate": "12,9 ‰",
+            "infantMortality": "4,4 ‰",
+            "netMigration": "+1,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "40,3 ans",
+            "lifeExpectancy": {
+                "total": "72,8 ans",
+                "women": "78,1 ans",
+                "men": "67,6 ans (très fort écart de surmortalité masculine)"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "17,2 %",
+                "fifteenToSixtyFour": "66,8 %",
+                "sixtyFivePlus": "16,0 %"
+            },
+            "dependencyRatio": "49,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "75,1 %",
+            "mainMetropolises": [
+                "Moscou (13,1 millions hab.)",
+                "Saint-Pétersbourg (5,6 millions hab.)",
+                "Novossibirsk (1,6 million hab.)",
+                "Ekaterinbourg (1,5 million hab.)",
+                "Kazan (1,3 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Russes (77,7 %), Tatars (3,7 %), Tchétchènes (1,0 %), Bachkirs (1,0 %), Tchouvaches, plus de 190 nationalités reconnues",
+            "languages": "Russe (officiel d'État), plus de 35 langues co-officielles dans les républiques autonomes (tatar, tchétchène, bachkir, etc.)",
+            "religions": "Orthodoxie russe (71 %), Islam (10-14 %), Sans religion (15 %), Bouddhisme (en Kalmoukie et Bouriatie, 1 %)"
+        },
+        "development": {
+            "hdi": "0,821 (Très élevé - 56e mondial)",
+            "literacyRate": "99,7 %",
+            "keyChallenges": "Crise démographique historique ('croix russe' : mortalité supérieure aux naissances), surmortalité précoce des hommes, dépeuplement de la Sibérie et de l'Extrême-Orient, impact démographique de la guerre en Ukraine et émigration des élites qualifiées"
+        }
+    },
+    "DEU": {
+        "general": {
+            "population": "84,6 millions d'habitants",
+            "globalRank": "19e mondial (1ère de l'UE)",
+            "density": "237 hab./km²",
+            "growthRate": "-0,1 % par an (solde naturel négatif comblé par l'immigration)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,36 enfant par femme",
+            "birthRate": "8,2 ‰",
+            "deathRate": "12,2 ‰",
+            "infantMortality": "3,1 ‰",
+            "netMigration": "+6,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "45,9 ans (l'une des plus âgées au monde)",
+            "lifeExpectancy": {
+                "total": "81,0 ans",
+                "women": "83,4 ans",
+                "men": "78,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,0 %",
+                "fifteenToSixtyFour": "63,5 %",
+                "sixtyFivePlus": "22,5 %"
+            },
+            "dependencyRatio": "57,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "77,5 %",
+            "mainMetropolises": [
+                "Région Rhin-Ruhr (conurbation de 10,5 millions hab.)",
+                "Berlin (3,8 millions hab.)",
+                "Hambourg (1,9 million hab.)",
+                "Munich (1,5 million hab.)",
+                "Francfort-sur-le-Main (0,8 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Allemands (72 %), personnes issues de l'immigration (28 % : Turcs, Ukrainiens, Syriens, Polonais, Russes)",
+            "languages": "Allemand (officiel), minorités reconnues (danois, frison, sorabe, romani)",
+            "religions": "Sans religion / Laïcs (44 %), Catholicisme (25 %), Protestantisme / EKD (23 %), Islam (6 %)"
+        },
+        "development": {
+            "hdi": "0,950 (Extrêmement élevé - 7e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Pénurie critique de main-d'œuvre qualifiée (Fachkräftemangel estimée à 400 000 travailleurs par an), vieillissement extrême du Mittelstand, financement des retraites, intégration socioprofessionnelle des vagues migratoires"
+        }
+    },
+    "GBR": {
+        "general": {
+            "population": "68,2 millions d'habitants",
+            "globalRank": "21e mondial",
+            "density": "281 hab./km²",
+            "growthRate": "+0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,56 enfant par femme",
+            "birthRate": "10,1 ‰",
+            "deathRate": "9,6 ‰",
+            "infantMortality": "3,4 ‰",
+            "netMigration": "+4,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "40,7 ans",
+            "lifeExpectancy": {
+                "total": "81,3 ans",
+                "women": "83,1 ans",
+                "men": "79,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "17,4 %",
+                "fifteenToSixtyFour": "63,5 %",
+                "sixtyFivePlus": "19,1 %"
+            },
+            "dependencyRatio": "57,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "84,4 %",
+            "mainMetropolises": [
+                "Grand Londres (9,7 millions hab.)",
+                "Manchester (2,8 millions hab.)",
+                "Birmingham (2,6 millions hab.)",
+                "Leeds-Bradford (1,9 million hab.)",
+                "Glasgow (1,2 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Blancs britanniques et européens (82 %), Asiatiques britanniques (Indiens, Pakistanais, Bangladais - 9 %), Noirs britanniques (Africains, Caribéens - 4 %), Métis (3 %)",
+            "languages": "Anglais (officiel de facto), Gallois (officiel au Pays de Galles), Gaélique écossais, Irlandais",
+            "religions": "Sans religion (46 %), Christianisme (anglican, catholique, presbytérien - 44 %), Islam (6,5 %), Hindouisme (1,7 %)"
+        },
+        "development": {
+            "hdi": "0,940 (Très élevé - 15e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Pression sur les services publics (NHS) due au vieillissement, crise du logement dans le Sud-Est et le Grand Londres, gestion des flux migratoires post-Brexit, disparités régionales Nord-Sud"
+        }
+    },
+    "ITA": {
+        "general": {
+            "population": "58,9 millions d'habitants",
+            "globalRank": "25e mondial (3e de l'UE)",
+            "density": "195 hab./km²",
+            "growthRate": "-0,3 % par an (perte de 180 000 hab./an)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,24 enfant par femme (crise de natalité historique)",
+            "birthRate": "6,7 ‰",
+            "deathRate": "12,1 ‰",
+            "infantMortality": "2,4 ‰",
+            "netMigration": "+3,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "48,1 ans (2e population la plus âgée au monde après le Japon)",
+            "lifeExpectancy": {
+                "total": "83,8 ans",
+                "women": "85,8 ans",
+                "men": "81,7 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "12,4 %",
+                "fifteenToSixtyFour": "63,5 %",
+                "sixtyFivePlus": "24,1 %"
+            },
+            "dependencyRatio": "57,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "71,7 %",
+            "mainMetropolises": [
+                "Rome (4,3 millions hab. aire métropolitaine)",
+                "Milan (3,3 millions hab.)",
+                "Naples (3,0 millions hab.)",
+                "Turin (1,7 million hab.)",
+                "Palerme (1,0 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Italiens (91 %), résidents étrangers (9 % : Roumains, Albanais, Marocains, Chinois, Ukrainiens)",
+            "languages": "Italien (officiel), minorités linguistiques protégées (allemand au Tyrol du Sud, français en Vallée d'Aoste, sarde, frioulan, slovène)",
+            "religions": "Catholicisme (79 %), Sans religion (15 %), Islam (3 %), Orthodoxie (2 %)"
+        },
+        "development": {
+            "hdi": "0,906 (Très élevé - 30e mondial)",
+            "literacyRate": "99,2 %",
+            "keyChallenges": "Effondrement démographique ('glaciation démographique'), dépeuplement des villages du Mezzogiorno et de l'intérieur, exode des jeunes diplômés (fuga dei cervelli), fardeau colossal du financement des retraites publiques"
+        }
+    },
+    "BEL": {
+        "general": {
+            "population": "11,8 millions d'habitants",
+            "globalRank": "82e mondial",
+            "density": "386 hab./km² (l'une des plus fortes densités d'Europe)",
+            "growthRate": "+0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,53 enfant par femme",
+            "birthRate": "9,8 ‰",
+            "deathRate": "9,5 ‰",
+            "infantMortality": "3,2 ‰",
+            "netMigration": "+4,7 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "41,8 ans",
+            "lifeExpectancy": {
+                "total": "82,3 ans",
+                "women": "84,3 ans",
+                "men": "80,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,5 %",
+                "fifteenToSixtyFour": "63,8 %",
+                "sixtyFivePlus": "19,7 %"
+            },
+            "dependencyRatio": "56,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "98,1 % (l'un des pays les plus urbanisés au monde)",
+            "mainMetropolises": [
+                "Bruxelles (2,1 millions hab. aire métropolitaine)",
+                "Anvers (1,1 million hab.)",
+                "Gand (0,6 million hab.)",
+                "Liège (0,5 million hab.)",
+                "Charleroi (0,4 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Flamands (57 %), Wallons (31 %), résidents de Bruxelles et minorités internationales d'origine européenne et extra-européenne (12 %)",
+            "languages": "Néerlandais (officiel, 60 %), Français (officiel, 39 %), Allemand (officiel, 1 %)",
+            "religions": "Catholicisme (50 %), Sans religion (38 %), Islam (8 %), Protestantisme et orthodoxie (4 %)"
+        },
+        "development": {
+            "hdi": "0,942 (Très élevé - 12e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Coexistence linguistique et équilibres démographiques régionaux entre Flandre vieillissante et Bruxelles jeune et multiculturelle, vieillissement des baby-boomers, pression sur les infrastructures de transport"
+        }
+    },
+    "CHE": {
+        "general": {
+            "population": "8,9 millions d'habitants",
+            "globalRank": "100e mondial",
+            "density": "216 hab./km²",
+            "growthRate": "+0,8 % par an (croissance portée par l'attractivité migratoire)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,39 enfant par femme",
+            "birthRate": "9,2 ‰",
+            "deathRate": "8,1 ‰",
+            "infantMortality": "3,4 ‰",
+            "netMigration": "+6,9 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,1 ans",
+            "lifeExpectancy": {
+                "total": "84,0 ans (parmi les plus élevées au monde)",
+                "women": "85,9 ans",
+                "men": "82,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,8 %",
+                "fifteenToSixtyFour": "65,9 %",
+                "sixtyFivePlus": "19,3 %"
+            },
+            "dependencyRatio": "51,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "74,2 %",
+            "mainMetropolises": [
+                "Zurich (1,4 million hab. aire métropolitaine)",
+                "Genève (0,6 million hab.)",
+                "Bâle (0,5 million hab.)",
+                "Lausanne (0,4 million hab.)",
+                "Berne (0,4 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Suisses (74 %), résidents étrangers (26 % : Italiens, Allemands, Portugais, Français, Kosovars)",
+            "languages": "Allemand / Suisse allemand (officiel, 62 %), Français (officiel, 23 %), Italien (officiel, 8 %), Romanche (officiel, 0,5 %)",
+            "religions": "Catholicisme (34 %), Protestantisme réformé (22 %), Sans religion (34 %), Islam (5 %), Autres (5 %)"
+        },
+        "development": {
+            "hdi": "0,967 (1er mondial ex-æquo avec la Norvège)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Pression démographique sur le marché du logement et les terres agricoles du Plateau suisse, vieillissement de la population, débats récurrents sur la régulation de l'immigration ('Suisse à 10 millions')"
+        }
+    },
+    "UKR": {
+        "general": {
+            "population": "37,0 millions d'habitants (estimation actuelle sous contrôle gouvernemental, contre 44 millions avant 2022)",
+            "globalRank": "38e mondial",
+            "density": "61 hab./km²",
+            "growthRate": "-1,5 % par an (choc de guerre et émigration massive)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "0,90 enfant par femme (chute historique liée à la guerre)",
+            "birthRate": "5,8 ‰",
+            "deathRate": "15,2 ‰",
+            "infantMortality": "6,8 ‰",
+            "netMigration": "-12,0 ‰ (plus de 6 millions de réfugiés à l'étranger)"
+        },
+        "ageStructure": {
+            "medianAge": "44,7 ans",
+            "lifeExpectancy": {
+                "total": "69,5 ans",
+                "women": "75,2 ans",
+                "men": "64,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,5 %",
+                "fifteenToSixtyFour": "67,5 %",
+                "sixtyFivePlus": "18,0 %"
+            },
+            "dependencyRatio": "48,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "70,1 %",
+            "mainMetropolises": [
+                "Kyiv (3,0 millions hab.)",
+                "Kharkiv (1,4 million hab.)",
+                "Odessa (1,0 million hab.)",
+                "Dnipro (1,0 million hab.)",
+                "Lviv (0,7 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Ukrainiens (83 %), Russes (14 %), Biélorusses, Moldaves, Tatars de Crimée, Hongrois",
+            "languages": "Ukrainien (officiel d'État unique), Russe (largement parlé), langues minoritaires",
+            "religions": "Orthodoxie d'Ukraine (72 %), Catholicisme de rite grec / gréco-catholiques (9 %), Sans religion (12 %), Protestantisme (2 %)"
+        },
+        "development": {
+            "hdi": "0,734 (Élevé - 100e mondial, impact direct du conflit)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Catastrophe démographique causée par l'agression russe : millions de réfugiés en Europe, pertes humaines militaires et civiles, effondrement des naissances, défi vital du retour de la population active pour la reconstruction"
+        }
+    },
+    "POL": {
+        "general": {
+            "population": "37,6 millions d'habitants",
+            "globalRank": "39e mondial (5e de l'UE)",
+            "density": "120 hab./km²",
+            "growthRate": "-0,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,26 enfant par femme",
+            "birthRate": "7,8 ‰",
+            "deathRate": "11,1 ‰",
+            "infantMortality": "3,6 ‰",
+            "netMigration": "+1,5 ‰ (accueil d'un million de réfugiés ukrainiens)"
+        },
+        "ageStructure": {
+            "medianAge": "42,8 ans",
+            "lifeExpectancy": {
+                "total": "78,6 ans",
+                "women": "82,7 ans",
+                "men": "74,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,8 %",
+                "fifteenToSixtyFour": "65,5 %",
+                "sixtyFivePlus": "19,7 %"
+            },
+            "dependencyRatio": "52,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "60,2 %",
+            "mainMetropolises": [
+                "Varsovie (1,9 million hab.)",
+                "Cracovie (0,8 million hab.)",
+                "Wrocław (0,7 million hab.)",
+                "Łódź (0,65 million hab.)",
+                "Poznań (0,55 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Polonais (96 % - société très homogène), communauté ukrainienne établie, Silésiens, Allemands",
+            "languages": "Polonais (officiel), kachoube (langue régionale reconnue)",
+            "religions": "Catholicisme (71 %), Sans religion (22 %), Orthodoxie (1 %), Autres (6 %)"
+        },
+        "development": {
+            "hdi": "0,881 (Très élevé - 36e mondial)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Déclin démographique rapide et vieillissement, dépeuplement des petites villes moyennes de l'Est polonais, baisse de l'influence de l'Église chez les jeunes, maintien des flux migratoires de retour de la diaspora"
+        }
+    },
+    "NLD": {
+        "general": {
+            "population": "17,9 millions d'habitants",
+            "globalRank": "68e mondial",
+            "density": "523 hab./km² (l'un des pays les plus densément peuplés au monde)",
+            "growthRate": "+0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,49 enfant par femme",
+            "birthRate": "9,4 ‰",
+            "deathRate": "9,6 ‰",
+            "infantMortality": "3,4 ‰",
+            "netMigration": "+6,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "42,8 ans",
+            "lifeExpectancy": {
+                "total": "82,2 ans",
+                "women": "83,8 ans",
+                "men": "80,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,5 %",
+                "fifteenToSixtyFour": "64,2 %",
+                "sixtyFivePlus": "20,3 %"
+            },
+            "dependencyRatio": "55,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "92,9 %",
+            "mainMetropolises": [
+                "Randstad (conurbation de 8,4 millions hab. : Amsterdam, Rotterdam, La Haye, Utrecht)",
+                "Amsterdam (0,9 million hab. intra-muros)",
+                "Rotterdam (0,65 million hab.)",
+                "La Haye (0,55 million hab.)",
+                "Eindhoven (0,25 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Néerlandais (75 %), personnes issues de l'immigration européenne et extra-européenne (25 % : Turcs, Marocains, Surinamais, Indonésiens)",
+            "languages": "Néerlandais (officiel), Frison (co-officiel en Frise), Papiamento et Anglais (Caraïbes néerlandaises)",
+            "religions": "Sans religion (58 % - l'un des plus sécularisés d'Europe), Catholicisme (18 %), Protestantisme (14 %), Islam (5 %)"
+        },
+        "development": {
+            "hdi": "0,946 (Très élevé - 10e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Pression territoriale extrême et crise aiguë du logement (woningnood), saturation de la Randstad, adaptation au réchauffement climatique et montée des eaux pour un pays sous le niveau de la mer"
+        }
+    },
+    "PRT": {
+        "general": {
+            "population": "10,5 millions d'habitants",
+            "globalRank": "89e mondial",
+            "density": "114 hab./km²",
+            "growthRate": "+0,3 % par an (solde migratoire positif compensant le déficit naturel)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,43 enfant par femme",
+            "birthRate": "8,2 ‰",
+            "deathRate": "11,8 ‰",
+            "infantMortality": "2,8 ‰",
+            "netMigration": "+6,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "46,8 ans (3e population la plus âgée d'Europe)",
+            "lifeExpectancy": {
+                "total": "82,5 ans",
+                "women": "85,2 ans",
+                "men": "79,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "12,9 %",
+                "fifteenToSixtyFour": "63,6 %",
+                "sixtyFivePlus": "23,5 %"
+            },
+            "dependencyRatio": "57,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "67,4 %",
+            "mainMetropolises": [
+                "Lisbonne (2,9 millions hab. aire métropolitaine)",
+                "Porto (1,8 million hab.)",
+                "Braga (0,2 million hab.)",
+                "Coimbra (0,15 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Portugais (92 %), résidents étrangers (8 % : Brésiliens, Cap-Verdiens, Britanniques, Ukrainiens, Indiens)",
+            "languages": "Portugais (officiel), Mirandais (reconnu localement)",
+            "religions": "Catholicisme (80 %), Sans religion (14 %), Autres chrétiens (3 %), Islam (1 %)"
+        },
+        "development": {
+            "hdi": "0,874 (Très élevé - 42e mondial)",
+            "literacyRate": "96,8 %",
+            "keyChallenges": "Désertification humaine de l'intérieur rural au profit de l'axe côtier Lisbonne-Porto, émigration historique de jeunes diplômés qualifiés, accueil de nomades numériques et retraités européens créant des tensions immobilières"
+        }
+    },
+    "SWE": {
+        "general": {
+            "population": "10,5 millions d'habitants",
+            "globalRank": "88e mondial",
+            "density": "25,5 hab./km²",
+            "growthRate": "+0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,52 enfant par femme",
+            "birthRate": "9,7 ‰",
+            "deathRate": "9,0 ‰",
+            "infantMortality": "2,2 ‰ (parmi les plus basses du monde)",
+            "netMigration": "+4,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "41,1 ans",
+            "lifeExpectancy": {
+                "total": "83,3 ans",
+                "women": "85,1 ans",
+                "men": "81,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "17,2 %",
+                "fifteenToSixtyFour": "62,4 %",
+                "sixtyFivePlus": "20,4 %"
+            },
+            "dependencyRatio": "60,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "88,5 %",
+            "mainMetropolises": [
+                "Stockholm (2,4 millions hab. aire urbaine)",
+                "Göteborg (1,0 million hab.)",
+                "Malmö (0,75 million hab.)",
+                "Uppsala (0,25 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Suédois (80 %), minorité autochtone Samie, résidents nés à l'étranger (20 % : Syriens, Irakiens, Finlandais, Somaliens)",
+            "languages": "Suédois (officiel), langues minoritaires officielles (same, finnois, meänkieli, romani, yiddish)",
+            "religions": "Église de Suède / Luthéranisme (53 %), Sans religion (35 %), Islam (8 %), Catholicisme et orthodoxie (4 %)"
+        },
+        "development": {
+            "hdi": "0,952 (Très élevé - 5e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Intégration et ségrégation résidentielle dans les banlieues des grandes métropoles, adaptation du modèle social universel aux équilibres démographiques, maintien de la politique familiale scandinave"
+        }
+    },
+    "NOR": {
+        "general": {
+            "population": "5,5 millions d'habitants",
+            "globalRank": "119e mondial",
+            "density": "17,5 hab./km²",
+            "growthRate": "+0,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,41 enfant par femme",
+            "birthRate": "9,5 ‰",
+            "deathRate": "8,1 ‰",
+            "infantMortality": "1,8 ‰ (taux record mondial de faible mortalité)",
+            "netMigration": "+5,6 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "40,0 ans",
+            "lifeExpectancy": {
+                "total": "83,4 ans",
+                "women": "85,0 ans",
+                "men": "81,7 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,8 %",
+                "fifteenToSixtyFour": "64,8 %",
+                "sixtyFivePlus": "18,4 %"
+            },
+            "dependencyRatio": "54,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "83,7 %",
+            "mainMetropolises": [
+                "Oslo (1,1 million hab. aire métropolitaine)",
+                "Bergen (0,3 million hab.)",
+                "Stavanger-Sandnes (0,25 million hab.)",
+                "Trondheim (0,2 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Norvégiens (81 %), minorités autochtones Samis et Kvènes, résidents d'origine étrangère (19 % : Polonais, Lituaniens, Ukrainiens, Somaliens)",
+            "languages": "Norvégien (Bokmål et Nynorsk, officiels), Same (officiel dans les communes du Nord)",
+            "religions": "Église de Norvège / Luthéranisme (65 %), Sans religion (24 %), Islam (3,5 %), Catholicisme (3 %)"
+        },
+        "development": {
+            "hdi": "0,966 (2e mondial, au sommet régulier des classements de bien-être)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Pression sur le modèle de protection sociale généreux, maintien de la population active dans les fjords et le Grand Nord arctique, forte dépendance aux capitaux du fonds souverain GPFG pour financer les retraites"
+        }
+    },
+    "GRC": {
+        "general": {
+            "population": "10,4 millions d'habitants",
+            "globalRank": "90e mondial",
+            "density": "80 hab./km²",
+            "growthRate": "-0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,32 enfant par femme",
+            "birthRate": "7,3 ‰",
+            "deathRate": "13,2 ‰",
+            "infantMortality": "3,1 ‰",
+            "netMigration": "+1,0 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "46,1 ans (parmi les plus âgées d'Europe)",
+            "lifeExpectancy": {
+                "total": "81,8 ans",
+                "women": "84,3 ans",
+                "men": "79,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,1 %",
+                "fifteenToSixtyFour": "63,3 %",
+                "sixtyFivePlus": "22,6 %"
+            },
+            "dependencyRatio": "58,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "80,4 %",
+            "mainMetropolises": [
+                "Athènes (3,8 millions hab. région métropolitaine)",
+                "Thessalonique (1,1 million hab.)",
+                "Patras (0,22 million hab.)",
+                "Héraklion (0,18 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Grecs (93 %), résidents étrangers et minorités (7 % : Albanais, Bulgares, Roumains, minorité musulmane de Thrace)",
+            "languages": "Grec moderne (officiel d'État unique)",
+            "religions": "Orthodoxie grecque (Église de Grèce - 90 %), Sans religion (6 %), Islam (2 %)"
+        },
+        "development": {
+            "hdi": "0,893 (Très élevé - 33e mondial)",
+            "literacyRate": "97,9 %",
+            "keyChallenges": "Chute de la natalité consécutive à une décennie de crise économique sévère, fuite massive de plus de 500 000 jeunes diplômés vers l'Europe du Nord, dépeuplement des villages de montagne et des îles non touristiques"
+        }
+    },
+    "AUT": {
+        "general": {
+            "population": "9,1 millions d'habitants",
+            "globalRank": "97e mondial",
+            "density": "110 hab./km²",
+            "growthRate": "+0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,41 enfant par femme",
+            "birthRate": "9,1 ‰",
+            "deathRate": "9,8 ‰",
+            "infantMortality": "3,2 ‰",
+            "netMigration": "+6,7 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "44,5 ans",
+            "lifeExpectancy": {
+                "total": "81,8 ans",
+                "women": "84,2 ans",
+                "men": "79,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,3 %",
+                "fifteenToSixtyFour": "66,2 %",
+                "sixtyFivePlus": "19,5 %"
+            },
+            "dependencyRatio": "51,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "59,3 %",
+            "mainMetropolises": [
+                "Vienne (2,0 millions hab. intra-muros, 2,9 M aire urbaine)",
+                "Graz (0,3 million hab.)",
+                "Linz (0,21 million hab.)",
+                "Salzbourg (0,16 million hab.)",
+                "Innsbruck (0,13 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Autrichiens (74 %), résidents d'origine étrangère (26 % : Allemands, ressortissants de l'ex-Yougoslavie, Turcs, Ukrainiens)",
+            "languages": "Allemand (officiel), langues régionales protégées (slovène en Carinthie, croate et hongrois au Burgenland)",
+            "religions": "Catholicisme (55 %), Sans religion (28 %), Islam (8 %), Orthodoxie (5 %)"
+        },
+        "development": {
+            "hdi": "0,926 (Très élevé - 22e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Poids démographique disproportionné de la capitale Vienne concentrant un quart de la population, vieillissement alpin, attractivité de main-d'œuvre qualifiée dans l'industrie"
+        }
+    },
+    "IRL": {
+        "general": {
+            "population": "5,3 millions d'habitants",
+            "globalRank": "122e mondial",
+            "density": "76 hab./km²",
+            "growthRate": "+1,2 % par an (l'une des croissances les plus dynamiques d'Europe)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,70 enfant par femme",
+            "birthRate": "11,2 ‰",
+            "deathRate": "6,7 ‰",
+            "infantMortality": "2,9 ‰",
+            "netMigration": "+7,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "38,8 ans (l'une des populations les plus jeunes d'Europe de l'Ouest)",
+            "lifeExpectancy": {
+                "total": "82,6 ans",
+                "women": "84,4 ans",
+                "men": "80,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "19,4 %",
+                "fifteenToSixtyFour": "65,6 %",
+                "sixtyFivePlus": "15,0 %"
+            },
+            "dependencyRatio": "52,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "64,2 %",
+            "mainMetropolises": [
+                "Dublin (1,5 million hab. aire métropolitaine)",
+                "Cork (0,32 million hab.)",
+                "Limerick (0,11 million hab.)",
+                "Galway (0,09 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Irlandais (76 %), autres Blancs européens (Polonais, Britanniques, Lituaniens - 10 %), Asiatiques (3 %), Noirs irlandais (2 %)",
+            "languages": "Irlandais / Gaeilge (1ère langue nationale et officielle), Anglais (officielle, universellement parlée)",
+            "religions": "Catholicisme (69 %), Sans religion (14 %), Église d'Irlande anglicane (2 %), Islam (2 %)"
+        },
+        "development": {
+            "hdi": "0,950 (Très élevé - 7e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Crise historique du logement à Dublin alimentée par l'afflux démographique de travailleurs de la tech et des multinationales, rajeunissement et préservation de la langue irlandaise dans les zones de Gaeltacht"
+        }
+    },
+    "FIN": {
+        "general": {
+            "population": "5,6 millions d'habitants",
+            "globalRank": "118e mondial",
+            "density": "18,3 hab./km²",
+            "growthRate": "+0,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,26 enfant par femme (chute historique de la fécondité)",
+            "birthRate": "7,8 ‰",
+            "deathRate": "10,9 ‰",
+            "infantMortality": "1,9 ‰",
+            "netMigration": "+6,4 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,3 ans",
+            "lifeExpectancy": {
+                "total": "82,1 ans",
+                "women": "84,8 ans",
+                "men": "79,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,2 %",
+                "fifteenToSixtyFour": "61,6 %",
+                "sixtyFivePlus": "23,2 %"
+            },
+            "dependencyRatio": "62,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "85,8 %",
+            "mainMetropolises": [
+                "Helsinki (1,5 million hab. aire métropolitaine)",
+                "Tampere (0,4 million hab.)",
+                "Turku (0,35 million hab.)",
+                "Oulu (0,25 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Finnois (86 %), Finno-Suédois (5,2 %), minorité autochtone Samie (Lapone), résidents étrangers (9 % : Russes, Estoniens, Irakiens)",
+            "languages": "Finnois (officiel, 86 %), Suédois (officiel, 5,2 %), Same (reconnu en Laponie)",
+            "religions": "Église évangélique-luthérienne de Finlande (65 %), Sans religion (32 %), Orthodoxie finlandaise (1 %)"
+        },
+        "development": {
+            "hdi": "0,942 (Très élevé - 12e mondial, pays le plus heureux du monde selon l'ONU)",
+            "literacyRate": "100,0 %",
+            "keyChallenges": "Vieillissement rapide de la population, maintien de la présence humaine et des infrastructures dans les régions arctiques et orientales longeant les 1 340 km de frontière avec la Russie"
+        }
+    },
+    "DNK": {
+        "general": {
+            "population": "5,95 millions d'habitants (hors Groenland et Féroé)",
+            "globalRank": "115e mondial",
+            "density": "138 hab./km²",
+            "growthRate": "+0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,50 enfant par femme",
+            "birthRate": "9,8 ‰",
+            "deathRate": "9,5 ‰",
+            "infantMortality": "2,9 ‰",
+            "netMigration": "+4,7 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "42,2 ans",
+            "lifeExpectancy": {
+                "total": "81,9 ans",
+                "women": "83,8 ans",
+                "men": "80,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,1 %",
+                "fifteenToSixtyFour": "63,6 %",
+                "sixtyFivePlus": "20,3 %"
+            },
+            "dependencyRatio": "57,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "88,4 %",
+            "mainMetropolises": [
+                "Copenhague (1,4 million hab. aire métropolitaine, 4,0 M région transfrontalière de l'Øresund)",
+                "Aarhus (0,36 million hab.)",
+                "Odense (0,21 million hab.)",
+                "Aalborg (0,14 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Danois (85 %), personnes issues de l'immigration (15 % : Polonais, Syriens, Roumains, Turcs, Allemands)",
+            "languages": "Danois (officiel d'État), Allemand (reconnu au Jutland du Sud)",
+            "religions": "Église du Peuple danois / Luthéranisme (72 %), Sans religion (22 %), Islam (4,5 %)"
+        },
+        "development": {
+            "hdi": "0,952 (Très élevé - 5e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Modèle d'intégration stricte et politique migratoire restrictive, financement du modèle scandinave de flexisécurité face à l'augmentation de l'espérance de vie indexée à l'âge de départ en retraite"
+        }
+    },
+    "CZE": {
+        "general": {
+            "population": "10,9 millions d'habitants",
+            "globalRank": "86e mondial",
+            "density": "138 hab./km²",
+            "growthRate": "+0,3 % par an (porté par les réfugiés ukrainiens)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,62 enfant par femme",
+            "birthRate": "9,3 ‰",
+            "deathRate": "11,2 ‰",
+            "infantMortality": "2,2 ‰",
+            "netMigration": "+4,9 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,5 ans",
+            "lifeExpectancy": {
+                "total": "79,8 ans",
+                "women": "82,8 ans",
+                "men": "76,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,8 %",
+                "fifteenToSixtyFour": "63,6 %",
+                "sixtyFivePlus": "20,6 %"
+            },
+            "dependencyRatio": "57,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "74,4 %",
+            "mainMetropolises": [
+                "Prague (1,4 million hab. intra-muros, 2,2 M aire urbaine)",
+                "Brno (0,4 million hab.)",
+                "Ostrava (0,28 million hab.)",
+                "Plzeň (0,18 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Tchèques (84 %), Moraves (4 %), Slovaques, Ukrainiens, Vietnamiens (minorité établie reconnue)",
+            "languages": "Tchèque (officiel d'État unique), Slovaque (compris universellement)",
+            "religions": "Sans religion / Athées (78 % - l'un des pays les moins religieux au monde), Catholicisme (9 %), Autres croyances (13 %)"
+        },
+        "development": {
+            "hdi": "0,895 (Très élevé - 32e mondial)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Pénurie aiguë de main-d'œuvre industrielle dans le secteur automobile, vieillissement et concentration des jeunes actifs dans la métropole pragoise au détriment des régions minières de Moravie-Silésie"
+        }
+    },
+    "ROU": {
+        "general": {
+            "population": "19,0 millions d'habitants",
+            "globalRank": "62e mondial (6e de l'UE)",
+            "density": "83 hab./km²",
+            "growthRate": "-0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,71 enfant par femme",
+            "birthRate": "9,0 ‰",
+            "deathRate": "13,6 ‰",
+            "infantMortality": "5,6 ‰",
+            "netMigration": "+0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,2 ans",
+            "lifeExpectancy": {
+                "total": "75,3 ans",
+                "women": "79,3 ans",
+                "men": "71,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,8 %",
+                "fifteenToSixtyFour": "64,7 %",
+                "sixtyFivePlus": "19,5 %"
+            },
+            "dependencyRatio": "54,6 %"
+        },
+        "urbanization": {
+            "urbanRate": "54,5 %",
+            "mainMetropolises": [
+                "Bucarest (2,2 millions hab. aire métropolitaine)",
+                "Cluj-Napoca (0,42 million hab.)",
+                "Timișoara (0,35 million hab.)",
+                "Iași (0,35 million hab.)",
+                "Constanța (0,31 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Roumains (89 %), Hongrois/Sicules (6 %), Roms (3,4 %), Ukrainiens, Allemands (Saxons de Transylvanie)",
+            "languages": "Roumain (officiel, langue romane), Hongrois (reconnu localement en Transylvanie)",
+            "religions": "Orthodoxie roumaine (85 %), Protestantisme (5 %), Catholicisme (4,5 %), Sans religion (1 %)"
+        },
+        "development": {
+            "hdi": "0,821 (Très élevé - 53e mondial)",
+            "literacyRate": "98,8 %",
+            "keyChallenges": "Pertes démographiques massives depuis 1990 (plus de 4 millions de Roumains émigrés en Italie, Espagne, Allemagne), dépeuplement des campagnes et déserts médicaux, attraction récente de travailleurs asiatiques"
+        }
+    },
+    "HUN": {
+        "general": {
+            "population": "9,6 millions d'habitants",
+            "globalRank": "95e mondial",
+            "density": "104 hab./km²",
+            "growthRate": "-0,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,52 enfant par femme (stimulé par des politiques natalistes agressives)",
+            "birthRate": "9,1 ‰",
+            "deathRate": "13,8 ‰",
+            "infantMortality": "3,4 ‰",
+            "netMigration": "+1,4 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,7 ans",
+            "lifeExpectancy": {
+                "total": "76,9 ans",
+                "women": "80,7 ans",
+                "men": "73,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,5 %",
+                "fifteenToSixtyFour": "65,0 %",
+                "sixtyFivePlus": "20,5 %"
+            },
+            "dependencyRatio": "53,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "72,5 %",
+            "mainMetropolises": [
+                "Budapest (1,75 million hab. intra-muros, 3,0 M aire métropolitaine)",
+                "Debrecen (0,2 million hab.)",
+                "Szeged (0,16 million hab.)",
+                "Miskolc (0,15 million hab.)",
+                "Pécs (0,14 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Hongrois / Magyars (86 %), Roms (3,2 %), Allemands, Slovaques, Roumains",
+            "languages": "Hongrois / Magyar (officiel, langue finno-ougrienne)",
+            "religions": "Catholicisme (40 %), Calvinisme / Réformés (12 %), Sans religion (35 %), Luthéranisme (2 %)"
+        },
+        "development": {
+            "hdi": "0,851 (Très élevé - 47e mondial)",
+            "literacyRate": "99,1 %",
+            "keyChallenges": "Politique d'État axée sur le redressement démographique national et les prêts familiaux, refus de l'immigration extra-européenne de remplacement, émigration des jeunes diplômés vers l'Europe occidentale"
+        }
+    },
+    "LUX": {
+        "general": {
+            "population": "672 000 habitants",
+            "globalRank": "165e mondial",
+            "density": "260 hab./km²",
+            "growthRate": "+1,7 % par an (croissance démographique la plus rapide d'Europe)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,31 enfant par femme",
+            "birthRate": "9,6 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "2,4 ‰",
+            "netMigration": "+14,5 ‰ (record européen)"
+        },
+        "ageStructure": {
+            "medianAge": "39,7 ans",
+            "lifeExpectancy": {
+                "total": "83,0 ans",
+                "women": "85,1 ans",
+                "men": "80,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,0 %",
+                "fifteenToSixtyFour": "69,3 %",
+                "sixtyFivePlus": "14,7 %"
+            },
+            "dependencyRatio": "44,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "91,9 %",
+            "mainMetropolises": [
+                "Luxembourg-Ville (135 000 hab. intra-muros, 300 000 agglomération)",
+                "Esch-sur-Alzette (37 000 hab.)",
+                "Differdange (29 000 hab.)",
+                "Dudelange (22 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Luxembourgeois (53 %), résidents étrangers (47 % : Portugais 14 %, Français 7 %, Italiens, Belges, Allemands)",
+            "languages": "Luxembourgeois (langue nationale), Français (législation et administration), Allemand (administration et presse) - trilinguisme officiel",
+            "religions": "Catholicisme (65 %), Sans religion (25 %), Islam (3 %), Protestantisme (3 %)"
+        },
+        "development": {
+            "hdi": "0,927 (Très élevé - 20e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Plus de 220 000 travailleurs frontaliers quotidiens venant de France, Belgique et Allemagne (représentant 45 % des effectifs salariés totaux), crise aiguë du logement et saturation du réseau autoroutier"
+        }
+    },
+    "TUR": {
+        "general": {
+            "population": "85,3 millions d'habitants",
+            "globalRank": "18e mondial",
+            "density": "111 hab./km²",
+            "growthRate": "+0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,51 enfant par femme (chute rapide de la fécondité)",
+            "birthRate": "11,8 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "8,5 ‰",
+            "netMigration": "-0,5 ‰ (plus de 3,2 millions de réfugiés syriens hébergés sous protection temporaire)"
+        },
+        "ageStructure": {
+            "medianAge": "33,5 ans (population la plus jeune de la zone européenne)",
+            "lifeExpectancy": {
+                "total": "78,5 ans",
+                "women": "81,3 ans",
+                "men": "75,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "21,4 %",
+                "fifteenToSixtyFour": "68,4 %",
+                "sixtyFivePlus": "10,2 %"
+            },
+            "dependencyRatio": "46,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "77,5 %",
+            "mainMetropolises": [
+                "Istanbul (16,0 millions hab. - mégapole transcontinentale)",
+                "Ankara (5,8 millions hab.)",
+                "Izmir (4,5 millions hab.)",
+                "Bursa (3,2 millions hab.)",
+                "Antalya (2,7 millions hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Turcs (75 %), Kurdes (18 %), Arabes (4 %), Zazas, Circassiens, Lazes",
+            "languages": "Turc (officiel d'État unique), Kurde (kurmandji et zazaki parlé dans le Sud-Est)",
+            "religions": "Islam (sunnite hanafite majoritaire et alévisme - 98 %), Sans religion (1,5 %), Chrétiens et Juifs (0,5 %)"
+        },
+        "development": {
+            "hdi": "0,855 (Très élevé - 45e mondial)",
+            "literacyRate": "96,7 %",
+            "keyChallenges": "Transition démographique rapide (fécondité tombée sous le seuil de remplacement), concentration titanesque à Istanbul sur une faille sismique majeure, intégration des réfugiés syriens, disparités Est-Ouest"
+        }
+    },
+    "EST": {
+        "general": {
+            "population": "1,36 million d'habitants",
+            "globalRank": "156e mondial",
+            "density": "30 hab./km²",
+            "growthRate": "+0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,41 enfant par femme",
+            "birthRate": "8,1 ‰",
+            "deathRate": "11,8 ‰",
+            "infantMortality": "1,6 ‰ (taux record de faible mortalité)",
+            "netMigration": "+4,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "42,4 ans",
+            "lifeExpectancy": {
+                "total": "78,8 ans",
+                "women": "83,1 ans",
+                "men": "74,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,4 %",
+                "fifteenToSixtyFour": "63,3 %",
+                "sixtyFivePlus": "20,3 %"
+            },
+            "dependencyRatio": "58,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "69,6 %",
+            "mainMetropolises": [
+                "Tallinn (450 000 hab.)",
+                "Tartu (95 000 hab.)",
+                "Narva (53 000 hab.)",
+                "Pärnu (40 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Estoniens (69 %), Russes (21 %), Ukrainiens (4 %), Biélorusses, Finlandais",
+            "languages": "Estonien (officiel, finno-ougrien), Russe (parlé par 25 % de la population)",
+            "religions": "Sans religion (58 % - l'un des pays les plus laïcs du monde), Orthodoxie (16 %), Luthéranisme (8 %)"
+        },
+        "development": {
+            "hdi": "0,899 (Très élevé - 31e mondial)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Taille critique démographique réduite (1,36 M d'habitants), intégration de la minorité russophone à Narva, maintien des services publics numériques (e-Estonie) pour contrer l'isolement des comtés ruraux"
+        }
+    },
+    "LVA": {
+        "general": {
+            "population": "1,87 million d'habitants",
+            "globalRank": "153e mondial",
+            "density": "29 hab./km²",
+            "growthRate": "-0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,44 enfant par femme",
+            "birthRate": "8,3 ‰",
+            "deathRate": "14,3 ‰",
+            "infantMortality": "3,4 ‰",
+            "netMigration": "+1,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "44,4 ans",
+            "lifeExpectancy": {
+                "total": "75,9 ans",
+                "women": "80,8 ans",
+                "men": "70,9 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,0 %",
+                "fifteenToSixtyFour": "63,2 %",
+                "sixtyFivePlus": "20,8 %"
+            },
+            "dependencyRatio": "58,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "68,3 %",
+            "mainMetropolises": [
+                "Riga (605 000 hab. intra-muros, 900 000 aire métropolitaine)",
+                "Daugavpils (80 000 hab.)",
+                "Liepāja (67 000 hab.)",
+                "Jelgava (55 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Lettons (63 %), Russes (24 %), Biélorusses (3 %), Ukrainiens (3 %), Polonais (2 %)",
+            "languages": "Letton (officiel d'État unique, langue balte), Russe (largement parlé)",
+            "religions": "Luthéranisme (36 %), Catholicisme (24 %), Orthodoxie (18 %), Sans religion (20 %)"
+        },
+        "development": {
+            "hdi": "0,879 (Très élevé - 37e mondial)",
+            "literacyRate": "99,9 %",
+            "keyChallenges": "Pertes démographiques cumulées de 30 % depuis 1990 en raison de l'émigration vers l'Europe de l'Ouest, vieillissement accéléré et dépeuplement des régions orientales de Latgale"
+        }
+    },
+    "LTU": {
+        "general": {
+            "population": "2,88 millions d'habitants",
+            "globalRank": "141e mondial",
+            "density": "44 hab./km²",
+            "growthRate": "+0,3 % par an (solde migratoire redevenu positif)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,34 enfant par femme",
+            "birthRate": "7,8 ‰",
+            "deathRate": "14,2 ‰",
+            "infantMortality": "3,0 ‰",
+            "netMigration": "+6,8 ‰ (retours de la diaspora et réfugiés ukrainiens)"
+        },
+        "ageStructure": {
+            "medianAge": "44,5 ans",
+            "lifeExpectancy": {
+                "total": "76,0 ans",
+                "women": "81,2 ans",
+                "men": "70,7 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,1 %",
+                "fifteenToSixtyFour": "64,7 %",
+                "sixtyFivePlus": "20,2 %"
+            },
+            "dependencyRatio": "54,6 %"
+        },
+        "urbanization": {
+            "urbanRate": "68,2 %",
+            "mainMetropolises": [
+                "Vilnius (590 000 hab. intra-muros, 700 000 aire urbaine)",
+                "Kaunas (300 000 hab.)",
+                "Klaipėda (150 000 hab. - port maritime)",
+                "Šiauliai (105 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Lituaniens (84 %), Polonais (6,5 %), Russes (5,0 %), Biélorusses, Ukrainiens",
+            "languages": "Lituanien (officiel, langue balte archaïque), Polonais et Russe (minorités)",
+            "religions": "Catholicisme (74 %), Orthodoxie (4 %), Sans religion (13 %)"
+        },
+        "development": {
+            "hdi": "0,879 (Très élevé - 37e mondial)",
+            "literacyRate": "99,9 %",
+            "keyChallenges": "Inversion récente et fragile de la courbe d'émigration historique, écart d'espérance de vie hommes/femmes de plus de 10 ans, dynamisme de Vilnius contrastant avec le déclin des petites municipalités"
+        }
+    },
+    "SVK": {
+        "general": {
+            "population": "5,43 millions d'habitants",
+            "globalRank": "120e mondial",
+            "density": "111 hab./km²",
+            "growthRate": "-0,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,57 enfant par femme",
+            "birthRate": "9,6 ‰",
+            "deathRate": "11,0 ‰",
+            "infantMortality": "4,9 ‰",
+            "netMigration": "+0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "41,8 ans",
+            "lifeExpectancy": {
+                "total": "77,8 ans",
+                "women": "81,4 ans",
+                "men": "74,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,9 %",
+                "fifteenToSixtyFour": "66,8 %",
+                "sixtyFivePlus": "17,3 %"
+            },
+            "dependencyRatio": "49,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,8 %",
+            "mainMetropolises": [
+                "Bratislava (475 000 hab. intra-muros, 650 000 aire métropolitaine)",
+                "Košice (230 000 hab.)",
+                "Prešov (85 000 hab.)",
+                "Žilina (82 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Slovaques (83,8 %), Hongrois (7,8 % le long de la frontière sud), Roms (1,2 % déclaré, estimé à 7-9 %), Ruthènes, Ukrainiens, Tchèques",
+            "languages": "Slovaque (officiel), Hongrois (reconnu au niveau municipal)",
+            "religions": "Catholicisme (56 %), Sans religion (24 %), Protestantisme luthérien (5 %), Église gréco-catholique (4 %)"
+        },
+        "development": {
+            "hdi": "0,855 (Très élevé - 45e mondial)",
+            "literacyRate": "99,6 %",
+            "keyChallenges": "Fracture démographique et socio-économique profonde entre l'Ouest prospère et industrialisé (Bratislava, Trnava) et l'Est rural défavorisé (Košice, Prešov), inclusion de la minorité rom"
+        }
+    },
+    "BGR": {
+        "general": {
+            "population": "6,45 millions d'habitants",
+            "globalRank": "111e mondial",
+            "density": "58 hab./km²",
+            "growthRate": "-0,6 % par an (pays ayant perdu 25 % de sa population depuis 1990)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,58 enfant par femme",
+            "birthRate": "8,8 ‰",
+            "deathRate": "15,4 ‰ (taux de mortalité parmi les plus hauts d'Europe)",
+            "infantMortality": "4,8 ‰",
+            "netMigration": "+0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "45,2 ans",
+            "lifeExpectancy": {
+                "total": "74,3 ans",
+                "women": "78,3 ans",
+                "men": "70,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,3 %",
+                "fifteenToSixtyFour": "63,7 %",
+                "sixtyFivePlus": "22,0 %"
+            },
+            "dependencyRatio": "57,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "76,2 %",
+            "mainMetropolises": [
+                "Sofia (1,35 million hab.)",
+                "Plovdiv (0,35 million hab.)",
+                "Varna (0,34 million hab.)",
+                "Bourgas (0,21 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bulgares (84 %), Turcs de Bulgarie (8,4 %), Roms (4,4 %), Russes, Arméniens",
+            "languages": "Bulgare (officiel, alphabet cyrillique slave), Turque (minorité)",
+            "religions": "Orthodoxie bulgare (71 %), Islam (10 %), Sans religion (15 %), Catholicisme et protestantisme (2 %)"
+        },
+        "development": {
+            "hdi": "0,799 (Élevé - 70e mondial)",
+            "literacyRate": "98,4 %",
+            "keyChallenges": "Crise démographique la plus aiguë de l'UE, désertification dramatique des municipalités du Nord-Ouest (région de Vidin), exode continu des professionnels de santé et des jeunes vers l'Europe de l'Ouest"
+        }
+    },
+    "BLR": {
+        "general": {
+            "population": "9,20 millions d'habitants",
+            "globalRank": "96e mondial",
+            "density": "44 hab./km²",
+            "growthRate": "-0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,38 enfant par femme",
+            "birthRate": "8,5 ‰",
+            "deathRate": "13,1 ‰",
+            "infantMortality": "2,6 ‰",
+            "netMigration": "-1,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "41,2 ans",
+            "lifeExpectancy": {
+                "total": "74,5 ans",
+                "women": "79,4 ans",
+                "men": "69,3 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,8 %",
+                "fifteenToSixtyFour": "67,4 %",
+                "sixtyFivePlus": "15,8 %"
+            },
+            "dependencyRatio": "48,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "79,9 %",
+            "mainMetropolises": [
+                "Minsk (2,0 millions hab.)",
+                "Homiel (0,5 million hab.)",
+                "Moguilev (0,38 million hab.)",
+                "Hrodna (0,36 million hab.)",
+                "Brest (0,34 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Biélorusses (84,9 %), Russes (7,5 %), Polonais (3,1 %), Ukrainiens (1,7 %)",
+            "languages": "Biélorusse (officiel national), Russe (officiel et largement dominant dans l'usage quotidien)",
+            "religions": "Orthodoxie russe (73 %), Catholicisme (12 %), Sans religion (12 %), Protestantisme (2 %)"
+        },
+        "development": {
+            "hdi": "0,801 (Très élevé - 69e mondial)",
+            "literacyRate": "99,7 %",
+            "keyChallenges": "Émigration massive des professionnels de l'informatique (Hi-Tech Park) et opposants politiques depuis 2020 vers la Pologne et la Lituanie, isolement international et vieillissement"
+        }
+    },
+    "MDA": {
+        "general": {
+            "population": "2,51 millions d'habitants (hors région séparatiste de Transnistrie)",
+            "globalRank": "144e mondial",
+            "density": "74 hab./km²",
+            "growthRate": "-0,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,77 enfant par femme",
+            "birthRate": "10,2 ‰",
+            "deathRate": "13,9 ‰",
+            "infantMortality": "9,1 ‰",
+            "netMigration": "-4,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "38,5 ans",
+            "lifeExpectancy": {
+                "total": "71,4 ans",
+                "women": "75,8 ans",
+                "men": "67,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,6 %",
+                "fifteenToSixtyFour": "68,8 %",
+                "sixtyFivePlus": "15,6 %"
+            },
+            "dependencyRatio": "45,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "43,4 % (l'un des pays les moins urbanisés d'Europe)",
+            "mainMetropolises": [
+                "Chișinău (640 000 hab. intra-muros, 780 000 aire métropolitaine)",
+                "Bălți (100 000 hab.)",
+                "Ungheni (35 000 hab.)",
+                "Cahul (30 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Moldaves / Roumains (75,1 %), Ukrainiens (6,6 %), Russes (4,1 %), Gagaouzes (4,6 % - turcophones orthodoxes), Bulgares (1,9 %)",
+            "languages": "Roumain (officiel d'État), Russe (langue véhiculaire interethnique), Gagaouze",
+            "religions": "Orthodoxie (90 % - partagée entre Métropole de Moldavie et Métropole de Bessarabie), Sans religion (7 %)"
+        },
+        "development": {
+            "hdi": "0,763 (Élevé - 86e mondial)",
+            "literacyRate": "99,4 %",
+            "keyChallenges": "Près d'un tiers de la population active émigrée à l'étranger (Roumanie, Italie, Russie, UE), dépendance vitale aux remises migratoires (remesas représentant 15 % du PIB), vieillissement des campagnes"
+        }
+    },
+    "ISL": {
+        "general": {
+            "population": "395 000 habitants",
+            "globalRank": "178e mondial",
+            "density": "3,8 hab./km² (densité la plus faible d'Europe)",
+            "growthRate": "+1,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,59 enfant par femme",
+            "birthRate": "11,2 ‰",
+            "deathRate": "6,7 ‰",
+            "infantMortality": "1,5 ‰ (parmi les plus bas records mondiaux)",
+            "netMigration": "+13,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "37,5 ans",
+            "lifeExpectancy": {
+                "total": "83,2 ans",
+                "women": "84,7 ans",
+                "men": "81,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "18,4 %",
+                "fifteenToSixtyFour": "66,6 %",
+                "sixtyFivePlus": "15,0 %"
+            },
+            "dependencyRatio": "50,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "94,0 %",
+            "mainMetropolises": [
+                "Grand Reykjavík (240 000 hab. - concentre 64 % de la population totale)",
+                "Akureyri (20 000 hab.)",
+                "Keflavík / Reykjanesbær (20 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Islandais d'origine scandinave et celte (82 %), résidents étrangers (18 % : Polonais 6 %, Lituaniens, Philippins)",
+            "languages": "Islandais (officiel, langue germanique septentrionale quasi inchangée depuis les sagas)",
+            "religions": "Église d'Islande / Luthéranisme (62 %), Sans religion (28 %), Catholicisme (4 %), Néopaganisme Ásatrú (1,5 %)"
+        },
+        "development": {
+            "hdi": "0,959 (Très élevé - 3e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Pression touristique massive (2,3 millions de visiteurs annuels pour 395 000 habitants), concentration extrême dans la capitale, dépendance accrue à l'immigration pour le secteur de la pêche et de l'hôtellerie"
+        }
+    },
+    "HRV": {
+        "general": {
+            "population": "3,85 millions d'habitants",
+            "globalRank": "130e mondial",
+            "density": "68 hab./km²",
+            "growthRate": "-0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,53 enfant par femme",
+            "birthRate": "8,8 ‰",
+            "deathRate": "13,6 ‰",
+            "infantMortality": "3,8 ‰",
+            "netMigration": "+1,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "44,9 ans",
+            "lifeExpectancy": {
+                "total": "78,5 ans",
+                "women": "81,6 ans",
+                "men": "75,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,3 %",
+                "fifteenToSixtyFour": "63,2 %",
+                "sixtyFivePlus": "22,5 %"
+            },
+            "dependencyRatio": "58,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "58,5 %",
+            "mainMetropolises": [
+                "Zagreb (800 000 hab. intra-muros, 1,1 M aire urbaine)",
+                "Split (180 000 hab.)",
+                "Rijeka (125 000 hab.)",
+                "Osijek (100 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Croates (91,6 %), Serbes (3,2 %), Bosniaques (0,6 %), Italiens d'Istrie, Roms, Hongrois",
+            "languages": "Croate (officiel, alphabet latin), Italien (co-officiel dans le comté d'Istrie)",
+            "religions": "Catholicisme (79 %), Orthodoxie (3,3 %), Sans religion (12 %), Islam (1,5 %)"
+        },
+        "development": {
+            "hdi": "0,878 (Très élevé - 39e mondial)",
+            "literacyRate": "99,4 %",
+            "keyChallenges": "Perte de près de 400 000 habitants entre les recensements de 2011 et 2021 suite à l'intégration à l'UE, dépeuplement de la Slavonie agricole, saturation touristique saisonnière du littoral dalmate"
+        }
+    },
+    "SRB": {
+        "general": {
+            "population": "6,60 millions d'habitants (hors Kosovo)",
+            "globalRank": "106e mondial",
+            "density": "75 hab./km²",
+            "growthRate": "-0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,63 enfant par femme",
+            "birthRate": "9,2 ‰",
+            "deathRate": "14,5 ‰",
+            "infantMortality": "4,7 ‰",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "44,1 ans",
+            "lifeExpectancy": {
+                "total": "75,5 ans",
+                "women": "78,2 ans",
+                "men": "72,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,4 %",
+                "fifteenToSixtyFour": "63,6 %",
+                "sixtyFivePlus": "22,0 %"
+            },
+            "dependencyRatio": "57,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "56,9 %",
+            "mainMetropolises": [
+                "Belgrade (1,7 million hab. région urbaine)",
+                "Novi Sad (0,37 million hab.)",
+                "Niš (0,26 million hab.)",
+                "Kragujevac (0,18 million hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Serbes (83 %), Hongrois de Voïvodine (3,5 %), Bosniaques du Sandžak (2,0 %), Roms (2,1 %), Slovaques, Albanais",
+            "languages": "Serbe (officiel, usage officiel du cyrillique et latin), Hongrois, Slovaque, Roumain reconnus en Voïvodine",
+            "religions": "Orthodoxie serbe (84 %), Catholicisme (5 %), Islam (3 %), Sans religion (6 %)"
+        },
+        "development": {
+            "hdi": "0,805 (Très élevé - 65e mondial)",
+            "literacyRate": "99,5 %",
+            "keyChallenges": "Déclin démographique régulier, fuite des jeunes cerveaux vers l'Allemagne, l'Autriche et la Suisse, macrocéphalie de Belgrade absorbant la vitalité démographique du pays"
+        }
+    },
+    "SVN": {
+        "general": {
+            "population": "2,12 millions d'habitants",
+            "globalRank": "148e mondial",
+            "density": "105 hab./km²",
+            "growthRate": "+0,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,55 enfant par femme",
+            "birthRate": "8,5 ‰",
+            "deathRate": "10,5 ‰",
+            "infantMortality": "1,7 ‰ (l'une des plus faibles au monde)",
+            "netMigration": "+5,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "44,8 ans",
+            "lifeExpectancy": {
+                "total": "81,6 ans",
+                "women": "84,3 ans",
+                "men": "78,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,0 %",
+                "fifteenToSixtyFour": "63,7 %",
+                "sixtyFivePlus": "21,3 %"
+            },
+            "dependencyRatio": "57,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "55,7 %",
+            "mainMetropolises": [
+                "Ljubljana (300 000 hab. intra-muros, 540 000 aire métropolitaine)",
+                "Maribor (115 000 hab.)",
+                "Kranj (57 000 hab.)",
+                "Celje (50 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Slovènes (83 %), minorités issues de l'ex-Yougoslavie (Serbes, Croates, Bosniaques - 10 %), minorités historiques italienne et hongroise protégées",
+            "languages": "Slovène (officiel), Italien (co-officiel dans 4 communes du littoral), Hongrois (co-officiel dans 3 communes du Prekmurje)",
+            "religions": "Catholicisme (57 %), Sans religion (25 %), Islam (3 %), Orthodoxie (3,5 %)"
+        },
+        "development": {
+            "hdi": "0,926 (Très élevé - 22e mondial)",
+            "literacyRate": "99,7 %",
+            "keyChallenges": "Vieillissement rapide équilibré par des indicateurs sanitaires d'excellence, pénurie de main-d'œuvre dans l'industrie et la logistique (port de Koper)"
+        }
+    },
+    "BIH": {
+        "general": {
+            "population": "3,21 millions d'habitants",
+            "globalRank": "136e mondial",
+            "density": "63 hab./km²",
+            "growthRate": "-0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,25 enfant par femme",
+            "birthRate": "7,6 ‰",
+            "deathRate": "12,8 ‰",
+            "infantMortality": "4,9 ‰",
+            "netMigration": "-1,0 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,3 ans",
+            "lifeExpectancy": {
+                "total": "75,3 ans",
+                "women": "77,8 ans",
+                "men": "72,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,2 %",
+                "fifteenToSixtyFour": "67,3 %",
+                "sixtyFivePlus": "18,5 %"
+            },
+            "dependencyRatio": "48,6 %"
+        },
+        "urbanization": {
+            "urbanRate": "49,8 %",
+            "mainMetropolises": [
+                "Sarajevo (350 000 hab. intra-muros, 450 000 aire métropolitaine)",
+                "Banja Luka (185 000 hab.)",
+                "Tuzla (110 000 hab.)",
+                "Zenica (110 000 hab.)",
+                "Mostar (105 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Trois peuples constitutifs : Bosniaques (50,1 %), Serbes (30,8 %), Croates (15,4 %)",
+            "languages": "Bosnien, Croate, Serbe (trois langues officielles basées sur le diasystème slave du centre-sud)",
+            "religions": "Islam (51 %), Orthodoxie serbe (31 %), Catholicisme (15 %), Sans religion (2 %)"
+        },
+        "development": {
+            "hdi": "0,779 (Élevé - 80e mondial)",
+            "literacyRate": "97,0 %",
+            "keyChallenges": "Émigration massive des jeunes vers l'Union européenne due aux blocages institutionnels et au manque de perspectives économiques, chute de la natalité, équilibres démographiques communautaires sensibles"
+        }
+    },
+    "ALB": {
+        "general": {
+            "population": "2,75 millions d'habitants",
+            "globalRank": "142e mondial",
+            "density": "96 hab./km²",
+            "growthRate": "-1,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,32 enfant par femme",
+            "birthRate": "9,2 ‰",
+            "deathRate": "8,5 ‰",
+            "infantMortality": "7,8 ‰",
+            "netMigration": "-10,5 ‰ (l'une des plus fortes émigrations d'Europe)"
+        },
+        "ageStructure": {
+            "medianAge": "38,2 ans",
+            "lifeExpectancy": {
+                "total": "79,1 ans",
+                "women": "81,2 ans",
+                "men": "77,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,5 %",
+                "fifteenToSixtyFour": "68,0 %",
+                "sixtyFivePlus": "15,5 %"
+            },
+            "dependencyRatio": "47,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "64,5 %",
+            "mainMetropolises": [
+                "Tirana (550 000 hab. intra-muros, 900 000 aire métropolitaine)",
+                "Durrës (175 000 hab. - principal port)",
+                "Vlora (130 000 hab.)",
+                "Shkodra (115 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Albanais (83 % - Guègues au nord et Tosques au sud), minorité grecque protégée, Roms, Aroumains",
+            "languages": "Albanais (officiel, branche isolée de la famille indo-européenne), Grec (minorité méridionale)",
+            "religions": "Islam sunnite et bektachisme (57 %), Catholicisme (10 %), Orthodoxie albanaise (7 %), Sans religion (25 % - coexistence religieuse exemplaire)"
+        },
+        "development": {
+            "hdi": "0,789 (Élevé - 74e mondial)",
+            "literacyRate": "98,1 %",
+            "keyChallenges": "Exode massif et continu de la jeunesse vers l'Italie, l'Allemagne et le Royaume-Uni, dépeuplement rapide des districts montagnards du Nord, dépendance aux remises de la diaspora"
+        }
+    },
+    "MKD": {
+        "general": {
+            "population": "1,83 million d'habitants",
+            "globalRank": "154e mondial",
+            "density": "71 hab./km²",
+            "growthRate": "-0,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,48 enfant par femme",
+            "birthRate": "9,8 ‰",
+            "deathRate": "11,5 ‰",
+            "infantMortality": "5,6 ‰",
+            "netMigration": "-1,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "40,3 ans",
+            "lifeExpectancy": {
+                "total": "76,0 ans",
+                "women": "78,2 ans",
+                "men": "73,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,2 %",
+                "fifteenToSixtyFour": "69,0 %",
+                "sixtyFivePlus": "14,8 %"
+            },
+            "dependencyRatio": "44,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "59,1 %",
+            "mainMetropolises": [
+                "Skopje (550 000 hab. aire urbaine)",
+                "Bitola (85 000 hab.)",
+                "Kumanovo (75 000 hab.)",
+                "Prilep (65 000 hab.)",
+                "Tetovo (60 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Macédoniens (58,4 %), Albanais (24,3 %), Turcs (3,9 %), Roms (2,5 %), Serbes (1,3 %), Bosniaques",
+            "languages": "Macédonien (officiel), Albanais (officiel au niveau de l'État dans les conditions des accords d'Ohrid)",
+            "religions": "Orthodoxie macédonienne (65 %), Islam (32 %), Autres (3 %)"
+        },
+        "development": {
+            "hdi": "0,774 (Élevé - 84e mondial)",
+            "literacyRate": "97,8 %",
+            "keyChallenges": "Fragilité des équilibres démographiques et politiques interethniques entre Macédoniens slaves et minorité albanaise, émigration substantielle vers l'UE"
+        }
+    },
+    "MNE": {
+        "general": {
+            "population": "620 000 habitants",
+            "globalRank": "168e mondial",
+            "density": "45 hab./km²",
+            "growthRate": "-0,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,76 enfant par femme",
+            "birthRate": "11,2 ‰",
+            "deathRate": "11,5 ‰",
+            "infantMortality": "2,1 ‰",
+            "netMigration": "+0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "39,8 ans",
+            "lifeExpectancy": {
+                "total": "76,8 ans",
+                "women": "79,6 ans",
+                "men": "73,9 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "17,9 %",
+                "fifteenToSixtyFour": "66,1 %",
+                "sixtyFivePlus": "16,0 %"
+            },
+            "dependencyRatio": "51,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "68,2 %",
+            "mainMetropolises": [
+                "Podgorica (190 000 hab. - concentre 30 % de la population)",
+                "Nikšić (70 000 hab.)",
+                "Bar (42 000 hab. - port maritime)",
+                "Bijelo Polje (40 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Monténégrins (45 %), Serbes (29 %), Bosniaques (8,6 %), Albanais (4,9 %), Musulmans nationaux (3,3 %)",
+            "languages": "Monténégrin (officiel), Serbe, Bosnien, Albanais, Croate",
+            "religions": "Orthodoxie (72 %), Islam (19 %), Catholicisme (3,4 %), Sans religion (4 %)"
+        },
+        "development": {
+            "hdi": "0,844 (Très élevé - 50e mondial)",
+            "literacyRate": "98,7 %",
+            "keyChallenges": "Petitesse démographique, dépeuplement des zones montagneuses du Nord (Durmitor, Bjelasica) au profit du littoral adriatique touristique et de Podgorica"
+        }
+    },
+    "XKX": {
+        "general": {
+            "population": "1,76 million d'habitants",
+            "globalRank": "155e mondial",
+            "density": "161 hab./km²",
+            "growthRate": "+0,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,55 enfant par femme",
+            "birthRate": "12,5 ‰",
+            "deathRate": "5,8 ‰",
+            "infantMortality": "8,2 ‰",
+            "netMigration": "-6,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "31,5 ans (population la plus jeune d'Europe continentale)",
+            "lifeExpectancy": {
+                "total": "74,0 ans",
+                "women": "76,5 ans",
+                "men": "71,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "24,0 %",
+                "fifteenToSixtyFour": "68,0 %",
+                "sixtyFivePlus": "8,0 %"
+            },
+            "dependencyRatio": "47,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "50,5 %",
+            "mainMetropolises": [
+                "Pristina (220 000 hab. intra-muros, 350 000 aire métropolitaine)",
+                "Prizren (180 000 hab.)",
+                "Peja / Peć (100 000 hab.)",
+                "Mitrovica (80 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Albanais du Kosovo (92,9 %), Serbes du Kosovo (enclave du Nord et enclaves du Sud - 4,5 %), Bosniaques, Turcs, Roms, Ashkalis",
+            "languages": "Albanais et Serbe (deux langues officielles au niveau de l'État), Turc et Bosniaque (statut municipal)",
+            "religions": "Islam sunnite (95 %), Catholicisme (2,2 %), Orthodoxie serbe (1,5 %)"
+        },
+        "development": {
+            "hdi": "0,740 (Élevé - estimation)",
+            "literacyRate": "97,0 %",
+            "keyChallenges": "Chômage élevé des jeunes entraînant une forte émigration vers l'Allemagne et la Suisse, intégration des enclaves serbes du Nord, libéralisation des visas Schengen stimulant les départs"
+        }
+    },
+    "CYP": {
+        "general": {
+            "population": "1,25 million d'habitants (ensemble de l'île)",
+            "globalRank": "158e mondial",
+            "density": "135 hab./km²",
+            "growthRate": "+0,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,37 enfant par femme",
+            "birthRate": "10,1 ‰",
+            "deathRate": "7,5 ‰",
+            "infantMortality": "2,1 ‰",
+            "netMigration": "+4,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "38,5 ans",
+            "lifeExpectancy": {
+                "total": "81,7 ans",
+                "women": "83,8 ans",
+                "men": "79,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,0 %",
+                "fifteenToSixtyFour": "69,5 %",
+                "sixtyFivePlus": "14,5 %"
+            },
+            "dependencyRatio": "43,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "67,0 %",
+            "mainMetropolises": [
+                "Nicosie (340 000 hab. - dernière capitale divisée d'Europe)",
+                "Limassol (240 000 hab. - hub maritime et financier)",
+                "Larnaca (145 000 hab.)",
+                "Paphos (90 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Chypriotes grecs (78 %), Chypriotes turcs et résidents turcs d'Anatolie (18 %), résidents britanniques, russes et libanais",
+            "languages": "Grec et Turc (deux langues officielles de la République), Anglais (universellement pratiqué)",
+            "religions": "Orthodoxie de Chypre (78 %), Islam (18 %), Maronites et Arméniens (2 %)"
+        },
+        "development": {
+            "hdi": "0,907 (Très élevé - 29e mondial)",
+            "literacyRate": "99,1 %",
+            "keyChallenges": "Division insulaire persistante depuis 1974 matérialisée par la ligne verte de l'ONU, pression migratoire sur la zone sud, forte communauté d'expatriés européens et est-européens à Limassol"
+        }
+    },
+    "MLT": {
+        "general": {
+            "population": "535 000 habitants",
+            "globalRank": "173e mondial",
+            "density": "1 700 hab./km² (pays le plus densément peuplé de l'UE)",
+            "growthRate": "+1,5 % par an (impulsion migratoire)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,08 enfant par femme (le taux le plus bas de toute l'Union européenne)",
+            "birthRate": "7,3 ‰",
+            "deathRate": "7,8 ‰",
+            "infantMortality": "4,9 ‰",
+            "netMigration": "+15,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "42,6 ans",
+            "lifeExpectancy": {
+                "total": "83,0 ans",
+                "women": "84,8 ans",
+                "men": "81,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "13,6 %",
+                "fifteenToSixtyFour": "67,4 %",
+                "sixtyFivePlus": "19,0 %"
+            },
+            "dependencyRatio": "48,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "95,0 % (territoire insulaire quasi intégralement urbanisé)",
+            "mainMetropolises": [
+                "Zone urbaine du Grand Port / La Valette (260 000 hab.)",
+                "Birkirkara (25 000 hab.)",
+                "Qormi (17 000 hab.)",
+                "Sliema (16 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Maltais (78 %), résidents étrangers (22 % : Britanniques, Italiens, Philippins, Indiens, Serbes)",
+            "languages": "Maltais (officiel et langue nationale, seule langue sémitique écrite en alphabet latin et officielle de l'UE), Anglais (officiel)",
+            "religions": "Catholicisme (88 % - religion d'État constitutionnelle), Sans religion (8 %), Islam (2 %)"
+        },
+        "development": {
+            "hdi": "0,915 (Très élevé - 25e mondial)",
+            "literacyRate": "95,7 %",
+            "keyChallenges": "Densité démographique étouffante et saturation de l'espace insulaire, crise de la natalité masquée par l'importation massive de main-d'œuvre étrangère pour le tourisme et le jeu en ligne, gestion de l'eau"
+        }
+    },
+    "MCO": {
+        "general": {
+            "population": "39 000 habitants (dont ~9 600 Monégasques de nationalité)",
+            "globalRank": "195e mondial",
+            "density": "19 500 hab./km² (la plus forte densité au monde sur 2 km²)",
+            "growthRate": "+0,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,52 enfant par femme",
+            "birthRate": "6,6 ‰",
+            "deathRate": "9,2 ‰",
+            "infantMortality": "1,8 ‰",
+            "netMigration": "+7,6 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "54,5 ans (la population la plus âgée au monde)",
+            "lifeExpectancy": {
+                "total": "87,0 ans (record mondial absolu de longévité)",
+                "women": "89,0 ans",
+                "men": "85,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "11,8 %",
+                "fifteenToSixtyFour": "53,2 %",
+                "sixtyFivePlus": "35,0 % (plus d'un tiers de seniors)"
+            },
+            "dependencyRatio": "88,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "100,0 % (cité-État intégrale)",
+            "mainMetropolises": [
+                "Monaco / Monte-Carlo (quartiers : Monte-Carlo, La Condamine, Fontvieille, Le Larvotto, Mareterra)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Français (25 %), Monégasques (22 %), Italiens (20 %), Britanniques (8 %), plus de 130 nationalités cosmopolites de résidents fortunés",
+            "languages": "Français (officiel), Monégasque (langue nationale traditionnelle enseignée dans les écoles), Anglais et Italien (courants)",
+            "religions": "Catholicisme (86 % - religion d'État), Protestantisme et Judaïsme (4 %), Sans religion (10 %)"
+        },
+        "development": {
+            "hdi": "Non calculé séparément par le PNUD (~0,96 - niveau maximal de richesse mondiale)",
+            "literacyRate": "100,0 %",
+            "keyChallenges": "Pénurie absolue d'espace foncier exigeant des extensions marines (éco-quartier Mareterra), plus de 50 000 navetteurs quotidiens entrant de France et d'Italie, vieillissement extrême des résidents"
+        }
+    },
+    "AND": {
+        "general": {
+            "population": "85 000 habitants",
+            "globalRank": "186e mondial",
+            "density": "181 hab./km² (concentrée dans les vallées pyrénéennes)",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,22 enfant par femme",
+            "birthRate": "6,8 ‰",
+            "deathRate": "5,1 ‰",
+            "infantMortality": "2,7 ‰",
+            "netMigration": "+10,3 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "44,3 ans",
+            "lifeExpectancy": {
+                "total": "83,5 ans",
+                "women": "85,7 ans",
+                "men": "81,3 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "13,2 %",
+                "fifteenToSixtyFour": "71,5 %",
+                "sixtyFivePlus": "15,3 %"
+            },
+            "dependencyRatio": "39,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "88,2 %",
+            "mainMetropolises": [
+                "Andorre-la-Vieille (23 000 hab. - capitale la plus haute d'Europe)",
+                "Escaldes-Engordany (15 000 hab.)",
+                "Encamp (12 000 hab.)",
+                "Sant Julià de Lòria (10 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Andorrans (48 %), Espagnols (26 %), Portugais (12 %), Français (5 %), résidents d'autres nationalités",
+            "languages": "Catalan (seul État au monde où le catalan est l'unique langue officielle d'État), Espagnol, Français et Portugais largement parlés",
+            "religions": "Catholicisme (89 %), Sans religion (8 %), Autres (3 %)"
+        },
+        "development": {
+            "hdi": "0,884 (Très élevé - 35e mondial)",
+            "literacyRate": "100,0 %",
+            "keyChallenges": "Conditions d'accès à la nationalité andorrane très restrictives (20 ans de résidence requis), forte pression sur les infrastructures et le logement de montagne, dépendance aux travailleurs saisonniers"
+        }
+    },
+    "SMR": {
+        "general": {
+            "population": "34 000 habitants",
+            "globalRank": "199e mondial",
+            "density": "555 hab./km²",
+            "growthRate": "+0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,26 enfant par femme",
+            "birthRate": "6,5 ‰",
+            "deathRate": "8,2 ‰",
+            "infantMortality": "1,8 ‰",
+            "netMigration": "+5,7 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "45,5 ans",
+            "lifeExpectancy": {
+                "total": "85,4 ans (l'une des plus hautes d'Europe)",
+                "women": "87,1 ans",
+                "men": "83,7 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,5 %",
+                "fifteenToSixtyFour": "66,0 %",
+                "sixtyFivePlus": "19,5 %"
+            },
+            "dependencyRatio": "51,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "97,5 %",
+            "mainMetropolises": [
+                "Dogana / Serravalle (11 000 hab. - centre économique)",
+                "Ville de Saint-Marin (4 100 hab. - capitale historique sur le mont Titano)",
+                "Borgo Maggiore (7 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Saint-Marinais (84 %), Italiens (15 %)",
+            "languages": "Italien (officiel d'État), dialecte romagnol local",
+            "religions": "Catholicisme (92 %), Sans religion (7 %)"
+        },
+        "development": {
+            "hdi": "0,853 (Très élevé)",
+            "literacyRate": "99,9 %",
+            "keyChallenges": "Vieillissement démographique de l'enclave, maintien de l'emploi pour les 6 000 travailleurs frontaliers italiens arrivant chaque jour d'Émilie-Romagne et des Marches"
+        }
+    },
+    "LIE": {
+        "general": {
+            "population": "40 000 habitants",
+            "globalRank": "194e mondial",
+            "density": "250 hab./km²",
+            "growthRate": "+0,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,45 enfant par femme",
+            "birthRate": "9,0 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "2,4 ‰",
+            "netMigration": "+4,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,7 ans",
+            "lifeExpectancy": {
+                "total": "84,5 ans",
+                "women": "86,2 ans",
+                "men": "82,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "15,2 %",
+                "fifteenToSixtyFour": "65,8 %",
+                "sixtyFivePlus": "19,0 %"
+            },
+            "dependencyRatio": "52,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "14,5 % (habitat dispersé en bourgs alpins continus)",
+            "mainMetropolises": [
+                "Schaan (6 100 hab. - centre économique et industriel)",
+                "Vaduz (5 700 hab. - capitale princière)",
+                "Triesen (5 400 hab.)",
+                "Balzers (4 700 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Liechtensteinois (66 %), résidents étrangers (34 % : Suisses 10 %, Autrichiens 6 %, Allemands 4 %, Italiens)",
+            "languages": "Allemand (officiel), dialecte alémanique parlé localement",
+            "religions": "Catholicisme (73 % - religion d'État), Protestantisme (8 %), Sans religion (10 %), Islam (6 %)"
+        },
+        "development": {
+            "hdi": "0,942 (Très élevé - 16e mondial)",
+            "literacyRate": "100,0 %",
+            "keyChallenges": "La principauté compte plus d'emplois que d'habitants (plus de 22 000 navetteurs quotidiens franchissent la frontière suisse ou autrichienne pour travailler), rareté foncière dans la vallée du Rhin"
+        }
+    },
+    "VAT": {
+        "general": {
+            "population": "764 habitants (dont ~450 ayant la citoyenneté vaticane)",
+            "globalRank": "Plus petit État souverain au monde",
+            "density": "1 736 hab./km² (sur 0,44 km²)",
+            "growthRate": "0,0 % par an (statut administratif et fonctionnel)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "0,0 (aucune natalité naturelle, citoyenneté accordée par office)",
+            "birthRate": "0,0 ‰",
+            "deathRate": "Non significatif",
+            "infantMortality": "0,0 ‰",
+            "netMigration": "Fonctionnelle (liée aux nominations pontificales)"
+        },
+        "ageStructure": {
+            "medianAge": "52,0 ans",
+            "lifeExpectancy": {
+                "total": "82,5 ans",
+                "women": "85,0 ans",
+                "men": "81,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "1,0 % (enfants de diplomates ou gardes suisses mariés)",
+                "fifteenToSixtyFour": "84,0 %",
+                "sixtyFivePlus": "15,0 %"
+            },
+            "dependencyRatio": "19,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "100,0 % (enclave intra-urbaine de Rome)",
+            "mainMetropolises": [
+                "Cité du Vatican (Palais apostolique, jardins du Vatican, basilique Saint-Pierre)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Italiens (clergé, prélats, laïcs), Suisses (Garde suisse pontificale), prélats et dignitaires ecclésiastiques internationaux",
+            "languages": "Italien (langue usuelle de travail), Latin (langue officielle du Saint-Siège et des textes législatifs), Allemand (Garde suisse), Français et Espagnol (diplomatie)",
+            "religions": "Catholicisme (100 % - siège spirituel universel de l'Église catholique)"
+        },
+        "development": {
+            "hdi": "Non calculé (infrastructure et santé assurées en synergie avec l'Italie)",
+            "literacyRate": "100,0 %",
+            "keyChallenges": "Démographie administrativement close : gestion des quelque 4 800 salariés laïcs italiens travaillant au Vatican mais résidant à Rome, sécurité des millions de pèlerins et visiteurs"
+        }
+    },
+    "GRL": {
+        "general": {
+            "population": "56 600 habitants",
+            "globalRank": "Territoire autonome d'outre-mer (Danemark)",
+            "density": "0,026 hab./km² (la plus faible densité au monde sur 2,16 millions de km²)",
+            "growthRate": "+0,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,01 enfants par femme (le plus haut taux de la zone nordique)",
+            "birthRate": "13,2 ‰",
+            "deathRate": "9,8 ‰",
+            "infantMortality": "7,5 ‰",
+            "netMigration": "-3,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "34,3 ans (population nettement plus jeune que l'Europe occidentale)",
+            "lifeExpectancy": {
+                "total": "71,8 ans",
+                "women": "74,2 ans",
+                "men": "69,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "20,5 %",
+                "fifteenToSixtyFour": "70,1 %",
+                "sixtyFivePlus": "9,4 %"
+            },
+            "dependencyRatio": "42,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "87,5 % (concentration dans des bourgs côtiers sans aucune route reliant les villes)",
+            "mainMetropolises": [
+                "Nuuk / Godthåb (19 800 hab. - capitale concentrant 35 % de la population)",
+                "Sisimiut (5 600 hab.)",
+                "Ilulissat (4 700 hab. - baie de Disko)",
+                "Qaqortoq (3 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Inuits du Groenland (Kalaallit - 89 %), Danois et Européens (11 %)",
+            "languages": "Groenlandais / Kalaallisut (seule langue officielle depuis 2009, langue inuit), Danois (utilisé dans l'administration et l'enseignement supérieur)",
+            "religions": "Église du Danemark / Luthéranisme (94 %), Croyances chamaniques inuites traditionnelles"
+        },
+        "development": {
+            "hdi": "0,870 (Très élevé - estimation adossée au Danemark)",
+            "literacyRate": "100,0 %",
+            "keyChallenges": "Isolement extrême des communautés côtières reliées uniquement par avion, hélicoptère ou bateau, défis sociaux et sanitaires majeurs (suicide, dépendance), préservation du mode de vie inuit face au dégel accéléré de l'inlandsis"
+        }
+    }
+}
