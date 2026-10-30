@@ -1,0 +1,39 @@
+name: Actualisation Automatique des Données Mondiales
+
+on:
+  schedule:
+    # S'exécute automatiquement le 1er jour de chaque mois à 03:00 UTC
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+    # Permet de lancer l'actualisation manuellement en 1 clic dans l'interface GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupération du code source
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Exécution du moteur d'actualisation (Banque Mondiale & ONU)
+        run: |
+          python scripts/update_world_data.py
+
+      - name: Détection et commit automatique des données actualisées
+        run: |
+          git config --global user.name "Diplomacy Lab Robot"
+          git config --global user.email "bot@diplomacylab.org"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Aucun nouveau chiffre publié par la Banque Mondiale ce mois-ci. Les données sont déjà à jour."
+          else
+            git commit -m "Auto-Update: Actualisation automatique des indicateurs Banque Mondiale & ONU [skip ci]"
+            git push origin main
+          fi
