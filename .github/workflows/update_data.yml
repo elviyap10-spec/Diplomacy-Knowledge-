@@ -5,7 +5,7 @@ on:
     # S'exécute automatiquement le 1er jour de chaque mois à 03:00 UTC
     - cron: '0 3 1 * *'
   workflow_dispatch:
-    # Permet de lancer l'actualisation manuellement en 1 clic dans l'interface GitHub
+    # Permet de lancer l'actualisation manuellement en 1 clic
 
 permissions:
   contents: write
@@ -24,13 +24,17 @@ jobs:
 
       - name: Exécution du moteur d'actualisation (Banque Mondiale & ONU)
         run: |
-          python scripts/update_world_data.py
+          if [ -f "update_world_data.py" ]; then
+            python update_world_data.py
+          elif [ -f "scripts/update_world_data.py" ]; then
+            python scripts/update_world_data.py
+          fi
 
       - name: Détection et commit automatique des données actualisées
         run: |
           git config --global user.name "Diplomacy Lab Robot"
           git config --global user.email "bot@diplomacylab.org"
-          git add data/
+          git add -A
           if git diff --staged --quiet; then
             echo "Aucun nouveau chiffre publié par la Banque Mondiale ce mois-ci. Les données sont déjà à jour."
           else
