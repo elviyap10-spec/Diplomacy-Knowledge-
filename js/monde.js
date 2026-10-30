@@ -154,29 +154,222 @@ function resetCountry(event) {
 // 6. GESTION DE LA SÉLECTION ET DES VUES
 // ========================================
 
-let currentActiveView = 'political'; // 'political' | 'economy'
+let currentActiveView = 'political'; // 'political' | 'economy' | 'demography'
 window.currentActiveView = currentActiveView;
 let currentSelectedIso3 = null;
 let currentSelectedName = null;
 
 function switchPanelView(view) {
+    if (view === "population") view = "demography";
     currentActiveView = view;
     window.currentActiveView = view;
+
     // Synchroniser les boutons de contrôle de la carte
     document.querySelectorAll(".map-controls button.layer").forEach(function(btn) {
         const lType = btn.getAttribute("data-layer");
-        if (lType === view) {
+        const isMatch = (lType === view) || (view === "demography" && lType === "population");
+        if (isMatch) {
             btn.classList.add("active");
-        } else if (lType === "political" || lType === "economy") {
+        } else {
             btn.classList.remove("active");
         }
     });
 
     if (currentSelectedIso3) {
         renderCountryContent(currentSelectedIso3, currentSelectedName);
+    } else {
+        // Si aucun pays n'est sélectionné, ouvrir le volet latéral avec les 3 onglets et un message d'orientation
+        const panel = document.getElementById("countryPanel");
+        const content = document.getElementById("countryContent");
+        if (panel && content) {
+            panel.classList.add("open");
+            const viewLabels = {
+                'political': '🏛️ Mode Politique',
+                'economy': '📊 Mode Économie',
+                'demography': '👥 Mode Démographie'
+            };
+            const currentTitle = viewLabels[view] || 'Données cartographiques';
+            content.innerHTML = `
+                <h2 class="country-title">${currentTitle}</h2>
+                <div class="panel-tabs">
+                    <button class="panel-tab ${currentActiveView === 'political' ? 'active' : ''}" onclick="switchPanelView('political')">
+                        🏛️ Politique
+                    </button>
+                    <button class="panel-tab ${currentActiveView === 'economy' ? 'active' : ''}" onclick="switchPanelView('economy')">
+                        📊 Économie
+                    </button>
+                    <button class="panel-tab ${currentActiveView === 'demography' ? 'active' : ''}" onclick="switchPanelView('demography')">
+                        👥 Démographie
+                    </button>
+                </div>
+                <div class="data-card" style="margin-top:20px; border-left:3px solid #D9AF5E;">
+                    <div class="data-label">Prêt pour l'exploration</div>
+                    <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
+                        👉 <strong>Cliquez sur un pays sur la carte</strong> (par exemple la France, l'Espagne, l'Allemagne, l'Italie...) pour afficher immédiatement sa fiche complète en mode ${currentTitle}.
+                    </div>
+                </div>
+            `;
+        }
     }
 }
 window.switchPanelView = switchPanelView;
+
+function renderDemographyProfile(demoData, iso3, name, frenchTitle) {
+    if (window.demographyLoading) {
+        return `
+            <p class="country-meta">DÉMOGRAPHIE</p>
+            <div class="data-card" style="margin-top:20px; border-left:3px solid #D9AF5E;">
+                <div class="data-label">Chargement en cours</div>
+                <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
+                    ⏳ Chargement des données démographiques en cours...
+                </div>
+            </div>
+        `;
+    }
+
+    if (!demoData) {
+        return `
+            <p class="country-meta">DÉMOGRAPHIE</p>
+            <div class="data-card" style="margin-top:20px; border-left:3px solid #D9AF5E;">
+                <div class="data-label">Données en cours de déploiement</div>
+                <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
+                    Les données démographiques détaillées de <strong>${frenchTitle}</strong> sont en cours d'intégration.<br><br>
+                    Actuellement, les profils démographiques complets sont disponibles pour l'<strong>Europe (48 pays et territoires)</strong>.<br><br>
+                    👉 <a href="javascript:void(0)" onclick="switchPanelView('political')" style="color:#D9AF5E; font-weight:bold; text-decoration:underline;">Consulter sa fiche politique →</a> ou <a href="javascript:void(0)" onclick="switchPanelView('economy')" style="color:#D9AF5E; font-weight:bold; text-decoration:underline;">sa fiche économique →</a>
+                </div>
+            </div>
+        `;
+    }
+
+    const metropolesList = Array.isArray(demoData.urbanization.mainMetropolises)
+        ? demoData.urbanization.mainMetropolises.join(" • ")
+        : (demoData.urbanization.mainMetropolises || "—");
+
+    return `
+        <p class="country-meta">PROFIL DÉMOGRAPHIQUE</p>
+
+        <!-- 1. INDICATEURS GLOBAUX -->
+        <div class="data-section">
+            <h3 class="section-label">Indicateurs généraux de population</h3>
+            <div class="data-card">
+                <div class="data-label">Population totale (Rang mondial)</div>
+                <div class="data-value">${demoData.general.population} <span style="font-size:13px; color:#D9AF5E; margin-left:6px;">(${demoData.general.globalRank})</span></div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Densité démographique</div>
+                <div class="data-value">${demoData.general.density}</div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Accroissement démographique annuel</div>
+                <div class="data-value">${demoData.general.growthRate}</div>
+            </div>
+        </div>
+
+        <!-- 2. FÉCONDITÉ & DYNAMIQUE NATURELLE -->
+        <div class="data-section">
+            <h3 class="section-label">Fécondité & Mouvements naturels</h3>
+            <div class="data-card">
+                <div class="data-label">Indice de fécondité</div>
+                <div class="data-value">${demoData.fertilityMortality.fertilityRate}</div>
+            </div>
+            <div class="data-grid">
+                <div class="data-card">
+                    <div class="data-label">Taux de natalité</div>
+                    <div class="data-value">${demoData.fertilityMortality.birthRate}</div>
+                </div>
+                <div class="data-card">
+                    <div class="data-label">Taux de mortalité</div>
+                    <div class="data-value">${demoData.fertilityMortality.deathRate}</div>
+                </div>
+            </div>
+            <div class="data-grid">
+                <div class="data-card">
+                    <div class="data-label">Mortalité infantile</div>
+                    <div class="data-value">${demoData.fertilityMortality.infantMortality}</div>
+                </div>
+                <div class="data-card">
+                    <div class="data-label">Solde migratoire net</div>
+                    <div class="data-value">${demoData.fertilityMortality.netMigration}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. STRUCTURE PAR ÂGE & ESPÉRANCE DE VIE -->
+        <div class="data-section">
+            <h3 class="section-label">Âge & Espérance de vie</h3>
+            <div class="data-card">
+                <div class="data-label">Âge médian de la population</div>
+                <div class="data-value">${demoData.ageStructure.medianAge}</div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Espérance de vie à la naissance</div>
+                <div class="data-value">
+                    <strong>${demoData.ageStructure.lifeExpectancy.total}</strong>
+                    <span style="font-size:13px; color:#8ea6ba; margin-left:8px;">(Femmes : ${demoData.ageStructure.lifeExpectancy.women} • Hommes : ${demoData.ageStructure.lifeExpectancy.men})</span>
+                </div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Répartition par grands groupes d'âge</div>
+                <div class="data-value" style="display:flex; gap:12px; margin-top:6px; flex-wrap:wrap;">
+                    <span class="eco-badge">0-14 ans : ${demoData.ageStructure.ageGroups.zeroToFourteen}</span>
+                    <span class="eco-badge">15-64 ans : ${demoData.ageStructure.ageGroups.fifteenToSixtyFour}</span>
+                    <span class="eco-badge">65+ ans : ${demoData.ageStructure.ageGroups.sixtyFivePlus}</span>
+                </div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Ratio de dépendance démographique</div>
+                <div class="data-value">${demoData.ageStructure.dependencyRatio}</div>
+            </div>
+        </div>
+
+        <!-- 4. URBANISATION & RÉPARTITION SPATIALE -->
+        <div class="data-section">
+            <h3 class="section-label">Urbanisation & Réseau urbain</h3>
+            <div class="data-card">
+                <div class="data-label">Taux d'urbanisation</div>
+                <div class="data-value">${demoData.urbanization.urbanRate}</div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Principales métropoles & agglomérations</div>
+                <div class="data-value">${metropolesList}</div>
+            </div>
+        </div>
+
+        <!-- 5. SOCIOLOGIE, LANGUES & RELIGIONS -->
+        <div class="data-section">
+            <h3 class="section-label">Composition socioculturelle</h3>
+            <div class="data-card">
+                <div class="data-label">Groupes ethniques & nationaux</div>
+                <div class="data-value">${demoData.sociology.ethnicGroups}</div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Langues parlées & officielles</div>
+                <div class="data-value">${demoData.sociology.languages}</div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Religions & croyances</div>
+                <div class="data-value">${demoData.sociology.religions}</div>
+            </div>
+        </div>
+
+        <!-- 6. DÉVELOPPEMENT HUMAIN & DÉFIS GÉOPOLITIQUES -->
+        <div class="data-section">
+            <h3 class="section-label">Développement humain & Défis d'avenir</h3>
+            <div class="data-card">
+                <div class="data-label">Indice de Développement Humain (IDH)</div>
+                <div class="data-value">${demoData.development.hdi}</div>
+            </div>
+            <div class="data-card">
+                <div class="data-label">Taux d'alphabétisation des adultes</div>
+                <div class="data-value">${demoData.development.literacyRate}</div>
+            </div>
+            <div class="data-card" style="border-left:3px solid #D9AF5E;">
+                <div class="data-label" style="color:#D9AF5E;">Enjeux démographiques & géopolitiques</div>
+                <div class="data-value" style="margin-top:6px; line-height:1.5;">${demoData.development.keyChallenges}</div>
+            </div>
+        </div>
+    `;
+}
 
 function renderEconomyProfile(ecoData, iso3, name, frenchTitle) {
     if (window.economyLoading) {
@@ -195,10 +388,10 @@ function renderEconomyProfile(ecoData, iso3, name, frenchTitle) {
         return `
             <p class="country-meta">ÉCONOMIE</p>
             <div class="data-card" style="margin-top:20px; border-left:3px solid #D9AF5E;">
-                <div class="data-label">Continent hors Europe</div>
+                <div class="data-label">Données en cours d'intégration</div>
                 <div class="data-value" style="font-size:15px; line-height:1.6; margin-top:8px;">
-                    Vous avez sélectionné un pays situé hors d'Europe (<strong>${frenchTitle}</strong>).<br><br>
-                    Actuellement, les données économiques complètes sont disponibles pour les <strong>47 pays d'Europe</strong> (cliquez sur la France, l'Allemagne, l'Espagne, l'Italie, etc.).<br><br>
+                    Les données économiques de <strong>${frenchTitle}</strong> sont en cours de déploiement.<br><br>
+                    Actuellement, les profils économiques complets sont activés pour l'ensemble des continents du monde (<strong>Europe, Afrique, Asie, Amériques et Océanie — 202 pays et territoires</strong>).<br><br>
                     👉 <a href="javascript:void(0)" onclick="switchPanelView('political')" style="color:#D9AF5E; font-weight:bold; text-decoration:underline;">Consulter sa fiche politique complète →</a>
                 </div>
             </div>
@@ -321,6 +514,7 @@ function renderCountryContent(iso3, name) {
     window.renderCountryContent = renderCountryContent;
     const polData = window.politicalData ? window.politicalData[iso3] : null;
     const ecoData = window.economyData ? window.economyData[iso3] : null;
+    const demoData = window.demographyData ? window.demographyData[iso3] : null;
     const frenchTitle = COUNTRY_NAMES_FR[iso3] || (polData && polData.identity && polData.identity.officialName) || name;
 
     let html = `
@@ -333,6 +527,9 @@ function renderCountryContent(iso3, name) {
             </button>
             <button class="panel-tab ${currentActiveView === 'economy' ? 'active' : ''}" onclick="switchPanelView('economy')">
                 📊 Économie
+            </button>
+            <button class="panel-tab ${currentActiveView === 'demography' || currentActiveView === 'population' ? 'active' : ''}" onclick="switchPanelView('demography')">
+                👥 Démographie
             </button>
         </div>
     `;
@@ -499,6 +696,8 @@ function renderCountryContent(iso3, name) {
         }
     } else if (currentActiveView === 'economy') {
         html += renderEconomyProfile(ecoData, iso3, name, frenchTitle);
+    } else if (currentActiveView === 'demography' || currentActiveView === 'population') {
+        html += renderDemographyProfile(demoData, iso3, name, frenchTitle);
     }
 
     document.getElementById("countryContent").innerHTML = html;
@@ -653,12 +852,14 @@ if (closeButton) {
 
 }
 
-// GESTION DES BOUTONS DE COUCHE (POLITIQUE / ÉCONOMIE)
+// GESTION DES BOUTONS DE COUCHE (POLITIQUE / ÉCONOMIE / POPULATION)
 document.querySelectorAll(".map-controls button.layer").forEach(function(button) {
     button.addEventListener("click", function() {
         const layerType = this.getAttribute("data-layer");
         if (layerType === "political" || layerType === "economy") {
             switchPanelView(layerType);
+        } else if (layerType === "population" || layerType === "demography") {
+            switchPanelView("demography");
         }
     });
 });
