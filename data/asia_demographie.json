@@ -1,0 +1,2258 @@
+{
+    "CHN": {
+        "general": {
+            "population": "1 409,7 millions d'habitants",
+            "globalRank": "2e mondial (dépassée par l'Inde en 2023)",
+            "density": "150 hab./km² (94 % de la population à l'est de la ligne Heihe-Tengchong)",
+            "growthRate": "-0,15 % par an (décroissance naturelle amorcée)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,0 enfant par femme",
+            "birthRate": "6,4 ‰ (plus bas historique depuis 1949)",
+            "deathRate": "7,9 ‰",
+            "infantMortality": "5,4 ‰",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "39,6 ans (vieillissement accéléré)",
+            "lifeExpectancy": {
+                "total": "78,2 ans",
+                "women": "81,1 ans",
+                "men": "75,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,5 %",
+                "fifteenToSixtyFour": "68,1 %",
+                "sixtyFivePlus": "15,4 % (plus de 217 millions de seniors)"
+            },
+            "dependencyRatio": "46,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "66,2 %",
+            "mainMetropolises": [
+                "Shanghai (29,2 millions hab. - mégapole financière et 1er port mondial de conteneurs)",
+                "Pékin / Beijing (22,0 millions hab. - capitale politique et centre décisionnel)",
+                "Canton / Guangzhou (16,5 millions hab. - cœur industriel du delta de la Rivière des Perles)",
+                "Shenzhen (13,0 millions hab. - capitale technologique de l'Asie)",
+                "Chongqing (17,3 millions hab. zone urbaine / 32 millions municipalité)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Han (91,1 % - ethnie ultra-majoritaire), 55 minorités nationales reconnues (8,9 % : Zhuang 17M, Ouïghours 12M, Hui 11M, Mandchous 10M, Tibétains 7M, Mongols, Miao)",
+            "languages": "Mandarin standard / Putonghua (officiel), langues sinitiques régionales (cantonais / Yue, Wu / shanghaïen, Min, Hakka), langues des minorités (tibétain, ouïghour, mongol, zhuang)",
+            "religions": "Athéisme d'État officiel ; Syncrétisme traditionnel (bouddhisme mahāyāna, taoïsme et culte des ancêtres ~45-50 %), Christianisme (~3-5 % protestants et catholiques), Islam (~1,8 % Ouïghours et Hui)"
+        },
+        "development": {
+            "hdi": "0,788 (Élevé - 75e mondial)",
+            "literacyRate": "97,2 %",
+            "keyChallenges": "Crise démographique du vieillissement accéléré ('devenir vieux avant d'être riche'), effondrement de la population active, déséquilibre de masculinité historique hérité de la politique de l'enfant unique (111 garçons pour 100 filles à la naissance), charge des retraites et des soins de santé"
+        }
+    },
+    "IND": {
+        "general": {
+            "population": "1 441,7 millions d'habitants",
+            "globalRank": "1er mondial (dépassement officiel de la Chine mi-2023)",
+            "density": "438 hab./km² (très fortes densités dans la plaine gangétique >1 000 hab./km²)",
+            "growthRate": "+0,75 % par an (décélération continue)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme (passé sous le seuil de remplacement)",
+            "birthRate": "16,1 ‰",
+            "deathRate": "7,1 ‰",
+            "infantMortality": "26,6 ‰",
+            "netMigration": "-0,3 ‰ (diaspora mondiale majeure >18 millions)"
+        },
+        "ageStructure": {
+            "medianAge": "28,7 ans (immense dividende démographique en cours)",
+            "lifeExpectancy": {
+                "total": "72,0 ans",
+                "women": "73,6 ans",
+                "men": "70,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,0 %",
+                "fifteenToSixtyFour": "68,1 %",
+                "sixtyFivePlus": "6,9 %"
+            },
+            "dependencyRatio": "46,9 %"
+        },
+        "urbanization": {
+            "urbanRate": "36,4 % (pays encore majoritairement rural, transition urbaine massive)",
+            "mainMetropolises": [
+                "Delhi / New Delhi (33,8 millions hab. aire métropolitaine - capitale fédérale)",
+                "Mumbai / Bombay (21,6 millions hab. - capitale financière et commerciale)",
+                "Kolkata / Calcutta (15,5 millions hab. - pôle culturel et industriel du Bengale)",
+                "Bengaluru / Bangalore (13,9 millions hab. - Silicon Valley indienne)",
+                "Chennai / Madras (11,9 millions hab. - hub automobile et industriel du Sud)",
+                "Hyderabad (11,0 millions hab. - pôle biopharmaceutique et tech)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Indo-Aryens (72 % - Nord et Centre), Dravidiens (25 % - Sud : Tamouls, Télougous, Malayalis, Kannadas), Austro-asiatiques et Tibéto-Birmans (3 % - Nord-Est et populations tribales Adivasis ~8,6 %)",
+            "languages": "Hindi (langue officielle de l'Union, 43,6 %), Anglais (langue officielle associée, droit et affaires), 22 langues constitutionnelles (bengali 8 %, marathi 7 %, télougou 6,7 %, tamoul 5,7 %, ourdou 4,2 %, gujarati 4,6 %)",
+            "religions": "Hindouisme (79,8 %), Islam (14,2 % - 3e population musulmane mondiale avec >200 millions), Christianisme (2,3 %), Sikhisme (1,7 % - Pendjab), Bouddhisme (0,7 %), Jaïnisme (0,4 %)"
+        },
+        "development": {
+            "hdi": "0,644 (Moyen - 134e mondial)",
+            "literacyRate": "77,7 % (hommes 84,7 %, femmes 70,3 %)",
+            "keyChallenges": "Création de 10 millions d'emplois formels par an pour absorber la jeunesse, réduction des disparités criantes entre les États prospères du Sud/Ouest et la ceinture rurale du Nord (Bihar, Uttar Pradesh), pollution atmosphérique extrême des métropoles, accès équitable à l'eau et à l'éducation des filles"
+        }
+    },
+    "JPN": {
+        "general": {
+            "population": "124,1 millions d'habitants",
+            "globalRank": "12e mondial",
+            "density": "332 hab./km² (extrême concentration sur les plaines côtières)",
+            "growthRate": "-0,55 % par an (perte de plus de 600 000 habitants par an)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,20 enfant par femme",
+            "birthRate": "6,0 ‰",
+            "deathRate": "12,9 ‰",
+            "infantMortality": "1,7 ‰ (l'une des plus faibles au monde)",
+            "netMigration": "+1,8 ‰ (ouverture ciblée à la main-d'œuvre qualifiée)"
+        },
+        "ageStructure": {
+            "medianAge": "49,5 ans (pays le plus âgé du monde avec Monaco)",
+            "lifeExpectancy": {
+                "total": "84,6 ans (parmi les plus élevées au monde)",
+                "women": "87,6 ans",
+                "men": "81,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "11,5 % (plus bas ratio au monde)",
+                "fifteenToSixtyFour": "58,5 %",
+                "sixtyFivePlus": "30,0 % (société hyper-âgée / super-aged society)"
+            },
+            "dependencyRatio": "71,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "92,0 % (la mégalopole de Taiheiyō concentre les deux tiers de la nation)",
+            "mainMetropolises": [
+                "Tokyo (37,4 millions hab. Grand Tokyo - plus grande agglomération urbaine mondiale)",
+                "Osaka-Kobe-Kyoto / Keihanshin (19,0 millions hab. - 2e métropole industrielle et culturelle)",
+                "Nagoya (9,5 millions hab. - cœur de l'industrie automobile Toyota)",
+                "Fukuoka-Kitakyushu (5,5 millions hab. - porte maritime sur l'Asie de l'Est)",
+                "Sapporo (2,6 millions hab. - capitale septentrionale d'Hokkaido)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Japonais (97,6 %), résidents étrangers enregistrés (2,4 % : Chinois, Vietnamiens, Sud-Coréens, Philippins, Brésiliens nikkeijin), minorités autochtones Aïnous (Hokkaido) et Ryukyuans (Okinawa)",
+            "languages": "Japonais (officiel et universel), langues ryukyu (Okinawa), aïnou",
+            "religions": "Syncrétisme traditionnel Shinto-Bouddhiste (plus de 85 % pratiquent les rituels des deux cultes), Christianisme (1,5 %), Sécularisation très poussée"
+        },
+        "development": {
+            "hdi": "0,920 (Très élevé - 24e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Dépeuplement accéléré des campagnes et villes secondaires (phénomène des akiya / maisons abandonnées), pénurie aiguë de main-d'œuvre (soins aux personnes âgées, BTP, agriculture), financement des retraites et de la santé face à l'endettement public"
+        }
+    },
+    "KOR": {
+        "general": {
+            "population": "51,7 millions d'habitants",
+            "globalRank": "29e mondial",
+            "density": "515 hab./km²",
+            "growthRate": "-0,20 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "0,72 enfant par femme (record mondial du taux de fécondité le plus bas)",
+            "birthRate": "4,5 ‰",
+            "deathRate": "7,0 ‰",
+            "infantMortality": "2,3 ‰",
+            "netMigration": "+1,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "45,0 ans (progression la plus rapide de l'OCDE)",
+            "lifeExpectancy": {
+                "total": "83,7 ans",
+                "women": "86,6 ans",
+                "men": "80,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "11,2 %",
+                "fifteenToSixtyFour": "69,8 %",
+                "sixtyFivePlus": "19,0 % (seuil de 20 % de super-vieillissement imminent)"
+            },
+            "dependencyRatio": "43,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "81,4 %",
+            "mainMetropolises": [
+                "Séoul (9,6 millions intramuros / 26,0 millions Région Capitale Sudogwon - 50 % de la population nationale)",
+                "Busan / Pusan (3,4 millions hab. - 1er port maritime et logistique)",
+                "Incheon (3,0 millions hab. - hub aéroportuaire et zone franche Songdo)",
+                "Daegu (2,4 millions hab. - métropole textile et industrielle)",
+                "Daejeon (1,5 million hab. - capitale de la recherche scientifique R&D)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Coréens (homogénéité ethnique historique de 96,5 %), résidents étrangers (~3,5 % : Chinois d'origine coréenne Joseonjok, Vietnamiens, Thaïlandais, Américains)",
+            "languages": "Coréen (officiel, écrit avec l'alphabet hangeul)",
+            "religions": "Sans affiliation religieuse (56 %), Protestantisme (20 %), Bouddhisme (16 %), Catholicisme (8 %)"
+        },
+        "development": {
+            "hdi": "0,929 (Très élevé - 19e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Urgence nationale existentielle face à l'effondrement de la natalité (coût prohibitif du logement et de l'éducation privée hagwon), hyper-compétition scolaire et professionnelle, épuisement de la main-d'œuvre et soutenabilité des retraites"
+        }
+    },
+    "PRK": {
+        "general": {
+            "population": "26,1 millions d'habitants",
+            "globalRank": "56e mondial",
+            "density": "217 hab./km²",
+            "growthRate": "+0,35 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "13,1 ‰",
+            "deathRate": "9,3 ‰",
+            "infantMortality": "12,8 ‰",
+            "netMigration": "-0,1 ‰ (frontières hermétiquement fermées)"
+        },
+        "ageStructure": {
+            "medianAge": "35,6 ans",
+            "lifeExpectancy": {
+                "total": "73,4 ans",
+                "women": "76,2 ans",
+                "men": "70,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "19,8 %",
+                "fifteenToSixtyFour": "69,7 %",
+                "sixtyFivePlus": "10,5 %"
+            },
+            "dependencyRatio": "43,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "63,2 %",
+            "mainMetropolises": [
+                "Pyongyang (3,1 millions hab. - capitale politique et vitrine du régime)",
+                "Hamhung (770 000 hab. - centre chimique et industriel de la côte est)",
+                "Chongjin (630 000 hab. - sidérurgie et métallurgie lourde)",
+                "Nampo (370 000 hab. - port maritime principal sur la mer Jaune)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Coréens (quasi 100 %, infime minorité chinoise et japonaise)",
+            "languages": "Coréen (standard de Pyongyang, dialecte Munhwaŏ)",
+            "religions": "Idéologie d'État Juche et Songun quasi-religieuse ; bouddhisme et chamanisme traditionnels strictement encadrés par l'État"
+        },
+        "development": {
+            "hdi": "0,580 (Estimé Moyen PNUD)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Sécurité alimentaire chronique et vulnérabilité aux sécheresses/inondations, isolement géopolitique total sous sanctions internationales, vétusté extrême des hôpitaux, système de stratification sociale étatique (Songbun)"
+        }
+    },
+    "IDN": {
+        "general": {
+            "population": "279,8 millions d'habitants",
+            "globalRank": "4e mondial (3e d'Asie, 1er pays musulman au monde)",
+            "density": "146 hab./km² (Java abrite 56 % de la population : >1 100 hab./km²)",
+            "growthRate": "+0,72 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,1 enfants par femme (au seuil exact de renouvellement)",
+            "birthRate": "15,8 ‰",
+            "deathRate": "7,5 ‰",
+            "infantMortality": "18,2 ‰",
+            "netMigration": "-0,3 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "30,2 ans (jeunesse dynamique)",
+            "lifeExpectancy": {
+                "total": "71,5 ans",
+                "women": "73,7 ans",
+                "men": "69,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,1 %",
+                "fifteenToSixtyFour": "67,8 %",
+                "sixtyFivePlus": "7,1 %"
+            },
+            "dependencyRatio": "47,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "58,5 %",
+            "mainMetropolises": [
+                "Jakarta (11,0 millions intramuros / 34,5 millions Grand Jakarta Jabodetabek - 2e mégapole mondiale)",
+                "Surabaya (3,0 millions hab. - 2e ville et hub de l'est de Java)",
+                "Bandung (2,6 millions hab. - pôle universitaire et textile)",
+                "Medan (2,5 millions hab. - métropole de Sumatra)",
+                "Nusantara (en construction à Bornéo - future capitale écologique et administrative)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Plus de 300 groupes ethniques : Javanais (40,2 %), Soundanais (15,5 %), Malais (3,7 %), Batak (3,6 %), Madurais (3,0 %), Betawi (2,9 %), Minangkabau (2,7 %), Bugis, Papous",
+            "languages": "Bahasa Indonesia (langue officielle et d'unité nationale), plus de 700 langues régionales (javanais 84M, soundanais 42M, madurais)",
+            "religions": "Islam (87,0 % - très majoritairement sunnite de rite chaféite), Christianisme protestant (7,4 %), Catholicisme (3,1 %), Hindouisme (1,7 % - majoritaire à Bali), Bouddhisme (0,7 %)"
+        },
+        "development": {
+            "hdi": "0,713 (Élevé - 112e mondial)",
+            "literacyRate": "96,0 %",
+            "keyChallenges": "Enfoncement physique et saturation de Jakarta conduisant au transfert de la capitale vers Nusantara, déséquilibres régionaux entre Java et les îles extérieures, vulnérabilité séismique et volcanique (Ceinture de feu du Pacifique)"
+        }
+    },
+    "SAU": {
+        "general": {
+            "population": "36,9 millions d'habitants",
+            "globalRank": "41e mondial",
+            "density": "17 hab./km²",
+            "growthRate": "+1,48 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme",
+            "birthRate": "15,2 ‰",
+            "deathRate": "3,6 ‰ (taux brut très bas lié à la structure jeune et aux résidents actifs)",
+            "infantMortality": "5,7 ‰",
+            "netMigration": "+3,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "31,8 ans",
+            "lifeExpectancy": {
+                "total": "77,9 ans",
+                "women": "79,8 ans",
+                "men": "76,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "24,8 %",
+                "fifteenToSixtyFour": "71,6 % (surreprésentation masculine des travailleurs expatriés)",
+                "sixtyFivePlus": "3,6 %"
+            },
+            "dependencyRatio": "39,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "84,8 %",
+            "mainMetropolises": [
+                "Riyad (7,7 millions hab. - capitale politique, financière et siège de Vision 2030)",
+                "Djeddah (4,7 millions hab. - 1er port commercial et porte des pèlerinages)",
+                "La Mecque / Makkah (2,1 millions hab. - ville sainte suprême de l'Islam accueillant le Hajj)",
+                "Médine / Madinah (1,5 million hab. - 2e ville sainte de l'Islam)",
+                "Dammam / Khobar (1,4 million hab. - cœur pétrolier du Golfe)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Citoyens saoudiens arabes (60,5 %), résidents étrangers non-nationaux (39,5 % : Indiens, Bangladais, Philippins, Pakistanais, Égyptiens, Yéménites)",
+            "languages": "Arabe (officiel), Anglais (langue universelle des affaires et de la technologie)",
+            "religions": "Islam (100 % des citoyens ; sunnites ~85-90 %, chiites ~10-15 % dans la province orientale d'Al-Sharqiya) ; minorités chrétiennes et hindoues parmi les travailleurs immigrés"
+        },
+        "development": {
+            "hdi": "0,875 (Très élevé - 40e mondial)",
+            "literacyRate": "97,6 %",
+            "keyChallenges": "Saoudisation de l'emploi privé et intégration massive des femmes dans la population active (passée de 17 % à 35 % sous Vision 2030), transition post-pétrole, gestion logistique et sanitaire de millions de pèlerins annuels"
+        }
+    },
+    "IRN": {
+        "general": {
+            "population": "89,2 millions d'habitants",
+            "globalRank": "17e mondial (2e du Moyen-Orient après l'Égypte)",
+            "density": "55 hab./km²",
+            "growthRate": "+0,70 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme (chute historique de la fécondité)",
+            "birthRate": "13,5 ‰",
+            "deathRate": "5,4 ‰",
+            "infantMortality": "10,8 ‰",
+            "netMigration": "-0,5 ‰ (forte émigration des diplômés, mais accueil de plus de 3,5 millions d'Afghans)"
+        },
+        "ageStructure": {
+            "medianAge": "33,2 ans",
+            "lifeExpectancy": {
+                "total": "76,8 ans",
+                "women": "78,5 ans",
+                "men": "75,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "23,5 %",
+                "fifteenToSixtyFour": "69,2 %",
+                "sixtyFivePlus": "7,3 %"
+            },
+            "dependencyRatio": "44,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "76,8 %",
+            "mainMetropolises": [
+                "Téhéran (9,5 millions intramuros / 16,0 millions Grand Téhéran - capitale tentaculaire)",
+                "Machhad (3,4 millions hab. - métropole religieuse et sanctuaire de l'Imam Reza)",
+                "Ispahan (2,2 millions hab. - joyau historique, culturel et pôle sidérurgique)",
+                "Karaj (2,0 millions hab. - satellite industriel à l'ouest de Téhéran)",
+                "Chiraz (1,7 million hab. - cœur de la culture perse et du Fars)",
+                "Tabriz (1,6 million hab. - métropole de l'Azerbaïdjan iranien)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Persans (61 %), Azéris turcophones (16 %), Kurdes (10 %), Lurs (6 %), Arabes (2 % au Khouzistan), Baloutches (2 %), Turkmènes (2 %)",
+            "languages": "Persan / Farsi (officiel et véhiculaire national), azéri, kurde, luri, arabe, baloutche, gilaki, mazandarani",
+            "religions": "Islam chiite duodécimain (90 % - religion d'État de la République islamique), Islam sunnite (9 % - Kurdes, Baloutches, Turkmènes), minorités religieuses reconnues (chrétiens arméniens/assyriens, juifs, zoroastriens), bahaïs (non reconnus)"
+        },
+        "development": {
+            "hdi": "0,780 (Élevé - 78e mondial)",
+            "literacyRate": "89,0 % (plus de 98 % chez les 15-24 ans)",
+            "keyChallenges": "Crise hydrique majeure (assèchement des nappes et lacs comme Ourmia), fuite massive des cerveaux sous le poids des sanctions économiques, revendications sociales de la jeunesse ('Femme, Vie, Liberté')"
+        }
+    },
+    "ISR": {
+        "general": {
+            "population": "9,8 millions d'habitants",
+            "globalRank": "98e mondial",
+            "density": "440 hab./km²",
+            "growthRate": "+1,8 % par an (la plus forte croissance démographique de l'OCDE)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,9 enfants par femme (exception démographique absolue dans les pays développés)",
+            "birthRate": "19,2 ‰",
+            "deathRate": "5,3 ‰",
+            "infantMortality": "2,6 ‰",
+            "netMigration": "+3,5 ‰ (Alya juive constante et flux migratoires)"
+        },
+        "ageStructure": {
+            "medianAge": "30,5 ans (société très jeune pour un pays développé)",
+            "lifeExpectancy": {
+                "total": "83,2 ans",
+                "women": "84,9 ans",
+                "men": "81,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "27,6 %",
+                "fifteenToSixtyFour": "60,2 %",
+                "sixtyFivePlus": "12,2 %"
+            },
+            "dependencyRatio": "66,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "92,8 %",
+            "mainMetropolises": [
+                "Tel Aviv-Jaffa (4,4 millions aire métropolitaine Gush Dan - Silicon Wadi et cœur économique)",
+                "Jérusalem (980 000 hab. - capitale proclamée, mosaïque religieuse et administrative)",
+                "Haïfa (1,1 million aire métropolitaine - 1er port maritime et pôle pétrochimique/high-tech)",
+                "Beer-Sheva (650 000 aire métropolitaine - capitale du Néguev et pôle cybersécurité)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Population juive (73,5 % : Sabras nés en Israël, Ashkénazes, Séfarades/Mizrahim, Juifs d'ex-URSS, Falashas éthiopiens), Arabes israéliens (21,1 % : musulmans, chrétiens, druzes), Autres non classés (5,4 %)",
+            "languages": "Hébreu (officiel unique), Arabe (statut spécial reconnu), Anglais et Russe largement parlés",
+            "religions": "Judaïsme (73,5 % : laïcs Hilonim 45 %, traditionalistes Masortim 25 %, religieux Datiim 16 %, ultra-orthodoxes Haredim 14 %), Islam sunnite (18,1 %), Christianisme (1,9 %), Druzes (1,6 %)"
+        },
+        "development": {
+            "hdi": "0,915 (Très élevé - 25e mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Tensions de cohésion sociale entre secteur laïque et essor démographique rapide des ultra-orthodoxes Haredim (fécondité >6,5) et de la population arabe, conflit israélo-palestinien et impératif sécuritaire"
+        }
+    },
+    "PSE": {
+        "general": {
+            "population": "5,45 millions d'habitants (Cisjordanie : 3,25M ; Bande de Gaza : 2,2M)",
+            "globalRank": "121e mondial",
+            "density": "890 hab./km² global (>5 500 hab./km² dans la Bande de Gaza)",
+            "growthRate": "+2,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,4 enfants par femme (3,8 à Gaza, 3,1 en Cisjordanie)",
+            "birthRate": "28,5 ‰",
+            "deathRate": "3,5 ‰ (hors surmortalité des conflits)",
+            "infantMortality": "12,5 ‰",
+            "netMigration": "-1,0 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "20,8 ans (extrême jeunesse)",
+            "lifeExpectancy": {
+                "total": "74,4 ans",
+                "women": "76,2 ans",
+                "men": "72,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "37,8 %",
+                "fifteenToSixtyFour": "58,8 %",
+                "sixtyFivePlus": "3,4 %"
+            },
+            "dependencyRatio": "70,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "77,5 %",
+            "mainMetropolises": [
+                "Gaza-Ville (750 000 hab. avant 2023 - cœur urbain de la Bande de Gaza)",
+                "Hébron / Al-Khalil (250 000 hab. - poumon commercial et industriel de Cisjordanie)",
+                "Naplouse (180 000 hab. - grand pôle du nord de la Cisjordanie)",
+                "Ramallah / Al-Bireh (140 000 hab. - siège de l'Autorité palestinienne)",
+                "Jérusalem-Est (350 000 résidents palestiniens revendiqués comme capitale)",
+                "Khan Younès (230 000 hab. au sud de Gaza)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes palestiniens (98 %), petites minorités syriaques et samaritaines (Mont Garizim)",
+            "languages": "Arabe (officiel), Anglais et Hébreu couramment compris",
+            "religions": "Islam sunnite (98 %), Christianisme (1-2 % - communautés historiques grecques-orthodoxes, catholiques, luthériennes à Bethléem, Ramallah et Jérusalem-Est)"
+        },
+        "development": {
+            "hdi": "0,716 (Élevé - 111e mondial)",
+            "literacyRate": "97,8 % (l'un des plus forts taux du monde arabe)",
+            "keyChallenges": "Dévastation humanitaire, sanitaire et destructions intégrales d'infrastructures à Gaza, fragmentation territoriale par la colonisation et les checkpoints en Cisjordanie, chômage endémique des jeunes diplômés (>45 %)"
+        }
+    },
+    "ARE": {
+        "general": {
+            "population": "10,1 millions d'habitants",
+            "globalRank": "93e mondial",
+            "density": "121 hab./km²",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,5 enfant par femme",
+            "birthRate": "9,8 ‰",
+            "deathRate": "1,8 ‰ (ratio le plus bas au monde grâce aux résidents jeunes)",
+            "infantMortality": "4,9 ‰",
+            "netMigration": "+4,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "34,2 ans (déséquilibre hommes/femmes de 69 % d'hommes pour 31 % de femmes)",
+            "lifeExpectancy": {
+                "total": "79,2 ans",
+                "women": "80,8 ans",
+                "men": "78,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "14,8 %",
+                "fifteenToSixtyFour": "83,2 % (hyper-concentration d'actifs)",
+                "sixtyFivePlus": "2,0 %"
+            },
+            "dependencyRatio": "20,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "87,8 %",
+            "mainMetropolises": [
+                "Dubaï (3,65 millions hab. - hub mondial du tourisme, de la finance et du commerce)",
+                "Abou Dabi (1,6 million hab. - capitale fédérale et centre financier souverain)",
+                "Charjah (1,4 million hab. - capitale culturelle et émirat industriel)",
+                "Al-Aïn (780 000 hab. - ville oasis historique)",
+                "Ajman (400 000 hab.)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Émiriens nationaux (11,5 %), expatriés et résidents (88,5 % : Indiens 27 %, Pakistanais 12 %, Bangladais 7 %, Philippins 6 %, Arabes non-émiriens, Occidentaux)",
+            "languages": "Arabe (officiel), Anglais (langue dominante au quotidien et dans le commerce), hindi, ourdou, tagalog",
+            "religions": "Islam (76 % - sunnite officiel), Christianisme (12,6 %), Hindouisme (6,6 %), Bouddhisme (2 %)"
+        },
+        "development": {
+            "hdi": "0,937 (Très élevé - 17e mondial, 1er du monde arabe)",
+            "literacyRate": "98,1 %",
+            "keyChallenges": "Dépendance écrasante à la main-d'œuvre étrangère, programmes d'émiratisation des emplois stratégiques, transition verte accélérée et gestion de la désalinisation"
+        }
+    },
+    "QAT": {
+        "general": {
+            "population": "2,75 millions d'habitants",
+            "globalRank": "142e mondial",
+            "density": "237 hab./km²",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "9,2 ‰",
+            "deathRate": "1,4 ‰",
+            "infantMortality": "5,1 ‰",
+            "netMigration": "+3,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "34,5 ans (72 % d'hommes)",
+            "lifeExpectancy": {
+                "total": "81,6 ans",
+                "women": "83,2 ans",
+                "men": "80,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "13,9 %",
+                "fifteenToSixtyFour": "84,6 %",
+                "sixtyFivePlus": "1,5 %"
+            },
+            "dependencyRatio": "18,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "99,3 % (quasi cité-État)",
+            "mainMetropolises": [
+                "Doha (2,4 millions hab. aire métropolitaine - capitale politique, financière et sportive)",
+                "Al-Rayyan (600 000 hab. - grande banlieue ouest)",
+                "Al-Wakrah (250 000 hab. - ville côtière industrielle et résidentielle)",
+                "Al-Khor (200 000 hab. - pôle du gaz naturel liquéfié de Ras Laffan)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Qatariens de nationalité (11,6 %), résidents étrangers (88,4 % : Indiens 25 %, Népalais 16 %, Bangladais 12 %, Philippins 10 %, Égyptiens 9 %)",
+            "languages": "Arabe (officiel), Anglais (langue des affaires)",
+            "religions": "Islam (65,5 % - sunnite wahhabite), Christianisme (15,4 % - communautés étrangères), Hindouisme (14,2 %), Bouddhisme (3,3 %)"
+        },
+        "development": {
+            "hdi": "0,875 (Très élevé - 40e mondial)",
+            "literacyRate": "98,0 %",
+            "keyChallenges": "Hyper-minorité des nationaux dans leur propre pays, conditions de travail des ouvriers migrants, diversification économique hors de la rente du GNL (Qatar National Vision 2030)"
+        }
+    },
+    "KWT": {
+        "general": {
+            "population": "4,35 millions d'habitants",
+            "globalRank": "130e mondial",
+            "density": "244 hab./km²",
+            "growthRate": "+1,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme",
+            "birthRate": "12,4 ‰",
+            "deathRate": "2,5 ‰",
+            "infantMortality": "6,8 ‰",
+            "netMigration": "+1,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "31,0 ans",
+            "lifeExpectancy": {
+                "total": "79,0 ans",
+                "women": "80,8 ans",
+                "men": "77,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "21,2 %",
+                "fifteenToSixtyFour": "75,1 %",
+                "sixtyFivePlus": "3,7 %"
+            },
+            "dependencyRatio": "33,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "100 % (100 % urbain)",
+            "mainMetropolises": [
+                "Koweït City (3,2 millions hab. agglomération métropolitaine - capitale politique et financière)",
+                "Al-Ahmadi (650 000 hab. - siège de la Kuwait Oil Company)",
+                "Hawalli (220 000 hab. - grand centre commercial)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Citoyens koweïtiens (31 %), travailleurs expatriés (69 % : Sud-Asiatiques 38 %, Arabes d'Égypte et du Levant 28 %, Philippins 4 %, Occidentaux)",
+            "languages": "Arabe (officiel), Anglais largement répandu",
+            "religions": "Islam (74,6 % - sunnites ~70 %, chiites ~30 %), Christianisme (18,2 %), Hindouisme et autres (7,2 %)"
+        },
+        "development": {
+            "hdi": "0,847 (Très élevé - 52e mondial)",
+            "literacyRate": "96,5 %",
+            "keyChallenges": "Statut non résolu des Bidounes (apatrides de longue date), dépendance budgétaire extrême aux hydrocarbures (>85 %), blocages institutionnels récurrents entre le Parlement élu et le gouvernement nommé"
+        }
+    },
+    "OMN": {
+        "general": {
+            "population": "4,65 millions d'habitants",
+            "globalRank": "126e mondial",
+            "density": "15 hab./km²",
+            "growthRate": "+1,5 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,5 enfants par femme",
+            "birthRate": "17,8 ‰",
+            "deathRate": "2,6 ‰",
+            "infantMortality": "8,7 ‰",
+            "netMigration": "+0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "30,8 ans",
+            "lifeExpectancy": {
+                "total": "78,6 ans",
+                "women": "80,7 ans",
+                "men": "76,9 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "21,8 %",
+                "fifteenToSixtyFour": "75,2 %",
+                "sixtyFivePlus": "3,0 %"
+            },
+            "dependencyRatio": "33,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "87,2 %",
+            "mainMetropolises": [
+                "Mascate (1,65 million hab. Grand Mascate - capitale portuaire historique)",
+                "Salalah (400 000 hab. - métropole du Dhofar bénéficiant de la mousson du Khareef)",
+                "Sohar (240 000 hab. - zone industrielle et portuaire stratégique)",
+                "Nizwa (130 000 hab. - ancienne capitale historique et religieuse)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Omanais arabes (58 %), résidents étrangers immigrés (42 % : Indiens, Pakistanais, Bangladais, Philippins)",
+            "languages": "Arabe (officiel), Anglais, baloutche, swahili (liens avec Zanzibar), ourdou",
+            "religions": "Islam (86 % - particularité mondiale : ibadisme ~45 % religion dominante tolérante, sunnisme ~40 %, chiisme ~5 %), Hindouisme et Christianisme (14 % parmi les expatriés)"
+        },
+        "development": {
+            "hdi": "0,816 (Très élevé - 59e mondial)",
+            "literacyRate": "95,7 %",
+            "keyChallenges": "Omanisation des emplois techniques, réserves pétrolières plus réduites imposant une transition vers la logistique portuaire (Duqm) et l'hydrogène vert"
+        }
+    },
+    "BHR": {
+        "general": {
+            "population": "1,55 million d'habitants",
+            "globalRank": "153e mondial",
+            "density": "1 980 hab./km²",
+            "growthRate": "+1,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "13,6 ‰",
+            "deathRate": "2,4 ‰",
+            "infantMortality": "5,6 ‰",
+            "netMigration": "+6,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "33,0 ans",
+            "lifeExpectancy": {
+                "total": "79,2 ans",
+                "women": "80,7 ans",
+                "men": "78,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "18,5 %",
+                "fifteenToSixtyFour": "77,8 %",
+                "sixtyFivePlus": "3,7 %"
+            },
+            "dependencyRatio": "28,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "89,6 %",
+            "mainMetropolises": [
+                "Manama (650 000 hab. agglomération - capitale, hub bancaire offshore et tech)",
+                "Riffa (200 000 hab. - résidence royale)",
+                "Muharraq (180 000 hab. - ancienne capitale historique et île de l'aéroport)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bahreïniens (47,4 %), résidents étrangers (52,6 % : Sud-Asiatiques 44 %, Arabes non-bahreïniens, Philippins)",
+            "languages": "Arabe (officiel), Anglais largement usité",
+            "religions": "Islam (74 % - majorité de citoyens chiites ~60 %, dynastie et élite sunnites ~40 %), Christianisme (14,5 %), Hindouisme (9,8 %)"
+        },
+        "development": {
+            "hdi": "0,888 (Très élevé - 34e mondial)",
+            "literacyRate": "97,5 %",
+            "keyChallenges": "Tensions confessionnelles et politiques internes post-2011, épuisement précoce des hydrocarbures compensé par l'aide financière saoudienne et émirienne, saturation du territoire insulaire"
+        }
+    },
+    "YEM": {
+        "general": {
+            "population": "34,4 millions d'habitants",
+            "globalRank": "46e mondial",
+            "density": "65 hab./km²",
+            "growthRate": "+2,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,8 enfants par femme",
+            "birthRate": "29,4 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "42,0 ‰",
+            "netMigration": "-0,6 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "19,5 ans (extrême jeunesse)",
+            "lifeExpectancy": {
+                "total": "64,2 ans",
+                "women": "66,8 ans",
+                "men": "61,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "39,2 %",
+                "fifteenToSixtyFour": "57,9 %",
+                "sixtyFivePlus": "2,9 %"
+            },
+            "dependencyRatio": "72,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "38,5 %",
+            "mainMetropolises": [
+                "Sanaa (3,3 millions hab. - capitale historique des hautes terres contrôlée par les Houthis)",
+                "Aden (1,1 million hab. - grand port stratégique sur le golfe d'Aden, capitale provisoire)",
+                "Taëz (700 000 hab. - foyer intellectuel)",
+                "Al-Hodeïda (600 000 hab. - principal port sur la mer Rouge)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes yéménites (98 %), minorités afro-yéménites (Al-Akhdam / Muhamasheen 1,5 %), réfugiés somaliens",
+            "languages": "Arabe (officiel), langues sudarabiques modernes (mehri, socotri)",
+            "religions": "Islam (99,8 % - sunnites chaféites ~65 % au Sud et côte Tihama, chiites zaïdites ~35 % sur les hauts plateaux du Nord)"
+        },
+        "development": {
+            "hdi": "0,424 (Faible - 186e mondial)",
+            "literacyRate": "70,1 % (hommes 85 %, femmes 55 %)",
+            "keyChallenges": "Catastrophe humanitaire majeure de la décennie : guerre civile, famine, choléra, effondrement des infrastructures sanitaires et scolaires, culture chronophage et consommatrice d'eau du qat"
+        }
+    },
+    "IRQ": {
+        "general": {
+            "population": "45,5 millions d'habitants",
+            "globalRank": "35e mondial",
+            "density": "104 hab./km²",
+            "growthRate": "+2,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,3 enfants par femme",
+            "birthRate": "26,8 ‰",
+            "deathRate": "4,9 ‰",
+            "infantMortality": "20,5 ‰",
+            "netMigration": "-0,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "21,2 ans",
+            "lifeExpectancy": {
+                "total": "71,3 ans",
+                "women": "73,4 ans",
+                "men": "69,3 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "37,0 %",
+                "fifteenToSixtyFour": "59,6 %",
+                "sixtyFivePlus": "3,4 %"
+            },
+            "dependencyRatio": "67,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "71,4 %",
+            "mainMetropolises": [
+                "Bagdad (7,6 millions hab. aire métropolitaine - capitale historique de la Mésopotamie)",
+                "Mossoul (1,8 million hab. - métropole du nord de la plaine de Ninive)",
+                "Bassora (1,5 million hab. - poumon pétrolier et portuaire du sud sur le Chatt-el-Arab)",
+                "Erbil / Hawler (1,2 million hab. - capitale de la Région autonome du Kurdistan)",
+                "Nadjaf (800 000 hab. - ville sainte du chiisme mondial et mausolée de l'Imam Ali)",
+                "Kerbala (750 000 hab. - sanctuaire de l'Imam Hussein et pèlerinage de l'Arbaïn)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes (75-80 %), Kurdes (15-20 % au Kurdistan irakien), Turkmènes d'Irak (3 %), Assyro-Chaldéens et Syriaques (1 %), Yézidis, Shabaks",
+            "languages": "Arabe et Kurde (deux langues officielles fédérales), turkmène, syriaque / néo-araméen",
+            "religions": "Islam (97 % : chiites 60-65 % au Sud et Bagdad, sunnites 32-37 % au Nord et Ouest), Christianisme chaldéen/syriaque (~1 %), Yézidisme, Mandéisme"
+        },
+        "development": {
+            "hdi": "0,673 (Moyen - 128e mondial)",
+            "literacyRate": "85,6 %",
+            "keyChallenges": "Stress hydrique dramatique causé par les barrages amonts sur le Tigre et l'Euphrate et le changement climatique, réconciliation post-conflit, intégration de la jeunesse dans une économie pétrolière rentière"
+        }
+    },
+    "SYR": {
+        "general": {
+            "population": "23,2 millions d'habitants (population résidente sous tension extrême)",
+            "globalRank": "60e mondial",
+            "density": "125 hab./km²",
+            "growthRate": "+2,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,7 enfants par femme",
+            "birthRate": "21,5 ‰",
+            "deathRate": "5,2 ‰",
+            "infantMortality": "15,8 ‰",
+            "netMigration": "+6,0 ‰ (fluctuations migratoires : plus de 5,5 millions de réfugiés hors frontières)"
+        },
+        "ageStructure": {
+            "medianAge": "24,0 ans",
+            "lifeExpectancy": {
+                "total": "72,1 ans",
+                "women": "75,2 ans",
+                "men": "69,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "32,5 %",
+                "fifteenToSixtyFour": "62,8 %",
+                "sixtyFivePlus": "4,7 %"
+            },
+            "dependencyRatio": "59,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "56,4 %",
+            "mainMetropolises": [
+                "Damas (2,6 millions hab. - plus ancienne capitale continuellement habitée au monde)",
+                "Alep (2,1 millions hab. - pôle commercial et industriel historique du Levant)",
+                "Homs (800 000 hab. - carrefour central)",
+                "Lattaquié (450 000 hab. - principal port maritime sur la Méditerranée et cœur alaouite)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes syriens (82 %), Kurdes (9-10 % au Nord et Rojava), Turkmènes syriens (3 %), Arméniens, Circassiens, Assyriens",
+            "languages": "Arabe (officiel), kurde, arménien, araméen occidental (Maaloula)",
+            "religions": "Islam sunnite (74 %), Alaouites (12 % - communauté du président Assad), Chrétiens (8-10 % : grecs-orthodoxes, melkites, syriaques, arméniens), Druzes (3 % au djebel el-Druze), Ismaéliens"
+        },
+        "development": {
+            "hdi": "0,557 (Moyen - 157e mondial)",
+            "literacyRate": "86,4 %",
+            "keyChallenges": "Reconstruction d'un pays ruiné par plus d'une décennie de guerre civile, plus de 6 millions de déplacés internes, morcellement territorial, inflation galopante et pauvreté frappant plus de 90 % des résidents"
+        }
+    },
+    "LBN": {
+        "general": {
+            "population": "5,35 millions d'habitants (incluant ~1,5 million de réfugiés syriens et palestiniens)",
+            "globalRank": "123e mondial",
+            "density": "520 hab./km²",
+            "growthRate": "-0,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme",
+            "birthRate": "13,2 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "6,4 ‰",
+            "netMigration": "-12,5 ‰ (exode massif de médecins, ingénieurs et universitaires)"
+        },
+        "ageStructure": {
+            "medianAge": "33,8 ans",
+            "lifeExpectancy": {
+                "total": "75,0 ans",
+                "women": "77,4 ans",
+                "men": "72,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "23,1 %",
+                "fifteenToSixtyFour": "68,0 %",
+                "sixtyFivePlus": "8,9 %"
+            },
+            "dependencyRatio": "47,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "89,2 %",
+            "mainMetropolises": [
+                "Beyrouth (2,4 millions hab. Grand Beyrouth - capitale cosmopolite et carrefour du Levant)",
+                "Tripoli (500 000 hab. - métropole du nord à majorité sunnite)",
+                "Sidon / Saïda (250 000 hab. - métropole portuaire du sud)",
+                "Zahlé (150 000 hab. - capitale chrétienne de la plaine de la Bekaa)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes libanais (95 %), Arméniens (4 %), Kurdes et minorités",
+            "languages": "Arabe (officiel), Français (langue de culture prestigieuse et d'enseignement), Anglais (universel)",
+            "religions": "Système confessionnel à 18 communautés reconnues : Musulmans (~65 % : chiites 31 %, sunnites 31 %, druzes 5 %), Chrétiens (~34 % : maronites 20 %, grecs-orthodoxes 8 %, melkites 5 %, arméniens)"
+        },
+        "development": {
+            "hdi": "0,723 (Élevé - 109e mondial)",
+            "literacyRate": "95,1 %",
+            "keyChallenges": "Effondrement financier et bancaire depuis 2019, dépréciation de 98 % de la livre libanaise, paralysie politique institutionnelle, impact déstabilisateur des frappes et tensions militaires régionales"
+        }
+    },
+    "JOR": {
+        "general": {
+            "population": "11,4 millions d'habitants",
+            "globalRank": "88e mondial",
+            "density": "128 hab./km²",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,6 enfants par femme",
+            "birthRate": "20,1 ‰",
+            "deathRate": "3,9 ‰",
+            "infantMortality": "13,2 ‰",
+            "netMigration": "-0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "24,8 ans",
+            "lifeExpectancy": {
+                "total": "74,5 ans",
+                "women": "76,8 ans",
+                "men": "72,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "33,0 %",
+                "fifteenToSixtyFour": "63,2 %",
+                "sixtyFivePlus": "3,8 %"
+            },
+            "dependencyRatio": "58,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "91,6 %",
+            "mainMetropolises": [
+                "Amman (4,6 millions hab. Grand Amman - capitale politique et cœur démographique)",
+                "Zarqa (1,1 million hab. - grand centre industriel)",
+                "Irbid (950 000 hab. - pôle universitaire du nord)",
+                "Aqaba (190 000 hab. - unique accès maritime sur la mer Rouge)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arabes jordaniens et d'origine palestinienne (97 %), Circassiens (1 %), Tchétchènes, Arméniens",
+            "languages": "Arabe (officiel), Anglais très largement parlé",
+            "religions": "Islam sunnite (95 % - religion d'État hachémite), Christianisme (4 % : grecs-orthodoxes, catholiques, melkites)"
+        },
+        "development": {
+            "hdi": "0,736 (Élevé - 102e mondial)",
+            "literacyRate": "98,4 %",
+            "keyChallenges": "Pénurie absolue d'eau douce (2e pays le plus pauvre en eau au monde par habitant), accueil de plus d'un million de réfugiés syriens et de plus de deux millions de réfugiés palestiniens enregistrés, chômage des jeunes (>40 %)"
+        }
+    },
+    "PAK": {
+        "general": {
+            "population": "241,5 millions d'habitants",
+            "globalRank": "5e mondial (2e pays musulman le plus peuplé)",
+            "density": "303 hab./km²",
+            "growthRate": "+2,55 % par an (l'une des croissances les plus rapides d'Asie)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,4 enfants par femme",
+            "birthRate": "27,2 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "53,5 ‰ (l'une des plus élevées d'Asie)",
+            "netMigration": "-0,8 ‰ (diaspora de plus de 9 millions de Pakistanais)"
+        },
+        "ageStructure": {
+            "medianAge": "20,6 ans (jeunesse foisonnante)",
+            "lifeExpectancy": {
+                "total": "66,4 ans",
+                "women": "68,6 ans",
+                "men": "64,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "37,4 %",
+                "fifteenToSixtyFour": "58,2 %",
+                "sixtyFivePlus": "4,4 %"
+            },
+            "dependencyRatio": "71,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "37,4 %",
+            "mainMetropolises": [
+                "Karachi (17,2 millions hab. - capitale économique, financière et grand port)",
+                "Lahore (13,5 millions hab. - capitale culturelle et historique du Pendjab)",
+                "Faisalabad (3,7 millions hab. - Manchester du Pakistan et textile)",
+                "Rawalpindi / Islamabad (3,4 millions hab. conurbation - capitale fédérale)",
+                "Peshawar (2,3 millions hab. - porte historique de Khyber vers l'Afghanistan)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Pendjabis (44,7 %), Pachtounes (15,4 %), Sindhis (14,1 %), Saraikis (8,4 %), Muhadjirs (7,6 %), Baloutches (3,6 %)",
+            "languages": "Ourdou (langue nationale), Anglais (officielle du droit et de l'administration), pendjabi (38 %), pachto (18 %), sindhi (14 %)",
+            "religions": "Islam (96,5 % - sunnites 85-90 % de rite hanafite, chiites 10-15 %), Christianisme (1,6 %), Hindouisme (1,6 % principalement au Sindh)"
+        },
+        "development": {
+            "hdi": "0,540 (Faible - 164e mondial)",
+            "literacyRate": "58,0 % (hommes 69 %, femmes 46 %)",
+            "keyChallenges": "Explosion démographique non maîtrisée menaçant la sécurité alimentaire et l'eau, vulnérabilité climatique aiguë (inondations catastrophiques de la mousson), instabilité politique récurrente et fardeau de la dette extérieure"
+        }
+    },
+    "BGD": {
+        "general": {
+            "population": "173,0 millions d'habitants",
+            "globalRank": "8e mondial",
+            "density": "1 180 hab./km² (le grand pays non insulaire le plus dense du monde)",
+            "growthRate": "+1,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,9 enfant par femme (succès remarquable de la transition)",
+            "birthRate": "17,5 ‰",
+            "deathRate": "5,6 ‰",
+            "infantMortality": "21,6 ‰",
+            "netMigration": "-2,2 ‰ (émigration de travail vers le Golfe persique et l'Asie)"
+        },
+        "ageStructure": {
+            "medianAge": "27,9 ans",
+            "lifeExpectancy": {
+                "total": "72,8 ans (supérieure à l'Inde et au Pakistan)",
+                "women": "74,6 ans",
+                "men": "71,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "26,1 %",
+                "fifteenToSixtyFour": "67,7 %",
+                "sixtyFivePlus": "6,2 %"
+            },
+            "dependencyRatio": "47,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "39,7 %",
+            "mainMetropolises": [
+                "Dhaka / Dacca (23,2 millions hab. aire métropolitaine - mégapole du delta et textile mondial)",
+                "Chittagong / Chattogram (5,4 millions hab. - 1er port maritime)",
+                "Khulna (1,5 million hab. - porte d'entrée des mangroves des Sundarbans)",
+                "Rajshahi (900 000 hab. - centre éducatif du nord-ouest)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bengalis (98 % - immense homogénéité ethnoculturelle), minorités autochtones tribales (Chakmas, Marmas dans les Chittagong Hill Tracts)",
+            "languages": "Bengali / Bangla (officiel et universel), Anglais compris dans les affaires",
+            "religions": "Islam (90,4 % - très majoritairement sunnite modéré), Hindouisme (8,5 %), Bouddhisme (0,6 %), Christianisme (0,4 %)"
+        },
+        "development": {
+            "hdi": "0,670 (Moyen - 129e mondial)",
+            "literacyRate": "74,7 %",
+            "keyChallenges": "Vulnérabilité climatique existentielle : pays deltaïque menacé par la montée du niveau de la mer, cyclones et salinisation, accueil de près d'un million de réfugiés Rohingyas de Birmanie à Cox's Bazar"
+        }
+    },
+    "VNM": {
+        "general": {
+            "population": "100,3 millions d'habitants (seuil franchi en 2023)",
+            "globalRank": "15e mondial",
+            "density": "310 hab./km²",
+            "growthRate": "+0,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,9 enfant par femme",
+            "birthRate": "15,0 ‰",
+            "deathRate": "6,4 ‰",
+            "infantMortality": "16,0 ‰",
+            "netMigration": "-0,4 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "33,2 ans",
+            "lifeExpectancy": {
+                "total": "74,2 ans",
+                "women": "77,8 ans",
+                "men": "70,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "22,5 %",
+                "fifteenToSixtyFour": "68,7 %",
+                "sixtyFivePlus": "8,8 %"
+            },
+            "dependencyRatio": "45,6 %"
+        },
+        "urbanization": {
+            "urbanRate": "39,5 %",
+            "mainMetropolises": [
+                "Hô Chi Minh-Ville (9,3 millions hab. - poumon économique, financier et commercial du Sud)",
+                "Hanoï (8,5 millions hab. - capitale politique millénaire et centre culturel)",
+                "Da Nang (1,2 million hab. - métropole moderne du Centre et hub touristique/tech)",
+                "Haïphong (2,1 millions hab. - grand port maritime du Nord)",
+                "Can Tho (1,3 million hab. - cœur agro-industriel du delta du Mékong)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Kinh / Viêt (85,3 %), 53 minorités ethniques reconnues (14,7 % : Tày 1,8M, Thaï 1,8M, Mường 1,5M, Hmong 1,4M, Khmers du delta 1,3M, Nùng, Hoa/Chinois)",
+            "languages": "Vietnamien (officiel et universel, écrit en alphabet latin Quốc ngữ)",
+            "religions": "Sans religion déclarée / Culte des ancêtres Tam Giáo (74 %), Bouddhisme (14,9 %), Catholicisme (7,4 %), Protestantisme (1,4 %), Religions syncrétiques Cao Đài et Hòa Hảo (2 %)"
+        },
+        "development": {
+            "hdi": "0,726 (Élevé - 107e mondial)",
+            "literacyRate": "95,8 %",
+            "keyChallenges": "Début du vieillissement de la population active, vulnérabilité du delta du Mékong face à la salinisation et à la baisse des sédiments, montée en gamme vers la haute technologie"
+        }
+    },
+    "THA": {
+        "general": {
+            "population": "71,8 millions d'habitants",
+            "globalRank": "20e mondial",
+            "density": "140 hab./km²",
+            "growthRate": "+0,15 % par an (stagnation proche de la décroissance)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,16 enfant par femme",
+            "birthRate": "9,0 ‰",
+            "deathRate": "8,2 ‰",
+            "infantMortality": "7,4 ‰",
+            "netMigration": "+0,5 ‰ (pôle d'attraction pour plus de 3 millions de travailleurs de Birmanie, Cambodge, Laos)"
+        },
+        "ageStructure": {
+            "medianAge": "40,5 ans (société déjà mûre)",
+            "lifeExpectancy": {
+                "total": "79,2 ans",
+                "women": "82,5 ans",
+                "men": "75,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "16,0 %",
+                "fifteenToSixtyFour": "70,0 %",
+                "sixtyFivePlus": "14,0 % (société officiellement vieillie)"
+            },
+            "dependencyRatio": "42,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,6 %",
+            "mainMetropolises": [
+                "Bangkok (11,0 millions hab. Région métropolitaine - macrocéphalie urbaine)",
+                "Chiang Mai (1,2 million aire métropolitaine - capitale culturelle du Nord)",
+                "Chonburi-Pattaya (1,0 million hab. - couloir économique oriental EEC)",
+                "Nakhon Ratchasima / Korat (500 000 hab. - porte de l'Isan)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Thaïs (86 % : Siamois du Centre, Thaïs-Lao de l'Isan, Thaïs du Nord, Thaïs du Sud), minorité d'origine chinoise (10-12 %), Malais musulmans (3-4 % dans le Sud), minorités montagnardes",
+            "languages": "Thaï (officiel, dialectes isan, kam mueang), malais pattani",
+            "religions": "Bouddhisme theravāda (93,5 % - pilier constitutionnel de l'identité nationale), Islam (5,4 % majoritaire au Sud), Christianisme (1,1 %)"
+        },
+        "development": {
+            "hdi": "0,803 (Très élevé - 66e mondial)",
+            "literacyRate": "94,1 %",
+            "keyChallenges": "Trappe du revenu intermédiaire couplée à un vieillissement démographique précoce, fossé socio-économique entre Bangkok et le Nord-Est rural (Isan), instabilité politique récurrente"
+        }
+    },
+    "MYS": {
+        "general": {
+            "population": "34,3 millions d'habitants",
+            "globalRank": "45e mondial",
+            "density": "104 hab./km²",
+            "growthRate": "+1,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "15,8 ‰",
+            "deathRate": "5,4 ‰",
+            "infantMortality": "6,7 ‰",
+            "netMigration": "+0,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "30,6 ans",
+            "lifeExpectancy": {
+                "total": "76,5 ans",
+                "women": "78,8 ans",
+                "men": "74,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "23,2 %",
+                "fifteenToSixtyFour": "69,6 %",
+                "sixtyFivePlus": "7,2 %"
+            },
+            "dependencyRatio": "43,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "78,2 %",
+            "mainMetropolises": [
+                "Kuala Lumpur / Vallée de Klang (8,6 millions hab. aire métropolitaine - capitale économique)",
+                "George Town / Penang (1,8 million hab. conurbation - hub semi-conducteurs)",
+                "Johor Bahru (1,7 million hab. - porte sud sur Singapour et zone Iskandar)",
+                "Putrajaya (120 000 hab. - cité administrative fédérale)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bumiputera (69,9 % : Malais 57 %, peuples indigènes de Bornéo Dayaks, Kadazan-Dusun, Orang Asli), Chinois de Malaisie (22,6 %), Indiens de Malaisie (6,6 %)",
+            "languages": "Bahasa Melayu / Malais (officiel), Anglais (affaires et enseignement supérieur), dialectes chinois (mandarin, cantonais, hokkien), tamoul",
+            "religions": "Islam (63,5 % - religion de la Fédération), Bouddhisme (18,7 %), Christianisme (9,1 % à Bornéo), Hindouisme (6,1 %)"
+        },
+        "development": {
+            "hdi": "0,807 (Très élevé - 63e mondial)",
+            "literacyRate": "95,0 %",
+            "keyChallenges": "Équilibre interethnique délicat encadré par les quotas pro-Bumiputera, fuite des cerveaux diplômés des minorités vers Singapour, dépendance persistante à la main-d'œuvre immigrée non qualifiée"
+        }
+    },
+    "SGP": {
+        "general": {
+            "population": "5,92 millions d'habitants",
+            "globalRank": "114e mondial",
+            "density": "8 358 hab./km²",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "0,97 enfant par femme (l'un des plus bas au monde)",
+            "birthRate": "7,8 ‰",
+            "deathRate": "5,1 ‰",
+            "infantMortality": "1,8 ‰",
+            "netMigration": "+8,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "42,8 ans",
+            "lifeExpectancy": {
+                "total": "84,1 ans (top mondial de l'espérance de vie)",
+                "women": "86,4 ans",
+                "men": "81,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "12,1 %",
+                "fifteenToSixtyFour": "70,3 %",
+                "sixtyFivePlus": "17,6 %"
+            },
+            "dependencyRatio": "42,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "100 % (cité-État insulaire intégralement urbanisée)",
+            "mainMetropolises": [
+                "Singapour (5,9 millions hab. - hub financier d'Asie, 2e port de conteneurs mondial et aéroport Changi)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Chinois singapouriens (74,1 %), Malais autochtones (13,6 %), Indiens (9,0 %), Eurasiens et autres (3,3 %)",
+            "languages": "Quatre langues officielles : Anglais (travail administratif et enseignement), Mandarin, Malais (langue nationale), Tamoul",
+            "religions": "Bouddhisme (31,1 %), Sans religion (20,0 %), Christianisme (18,9 %), Islam (15,6 %), Taoïsme (8,8 %), Hindouisme (5,0 %)"
+        },
+        "development": {
+            "hdi": "0,949 (Très élevé - 9e mondial, 1er d'Asie)",
+            "literacyRate": "97,5 %",
+            "keyChallenges": "Hyper-vieillissement de la population citoyenne, équilibre démographique sensible entre intégration de talents étrangers et harmonie sociale, vulnérabilité climatique à la montée des eaux marines"
+        }
+    },
+    "PHL": {
+        "general": {
+            "population": "117,3 millions d'habitants",
+            "globalRank": "13e mondial",
+            "density": "391 hab./km²",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,4 enfants par femme",
+            "birthRate": "19,8 ‰",
+            "deathRate": "6,2 ‰",
+            "infantMortality": "20,0 ‰",
+            "netMigration": "-1,7 ‰ (plus de 10 millions de travailleurs philippins à l'étranger / OFW)"
+        },
+        "ageStructure": {
+            "medianAge": "25,7 ans (très grande jeunesse)",
+            "lifeExpectancy": {
+                "total": "72,2 ans",
+                "women": "74,8 ans",
+                "men": "69,6 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "30,5 %",
+                "fifteenToSixtyFour": "64,0 %",
+                "sixtyFivePlus": "5,5 %"
+            },
+            "dependencyRatio": "56,2 %"
+        },
+        "urbanization": {
+            "urbanRate": "48,0 %",
+            "mainMetropolises": [
+                "Grand Manille / Metro Manila (14,7 millions hab. aire métropolitaine - cœur politique et financier)",
+                "Grand Cebu / Metro Cebu (3,2 millions hab. - pôle économique des Visayas)",
+                "Davao (1,8 million hab. - métropole de Mindanao)",
+                "Zamboanga (1,0 million hab. - grand port du sud-ouest)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Tagalogs (24,4 %), Cébuanos (21,3 %), Ilocanos (8,8 %), Hiligaynons (7,6 %), Bikol (6,8 %), Waray (4,0 %), Moros musulmans (5 %)",
+            "languages": "Filipino / Tagalog et Anglais (deux langues officielles nationales), 180 langues indigènes vivantes",
+            "religions": "Catholicisme romain (78,8 % - seul grand pays à majorité catholique d'Asie avec le Timor oriental), Christianisme évangélique (7,2 %), Iglesia ni Cristo (2,6 %), Islam (6,4 % à Bangsamoro)"
+        },
+        "development": {
+            "hdi": "0,710 (Élevé - 115e mondial)",
+            "literacyRate": "97,0 %",
+            "keyChallenges": "Exposition permanente aux catastrophes naturelles (20 typhons par an, séismes, volcans), congestion de Metro Manila, réduction de la pauvreté rurale et dépendance aux remises financières des expatriés (~9 % du PIB)"
+        }
+    },
+    "MMR": {
+        "general": {
+            "population": "54,5 millions d'habitants",
+            "globalRank": "27e mondial",
+            "density": "83 hab./km²",
+            "growthRate": "+0,65 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,1 enfants par femme",
+            "birthRate": "16,5 ‰",
+            "deathRate": "8,4 ‰",
+            "infantMortality": "33,8 ‰",
+            "netMigration": "-3,0 ‰ (fuite de réfugiés vers la Thaïlande, l'Inde et la Malaisie)"
+        },
+        "ageStructure": {
+            "medianAge": "29,8 ans",
+            "lifeExpectancy": {
+                "total": "67,1 ans",
+                "women": "70,2 ans",
+                "men": "64,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "25,0 %",
+                "fifteenToSixtyFour": "68,2 %",
+                "sixtyFivePlus": "6,8 %"
+            },
+            "dependencyRatio": "46,6 %"
+        },
+        "urbanization": {
+            "urbanRate": "31,8 %",
+            "mainMetropolises": [
+                "Yangon / Rangoun (5,5 millions hab. - capitale économique et 1er port maritime)",
+                "Mandalay (1,5 million hab. - capitale culturelle du nord)",
+                "Naypyidaw (1,2 million hab. - capitale administrative construite en 2005)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Bamar / Birmans (68 % dans la plaine de l'Irrawaddy), 135 minorités nationales (Shan 9 %, Karen 7 %, Rakhine 4 %, Chinois 2,5 %, Mon 2 %, Kachin 1,5 %, Chin 1 %), Rohingyas (apatrides persécutés)",
+            "languages": "Birman (officiel), langues des minorités (shan, karen, kachin, mon, chin)",
+            "religions": "Bouddhisme theravāda (87,9 %), Christianisme (6,2 % chez les Karen et Kachin), Islam (4,3 %), Hindouisme (0,5 %)"
+        },
+        "development": {
+            "hdi": "0,608 (Moyen - 144e mondial)",
+            "literacyRate": "89,0 %",
+            "keyChallenges": "Guerre civile généralisée depuis le coup d'État militaire de 2021, effondrement économique, crise humanitaire avec plus de 2,5 millions de déplacés internes, crise dramatique des réfugiés rohingyas"
+        }
+    },
+    "KHM": {
+        "general": {
+            "population": "16,9 millions d'habitants",
+            "globalRank": "73e mondial",
+            "density": "96 hab./km²",
+            "growthRate": "+1,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,3 enfants par femme",
+            "birthRate": "18,2 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "22,0 ‰",
+            "netMigration": "-1,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "27,4 ans",
+            "lifeExpectancy": {
+                "total": "70,1 ans",
+                "women": "72,8 ans",
+                "men": "67,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "29,4 %",
+                "fifteenToSixtyFour": "64,8 %",
+                "sixtyFivePlus": "5,8 %"
+            },
+            "dependencyRatio": "54,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "25,6 %",
+            "mainMetropolises": [
+                "Phnom Penh (2,3 millions hab. - capitale politique, financière et industrielle)",
+                "Siem Reap (250 000 hab. - porte touristique des temples d'Angkor)",
+                "Battambang (200 000 hab. - grenier à riz de l'ouest)",
+                "Sihanoukville (180 000 hab. - port en eau profonde et pôle d'investissements chinois)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Khmers (96 %), Chams musulmans (2 %), Vietnamiens (1 %), minorités montagnardes Khmer Loeu",
+            "languages": "Khmer (officiel et universel), Anglais très présent, Français historique",
+            "religions": "Bouddhisme theravāda (97,1 % - religion d'État), Islam (2,0 % chez les Chams), Christianisme (0,5 %)"
+        },
+        "development": {
+            "hdi": "0,600 (Moyen - 148e mondial)",
+            "literacyRate": "83,8 %",
+            "keyChallenges": "Reconstruction du capital humain après le génocide khmer rouge, dépendance extrême à la confection textile et au tourisme, fragilité écologique du grand lac Tonlé Sap"
+        }
+    },
+    "LAO": {
+        "general": {
+            "population": "7,65 millions d'habitants",
+            "globalRank": "105e mondial",
+            "density": "33 hab./km²",
+            "growthRate": "+1,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,4 enfants par femme",
+            "birthRate": "20,5 ‰",
+            "deathRate": "6,5 ‰",
+            "infantMortality": "31,0 ‰",
+            "netMigration": "-1,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "24,8 ans",
+            "lifeExpectancy": {
+                "total": "68,5 ans",
+                "women": "70,8 ans",
+                "men": "66,3 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "31,0 %",
+                "fifteenToSixtyFour": "64,2 %",
+                "sixtyFivePlus": "4,8 %"
+            },
+            "dependencyRatio": "55,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "37,6 %",
+            "mainMetropolises": [
+                "Vientiane (1,0 million hab. aire métropolitaine - capitale sur le Mékong)",
+                "Savannakhet (130 000 hab. - carrefour sur le corridor économique Est-Ouest)",
+                "Paksé (120 000 hab. - pôle du sud sur le plateau des Bolovens)",
+                "Luang Prabang (70 000 hab. - capitale royale historique classée à l'UNESCO)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Lao Loum (53,2 %), Khmou / Lao Theung (11,0 %), Hmong / Lao Soung (9,2 %), 49 groupes ethniques officiels",
+            "languages": "Lao (officiel), langues hmong-mien, môn-khmer, tibéto-birmanes",
+            "religions": "Bouddhisme theravāda (64,7 %), Animisme traditionnel Satsana Phi (31,4 %), Christianisme (1,7 %)"
+        },
+        "development": {
+            "hdi": "0,620 (Moyen - 139e mondial)",
+            "literacyRate": "87,1 %",
+            "keyChallenges": "Surendettement souverain massif vis-à-vis de la Chine (ligne de train et barrages hydroélectriques), désenclavement, malnutrition infantile dans les zones montagneuses isolées"
+        }
+    },
+    "BRN": {
+        "general": {
+            "population": "450 000 habitants",
+            "globalRank": "175e mondial",
+            "density": "86 hab./km²",
+            "growthRate": "+0,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,7 enfant par femme",
+            "birthRate": "13,8 ‰",
+            "deathRate": "5,2 ‰",
+            "infantMortality": "8,4 ‰",
+            "netMigration": "+0,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "32,8 ans",
+            "lifeExpectancy": {
+                "total": "75,2 ans",
+                "women": "77,4 ans",
+                "men": "73,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "22,0 %",
+                "fifteenToSixtyFour": "72,1 %",
+                "sixtyFivePlus": "5,9 %"
+            },
+            "dependencyRatio": "38,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "79,0 %",
+            "mainMetropolises": [
+                "Bandar Seri Begawan (280 000 hab. agglomération - capitale et siège du sultanat)",
+                "Kuala Belait (35 000 hab. - centre pétrolier et gazier)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Malais de Brunei (67,4 %), Chinois (9,6 %), autres groupes autochtones et expatriés (23 %)",
+            "languages": "Malais (officiel), Anglais très largement parlé, dialectes chinois",
+            "religions": "Islam sunnite chaféite (82,1 % - religion d'État, charia), Christianisme (6,7 %), Bouddhisme (6,3 %)"
+        },
+        "development": {
+            "hdi": "0,823 (Très élevé - 60e mondial)",
+            "literacyRate": "97,5 %",
+            "keyChallenges": "Dépendance quasi totale aux hydrocarbures, état-providence très généreux sans impôt sur le revenu financé par la rente, diversification économique (Wawasan Brunei 2035)"
+        }
+    },
+    "TLS": {
+        "general": {
+            "population": "1,36 million d'habitants",
+            "globalRank": "157e mondial",
+            "density": "91 hab./km²",
+            "growthRate": "+1,8 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,9 enfants par femme",
+            "birthRate": "27,8 ‰",
+            "deathRate": "6,4 ‰",
+            "infantMortality": "34,2 ‰",
+            "netMigration": "-3,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "20,5 ans",
+            "lifeExpectancy": {
+                "total": "69,8 ans",
+                "women": "72,1 ans",
+                "men": "67,7 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "37,5 %",
+                "fifteenToSixtyFour": "57,7 %",
+                "sixtyFivePlus": "4,8 %"
+            },
+            "dependencyRatio": "73,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "32,2 %",
+            "mainMetropolises": [
+                "Dili (280 000 hab. - capitale côtière et centre politique)",
+                "Baucau (20 000 hab. - 2e ville et pôle historique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Austronésiens et Papous métissés (Mambai, Makasae, Tetum, Bunak)",
+            "languages": "Tétoum et Portugais (deux langues officielles), indonésien et anglais (langues de travail), 16 langues nationales indigènes",
+            "religions": "Catholicisme romain (97,6 % - l'un des pays les plus catholiques au monde avec le Vatican), Protestantisme (2,0 %), Islam (0,2 %)"
+        },
+        "development": {
+            "hdi": "0,666 (Moyen - 130e mondial)",
+            "literacyRate": "68,1 %",
+            "keyChallenges": "Épuisement rapide du gisement pétrolier offshore Bayu-Undan, dépendance au fonds souverain pétrolier, chômage massif des jeunes et malnutrition infantile"
+        }
+    },
+    "TWN": {
+        "general": {
+            "population": "23,4 millions d'habitants",
+            "globalRank": "57e mondial",
+            "density": "650 hab./km² (plaines de l'ouest parmi les plus denses au monde)",
+            "growthRate": "-0,15 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "0,87 enfant par femme (extrêmement bas)",
+            "birthRate": "5,8 ‰",
+            "deathRate": "8,4 ‰",
+            "infantMortality": "3,6 ‰",
+            "netMigration": "+1,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "43,8 ans",
+            "lifeExpectancy": {
+                "total": "81,3 ans",
+                "women": "84,5 ans",
+                "men": "78,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "12,2 %",
+                "fifteenToSixtyFour": "69,8 %",
+                "sixtyFivePlus": "18,0 % (seuil de société super-âgée imminent)"
+            },
+            "dependencyRatio": "43,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "80,0 %",
+            "mainMetropolises": [
+                "Taipei / Nouveau Taipei (7,0 millions hab. aire métropolitaine - capitale politique et financière)",
+                "Kaohsiung (2,7 millions hab. - 1er port maritime et industrie lourde du sud)",
+                "Taichung (2,8 millions hab. - métropole dynamique de la tech du centre)",
+                "Hsinchu (1,0 million conurbation - pôle mondial des puces TSMC)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Taïwanais Han (95 % : Hoklo 70 %, Hakka 15 %, Continentaux 10 %), 16 tribus autochtones austronésiennes reconnues (2,4 % : Amis, Atayal, Paiwan)",
+            "languages": "Mandarin standard (officiel), Taïwanais / Hokkien (très largement parlé), Hakka, langues austronésiennes",
+            "religions": "Syncrétisme traditionnel Bouddhiste-Taoïste (80 %), Christianisme (4,5 % protestants et catholiques), Sans religion"
+        },
+        "development": {
+            "hdi": "0,926 (Très élevé - équivalent au 19e rang mondial)",
+            "literacyRate": "99,0 %",
+            "keyChallenges": "Déficit démographique aigu et pénurie d'ingénieurs dans l'industrie stratégique des puces électroniques, pression militaire et géopolitique permanente de Pékin, sécurité énergétique (dépendance à 98 % des importations d'énergie)"
+        }
+    },
+    "MNG": {
+        "general": {
+            "population": "3,45 millions d'habitants",
+            "globalRank": "135e mondial",
+            "density": "2,2 hab./km² (pays souverain le moins dense du monde)",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,7 enfants par femme",
+            "birthRate": "21,2 ‰",
+            "deathRate": "6,1 ‰",
+            "infantMortality": "12,4 ‰",
+            "netMigration": "-0,8 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "29,0 ans",
+            "lifeExpectancy": {
+                "total": "71,8 ans",
+                "women": "76,2 ans",
+                "men": "67,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "30,8 %",
+                "fifteenToSixtyFour": "64,2 %",
+                "sixtyFivePlus": "5,0 %"
+            },
+            "dependencyRatio": "55,8 %"
+        },
+        "urbanization": {
+            "urbanRate": "68,9 % (hyper-concentration dans la capitale)",
+            "mainMetropolises": [
+                "Oulan-Bator (1,65 million hab. - concentre près de 50 % de la population nationale)",
+                "Erdenet (100 000 hab. - complexe minier géant de cuivre)",
+                "Darkhan (85 000 hab. - centre industriel du nord)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Mongols khalkhas (84,5 %), Kazakhs turcophones (3,9 % à Bayan-Ölgii), Oïrats, Bouriates, Tsaatan éleveurs de rennes",
+            "languages": "Mongol (officiel en alphabet cyrillique mongol), kazakh, écriture mongole traditionnelle en réintroduction",
+            "religions": "Bouddhisme tibétain lamaïste (51,7 %), Sans religion (40,6 %), Islam sunnite (3,2 % chez les Kazakhs), Chamanisme traditionnel (2,5 %), Christianisme (1,3 %)"
+        },
+        "development": {
+            "hdi": "0,741 (Élevé - 96e mondial)",
+            "literacyRate": "99,2 %",
+            "keyChallenges": "Exode pastoral vers les quartiers de yourtes (ger) d'Oulan-Bator sous l'impact des hivers meurtriers du Dzud et de la désertification, pollution hivernale extrême, enclavement géopolitique entre Russie et Chine"
+        }
+    },
+    "KAZ": {
+        "general": {
+            "population": "20,1 millions d'habitants (seuil franchi en novembre 2023)",
+            "globalRank": "65e mondial (9e pays au monde par la superficie)",
+            "density": "7,4 hab./km²",
+            "growthRate": "+1,3 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,05 enfants par femme (boom de natalité depuis 2015)",
+            "birthRate": "20,4 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "7,8 ‰",
+            "netMigration": "+0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "31,8 ans",
+            "lifeExpectancy": {
+                "total": "74,4 ans",
+                "women": "78,6 ans",
+                "men": "70,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "29,2 %",
+                "fifteenToSixtyFour": "62,5 %",
+                "sixtyFivePlus": "8,3 %"
+            },
+            "dependencyRatio": "60,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "58,2 %",
+            "mainMetropolises": [
+                "Almaty (2,2 millions hab. - métropole financière, culturelle et ancienne capitale)",
+                "Astana (1,4 million hab. - capitale futuriste du nord des steppes)",
+                "Chymkent (1,2 million hab. - métropole florissante du sud)",
+                "Karaganda (500 000 hab. - centre minier et sidérurgique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Kazakhs (70,4 % - en forte hausse démographique), Russes (15,2 % en repli continu), Ouzbeks (3,3 %), Ukrainiens (1,9 %), Ouïghours (1,5 %), Allemands de la Volga (1,1 %)",
+            "languages": "Kazakh (langue d'État), Russe (langue officielle de communication interethnique garantie par la constitution)",
+            "religions": "Islam sunnite hanafite (70,2 %), Christianisme orthodoxe russe (17,2 %), Sans religion déclarée / athées (11 %)"
+        },
+        "development": {
+            "hdi": "0,802 (Très élevé - 67e mondial)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Déséquilibres régionaux entre le Nord russophone et le Sud kazakhophone à forte fécondité, héritage environnemental soviétique (mer d'Aral et polygone nucléaire de Semipalatinsk), équilibre géopolitique multivectoriel entre Moscou, Pékin et l'Occident"
+        }
+    },
+    "UZB": {
+        "general": {
+            "population": "36,8 millions d'habitants (pays le plus peuplé d'Asie centrale)",
+            "globalRank": "42e mondial",
+            "density": "82 hab./km² (vallée de Ferghana >500 hab./km²)",
+            "growthRate": "+2,0 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,1 enfants par femme",
+            "birthRate": "24,8 ‰",
+            "deathRate": "5,0 ‰",
+            "infantMortality": "10,5 ‰",
+            "netMigration": "-0,8 ‰ (plus de 2 millions d'émigrés en Russie et Turquie)"
+        },
+        "ageStructure": {
+            "medianAge": "28,3 ans",
+            "lifeExpectancy": {
+                "total": "74,3 ans",
+                "women": "76,6 ans",
+                "men": "72,0 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "30,5 %",
+                "fifteenToSixtyFour": "63,5 %",
+                "sixtyFivePlus": "6,0 %"
+            },
+            "dependencyRatio": "57,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "50,4 %",
+            "mainMetropolises": [
+                "Tachkent (3,0 millions hab. - plus grande métropole et capitale d'Asie centrale)",
+                "Samarcande (600 000 hab. - cité légendaire de la Route de la Soie)",
+                "Namangan (680 000 hab. - centre islamique et industriel de Ferghana)",
+                "Andijan (470 000 hab. - automobile et textile)",
+                "Boukhara (300 000 hab. - joyau architectural islamique)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Ouzbeks (84,4 %), Tadjiks (4,8 % - très nombreux à Samarcande/Boukhara), Kazakhs (2,4 %), Karakalpaks (2,2 % en Karakalpakie), Russes (2,1 %)",
+            "languages": "Ouzbek (officiel, alphabet latin), Russe (affaires et usage urbain), tadjik, karakalpak",
+            "religions": "Islam sunnite hanafite (93,0 %), Christianisme orthodoxe (3,5 %), Sans religion"
+        },
+        "development": {
+            "hdi": "0,727 (Élevé - 106e mondial)",
+            "literacyRate": "99,9 %",
+            "keyChallenges": "Catastrophe de l'assèchement de la mer d'Aral (tempêtes de sel toxiques), pression hydrique liée au coton, intégration sur le marché du travail de plus de 700 000 jeunes chaque année"
+        }
+    },
+    "TKM": {
+        "general": {
+            "population": "6,5 millions d'habitants",
+            "globalRank": "111e mondial",
+            "density": "13 hab./km² (désert du Karakoum occupant 80 % du pays)",
+            "growthRate": "+1,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,6 enfants par femme",
+            "birthRate": "20,5 ‰",
+            "deathRate": "6,8 ‰",
+            "infantMortality": "32,4 ‰",
+            "netMigration": "-2,5 ‰ (émigration silencieuse)"
+        },
+        "ageStructure": {
+            "medianAge": "27,5 ans",
+            "lifeExpectancy": {
+                "total": "69,7 ans",
+                "women": "73,2 ans",
+                "men": "66,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "30,0 %",
+                "fifteenToSixtyFour": "64,8 %",
+                "sixtyFivePlus": "5,2 %"
+            },
+            "dependencyRatio": "54,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "53,0 %",
+            "mainMetropolises": [
+                "Achgabat (1,05 million hab. - capitale aux monuments en marbre blanc inscrits au Guinness)",
+                "Türkmenabat (280 000 hab. - pôle de l'est sur l'Amou-Daria)",
+                "Daşoguz (250 000 hab. - porte de Kounia-Ourguentch)",
+                "Türkmenbaşy (85 000 hab. - 1er port maritime sur la Caspienne)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Turkmènes (85,6 % divisés historiquement en tribus Tekke, Yomut, Ersari), Ouzbeks (5,8 %), Russes (3,0 %), Kazakhs, Baloutches",
+            "languages": "Turkmène (officiel, alphabet latin), Russe marginalisé",
+            "religions": "Islam sunnite hanafite teinté de soufisme tribal (89 %), Christianisme orthodoxe russe (9 %)"
+        },
+        "development": {
+            "hdi": "0,744 (Élevé - 94e mondial)",
+            "literacyRate": "99,7 %",
+            "keyChallenges": "Régime autocratique hermétique ('neutralité permanente' reconnue par l'ONU), opacité statistique, dépendance totale aux exportations de gaz naturel vers la Chine via le gazoduc Asie centrale-Chine"
+        }
+    },
+    "KGZ": {
+        "general": {
+            "population": "7,1 millions d'habitants",
+            "globalRank": "108e mondial",
+            "density": "36 hab./km² (pays à 90 % montagneux dans les monts Tian Shan)",
+            "growthRate": "+1,7 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,0 enfants par femme",
+            "birthRate": "23,6 ‰",
+            "deathRate": "5,9 ‰",
+            "infantMortality": "15,8 ‰",
+            "netMigration": "-1,5 ‰ (plus d'un million de travailleurs en Russie)"
+        },
+        "ageStructure": {
+            "medianAge": "26,1 ans",
+            "lifeExpectancy": {
+                "total": "72,4 ans",
+                "women": "76,6 ans",
+                "men": "68,3 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "34,2 %",
+                "fifteenToSixtyFour": "60,4 %",
+                "sixtyFivePlus": "5,4 %"
+            },
+            "dependencyRatio": "65,6 %"
+        },
+        "urbanization": {
+            "urbanRate": "37,5 %",
+            "mainMetropolises": [
+                "Bichkek (1,15 million hab. - capitale politique, financière et culturelle du nord)",
+                "Och (330 000 hab. - capitale du sud et carrefour de Ferghana)",
+                "Jalal-Abad (125 000 hab. - pôle pétrolier et minier du sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Kirghizes (73,8 %), Ouzbeks (14,9 % très concentrés autour d'Och et Jalal-Abad), Russes (5,1 % en baisse), Dounganes (1,1 %), Ouïghours, Tadjiks",
+            "languages": "Kirghize (langue d'État), Russe (langue officielle)",
+            "religions": "Islam sunnite hanafite (88,0 %), Christianisme orthodoxe russe (9,5 %)"
+        },
+        "development": {
+            "hdi": "0,701 (Élevé - 117e mondial)",
+            "literacyRate": "99,6 %",
+            "keyChallenges": "Dépendance vitale aux envois de fonds des migrants russes (~30 % du PIB), tensions frontalières récemment réglées avec le Tadjikistan, fonte des glaciers du Tian Shan"
+        }
+    },
+    "TJK": {
+        "general": {
+            "population": "10,15 millions d'habitants (seuil des 10M franchi en 2023)",
+            "globalRank": "92e mondial",
+            "density": "71 hab./km² (pays à 93 % montagneux dominé par le Pamir)",
+            "growthRate": "+2,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "3,1 enfants par femme",
+            "birthRate": "26,2 ‰",
+            "deathRate": "5,1 ‰",
+            "infantMortality": "24,0 ‰",
+            "netMigration": "-2,2 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "23,2 ans (le pays le plus jeune d'Asie centrale)",
+            "lifeExpectancy": {
+                "total": "71,8 ans",
+                "women": "74,2 ans",
+                "men": "69,5 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "36,5 %",
+                "fifteenToSixtyFour": "60,0 %",
+                "sixtyFivePlus": "3,5 %"
+            },
+            "dependencyRatio": "66,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "28,0 %",
+            "mainMetropolises": [
+                "Douchanbé (1,2 million hab. - capitale politique et administrative)",
+                "Khodjent (200 000 hab. - grande métropole de la province de Soughd)",
+                "Bokhtar / Qurgonteppa (120 000 hab. - pôle agricole du sud)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Tadjiks persanophones (84,3 %), Ouzbeks (12,2 %), Kirghizes (0,8 %), Pamiris (peuples iraniens du Haut-Badakhchan), Russes (0,4 %)",
+            "languages": "Tadjik (langue d'État persane en cyrillique), Russe (langue interethnique garantie par la constitution), langues pamiriennes",
+            "religions": "Islam sunnite hanafite (96,0 %), Islam chiite ismaélien nizârite (3,5 % parmi les Pamiris suivant l'Aga Khan), Christianisme (0,5 %)"
+        },
+        "development": {
+            "hdi": "0,679 (Moyen - 126e mondial)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Dépendance économique record mondial aux transferts des travailleurs émigrés en Russie (~40-50 % du PIB), frontière de 1 300 km avec l'Afghanistan des Talibans, achèvement du méga-barrage de Rogun"
+        }
+    },
+    "AFG": {
+        "general": {
+            "population": "42,2 millions d'habitants",
+            "globalRank": "37e mondial",
+            "density": "65 hab./km²",
+            "growthRate": "+2,6 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "4,4 enfants par femme (le plus fort taux de fécondité de toute l'Asie)",
+            "birthRate": "34,8 ‰",
+            "deathRate": "8,8 ‰",
+            "infantMortality": "55,8 ‰ (plus forte mortalité infantile d'Asie)",
+            "netMigration": "-4,5 ‰ (exode vers l'Iran et le Pakistan depuis le retour des Talibans en 2021)"
+        },
+        "ageStructure": {
+            "medianAge": "17,8 ans (extrême jeunesse)",
+            "lifeExpectancy": {
+                "total": "63,2 ans",
+                "women": "65,4 ans",
+                "men": "61,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "42,5 %",
+                "fifteenToSixtyFour": "54,8 %",
+                "sixtyFivePlus": "2,7 %"
+            },
+            "dependencyRatio": "82,5 %"
+        },
+        "urbanization": {
+            "urbanRate": "26,5 %",
+            "mainMetropolises": [
+                "Kaboul (4,6 millions hab. - capitale politique et administrative)",
+                "Hérat (600 000 hab. - métropole historique et culturelle de l'ouest)",
+                "Kandahar (550 000 hab. - berceau pachtoune et fief des Talibans)",
+                "Mazar-i-Sharif (500 000 hab. - pôle du nord et Mosquée bleue)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Pachtounes (42 %), Tadjiks persanophones (27 %), Hazaras chiites (9-10 %), Ouzbeks (9 %), Aïmaks (4 %), Turkmènes (3 %), Baloutches (2 %)",
+            "languages": "Dari / persan afghan (77 % véhiculaire) et Pachto (48 %), deux langues officielles",
+            "religions": "Islam sunnite hanafite (89,7 %), Islam chiite duodécimain et ismaélien (10,0 % chez les Hazaras et populations urbaines)"
+        },
+        "development": {
+            "hdi": "0,462 (Faible - 182e mondial)",
+            "literacyRate": "37,3 % (hommes 52 %, femmes 22 %, effondrement sous l'interdiction d'étudier imposée aux femmes par les Talibans)",
+            "keyChallenges": "Apartheid de genre imposé par le régime des Talibans (interdiction totale de l'éducation secondaire et supérieure aux filles), isolement financier international, pauvreté extrême et famine"
+        }
+    },
+    "NPL": {
+        "general": {
+            "population": "30,9 millions d'habitants",
+            "globalRank": "50e mondial",
+            "density": "210 hab./km²",
+            "growthRate": "+1,1 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,9 enfant par femme",
+            "birthRate": "17,6 ‰",
+            "deathRate": "6,4 ‰",
+            "infantMortality": "24,5 ‰",
+            "netMigration": "-3,2 ‰ (émigration de travail massive vers les pays du Golfe et la Malaisie)"
+        },
+        "ageStructure": {
+            "medianAge": "26,2 ans",
+            "lifeExpectancy": {
+                "total": "71,5 ans",
+                "women": "73,2 ans",
+                "men": "69,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "28,2 %",
+                "fifteenToSixtyFour": "65,8 %",
+                "sixtyFivePlus": "6,0 %"
+            },
+            "dependencyRatio": "52,0 %"
+        },
+        "urbanization": {
+            "urbanRate": "22,5 %",
+            "mainMetropolises": [
+                "Katmandou (3,0 millions hab. vallée métropolitaine - capitale historique, religieuse et économique)",
+                "Pokhara (550 000 hab. - hub touristique au pied des Annapurnas)",
+                "Lalitpur / Patan (300 000 hab. - cité d'artisanat newar)",
+                "Biratnagar (250 000 hab. - centre industriel du Teraï)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Chhetris (16,6 %), Brahmanes des collines Bahun (12,2 %), Magars (7,1 %), Tharus du Teraï (6,6 %), Tamangs (5,8 %), Newars (5,0 %), Kamas, Gurungs, Sherpas",
+            "languages": "Népalais / Khas Kura (officiel, 44,6 %), maithili (11,7 %), bhojpuri (6,2 %), tharu (5,9 %), tamang, newar",
+            "religions": "Hindouisme (81,2 % - ancien royaume hindou jusqu'en 2006), Bouddhisme (8,2 %), Islam (5,1 %), Kiratisme animiste (3,2 %), Christianisme (1,4 %)"
+        },
+        "development": {
+            "hdi": "0,601 (Moyen - 146e mondial)",
+            "literacyRate": "71,2 %",
+            "keyChallenges": "Exposition tellurique extrême aux tremblements de terre himalayens, fonte accélérée des glaciers menaçant de débordements glaciaires (GLOF), instabilité chronique des coalitions gouvernementales"
+        }
+    },
+    "LKA": {
+        "general": {
+            "population": "22,2 millions d'habitants",
+            "globalRank": "59e mondial",
+            "density": "340 hab./km²",
+            "growthRate": "+0,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "2,0 enfants par femme",
+            "birthRate": "15,2 ‰",
+            "deathRate": "7,2 ‰",
+            "infantMortality": "6,2 ‰ (remarquable performance pour l'Asie du Sud)",
+            "netMigration": "-4,0 ‰ (accentuation post-crise de la dette de 2022)"
+        },
+        "ageStructure": {
+            "medianAge": "34,8 ans",
+            "lifeExpectancy": {
+                "total": "77,4 ans (l'une des plus élevées d'Asie du Sud)",
+                "women": "80,4 ans",
+                "men": "74,2 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "22,8 %",
+                "fifteenToSixtyFour": "65,6 %",
+                "sixtyFivePlus": "11,6 % (vieillissement le plus avancé d'Asie du Sud)"
+            },
+            "dependencyRatio": "52,4 %"
+        },
+        "urbanization": {
+            "urbanRate": "19,0 % (statistique administrative sous-estimant la périurbanisation côtière)",
+            "mainMetropolises": [
+                "Colombo (5,6 millions hab. province de l'Ouest - capitale commerciale et grand port de transbordement)",
+                "Sri Jayawardenepura Kotte (120 000 hab. - capitale législative et administrative)",
+                "Kandy (130 000 hab. - capitale historique des hauts plateaux et sanctuaire de la Dent de Bouddha)",
+                "Jaffna (90 000 hab. - capitale culturelle tamoule du nord)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Cinghalais (74,9 %), Tamouls de Sri Lanka (11,2 %), Maures sri-lankais musulmans (9,2 %), Tamouls indiens des plantations de thé (4,2 %), Burghers métis euro-asiatiques (0,2 %)",
+            "languages": "Cinghalais et Tamoul (deux langues officielles nationales), Anglais (langue de liaison constitutionnelle)",
+            "religions": "Bouddhisme theravāda (70,2 % - statut constitutionnel privilégié), Hindouisme (12,6 %), Islam (9,7 %), Christianisme (7,4 % principalement catholiques)"
+        },
+        "development": {
+            "hdi": "0,780 (Élevé - 78e mondial, 1er d'Asie du Sud)",
+            "literacyRate": "92,5 %",
+            "keyChallenges": "Sortie du défaut de paiement souverain de 2022 sous programme FMI, cicatrices de la guerre civile interethnique (1983-2009), fuite des cerveaux médicaux et informatiques"
+        }
+    },
+    "BTN": {
+        "general": {
+            "population": "787 000 habitants",
+            "globalRank": "165e mondial",
+            "density": "20 hab./km²",
+            "growthRate": "+0,9 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,7 enfant par femme",
+            "birthRate": "14,5 ‰",
+            "deathRate": "6,2 ‰",
+            "infantMortality": "21,5 ‰",
+            "netMigration": "-1,8 ‰ (émigration des jeunes diplômés vers l'Australie)"
+        },
+        "ageStructure": {
+            "medianAge": "29,8 ans",
+            "lifeExpectancy": {
+                "total": "72,8 ans",
+                "women": "73,8 ans",
+                "men": "71,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "24,0 %",
+                "fifteenToSixtyFour": "69,8 %",
+                "sixtyFivePlus": "6,2 %"
+            },
+            "dependencyRatio": "43,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "43,0 %",
+            "mainMetropolises": [
+                "Thimphou (120 000 hab. - capitale himalayenne sans aucun feu tricolore)",
+                "Phuntsholing (30 000 hab. - porte frontière commerciale principale avec l'Inde)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Ngalops (bouddhistes de l'ouest), Sharchops (orientaux), Lhotshampas (populations d'origine népalaise au sud)",
+            "languages": "Dzongkha (officiel sino-tibétain), Anglais (langue d'instruction scolaire), tsangla, népalais",
+            "religions": "Bouddhisme vajrayāna lamaïste (75,3 % - religion d'État sous l'école Drukpa Kagyu), Hindouisme (24,2 % au sud)"
+        },
+        "development": {
+            "hdi": "0,681 (Moyen - 125e mondial)",
+            "literacyRate": "71,4 %",
+            "keyChallenges": "Modèle novateur du Bonheur National Brut (BNB) face à la tentation de l'exode des jeunes vers l'Occident, transition vers une cité économique spéciale à Gelephu, souveraineté géopolitique entre Inde et Chine"
+        }
+    },
+    "MDV": {
+        "general": {
+            "population": "521 000 habitants",
+            "globalRank": "174e mondial",
+            "density": "1 740 hab./km² global",
+            "growthRate": "+1,4 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme",
+            "birthRate": "13,2 ‰",
+            "deathRate": "4,1 ‰",
+            "infantMortality": "6,8 ‰",
+            "netMigration": "+3,5 ‰ (forte présence de travailleurs bangladais et indiens dans l'hôtellerie)"
+        },
+        "ageStructure": {
+            "medianAge": "31,5 ans",
+            "lifeExpectancy": {
+                "total": "80,8 ans",
+                "women": "82,5 ans",
+                "men": "79,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "21,5 %",
+                "fifteenToSixtyFour": "73,5 %",
+                "sixtyFivePlus": "5,0 %"
+            },
+            "dependencyRatio": "36,1 %"
+        },
+        "urbanization": {
+            "urbanRate": "41,5 %",
+            "mainMetropolises": [
+                "Malé (210 000 hab. sur 8 km² - densité urbaine extrême supérieure à 65 000 hab./km²)",
+                "Hulhumalé (60 000 hab. - île artificielle surélevée pour résister à la submersion)",
+                "Addu City (35 000 hab. - atoll méridional)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Divehis (peuple austronésien et indo-aryen métissé), travailleurs résidents étrangers (~130 000)",
+            "languages": "Divehi / Maldivien (officiel, écrit avec l'alphabet Thaana de droite à gauche), Anglais universel dans le tourisme",
+            "religions": "Islam sunnite de rite chaféite (100 % obligatoire pour obtenir la nationalité maldivienne constitutionnelle)"
+        },
+        "development": {
+            "hdi": "0,762 (Élevé - 87e mondial)",
+            "literacyRate": "98,0 %",
+            "keyChallenges": "Menace existentielle absolue du réchauffement climatique et de la montée du niveau de la mer (80 % des terres situées à moins d'un mètre d'altitude), traitement des déchets sur l'île de Thilafushi"
+        }
+    },
+    "GEO": {
+        "general": {
+            "population": "3,71 millions d'habitants (hors territoires séparatistes d'Abkhazie et Ossétie du Sud)",
+            "globalRank": "132e mondial",
+            "density": "53 hab./km²",
+            "growthRate": "-0,2 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,8 enfant par femme",
+            "birthRate": "11,5 ‰",
+            "deathRate": "12,2 ‰",
+            "infantMortality": "8,2 ‰",
+            "netMigration": "-1,5 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "38,5 ans",
+            "lifeExpectancy": {
+                "total": "74,5 ans",
+                "women": "78,8 ans",
+                "men": "70,1 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "19,5 %",
+                "fifteenToSixtyFour": "64,8 %",
+                "sixtyFivePlus": "15,7 %"
+            },
+            "dependencyRatio": "54,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "60,4 %",
+            "mainMetropolises": [
+                "Tbilissi (1,2 million hab. - capitale millénaire et cœur culturel)",
+                "Batoumi (175 000 hab. - perle de la mer Noire, gratte-ciels et hub touristique)",
+                "Koutaïssi (140 000 hab. - capitale historique d'Iméréthie)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Géorgiens / Kartvéliens (86,8 %), Azéris (6,3 %), Arméniens (4,5 %), Russes (0,7 %), Yézidis, Grecs du Caucase",
+            "languages": "Géorgien (officiel, alphabet mkhédrouli unique), arménien, azéri, russe",
+            "religions": "Christianisme orthodoxe géorgien (83,4 % - Église autocéphale très influente), Islam (10,7 % en Adjarie et région azérie), Église apostolique arménienne (2,9 %)"
+        },
+        "development": {
+            "hdi": "0,814 (Très élevé - 60e mondial)",
+            "literacyRate": "99,6 %",
+            "keyChallenges": "Occupation russe de 20 % du territoire national (Abkhazie et Ossétie du Sud) avec 250 000 personnes déplacées internes, tiraillement géopolitique entre aspirations européennes et pressions russes"
+        }
+    },
+    "ARM": {
+        "general": {
+            "population": "2,78 millions d'habitants (plus 100 000 réfugiés arméniens du Haut-Karabakh)",
+            "globalRank": "139e mondial",
+            "density": "94 hab./km²",
+            "growthRate": "+1,2 % par an (porté par l'intégration des réfugiés et des arrivées russes)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme",
+            "birthRate": "12,4 ‰",
+            "deathRate": "9,8 ‰",
+            "infantMortality": "9,4 ‰",
+            "netMigration": "+8,5 ‰ (retour exceptionnel suite aux crises régionales)"
+        },
+        "ageStructure": {
+            "medianAge": "36,8 ans",
+            "lifeExpectancy": {
+                "total": "75,7 ans",
+                "women": "79,4 ans",
+                "men": "71,8 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "20,4 %",
+                "fifteenToSixtyFour": "66,8 %",
+                "sixtyFivePlus": "12,8 %"
+            },
+            "dependencyRatio": "49,7 %"
+        },
+        "urbanization": {
+            "urbanRate": "63,6 %",
+            "mainMetropolises": [
+                "Erevan (1,1 million hab. - capitale de tuf rose abritant plus du tiers des Arméniens de la République)",
+                "Gyoumri (115 000 hab. - 2e ville historique du Shirak)",
+                "Vanadzor (75 000 hab. - pôle industriel du Lori)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Arméniens (98,1 % - l'un des États les plus mono-ethniques au monde), Yézidis kurdophones (1,2 %), Russes, Assyriens",
+            "languages": "Arménien (officiel, branche autonome indo-européenne avec alphabet propre créé par Mesrop Machtots), Russe couramment maîtrisé",
+            "religions": "Église apostolique arménienne (92,5 % - premier État à avoir adopté le christianisme comme religion d'État en 301), Église catholique arménienne, Yézidisme"
+        },
+        "development": {
+            "hdi": "0,786 (Élevé - 76e mondial)",
+            "literacyRate": "99,7 %",
+            "keyChallenges": "Choc humanitaire de l'intégration et du logement de plus de 100 000 réfugiés expulsés du Haut-Karabakh en 2023, frontières fermées à l'est (Azerbaïdjan) et à l'ouest (Turquie), dépendance sécuritaire et énergétique"
+        }
+    },
+    "AZE": {
+        "general": {
+            "population": "10,2 millions d'habitants",
+            "globalRank": "90e mondial",
+            "density": "118 hab./km²",
+            "growthRate": "+0,65 % par an"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "1,6 enfant par femme",
+            "birthRate": "12,2 ‰",
+            "deathRate": "6,0 ‰",
+            "infantMortality": "18,5 ‰",
+            "netMigration": "+0,1 ‰"
+        },
+        "ageStructure": {
+            "medianAge": "33,5 ans",
+            "lifeExpectancy": {
+                "total": "73,8 ans",
+                "women": "76,2 ans",
+                "men": "71,4 ans"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "22,5 %",
+                "fifteenToSixtyFour": "69,8 %",
+                "sixtyFivePlus": "7,7 %"
+            },
+            "dependencyRatio": "43,3 %"
+        },
+        "urbanization": {
+            "urbanRate": "57,4 %",
+            "mainMetropolises": [
+                "Bakou (2,4 millions hab. Grand Bakou - capitale pétrolière sur la mer Caspienne, Flame Towers)",
+                "Ganja (340 000 hab. - 2e métropole de l'ouest)",
+                "Sumqayit (310 000 hab. - grand pôle chimique et industriel au nord de Bakou)",
+                "Khankendi / Stepanakert (55 000 hab. - capitale du Karabakh réintégrée sous contrôle azerbaïdjanais)",
+                "Nakhitchevan (95 000 hab. - enclave territoriale)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Azerbaïdjanais / Azéris (91,6 %), Lezguiens caucasiens (2,0 %), Russes (1,3 %), Talyshes iraniens (1,3 %), Avars, Tatars, Géorgiens Ingiloys",
+            "languages": "Azerbaïdjanais / Azéri (officiel, langue turcique écrite en alphabet latin), Russe très répandu dans les villes",
+            "religions": "Islam chiite (65 %) et sunnite (35 %), minorités chrétiennes orthodoxes russes et géorgiennes (~3 %)"
+        },
+        "development": {
+            "hdi": "0,760 (Élevé - 89e mondial)",
+            "literacyRate": "99,8 %",
+            "keyChallenges": "Reconstruction et déminage massif des territoires repris au Karabakh pour y réinstaller les anciens déplacés internes azéris (programme 'Grand Retour'), diversification hors de la rente pétrolière et gazière de la Caspienne"
+        }
+    }
+}
