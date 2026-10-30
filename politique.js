@@ -1,79 +1,88 @@
 // ========================================
 // DIPLOMACY LAB — MODULE POLITIQUE
-// CHARGEUR DE DONNÉES (par continent)
+// CHARGEUR DE DONNÉES MULTI-CONTINENTS RÉSILIANT
 // ========================================
 
+window.politicalData = window.politicalData || {};
+window.politicalLoading = true;
+window.politicalLoaded = false;
 
-window.politicalData = {};
+function fetchFirstAvailablePol(paths) {
+    if (!paths || paths.length === 0) {
+        return Promise.reject(new Error("Aucun chemin valide"));
+    }
+    const path = paths[0];
+    return fetch(path)
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error("HTTP " + response.status);
+            }
+            return response.json();
+        })
+        .catch(function() {
+            return fetchFirstAvailablePol(paths.slice(1));
+        });
+}
 
-
-const dataFiles = [
-    "data/politique/africa.json",
+// Chemins résilients pour chaque continent (priorité aux fichiers racine téléversés)
+const europePolPaths = [
+    "europe.json",
     "data/politique/europe.json",
-    "data/politique/asia.json",
-    "data/politique/america.json",
-    "data/politique/oceania.json"
+    "data/europe.json",
+    "europe_politique.json"
 ];
 
+const africaPolPaths = [
+    "africa.json",
+    "data/politique/africa.json",
+    "data/africa.json",
+    "africa_politique.json"
+];
 
-Promise.allSettled(
+const asiaPolPaths = [
+    "asia.json",
+    "data/politique/asia.json",
+    "data/asia.json",
+    "asia_politique.json"
+];
 
-    dataFiles.map(function(file) {
+const americaPolPaths = [
+    "america.json",
+    "americas.json",
+    "data/politique/america.json",
+    "data/america.json",
+    "america_politique.json"
+];
 
-        return fetch(file)
+const oceaniaPolPaths = [
+    "oceania.json",
+    "data/politique/oceania.json",
+    "data/oceania.json",
+    "oceania_politique.json"
+];
 
-            .then(function(response) {
+function onPolContinentLoaded(continentName, data) {
+    Object.assign(window.politicalData, data);
+    window.politicalLoaded = true;
+    console.log("Module POLITIQUE : " + continentName + " chargée avec succès (" + Object.keys(data).length + " pays).");
+    if (typeof window.renderCountryContent === "function" && window.currentSelectedIso3) {
+        window.renderCountryContent(window.currentSelectedIso3, window.currentSelectedName);
+    }
+}
 
-                if (!response.ok) {
+// Lancement simultané des chargements
+const polLoads = [
+    fetchFirstAvailablePol(europePolPaths).then(function(data) { onPolContinentLoaded("Europe", data); }).catch(function(e) { console.warn("Politique Europe indisponible :", e); }),
+    fetchFirstAvailablePol(africaPolPaths).then(function(data) { onPolContinentLoaded("Afrique", data); }).catch(function(e) { console.warn("Politique Afrique indisponible :", e); }),
+    fetchFirstAvailablePol(asiaPolPaths).then(function(data) { onPolContinentLoaded("Asie", data); }).catch(function(e) { console.warn("Politique Asie indisponible :", e); }),
+    fetchFirstAvailablePol(americaPolPaths).then(function(data) { onPolContinentLoaded("Amériques", data); }).catch(function(e) { console.warn("Politique Amériques indisponible :", e); }),
+    fetchFirstAvailablePol(oceaniaPolPaths).then(function(data) { onPolContinentLoaded("Océanie", data); }).catch(function(e) { console.warn("Politique Océanie indisponible :", e); })
+];
 
-                    throw new Error(
-                        "Fichier introuvable : " + file
-                    );
-
-                }
-
-                return response.json();
-
-            })
-
-            .then(function(data) {
-
-                Object.assign(
-                    window.politicalData,
-                    data
-                );
-
-                console.log(
-                    "Chargé :",
-                    file,
-                    "(" + Object.keys(data).length + " pays)"
-                );
-
-            })
-
-            .catch(function(error) {
-
-                // Un fichier en erreur n'empêche pas les autres
-                // de se charger.
-
-                console.error(
-                    "Erreur de chargement :",
-                    file,
-                    error
-                );
-
-            });
-
-    })
-
-)
-
-.then(function() {
-
-    console.log(
-        "Module POLITIQUE chargé.",
-        Object.keys(window.politicalData).length,
-        "pays au total."
-    );
-
+Promise.allSettled(polLoads).then(function() {
+    window.politicalLoading = false;
+    console.log("Module POLITIQUE prêt. Total pays chargés : " + Object.keys(window.politicalData).length);
+    if (typeof window.buildSearchIndex === "function") {
+        window.buildSearchIndex();
+    }
 });

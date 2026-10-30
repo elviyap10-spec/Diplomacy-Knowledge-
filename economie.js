@@ -1,6 +1,6 @@
 // ========================================
 // DIPLOMACY LAB — MODULE ÉCONOMIE
-// CHARGEUR DE DONNÉES MULTI-CONTINENTS
+// CHARGEUR DE DONNÉES MULTI-CONTINENTS RÉSILIANT
 // ========================================
 
 window.economyData = window.economyData || {};
@@ -24,42 +24,45 @@ function fetchFirstAvailable(paths) {
         });
 }
 
-// Chemins résilients pour chaque continent
+// Chemins résilients pour chaque continent (priorité aux fichiers racine téléversés)
 const europePaths = [
+    "europe_economie.json",
+    "europe.json",
     "data/europe_economie.json",
     "data/economie/europe.json",
-    "data/europe.json",
-    "europe_economie.json",
-    "europe.json"
+    "data/europe.json"
 ];
 
 const africaPaths = [
+    "africa_economie.json",
+    "africa.json",
     "data/africa_economie.json",
     "data/economie/africa.json",
-    "data/africa.json",
-    "africa_economie.json",
-    "africa.json"
+    "data/africa.json"
 ];
 
 const asiaPaths = [
+    "asia_economie.json",
+    "asia.json",
     "data/asia_economie.json",
     "data/economie/asia.json",
-    "data/asia.json",
-    "asia_economie.json"
+    "data/asia.json"
 ];
 
 const americaPaths = [
+    "america_economie.json",
+    "america.json",
     "data/america_economie.json",
     "data/economie/america.json",
-    "data/america.json",
-    "america_economie.json"
+    "data/america.json"
 ];
 
 const oceaniaPaths = [
+    "oceania_economie.json",
+    "oceania.json",
     "data/oceania_economie.json",
     "data/economie/oceania.json",
-    "data/oceania.json",
-    "oceania_economie.json"
+    "data/oceania.json"
 ];
 
 function onContinentLoaded(continentName, data) {

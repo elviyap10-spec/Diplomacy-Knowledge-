@@ -1,6 +1,6 @@
 // ========================================
 // DIPLOMACY LAB — MODULE DÉMOGRAPHIE
-// CHARGEUR DE DONNÉES MULTI-CONTINENTS
+// CHARGEUR DE DONNÉES MULTI-CONTINENTS RÉSILIANT
 // ========================================
 
 window.demographyData = window.demographyData || {};
@@ -24,36 +24,36 @@ function fetchFirstAvailableDemo(paths) {
         });
 }
 
-// Chemins résilients pour chaque continent
+// Chemins résilients pour chaque continent (priorité aux fichiers racine téléversés)
 const europeDemoPaths = [
+    "europe_demographie.json",
     "data/europe_demographie.json",
     "data/demographie/europe.json",
-    "data/europe_demography.json",
-    "europe_demographie.json"
+    "data/europe_demography.json"
 ];
 
 const africaDemoPaths = [
+    "africa_demographie.json",
     "data/africa_demographie.json",
-    "data/demographie/africa.json",
-    "africa_demographie.json"
+    "data/demographie/africa.json"
 ];
 
 const asiaDemoPaths = [
+    "asia_demographie.json",
     "data/asia_demographie.json",
-    "data/demographie/asia.json",
-    "asia_demographie.json"
+    "data/demographie/asia.json"
 ];
 
 const americaDemoPaths = [
+    "america_demographie.json",
     "data/america_demographie.json",
-    "data/demographie/america.json",
-    "america_demographie.json"
+    "data/demographie/america.json"
 ];
 
 const oceaniaDemoPaths = [
+    "oceania_demographie.json",
     "data/oceania_demographie.json",
-    "data/demographie/oceania.json",
-    "oceania_demographie.json"
+    "data/demographie/oceania.json"
 ];
 
 function onDemoContinentLoaded(continentName, data) {

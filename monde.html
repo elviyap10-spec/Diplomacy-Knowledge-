@@ -132,20 +132,20 @@
 </script>
 
 <!-- Module Politique -->
-<script src="politique.js?v=3.1"></script>
+<script src="politique.js?v=3.2"></script>
 
 <!-- Module Économie -->
-<script src="economie.js?v=3.1"></script>
+<script src="economie.js?v=3.2"></script>
 
 <!-- Module Démographie -->
-<script src="demographie.js?v=3.1"></script>
+<script src="demographie.js?v=3.2"></script>
 
-<!-- Notre JavaScript (avec support dossier js/ et racine + cache-busting v=3.1) -->
-<script src="js/monde.js?v=3.1"></script>
+<!-- Notre JavaScript (chargement prioritaire depuis la racine + fallback js/ + cache-busting v=3.2) -->
+<script src="monde.js?v=3.2"></script>
 <script>
 if (typeof window.switchPanelView === "undefined") {
     var fallbackScript = document.createElement("script");
-    fallbackScript.src = "monde.js?v=3.1";
+    fallbackScript.src = "js/monde.js?v=3.2";
     document.body.appendChild(fallbackScript);
 }
 </script>
