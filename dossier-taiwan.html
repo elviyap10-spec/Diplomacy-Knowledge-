@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141c2e">
+  <meta name="description" content="Grand Dossier Stratégique : Géoéconomie des Semi-conducteurs, Détroit de Taïwan et Militarisation des Chaînes de Valeur.">
+  <title>Dossier Taïwan & Semi-conducteurs — Diplomacy Lab</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --ink: #141c2e;
+      --ink-soft: #303d52;
+      --paper: #f8f7f4;
+      --paper-card: #ffffff;
+      --muted: #647084;
+      --line: #dedbd3;
+      --accent: #a83d38;
+      --accent-soft: #f4e8e6;
+      --gold: #b18a51;
+      --gold-bright: #d9af5e;
+      --green: #246a48;
+      --green-soft: #e5f2eb;
+      --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --max: 1180px;
+      --radius: 6px;
+      --shadow-sm: 0 2px 8px rgba(20, 28, 46, 0.05);
+      --shadow-md: 0 8px 24px rgba(20, 28, 46, 0.08);
+      --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="dark"] {
+      --ink: #f4f2ee;
+      --ink-soft: #c6cbd4;
+      --paper: #0b111e;
+      --paper-card: #131b2c;
+      --muted: #8893a4;
+      --line: #222d42;
+      --accent: #e06d68;
+      --accent-soft: #321c1f;
+      --gold: #d4a96a;
+      --gold-bright: #e7cda7;
+      --green: #44a374;
+      --green-soft: #122b1f;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--font-body);
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
+
+    /* TOPLINE */
+    .topline { background: #0c1424; color: #f6f2e9; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+    .topline-inner { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .topline-status { display: inline-flex; align-items: center; gap: 8px; color: #d0d7e2; font-weight: 600; font-size: 11px; }
+    .pulse-dot { width: 7px; height: 7px; background: #3ddc84; border-radius: 50%; box-shadow: 0 0 6px #3ddc84; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(.85); } }
+    .topline-actions { display: flex; align-items: center; gap: 14px; }
+    .topline a { color: #e7cda7; font-weight: 700; }
+    .topline a:hover { color: #ffffff; }
+
+    .theme-toggle {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+      color: #f6f2e9; font-size: 10.5px; font-weight: 700; letter-spacing: .06em;
+      padding: 4px 10px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+      font-family: var(--font-body);
+    }
+
+    /* MASTHEAD */
+    .masthead { background: var(--paper); border-bottom: 1px solid var(--line); }
+    .masthead-inner { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .brand { display: flex; align-items: center; gap: 14px; text-decoration: none; min-width: 0; }
+    .brand-mark {
+      width: 44px; height: 44px; border: 2px solid var(--gold); border-radius: 6px;
+      display: grid; place-items: center; font-family: var(--font-display); font-size: 22px; font-weight: 800; flex: 0 0 auto;
+      background: var(--paper-card); color: var(--gold); box-shadow: var(--shadow-sm);
+    }
+    .brand-name { font-family: var(--font-display); font-size: 20px; font-weight: 800; letter-spacing: .08em; line-height: 1.1; color: var(--ink); }
+    .brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 9.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+    .masthead-note { max-width: 320px; text-align: right; color: var(--muted); font-family: var(--font-body); font-size: 13px; font-weight: 500; line-height: 1.5; }
+
+    /* NAV */
+    .main-nav { background: var(--paper-card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+    .nav-inner { min-height: 50px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .nav-links { display: flex; align-items: center; gap: clamp(14px, 2.2vw, 28px); overflow-x: auto; scrollbar-width: none; }
+    .nav-links a { white-space: nowrap; font-size: 12px; font-weight: 700; color: var(--ink-soft); padding: 15px 0 13px; border-bottom: 2px solid transparent; transition: var(--transition); }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); border-color: var(--accent); }
+
+    /* BREADCRUMB */
+    .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 600; color: var(--muted); padding: 18px 0 6px; text-transform: uppercase; letter-spacing: .05em; }
+    .breadcrumb a:hover { color: var(--accent); }
+    .breadcrumb-sep { opacity: .5; }
+    .breadcrumb-current { color: var(--ink); font-weight: 700; }
+
+    /* DOSSIER LAYOUT */
+    .dossier-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 40px; padding: 24px 0 60px; align-items: start; }
+    .dossier-sidebar { position: sticky; top: 70px; background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-sm); }
+    .dossier-sidebar-title { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--gold); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+    .dossier-toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+    .dossier-toc-link { font-size: 12px; color: var(--ink-soft); padding: 6px 8px; border-radius: 4px; display: block; line-height: 1.4; transition: var(--transition); }
+    .dossier-toc-link:hover { background: rgba(177, 138, 81, 0.1); color: var(--gold); transform: translateX(3px); }
+
+    /* CONTENT */
+    .dossier-content { max-width: 820px; }
+    .dossier-header { margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+    .dossier-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .dossier-tag { font-size: 10px; font-weight: 800; text-transform: uppercase; padding: 3px 9px; border-radius: 3px; background: var(--paper-card); border: 1px solid var(--line); }
+    .dossier-tag.level { background: #0c1424; color: #ffffff; border-color: #0c1424; }
+    .dossier-tag.gold { background: rgba(217, 175, 94, 0.15); color: var(--gold); border-color: var(--gold-bright); }
+
+    .dossier-title { font-family: var(--font-display); font-size: clamp(30px, 4vw, 44px); font-weight: 800; letter-spacing: -.025em; line-height: 1.12; margin: 0 0 14px; color: var(--ink); }
+    .dossier-lead { font-size: 16px; line-height: 1.7; color: var(--muted); margin: 0 0 20px; }
+
+    /* KEY STATS BAR */
+    .stat-banner { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 24px 0 34px; }
+    .stat-box { background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; text-align: center; }
+    .stat-num { font-family: var(--font-display); font-size: 28px; font-weight: 800; color: var(--gold); line-height: 1; }
+    .stat-label { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--ink-soft); margin-top: 6px; letter-spacing: .04em; }
+
+    /* SECTIONS */
+    .dossier-section { margin-bottom: 44px; }
+    .dossier-section h2 { font-family: var(--font-display); font-size: 24px; font-weight: 800; letter-spacing: -0.015em; margin: 0 0 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line); color: var(--ink); }
+    .dossier-section h3 { font-family: var(--font-display); font-size: 18px; font-weight: 700; margin: 24px 0 10px; color: var(--ink); }
+    .dossier-section p { font-size: 14.5px; line-height: 1.8; color: var(--ink-soft); margin: 0 0 16px; }
+
+    /* CALLOUT */
+    .analysis-callout { background: var(--paper-card); border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: 20px; border-radius: var(--radius); margin: 22px 0; }
+    .analysis-callout h4 { margin: 0 0 8px; font-size: 14px; font-weight: 800; text-transform: uppercase; color: var(--accent); letter-spacing: .05em; }
+    .analysis-callout p { margin: 0; font-size: 13.5px; line-height: 1.7; color: var(--ink-soft); }
+
+    /* SCENARIO GRID */
+    .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 22px 0; }
+    .scenario-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; }
+    .scenario-badge { font-size: 9.5px; font-weight: 800; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; align-self: flex-start; margin-bottom: 10px; }
+    .scenario-badge.high { background: var(--accent-soft); color: var(--accent); }
+    .scenario-badge.med { background: rgba(217,175,94,0.15); color: var(--gold); }
+    .scenario-card h4 { font-family: var(--font-display); font-size: 16px; font-weight: 800; margin: 0 0 8px; color: var(--ink); }
+    .scenario-card p { font-size: 13px; line-height: 1.65; color: var(--muted); margin: 0; }
+
+    /* FOOTER */
+    footer { margin-top: 50px; padding: 34px 0; color: #d9dce2; background: #0c1424; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .footer-brand { font-family: var(--font-display); font-size: 13.5px; font-weight: 800; letter-spacing: .12em; color: #ffffff; }
+    footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
+
+    @media (max-width: 860px) {
+      .dossier-layout { grid-template-columns: 1fr; }
+      .dossier-sidebar { display: none; }
+      .stat-banner { grid-template-columns: 1fr; }
+      .scenario-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPLINE -->
+  <div class="topline">
+    <div class="container topline-inner">
+      <div class="topline-status">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Grand Dossier Stratégique · Géoéconomie & Relations Internationales</span>
+      </div>
+      <div class="topline-actions">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
+          <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
+        </button>
+        <a href="monde.html">Atlas mondial ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a class="brand" href="index.html" aria-label="Diplomacy Lab, accueil">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span>
+          <span class="brand-name">DIPLOMACY LAB</span>
+          <span class="brand-sub">Comprendre · Analyser · Transmettre</span>
+        </span>
+      </a>
+      <div class="masthead-note">« La technologie est devenue le cœur battant de la rivalité de puissance. »</div>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="monde.html">L'Atlas mondial</a>
+        <a href="index.html#fondamentaux">Les 5 concepts</a>
+        <a href="dossier.html" class="active">Dossiers de fond</a>
+        <a href="index.html#apprendre">Quiz</a>
+        <a href="index.html#parcours">Parcours L1–M2</a>
+      </div>
+      <span style="font-size: 10px; font-weight:800; text-transform:uppercase; color:var(--muted);">Dossier Spécial M1–M2</span>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- FIL D'ARIANE -->
+    <nav class="breadcrumb">
+      <a href="index.html">Accueil</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="dossier.html">Dossiers</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">Taïwan & Semi-conducteurs</span>
+    </nav>
+
+    <div class="dossier-layout">
+      <!-- SOMMAIRE LATÉRAL FLOTTANT -->
+      <aside class="dossier-sidebar">
+        <div class="dossier-sidebar-title">Sommaire du Dossier</div>
+        <ul class="dossier-toc-list">
+          <li><a href="#geographie" class="dossier-toc-link">1. Le goulet de Taïwan</a></li>
+          <li><a href="#silicium" class="dossier-toc-link">2. Le bouclier de silicium</a></li>
+          <li><a href="#chokepoints" class="dossier-toc-link">3. Nœuds & dépendances</a></li>
+          <li><a href="#scenarios" class="dossier-toc-link">4. Scénarios de crise</a></li>
+          <li><a href="#theorie" class="dossier-toc-link">5. Grille d'analyse RI</a></li>
+          <li><a href="#biblio" class="dossier-toc-link">6. Bibliographie certifiée</a></li>
+        </ul>
+      </aside>
+
+      <!-- CONTENU DU DOSSIER -->
+      <article class="dossier-content">
+        <header class="dossier-header">
+          <div class="dossier-tags">
+            <span class="dossier-tag level">Niveau Master 1 / Master 2</span>
+            <span class="dossier-tag gold">Géoéconomie & Chaînes Critiques</span>
+            <span class="dossier-tag">Temps d'étude : 18 min</span>
+          </div>
+          <h1 class="dossier-title">Géoéconomie des Semi-conducteurs et Taïwan</h1>
+          <p class="dossier-lead">
+            Analyse stratégique de l'épicentre géopolitique mondial : comment un détroit maritime de 160 kilomètres et une poignée de fonderies de silicium conditionnent la sécurité technologique et militaire de la planète.
+          </p>
+
+          <!-- CHIFFRES CLÉS -->
+          <div class="stat-banner">
+            <div class="stat-box">
+              <div class="stat-num">&gt;90%</div>
+              <div class="stat-label">Puces &lt;3nm mondiales (TSMC)</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">50%</div>
+              <div class="stat-label">Porte-conteneurs mondiaux (Détroit)</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">2 500 Mds$</div>
+              <div class="stat-label">Coût estimé d'un blocus naval (Bloomberg)</div>
+            </div>
+          </div>
+        </header>
+
+        <!-- SECTION 1 -->
+        <section class="dossier-section" id="geographie">
+          <h2>1. La géographie du goulet d'étranglement</h2>
+          <p>
+            Le détroit de Taïwan, large de 130 à 180 kilomètres, sépare l'île de Taïwan de la Chine continentale. Au-delà de sa dimension symbolique dans le narratif de « réunification nationale » défendu par le Parti communiste chinois, ce couloir est l'une des artères maritimes les plus denses au monde : plus de la moitié de la flotte mondiale de porte-conteneurs y transite chaque année, reliant les hubs industriels d'Asie orientale (Japon, Corée du Sud, Chine) aux marchés occidentaux.
+          </p>
+          <p>
+            Sur le plan militaire, Taïwan constitue le verrou central de la <em>« première chaîne d'îles »</em> (qui court des îles Kouriles jusqu'aux Philippines). Le contrôle de Taïwan permettrait à la marine chinoise (PLAN) de briser l'encerclement stratégique américain et de projeter ses sous-marins nucléaires lanceurs d'engins (SNLE) directement dans le bassin profond du Pacifique occidental.
+          </p>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section class="dossier-section" id="silicium">
+          <h2>2. Le « bouclier de silicium » (*The Silicon Shield*)</h2>
+          <p>
+            Le concept de <em>bouclier de silicium</em>, forgé au début des années 2000 par Craig Addison, postule que la dépendance absolue des grandes puissances envers les capacités de fabrication de la <strong>Taiwan Semiconductor Manufacturing Company (TSMC)</strong> dissuade une invasion chinoise et contraint Washington à défendre militairement l'île.
+          </p>
+          <p>
+            TSMC produit aujourd'hui plus de 60 % des semi-conducteurs mondiaux tous types confondus, et plus de <strong>90 % des puces de dernière génération</strong> (gravées à moins de 3 nanomètres) indispensables aux data centers d'intelligence artificielle, aux supercalculateurs, aux avions furtifs F-35 et aux smartphones.
+          </p>
+          <div class="analysis-callout">
+            <h4>Le dilemme de la destruction mutuelle technologique</h4>
+            <p>
+              Une offensive militaire sur Taïwan détruirait inévitablement les salles blanches ultra-stériles de TSMC (qui exigent une alimentation électrique ininterrompue et une stabilité tellurique absolue). La Chine verrait sa propre économie numérique paralysée du jour au lendemain, perdant l'accès aux processeurs avancés qui alimentent ses industries.
+            </p>
+          </div>
+        </section>
+
+        <!-- SECTION 3 -->
+        <section class="dossier-section" id="chokepoints">
+          <h2>3. Nœuds physiques et vulnérabilités interdépendantes</h2>
+          <p>
+            Contrairement à l'illusion d'une mondialisation fluide et décentralisée, la chaîne de valeur du silicium est un réseau mondial d'une asymétrie extrême, incarnant parfaitement la théorie de la <em>Weaponized Interdependence</em> (Henry Farrell & Abraham Newman) :
+          </p>
+          <ul>
+            <li><strong>Conception logicielle (EDA) :</strong> Monopole quasi total de trois firmes américaines (Synopsys, Cadence, Mentor Graphics).</li>
+            <li><strong>Machines de photolithographie extrême (EUV) :</strong> Une seule entreprise au monde est capable de les fabriquer : le groupe néerlandais <strong>ASML</strong>, dont chaque machine coûte plus de 200 millions d'euros et contient des pièces provenant de 5 000 sous-traitants mondiaux.</li>
+            <li><strong>Matières premières et chimie ultra-pure :</strong> Le Japon contrôle plus de 70 % des résines photosensibles (*photoresists*) et du silicium polycristallin de haute pureté.</li>
+          </ul>
+        </section>
+
+        <!-- SECTION 4 -->
+        <section class="dossier-section" id="scenarios">
+          <h2>4. Scénarios stratégiques et gestion de crise</h2>
+          <div class="scenario-grid">
+            <div class="scenario-card">
+              <span class="scenario-badge high">Scénario 1 · Haute Probabilité</span>
+              <h4>La quarantaine douanière et le blocus gris</h4>
+              <p>
+                Plutôt qu'un débarquement amphibie à haut risque, Pékin impose une zone de contrôle maritime et aérien restreinte sous prétexte d'exercices de tir ou d'inspection douanière, asphyxiant l'économie taïwanaise sans déclaration de guerre ouverte.
+              </p>
+            </div>
+            <div class="scenario-card">
+              <span class="scenario-badge med">Scénario 2 · Rupture Majeure</span>
+              <h4>Le découplage accéléré (Chips Act)</h4>
+              <p>
+                Face à la menace, Washington (CHIPS Act de 52 Mds$) et Bruxelles (European Chips Act de 43 Mds$) financent massivement des méga-fonderies TSMC et Intel en Arizona, en Allemagne et au Japon pour réduire leur vulnérabilité stratégique.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 5 -->
+        <section class="dossier-section" id="theorie">
+          <h2>5. Grille d'analyse en Relations Internationales</h2>
+          <p>
+            Ce cas illustre la confrontation directe entre les grandes théories des RI :
+          </p>
+          <ul>
+            <li><strong>Perspective Réaliste (John Mearsheimer) :</strong> La Chine en ascension cherchera inévitablement à dominer son étranger proche et à expulser la présence militaire américaine d'Asie orientale. L'interdépendance économique ne pèsera rien face à l'impératif de sécurité territoriale.</li>
+            <li><strong>Perspective Libérale & Géoéconomique (Keohane & Nye) :</strong> Le coût économique colossal d'une guerre (estimé à 10 % du PIB mondial dès la première année) élève le seuil de rationalité d'une agression et force les puissances à maintenir des canaux de désescalade.</li>
+          </ul>
+        </section>
+
+        <!-- SECTION 6 -->
+        <section class="dossier-section" id="biblio">
+          <h2>6. Bibliographie & sources vérifiables</h2>
+          <ul>
+            <li><strong>Miller, Chris</strong> (2022). <em>Chip War: The Fight for the World's Most Critical Technology</em>. Scribner.</li>
+            <li><strong>Farrell, Henry, & Newman, Abraham L.</strong> (2019). « Weaponized Interdependence: How Global Economic Networks Shape State Coercion ». <em>International Security</em>, 44(1), 42-79.</li>
+            <li><strong>Allison, Graham</strong> (2017). <em>Destined for War: Can America and China Escape Thucydides's Trap?</em>. Houghton Mifflin Harcourt.</li>
+            <li><strong>CSIS (Center for Strategic and International Studies)</strong> (2023). <em>The First Battle of the Next War: Wargaming a Chinese Invasion of Taiwan</em>. Washington D.C.</li>
+          </ul>
+        </header>
+      </article>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">DIPLOMACY LAB</div>
+        <p>Observatoire indépendant de relations internationales, de théorie géopolitique et de pratique diplomatique.</p>
+      </div>
+      <div style="font-size: 11px; color: var(--gold);">Diplomacy Lab · Édition Académique 2026</div>
+    </div>
+  </footer>
+
+  <script>
+    const themeBtn = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+    const themeText = document.getElementById("themeText");
+    const savedTheme = localStorage.getItem("diplomacy_theme") || "light";
+
+    function applyTheme(theme) {
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        themeIcon.textContent = "☀️";
+        themeText.textContent = "Papier";
+      } else {
+        document.documentElement.removeAttribute("data-theme");
+        themeIcon.textContent = "🌙";
+        themeText.textContent = "Nuit";
+      }
+      localStorage.setItem("diplomacy_theme", theme);
+    }
+    applyTheme(savedTheme);
+
+    themeBtn.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(current);
+    });
+  </script>
+</body>
+</html>
