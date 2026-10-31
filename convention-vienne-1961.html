@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141c2e">
+  <meta name="description" content="Convention de Vienne sur les relations diplomatiques de 1961 — Texte de référence, analyse juridique, immunités et cas pratiques diplomatiques.">
+  <title>Convention de Vienne de 1961 — Diplomacy Lab</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --ink: #141c2e;
+      --ink-soft: #303d52;
+      --paper: #f8f7f4;
+      --paper-card: #ffffff;
+      --muted: #647084;
+      --line: #dedbd3;
+      --accent: #a83d38;
+      --accent-soft: #f4e8e6;
+      --gold: #b18a51;
+      --gold-bright: #d9af5e;
+      --green: #246a48;
+      --green-soft: #e5f2eb;
+      --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --max: 1180px;
+      --radius: 6px;
+      --shadow-sm: 0 2px 8px rgba(20, 28, 46, 0.05);
+      --shadow-md: 0 8px 24px rgba(20, 28, 46, 0.08);
+      --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="dark"] {
+      --ink: #f4f2ee;
+      --ink-soft: #c6cbd4;
+      --paper: #0b111e;
+      --paper-card: #131b2c;
+      --muted: #8893a4;
+      --line: #222d42;
+      --accent: #e06d68;
+      --accent-soft: #321c1f;
+      --gold: #d4a96a;
+      --gold-bright: #e7cda7;
+      --green: #44a374;
+      --green-soft: #122b1f;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--font-body);
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
+
+    /* TOPLINE */
+    .topline { background: #0c1424; color: #f6f2e9; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+    .topline-inner { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .topline-status { display: inline-flex; align-items: center; gap: 8px; color: #d0d7e2; font-weight: 600; font-size: 11px; }
+    .pulse-dot { width: 7px; height: 7px; background: #3ddc84; border-radius: 50%; box-shadow: 0 0 6px #3ddc84; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(.85); } }
+    .topline-actions { display: flex; align-items: center; gap: 14px; }
+    .topline a { color: #e7cda7; font-weight: 700; }
+    .topline a:hover { color: #ffffff; }
+
+    .theme-toggle {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+      color: #f6f2e9; font-size: 10.5px; font-weight: 700; letter-spacing: .06em;
+      padding: 4px 10px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+      font-family: var(--font-body);
+    }
+
+    /* MASTHEAD */
+    .masthead { background: var(--paper); border-bottom: 1px solid var(--line); }
+    .masthead-inner { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .brand { display: flex; align-items: center; gap: 14px; text-decoration: none; min-width: 0; }
+    .brand-mark {
+      width: 44px; height: 44px; border: 2px solid var(--gold); border-radius: 6px;
+      display: grid; place-items: center; font-family: var(--font-display); font-size: 22px; font-weight: 800; flex: 0 0 auto;
+      background: var(--paper-card); color: var(--gold); box-shadow: var(--shadow-sm);
+    }
+    .brand-name { font-family: var(--font-display); font-size: 20px; font-weight: 800; letter-spacing: .08em; line-height: 1.1; color: var(--ink); }
+    .brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 9.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+    .masthead-note { max-width: 320px; text-align: right; color: var(--muted); font-family: var(--font-body); font-size: 13px; font-weight: 500; line-height: 1.5; }
+
+    /* NAV */
+    .main-nav { background: var(--paper-card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+    .nav-inner { min-height: 50px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .nav-links { display: flex; align-items: center; gap: clamp(14px, 2.2vw, 28px); overflow-x: auto; scrollbar-width: none; }
+    .nav-links a { white-space: nowrap; font-size: 12px; font-weight: 700; color: var(--ink-soft); padding: 15px 0 13px; border-bottom: 2px solid transparent; transition: var(--transition); }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); border-color: var(--accent); }
+
+    /* BREADCRUMB */
+    .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 600; color: var(--muted); padding: 18px 0 6px; text-transform: uppercase; letter-spacing: .05em; }
+    .breadcrumb a:hover { color: var(--accent); }
+    .breadcrumb-sep { opacity: .5; }
+    .breadcrumb-current { color: var(--ink); font-weight: 700; }
+
+    /* CONTENT LAYOUT */
+    .doc-layout { max-width: 860px; margin: 30px auto 70px; }
+    .doc-header { margin-bottom: 34px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+    .doc-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(177, 138, 81, 0.12); color: var(--gold); border: 1px solid var(--gold); font-size: 10.5px; font-weight: 800; text-transform: uppercase; padding: 3px 9px; border-radius: 3px; letter-spacing: .06em; margin-bottom: 14px; }
+    .doc-title { font-family: var(--font-display); font-size: clamp(28px, 4vw, 42px); font-weight: 800; letter-spacing: -.025em; line-height: 1.15; color: var(--ink); margin: 0 0 14px; }
+    .doc-lead { font-size: 15.5px; line-height: 1.7; color: var(--muted); margin: 0 0 18px; }
+
+    /* ARTICLES CARDS */
+    .article-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; margin-bottom: 20px; box-shadow: var(--shadow-sm); }
+    .article-num { font-size: 11.5px; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+    .article-heading { font-family: var(--font-display); font-size: 18px; font-weight: 800; color: var(--ink); margin: 0 0 10px; }
+    .article-quote { background: var(--paper); border-left: 3px solid var(--gold); padding: 12px 16px; font-size: 13.5px; font-style: italic; line-height: 1.6; color: var(--ink-soft); margin-bottom: 12px; border-radius: 0 4px 4px 0; }
+    .article-analysis { font-size: 13.5px; line-height: 1.7; color: var(--ink-soft); }
+
+    /* JURISPRUDENCE */
+    .case-box { background: var(--paper-card); border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: 20px; border-radius: var(--radius); margin: 24px 0; }
+    .case-title { font-family: var(--font-display); font-size: 16px; font-weight: 800; color: var(--accent); margin-bottom: 8px; }
+    .case-desc { font-size: 13.5px; line-height: 1.68; color: var(--ink-soft); margin: 0; }
+
+    /* FOOTER */
+    footer { margin-top: 50px; padding: 34px 0; color: #d9dce2; background: #0c1424; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .footer-brand { font-family: var(--font-display); font-size: 13.5px; font-weight: 800; letter-spacing: .12em; color: #ffffff; }
+    footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
+  </style>
+</head>
+<body>
+
+  <!-- TOPLINE -->
+  <div class="topline">
+    <div class="container topline-inner">
+      <div class="topline-status">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Textes Fondamentaux · Droit International Diplomatique</span>
+      </div>
+      <div class="topline-actions">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
+          <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
+        </button>
+        <a href="monde.html">Atlas mondial ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a class="brand" href="index.html" aria-label="Diplomacy Lab, accueil">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span>
+          <span class="brand-name">DIPLOMACY LAB</span>
+          <span class="brand-sub">Comprendre · Analyser · Transmettre</span>
+        </span>
+      </a>
+      <div class="masthead-note">« L'immunité diplomatique n'est pas un privilège individuel, mais la garantie de la communication entre États souverains. »</div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="monde.html">L'Atlas mondial</a>
+        <a href="index.html#fondamentaux">Les 5 concepts</a>
+        <a href="dossier.html">Dossier Fondamental</a>
+        <a href="dossier-taiwan.html">Dossier Taïwan</a>
+        <a href="index.html#ressources" class="active">Ressources & Traités</a>
+      </div>
+      <span style="font-size: 10px; font-weight:800; text-transform:uppercase; color:var(--muted);">Corpus Juridique ONU</span>
+    </div>
+  </nav>
+
+  <main class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Accueil</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="index.html#ressources">Ressources</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">Convention de Vienne de 1961</span>
+    </nav>
+
+    <div class="doc-layout">
+      <header class="doc-header">
+        <div class="doc-badge">Traité Multilatéral Universel · 193 États Parties</div>
+        <h1 class="doc-title">Convention de Vienne sur les Relations Diplomatiques (1961)</h1>
+        <p class="doc-lead">
+          Adoptée le 18 avril 1961 sous l'égide des Nations Unies, la Convention de Vienne codifie des siècles de coutume diplomatique et pose les règles juridiques inviolables qui permettent aux chancelleries du monde entier de négocier et maintenir la paix, même en temps de crise aiguë.
+        </p>
+        <div style="font-size:12px; color:var(--muted);">
+          Source certifiée : <strong>Recueil des Traités des Nations Unies (RTNU)</strong>, vol. 500, p. 95 · Entrée en vigueur : 24 avril 1964.
+        </div>
+      </header>
+
+      <!-- ARTICLE 2 -->
+      <article class="article-card">
+        <div class="article-num">Article 2</div>
+        <h3 class="article-heading">Le consentement mutuel comme fondement</h3>
+        <div class="article-quote">
+          « L'établissement de relations diplomatiques entre États et l'envoi de missions diplomatiques permanentes se font par consentement mutuel. »
+        </div>
+        <p class="article-analysis">
+          <strong>Portée juridique :</strong> Aucun État n'a l'obligation juridique d'ouvrir une ambassade ou d'accueillir des diplomates étrangers. La diplomatie repose entièrement sur la souveraineté volontaire des nations.
+        </p>
+      </article>
+
+      <!-- ARTICLE 9 -->
+      <article class="article-card">
+        <div class="article-num">Article 9</div>
+        <h3 class="article-heading">La déclaration de Persona Non Grata</h3>
+        <div class="article-quote">
+          « L'État accréditaire peut à tout moment, et sans avoir à motiver sa décision, informer l'État accréditant que le chef de la mission ou tout membre du personnel diplomatique est persona non grata [...]. »
+        </div>
+        <p class="article-analysis">
+          <strong>Portée politique :</strong> L'arme diplomatique souveraine par excellence. Lorsqu'un diplomate est soupçonné d'espionnage ou d'ingérence politique, l'État d'accueil peut exiger son rappel immédiat sans avoir à fournir de preuves publiques.
+        </p>
+      </article>
+
+      <!-- ARTICLE 22 -->
+      <article class="article-card">
+        <div class="article-num">Article 22</div>
+        <h3 class="article-heading">L'inviolabilité absolue des locaux de l'ambassade</h3>
+        <div class="article-quote">
+          « 1. Les locaux de la mission sont inviolables. Il n'est pas permis aux agents de l'État accréditaire d'y pénétrer, si ce n'est avec le consentement du chef de la mission. [...] 2. L'État accréditaire a l'obligation spéciale de prendre toutes mesures appropriées pour empêcher que les locaux ne soient envahis ou endommagés. »
+        </div>
+        <p class="article-analysis">
+          <strong>Portée stratégique :</strong> La police, les juges et les pompiers de l'État d'accueil ne peuvent franchir les portes d'une ambassade sans feu vert de l'ambassadeur, protégeant ainsi le secret des délibérations étatiques.
+        </p>
+      </article>
+
+      <!-- CAS HISTORIQUE 1 -->
+      <div class="case-box">
+        <div class="case-title">Affaire de la prise d'otages de Téhéran (CIJ, arrêt du 24 mai 1980)</div>
+        <p class="case-desc">
+          Le 4 novembre 1979, des étudiants islamiques envahissent l'ambassade américaine à Téhéran avec la complaisance des autorités iraniennes, retenant 52 diplomates en otage pendant 444 jours. La Cour internationale de Justice (CIJ) a condamné l'Iran pour violation flagrante de l'Article 22, rappelant que l'inviolabilité diplomatique est la règle la plus fondamentale des relations internationales.
+        </p>
+      </div>
+
+      <!-- ARTICLE 24 & 27 -->
+      <article class="article-card">
+        <div class="article-num">Articles 24 & 27</div>
+        <h3 class="article-heading">Archives diplomatiques et Valise diplomatique</h3>
+        <div class="article-quote">
+          « Les archives et documents de la mission sont inviolables à tout moment et en quelque lieu qu'ils se trouvent. [...] La valise diplomatique ne doit être ni ouverte ni retenue. »
+        </div>
+        <p class="article-analysis">
+          <strong>Portée technique :</strong> Garantit la confidentialité absolue des correspondances chiffrées et des courriers diplomatiques face aux fouilles douanières et aux interceptions d'aéroports.
+        </p>
+      </article>
+
+      <!-- ARTICLE 29 & 31 -->
+      <article class="article-card">
+        <div class="article-num">Articles 29 & 31</div>
+        <h3 class="article-heading">Immunité de juridiction pénale de l'agent diplomatique</h3>
+        <div class="article-quote">
+          « L'agent diplomatique jouit de l'immunité de la juridiction pénale de l'État accréditaire. Il jouit également de l'immunité de sa juridiction civile et administrative [...]. »
+        </div>
+        <p class="article-analysis">
+          <strong>Précision fondamentale :</strong> L'immunité protège la fonction et non la personne morale de tout crime : seul l'État d'envoi a le pouvoir de lever l'immunité pour permettre un procès, ou de juger le diplomate dans son propre pays.
+        </p>
+      </article>
+
+      <div style="margin-top: 36px; padding: 22px; background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); text-align: center;">
+        <h4 style="font-size: 15px; font-weight:800; margin: 0 0 8px; color:var(--ink);">Consulter le texte intégral officiel aux Nations Unies</h4>
+        <p style="font-size: 13px; color:var(--muted); margin: 0 0 16px;">Téléchargez l'instrument authentique certifié par le Secrétariat général de l'ONU.</p>
+        <a href="https://treaties.un.org/doc/Publication/UNTS/Volume%20500/v500.pdf" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:8px; background:var(--ink); color:#ffffff; padding:11px 22px; border-radius:4px; font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:.04em;">
+          <span>Télécharger le traité officiel (PDF UNTS)</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">DIPLOMACY LAB</div>
+        <p>Observatoire indépendant de relations internationales, de théorie géopolitique et de pratique diplomatique.</p>
+      </div>
+      <div style="font-size: 11px; color: var(--gold);">Diplomacy Lab · Édition Académique 2026</div>
+    </div>
+  </footer>
+
+  <script>
+    const themeBtn = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+    const themeText = document.getElementById("themeText");
+    const savedTheme = localStorage.getItem("diplomacy_theme") || "light";
+
+    function applyTheme(theme) {
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        themeIcon.textContent = "☀️";
+        themeText.textContent = "Papier";
+      } else {
+        document.documentElement.removeAttribute("data-theme");
+        themeIcon.textContent = "🌙";
+        themeText.textContent = "Nuit";
+      }
+      localStorage.setItem("diplomacy_theme", theme);
+    }
+    applyTheme(savedTheme);
+
+    themeBtn.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(current);
+    });
+  </script>
+</body>
+</html>
