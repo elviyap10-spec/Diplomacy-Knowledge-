@@ -7,11 +7,11 @@
             "centralBank": "Banque populaire de Chine (PBOC)"
         },
         "macro": {
-            "gdpNominal": "18,7 billions USD",
-            "gdpPerCapita": "13 293 USD",
+            "gdpNominal": "18 530 milliards USD",
+            "gdpPerCapita": "13 100 USD",
             "globalRank": "2e mondial (1er en PPA)",
-            "growth": "+5,0 %",
-            "inflation": "0,2 %"
+            "growth": "+5,2 %",
+            "inflation": "0,3 %"
         },
         "structure": {
             "services": "54,6 %",
@@ -55,11 +55,11 @@
             "centralBank": "Banque du Japon (BoJ)"
         },
         "macro": {
-            "gdpNominal": "4,2 billions USD",
-            "gdpPerCapita": "33 797 USD",
+            "gdpNominal": "4 210 milliards USD",
+            "gdpPerCapita": "33 800 USD",
             "globalRank": "4e mondial",
-            "growth": "-0,2 %",
-            "inflation": "2,7 %"
+            "growth": "+1,9 %",
+            "inflation": "3,2 %"
         },
         "structure": {
             "services": "69,5 %",
@@ -104,11 +104,11 @@
             "centralBank": "Reserve Bank of India (RBI)"
         },
         "macro": {
-            "gdpNominal": "3,8 billions USD",
-            "gdpPerCapita": "2 592 USD",
+            "gdpNominal": "3 940 milliards USD",
+            "gdpPerCapita": "2 730 USD",
             "globalRank": "5e mondial (3e en PPA)",
-            "growth": "+7,1 %",
-            "inflation": "5,0 %"
+            "growth": "+7,6 %",
+            "inflation": "5,4 %"
         },
         "structure": {
             "services": "53,8 %",
@@ -151,11 +151,11 @@
             "centralBank": "Banque de Corée (Bank of Korea)"
         },
         "macro": {
-            "gdpNominal": "1,9 billions USD",
-            "gdpPerCapita": "36 239 USD",
+            "gdpNominal": "1 710 milliards USD",
+            "gdpPerCapita": "33 100 USD",
             "globalRank": "14e mondial",
-            "growth": "+2,0 %",
-            "inflation": "2,3 %"
+            "growth": "+1,4 %",
+            "inflation": "3,6 %"
         },
         "structure": {
             "services": "58,3 %",
@@ -236,11 +236,11 @@
             "centralBank": "Bank Indonesia"
         },
         "macro": {
-            "gdpNominal": "1,4 billions USD",
-            "gdpPerCapita": "4 925 USD",
+            "gdpNominal": "1 370 milliards USD",
+            "gdpPerCapita": "4 920 USD",
             "globalRank": "16e mondial (1er de l'ASEAN)",
             "growth": "+5,0 %",
-            "inflation": "2,2 %"
+            "inflation": "2,6 %"
         },
         "structure": {
             "services": "44,5 %",
@@ -282,11 +282,11 @@
             "centralBank": "Banque centrale saoudienne (SAMA)"
         },
         "macro": {
-            "gdpNominal": "1,3 billions USD",
-            "gdpPerCapita": "35 528 USD",
+            "gdpNominal": "1 070 milliards USD",
+            "gdpPerCapita": "32 500 USD",
             "globalRank": "19e mondial (1er du Moyen-Orient)",
-            "growth": "+2,6 %",
-            "inflation": "1,5 %"
+            "growth": "-0,8 % (coupes OPEP+)",
+            "inflation": "1,6 %"
         },
         "structure": {
             "services": "48,0 %",
@@ -329,11 +329,11 @@
             "centralBank": "Banque centrale d'Iran (CBI)"
         },
         "macro": {
-            "gdpNominal": "475 milliards USD",
-            "gdpPerCapita": "5 190 USD",
+            "gdpNominal": "403 milliards USD",
+            "gdpPerCapita": "4 600 USD",
             "globalRank": "36e mondial",
-            "growth": "+3,7 %",
-            "inflation": "32,5 %"
+            "growth": "+4,5 %",
+            "inflation": "41,0 %"
         },
         "structure": {
             "services": "52,0 %",
@@ -375,11 +375,11 @@
             "centralBank": "Banque d'Israël"
         },
         "macro": {
-            "gdpNominal": "542 milliards USD",
-            "gdpPerCapita": "54 217 USD",
+            "gdpNominal": "510 milliards USD",
+            "gdpPerCapita": "52 200 USD",
             "globalRank": "28e mondial",
-            "growth": "+1,0 %",
-            "inflation": "3,1 %"
+            "growth": "+2,0 %",
+            "inflation": "3,8 %"
         },
         "structure": {
             "services": "70,5 %",
@@ -418,11 +418,11 @@
             "centralBank": "Autorité monétaire palestinienne (PMA)"
         },
         "macro": {
-            "gdpNominal": "16 milliards USD",
-            "gdpPerCapita": "3 028 USD",
+            "gdpNominal": "15,2 milliards USD (avant crise)",
+            "gdpPerCapita": "~2 800 USD",
             "globalRank": "135e mondial",
-            "growth": "-22,9 %",
-            "inflation": "53,7 %"
+            "growth": "-25,0 % (impact des destructions de guerre)",
+            "inflation": "12,0 %"
         },
         "structure": {
             "services": "68,0 %",
@@ -461,11 +461,11 @@
             "centralBank": "Banque centrale des Émirats arabes unis (CBUAE)"
         },
         "macro": {
-            "gdpNominal": "552 milliards USD",
-            "gdpPerCapita": "50 274 USD",
+            "gdpNominal": "504 milliards USD",
+            "gdpPerCapita": "51 000 USD",
             "globalRank": "31e mondial",
-            "growth": "+4,0 %",
-            "inflation": "1,7 %"
+            "growth": "+3,4 %",
+            "inflation": "2,2 %"
         },
         "structure": {
             "services": "56,0 %",
@@ -507,11 +507,11 @@
             "centralBank": "Banque centrale du Qatar (QCB)"
         },
         "macro": {
-            "gdpNominal": "216 milliards USD",
-            "gdpPerCapita": "75 685 USD",
+            "gdpNominal": "235 milliards USD",
+            "gdpPerCapita": "82 800 USD",
             "globalRank": "53e mondial",
-            "growth": "+3,1 %",
-            "inflation": "1,3 %"
+            "growth": "+2,4 %",
+            "inflation": "1,5 %"
         },
         "structure": {
             "services": "48,5 %",
@@ -552,11 +552,11 @@
             "centralBank": "Banque centrale du Koweït (CBK)"
         },
         "macro": {
-            "gdpNominal": "161 milliards USD",
-            "gdpPerCapita": "32 856 USD",
+            "gdpNominal": "160 milliards USD",
+            "gdpPerCapita": "33 000 USD",
             "globalRank": "61e mondial",
-            "growth": "-1,5 %",
-            "inflation": "2,9 %"
+            "growth": "-0,6 %",
+            "inflation": "3,2 %"
         },
         "structure": {
             "services": "47,0 %",
@@ -597,11 +597,11 @@
             "centralBank": "Banque centrale d'Oman (CBO)"
         },
         "macro": {
-            "gdpNominal": "107 milliards USD",
-            "gdpPerCapita": "20 285 USD",
+            "gdpNominal": "108 milliards USD",
+            "gdpPerCapita": "21 000 USD",
             "globalRank": "67e mondial",
-            "growth": "+1,6 %",
-            "inflation": "0,6 %"
+            "growth": "+1,5 %",
+            "inflation": "1,1 %"
         },
         "structure": {
             "services": "51,0 %",
@@ -642,10 +642,10 @@
         },
         "macro": {
             "gdpNominal": "47 milliards USD",
-            "gdpPerCapita": "29 717 USD",
+            "gdpPerCapita": "30 500 USD",
             "globalRank": "98e mondial",
             "growth": "+2,9 %",
-            "inflation": "0,9 %"
+            "inflation": "1,2 %"
         },
         "structure": {
             "services": "64,0 %",
@@ -727,11 +727,11 @@
             "centralBank": "Banque centrale d'Irak (CBI)"
         },
         "macro": {
-            "gdpNominal": "280 milliards USD",
-            "gdpPerCapita": "6 074 USD",
+            "gdpNominal": "255 milliards USD",
+            "gdpPerCapita": "5 800 USD",
             "globalRank": "50e mondial",
-            "growth": "-1,5 %",
-            "inflation": "2,6 %"
+            "growth": "-2,9 % (coupes OPEP+)",
+            "inflation": "4,5 %"
         },
         "structure": {
             "services": "46,0 %",
@@ -771,10 +771,10 @@
             "centralBank": "Banque centrale de Syrie"
         },
         "macro": {
-            "gdpNominal": "24 milliards USD",
-            "gdpPerCapita": "1 057 USD",
+            "gdpNominal": "9,0 milliards USD (estimation)",
+            "gdpPerCapita": "~400 USD",
             "globalRank": "150e mondial",
-            "growth": "-0,2 %",
+            "growth": "-1,5 %",
             "inflation": "70,0 %"
         },
         "structure": {
@@ -814,11 +814,11 @@
             "centralBank": "Banque du Liban (BDL)"
         },
         "macro": {
-            "gdpNominal": "26 milliards USD",
-            "gdpPerCapita": "4 473 USD",
+            "gdpNominal": "20 milliards USD (effondrement post-crise 2019)",
+            "gdpPerCapita": "~3 500 USD",
             "globalRank": "122e mondial",
-            "growth": "-7,1 %",
-            "inflation": "45,2 %"
+            "growth": "-0,8 %",
+            "inflation": "170,0 %"
         },
         "structure": {
             "services": "78,0 %",
@@ -857,11 +857,11 @@
             "centralBank": "Banque centrale de Jordanie (CBJ)"
         },
         "macro": {
-            "gdpNominal": "59 milliards USD",
-            "gdpPerCapita": "5 074 USD",
+            "gdpNominal": "52 milliards USD",
+            "gdpPerCapita": "4 600 USD",
             "globalRank": "93e mondial",
             "growth": "+2,6 %",
-            "inflation": "1,6 %"
+            "inflation": "2,1 %"
         },
         "structure": {
             "services": "67,0 %",
@@ -902,11 +902,11 @@
             "centralBank": "Banque d'État du Pakistan (SBP)"
         },
         "macro": {
-            "gdpNominal": "372 milliards USD",
-            "gdpPerCapita": "1 479 USD",
+            "gdpNominal": "340 milliards USD",
+            "gdpPerCapita": "1 450 USD",
             "globalRank": "43e mondial",
-            "growth": "+3,1 %",
-            "inflation": "12,6 %"
+            "growth": "+2,4 %",
+            "inflation": "23,0 %"
         },
         "structure": {
             "services": "56,0 %",
@@ -947,10 +947,10 @@
         },
         "macro": {
             "gdpNominal": "450 milliards USD",
-            "gdpPerCapita": "2 593 USD",
+            "gdpPerCapita": "2 650 USD",
             "globalRank": "35e mondial",
-            "growth": "+4,2 %",
-            "inflation": "10,5 %"
+            "growth": "+5,8 %",
+            "inflation": "9,5 %"
         },
         "structure": {
             "services": "53,0 %",
@@ -992,11 +992,11 @@
             "centralBank": "Banque d'État du Viêt Nam (SBV)"
         },
         "macro": {
-            "gdpNominal": "476 milliards USD",
-            "gdpPerCapita": "4 717 USD",
+            "gdpNominal": "435 milliards USD",
+            "gdpPerCapita": "4 350 USD",
             "globalRank": "34e mondial",
-            "growth": "+7,0 %",
-            "inflation": "3,6 %"
+            "growth": "+5,0 %",
+            "inflation": "3,3 %"
         },
         "structure": {
             "services": "42,0 %",
@@ -1038,11 +1038,11 @@
             "centralBank": "Banque de Thaïlande (BOT)"
         },
         "macro": {
-            "gdpNominal": "529 milliards USD",
-            "gdpPerCapita": "7 387 USD",
+            "gdpNominal": "515 milliards USD",
+            "gdpPerCapita": "7 300 USD",
             "globalRank": "27e mondial (2e de l'ASEAN)",
-            "growth": "+2,9 %",
-            "inflation": "0,4 %"
+            "growth": "+1,9 %",
+            "inflation": "1,2 %"
         },
         "structure": {
             "services": "58,0 %",
@@ -1083,11 +1083,11 @@
             "centralBank": "Bank Negara Malaysia (BNM)"
         },
         "macro": {
-            "gdpNominal": "422 milliards USD",
-            "gdpPerCapita": "11 874 USD",
+            "gdpNominal": "400 milliards USD",
+            "gdpPerCapita": "11 800 USD",
             "globalRank": "37e mondial",
-            "growth": "+5,1 %",
-            "inflation": "1,8 %"
+            "growth": "+3,7 %",
+            "inflation": "2,5 %"
         },
         "structure": {
             "services": "56,0 %",
@@ -1128,11 +1128,11 @@
             "centralBank": "Autorité monétaire de Singapour (MAS)"
         },
         "macro": {
-            "gdpNominal": "573 milliards USD",
-            "gdpPerCapita": "94 897 USD",
+            "gdpNominal": "501 milliards USD",
+            "gdpPerCapita": "85 000 USD",
             "globalRank": "32e mondial",
-            "growth": "+5,3 %",
-            "inflation": "2,4 %"
+            "growth": "+1,1 %",
+            "inflation": "4,8 %"
         },
         "structure": {
             "services": "71,0 %",
@@ -1174,11 +1174,11 @@
             "centralBank": "Bangko Sentral ng Pilipinas (BSP)"
         },
         "macro": {
-            "gdpNominal": "462 milliards USD",
-            "gdpPerCapita": "3 985 USD",
+            "gdpNominal": "437 milliards USD",
+            "gdpPerCapita": "3 850 USD",
             "globalRank": "33e mondial",
-            "growth": "+5,7 %",
-            "inflation": "3,2 %"
+            "growth": "+5,6 %",
+            "inflation": "6,0 %"
         },
         "structure": {
             "services": "61,0 %",
@@ -1218,10 +1218,10 @@
             "centralBank": "Banque centrale du Myanmar"
         },
         "macro": {
-            "gdpNominal": "74 milliards USD",
-            "gdpPerCapita": "1 359 USD",
+            "gdpNominal": "65 milliards USD",
+            "gdpPerCapita": "1 180 USD",
             "globalRank": "84e mondial",
-            "growth": "-1,0 %",
+            "growth": "-1,0 % (impact du conflit interne)",
             "inflation": "25,0 %"
         },
         "structure": {
@@ -1262,11 +1262,11 @@
             "centralBank": "Banque nationale du Cambodge (NBC)"
         },
         "macro": {
-            "gdpNominal": "46 milliards USD",
-            "gdpPerCapita": "2 628 USD",
+            "gdpNominal": "32 milliards USD",
+            "gdpPerCapita": "1 850 USD",
             "globalRank": "108e mondial",
-            "growth": "+6,0 %",
-            "inflation": "0,8 %"
+            "growth": "+5,3 %",
+            "inflation": "2,1 %"
         },
         "structure": {
             "services": "41,0 %",
@@ -1305,11 +1305,11 @@
             "centralBank": "Banque de la RDP lao"
         },
         "macro": {
-            "gdpNominal": "17 milliards USD",
-            "gdpPerCapita": "2 124 USD",
+            "gdpNominal": "15,5 milliards USD",
+            "gdpPerCapita": "2 050 USD",
             "globalRank": "134e mondial",
-            "growth": "+4,1 %",
-            "inflation": "23,1 %"
+            "growth": "+4,0 %",
+            "inflation": "31,0 %"
         },
         "structure": {
             "services": "42,0 %",
@@ -1348,10 +1348,10 @@
         },
         "macro": {
             "gdpNominal": "15 milliards USD",
-            "gdpPerCapita": "33 153 USD",
+            "gdpPerCapita": "33 000 USD",
             "globalRank": "136e mondial",
-            "growth": "+4,1 %",
-            "inflation": "-0,4 %"
+            "growth": "+1,2 %",
+            "inflation": "0,4 %"
         },
         "structure": {
             "services": "38,0 %",
@@ -1393,11 +1393,11 @@
             "centralBank": "Banco Central de Timor-Leste (BCTL)"
         },
         "macro": {
-            "gdpNominal": "2 milliards USD",
-            "gdpPerCapita": "1 332 USD",
+            "gdpNominal": "2,0 milliards USD (PIB non pétrolier)",
+            "gdpPerCapita": "1 450 USD",
             "globalRank": "168e mondial",
-            "growth": "-9,1 %",
-            "inflation": "2,1 %"
+            "growth": "+3,0 %",
+            "inflation": "7,5 %"
         },
         "structure": {
             "services": "56,0 %",
@@ -1479,11 +1479,11 @@
             "centralBank": "Banque de Mongolie (Mongolbank)"
         },
         "macro": {
-            "gdpNominal": "24 milliards USD",
-            "gdpPerCapita": "6 751 USD",
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "5 800 USD",
             "globalRank": "121e mondial",
-            "growth": "+5,1 %",
-            "inflation": "6,2 %"
+            "growth": "+7,0 % (forte demande chinoise)",
+            "inflation": "8,6 %"
         },
         "structure": {
             "services": "42,0 %",
@@ -1521,11 +1521,11 @@
             "centralBank": "Banque nationale du Kazakhstan"
         },
         "macro": {
-            "gdpNominal": "291 milliards USD",
-            "gdpPerCapita": "14 155 USD",
+            "gdpNominal": "260 milliards USD",
+            "gdpPerCapita": "13 000 USD",
             "globalRank": "49e mondial (1ère économie d'Asie centrale)",
-            "growth": "+5,0 %",
-            "inflation": "8,7 %"
+            "growth": "+5,1 %",
+            "inflation": "9,8 %"
         },
         "structure": {
             "services": "54,0 %",
@@ -1567,11 +1567,11 @@
             "centralBank": "Banque centrale de la République d'Ouzbékistan"
         },
         "macro": {
-            "gdpNominal": "121 milliards USD",
-            "gdpPerCapita": "3 337 USD",
+            "gdpNominal": "90 milliards USD",
+            "gdpPerCapita": "2 500 USD",
             "globalRank": "73e mondial",
-            "growth": "+6,7 %",
-            "inflation": "9,6 %"
+            "growth": "+6,0 %",
+            "inflation": "8,8 %"
         },
         "structure": {
             "services": "40,0 %",
@@ -1611,10 +1611,10 @@
             "centralBank": "Banque centrale du Turkménistan"
         },
         "macro": {
-            "gdpNominal": "44 milliards USD",
-            "gdpPerCapita": "5 904 USD",
+            "gdpNominal": "60 milliards USD",
+            "gdpPerCapita": "9 000 USD",
             "globalRank": "87e mondial",
-            "growth": "+6,3 %",
+            "growth": "+6,2 %",
             "inflation": "10,5 %"
         },
         "structure": {
@@ -1653,11 +1653,11 @@
             "centralBank": "Banque nationale de la République kirghize"
         },
         "macro": {
-            "gdpNominal": "18 milliards USD",
-            "gdpPerCapita": "2 515 USD",
+            "gdpNominal": "14 milliards USD",
+            "gdpPerCapita": "1 950 USD",
             "globalRank": "140e mondial",
-            "growth": "+11,5 %",
-            "inflation": "5,0 %"
+            "growth": "+7,0 %",
+            "inflation": "7,3 %"
         },
         "structure": {
             "services": "51,0 %",
@@ -1697,11 +1697,11 @@
             "centralBank": "Banque nationale du Tadjikistan"
         },
         "macro": {
-            "gdpNominal": "14 milliards USD",
-            "gdpPerCapita": "1 362 USD",
+            "gdpNominal": "12 milliards USD",
+            "gdpPerCapita": "1 180 USD",
             "globalRank": "145e mondial",
-            "growth": "+8,4 %",
-            "inflation": "3,5 %"
+            "growth": "+8,3 %",
+            "inflation": "3,8 %"
         },
         "structure": {
             "services": "44,0 %",
@@ -1741,11 +1741,11 @@
             "centralBank": "Da Afghanistan Bank (DAB)"
         },
         "macro": {
-            "gdpNominal": "18 milliards USD",
-            "gdpPerCapita": "417 USD",
+            "gdpNominal": "14,5 milliards USD",
+            "gdpPerCapita": "360 USD",
             "globalRank": "138e mondial",
-            "growth": "+1,9 %",
-            "inflation": "-6,6 %"
+            "growth": "-2,0 %",
+            "inflation": "-8,0 % (déflation)"
         },
         "structure": {
             "services": "36,0 %",
@@ -1784,11 +1784,11 @@
             "centralBank": "Nepal Rastra Bank (NRB)"
         },
         "macro": {
-            "gdpNominal": "43 milliards USD",
-            "gdpPerCapita": "1 460 USD",
+            "gdpNominal": "41 milliards USD",
+            "gdpPerCapita": "1 350 USD",
             "globalRank": "103e mondial",
-            "growth": "+3,7 %",
-            "inflation": "4,7 %"
+            "growth": "+3,9 %",
+            "inflation": "5,4 %"
         },
         "structure": {
             "services": "54,0 %",
@@ -1827,11 +1827,11 @@
             "centralBank": "Banque centrale de Sri Lanka"
         },
         "macro": {
-            "gdpNominal": "100 milliards USD",
-            "gdpPerCapita": "4 545 USD",
+            "gdpNominal": "84 milliards USD",
+            "gdpPerCapita": "3 850 USD",
             "globalRank": "77e mondial",
-            "growth": "+5,0 %",
-            "inflation": "-0,4 %"
+            "growth": "+2,2 % (sortie de crise FMI)",
+            "inflation": "4,0 %"
         },
         "structure": {
             "services": "60,0 %",
@@ -1872,11 +1872,11 @@
             "centralBank": "Autorité monétaire royale du Bhoutan (RMA)"
         },
         "macro": {
-            "gdpNominal": "3 milliards USD",
-            "gdpPerCapita": "4 228 USD",
+            "gdpNominal": "3,0 milliards USD",
+            "gdpPerCapita": "3 800 USD",
             "globalRank": "165e mondial",
-            "growth": "+7,5 %",
-            "inflation": "2,8 %"
+            "growth": "+4,6 %",
+            "inflation": "4,2 %"
         },
         "structure": {
             "services": "48,0 %",
@@ -1914,11 +1914,11 @@
             "centralBank": "Autorité monétaire des Maldives (MMA)"
         },
         "macro": {
-            "gdpNominal": "7 milliards USD",
-            "gdpPerCapita": "13 379 USD",
+            "gdpNominal": "6,6 milliards USD",
+            "gdpPerCapita": "12 500 USD",
             "globalRank": "155e mondial",
-            "growth": "+3,5 %",
-            "inflation": "1,4 %"
+            "growth": "+6,5 %",
+            "inflation": "2,1 %"
         },
         "structure": {
             "services": "78,0 %",
@@ -1958,11 +1958,11 @@
             "centralBank": "Banque nationale de Géorgie"
         },
         "macro": {
-            "gdpNominal": "34 milliards USD",
-            "gdpPerCapita": "8 968 USD",
+            "gdpNominal": "30 milliards USD",
+            "gdpPerCapita": "8 100 USD",
             "globalRank": "110e mondial",
-            "growth": "+9,7 %",
-            "inflation": "1,1 %"
+            "growth": "+7,5 %",
+            "inflation": "1,5 %"
         },
         "structure": {
             "services": "68,0 %",
@@ -2003,11 +2003,11 @@
             "centralBank": "Banque centrale d'Arménie (CBA)"
         },
         "macro": {
-            "gdpNominal": "26 milliards USD",
-            "gdpPerCapita": "8 556 USD",
+            "gdpNominal": "24 milliards USD",
+            "gdpPerCapita": "8 200 USD",
             "globalRank": "117e mondial",
-            "growth": "+5,9 %",
-            "inflation": "0,3 %"
+            "growth": "+8,7 %",
+            "inflation": "2,0 %"
         },
         "structure": {
             "services": "56,0 %",
@@ -2047,11 +2047,11 @@
             "centralBank": "Banque centrale de la République d'Azerbaïdjan (CBAR)"
         },
         "macro": {
-            "gdpNominal": "74 milliards USD",
-            "gdpPerCapita": "7 295 USD",
+            "gdpNominal": "78 milliards USD",
+            "gdpPerCapita": "7 600 USD",
             "globalRank": "80e mondial",
-            "growth": "+4,2 %",
-            "inflation": "2,2 %"
+            "growth": "+1,1 %",
+            "inflation": "2,1 %"
         },
         "structure": {
             "services": "36,0 %",

@@ -1,10 +1,10 @@
 {
     "CHN": {
         "general": {
-            "population": "1,4 milliard d'habitants",
+            "population": "1 409,7 millions d'habitants",
             "globalRank": "2e mondial (dépassée par l'Inde en 2023)",
             "density": "150 hab./km² (94 % de la population à l'est de la ligne Heihe-Tengchong)",
-            "growthRate": "-0,1 % par an (décroissance naturelle amorcée)"
+            "growthRate": "-0,15 % par an (décroissance naturelle amorcée)"
         },
         "fertilityMortality": {
             "fertilityRate": "1,0 enfant par femme",
@@ -16,9 +16,9 @@
         "ageStructure": {
             "medianAge": "39,6 ans (vieillissement accéléré)",
             "lifeExpectancy": {
-                "total": "78,0 ans",
-                "women": "81,0 ans",
-                "men": "75,2 ans"
+                "total": "78,2 ans",
+                "women": "81,1 ans",
+                "men": "75,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,5 %",
@@ -28,7 +28,7 @@
             "dependencyRatio": "46,8 %"
         },
         "urbanization": {
-            "urbanRate": "65,9 %",
+            "urbanRate": "66,2 %",
             "mainMetropolises": [
                 "Shanghai (29,2 millions hab. - mégapole financière et 1er port mondial de conteneurs)",
                 "Pékin / Beijing (22,0 millions hab. - capitale politique et centre décisionnel)",
@@ -50,10 +50,10 @@
     },
     "IND": {
         "general": {
-            "population": "1,5 milliard d'habitants",
+            "population": "1 441,7 millions d'habitants",
             "globalRank": "1er mondial (dépassement officiel de la Chine mi-2023)",
             "density": "438 hab./km² (très fortes densités dans la plaine gangétique >1 000 hab./km²)",
-            "growthRate": "+0,9 % par an (décélération continue)"
+            "growthRate": "+0,75 % par an (décélération continue)"
         },
         "fertilityMortality": {
             "fertilityRate": "2,0 enfants par femme (passé sous le seuil de remplacement)",
@@ -65,9 +65,9 @@
         "ageStructure": {
             "medianAge": "28,7 ans (immense dividende démographique en cours)",
             "lifeExpectancy": {
-                "total": "72,2 ans",
-                "women": "73,9 ans",
-                "men": "70,7 ans"
+                "total": "72,0 ans",
+                "women": "73,6 ans",
+                "men": "70,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "25,0 %",
@@ -77,7 +77,7 @@
             "dependencyRatio": "46,9 %"
         },
         "urbanization": {
-            "urbanRate": "35,4 % (pays encore majoritairement rural, transition urbaine massive)",
+            "urbanRate": "36,4 % (pays encore majoritairement rural, transition urbaine massive)",
             "mainMetropolises": [
                 "Delhi / New Delhi (33,8 millions hab. aire métropolitaine - capitale fédérale)",
                 "Mumbai / Bombay (21,6 millions hab. - capitale financière et commerciale)",
@@ -100,13 +100,13 @@
     },
     "JPN": {
         "general": {
-            "population": "124,0 millions d'habitants",
+            "population": "124,1 millions d'habitants",
             "globalRank": "12e mondial",
             "density": "332 hab./km² (extrême concentration sur les plaines côtières)",
-            "growthRate": "-0,4 % par an (perte de plus de 600 000 habitants par an)"
+            "growthRate": "-0,55 % par an (perte de plus de 600 000 habitants par an)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,1 enfant par femme",
+            "fertilityRate": "1,20 enfant par femme",
             "birthRate": "6,0 ‰",
             "deathRate": "12,9 ‰",
             "infantMortality": "1,7 ‰ (l'une des plus faibles au monde)",
@@ -115,9 +115,9 @@
         "ageStructure": {
             "medianAge": "49,5 ans (pays le plus âgé du monde avec Monaco)",
             "lifeExpectancy": {
-                "total": "84,0 ans",
-                "women": "87,1 ans",
-                "men": "81,1 ans"
+                "total": "84,6 ans (parmi les plus élevées au monde)",
+                "women": "87,6 ans",
+                "men": "81,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "11,5 % (plus bas ratio au monde)",
@@ -127,7 +127,7 @@
             "dependencyRatio": "71,0 %"
         },
         "urbanization": {
-            "urbanRate": "92,2 % (la mégalopole de Taiheiyō concentre les deux tiers de la nation)",
+            "urbanRate": "92,0 % (la mégalopole de Taiheiyō concentre les deux tiers de la nation)",
             "mainMetropolises": [
                 "Tokyo (37,4 millions hab. Grand Tokyo - plus grande agglomération urbaine mondiale)",
                 "Osaka-Kobe-Kyoto / Keihanshin (19,0 millions hab. - 2e métropole industrielle et culturelle)",
@@ -149,13 +149,13 @@
     },
     "KOR": {
         "general": {
-            "population": "51,8 millions d'habitants",
+            "population": "51,7 millions d'habitants",
             "globalRank": "29e mondial",
             "density": "515 hab./km²",
-            "growthRate": "+0,1 % par an"
+            "growthRate": "-0,20 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "0,7 enfant par femme (record mondial du taux de fécondité le plus bas)",
+            "fertilityRate": "0,72 enfant par femme (record mondial du taux de fécondité le plus bas)",
             "birthRate": "4,5 ‰",
             "deathRate": "7,0 ‰",
             "infantMortality": "2,3 ‰",
@@ -164,9 +164,9 @@
         "ageStructure": {
             "medianAge": "45,0 ans (progression la plus rapide de l'OCDE)",
             "lifeExpectancy": {
-                "total": "83,6 ans",
+                "total": "83,7 ans",
                 "women": "86,6 ans",
-                "men": "80,8 ans"
+                "men": "80,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "11,2 %",
@@ -176,7 +176,7 @@
             "dependencyRatio": "43,3 %"
         },
         "urbanization": {
-            "urbanRate": "81,2 %",
+            "urbanRate": "81,4 %",
             "mainMetropolises": [
                 "Séoul (9,6 millions intramuros / 26,0 millions Région Capitale Sudogwon - 50 % de la population nationale)",
                 "Busan / Pusan (3,4 millions hab. - 1er port maritime et logistique)",
@@ -198,13 +198,13 @@
     },
     "PRK": {
         "general": {
-            "population": "26,5 millions d'habitants",
+            "population": "26,1 millions d'habitants",
             "globalRank": "56e mondial",
             "density": "217 hab./km²",
-            "growthRate": "+0,3 % par an"
+            "growthRate": "+0,35 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,8 enfants par femme",
+            "fertilityRate": "1,8 enfant par femme",
             "birthRate": "13,1 ‰",
             "deathRate": "9,3 ‰",
             "infantMortality": "12,8 ‰",
@@ -213,9 +213,9 @@
         "ageStructure": {
             "medianAge": "35,6 ans",
             "lifeExpectancy": {
-                "total": "73,7 ans",
-                "women": "75,9 ans",
-                "men": "71,6 ans"
+                "total": "73,4 ans",
+                "women": "76,2 ans",
+                "men": "70,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "19,8 %",
@@ -246,10 +246,10 @@
     },
     "IDN": {
         "general": {
-            "population": "283,5 millions d'habitants",
+            "population": "279,8 millions d'habitants",
             "globalRank": "4e mondial (3e d'Asie, 1er pays musulman au monde)",
             "density": "146 hab./km² (Java abrite 56 % de la population : >1 100 hab./km²)",
-            "growthRate": "+0,8 % par an"
+            "growthRate": "+0,72 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,1 enfants par femme (au seuil exact de renouvellement)",
@@ -261,9 +261,9 @@
         "ageStructure": {
             "medianAge": "30,2 ans (jeunesse dynamique)",
             "lifeExpectancy": {
-                "total": "71,3 ans",
-                "women": "73,4 ans",
-                "men": "69,2 ans"
+                "total": "71,5 ans",
+                "women": "73,7 ans",
+                "men": "69,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "25,1 %",
@@ -273,7 +273,7 @@
             "dependencyRatio": "47,5 %"
         },
         "urbanization": {
-            "urbanRate": "58,8 %",
+            "urbanRate": "58,5 %",
             "mainMetropolises": [
                 "Jakarta (11,0 millions intramuros / 34,5 millions Grand Jakarta Jabodetabek - 2e mégapole mondiale)",
                 "Surabaya (3,0 millions hab. - 2e ville et hub de l'est de Java)",
@@ -295,10 +295,10 @@
     },
     "SAU": {
         "general": {
-            "population": "35,3 millions d'habitants",
+            "population": "36,9 millions d'habitants",
             "globalRank": "41e mondial",
             "density": "17 hab./km²",
-            "growthRate": "+4,6 % par an"
+            "growthRate": "+1,48 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,3 enfants par femme",
@@ -310,9 +310,9 @@
         "ageStructure": {
             "medianAge": "31,8 ans",
             "lifeExpectancy": {
-                "total": "79,0 ans",
-                "women": "81,3 ans",
-                "men": "77,3 ans"
+                "total": "77,9 ans",
+                "women": "79,8 ans",
+                "men": "76,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "24,8 %",
@@ -322,7 +322,7 @@
             "dependencyRatio": "39,7 %"
         },
         "urbanization": {
-            "urbanRate": "84,5 %",
+            "urbanRate": "84,8 %",
             "mainMetropolises": [
                 "Riyad (7,7 millions hab. - capitale politique, financière et siège de Vision 2030)",
                 "Djeddah (4,7 millions hab. - 1er port commercial et porte des pèlerinages)",
@@ -344,13 +344,13 @@
     },
     "IRN": {
         "general": {
-            "population": "91,6 millions d'habitants",
+            "population": "89,2 millions d'habitants",
             "globalRank": "17e mondial (2e du Moyen-Orient après l'Égypte)",
             "density": "55 hab./km²",
-            "growthRate": "+1,1 % par an"
+            "growthRate": "+0,70 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,7 enfants par femme (chute historique de la fécondité)",
+            "fertilityRate": "1,6 enfant par femme (chute historique de la fécondité)",
             "birthRate": "13,5 ‰",
             "deathRate": "5,4 ‰",
             "infantMortality": "10,8 ‰",
@@ -359,9 +359,9 @@
         "ageStructure": {
             "medianAge": "33,2 ans",
             "lifeExpectancy": {
-                "total": "77,9 ans",
-                "women": "79,8 ans",
-                "men": "76,0 ans"
+                "total": "76,8 ans",
+                "women": "78,5 ans",
+                "men": "75,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "23,5 %",
@@ -371,7 +371,7 @@
             "dependencyRatio": "44,5 %"
         },
         "urbanization": {
-            "urbanRate": "77,0 %",
+            "urbanRate": "76,8 %",
             "mainMetropolises": [
                 "Téhéran (9,5 millions intramuros / 16,0 millions Grand Téhéran - capitale tentaculaire)",
                 "Machhad (3,4 millions hab. - métropole religieuse et sanctuaire de l'Imam Reza)",
@@ -394,10 +394,10 @@
     },
     "ISR": {
         "general": {
-            "population": "10,0 millions d'habitants",
+            "population": "9,8 millions d'habitants",
             "globalRank": "98e mondial",
             "density": "440 hab./km²",
-            "growthRate": "+1,5 % par an (la plus forte croissance démographique de l'OCDE)"
+            "growthRate": "+1,8 % par an (la plus forte croissance démographique de l'OCDE)"
         },
         "fertilityMortality": {
             "fertilityRate": "2,9 enfants par femme (exception démographique absolue dans les pays développés)",
@@ -410,8 +410,8 @@
             "medianAge": "30,5 ans (société très jeune pour un pays développé)",
             "lifeExpectancy": {
                 "total": "83,2 ans",
-                "women": "85,4 ans",
-                "men": "81,1 ans"
+                "women": "84,9 ans",
+                "men": "81,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "27,6 %",
@@ -421,7 +421,7 @@
             "dependencyRatio": "66,1 %"
         },
         "urbanization": {
-            "urbanRate": "91,5 %",
+            "urbanRate": "92,8 %",
             "mainMetropolises": [
                 "Tel Aviv-Jaffa (4,4 millions aire métropolitaine Gush Dan - Silicon Wadi et cœur économique)",
                 "Jérusalem (980 000 hab. - capitale proclamée, mosaïque religieuse et administrative)",
@@ -442,13 +442,13 @@
     },
     "PSE": {
         "general": {
-            "population": "5,3 millions d'habitants (Cisjordanie : 3,25M ; Bande de Gaza : 2,2M)",
+            "population": "5,45 millions d'habitants (Cisjordanie : 3,25M ; Bande de Gaza : 2,2M)",
             "globalRank": "121e mondial",
             "density": "890 hab./km² global (>5 500 hab./km² dans la Bande de Gaza)",
-            "growthRate": "+2,4 % par an"
+            "growthRate": "+2,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,2 enfants par femme (3,8 à Gaza, 3,1 en Cisjordanie)",
+            "fertilityRate": "3,4 enfants par femme (3,8 à Gaza, 3,1 en Cisjordanie)",
             "birthRate": "28,5 ‰",
             "deathRate": "3,5 ‰ (hors surmortalité des conflits)",
             "infantMortality": "12,5 ‰",
@@ -457,9 +457,9 @@
         "ageStructure": {
             "medianAge": "20,8 ans (extrême jeunesse)",
             "lifeExpectancy": {
-                "total": "69,2 ans",
-                "women": "74,3 ans",
-                "men": "65,2 ans"
+                "total": "74,4 ans",
+                "women": "76,2 ans",
+                "men": "72,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "37,8 %",
@@ -469,7 +469,7 @@
             "dependencyRatio": "70,1 %"
         },
         "urbanization": {
-            "urbanRate": "87,1 %",
+            "urbanRate": "77,5 %",
             "mainMetropolises": [
                 "Gaza-Ville (750 000 hab. avant 2023 - cœur urbain de la Bande de Gaza)",
                 "Hébron / Al-Khalil (250 000 hab. - poumon commercial et industriel de Cisjordanie)",
@@ -492,13 +492,13 @@
     },
     "ARE": {
         "general": {
-            "population": "11,0 millions d'habitants",
+            "population": "10,1 millions d'habitants",
             "globalRank": "93e mondial",
             "density": "121 hab./km²",
-            "growthRate": "+4,7 % par an"
+            "growthRate": "+1,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,2 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "9,8 ‰",
             "deathRate": "1,8 ‰ (ratio le plus bas au monde grâce aux résidents jeunes)",
             "infantMortality": "4,9 ‰",
@@ -507,9 +507,9 @@
         "ageStructure": {
             "medianAge": "34,2 ans (déséquilibre hommes/femmes de 69 % d'hommes pour 31 % de femmes)",
             "lifeExpectancy": {
-                "total": "83,1 ans",
-                "women": "84,3 ans",
-                "men": "82,2 ans"
+                "total": "79,2 ans",
+                "women": "80,8 ans",
+                "men": "78,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,8 %",
@@ -519,7 +519,7 @@
             "dependencyRatio": "20,2 %"
         },
         "urbanization": {
-            "urbanRate": "85,8 %",
+            "urbanRate": "87,8 %",
             "mainMetropolises": [
                 "Dubaï (3,65 millions hab. - hub mondial du tourisme, de la finance et du commerce)",
                 "Abou Dabi (1,6 million hab. - capitale fédérale et centre financier souverain)",
@@ -541,13 +541,13 @@
     },
     "QAT": {
         "general": {
-            "population": "2,9 millions d'habitants",
+            "population": "2,75 millions d'habitants",
             "globalRank": "142e mondial",
             "density": "237 hab./km²",
-            "growthRate": "+7,3 % par an"
+            "growthRate": "+1,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,7 enfants par femme",
+            "fertilityRate": "1,8 enfant par femme",
             "birthRate": "9,2 ‰",
             "deathRate": "1,4 ‰",
             "infantMortality": "5,1 ‰",
@@ -556,9 +556,9 @@
         "ageStructure": {
             "medianAge": "34,5 ans (72 % d'hommes)",
             "lifeExpectancy": {
-                "total": "82,5 ans",
-                "women": "83,5 ans",
-                "men": "81,8 ans"
+                "total": "81,6 ans",
+                "women": "83,2 ans",
+                "men": "80,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "13,9 %",
@@ -589,13 +589,13 @@
     },
     "KWT": {
         "general": {
-            "population": "4,9 millions d'habitants",
+            "population": "4,35 millions d'habitants",
             "globalRank": "130e mondial",
             "density": "244 hab./km²",
-            "growthRate": "+0,9 % par an"
+            "growthRate": "+1,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,6 enfants par femme",
+            "fertilityRate": "2,0 enfants par femme",
             "birthRate": "12,4 ‰",
             "deathRate": "2,5 ‰",
             "infantMortality": "6,8 ‰",
@@ -604,9 +604,9 @@
         "ageStructure": {
             "medianAge": "31,0 ans",
             "lifeExpectancy": {
-                "total": "84,6 ans",
-                "women": "85,4 ans",
-                "men": "83,8 ans"
+                "total": "79,0 ans",
+                "women": "80,8 ans",
+                "men": "77,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "21,2 %",
@@ -616,7 +616,7 @@
             "dependencyRatio": "33,1 %"
         },
         "urbanization": {
-            "urbanRate": "100,0 % (100 % urbain)",
+            "urbanRate": "100 % (100 % urbain)",
             "mainMetropolises": [
                 "Koweït City (3,2 millions hab. agglomération métropolitaine - capitale politique et financière)",
                 "Al-Ahmadi (650 000 hab. - siège de la Kuwait Oil Company)",
@@ -636,10 +636,10 @@
     },
     "OMN": {
         "general": {
-            "population": "5,3 millions d'habitants",
+            "population": "4,65 millions d'habitants",
             "globalRank": "126e mondial",
             "density": "15 hab./km²",
-            "growthRate": "+4,5 % par an"
+            "growthRate": "+1,5 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,5 enfants par femme",
@@ -651,9 +651,9 @@
         "ageStructure": {
             "medianAge": "30,8 ans",
             "lifeExpectancy": {
-                "total": "80,2 ans",
-                "women": "82,0 ans",
-                "men": "78,7 ans"
+                "total": "78,6 ans",
+                "women": "80,7 ans",
+                "men": "76,9 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "21,8 %",
@@ -663,7 +663,7 @@
             "dependencyRatio": "33,0 %"
         },
         "urbanization": {
-            "urbanRate": "79,4 %",
+            "urbanRate": "87,2 %",
             "mainMetropolises": [
                 "Mascate (1,65 million hab. Grand Mascate - capitale portuaire historique)",
                 "Salalah (400 000 hab. - métropole du Dhofar bénéficiant de la mousson du Khareef)",
@@ -684,13 +684,13 @@
     },
     "BHR": {
         "general": {
-            "population": "1,6 millions d'habitants",
+            "population": "1,55 million d'habitants",
             "globalRank": "153e mondial",
             "density": "1 980 hab./km²",
-            "growthRate": "+0,7 % par an"
+            "growthRate": "+1,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,8 enfants par femme",
+            "fertilityRate": "1,8 enfant par femme",
             "birthRate": "13,6 ‰",
             "deathRate": "2,4 ‰",
             "infantMortality": "5,6 ‰",
@@ -699,9 +699,9 @@
         "ageStructure": {
             "medianAge": "33,0 ans",
             "lifeExpectancy": {
-                "total": "81,4 ans",
-                "women": "82,1 ans",
-                "men": "80,9 ans"
+                "total": "79,2 ans",
+                "women": "80,7 ans",
+                "men": "78,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "18,5 %",
@@ -711,7 +711,7 @@
             "dependencyRatio": "28,5 %"
         },
         "urbanization": {
-            "urbanRate": "100,0 %",
+            "urbanRate": "89,6 %",
             "mainMetropolises": [
                 "Manama (650 000 hab. agglomération - capitale, hub bancaire offshore et tech)",
                 "Riffa (200 000 hab. - résidence royale)",
@@ -731,13 +731,13 @@
     },
     "YEM": {
         "general": {
-            "population": "40,6 millions d'habitants",
+            "population": "34,4 millions d'habitants",
             "globalRank": "46e mondial",
             "density": "65 hab./km²",
-            "growthRate": "+3,0 % par an"
+            "growthRate": "+2,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,5 enfants par femme",
+            "fertilityRate": "3,8 enfants par femme",
             "birthRate": "29,4 ‰",
             "deathRate": "6,1 ‰",
             "infantMortality": "42,0 ‰",
@@ -746,9 +746,9 @@
         "ageStructure": {
             "medianAge": "19,5 ans (extrême jeunesse)",
             "lifeExpectancy": {
-                "total": "69,4 ans",
-                "women": "71,5 ans",
-                "men": "67,4 ans"
+                "total": "64,2 ans",
+                "women": "66,8 ans",
+                "men": "61,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "39,2 %",
@@ -758,7 +758,7 @@
             "dependencyRatio": "72,7 %"
         },
         "urbanization": {
-            "urbanRate": "36,8 %",
+            "urbanRate": "38,5 %",
             "mainMetropolises": [
                 "Sanaa (3,3 millions hab. - capitale historique des hautes terres contrôlée par les Houthis)",
                 "Aden (1,1 million hab. - grand port stratégique sur le golfe d'Aden, capitale provisoire)",
@@ -779,13 +779,13 @@
     },
     "IRQ": {
         "general": {
-            "population": "46,0 millions d'habitants",
+            "population": "45,5 millions d'habitants",
             "globalRank": "35e mondial",
             "density": "104 hab./km²",
             "growthRate": "+2,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,2 enfants par femme",
+            "fertilityRate": "3,3 enfants par femme",
             "birthRate": "26,8 ‰",
             "deathRate": "4,9 ‰",
             "infantMortality": "20,5 ‰",
@@ -794,9 +794,9 @@
         "ageStructure": {
             "medianAge": "21,2 ans",
             "lifeExpectancy": {
-                "total": "72,4 ans",
-                "women": "74,2 ans",
-                "men": "70,5 ans"
+                "total": "71,3 ans",
+                "women": "73,4 ans",
+                "men": "69,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "37,0 %",
@@ -806,7 +806,7 @@
             "dependencyRatio": "67,8 %"
         },
         "urbanization": {
-            "urbanRate": "69,9 %",
+            "urbanRate": "71,4 %",
             "mainMetropolises": [
                 "Bagdad (7,6 millions hab. aire métropolitaine - capitale historique de la Mésopotamie)",
                 "Mossoul (1,8 million hab. - métropole du nord de la plaine de Ninive)",
@@ -829,10 +829,10 @@
     },
     "SYR": {
         "general": {
-            "population": "24,7 millions d'habitants (population résidente sous tension extrême)",
+            "population": "23,2 millions d'habitants (population résidente sous tension extrême)",
             "globalRank": "60e mondial",
             "density": "125 hab./km²",
-            "growthRate": "+4,5 % par an"
+            "growthRate": "+2,8 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,7 enfants par femme",
@@ -844,9 +844,9 @@
         "ageStructure": {
             "medianAge": "24,0 ans",
             "lifeExpectancy": {
-                "total": "72,6 ans",
-                "women": "74,9 ans",
-                "men": "70,2 ans"
+                "total": "72,1 ans",
+                "women": "75,2 ans",
+                "men": "69,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "32,5 %",
@@ -856,7 +856,7 @@
             "dependencyRatio": "59,2 %"
         },
         "urbanization": {
-            "urbanRate": "72,1 %",
+            "urbanRate": "56,4 %",
             "mainMetropolises": [
                 "Damas (2,6 millions hab. - plus ancienne capitale continuellement habitée au monde)",
                 "Alep (2,1 millions hab. - pôle commercial et industriel historique du Levant)",
@@ -877,13 +877,13 @@
     },
     "LBN": {
         "general": {
-            "population": "5,8 millions d'habitants (incluant ~1,5 million de réfugiés syriens et palestiniens)",
+            "population": "5,35 millions d'habitants (incluant ~1,5 million de réfugiés syriens et palestiniens)",
             "globalRank": "123e mondial",
             "density": "520 hab./km²",
-            "growthRate": "+0,6 % par an"
+            "growthRate": "-0,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,2 enfants par femme",
+            "fertilityRate": "1,6 enfant par femme",
             "birthRate": "13,2 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "6,4 ‰",
@@ -892,9 +892,9 @@
         "ageStructure": {
             "medianAge": "33,8 ans",
             "lifeExpectancy": {
-                "total": "77,9 ans",
-                "women": "79,9 ans",
-                "men": "75,9 ans"
+                "total": "75,0 ans",
+                "women": "77,4 ans",
+                "men": "72,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "23,1 %",
@@ -904,7 +904,7 @@
             "dependencyRatio": "47,1 %"
         },
         "urbanization": {
-            "urbanRate": "90,7 %",
+            "urbanRate": "89,2 %",
             "mainMetropolises": [
                 "Beyrouth (2,4 millions hab. Grand Beyrouth - capitale cosmopolite et carrefour du Levant)",
                 "Tripoli (500 000 hab. - métropole du nord à majorité sunnite)",
@@ -925,10 +925,10 @@
     },
     "JOR": {
         "general": {
-            "population": "11,6 millions d'habitants",
+            "population": "11,4 millions d'habitants",
             "globalRank": "88e mondial",
             "density": "128 hab./km²",
-            "growthRate": "+1,0 % par an"
+            "growthRate": "+1,2 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,6 enfants par femme",
@@ -940,9 +940,9 @@
         "ageStructure": {
             "medianAge": "24,8 ans",
             "lifeExpectancy": {
-                "total": "78,0 ans",
-                "women": "80,3 ans",
-                "men": "75,9 ans"
+                "total": "74,5 ans",
+                "women": "76,8 ans",
+                "men": "72,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "33,0 %",
@@ -952,7 +952,7 @@
             "dependencyRatio": "58,2 %"
         },
         "urbanization": {
-            "urbanRate": "93,0 %",
+            "urbanRate": "91,6 %",
             "mainMetropolises": [
                 "Amman (4,6 millions hab. Grand Amman - capitale politique et cœur démographique)",
                 "Zarqa (1,1 million hab. - grand centre industriel)",
@@ -973,13 +973,13 @@
     },
     "PAK": {
         "general": {
-            "population": "251,3 millions d'habitants",
+            "population": "241,5 millions d'habitants",
             "globalRank": "5e mondial (2e pays musulman le plus peuplé)",
             "density": "303 hab./km²",
-            "growthRate": "+1,5 % par an (l'une des croissances les plus rapides d'Asie)"
+            "growthRate": "+2,55 % par an (l'une des croissances les plus rapides d'Asie)"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,5 enfants par femme",
+            "fertilityRate": "3,4 enfants par femme",
             "birthRate": "27,2 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "53,5 ‰ (l'une des plus élevées d'Asie)",
@@ -988,9 +988,9 @@
         "ageStructure": {
             "medianAge": "20,6 ans (jeunesse foisonnante)",
             "lifeExpectancy": {
-                "total": "67,8 ans",
-                "women": "70,3 ans",
-                "men": "65,5 ans"
+                "total": "66,4 ans",
+                "women": "68,6 ans",
+                "men": "64,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "37,4 %",
@@ -1000,7 +1000,7 @@
             "dependencyRatio": "71,8 %"
         },
         "urbanization": {
-            "urbanRate": "39,2 %",
+            "urbanRate": "37,4 %",
             "mainMetropolises": [
                 "Karachi (17,2 millions hab. - capitale économique, financière et grand port)",
                 "Lahore (13,5 millions hab. - capitale culturelle et historique du Pendjab)",
@@ -1022,13 +1022,13 @@
     },
     "BGD": {
         "general": {
-            "population": "173,6 millions d'habitants",
+            "population": "173,0 millions d'habitants",
             "globalRank": "8e mondial",
             "density": "1 180 hab./km² (le grand pays non insulaire le plus dense du monde)",
-            "growthRate": "+1,2 % par an"
+            "growthRate": "+1,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,1 enfants par femme (succès remarquable de la transition)",
+            "fertilityRate": "1,9 enfant par femme (succès remarquable de la transition)",
             "birthRate": "17,5 ‰",
             "deathRate": "5,6 ‰",
             "infantMortality": "21,6 ‰",
@@ -1037,9 +1037,9 @@
         "ageStructure": {
             "medianAge": "27,9 ans",
             "lifeExpectancy": {
-                "total": "74,9 ans",
-                "women": "76,7 ans",
-                "men": "73,3 ans"
+                "total": "72,8 ans (supérieure à l'Inde et au Pakistan)",
+                "women": "74,6 ans",
+                "men": "71,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "26,1 %",
@@ -1049,7 +1049,7 @@
             "dependencyRatio": "47,7 %"
         },
         "urbanization": {
-            "urbanRate": "32,7 %",
+            "urbanRate": "39,7 %",
             "mainMetropolises": [
                 "Dhaka / Dacca (23,2 millions hab. aire métropolitaine - mégapole du delta et textile mondial)",
                 "Chittagong / Chattogram (5,4 millions hab. - 1er port maritime)",
@@ -1070,7 +1070,7 @@
     },
     "VNM": {
         "general": {
-            "population": "101,0 millions d'habitants (seuil franchi en 2023)",
+            "population": "100,3 millions d'habitants (seuil franchi en 2023)",
             "globalRank": "15e mondial",
             "density": "310 hab./km²",
             "growthRate": "+0,7 % par an"
@@ -1086,8 +1086,8 @@
             "medianAge": "33,2 ans",
             "lifeExpectancy": {
                 "total": "74,2 ans",
-                "women": "79,4 ans",
-                "men": "70,1 ans"
+                "women": "77,8 ans",
+                "men": "70,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "22,5 %",
@@ -1097,7 +1097,7 @@
             "dependencyRatio": "45,6 %"
         },
         "urbanization": {
-            "urbanRate": "38,5 %",
+            "urbanRate": "39,5 %",
             "mainMetropolises": [
                 "Hô Chi Minh-Ville (9,3 millions hab. - poumon économique, financier et commercial du Sud)",
                 "Hanoï (8,5 millions hab. - capitale politique millénaire et centre culturel)",
@@ -1119,13 +1119,13 @@
     },
     "THA": {
         "general": {
-            "population": "71,7 millions d'habitants",
+            "population": "71,8 millions d'habitants",
             "globalRank": "20e mondial",
             "density": "140 hab./km²",
-            "growthRate": "-0,0 % par an (stagnation proche de la décroissance)"
+            "growthRate": "+0,15 % par an (stagnation proche de la décroissance)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,2 enfant par femme",
+            "fertilityRate": "1,16 enfant par femme",
             "birthRate": "9,0 ‰",
             "deathRate": "8,2 ‰",
             "infantMortality": "7,4 ‰",
@@ -1134,9 +1134,9 @@
         "ageStructure": {
             "medianAge": "40,5 ans (société déjà mûre)",
             "lifeExpectancy": {
-                "total": "76,6 ans",
-                "women": "81,0 ans",
-                "men": "72,3 ans"
+                "total": "79,2 ans",
+                "women": "82,5 ans",
+                "men": "75,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "16,0 %",
@@ -1146,7 +1146,7 @@
             "dependencyRatio": "42,8 %"
         },
         "urbanization": {
-            "urbanRate": "61,9 %",
+            "urbanRate": "53,6 %",
             "mainMetropolises": [
                 "Bangkok (11,0 millions hab. Région métropolitaine - macrocéphalie urbaine)",
                 "Chiang Mai (1,2 million aire métropolitaine - capitale culturelle du Nord)",
@@ -1167,10 +1167,10 @@
     },
     "MYS": {
         "general": {
-            "population": "35,6 millions d'habitants",
+            "population": "34,3 millions d'habitants",
             "globalRank": "45e mondial",
             "density": "104 hab./km²",
-            "growthRate": "+1,2 % par an"
+            "growthRate": "+1,1 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "1,8 enfant par femme",
@@ -1182,9 +1182,9 @@
         "ageStructure": {
             "medianAge": "30,6 ans",
             "lifeExpectancy": {
-                "total": "76,8 ans",
-                "women": "79,5 ans",
-                "men": "74,4 ans"
+                "total": "76,5 ans",
+                "women": "78,8 ans",
+                "men": "74,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "23,2 %",
@@ -1194,7 +1194,7 @@
             "dependencyRatio": "43,7 %"
         },
         "urbanization": {
-            "urbanRate": "76,9 %",
+            "urbanRate": "78,2 %",
             "mainMetropolises": [
                 "Kuala Lumpur / Vallée de Klang (8,6 millions hab. aire métropolitaine - capitale économique)",
                 "George Town / Penang (1,8 million hab. conurbation - hub semi-conducteurs)",
@@ -1215,13 +1215,13 @@
     },
     "SGP": {
         "general": {
-            "population": "6,0 millions d'habitants",
+            "population": "5,92 millions d'habitants",
             "globalRank": "114e mondial",
             "density": "8 358 hab./km²",
-            "growthRate": "+2,0 % par an"
+            "growthRate": "+1,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,0 enfant par femme (l'un des plus bas au monde)",
+            "fertilityRate": "0,97 enfant par femme (l'un des plus bas au monde)",
             "birthRate": "7,8 ‰",
             "deathRate": "5,1 ‰",
             "infantMortality": "1,8 ‰",
@@ -1230,9 +1230,9 @@
         "ageStructure": {
             "medianAge": "42,8 ans",
             "lifeExpectancy": {
-                "total": "83,3 ans",
-                "women": "85,6 ans",
-                "men": "81,2 ans"
+                "total": "84,1 ans (top mondial de l'espérance de vie)",
+                "women": "86,4 ans",
+                "men": "81,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "12,1 %",
@@ -1242,7 +1242,7 @@
             "dependencyRatio": "42,2 %"
         },
         "urbanization": {
-            "urbanRate": "100,0 % (cité-État insulaire intégralement urbanisée)",
+            "urbanRate": "100 % (cité-État insulaire intégralement urbanisée)",
             "mainMetropolises": [
                 "Singapour (5,9 millions hab. - hub financier d'Asie, 2e port de conteneurs mondial et aéroport Changi)"
             ]
@@ -1260,13 +1260,13 @@
     },
     "PHL": {
         "general": {
-            "population": "115,8 millions d'habitants",
+            "population": "117,3 millions d'habitants",
             "globalRank": "13e mondial",
             "density": "391 hab./km²",
-            "growthRate": "+0,8 % par an"
+            "growthRate": "+1,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,9 enfants par femme",
+            "fertilityRate": "2,4 enfants par femme",
             "birthRate": "19,8 ‰",
             "deathRate": "6,2 ‰",
             "infantMortality": "20,0 ‰",
@@ -1275,9 +1275,9 @@
         "ageStructure": {
             "medianAge": "25,7 ans (très grande jeunesse)",
             "lifeExpectancy": {
-                "total": "69,9 ans",
-                "women": "73,0 ans",
-                "men": "67,0 ans"
+                "total": "72,2 ans",
+                "women": "74,8 ans",
+                "men": "69,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "30,5 %",
@@ -1287,7 +1287,7 @@
             "dependencyRatio": "56,2 %"
         },
         "urbanization": {
-            "urbanRate": "55,5 %",
+            "urbanRate": "48,0 %",
             "mainMetropolises": [
                 "Grand Manille / Metro Manila (14,7 millions hab. aire métropolitaine - cœur politique et financier)",
                 "Grand Cebu / Metro Cebu (3,2 millions hab. - pôle économique des Visayas)",
@@ -1311,7 +1311,7 @@
             "population": "54,5 millions d'habitants",
             "globalRank": "27e mondial",
             "density": "83 hab./km²",
-            "growthRate": "+0,7 % par an"
+            "growthRate": "+0,65 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,1 enfants par femme",
@@ -1324,7 +1324,7 @@
             "medianAge": "29,8 ans",
             "lifeExpectancy": {
                 "total": "67,1 ans",
-                "women": "70,4 ans",
+                "women": "70,2 ans",
                 "men": "64,0 ans"
             },
             "ageGroups": {
@@ -1335,7 +1335,7 @@
             "dependencyRatio": "46,6 %"
         },
         "urbanization": {
-            "urbanRate": "30,4 %",
+            "urbanRate": "31,8 %",
             "mainMetropolises": [
                 "Yangon / Rangoun (5,5 millions hab. - capitale économique et 1er port maritime)",
                 "Mandalay (1,5 million hab. - capitale culturelle du nord)",
@@ -1355,13 +1355,13 @@
     },
     "KHM": {
         "general": {
-            "population": "17,6 millions d'habitants",
+            "population": "16,9 millions d'habitants",
             "globalRank": "73e mondial",
             "density": "96 hab./km²",
-            "growthRate": "+1,2 % par an"
+            "growthRate": "+1,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,5 enfants par femme",
+            "fertilityRate": "2,3 enfants par femme",
             "birthRate": "18,2 ‰",
             "deathRate": "6,1 ‰",
             "infantMortality": "22,0 ‰",
@@ -1370,9 +1370,9 @@
         "ageStructure": {
             "medianAge": "27,4 ans",
             "lifeExpectancy": {
-                "total": "70,8 ans",
-                "women": "73,4 ans",
-                "men": "68,1 ans"
+                "total": "70,1 ans",
+                "women": "72,8 ans",
+                "men": "67,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "29,4 %",
@@ -1382,7 +1382,7 @@
             "dependencyRatio": "54,3 %"
         },
         "urbanization": {
-            "urbanRate": "40,9 %",
+            "urbanRate": "25,6 %",
             "mainMetropolises": [
                 "Phnom Penh (2,3 millions hab. - capitale politique, financière et industrielle)",
                 "Siem Reap (250 000 hab. - porte touristique des temples d'Angkor)",
@@ -1403,10 +1403,10 @@
     },
     "LAO": {
         "general": {
-            "population": "7,8 millions d'habitants",
+            "population": "7,65 millions d'habitants",
             "globalRank": "105e mondial",
             "density": "33 hab./km²",
-            "growthRate": "+1,4 % par an"
+            "growthRate": "+1,3 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,4 enfants par femme",
@@ -1418,9 +1418,9 @@
         "ageStructure": {
             "medianAge": "24,8 ans",
             "lifeExpectancy": {
-                "total": "69,2 ans",
-                "women": "71,5 ans",
-                "men": "67,0 ans"
+                "total": "68,5 ans",
+                "women": "70,8 ans",
+                "men": "66,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "31,0 %",
@@ -1430,7 +1430,7 @@
             "dependencyRatio": "55,7 %"
         },
         "urbanization": {
-            "urbanRate": "39,6 %",
+            "urbanRate": "37,6 %",
             "mainMetropolises": [
                 "Vientiane (1,0 million hab. aire métropolitaine - capitale sur le Mékong)",
                 "Savannakhet (130 000 hab. - carrefour sur le corridor économique Est-Ouest)",
@@ -1451,13 +1451,13 @@
     },
     "BRN": {
         "general": {
-            "population": "462 721 habitants",
+            "population": "450 000 habitants",
             "globalRank": "175e mondial",
             "density": "86 hab./km²",
             "growthRate": "+0,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,7 enfants par femme",
+            "fertilityRate": "1,7 enfant par femme",
             "birthRate": "13,8 ‰",
             "deathRate": "5,2 ‰",
             "infantMortality": "8,4 ‰",
@@ -1466,9 +1466,9 @@
         "ageStructure": {
             "medianAge": "32,8 ans",
             "lifeExpectancy": {
-                "total": "75,5 ans",
-                "women": "77,7 ans",
-                "men": "73,5 ans"
+                "total": "75,2 ans",
+                "women": "77,4 ans",
+                "men": "73,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "22,0 %",
@@ -1478,7 +1478,7 @@
             "dependencyRatio": "38,7 %"
         },
         "urbanization": {
-            "urbanRate": "74,9 %",
+            "urbanRate": "79,0 %",
             "mainMetropolises": [
                 "Bandar Seri Begawan (280 000 hab. agglomération - capitale et siège du sultanat)",
                 "Kuala Belait (35 000 hab. - centre pétrolier et gazier)"
@@ -1497,13 +1497,13 @@
     },
     "TLS": {
         "general": {
-            "population": "1,4 millions d'habitants",
+            "population": "1,36 million d'habitants",
             "globalRank": "157e mondial",
             "density": "91 hab./km²",
-            "growthRate": "+1,2 % par an"
+            "growthRate": "+1,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,6 enfants par femme",
+            "fertilityRate": "3,9 enfants par femme",
             "birthRate": "27,8 ‰",
             "deathRate": "6,4 ‰",
             "infantMortality": "34,2 ‰",
@@ -1512,9 +1512,9 @@
         "ageStructure": {
             "medianAge": "20,5 ans",
             "lifeExpectancy": {
-                "total": "67,9 ans",
-                "women": "69,7 ans",
-                "men": "66,3 ans"
+                "total": "69,8 ans",
+                "women": "72,1 ans",
+                "men": "67,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "37,5 %",
@@ -1524,7 +1524,7 @@
             "dependencyRatio": "73,3 %"
         },
         "urbanization": {
-            "urbanRate": "28,7 %",
+            "urbanRate": "32,2 %",
             "mainMetropolises": [
                 "Dili (280 000 hab. - capitale côtière et centre politique)",
                 "Baucau (20 000 hab. - 2e ville et pôle historique)"
@@ -1591,13 +1591,13 @@
     },
     "MNG": {
         "general": {
-            "population": "3,5 millions d'habitants",
+            "population": "3,45 millions d'habitants",
             "globalRank": "135e mondial",
             "density": "2,2 hab./km² (pays souverain le moins dense du monde)",
-            "growthRate": "+1,2 % par an"
+            "growthRate": "+1,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,5 enfants par femme",
+            "fertilityRate": "2,7 enfants par femme",
             "birthRate": "21,2 ‰",
             "deathRate": "6,1 ‰",
             "infantMortality": "12,4 ‰",
@@ -1606,9 +1606,9 @@
         "ageStructure": {
             "medianAge": "29,0 ans",
             "lifeExpectancy": {
-                "total": "72,4 ans",
-                "women": "77,1 ans",
-                "men": "67,9 ans"
+                "total": "71,8 ans",
+                "women": "76,2 ans",
+                "men": "67,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "30,8 %",
@@ -1618,7 +1618,7 @@
             "dependencyRatio": "55,8 %"
         },
         "urbanization": {
-            "urbanRate": "71,0 % (hyper-concentration dans la capitale)",
+            "urbanRate": "68,9 % (hyper-concentration dans la capitale)",
             "mainMetropolises": [
                 "Oulan-Bator (1,65 million hab. - concentre près de 50 % de la population nationale)",
                 "Erdenet (100 000 hab. - complexe minier géant de cuivre)",
@@ -1638,13 +1638,13 @@
     },
     "KAZ": {
         "general": {
-            "population": "20,6 millions d'habitants (seuil franchi en novembre 2023)",
+            "population": "20,1 millions d'habitants (seuil franchi en novembre 2023)",
             "globalRank": "65e mondial (9e pays au monde par la superficie)",
             "density": "7,4 hab./km²",
             "growthRate": "+1,3 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,0 enfants par femme (boom de natalité depuis 2015)",
+            "fertilityRate": "3,05 enfants par femme (boom de natalité depuis 2015)",
             "birthRate": "20,4 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "7,8 ‰",
@@ -1653,9 +1653,9 @@
         "ageStructure": {
             "medianAge": "31,8 ans",
             "lifeExpectancy": {
-                "total": "74,5 ans",
-                "women": "78,5 ans",
-                "men": "70,3 ans"
+                "total": "74,4 ans",
+                "women": "78,6 ans",
+                "men": "70,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "29,2 %",
@@ -1665,7 +1665,7 @@
             "dependencyRatio": "60,0 %"
         },
         "urbanization": {
-            "urbanRate": "62,1 %",
+            "urbanRate": "58,2 %",
             "mainMetropolises": [
                 "Almaty (2,2 millions hab. - métropole financière, culturelle et ancienne capitale)",
                 "Astana (1,4 million hab. - capitale futuriste du nord des steppes)",
@@ -1686,13 +1686,13 @@
     },
     "UZB": {
         "general": {
-            "population": "36,4 millions d'habitants (pays le plus peuplé d'Asie centrale)",
+            "population": "36,8 millions d'habitants (pays le plus peuplé d'Asie centrale)",
             "globalRank": "42e mondial",
             "density": "82 hab./km² (vallée de Ferghana >500 hab./km²)",
             "growthRate": "+2,0 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,5 enfants par femme",
+            "fertilityRate": "3,1 enfants par femme",
             "birthRate": "24,8 ‰",
             "deathRate": "5,0 ‰",
             "infantMortality": "10,5 ‰",
@@ -1701,9 +1701,9 @@
         "ageStructure": {
             "medianAge": "28,3 ans",
             "lifeExpectancy": {
-                "total": "72,5 ans",
-                "women": "75,5 ans",
-                "men": "69,6 ans"
+                "total": "74,3 ans",
+                "women": "76,6 ans",
+                "men": "72,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "30,5 %",
@@ -1713,7 +1713,7 @@
             "dependencyRatio": "57,5 %"
         },
         "urbanization": {
-            "urbanRate": "51,0 %",
+            "urbanRate": "50,4 %",
             "mainMetropolises": [
                 "Tachkent (3,0 millions hab. - plus grande métropole et capitale d'Asie centrale)",
                 "Samarcande (600 000 hab. - cité légendaire de la Route de la Soie)",
@@ -1735,13 +1735,13 @@
     },
     "TKM": {
         "general": {
-            "population": "7,5 millions d'habitants",
+            "population": "6,5 millions d'habitants",
             "globalRank": "111e mondial",
             "density": "13 hab./km² (désert du Karakoum occupant 80 % du pays)",
-            "growthRate": "+1,8 % par an"
+            "growthRate": "+1,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,7 enfants par femme",
+            "fertilityRate": "2,6 enfants par femme",
             "birthRate": "20,5 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "32,4 ‰",
@@ -1750,9 +1750,9 @@
         "ageStructure": {
             "medianAge": "27,5 ans",
             "lifeExpectancy": {
-                "total": "70,2 ans",
-                "women": "73,0 ans",
-                "men": "67,0 ans"
+                "total": "69,7 ans",
+                "women": "73,2 ans",
+                "men": "66,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "30,0 %",
@@ -1762,7 +1762,7 @@
             "dependencyRatio": "54,3 %"
         },
         "urbanization": {
-            "urbanRate": "47,1 %",
+            "urbanRate": "53,0 %",
             "mainMetropolises": [
                 "Achgabat (1,05 million hab. - capitale aux monuments en marbre blanc inscrits au Guinness)",
                 "Türkmenabat (280 000 hab. - pôle de l'est sur l'Amou-Daria)",
@@ -1783,7 +1783,7 @@
     },
     "KGZ": {
         "general": {
-            "population": "7,2 millions d'habitants",
+            "population": "7,1 millions d'habitants",
             "globalRank": "108e mondial",
             "density": "36 hab./km² (pays à 90 % montagneux dans les monts Tian Shan)",
             "growthRate": "+1,7 % par an"
@@ -1800,7 +1800,7 @@
             "lifeExpectancy": {
                 "total": "72,4 ans",
                 "women": "76,6 ans",
-                "men": "68,4 ans"
+                "men": "68,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "34,2 %",
@@ -1810,7 +1810,7 @@
             "dependencyRatio": "65,6 %"
         },
         "urbanization": {
-            "urbanRate": "34,7 %",
+            "urbanRate": "37,5 %",
             "mainMetropolises": [
                 "Bichkek (1,15 million hab. - capitale politique, financière et culturelle du nord)",
                 "Och (330 000 hab. - capitale du sud et carrefour de Ferghana)",
@@ -1830,13 +1830,13 @@
     },
     "TJK": {
         "general": {
-            "population": "10,6 millions d'habitants (seuil des 10M franchi en 2023)",
+            "population": "10,15 millions d'habitants (seuil des 10M franchi en 2023)",
             "globalRank": "92e mondial",
             "density": "71 hab./km² (pays à 93 % montagneux dominé par le Pamir)",
-            "growthRate": "+1,9 % par an"
+            "growthRate": "+2,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,0 enfants par femme",
+            "fertilityRate": "3,1 enfants par femme",
             "birthRate": "26,2 ‰",
             "deathRate": "5,1 ‰",
             "infantMortality": "24,0 ‰",
@@ -1845,9 +1845,9 @@
         "ageStructure": {
             "medianAge": "23,2 ans (le pays le plus jeune d'Asie centrale)",
             "lifeExpectancy": {
-                "total": "71,9 ans",
-                "women": "74,1 ans",
-                "men": "69,7 ans"
+                "total": "71,8 ans",
+                "women": "74,2 ans",
+                "men": "69,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "36,5 %",
@@ -1857,7 +1857,7 @@
             "dependencyRatio": "66,7 %"
         },
         "urbanization": {
-            "urbanRate": "26,2 %",
+            "urbanRate": "28,0 %",
             "mainMetropolises": [
                 "Douchanbé (1,2 million hab. - capitale politique et administrative)",
                 "Khodjent (200 000 hab. - grande métropole de la province de Soughd)",
@@ -1877,13 +1877,13 @@
     },
     "AFG": {
         "general": {
-            "population": "42,6 millions d'habitants",
+            "population": "42,2 millions d'habitants",
             "globalRank": "37e mondial",
             "density": "65 hab./km²",
-            "growthRate": "+2,8 % par an"
+            "growthRate": "+2,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "4,8 enfants par femme (le plus fort taux de fécondité de toute l'Asie)",
+            "fertilityRate": "4,4 enfants par femme (le plus fort taux de fécondité de toute l'Asie)",
             "birthRate": "34,8 ‰",
             "deathRate": "8,8 ‰",
             "infantMortality": "55,8 ‰ (plus forte mortalité infantile d'Asie)",
@@ -1892,9 +1892,9 @@
         "ageStructure": {
             "medianAge": "17,8 ans (extrême jeunesse)",
             "lifeExpectancy": {
-                "total": "66,3 ans",
-                "women": "67,8 ans",
-                "men": "64,7 ans"
+                "total": "63,2 ans",
+                "women": "65,4 ans",
+                "men": "61,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "42,5 %",
@@ -1904,7 +1904,7 @@
             "dependencyRatio": "82,5 %"
         },
         "urbanization": {
-            "urbanRate": "25,7 %",
+            "urbanRate": "26,5 %",
             "mainMetropolises": [
                 "Kaboul (4,6 millions hab. - capitale politique et administrative)",
                 "Hérat (600 000 hab. - métropole historique et culturelle de l'ouest)",
@@ -1925,13 +1925,13 @@
     },
     "NPL": {
         "general": {
-            "population": "29,7 millions d'habitants",
+            "population": "30,9 millions d'habitants",
             "globalRank": "50e mondial",
             "density": "210 hab./km²",
-            "growthRate": "-0,1 % par an"
+            "growthRate": "+1,1 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,0 enfants par femme",
+            "fertilityRate": "1,9 enfant par femme",
             "birthRate": "17,6 ‰",
             "deathRate": "6,4 ‰",
             "infantMortality": "24,5 ‰",
@@ -1940,9 +1940,9 @@
         "ageStructure": {
             "medianAge": "26,2 ans",
             "lifeExpectancy": {
-                "total": "70,6 ans",
-                "women": "72,1 ans",
-                "men": "69,1 ans"
+                "total": "71,5 ans",
+                "women": "73,2 ans",
+                "men": "69,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "28,2 %",
@@ -1952,7 +1952,7 @@
             "dependencyRatio": "52,0 %"
         },
         "urbanization": {
-            "urbanRate": "66,8 %",
+            "urbanRate": "22,5 %",
             "mainMetropolises": [
                 "Katmandou (3,0 millions hab. vallée métropolitaine - capitale historique, religieuse et économique)",
                 "Pokhara (550 000 hab. - hub touristique au pied des Annapurnas)",
@@ -1973,10 +1973,10 @@
     },
     "LKA": {
         "general": {
-            "population": "21,9 millions d'habitants",
+            "population": "22,2 millions d'habitants",
             "globalRank": "59e mondial",
             "density": "340 hab./km²",
-            "growthRate": "-0,6 % par an"
+            "growthRate": "+0,4 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "2,0 enfants par femme",
@@ -1988,9 +1988,9 @@
         "ageStructure": {
             "medianAge": "34,8 ans",
             "lifeExpectancy": {
-                "total": "77,7 ans",
-                "women": "80,7 ans",
-                "men": "74,4 ans"
+                "total": "77,4 ans (l'une des plus élevées d'Asie du Sud)",
+                "women": "80,4 ans",
+                "men": "74,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "22,8 %",
@@ -2000,7 +2000,7 @@
             "dependencyRatio": "52,4 %"
         },
         "urbanization": {
-            "urbanRate": "20,3 % (statistique administrative sous-estimant la périurbanisation côtière)",
+            "urbanRate": "19,0 % (statistique administrative sous-estimant la périurbanisation côtière)",
             "mainMetropolises": [
                 "Colombo (5,6 millions hab. province de l'Ouest - capitale commerciale et grand port de transbordement)",
                 "Sri Jayawardenepura Kotte (120 000 hab. - capitale législative et administrative)",
@@ -2021,13 +2021,13 @@
     },
     "BTN": {
         "general": {
-            "population": "791 524 habitants",
+            "population": "787 000 habitants",
             "globalRank": "165e mondial",
             "density": "20 hab./km²",
-            "growthRate": "+0,7 % par an"
+            "growthRate": "+0,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,4 enfant par femme",
+            "fertilityRate": "1,7 enfant par femme",
             "birthRate": "14,5 ‰",
             "deathRate": "6,2 ‰",
             "infantMortality": "21,5 ‰",
@@ -2036,9 +2036,9 @@
         "ageStructure": {
             "medianAge": "29,8 ans",
             "lifeExpectancy": {
-                "total": "73,3 ans",
-                "women": "75,3 ans",
-                "men": "71,6 ans"
+                "total": "72,8 ans",
+                "women": "73,8 ans",
+                "men": "71,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "24,0 %",
@@ -2048,7 +2048,7 @@
             "dependencyRatio": "43,3 %"
         },
         "urbanization": {
-            "urbanRate": "42,6 %",
+            "urbanRate": "43,0 %",
             "mainMetropolises": [
                 "Thimphou (120 000 hab. - capitale himalayenne sans aucun feu tricolore)",
                 "Phuntsholing (30 000 hab. - porte frontière commerciale principale avec l'Inde)"
@@ -2067,13 +2067,13 @@
     },
     "MDV": {
         "general": {
-            "population": "527 799 habitants",
+            "population": "521 000 habitants",
             "globalRank": "174e mondial",
             "density": "1 740 hab./km² global",
-            "growthRate": "+0,3 % par an"
+            "growthRate": "+1,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,6 enfants par femme",
+            "fertilityRate": "1,6 enfant par femme",
             "birthRate": "13,2 ‰",
             "deathRate": "4,1 ‰",
             "infantMortality": "6,8 ‰",
@@ -2082,9 +2082,9 @@
         "ageStructure": {
             "medianAge": "31,5 ans",
             "lifeExpectancy": {
-                "total": "81,3 ans",
-                "women": "83,0 ans",
-                "men": "79,9 ans"
+                "total": "80,8 ans",
+                "women": "82,5 ans",
+                "men": "79,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "21,5 %",
@@ -2094,7 +2094,7 @@
             "dependencyRatio": "36,1 %"
         },
         "urbanization": {
-            "urbanRate": "42,0 %",
+            "urbanRate": "41,5 %",
             "mainMetropolises": [
                 "Malé (210 000 hab. sur 8 km² - densité urbaine extrême supérieure à 65 000 hab./km²)",
                 "Hulhumalé (60 000 hab. - île artificielle surélevée pour résister à la submersion)",
@@ -2114,13 +2114,13 @@
     },
     "GEO": {
         "general": {
-            "population": "3,8 millions d'habitants (hors territoires séparatistes d'Abkhazie et Ossétie du Sud)",
+            "population": "3,71 millions d'habitants (hors territoires séparatistes d'Abkhazie et Ossétie du Sud)",
             "globalRank": "132e mondial",
             "density": "53 hab./km²",
-            "growthRate": "+2,6 % par an"
+            "growthRate": "-0,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,8 enfants par femme",
+            "fertilityRate": "1,8 enfant par femme",
             "birthRate": "11,5 ‰",
             "deathRate": "12,2 ‰",
             "infantMortality": "8,2 ‰",
@@ -2129,9 +2129,9 @@
         "ageStructure": {
             "medianAge": "38,5 ans",
             "lifeExpectancy": {
-                "total": "74,7 ans",
-                "women": "79,2 ans",
-                "men": "69,7 ans"
+                "total": "74,5 ans",
+                "women": "78,8 ans",
+                "men": "70,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "19,5 %",
@@ -2141,7 +2141,7 @@
             "dependencyRatio": "54,3 %"
         },
         "urbanization": {
-            "urbanRate": "61,1 %",
+            "urbanRate": "60,4 %",
             "mainMetropolises": [
                 "Tbilissi (1,2 million hab. - capitale millénaire et cœur culturel)",
                 "Batoumi (175 000 hab. - perle de la mer Noire, gratte-ciels et hub touristique)",
@@ -2161,13 +2161,13 @@
     },
     "ARM": {
         "general": {
-            "population": "3,0 millions d'habitants (plus 100 000 réfugiés arméniens du Haut-Karabakh)",
+            "population": "2,78 millions d'habitants (plus 100 000 réfugiés arméniens du Haut-Karabakh)",
             "globalRank": "139e mondial",
             "density": "94 hab./km²",
-            "growthRate": "+2,3 % par an (porté par l'intégration des réfugiés et des arrivées russes)"
+            "growthRate": "+1,2 % par an (porté par l'intégration des réfugiés et des arrivées russes)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,7 enfants par femme",
+            "fertilityRate": "1,6 enfant par femme",
             "birthRate": "12,4 ‰",
             "deathRate": "9,8 ‰",
             "infantMortality": "9,4 ‰",
@@ -2176,9 +2176,9 @@
         "ageStructure": {
             "medianAge": "36,8 ans",
             "lifeExpectancy": {
-                "total": "78,3 ans",
-                "women": "81,7 ans",
-                "men": "75,1 ans"
+                "total": "75,7 ans",
+                "women": "79,4 ans",
+                "men": "71,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "20,4 %",
@@ -2188,7 +2188,7 @@
             "dependencyRatio": "49,7 %"
         },
         "urbanization": {
-            "urbanRate": "65,8 %",
+            "urbanRate": "63,6 %",
             "mainMetropolises": [
                 "Erevan (1,1 million hab. - capitale de tuf rose abritant plus du tiers des Arméniens de la République)",
                 "Gyoumri (115 000 hab. - 2e ville historique du Shirak)",
@@ -2211,10 +2211,10 @@
             "population": "10,2 millions d'habitants",
             "globalRank": "90e mondial",
             "density": "118 hab./km²",
-            "growthRate": "+0,5 % par an"
+            "growthRate": "+0,65 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,4 enfant par femme",
+            "fertilityRate": "1,6 enfant par femme",
             "birthRate": "12,2 ‰",
             "deathRate": "6,0 ‰",
             "infantMortality": "18,5 ‰",
@@ -2223,9 +2223,9 @@
         "ageStructure": {
             "medianAge": "33,5 ans",
             "lifeExpectancy": {
-                "total": "74,6 ans",
-                "women": "77,3 ans",
-                "men": "71,7 ans"
+                "total": "73,8 ans",
+                "women": "76,2 ans",
+                "men": "71,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "22,5 %",
@@ -2235,7 +2235,7 @@
             "dependencyRatio": "43,3 %"
         },
         "urbanization": {
-            "urbanRate": "58,6 %",
+            "urbanRate": "57,4 %",
             "mainMetropolises": [
                 "Bakou (2,4 millions hab. Grand Bakou - capitale pétrolière sur la mer Caspienne, Flame Towers)",
                 "Ganja (340 000 hab. - 2e métropole de l'ouest)",

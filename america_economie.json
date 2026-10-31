@@ -7,11 +7,11 @@
             "centralBank": "Réserve fédérale des États-Unis (Federal Reserve / Fed)"
         },
         "macro": {
-            "gdpNominal": "29,3 billions USD",
-            "gdpPerCapita": "86 170 USD",
+            "gdpNominal": "27 360 milliards USD",
+            "gdpPerCapita": "81 600 USD",
             "globalRank": "1er mondial",
-            "growth": "+2,8 %",
-            "inflation": "2,9 %"
+            "growth": "+2,5 %",
+            "inflation": "3,1 %"
         },
         "structure": {
             "services": "80,1 %",
@@ -56,11 +56,11 @@
             "centralBank": "Banque du Canada (Bank of Canada)"
         },
         "macro": {
-            "gdpNominal": "2,3 billions USD",
-            "gdpPerCapita": "55 016 USD",
+            "gdpNominal": "2 140 milliards USD",
+            "gdpPerCapita": "53 200 USD",
             "globalRank": "9e mondial",
-            "growth": "+2,0 %",
-            "inflation": "2,4 %"
+            "growth": "+1,1 %",
+            "inflation": "3,9 %"
         },
         "structure": {
             "services": "70,5 %",
@@ -106,10 +106,10 @@
             "centralBank": "Banque du Mexique (Banxico)"
         },
         "macro": {
-            "gdpNominal": "1,8 billions USD",
-            "gdpPerCapita": "13 988 USD",
+            "gdpNominal": "1 790 milliards USD",
+            "gdpPerCapita": "13 800 USD",
             "globalRank": "12e mondial (2e d'Amérique latine)",
-            "growth": "+1,4 %",
+            "growth": "+3,2 %",
             "inflation": "4,7 %"
         },
         "structure": {
@@ -154,11 +154,11 @@
             "centralBank": "Banque centrale du Brésil (Banco Central do Brasil)"
         },
         "macro": {
-            "gdpNominal": "2,2 billions USD",
-            "gdpPerCapita": "10 311 USD",
+            "gdpNominal": "2 170 milliards USD",
+            "gdpPerCapita": "10 400 USD",
             "globalRank": "8e mondial (1ère économie d'Amérique latine)",
-            "growth": "+3,4 %",
-            "inflation": "4,4 %"
+            "growth": "+2,9 %",
+            "inflation": "4,6 %"
         },
         "structure": {
             "services": "63,5 %",
@@ -201,11 +201,11 @@
             "centralBank": "Banque centrale de la République argentine (BCRA)"
         },
         "macro": {
-            "gdpNominal": "638 milliards USD",
-            "gdpPerCapita": "13 970 USD",
+            "gdpNominal": "640 milliards USD",
+            "gdpPerCapita": "13 700 USD",
             "globalRank": "24e mondial",
-            "growth": "-1,3 %",
-            "inflation": "219,9 %"
+            "growth": "-1,6 % (programme de choc budgétaire)",
+            "inflation": "211,0 %"
         },
         "structure": {
             "services": "59,0 %",
@@ -247,11 +247,11 @@
             "centralBank": "Banque de la République (Banco de la República)"
         },
         "macro": {
-            "gdpNominal": "421 milliards USD",
-            "gdpPerCapita": "7 951 USD",
+            "gdpNominal": "360 milliards USD",
+            "gdpPerCapita": "6 900 USD",
             "globalRank": "42e mondial",
-            "growth": "+1,5 %",
-            "inflation": "6,6 %"
+            "growth": "+0,6 %",
+            "inflation": "9,3 %"
         },
         "structure": {
             "services": "62,0 %",
@@ -294,11 +294,11 @@
             "centralBank": "Banque centrale du Chili"
         },
         "macro": {
-            "gdpNominal": "329 milliards USD",
-            "gdpPerCapita": "16 659 USD",
+            "gdpNominal": "335 milliards USD",
+            "gdpPerCapita": "17 000 USD",
             "globalRank": "44e mondial",
-            "growth": "+2,8 %",
-            "inflation": "4,3 %"
+            "growth": "+0,2 %",
+            "inflation": "3,9 %"
         },
         "structure": {
             "services": "64,0 %",
@@ -341,11 +341,11 @@
             "centralBank": "Banque centrale de réserve du Pérou (BCRP)"
         },
         "macro": {
-            "gdpNominal": "292 milliards USD",
-            "gdpPerCapita": "8 526 USD",
+            "gdpNominal": "265 milliards USD",
+            "gdpPerCapita": "7 800 USD",
             "globalRank": "48e mondial",
-            "growth": "+3,5 %",
-            "inflation": "2,0 %"
+            "growth": "-0,6 % (impact d'El Niño)",
+            "inflation": "3,2 %"
         },
         "structure": {
             "services": "60,0 %",
@@ -389,10 +389,10 @@
             "centralBank": "Banque centrale du Venezuela (BCV)"
         },
         "macro": {
-            "gdpNominal": "121 milliards USD",
-            "gdpPerCapita": "4 244 USD",
+            "gdpNominal": "95 milliards USD",
+            "gdpPerCapita": "3 400 USD",
             "globalRank": "72e mondial",
-            "growth": "+5,5 %",
+            "growth": "+4,0 %",
             "inflation": "190,0 %"
         },
         "structure": {
@@ -437,7 +437,7 @@
             "gdpNominal": "24 milliards USD (estimation)",
             "gdpPerCapita": "~2 100 USD",
             "globalRank": "116e mondial",
-            "growth": "-1,1 %",
+            "growth": "-1,5 % (crise énergétique)",
             "inflation": "30,0 %"
         },
         "structure": {
@@ -480,10 +480,10 @@
             "centralBank": "Banco Central del Ecuador (BCE)"
         },
         "macro": {
-            "gdpNominal": "124 milliards USD",
-            "gdpPerCapita": "6 827 USD",
+            "gdpNominal": "118 milliards USD",
+            "gdpPerCapita": "6 500 USD",
             "globalRank": "65e mondial",
-            "growth": "-1,9 %",
+            "growth": "+2,3 %",
             "inflation": "1,5 %"
         },
         "structure": {
@@ -524,11 +524,11 @@
             "centralBank": "Banque centrale de Bolivie (BCB)"
         },
         "macro": {
-            "gdpNominal": "55 milliards USD",
-            "gdpPerCapita": "4 421 USD",
+            "gdpNominal": "46 milliards USD",
+            "gdpPerCapita": "3 800 USD",
             "globalRank": "99e mondial",
-            "growth": "-1,1 %",
-            "inflation": "5,1 %"
+            "growth": "+2,5 %",
+            "inflation": "2,6 %"
         },
         "structure": {
             "services": "54,0 %",
@@ -571,11 +571,11 @@
             "centralBank": "Banque centrale du Paraguay (BCP)"
         },
         "macro": {
-            "gdpNominal": "45 milliards USD",
-            "gdpPerCapita": "6 457 USD",
+            "gdpNominal": "44 milliards USD",
+            "gdpPerCapita": "6 200 USD",
             "globalRank": "101e mondial",
             "growth": "+4,7 %",
-            "inflation": "3,8 %"
+            "inflation": "3,7 %"
         },
         "structure": {
             "services": "50,0 %",
@@ -615,11 +615,11 @@
             "centralBank": "Banque centrale de l'Uruguay (BCU)"
         },
         "macro": {
-            "gdpNominal": "82 milliards USD",
-            "gdpPerCapita": "24 308 USD",
+            "gdpNominal": "77 milliards USD",
+            "gdpPerCapita": "22 500 USD",
             "globalRank": "81e mondial",
-            "growth": "+3,3 %",
-            "inflation": "4,8 %"
+            "growth": "+0,4 % (impact sécheresse 2023)",
+            "inflation": "5,1 %"
         },
         "structure": {
             "services": "68,0 %",
@@ -659,11 +659,11 @@
             "centralBank": "Banque nationale du Panama (BNP)"
         },
         "macro": {
-            "gdpNominal": "87 milliards USD",
-            "gdpPerCapita": "19 161 USD",
+            "gdpNominal": "83 milliards USD",
+            "gdpPerCapita": "18 700 USD",
             "globalRank": "78e mondial",
-            "growth": "+2,7 %",
-            "inflation": "0,7 %"
+            "growth": "+7,3 %",
+            "inflation": "1,5 %"
         },
         "structure": {
             "services": "75,0 %",
@@ -703,11 +703,11 @@
             "centralBank": "Banque centrale du Costa Rica (BCCR)"
         },
         "macro": {
-            "gdpNominal": "97 milliards USD",
-            "gdpPerCapita": "18 853 USD",
+            "gdpNominal": "86 milliards USD",
+            "gdpPerCapita": "16 500 USD",
             "globalRank": "76e mondial",
-            "growth": "+4,1 %",
-            "inflation": "-0,4 %"
+            "growth": "+5,1 %",
+            "inflation": "-1,8 % (déflation transitoire)"
         },
         "structure": {
             "services": "72,0 %",
@@ -748,11 +748,11 @@
             "centralBank": "Banque du Guatemala (Banguat)"
         },
         "macro": {
-            "gdpNominal": "113 milliards USD",
-            "gdpPerCapita": "6 151 USD",
+            "gdpNominal": "102 milliards USD",
+            "gdpPerCapita": "5 600 USD",
             "globalRank": "69e mondial (1ère économie d'Amérique centrale)",
-            "growth": "+3,7 %",
-            "inflation": "2,9 %"
+            "growth": "+3,5 %",
+            "inflation": "4,2 %"
         },
         "structure": {
             "services": "63,0 %",
@@ -793,11 +793,11 @@
             "centralBank": "Banque centrale du Honduras (BCH)"
         },
         "macro": {
-            "gdpNominal": "37 milliards USD",
-            "gdpPerCapita": "3 416 USD",
+            "gdpNominal": "34 milliards USD",
+            "gdpPerCapita": "3 300 USD",
             "globalRank": "105e mondial",
             "growth": "+3,6 %",
-            "inflation": "4,6 %"
+            "inflation": "5,2 %"
         },
         "structure": {
             "services": "58,0 %",
@@ -839,10 +839,10 @@
         },
         "macro": {
             "gdpNominal": "35 milliards USD",
-            "gdpPerCapita": "5 503 USD",
+            "gdpPerCapita": "5 400 USD",
             "globalRank": "104e mondial",
-            "growth": "+2,6 %",
-            "inflation": "0,9 %"
+            "growth": "+3,5 % (baisse historique de l'insécurité)",
+            "inflation": "1,2 %"
         },
         "structure": {
             "services": "64,0 %",
@@ -883,11 +883,11 @@
             "centralBank": "Banque centrale du Nicaragua (BCN)"
         },
         "macro": {
-            "gdpNominal": "20 milliards USD",
-            "gdpPerCapita": "2 848 USD",
+            "gdpNominal": "17,8 milliards USD",
+            "gdpPerCapita": "2 600 USD",
             "globalRank": "131e mondial",
-            "growth": "+3,6 %",
-            "inflation": "4,6 %"
+            "growth": "+4,6 %",
+            "inflation": "5,6 %"
         },
         "structure": {
             "services": "52,0 %",
@@ -928,11 +928,11 @@
             "centralBank": "Banque centrale du Belize (CBB)"
         },
         "macro": {
-            "gdpNominal": "3 milliards USD",
-            "gdpPerCapita": "7 681 USD",
+            "gdpNominal": "3,2 milliards USD",
+            "gdpPerCapita": "7 800 USD",
             "globalRank": "164e mondial",
-            "growth": "+3,5 %",
-            "inflation": "3,3 %"
+            "growth": "+4,5 %",
+            "inflation": "4,4 %"
         },
         "structure": {
             "services": "68,0 %",
@@ -974,11 +974,11 @@
             "centralBank": "Banque centrale de la République dominicaine (BCRD)"
         },
         "macro": {
-            "gdpNominal": "124 milliards USD",
-            "gdpPerCapita": "10 876 USD",
+            "gdpNominal": "121 milliards USD",
+            "gdpPerCapita": "11 200 USD",
             "globalRank": "64e mondial (1ère économie des Caraïbes)",
-            "growth": "+5,0 %",
-            "inflation": "3,3 %"
+            "growth": "+2,4 %",
+            "inflation": "3,6 %"
         },
         "structure": {
             "services": "61,0 %",
@@ -1020,11 +1020,11 @@
             "centralBank": "Banque de la République d'Haïti (BRH)"
         },
         "macro": {
-            "gdpNominal": "24 milliards USD",
-            "gdpPerCapita": "2 060 USD",
+            "gdpNominal": "20 milliards USD",
+            "gdpPerCapita": "~1 700 USD",
             "globalRank": "123e mondial",
-            "growth": "-4,2 %",
-            "inflation": "26,9 %"
+            "growth": "-1,9 % (crise sécuritaire aiguë)",
+            "inflation": "30,0 %"
         },
         "structure": {
             "services": "56,0 %",
@@ -1064,11 +1064,11 @@
             "centralBank": "Banque de la Jamaïque (BOJ)"
         },
         "macro": {
-            "gdpNominal": "22 milliards USD",
-            "gdpPerCapita": "7 754 USD",
+            "gdpNominal": "19,5 milliards USD",
+            "gdpPerCapita": "7 000 USD",
             "globalRank": "126e mondial",
-            "growth": "-0,5 %",
-            "inflation": "5,4 %"
+            "growth": "+2,6 %",
+            "inflation": "6,9 %"
         },
         "structure": {
             "services": "72,0 %",
@@ -1109,11 +1109,11 @@
             "centralBank": "Banque centrale de Trinité-et-Tobago"
         },
         "macro": {
-            "gdpNominal": "26 milliards USD",
-            "gdpPerCapita": "18 733 USD",
+            "gdpNominal": "28 milliards USD",
+            "gdpPerCapita": "19 800 USD",
             "globalRank": "114e mondial",
-            "growth": "+2,5 %",
-            "inflation": "0,5 %"
+            "growth": "+2,1 %",
+            "inflation": "4,7 %"
         },
         "structure": {
             "services": "56,0 %",
@@ -1155,11 +1155,11 @@
             "centralBank": "Banque centrale des Bahamas"
         },
         "macro": {
-            "gdpNominal": "16 milliards USD",
-            "gdpPerCapita": "39 455 USD",
+            "gdpNominal": "14,5 milliards USD",
+            "gdpPerCapita": "36 000 USD",
             "globalRank": "139e mondial",
-            "growth": "+3,4 %",
-            "inflation": "0,4 %"
+            "growth": "+4,3 %",
+            "inflation": "3,1 %"
         },
         "structure": {
             "services": "85,0 %",
@@ -1199,11 +1199,11 @@
             "centralBank": "Banque centrale de la Barbade"
         },
         "macro": {
-            "gdpNominal": "8 milliards USD",
-            "gdpPerCapita": "26 897 USD",
+            "gdpNominal": "6,0 milliards USD",
+            "gdpPerCapita": "21 000 USD",
             "globalRank": "157e mondial",
-            "growth": "+3,4 %",
-            "inflation": "1,4 %"
+            "growth": "+4,5 %",
+            "inflation": "5,0 %"
         },
         "structure": {
             "services": "80,0 %",
@@ -1245,11 +1245,11 @@
             "centralBank": "Banque du Guyana"
         },
         "macro": {
-            "gdpNominal": "25 milliards USD",
-            "gdpPerCapita": "29 675 USD",
+            "gdpNominal": "17 milliards USD",
+            "gdpPerCapita": "21 000 USD",
             "globalRank": "133e mondial",
-            "growth": "+43,8 %",
-            "inflation": "2,9 %"
+            "growth": "+38,4 % (croissance record liée au boom pétrolier offshore)",
+            "inflation": "2,0 %"
         },
         "structure": {
             "services": "35,0 %",
@@ -1290,11 +1290,11 @@
             "centralBank": "Centrale Bank van Suriname"
         },
         "macro": {
-            "gdpNominal": "4 milliards USD",
-            "gdpPerCapita": "6 962 USD",
+            "gdpNominal": "3,8 milliards USD",
+            "gdpPerCapita": "6 200 USD",
             "globalRank": "163e mondial",
-            "growth": "+1,7 %",
-            "inflation": "16,2 %"
+            "growth": "+2,1 %",
+            "inflation": "38,0 %"
         },
         "structure": {
             "services": "55,0 %",
@@ -1335,11 +1335,11 @@
             "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
         },
         "macro": {
-            "gdpNominal": "3 milliards USD",
-            "gdpPerCapita": "14 494 USD",
+            "gdpNominal": "2,4 milliards USD",
+            "gdpPerCapita": "13 000 USD",
             "globalRank": "167e mondial",
-            "growth": "+4,8 %",
-            "inflation": "-0,7 %"
+            "growth": "+3,5 %",
+            "inflation": "4,2 %"
         },
         "structure": {
             "services": "82,0 %",
@@ -1382,11 +1382,11 @@
             "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
         },
         "macro": {
-            "gdpNominal": "1 milliards USD",
-            "gdpPerCapita": "11 501 USD",
+            "gdpNominal": "1,1 milliard USD",
+            "gdpPerCapita": "10 500 USD",
             "globalRank": "178e mondial",
-            "growth": "+4,1 %",
-            "inflation": "3,6 %"
+            "growth": "+5,0 %",
+            "inflation": "3,8 %"
         },
         "structure": {
             "services": "75,0 %",
@@ -1427,11 +1427,11 @@
             "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
         },
         "macro": {
-            "gdpNominal": "1 milliards USD",
-            "gdpPerCapita": "11 529 USD",
+            "gdpNominal": "1,3 milliard USD",
+            "gdpPerCapita": "11 000 USD",
             "globalRank": "174e mondial",
-            "growth": "+2,4 %",
-            "inflation": "1,1 %"
+            "growth": "+3,9 %",
+            "inflation": "2,8 %"
         },
         "structure": {
             "services": "78,0 %",
@@ -1472,11 +1472,11 @@
             "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
         },
         "macro": {
-            "gdpNominal": "2 milliards USD",
-            "gdpPerCapita": "23 060 USD",
+            "gdpNominal": "1,9 milliard USD",
+            "gdpPerCapita": "19 000 USD",
             "globalRank": "169e mondial",
-            "growth": "+2,5 %",
-            "inflation": "6,2 %"
+            "growth": "+5,2 %",
+            "inflation": "3,0 %"
         },
         "structure": {
             "services": "84,0 %",
@@ -1517,11 +1517,11 @@
             "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
         },
         "macro": {
-            "gdpNominal": "689 millions USD",
-            "gdpPerCapita": "10 405 USD",
+            "gdpNominal": "650 millions USD",
+            "gdpPerCapita": "8 900 USD",
             "globalRank": "185e mondial",
-            "growth": "+2,1 %",
-            "inflation": "2,7 %"
+            "growth": "+4,7 %",
+            "inflation": "2,5 %"
         },
         "structure": {
             "services": "72,0 %",
@@ -1563,11 +1563,11 @@
             "centralBank": "Banque centrale des Caraïbes orientales (ECCB)"
         },
         "macro": {
-            "gdpNominal": "1 milliards USD",
-            "gdpPerCapita": "23 961 USD",
+            "gdpNominal": "1,1 milliard USD",
+            "gdpPerCapita": "21 000 USD",
             "globalRank": "177e mondial",
-            "growth": "+0,3 %",
-            "inflation": "3,6 %"
+            "growth": "+3,8 %",
+            "inflation": "2,2 %"
         },
         "structure": {
             "services": "76,0 %",
@@ -1608,10 +1608,10 @@
             "centralBank": "Banque nationale du Danemark (Danmarks Nationalbank)"
         },
         "macro": {
-            "gdpNominal": "3 milliards USD",
-            "gdpPerCapita": "58 499 USD",
+            "gdpNominal": "3,2 milliards USD",
+            "gdpPerCapita": "57 000 USD",
             "globalRank": "Territoire autonome d'outre-mer (Danemark)",
-            "growth": "+0,9 %",
+            "growth": "+2,0 %",
             "inflation": "2,5 %"
         },
         "structure": {
