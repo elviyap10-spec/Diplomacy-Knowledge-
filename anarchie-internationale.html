@@ -551,7 +551,187 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
   box-shadow: 0 6px 20px rgba(217, 175, 94, 0.45);
 }
 
+/* PASSERELLE CONCEPTUELLE INTER-CONCEPTS */
+.concept-bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.concept-bridge-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  transition: var(--transition);
+}
+.concept-bridge-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.concept-bridge-target {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.concept-bridge-target span.arrow {
+  color: var(--gold);
+  font-size: 14px;
+}
+.concept-bridge-card:hover .concept-bridge-target span.arrow {
+  color: var(--accent);
+}
+.concept-bridge-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* TEXTE DOCTRINAL FONDATEUR */
+.doctrinal-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.doctrinal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 800;
+  color: var(--gold);
+}
+.doctrinal-quote {
+  border-left: 3px solid var(--gold);
+  margin: 0 0 16px;
+  padding: 10px 0 10px 18px;
+  font-style: italic;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.doctrinal-analysis {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+/* ATELIER CONCOURS & DISSERTATION */
+.dissertation-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+}
+.dissertation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+.dissertation-subject {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dissertation-problematique {
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.plan-part {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.plan-part-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.plan-part ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* PIEGES ACADEMIQUES */
+.pitfalls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.pitfall-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.pitfall-item strong {
+  display: block;
+  color: var(--accent);
+  font-size: 11.5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
+  .plan-grid { grid-template-columns: 1fr; }
   .course-layout { grid-template-columns: 1fr; }
   .course-toc { display: none; }
   .cases-grid { grid-template-columns: 1fr; }
@@ -899,221 +1079,350 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
       <aside class="course-toc" aria-label="Sommaire du cours">
         <div class="toc-title">
           <span>Sommaire du cours</span>
-          <span>9 parties</span>
+          <span>8 sections</span>
         </div>
         <ul class="toc-list">
-          <li><a href="#introduction" class="toc-link">1. Introduction</a></li>
-          <li><a href="#essentiel" class="toc-link">2. L'essentiel</a></li>
-          <li><a href="#profondeur" class="toc-link">3. Comprendre en profondeur</a></li>
-          <li><a href="#savais-tu" class="toc-link">4. Le savais-tu ?</a></li>
-          <li><a href="#etudes-de-cas" class="toc-link">5. Études de cas</a></li>
-          <li><a href="#debats" class="toc-link">6. Débats & controverses</a></li>
-          <li><a href="#a-retenir" class="toc-link">7. À retenir</a></li>
-          <li><a href="#bibliographie" class="toc-link">8. Bibliographie & sources</a></li>
-          <li><a href="#evaluation" class="toc-link">9. Évaluation (Quiz)</a></li>
+          <li><a href="#problematique" class="toc-link">1. Problématique & Repères</a></li>
+          <li><a href="#theorie" class="toc-link">2. Anatomie théorique</a></li>
+          <li><a href="#passerelle" class="toc-link">3. Passerelle inter-concepts</a></li>
+          <li><a href="#texte-doctrinal" class="toc-link">4. Texte doctrinal décrypté</a></li>
+          <li><a href="#etudes-de-cas" class="toc-link">5. Casus Belli & Études</a></li>
+          <li><a href="#atelier" class="toc-link">6. L'Atelier de l'analyste</a></li>
+          <li><a href="#synthese" class="toc-link">7. Synthèse & Bibliographie</a></li>
+          <li><a href="#evaluation" class="toc-link">8. Évaluation (Quiz)</a></li>
         </ul>
       </aside>
 
       <!-- CONTENU DU COURS -->
       <article class="course-content">
-        <!-- 1. INTRODUCTION -->
-        <header class="course-header" id="introduction">
+        <!-- 1. PROBLÉMATIQUE & CADRE DIRECTEUR -->
+        <header class="course-header" id="problematique">
           <div class="course-meta-tags">
             <span class="tag-badge level-tag">Niveau L1 à M2</span>
-            <span class="tag-badge">Structure du Système</span>
-            <span class="tag-badge">Néoréalisme & Constructivisme</span>
+            <span class="tag-badge">Théorie Structurale</span>
+            <span class="tag-badge">Sociologie des Systèmes Internationaux</span>
             <span class="tag-badge xp-tag">+30 XP à l'évaluation</span>
           </div>
           <h1 class="course-title">L'Anarchie Internationale</h1>
           <p class="course-lead-def">
-            Principe d'organisation structurel du système international défini par l'absence d'une autorité gouvernementale centrale souveraine ou d'un tribunal mondial doté du monopole de la violence légitime au-dessus des États.
+            Caractéristique structurelle première du milieu interétatique caractérisée par l'absence d'un gouvernement central ou d'une autorité temporelle suprême habilitée à édicter des lois universelles contraignantes et à en garantir l'exécution par la force.
           </p>
           <div class="course-intro-question">
-            <strong>Question introductive :</strong> L'absence d'un gouvernement planétaire condamne-t-elle inéluctablement les États à la méfiance, à la course aux armements et à la guerre, ou permet-elle l'émergence d'une société internationale ordonnée par le droit et la diplomatie ?
+            <strong>Problématique directrice :</strong> L'absence d'un Léviathan mondial condamne-t-elle inéluctablement les États à la méfiance perpétuelle, au dilemme de sécurité et à la tragédie de la guerre, ou permet-elle l'émergence d'une société internationale ordonnée par les traités diplomatiques et les communautés de sécurité ?
+          </div>
+
+          <!-- JALONS DE PROGRESSION L1 À M2 -->
+          <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .06em;">Jalon L1 · Fondations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Comprendre le sens descriptif de l'anarchie (<em>an-arkhia</em>) et maîtriser les 3 conséquences mécaniques : auto-assistance (<em>self-help</em>), dilemme de sécurité (Jervis) et équilibre des puissances.</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--accent); letter-spacing: .06em;">Jalon L3 · Confrontations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Opposer le néoréalisme structural de Kenneth Waltz (l'anarchie comme contrainte absolue) à l'École anglaise d'Hedley Bull (la société anarchique régulée par les institutions).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--green); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--green); letter-spacing: .06em;">Jalon M1/M2 · Déconstruction</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Mobiliser le constructivisme d'Alexander Wendt (les 3 cultures de l'anarchie : hobbesienne, lockéenne, kantienne) et les théories de la hiérarchie informelle (David Lake).</div>
+            </div>
           </div>
         </header>
 
-        <!-- 2. L'ESSENTIEL -->
-        <section class="course-section" id="essentiel">
+        <!-- 2. ANATOMIE THÉORIQUE & DÉCONSTRUCTION -->
+        <section class="course-section" id="theorie">
           <span class="section-num-tag">Section 02</span>
-          <h2>L'essentiel</h2>
+          <h2>Anatomie théorique & Déconstruction</h2>
           <p>
-            Contrairement au langage courant où « anarchie » est synonyme d'émeute, de désordre ou de panique, en science politique, l'anarchie est un <strong>concept descriptif neutre</strong>. Elle désigne simplement la coexistence d'États souverains qui ne reconnaissent aucune autorité temporelle supérieure à la leur.
+            En sciences sociales, l'anarchie n'est pas synonyme de chaos, d'émeute ou de guerre civile. C'est un <strong>concept strictement structurel</strong> décrivant un système composé d'unités autonomes ne reconnaissant aucun supérieur légal. Sa formalisation s'ordonne en quatre moments intellectuels clés :
           </p>
 
-          <div class="essential-box">
-            <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .08em;">
-              Les 3 conséquences mécaniques de l'anarchie internationale
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 16px;">
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">1. La matrice philosophique : L'état de nature hobbesien international</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans le <em>Léviathan</em> (1651), <strong>Thomas Hobbes</strong> théorise la sortie de l'état de nature par l'institution d'un souverain suprême domestique détenant le monopole des armes. Mais entre les souverains eux-mêmes, aucun contrat social n'a été conclu : ils demeurent perpétuellement dans l'état de nature. Pour Hobbes, les États vivent « dans la posture de gladiateurs, les yeux fixés les uns sur les autres et leurs armes toujours prêtes ». L'anarchie internationale implique que la guerre est toujours une possibilité latente.
+              </p>
             </div>
-            <div class="essential-grid">
-              <div class="essential-item">
-                <div class="essential-item-num">01</div>
-                <h4>Le principe d'Auto-assistance (Self-Help)</h4>
-                <p>En l'absence de gendarme mondial capable de voler à son secours de façon infaillible, chaque État doit ultimement compter sur ses propres moyens matériels et militaires pour assurer sa survie.</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">02</div>
-                <h4>Le Dilemme de sécurité</h4>
-                <p>Les mesures purement défensives prises par l'État A pour se protéger (achat de missiles, fortification de frontières) sont perçues comme agressives par l'État B, enclenchant une spirale de méfiance et de surarmement.</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">03</div>
-                <h4>L'Équilibre des puissances (Balance of Power)</h4>
-                <p>Pour éviter qu'un État ne devienne hégémonique et ne détruise leur souveraineté, les nations s'allient naturellement pour faire contrepoids au plus puissant (balancing).</p>
-              </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">2. Le néoréalisme structural de Kenneth Waltz (1979)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans <em>Theory of International Politics</em>, <strong>Kenneth Waltz</strong> bâtit la théorie scientifique de l'anarchie. Alors que l'ordre politique intérieur est <em>hiérarchique</em> (le gouvernement légifère, la police applique), l'ordre international est <em>anarchique</em> (des unités formellement égales). Cette structure produit trois lois d'airain :
+              </p>
+              <ul style="margin: 10px 0 0 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+                <li><strong>L'auto-assistance (Self-Help) :</strong> Nul ne venant à son secours de façon garantie, chaque État doit organiser sa propre défense.</li>
+                <li><strong>Le dilemme de sécurité (Herz / Jervis) :</strong> Les mesures purement défensives d'un État (fortifications, achats d'armements) sont perçues comme offensives par ses voisins, enclenchant une spirale de surarmement mutuel non désiré.</li>
+                <li><strong>L'équilibre des puissances (Balancing) :</strong> Face à une puissance montante, les États s'allient naturellement pour former un contrepoids afin de protéger leur indépendance.</li>
+              </ul>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">3. L'École anglaise et la « Société anarchique » (Hedley Bull, 1977)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans son chef-d'œuvre <em>The Anarchical Society</em>, <strong>Hedley Bull</strong> réfute l'idée que l'anarchie équivaudrait nécessairement au chaos sauvage. Bull distingue le simple <em>système international</em> (les États s'influencent mécaniquement) de la <strong>société internationale</strong> : un groupe d'États conscients de partager des intérêts communs et qui se reconnaissent liés par des institutions coutumières : la diplomatie permanente, le droit international des traités, le respect mutuel de la souveraineté, l'équilibre des forces et le droit humanitaire dans la guerre.
+              </p>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">4. La déconstruction constructiviste : « Anarchy is what States make of it » (Alexander Wendt, 1992)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                <strong>Alexander Wendt</strong> démontre que l'anarchie n'a aucune logique intrinsèque gravée dans le marbre : tout dépend des représentations sociales que les acteurs ont d'eux-mêmes et de leurs voisins. Wendt identifie trois « cultures de l'anarchie » historiques :
+              </p>
+              <ul style="margin: 10px 0 0 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+                <li><strong>Culture hobbesienne :</strong> Les États se perçoivent comme des ennemis à détruire (état de guerre permanente, monde d'avant 1648).</li>
+                <li><strong>Culture lockéenne :</strong> Les États se perçoivent comme des rivaux respectant mutuellement leur droit fondamental d'exister (l'ordre westphalien classique).</li>
+                <li><strong>Culture kantienne :</strong> Les États se perçoivent comme des amis résolvant tous leurs différends sans jamais envisager l'emploi des armes (la « communauté de sécurité », ex. Union européenne).</li>
+              </ul>
             </div>
           </div>
         </section>
 
-        <!-- 3. COMPRENDRE EN PROFONDEUR -->
-        <section class="course-section" id="profondeur">
+        <!-- 3. PASSERELLE INTER-CONCEPTS -->
+        <section class="course-section" id="passerelle">
           <span class="section-num-tag">Section 03</span>
-          <h2>Comprendre en profondeur</h2>
+          <h2>Passerelle inter-concepts : Le maillage analytique</h2>
           <p>
-            Les racines philosophiques de l'anarchie remontent à <strong>Thomas Hobbes</strong> (<em>Léviathan</em>, 1651). Si les individus domestiques parviennent à sortir de l'état de nature en confiant leur sécurité à un Léviathan étatique, les États entre eux demeurent perpétuellement dans cet état de nature : ils vivent « dans la posture des gladiateurs, leurs armes pointées et leurs yeux fixés les uns sur les autres ».
+            L'anarchie est la structure englobante qui impose ses contraintes à l'ensemble des interactions interétatiques :
           </p>
-          <p>
-            Dans <em>Theory of International Politics</em> (1979), <strong>Kenneth Waltz</strong> systématise le concept. Alors que l'ordre politique intérieur est <em>hiérarchique</em> (la loi s'impose à tous), le système international est <em>anarchique</em> (composé d'unités souveraines formellement égales). Cette structure contraint tous les États à adopter des comportements similaires de prudence et de défense, indépendamment de leur régime politique (qu'ils soient démocraties ou dictatures).
-          </p>
-          <p>
-            Cependant, l'<strong>École anglaise</strong> (menée par <strong>Hedley Bull</strong> dans <em>The Anarchical Society</em>, 1977) apporte une nuance fondamentale : l'anarchie n'exclut pas l'ordre. Les États ont créé une <strong>société internationale</strong> tissée par des institutions coutumières : la diplomatie permanente, le droit des traités, l'équilibre des puissances et le droit de la guerre. L'anarchie peut ainsi être ordonnée et régulée.
-          </p>
-          <p>
-            Enfin, <strong>Alexander Wendt</strong> (<em>Anarchy is what States make of it</em>, 1992) révolutionne le débat en démontrant que l'anarchie n'a pas de logique gravée dans le marbre. Il identifie 3 cultures distinctes de l'anarchie :
-          </p>
-          <ul>
-            <li><strong>L'anarchie hobbesienne</strong> : Les États se perçoivent comme des ennemis à détruire (état de guerre permanente).</li>
-            <li><strong>L'anarchie lockéenne</strong> : Les États se perçoivent comme des rivaux respectant mutuellement leur droit à exister (ordre westphalien classique).</li>
-            <li><strong>L'anarchie kantienne</strong> : Les États se perçoivent comme des amis résolvant leurs différends sans jamais envisager le recours à la force (communauté de sécurité, ex. Union européenne).</li>
-          </ul>
+
+          <div class="concept-bridge-grid">
+            <a href="souverainete.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Souveraineté</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>La cause première :</strong> L'anarchie n'existe que parce que les États refusent de renoncer à leur souveraineté. <em>La souveraineté produit géométriquement l'anarchie du système.</em>
+              </p>
+            </a>
+
+            <a href="puissance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Puissance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'impératif de sécurité :</strong> Privé d'un gendarme mondial capable de le secourir, chaque État est contraint d'accumuler de la puissance matérielle pour dissuader les agresseurs potentiels.
+              </p>
+            </a>
+
+            <a href="interet-national.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Intérêt National</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>La boussole en milieu hostile :</strong> L'anarchie force les dirigeants à subordonner leurs sentiments moraux à la défense rigoureuse de l'intérêt vital de survie de leur peuple.
+              </p>
+            </a>
+
+            <a href="interdependance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Interdépendance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>La théorie libérale de l'atténuation :</strong> Le maillage économique mondial et les traités commerciaux visent à rendre le coût de la rupture anarchique prohibitif entre États intégrés.
+              </p>
+            </a>
+          </div>
         </section>
 
-        <!-- 4. LE SAVAIS-TU ? -->
-        <section class="course-section" id="savais-tu">
+        <!-- 4. TEXTE DOCTRINAL DÉCRYPTÉ -->
+        <section class="course-section" id="texte-doctrinal">
           <span class="section-num-tag">Section 04</span>
-          <div class="did-you-know">
-            <div class="did-you-know-badge">💡 Le savais-tu ? · Étymologie philosophique</div>
-            <h4>L'anarchie : du grec « an-arkhia »</h4>
-            <p>
-              Le mot anarchie provient du grec ancien <em>an-</em> (privatif) et <em>arkhê</em> (commandement, autorité, pouvoir d'un chef). En relations internationales, le terme ne désigne donc pas un état psychologique de folie ou d'émeute urbaine, mais la condition purement structurelle d'un système qui ne comporte pas de chef souverain central au-dessus des États membres.
+          <h2>Texte doctrinal fondateur décrypté</h2>
+          
+          <div class="doctrinal-card">
+            <div class="doctrinal-meta">
+              <span>Source primaire canonique</span>
+              <span>·</span>
+              <span>Kenneth N. Waltz (1979)</span>
+            </div>
+            <div class="doctrinal-quote">
+              « Les systèmes politiques intérieurs sont intégrés et centralisés [...]. Les parties des systèmes politiques intérieurs se trouvent dans des relations de supériorité et de subordination : certains donnent des ordres, d'autres obéissent. Les systèmes internationaux sont décentralisés et anarchiques. Les parties des systèmes internationaux sont dans des relations de coordination : formellement, chacune est égale à toutes les autres, aucune n'a le droit de commander, aucune n'a l'obligation d'obéir. Dans un système d'auto-assistance, la sécurité est le premier souci de chaque unité. »
+            </div>
+            <p class="doctrinal-analysis">
+              <strong>Analyse de chancellerie & méthode d'exploitation :</strong><br>
+              Dans ce passage fondateur de <em>Theory of International Politics</em> (Chapitre 5), Waltz formule la distinction matricielle de la science politique moderne :
+            </p>
+            <ul style="margin: 8px 0 12px 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+              <li><strong>Le principe ordonnateur :</strong> Ce n'est ni la psychologie des dirigeants ni la nature démocratique ou autoritaire des régimes qui détermine les grandes tendances internationales, mais la structure anarchique du milieu.</li>
+              <li><strong>La contrainte de conformité :</strong> Tout État qui ignore la loi de l'auto-assistance et néglige sa défense en se fiant à la bienveillance d'autrui est puni par le système (affaiblissement, invasion ou disparition).</li>
+            </ul>
+            <p class="doctrinal-analysis">
+              <strong>Comment mobiliser cette citation en copie ou en note stratégique :</strong> Utilisez Waltz pour expliquer pourquoi les alliances militaires (comme l'OTAN) reposent sur un équilibre des intérêts de sécurité et non sur une amitié désintéressée.
             </p>
           </div>
         </section>
 
-        <!-- 5. ÉTUDES DE CAS -->
+        <!-- 5. ÉTUDES STRATÉGIQUES COMPARÉES -->
         <section class="course-section" id="etudes-de-cas">
           <span class="section-num-tag">Section 05</span>
-          <h2>Études de cas</h2>
+          <h2>Casus Belli & Études stratégiques comparées</h2>
+          <p>
+            L'anarchie se manifeste lors des grandes frictions entre la tentation hégémonique et la résistance collective :
+          </p>
 
           <div class="cases-grid">
             <div class="case-card">
               <div class="case-tag">Cas 01 · Dilemme de sécurité historique</div>
               <h4>La course aux armements navals anglo-allemande (1898–1914)</h4>
               <p>
-                L'Allemagne wilhelmienne décida de bâtir une puissante flotte de haute mer sous les lois navales de l'amiral von Tirpitz, affirmant que c'était pour protéger son commerce mondial. Pour l'Empire britannique, puissance maritime insulaire dont la survie dépendait de la maîtrise des mers, cette flotte représentait une menace existentielle absolue. Cette réaction en chaîne de construction de cuirassés <em>Dreadnought</em> illustre à la perfection la dynamique tragique du dilemme de sécurité en situation d'anarchie.
+                L'Empire allemand décida de bâtir une puissante flotte de haute mer sous l'impulsion de l'amiral von Tirpitz, affirmant vouloir seulement protéger son commerce colonial. Pour la Grande-Bretagne, puissance insulaire dépendante de la haute mer pour sa subsistance, cette flotte constituait une menace existentielle. Londres répliqua en lançant les cuirassés révolutionnaires <em>Dreadnought</em>. Cette escalade, où chaque mesure défensive de l'un était vue comme une agression par l'autre, illustre à la perfection la dynamique tragique du dilemme de sécurité en situation d'anarchie.
               </p>
             </div>
+
             <div class="case-card">
               <div class="case-tag">Cas 02 · Régulation institutionnelle</div>
-              <h4>L'ONU et le Chapitre VII : un Léviathan partiel sous contrôle</h4>
+              <h4>L'ONU et le Chapitre VII : Le reflet de l'anarchie</h4>
               <p>
-                La création de l'ONU en 1945 a tenté d'atténuer l'anarchie par la sécurité collective : le Conseil de sécurité peut ordonner des sanctions contraignantes et des opérations militaires (Chapitre VII). Toutefois, l'existence du droit de veto des cinq membres permanents (P5) rappelle que le système reste fondamentalement anarchique : aucune force armée ne peut être mobilisée contre les superpuissances ou leurs alliés protégés.
+                La Charte de San Francisco (1945) a tenté de réguler l'anarchie par un système de sécurité collective : le Conseil de sécurité peut ordonner des sanctions contraignantes et l'usage de la force armée (Chapitre VII). Toutefois, l'octroi du droit de veto aux cinq membres permanents (P5) rappelle la permanence indépassable de l'anarchie : aucune mesure militaire ne peut être déployée contre une grande puissance ou ses protégés vitaux, démontrant que l'ONU est un régulateur partiel, non un gouvernement mondial.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 03 · Dépassement régional</div>
+              <h4>L'Union européenne : Une communauté de sécurité kantienne</h4>
+              <p>
+                Après trois guerres dévastatrices en moins d'un siècle (1870, 1914, 1939), la France et l'Allemagne ont réussi, à travers l'intégration économique et juridique européenne, à désamorcer l'anarchie hobbesienne entre elles. Aujourd'hui, l'éventualité d'un recours aux armes entre Paris et Berlin pour régler un contentieux douanier ou territorial est devenue littéralement impensable. C'est l'exemple type d'une <strong>communauté de sécurité</strong> au sens de Karl Deutsch.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 04 · Rivalité systémique</div>
+              <h4>Le Piège de Thucydide : États-Unis vs Chine</h4>
+              <p>
+                Théorisé par Graham Allison à partir de la guerre du Péloponnèse (Sparte face à l'essor d'Athènes), ce piège structurel guette les transitions hégémoniques en milieu anarchique : la peur qu'éprouve la puissance installée (Washington) face à l'ascension rapide de la puissance rivale (Pékin) rend le moindre incident dans le détroit de Taïwan ou en mer de Chine méridionale susceptible de dégénérer en confrontation majeure.
               </p>
             </div>
           </div>
         </section>
 
-        <!-- 6. DÉBATS ET CONTROVERSES -->
-        <section class="course-section" id="debats">
+        <!-- 6. L'ATELIER DE L'ANALYSTE & CONCOURS -->
+        <section class="course-section" id="atelier">
           <span class="section-num-tag">Section 06</span>
-          <h2>Débats & controverses académiques</h2>
-          
-          <div class="debates-list">
-            <div class="debate-card">
-              <h4>1. Le projet d'un gouvernement mondial : Utopie ou cauchemar ?</h4>
-              <p>
-                Dans son projet de <em>Paix perpétuelle</em> (1795), Emmanuel Kant rejetait explicitement l'idée d'un « État mondial unique » (super-Léviathan global), y voyant le risque d'un despotisme universel sans issue. Il préconisait plutôt une <strong>fédération d'États républicains libres</strong> coopérant par le droit cosmopolitique, conservant leur autonomie tout en bannissant la guerre.
-              </p>
-            </div>
-            <div class="debate-card">
-              <h4>2. Le libéralisme institutionnel de Robert Keohane</h4>
-              <p>
-                Dans <em>After Hegemony</em> (1984), Robert Keohane démontre que même en présence d'anarchie, la coopération rationnelle entre États est possible et durable grâce aux <strong>régimes et institutions internationales</strong> (FMI, OMC, OACI). Les organisations réduisent l'incertitude, abaissent les coûts de transaction de la diplomatie et découragent les tricheries en augmentant la transparence mutuelle.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- 7. À RETENIR -->
-        <section class="course-section" id="a-retenir">
-          <span class="section-num-tag">Section 07</span>
-          <h2>À retenir</h2>
+          <h2>L'Atelier de l'analyste : Sujet type concours</h2>
           <p>
-            Les trois cultures de l'anarchie internationale selon Alexander Wendt :
+            Méthode d'application pour les épreuves de relations internationales :
           </p>
 
+          <div class="dissertation-card">
+            <span class="dissertation-badge">Sujet de dissertation type · Concours Quai d'Orsay / INSP</span>
+            <h3 class="dissertation-subject">« L'anarchie internationale condamne-t-elle le monde à la guerre ? »</h3>
+            
+            <div class="dissertation-problematique">
+              <strong>Problématique formulée :</strong><br>
+              En quoi l'absence d'un gouvernement mondial supérieur, si elle produit structurellement la méfiance, le dilemme de sécurité et l'impératif d'auto-assistance militaire (la vision réaliste), a-t-elle néanmoins stimulé la construction d'une société internationale ordonnée par des institutions coutumières, des traités juridiques et des communautés de sécurité (la vision sociologique et constructiviste) ?
+            </div>
+
+            <div class="plan-grid">
+              <div class="plan-part">
+                <div class="plan-part-title">I. L'anarchie comme matrice structurelle de l'insécurité et de la rivalité</div>
+                <ul>
+                  <li><strong>A. La tragédie de l'auto-assistance et du dilemme de sécurité :</strong> En l'absence de tiers régulateur infaillible, les États arment leurs frontières, ce qui alimente mécaniquement la spirale de la méfiance (Waltz, Herz).</li>
+                  <li><strong>B. Les limites de la sécurité collective et la faillite du multilatéralisme :</strong> Le blocage récurrent du Conseil de sécurité de l'ONU face aux agressions de grandes puissances confirme la persistance d'un ordre hobbesien non résolu.</li>
+                </ul>
+              </div>
+              <div class="plan-part">
+                <div class="plan-part-title">II. La fabrique patiente d'une société internationale ordonnée</div>
+                <ul>
+                  <li><strong>A. La régulation institutionnelle de l'anarchie (Hedley Bull) :</strong> La diplomatie permanente, le droit des traités de Vienne et l'interdépendance économique transforment l'anarchie brute en une société régulée.</li>
+                  <li><strong>B. La plasticité des cultures de l'anarchie (Alexander Wendt) :</strong> L'anarchie n'est pas une fatalité génétique : l'apprentissage historique permet l'émergence de communautés de sécurité démocratiques (ex: modèle européen) où la guerre devient obsolète.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px;">
+              <h4 style="font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin-bottom: 8px;">
+                ⚠️ Les 3 pièges éliminatoires à éviter en copie :
+              </h4>
+              <div class="pitfalls-grid">
+                <div class="pitfall-item">
+                  <strong>1. Utiliser « anarchie » au sens vulgaire de désordre</strong>
+                  Ne jamais écrire que le monde est « en anarchie » pour signifier qu'il y a du désordre ou des attentats. L'anarchie est une propriété structurelle formelle (absence de chef), non un jugement de valeur sur le niveau de violence.
+                </div>
+                <div class="pitfall-item">
+                  <strong>2. Prôner naïvement un gouvernement mondial idéal</strong>
+                  Rappelez Raymond Aron : un État mondial disposant du monopole absolu des armes risquerait fort d'être la tyrannie la plus absolue de l'histoire humaine. L'anarchie préserve aussi la diversité des modèles politiques souverains.
+                </div>
+                <div class="pitfall-item">
+                  <strong>3. Réduire l'anarchie au seul paradigme réaliste</strong>
+                  N'oubliez jamais de mobiliser l'École anglaise (Bull) et le constructivisme (Wendt) pour nuancer la vision pessimiste mécanique de Kenneth Waltz.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. SYNTHÈSE & BIBLIOGRAPHIE -->
+        <section class="course-section" id="synthese">
+          <span class="section-num-tag">Section 07</span>
+          <h2>Synthèse matricielle & Bibliographie certifiée</h2>
+          
           <div class="synthesis-table-wrap">
             <table class="synthesis-table">
               <thead>
                 <tr>
-                  <th>Culture de l'anarchie</th>
-                  <th>Perception de l'Autre</th>
-                  <th>Règle du jeu internationale</th>
-                  <th>Exemple historique</th>
+                  <th>Paradigme théorique</th>
+                  <th>Conception de l'anarchie</th>
+                  <th>Comportement clé de l'État</th>
+                  <th>Perspective sur la guerre</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>Hobbesienne</strong></td>
-                  <td>Ennemi mortel (Enemy)</td>
-                  <td>Guerre d'anéantissement sans limite juridique</td>
-                  <td>Europe de la guerre de Trente Ans (1618-1648)</td>
+                  <td><strong>Néoréalisme (Waltz)</strong></td>
+                  <td>Contrainte structurelle absolue et immuable</td>
+                  <td>Auto-assistance (Self-Help), maximisation de la puissance</td>
+                  <td>Inévitable et récurrente dans l'histoire humaine</td>
                 </tr>
                 <tr>
-                  <td><strong>Lockéenne</strong></td>
-                  <td>Rival souverain (Rival)</td>
-                  <td>Reconnaissance mutuelle, guerres limitées sous droit</td>
-                  <td>Système européen du Concert des Nations (XIXe siècle)</td>
+                  <td><strong>École anglaise (Bull)</strong></td>
+                  <td>Société anarchique régulée par des normes</td>
+                  <td>Respect des traités, concert diplomatique des puissances</td>
+                  <td>Régulée et limitée par le droit de la guerre (Jus in bello)</td>
                 </tr>
                 <tr>
-                  <td><strong>Kantienne</strong></td>
-                  <td>Ami ou partenaire (Friend)</td>
-                  <td>Non-recours absolu à la force armée, sécurité mutuelle</td>
-                  <td>Zone transatlantique / Union européenne contemporaine</td>
+                  <td><strong>Libéralisme institutionnel (Keohane)</strong></td>
+                  <td>Obstacle à la coopération surmontable par les institutions</td>
+                  <td>Création d'organisations internationales (OMC, FMI, ONU)</td>
+                  <td>Réductible par les gains mutuels de l'interdépendance</td>
+                </tr>
+                <tr>
+                  <td><strong>Constructivisme (Wendt)</strong></td>
+                  <td>Construction sociale dépendant des représentations</td>
+                  <td>Socialisation, apprentissage historique, construction identitaire</td>
+                  <td>Dépend de la culture (hobbesienne, lockéenne ou kantienne)</td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </section>
 
-        <!-- 8. BIBLIOGRAPHIE ET SOURCES -->
-        <section class="course-section" id="bibliographie">
-          <span class="section-num-tag">Section 08</span>
-          <h2>Bibliographie & sources académiques</h2>
-
-          <div class="biblio-list">
+          <div class="biblio-list" style="margin-top: 24px;">
             <div class="biblio-item">
               <span class="biblio-author">WALTZ, Kenneth N. (1979).</span>
               <span class="biblio-title">Theory of International Politics.</span>
-              <div class="biblio-details">Reading : Addison-Wesley. Ouvrage canonique fondant le néoréalisme structural et analysant la contrainte anarchique.</div>
+              <div class="biblio-details">Reading : Addison-Wesley. L'ouvrage fondateur du néoréalisme structural définissant l'anarchie comme principe ordonnateur.</div>
             </div>
             <div class="biblio-item">
               <span class="biblio-author">BULL, Hedley (1977).</span>
               <span class="biblio-title">The Anarchical Society: A Study of Order in World Politics.</span>
-              <div class="biblio-details">Londres : Macmillan. Théorie majeure de l'École anglaise démontrant la possibilité d'une société internationale ordonnée.</div>
+              <div class="biblio-details">London : Macmillan. Le classique de l'École anglaise démontrant l'existence d'une société internationale ordonnée sans gouvernement mondial.</div>
             </div>
             <div class="biblio-item">
               <span class="biblio-author">WENDT, Alexander (1992).</span>
-              <span class="biblio-title">« Anarchy is what States make of it: The Social Construction of Power Politics ».</span>
-              <div class="biblio-details">International Organization, vol. 46, no 2, p. 391-425. Article fondateur du constructivisme en relations internationales.</div>
+              <span class="biblio-title">Anarchy is what States Make of it: The Social Construction of Power Politics.</span>
+              <div class="biblio-details">International Organization, vol. 46, n° 2. L'article manifeste révolutionnant la théorie des relations internationales.</div>
             </div>
             <div class="biblio-item">
-              <span class="biblio-author">KANT, Emmanuel (1795).</span>
-              <span class="biblio-title">Projet de paix perpétuelle (Zum ewigen Frieden).</span>
-              <div class="biblio-details">Königsberg : Friedrich Nicolovius. Essai philosophique matriciel sur la fédération pacifique des républiques libres.</div>
+              <span class="biblio-author">JERVIS, Robert (1978).</span>
+              <span class="biblio-title">Cooperation Under the Security Dilemma.</span>
+              <div class="biblio-details">World Politics, vol. 30, n° 2. Analyse fondamentale des spirales de méfiance et de la distinction défensif/offensif.</div>
             </div>
           </div>
         </section>
+
 
         <!-- 9. ÉVALUATION ET QUIZ -->
         <section class="course-section" id="evaluation">

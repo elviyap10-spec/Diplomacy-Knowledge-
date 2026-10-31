@@ -551,7 +551,187 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
   box-shadow: 0 6px 20px rgba(217, 175, 94, 0.45);
 }
 
+/* PASSERELLE CONCEPTUELLE INTER-CONCEPTS */
+.concept-bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.concept-bridge-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  transition: var(--transition);
+}
+.concept-bridge-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.concept-bridge-target {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.concept-bridge-target span.arrow {
+  color: var(--gold);
+  font-size: 14px;
+}
+.concept-bridge-card:hover .concept-bridge-target span.arrow {
+  color: var(--accent);
+}
+.concept-bridge-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* TEXTE DOCTRINAL FONDATEUR */
+.doctrinal-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.doctrinal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 800;
+  color: var(--gold);
+}
+.doctrinal-quote {
+  border-left: 3px solid var(--gold);
+  margin: 0 0 16px;
+  padding: 10px 0 10px 18px;
+  font-style: italic;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.doctrinal-analysis {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+/* ATELIER CONCOURS & DISSERTATION */
+.dissertation-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+}
+.dissertation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+.dissertation-subject {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dissertation-problematique {
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.plan-part {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.plan-part-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.plan-part ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* PIEGES ACADEMIQUES */
+.pitfalls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.pitfall-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.pitfall-item strong {
+  display: block;
+  color: var(--accent);
+  font-size: 11.5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
+  .plan-grid { grid-template-columns: 1fr; }
   .course-layout { grid-template-columns: 1fr; }
   .course-toc { display: none; }
   .cases-grid { grid-template-columns: 1fr; }
@@ -899,219 +1079,334 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
       <aside class="course-toc" aria-label="Sommaire du cours">
         <div class="toc-title">
           <span>Sommaire du cours</span>
-          <span>9 parties</span>
+          <span>8 sections</span>
         </div>
         <ul class="toc-list">
-          <li><a href="#introduction" class="toc-link">1. Introduction</a></li>
-          <li><a href="#essentiel" class="toc-link">2. L'essentiel</a></li>
-          <li><a href="#profondeur" class="toc-link">3. Comprendre en profondeur</a></li>
-          <li><a href="#savais-tu" class="toc-link">4. Le savais-tu ?</a></li>
-          <li><a href="#etudes-de-cas" class="toc-link">5. Études de cas</a></li>
-          <li><a href="#debats" class="toc-link">6. Débats & controverses</a></li>
-          <li><a href="#a-retenir" class="toc-link">7. À retenir</a></li>
-          <li><a href="#bibliographie" class="toc-link">8. Bibliographie & sources</a></li>
-          <li><a href="#evaluation" class="toc-link">9. Évaluation (Quiz)</a></li>
+          <li><a href="#problematique" class="toc-link">1. Problématique & Repères</a></li>
+          <li><a href="#theorie" class="toc-link">2. Anatomie théorique</a></li>
+          <li><a href="#passerelle" class="toc-link">3. Passerelle inter-concepts</a></li>
+          <li><a href="#texte-doctrinal" class="toc-link">4. Texte doctrinal décrypté</a></li>
+          <li><a href="#etudes-de-cas" class="toc-link">5. Casus Belli & Études</a></li>
+          <li><a href="#atelier" class="toc-link">6. L'Atelier de l'analyste</a></li>
+          <li><a href="#synthese" class="toc-link">7. Synthèse & Bibliographie</a></li>
+          <li><a href="#evaluation" class="toc-link">8. Évaluation (Quiz)</a></li>
         </ul>
       </aside>
 
       <!-- CONTENU DU COURS -->
       <article class="course-content">
-        <!-- 1. INTRODUCTION -->
-        <header class="course-header" id="introduction">
+        <!-- 1. PROBLÉMATIQUE & CADRE DIRECTEUR -->
+        <header class="course-header" id="problematique">
           <div class="course-meta-tags">
             <span class="tag-badge level-tag">Niveau L1 à M2</span>
-            <span class="tag-badge">Stratégie & Diplomatie</span>
-            <span class="tag-badge">Politique Étrangère</span>
+            <span class="tag-badge">Analyse de la Politique Étrangère (FPA)</span>
+            <span class="tag-badge">Doctrine Stratégique</span>
             <span class="tag-badge xp-tag">+30 XP à l'évaluation</span>
           </div>
           <h1 class="course-title">L'Intérêt National</h1>
           <p class="course-lead-def">
-            Ensemble des objectifs fondamentaux, des valeurs et des impératifs vitaux qui orientent de manière continue et prioritaire la politique étrangère et la stratégie de défense d'un État souverain.
+            Principe rationnel et boussole stratégique suprême guidant la politique extérieure d'un État afin de garantir sa survie physique, son intégrité territoriale, sa cohésion constitutionnelle et sa prospérité dans un système international compétitif.
           </p>
           <div class="course-intro-question">
-            <strong>Question introductive :</strong> L'intérêt national est-il une réalité matérielle objective immuable imposée par la géographie, ou une construction politique et idéologique forgée par les dirigeants et l'opinion publique ?
+            <strong>Problématique directrice :</strong> L'intérêt national est-il une réalité matérielle objective et immuable imposée par les constantes géographiques et sécuritaires, ou une construction subjective et idéologique forgée par les représentations collectives, les élites dirigeantes et les compromis bureaucratiques ?
+          </div>
+
+          <!-- JALONS DE PROGRESSION L1 À M2 -->
+          <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .06em;">Jalon L1 · Fondations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Maîtriser la hiérarchie ternaire des intérêts (vitaux, majeurs, généraux) et la filiation historique de la raison d'État (Machiavel, Richelieu).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--accent); letter-spacing: .06em;">Jalon L3 · Confrontations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Opposer le réalisme classique (Morgenthau : intérêt défini en termes de puissance) au constructivisme social (Wendt : l'intérêt produit de l'identité).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--green); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--green); letter-spacing: .06em;">Jalon M1/M2 · Déconstruction</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Mobiliser le modèle bureaucratique de Graham Allison (politique gouvernementale), le jeu à deux niveaux de Putnam et la tragédie des biens communs mondiaux.</div>
+            </div>
           </div>
         </header>
 
-        <!-- 2. L'ESSENTIEL -->
-        <section class="course-section" id="essentiel">
+        <!-- 2. ANATOMIE THÉORIQUE & DÉCONSTRUCTION -->
+        <section class="course-section" id="theorie">
           <span class="section-num-tag">Section 02</span>
-          <h2>L'essentiel</h2>
+          <h2>Anatomie théorique & Déconstruction</h2>
           <p>
-            L'intérêt national est la boussole rationnelle de la politique étrangère. Il sert à arbitrer les choix stratégiques face à des ressources finies et à justifier l'allocation des forces diplomatiques, militaires et économiques d'une nation.
+            L'intérêt national n'est pas une formule incantatoire : c'est un concept opératoire forgé au confluent de la philosophie politique et des exigences brutales de la survie collective. Son élaboration doctrinale s'articule en quatre ruptures fondamentales :
           </p>
 
-          <div class="essential-box">
-            <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .08em;">
-              La hiérarchie ternaire des intérêts étatiques
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 16px;">
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">1. De la « raison d'État » à l'intérêt national sécularisé</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                L'ancêtre direct du concept est la <em>ragione di Stato</em>, théorisée à la Renaissance par <strong>Nicolas Machiavel</strong> (<em>Le Prince</em>, 1532) puis appliquée avec rigueur par le <strong>Cardinal de Richelieu</strong> au XVIIe siècle. La rupture est révolutionnaire : le salut de l'État constitue la loi suprême (<em>Salus populi suprema lex esto</em>). Les considérations morales ou religieuses individuelles ne s'appliquent pas mécaniquement aux souverains lorsqu'il s'agit de préserver la communauté politique du désastre ou de la soumission étrangère.
+              </p>
             </div>
-            <div class="essential-grid">
-              <div class="essential-item">
-                <div class="essential-item-num">01</div>
-                <h4>Intérêts vitaux (Non négociables)</h4>
-                <p>La survie physique de la population, l'intégrité du territoire national et la préservation de la souveraineté constitutionnelle. Tout péril ici justifie le recours aux armes.</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">02</div>
-                <h4>Intérêts majeurs & stratégiques</h4>
-                <p>La sécurité des approvisionnements énergétiques et critiques, l'accès aux détroits maritimes vitaux, la stabilité des pays frontaliers et la solidité des alliances régionales.</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">03</div>
-                <h4>Intérêts secondaires & généraux</h4>
-                <p>La promotion des droits humains, le rayonnement linguistique, la coopération culturelle et la participation aux missions de maintien de la paix multilatérales.</p>
-              </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">2. Le réalisme classique : L'intérêt défini en termes de puissance (Morgenthau)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans <em>In Defense of the National Interest</em> (1951), <strong>Hans Morgenthau</strong> combat l'illusionnisme moralisateur de la politique étrangère américaine. Pour Morgenthau, un gouvernement qui sacrifie les intérêts sécuritaires et géostratégiques concrets de sa population sur l'autel de principes universels abstraits (démocratisation forcée, croisades idéologiques) commet une faute politique et éthique impardonnable. L'intérêt national sert de garde-fou contre le fanatisme et permet la négociation diplomatique : des nations qui poursuivent des intérêts tangibles peuvent toujours trouver un compromis, tandis que des nations mues par des idéologies absolues se vouent à la guerre sainte.
+              </p>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">3. La déconstruction constructiviste : L'intérêt produit de l'identité (Wendt)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                L'école constructiviste (notamment <strong>Alexander Wendt</strong>, <em>Social Theory of International Politics</em>, 1999) démontre que les intérêts ne sont pas des données brutes gravées dans la matière. Les États ne savent pas ce qu'ils veulent tant qu'ils ne savent pas qui ils sont : <em>les intérêts découlent des identités</em>. Ainsi, l'Allemagne contemporaine, dont l'identité post-1945 est façonnée par le pacifisme constitutionnel et la culture du compromis multilatéral, n'a pas le même intérêt national que l'Allemagne impériale de Guillaume II, bien que sa géographie au cœur de l'Europe centrale soit strictement identique.
+              </p>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">4. La boîte noire étatique ouverte : Le modèle bureaucratique de Graham Allison</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans son ouvrage séminal sur la crise des missiles de Cuba (<em>Essence of Decision</em>, 1971), <strong>Graham Allison</strong> brise le mythe de l'État comme acteur rationnel unique. Les décisions de politique étrangère ne sont pas prises par un cerveau unifié : elles résultent de tiraillements féroces, de marchandages corporatistes et de jeux d'influence entre ministères (Défense, Diplomatie, Renseignement, Trésor). Comme le résume la célèbre maxime de Miles : <em>« Where you stand depends on where you sit »</em> (votre position dépend de votre siège institutionnel).
+              </p>
             </div>
           </div>
         </section>
 
-        <!-- 3. COMPRENDRE EN PROFONDEUR -->
-        <section class="course-section" id="profondeur">
+        <!-- 3. PASSERELLE INTER-CONCEPTS -->
+        <section class="course-section" id="passerelle">
           <span class="section-num-tag">Section 03</span>
-          <h2>Comprendre en profondeur</h2>
+          <h2>Passerelle inter-concepts : Le maillage analytique</h2>
           <p>
-            L'ancêtre conceptuel de l'intérêt national est la <strong>« raison d'État »</strong>, théorisée à la Renaissance par <strong>Nicolas Machiavel</strong> (<em>Le Prince</em>, 1532) puis appliquée avec éclat par le <strong>Cardinal de Richelieu</strong> au XVIIe siècle. La raison d'État postule que les lois morales individuelles ne s'appliquent pas mécaniquement aux souverains : le salut de l'État constitue la loi suprême (<em>Salus populi suprema lex esto</em>).
+            L'intérêt national est la matrice d'arbitrage qui connecte les capacités et contraintes du système international :
           </p>
-          <p>
-            Au milieu du XXe siècle, <strong>Hans Morgenthau</strong> érige l'intérêt national en concept opératoire central de l'école réaliste. Dans <em>In Defense of the National Interest</em> (1951), il combat l'« idéalisme moralisateur » de la politique américaine. Pour Morgenthau, un gouvernement qui sacrifie les intérêts sécuritaires de son peuple au nom de principes moraux universels abstraits commet une faute politique et morale majeure.
-          </p>
-          <p>
-            Au tournant du XXIe siècle, l'école <strong>constructiviste</strong> (notamment <strong>Alexander Wendt</strong>) opère un tournant critique : l'intérêt national n'est pas prédéterminé par la géographie ou le nombre de canons. Il est le produit des normes, des représentations collectives et des processus d'apprentissage historique d'une société. Ainsi, l'intérêt national de l'Allemagne d'aujourd'hui, pacifique et obsédée par la stabilité monétaire, est radicalement différent de celui de l'Allemagne bismarckienne de 1871.
-          </p>
+
+          <div class="concept-bridge-grid">
+            <a href="souverainete.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Souveraineté</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'impératif vital :</strong> La protection de la souveraineté interne et de l'intégrité du territoire constitue le niveau zéro non négociable de l'intérêt national de tout État.
+              </p>
+            </a>
+
+            <a href="puissance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Puissance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'adéquation fins/moyens :</strong> La puissance fournit les leviers matériels et coercitifs ; l'intérêt national en rationalise l'emploi pour éviter l'épuisement économique ou le surétirement impérial.
+              </p>
+            </a>
+
+            <a href="anarchie-internationale.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Anarchie Internationale</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>La loi de l'auto-assistance :</strong> Dans un système anarchique sans autorité tutélaire mondiale, la poursuite résolue de l'intérêt national est la seule garantie de ne pas être asservi ou envahi par ses rivaux.
+              </p>
+            </a>
+
+            <a href="interdependance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Interdépendance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>Le paradoxe moderne :</strong> La mondialisation promet la prospérité économique mais heurte l'intérêt national dès lors qu'elle engendre des dépendances critiques létales (gaz, semi-conducteurs, principes actifs pharmaceutiques).
+              </p>
+            </a>
+          </div>
         </section>
 
-        <!-- 4. LE SAVAIS-TU ? -->
-        <section class="course-section" id="savais-tu">
+        <!-- 4. TEXTE DOCTRINAL DÉCRYPTÉ -->
+        <section class="course-section" id="texte-doctrinal">
           <span class="section-num-tag">Section 04</span>
-          <div class="did-you-know">
-            <div class="did-you-know-badge">💡 Le savais-tu ? · Le triomphe de la raison d'État</div>
-            <h4>Richelieu et l'alliance avec les princes protestants</h4>
-            <p>
-              Pendant la guerre de Trente Ans (1618–1648), le cardinal de Richelieu, prince de l'Église catholique et Premier ministre du très catholique roi Louis XIII, n'hésita pas à financer et armer les rois protestants de Suède et du Danemark contre les très catholiques Habsbourg d'Espagne et d'Autriche. Scandaleux pour les théologiens de l'époque, ce choix diplomatique était purement guidé par l'intérêt national français : briser l'encerclement géopolitique de la France par la dynastie des Habsbourg.
+          <h2>Texte doctrinal fondateur décrypté</h2>
+          
+          <div class="doctrinal-card">
+            <div class="doctrinal-meta">
+              <span>Source primaire canonique</span>
+              <span>·</span>
+              <span>Hans J. Morgenthau (1951)</span>
+            </div>
+            <div class="doctrinal-quote">
+              « La survie d'une nation politique ne peut être confiée à des idéaux abstraits ou aux bonnes intentions d'autrui. La nation n'a pas le droit d'être généreuse aux dépens de sa propre sécurité. L'obligation première d'un gouvernement est envers sa propre nation : il a pour devoir sacré d'assurer la survie et la sécurité de cette communauté politique par tous les moyens requis. L'intérêt national défini en termes de puissance n'est pas une invention cynique : c'est la condition sine qua non de la responsabilité politique. »
+            </div>
+            <p class="doctrinal-analysis">
+              <strong>Analyse de chancellerie & méthode d'exploitation :</strong><br>
+              Dans <em>In Defense of the National Interest</em>, Morgenthau met en garde contre la dérive moraliste en diplomatie :
+            </p>
+            <ul style="margin: 8px 0 12px 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+              <li><strong>L'éthique de responsabilité wébérienne :</strong> Un dirigeant d'État n'est pas un philosophe moral individuel : il répond devant l'histoire du destin de millions de citoyens. Céder au sentimentalisme face à une puissance agressive équivaut à trahir son mandat constitutionnel.</li>
+              <li><strong>Le pragmatisme diplomatique :</strong> Définir les relations extérieures par l'intérêt national permet de négocier des compromis stables, car les intérêts de sécurité sont rationnellement mesurables, à l'inverse des idéologies religieuses ou totalitaires.</li>
+            </ul>
+            <p class="doctrinal-analysis">
+              <strong>Comment mobiliser cette citation en copie ou en note stratégique :</strong> Citez Morgenthau pour justifier qu'une politique étrangère équilibrée privilégie la clarté des intérêts de sécurité nationale sur l'aventurisme d'ingérence démocratique ou humanitaire.
             </p>
           </div>
         </section>
 
-        <!-- 5. ÉTUDES DE CAS -->
+        <!-- 5. ÉTUDES STRATÉGIQUES COMPARÉES -->
         <section class="course-section" id="etudes-de-cas">
           <span class="section-num-tag">Section 05</span>
-          <h2>Études de cas</h2>
+          <h2>Casus Belli & Études stratégiques comparées</h2>
+          <p>
+            L'intérêt national s'observe lors des tournants historiques où les certitudes géopolitiques s'effondrent :
+          </p>
 
           <div class="cases-grid">
             <div class="case-card">
-              <div class="case-tag">Cas 01 · Diplomatie énergétique</div>
-              <h4>L'Allemagne et le « Zeitenwende » (Le tournant de 2022)</h4>
+              <div class="case-tag">Cas 01 · Rupture stratégique</div>
+              <h4>Le « Zeitenwende » allemand (2022) : Le choc de la réalité</h4>
               <p>
-                Pendant trois décennies, l'Allemagne a fondé sa prospérité industrielle sur un intérêt national défini par le gaz russe bon marché (via les gazoducs Nord Stream 1 et 2), espérant arrimer Moscou par le commerce (<em>Wandel durch Handel</em>). L'invasion de l'Ukraine en 2022 a pulvérisé cette doctrine : le chancelier Olaf Scholz a décrété un « tournant historique » (Zeitenwende), redéfinissant l'intérêt vital allemand autour du réarmement militaire (fonds spécial de 100 milliards d'euros) et de la rupture énergétique totale avec la Russie.
+                Pendant trois décennies, Berlin a articulé son intérêt national autour de la prospérité économique tirée du gaz russe bon marché (Nord Stream) et de l'exportation vers la Chine, sous-traitant sa défense militaire à l'OTAN (<em>Wandel durch Handel</em>). L'invasion russe de l'Ukraine le 24 février 2022 a pulvérisé cette vision : le chancelier Olaf Scholz a décrété un « changement d'époque » (Zeitenwende), réallouant 100 milliards d'euros à la Bundeswehr et actant une rupture énergétique totale au nom de l'impératif vital de sécurité.
               </p>
             </div>
+
             <div class="case-card">
-              <div class="case-tag">Cas 02 · Doctrine stratégique pérenne</div>
-              <h4>La Doctrine Monroe (1823) : sanctuariser un continent</h4>
+              <div class="case-tag">Cas 02 · Sanctuarisation continentale</div>
+              <h4>La Doctrine Monroe (1823) : Deux siècles de permanence</h4>
               <p>
-                Énoncée par le président James Monroe, cette doctrine pose que toute intervention des puissances coloniales européennes dans les Amériques est considérée comme une menace directe pour l'intérêt national et la sécurité des États-Unis. Deux siècles plus tard, cette vision géopolitique guide toujours la politique de Washington, étendant l'intérêt national américain bien au-delà de ses propres frontières territoriales.
+                Formulée par James Monroe, cette doctrine stipule que toute ingérence des puissances extérieures dans l'hémisphère américain sera considérée comme une agression contre l'intérêt national des États-Unis. Deux cents ans plus tard, Washington continue de mobiliser ce cadre stratégique pour contrer l'influence économique et militaire chinoise en Amérique latine et dans les Caraïbes.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 03 · Triomphe de la Realpolitik</div>
+              <h4>Le rapprochement sino-américain de 1972 : Nixon et Mao</h4>
+              <p>
+                En pleine guerre froide et guerre du Vietnam, le président américain Richard Nixon et le président du PCC Mao Zedong mettent de côté l'antagonisme irréductible entre capitalisme et marxisme. Leur mobile ? Un intérêt national partagé absolu : contenir la puissance militaire menaçante de l'Union Soviétique. C'est la démonstration magistrale que l'intérêt de sécurité transcende toujours les barrières idéologiques.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 04 · Impasse systémique</div>
+              <h4>Le changement climatique et la tragédie des biens communs</h4>
+              <p>
+                L'atmosphère planétaire et la biodiversité océanique sont des biens publics mondiaux. Lorsqu'un État continue d'exploiter ses réserves de charbon ou d'hydrocarbures au nom de son intérêt économique immédiat, il agit rationnellement à court terme selon ses intérêts égoïstes, mais concourt au suicide écologique collectif. C'est l'illustration des limites tragiques de l'intérêt national westphalien.
               </p>
             </div>
           </div>
         </section>
 
-        <!-- 6. DÉBATS ET CONTROVERSES -->
-        <section class="course-section" id="debats">
+        <!-- 6. L'ATELIER DE L'ANALYSTE & CONCOURS -->
+        <section class="course-section" id="atelier">
           <span class="section-num-tag">Section 06</span>
-          <h2>Débats & controverses académiques</h2>
-          
-          <div class="debates-list">
-            <div class="debate-card">
-              <h4>1. Intérêt national égoïste contre « Biens communs de l'humanité »</h4>
-              <p>
-                Le changement climatique, l'acidification des océans et la prévention des pandémies mondiales imposent des limites objectives à la doctrine de l'intérêt national étatique. Lorsqu'un État refuse de limiter ses émissions de carbone pour protéger la compétitivité de son industrie à court terme, la recherche exclusive de son intérêt national conduit à un désastre écologique planétaire collectif (la « tragédie des biens communs » formulée par Garrett Hardin).
-              </p>
-            </div>
-            <div class="debate-card">
-              <h4>2. Qui définit véritablement l'intérêt national ? (Critique marxiste et pluraliste)</h4>
-              <p>
-                Les théoriciens critiques (comme Noam Chomsky ou les sociologues des élites) soutiennent que le terme « intérêt national » est souvent un habillage rhétorique masquant les intérêts particuliers des classes dirigeantes, du complexe militaro-industriel ou des conglomérats pétroliers et financiers, plutôt que le bien-être authentique des citoyens.
-              </p>
-            </div>
-            <div class="debate-card">
-              <h4>3. Le dilemme entre morale universelle et sécurité de l'État</h4>
-              <p>
-                Un État démocratique peut-il bafouer ses propres principes éthiques (ventes d'armes à des régimes violant les droits humains, recours à des détentions secrètes) sous prétexte de défendre son intérêt national ? C'est le nœud gordien opposant l'idéalisme normatif à la Realpolitik sans fard.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- 7. À RETENIR -->
-        <section class="course-section" id="a-retenir">
-          <span class="section-num-tag">Section 07</span>
-          <h2>À retenir</h2>
+          <h2>L'Atelier de l'analyste : Sujet type concours</h2>
           <p>
-            Typologie analytique des intérêts nationaux en politique étrangère :
+            Méthode d'application pour les épreuves de relations internationales :
           </p>
 
+          <div class="dissertation-card">
+            <span class="dissertation-badge">Sujet de dissertation type · Concours Quai d'Orsay / INSP</span>
+            <h3 class="dissertation-subject">« L'intérêt national est-il encore pertinent à l'ère des défis globaux ? »</h3>
+            
+            <div class="dissertation-problematique">
+              <strong>Problématique formulée :</strong><br>
+              En quoi la poursuite exclusive de l'intérêt national étatique, bien qu'inadaptée par nature pour traiter les menaces existentielles planétaires transfrontalières (climat, pandémies, prolifération nucléaire), demeure-t-elle néanmoins le seul moteur politique et légitime capable de mobiliser des ressources et d'imposer des décisions contraignantes ?
+            </div>
+
+            <div class="plan-grid">
+              <div class="plan-part">
+                <div class="plan-part-title">I. L'obsolescence structurelle d'un intérêt strictement national face aux défis globaux</div>
+                <ul>
+                  <li><strong>A. La tragédie des biens communs planétaires :</strong> L'incapacité d'agréger des intérêts nationaux égoïstes pour sanctuariser le climat mondial (Hardin, protocoles climatiques non contraignants).</li>
+                  <li><strong>B. La déterritorialisation des menaces existentielles :</strong> Les crises sanitaires, cyberattaques et réseaux terroristes ignorent les frontières souveraines et rendent inopérant le concept de défense d'une frontière hermétique.</li>
+                </ul>
+              </div>
+              <div class="plan-part">
+                <div class="plan-part-title">II. La résilience irremplaçable de l'intérêt national comme levier d'action</div>
+                <ul>
+                  <li><strong>A. L'État souverain demeure le seul garant de l'ordre en temps de crise :</strong> Lors des périls existentiels (Covid-19, guerres interétatiques), les citoyens se tournent vers leur État protecteur national, non vers des instances supranationales lointaines.</li>
+                  <li><strong>B. L'intérêt national éclairé comme moteur du multilatéralisme :</strong> Les coopérations internationales les plus solides naissent non de l'idéalisme moral, mais de la convergence calculée d'intérêts nationaux bien compris (traités de non-prolifération, accords commerciaux mutuellement avantageux).</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px;">
+              <h4 style="font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin-bottom: 8px;">
+                ⚠️ Les 3 pièges éliminatoires à éviter en copie :
+              </h4>
+              <div class="pitfalls-grid">
+                <div class="pitfall-item">
+                  <strong>1. Moraliser le débat</strong>
+                  Ne jamais qualifier l'intérêt national d'« égoïste » ou de « cynique ». Dans les relations internationales, l'intérêt national est la responsabilité démocratique et politique première de tout gouvernement légitime envers son peuple.
+                </div>
+                <div class="pitfall-item">
+                  <strong>2. Considérer l'intérêt national comme immuable</strong>
+                  L'intérêt national n'est pas figé : il est constamment réinterprété à l'aune des chocs externes et des alternances politiques intérieures (ex: rupture du Zeitenwende allemand).
+                </div>
+                <div class="pitfall-item">
+                  <strong>3. Ignorer les compromis bureaucratiques internes</strong>
+                  Rappelez-vous Graham Allison : la politique étrangère d'un pays n'est pas le produit d'un monarque omniscient, mais le résultat de compromis tumultueux entre diplomates, militaires et argentiers.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. SYNTHÈSE & BIBLIOGRAPHIE -->
+        <section class="course-section" id="synthese">
+          <span class="section-num-tag">Section 07</span>
+          <h2>Synthèse matricielle & Bibliographie certifiée</h2>
+          
           <div class="synthesis-table-wrap">
             <table class="synthesis-table">
               <thead>
                 <tr>
                   <th>Niveau d'intérêt</th>
-                  <th>Objectifs stratégiques</th>
-                  <th>Moyens d'action mobilisés</th>
-                  <th>Capacité de compromis</th>
+                  <th>Définition stratégique</th>
+                  <th>Objets concrets</th>
+                  <th>Recours à la force armée</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>Intérêts vitaux</strong></td>
-                  <td>Survie de l'État, intégrité du sol, population</td>
-                  <td>Forces armées, dissuasion nucléaire, état d'urgence</td>
-                  <td><strong>Nulle (0 %)</strong> : Casus Belli</td>
+                  <td><strong>Intérêts Vitaux</strong></td>
+                  <td>Survie physique et continuité constitutionnelle</td>
+                  <td>Intégrité territoriale, protection de la population, souveraineté</td>
+                  <td>Légitime défense immédiate, dissuasion nucléaire ultime</td>
                 </tr>
                 <tr>
-                  <td><strong>Intérêts majeurs</strong></td>
-                  <td>Ressources énergétiques, routes maritimes, monnaie</td>
-                  <td>Alliances bilatérales, accords commerciaux, sanctions</td>
-                  <td><strong>Limitée</strong> : Négociations fermes</td>
+                  <td><strong>Intérêts Majeurs & Stratégiques</strong></td>
+                  <td>Préservation du rang et de la sécurité économique</td>
+                  <td>Approvisionnements énergétiques critiques, stabilité régionale, détroits vitaux</td>
+                  <td>Opérations militaires extérieures (OPEX), coalitions défensives</td>
                 </tr>
                 <tr>
-                  <td><strong>Intérêts généraux</strong></td>
-                  <td>Rayonnement culturel, multilatéralisme, climat</td>
-                  <td>Diplomatie publique, aide au développement, OIG</td>
-                  <td><strong>Forte</strong> : Concessions réciproques</td>
+                  <td><strong>Intérêts Généraux & Secondaires</strong></td>
+                  <td>Promotion de l'ordre normatif et du rayonnement</td>
+                  <td>Rayonnement linguistique, diplomatie culturelle, défense des droits humains</td>
+                  <td>Strictement exclu ; diplomatie publique et médiations civiles</td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </section>
 
-        <!-- 8. BIBLIOGRAPHIE ET SOURCES -->
-        <section class="course-section" id="bibliographie">
-          <span class="section-num-tag">Section 08</span>
-          <h2>Bibliographie & sources académiques</h2>
-
-          <div class="biblio-list">
+          <div class="biblio-list" style="margin-top: 24px;">
             <div class="biblio-item">
               <span class="biblio-author">MORGENTHAU, Hans J. (1951).</span>
               <span class="biblio-title">In Defense of the National Interest: A Critical Examination of American Foreign Policy.</span>
-              <div class="biblio-details">New York : Alfred A. Knopf. Plaidoyer fondateur pour une politique étrangère pragmatique ancrée dans la puissance.</div>
+              <div class="biblio-details">New York : Alfred A. Knopf. Plaidoyer classique contre l'idéalisme moralisateur et pour le calcul stratégique des intérêts.</div>
             </div>
             <div class="biblio-item">
-              <span class="biblio-author">KISSINGER, Henry (1994).</span>
-              <span class="biblio-title">Diplomacy.</span>
-              <div class="biblio-details">New York : Simon & Schuster. Histoire monumentale de la raison d'État de Richelieu à la chute de l'URSS.</div>
+              <span class="biblio-author">ALLISON, Graham T. (1971).</span>
+              <span class="biblio-title">Essence of Decision: Explaining the Cuban Missile Crisis.</span>
+              <div class="biblio-details">Little, Brown and Company. Analyse révolutionnaire déconstruisant l'illusion de l'acteur étatique unitaire et rationnel.</div>
             </div>
             <div class="biblio-item">
               <span class="biblio-author">WENDT, Alexander (1999).</span>
               <span class="biblio-title">Social Theory of International Politics.</span>
-              <div class="biblio-details">Cambridge : Cambridge University Press. Démonstration constructiviste de la formation des intérêts nationaux par les normes.</div>
+              <div class="biblio-details">Cambridge University Press. Démonstration constructiviste montrant que les intérêts étatiques procèdent des représentations sociales et de l'identité.</div>
             </div>
             <div class="biblio-item">
-              <span class="biblio-author">MACHIAVEL, Nicolas (1532).</span>
-              <span class="biblio-title">Le Prince (De Principatibus).</span>
-              <div class="biblio-details">Rome : Antonio Blado. Traité matriciel théorisant l'autonomie du politique et la préservation du pouvoir souverain.</div>
+              <span class="biblio-author">ARON, Raymond (1962).</span>
+              <span class="biblio-title">Paix et guerre entre les nations.</span>
+              <div class="biblio-details">Paris : Calmann-Lévy. L'œuvre maîtresse de la pensée française sur la rationalité de la survie étatique sous l'ombre de l'apocalypse thermonucléaire.</div>
             </div>
           </div>
         </section>
+
 
         <!-- 9. ÉVALUATION ET QUIZ -->
         <section class="course-section" id="evaluation">

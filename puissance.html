@@ -551,7 +551,187 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
   box-shadow: 0 6px 20px rgba(217, 175, 94, 0.45);
 }
 
+/* PASSERELLE CONCEPTUELLE INTER-CONCEPTS */
+.concept-bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.concept-bridge-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  transition: var(--transition);
+}
+.concept-bridge-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.concept-bridge-target {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.concept-bridge-target span.arrow {
+  color: var(--gold);
+  font-size: 14px;
+}
+.concept-bridge-card:hover .concept-bridge-target span.arrow {
+  color: var(--accent);
+}
+.concept-bridge-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* TEXTE DOCTRINAL FONDATEUR */
+.doctrinal-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.doctrinal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 800;
+  color: var(--gold);
+}
+.doctrinal-quote {
+  border-left: 3px solid var(--gold);
+  margin: 0 0 16px;
+  padding: 10px 0 10px 18px;
+  font-style: italic;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.doctrinal-analysis {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+/* ATELIER CONCOURS & DISSERTATION */
+.dissertation-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+}
+.dissertation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+.dissertation-subject {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dissertation-problematique {
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.plan-part {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.plan-part-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.plan-part ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* PIEGES ACADEMIQUES */
+.pitfalls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.pitfall-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.pitfall-item strong {
+  display: block;
+  color: var(--accent);
+  font-size: 11.5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
+  .plan-grid { grid-template-columns: 1fr; }
   .course-layout { grid-template-columns: 1fr; }
   .course-toc { display: none; }
   .cases-grid { grid-template-columns: 1fr; }
@@ -899,240 +1079,352 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
       <aside class="course-toc" aria-label="Sommaire du cours">
         <div class="toc-title">
           <span>Sommaire du cours</span>
-          <span>9 parties</span>
+          <span>8 sections</span>
         </div>
         <ul class="toc-list">
-          <li><a href="#introduction" class="toc-link">1. Introduction</a></li>
-          <li><a href="#essentiel" class="toc-link">2. L'essentiel</a></li>
-          <li><a href="#profondeur" class="toc-link">3. Comprendre en profondeur</a></li>
-          <li><a href="#savais-tu" class="toc-link">4. Le savais-tu ?</a></li>
-          <li><a href="#etudes-de-cas" class="toc-link">5. Études de cas</a></li>
-          <li><a href="#debats" class="toc-link">6. Débats & controverses</a></li>
-          <li><a href="#a-retenir" class="toc-link">7. À retenir</a></li>
-          <li><a href="#bibliographie" class="toc-link">8. Bibliographie & sources</a></li>
-          <li><a href="#evaluation" class="toc-link">9. Évaluation (Quiz)</a></li>
+          <li><a href="#problematique" class="toc-link">1. Problématique & Repères</a></li>
+          <li><a href="#theorie" class="toc-link">2. Anatomie théorique</a></li>
+          <li><a href="#passerelle" class="toc-link">3. Passerelle inter-concepts</a></li>
+          <li><a href="#texte-doctrinal" class="toc-link">4. Texte doctrinal décrypté</a></li>
+          <li><a href="#etudes-de-cas" class="toc-link">5. Casus Belli & Études</a></li>
+          <li><a href="#atelier" class="toc-link">6. L'Atelier de l'analyste</a></li>
+          <li><a href="#synthese" class="toc-link">7. Synthèse & Bibliographie</a></li>
+          <li><a href="#evaluation" class="toc-link">8. Évaluation (Quiz)</a></li>
         </ul>
       </aside>
 
       <!-- CONTENU DU COURS -->
       <article class="course-content">
-        <!-- 1. INTRODUCTION -->
-        <header class="course-header" id="introduction">
+        <!-- 1. PROBLÉMATIQUE & CADRE DIRECTEUR -->
+        <header class="course-header" id="problematique">
           <div class="course-meta-tags">
             <span class="tag-badge level-tag">Niveau L1 à M2</span>
-            <span class="tag-badge">Théorie Réaliste & Libérale</span>
-            <span class="tag-badge">Stratégie Globale</span>
+            <span class="tag-badge">Théorie des Relations Internationales</span>
+            <span class="tag-badge">Stratégie & Sécurité</span>
             <span class="tag-badge xp-tag">+30 XP à l'évaluation</span>
           </div>
           <h1 class="course-title">La Puissance</h1>
           <p class="course-lead-def">
-            Capacité d'un acteur international d'imposer sa volonté à autrui, d'influencer le comportement des autres États ou de façonner les règles de l'ordre mondial en conformité avec ses intérêts stratégiques.
+            Capacité d'un acteur international d'imposer sa volonté, de contraindre ou d'influencer le comportement d'autrui pour obtenir des résultats conformes à ses intérêts, et de résister aux pressions extérieures.
           </p>
           <div class="course-intro-question">
-            <strong>Question introductive :</strong> La puissance militaire traditionnelle (porte-avions, ogives nucléaires) suffit-elle encore à dominer le XXIe siècle, ou la puissance réside-t-elle désormais dans le contrôle des flux technologiques, monétaires et culturels ?
+            <strong>Problématique directrice :</strong> À l'ère de la dissémination technologique et de la vulnérabilité réticulaire, la puissance réside-t-elle encore dans l'accumulation matérielle des arsenaux (Hard Power), ou s'est-elle déplacée vers la maîtrise invisible des architectures de contrôle financier, numérique et normatif (puissance structurelle et Sharp Power) ?
+          </div>
+
+          <!-- JALONS DE PROGRESSION L1 À M2 -->
+          <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .06em;">Jalon L1 · Fondations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Comprendre la puissance comme relation sociale asymétrique (Dahl) et maîtriser la trilogie de Joseph Nye (Hard, Soft, Smart Power).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--accent); letter-spacing: .06em;">Jalon L3 · Confrontations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Distinguer réalisme défensif (Waltz) et offensif (Mearsheimer), et analyser la puissance structurelle de Susan Strange (finance, production, savoir).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--green); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--green); letter-spacing: .06em;">Jalon M1/M2 · Déconstruction</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Mobiliser « L'impuissance de la puissance » (Badie), le <em>Sharp Power</em> subversif (Walker & Ludwig) et la puissance normative (Ian Manners).</div>
+            </div>
           </div>
         </header>
 
-        <!-- 2. L'ESSENTIEL -->
-        <section class="course-section" id="essentiel">
+        <!-- 2. ANATOMIE THÉORIQUE & DÉCONSTRUCTION -->
+        <section class="course-section" id="theorie">
           <span class="section-num-tag">Section 02</span>
-          <h2>L'essentiel</h2>
+          <h2>Anatomie théorique & Déconstruction</h2>
           <p>
-            En science politique et relations internationales, la puissance n'est pas seulement un stock de ressources brutes (superficie, démographie, PIB, budget de défense). C'est avant tout une <strong>relation sociale et asymétrique</strong> : comme le résumait le sociologue Robert Dahl, « A exerce du pouvoir sur B dans la mesure où il obtient de B une action que B n'aurait pas effectuée autrement ».
+            En relations internationales, la puissance n'est pas un stock inerte de ressources matérielles (PIB, hectares, ogives nucléaires). C'est avant tout une <strong>relation asymétrique d'influence et de contrainte</strong> : comme l'a formulé Robert Dahl, « A exerce du pouvoir sur B dans la mesure où il obtient de B une action que B n'aurait pas effectuée spontanément ». La théorie politique a raffiné cette idée en quatre paliers décisifs :
           </p>
 
-          <div class="essential-box">
-            <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .08em;">
-              La trilogie contemporaine de la puissance
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 16px;">
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">1. La matrice réaliste : De Morgenthau au néoréalisme structural</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Pour <strong>Hans Morgenthau</strong> (<em>Politics Among Nations</em>, 1948), le désir de puissance est consubstantiel à la nature humaine (<em>animus dominandi</em>). Dans un système anarchique où aucun gouvernement supérieur ne protège les États, la recherche de puissance est à la fois l'instrument de survie et la finalité de toute politique extérieure. <strong>Kenneth Waltz</strong> (1979) dépersonnalise cette vision : ce ne sont pas les pulsions humaines, mais la <em>structure du système</em> (unipolarité, bipolarité, multipolarité) qui contraint les États à maximiser leur puissance relative pour maintenir leur sécurité (réalisme défensif), tandis que <strong>John Mearsheimer</strong> (2001) postule que la seule garantie absolue de sécurité est de rechercher l'hégémonie régionale (réalisme offensif).
+              </p>
             </div>
-            <div class="essential-grid">
-              <div class="essential-item">
-                <div class="essential-item-num">01</div>
-                <h4>Hard Power (Coercition)</h4>
-                <p>La capacité de contraindre par la force militaire (menace ou usage des armes) ou par la pression économique (sanctions, embargos, aides conditionnelles).</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">02</div>
-                <h4>Soft Power (Attraction)</h4>
-                <p>La capacité de séduire et d'orienter les préférences d'autrui à travers le rayonnement culturel, les valeurs politiques et la légitimité des institutions.</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">03</div>
-                <h4>Smart Power (Synthèse)</h4>
-                <p>L'art diplomatique supérieur consistant à combiner intelligemment leviers militaires, diplomatie publique, alliances et investissements économiques.</p>
-              </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">2. Le tournant du Soft Power (Joseph Nye, 1990)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                À la fin de la guerre froide, <strong>Joseph Nye</strong> (<em>Bound to Lead</em>) révolutionne l'analyse en démontrant que la contrainte brute (Hard Power : canons et sanctions) devient de plus en plus coûteuse et inefficace face à des populations éduquées et à l'ère nucléaire. Il forge le concept de <strong>Soft Power</strong> : la capacité d'orienter les préférences d'autrui par l'attraction et la séduction, en s'appuyant sur trois vecteurs : la culture (cinéma, universités), les valeurs politiques (démocratie, droits civiques) et la légitimité perçue de sa politique étrangère.
+              </p>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">3. La puissance structurelle de Susan Strange (1988)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                L'économiste britannique <strong>Susan Strange</strong> (<em>States and Markets</em>) opère une distinction majeure entre la « puissance relationnelle » (forcer A à céder sur un dossier précis) et la <strong>« puissance structurelle »</strong>. La puissance structurelle est le pouvoir supérieur de fixer les règles du jeu, de déterminer les institutions mondiales et d'imposer les formats auxquels tous les autres doivent se conformer. Elle repose sur 4 piliers interconnectés :
+              </p>
+              <ul style="margin: 10px 0 0 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+                <li><strong>La sécurité :</strong> Qui contrôle ou garantit la sécurité physique contre les menaces ?</li>
+                <li><strong>La production :</strong> Qui contrôle quoi, où et comment les biens industriels sont produits ?</li>
+                <li><strong>La finance :</strong> Qui contrôle l'émission de la monnaie de réserve et l'accès au crédit mondial ?</li>
+                <li><strong>Le savoir :</strong> Qui contrôle les brevets, les algorithmes de pointe, l'IA et les canaux de transmission ?</li>
+              </ul>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">4. L'impuissance de la puissance (Bertrand Badie, 2004)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans <em>L'impuissance de la puissance</em>, <strong>Bertrand Badie</strong> démontre le paradoxe contemporain des armées les plus technologiques de la planète : malgré des budgets de défense astronomiques, les superpuissances ne parviennent plus à gagner de guerres asymétriques face à des insurrections enracinées (Vietnam, Irak, Afghanistan pour Washington ; Afghanistan et Tchétchénie pour Moscou ; Sahel pour la France). La puissance militaire brute permet de détruire des cibles en 72 heures, mais s'avère structurellement inapte à bâtir la légitimité politique et la paix durable.
+              </p>
             </div>
           </div>
         </section>
 
-        <!-- 3. COMPRENDRE EN PROFONDEUR -->
-        <section class="course-section" id="profondeur">
+        <!-- 3. PASSERELLE INTER-CONCEPTS -->
+        <section class="course-section" id="passerelle">
           <span class="section-num-tag">Section 03</span>
-          <h2>Comprendre en profondeur</h2>
+          <h2>Passerelle inter-concepts : Le maillage analytique</h2>
           <p>
-            Pour l'école réaliste classique, incarnée par <strong>Hans Morgenthau</strong> (<em>Politics Among Nations</em>, 1948), la puissance est à la fois le moyen et la fin de toute action extérieure. En l'absence d'un gouvernement mondial supérieur (anarchie), les États se trouvent dans un état de rivalité permanente pour maximiser leur sécurité.
+            La puissance est le moteur opératoire qui dynamise l'ensemble du système diplomatique international :
           </p>
-          <p>
-            Dans le néoréalisme structural de <strong>Kenneth Waltz</strong> (<em>Theory of International Politics</em>, 1979), l'analyse se déplace des passions humaines vers la structure du système : c'est la répartition quantitative de la puissance (unipolarité, bipolarité, multipolarité) qui dicte la stabilité ou l'instabilité de la scène mondiale.
-          </p>
-          <p>
-            À la fin des années 1980, le politologue américain <strong>Joseph Nye</strong> (<em>Bound to Lead</em>, 1990) introduit le concept révolutionnaire de <strong>Soft Power</strong>. Constatant que la coercition armée devient de plus en plus coûteuse et risquée à l'ère nucléaire, Nye démontre que l'hégémonie américaine repose autant sur le cinéma d'Hollywood, les universités de l'Ivy League et l'attractivité démocratique que sur le Pentagone.
-          </p>
-          <p>
-            L'économiste et politologue britannique <strong>Susan Strange</strong> (<em>States and Markets</em>, 1988) enrichit encore la réflexion en distinguant la « puissance relationnelle » (obtenir d'un acteur précis ce que l'on veut) de la <strong>« puissance structurelle »</strong>. La puissance structurelle est le pouvoir suprême de façonner et déterminer les structures globales dans lesquelles les autres acteurs doivent opérer, articulée autour de 4 piliers :
-          </p>
-          <ul>
-            <li><strong>La sécurité</strong> : Contrôle des arsenaux et des alliances protectrices.</li>
-            <li><strong>La production</strong> : Contrôle des chaînes de valeur industrielles et matières premières.</li>
-            <li><strong>La finance</strong> : Contrôle de la création monétaire et de l'accès au crédit mondial.</li>
-            <li><strong>Le savoir</strong> : Contrôle des brevets, des technologies de pointe et des réseaux de communication.</li>
-          </ul>
+
+          <div class="concept-bridge-grid">
+            <a href="souverainete.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Souveraineté</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'effectivité du droit :</strong> La souveraineté est un titre juridique de compétence exclusive. Sans la puissance matérielle pour repousser les ultimatums étrangers, cette souveraineté reste purement nominale et vulnérable.
+              </p>
+            </a>
+
+            <a href="anarchie-internationale.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Anarchie Internationale</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>Le régulateur sans État mondial :</strong> En milieu anarchique privé de justice supérieure, l'équilibre des puissances (<em>Balance of Power</em>) constitue la seule barrière pour empêcher une nation hégémonique d'asservir les autres.
+              </p>
+            </a>
+
+            <a href="interet-national.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Intérêt National</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'arbitrage fin/moyen :</strong> L'intérêt national définit les objectifs stratégiques prioritaires (la fin) ; la puissance fournit le capital militaire, économique et diplomatique nécessaire pour les atteindre (les moyens).
+              </p>
+            </a>
+
+            <a href="interdependance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Interdépendance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'instrumentalisation des réseaux :</strong> Aujourd'hui, la puissance s'exerce en occupant les goulets d'étranglement de l'interdépendance (semi-conducteurs, SWIFT, câbles sous-marins) pour étrangler un rival sans lui déclarer la guerre.
+              </p>
+            </a>
+          </div>
         </section>
 
-        <!-- 4. LE SAVAIS-TU ? -->
-        <section class="course-section" id="savais-tu">
+        <!-- 4. TEXTE DOCTRINAL DÉCRYPTÉ -->
+        <section class="course-section" id="texte-doctrinal">
           <span class="section-num-tag">Section 04</span>
-          <div class="did-you-know">
-            <div class="did-you-know-badge">💡 Le savais-tu ? · Histoire diplomatique</div>
-            <h4>« Le Pape, combien de divisions ? »</h4>
-            <p>
-              Lors de la conférence de Yalta en 1945, lorsque Winston Churchill suggéra d'associer le Vatican aux décisions sur l'avenir de l'Europe, Joseph Staline aurait ironisé : <em>« Le Pape, combien de divisions ? »</em>. Quarante ans plus tard, le rôle décisif du pape Jean-Paul II dans l'émergence du syndicat Solidarność en Pologne et l'effondrement pacifique du bloc soviétique apporta la réponse historique cinglante : une autorité morale et spirituelle suprême (pur Soft Power) peut renverser un empire doté de milliers de chars et d'ogives nucléaires.
+          <h2>Texte doctrinal fondateur décrypté</h2>
+          
+          <div class="doctrinal-card">
+            <div class="doctrinal-meta">
+              <span>Source primaire canonique</span>
+              <span>·</span>
+              <span>Hans J. Morgenthau (1948)</span>
+            </div>
+            <div class="doctrinal-quote">
+              « La politique internationale, comme toute politique, est une lutte pour le pouvoir. Quels que soient les buts ultimes de la politique internationale, le pouvoir est toujours le but immédiat. Les hommes politiques et les peuples peuvent chercher la liberté, la sécurité, la prospérité ou la puissance elle-même [...]. Mais dès lors qu'ils s'efforcent de réaliser leur but par le moyen de la politique internationale, ils le font en luttant pour le pouvoir. »
+            </div>
+            <p class="doctrinal-analysis">
+              <strong>Analyse de chancellerie & méthode d'exploitation :</strong><br>
+              Dans ce passage célèbre du Chapitre 3 de <em>Politics Among Nations</em>, Morgenthau pose l'axiome central de l'école réaliste :
+            </p>
+            <ul style="margin: 8px 0 12px 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+              <li><strong>Le pouvoir comme passage obligé :</strong> Même les idéaux les plus nobles (paix universelle, droits humains, justice climatique) ne peuvent se concrétiser sur la scène internationale sans disposer de la puissance suffisante pour contraindre les récalcitrants.</li>
+              <li><strong>Le refus de l'angélisme :</strong> Morgenthau combat l'illusion idéaliste selon laquelle le droit international suffirait à pacifier le monde sans adossement à un équilibre des forces.</li>
+            </ul>
+            <p class="doctrinal-analysis">
+              <strong>Comment mobiliser cette citation en copie ou en note stratégique :</strong> Utilisez Morgenthau pour rappeler que toute diplomatie sans rapport de force sous-jacent dégénère en vœux pieux face aux puissances révisionnistes.
             </p>
           </div>
         </section>
 
-        <!-- 5. ÉTUDES DE CAS -->
+        <!-- 5. ÉTUDES STRATÉGIQUES COMPARÉES -->
         <section class="course-section" id="etudes-de-cas">
           <span class="section-num-tag">Section 05</span>
-          <h2>Études de cas</h2>
+          <h2>Casus Belli & Études stratégiques comparées</h2>
+          <p>
+            L'efficacité de la puissance dépend de son adéquation au théâtre opérationnel considéré :
+          </p>
 
           <div class="cases-grid">
             <div class="case-card">
               <div class="case-tag">Cas 01 · Géoéconomie financière</div>
-              <h4>Le Dollar américain : le « privilège exorbitant » comme arme géopolitique</h4>
+              <h4>Le Dollar américain : L'arme de la puissance structurelle</h4>
               <p>
-                Représentant près de 58 % des réserves de change mondiales et 85 % des transactions pétrolières, le dollar confère à Washington une puissance structurelle sans équivalent. Grâce au mécanisme de l'extraterritorialité, le Département de la Justice américain peut infliger des amendes colossales à n'importe quelle entreprise ou banque mondiale utilisant le dollar si elle viole un embargo américain (comme ce fut le cas pour BNP Paribas en 2014 pour 8,9 milliards USD).
+                Représentant près de 58 % des réserves de change mondiales et 85 % des transactions énergétiques, le dollar confère à Washington un levier de souveraineté financière mondialisé. Grâce au mécanisme de l'extraterritorialité, le Trésor américain (OFAC) et le Département de la Justice peuvent exclure une banque internationale du réseau de compensation en dollars ou lui infliger des amendes historiques (8,9 milliards USD contre BNP Paribas en 2014), démontrant que la puissance monétaire égale la force de dix divisions blindées.
               </p>
             </div>
+
             <div class="case-card">
               <div class="case-tag">Cas 02 · Infrastructures globales</div>
-              <h4>La Chine et les Nouvelles Routes de la Soie (BRI)</h4>
+              <h4>Les Nouvelles Routes de la Soie (BRI) chinoises : La puissance par l'ancrage</h4>
               <p>
-                Lancée en 2013 par Xi Jinping, l'initiative de la Ceinture et la Route (Belt and Road Initiative) déploie plus de 1 000 milliards de dollars d'investissements dans des ports, voies ferrées et corridors énergétiques à travers l'Asie, l'Afrique et l'Europe. C'est l'incarnation de la puissance géoéconomique : créer des dépendances d'infrastructures et s'assurer des débouchés commerciaux majeurs.
+                Déployée depuis 2013 par Pékin avec plus de 1 000 milliards de dollars d'investissements, la Ceinture et la Route (BRI) développe des corridors ferroviaires, des terminaux portuaires (Le Pirée, Gwadar, Djibouti) et des réseaux 5G dans plus de 140 pays. C'est l'incarnation de la puissance géoéconomique : créer des dépendances d'infrastructures physiques et de dette pour s'assurer des soutiens diplomatiques systématiques dans les votes à l'Assemblée générale de l'ONU.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 03 · Guerre hybride & Cognitive</div>
+              <h4>Le « Sharp Power » et la subversion de l'information</h4>
+              <p>
+                Théorisé par Christopher Walker et Jessica Ludwig (2017), le Sharp Power (puissance piquante ou subversive) n'est ni la contrainte armée ouverte (Hard) ni la séduction légitime (Soft). C'est l'instrumentalisation des failles des sociétés ouvertes par la désinformation numérique massive, le piratage de données stratégiques, l'intimidation diasporique et le financement occulte d'acteurs politiques, dans le but de polariser et de paralyser le processus décisionnel des démocraties occidentales.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 04 · Asymétrie militaire</div>
+              <h4>L'échec de la puissance brute face aux insurrections</h4>
+              <p>
+                En août 2021, après vingt ans de présence, 2 300 milliards de dollars dépensés et l'emploi de l'aviation la plus moderne du globe, l'armée américaine a dû évacuer Kaboul face aux talibans équipés d'armes légères. Ce retrait confirme la thèse de Bertrand Badie : la supériorité militaire cinétique est incapable de transformer une victoire tactique sur le champ de bataille en ordre politique légitime face à un tissu sociologique réfractaire.
               </p>
             </div>
           </div>
         </section>
 
-        <!-- 6. DÉBATS ET CONTROVERSES -->
-        <section class="course-section" id="debats">
+        <!-- 6. L'ATELIER DE L'ANALYSTE & CONCOURS -->
+        <section class="course-section" id="atelier">
           <span class="section-num-tag">Section 06</span>
-          <h2>Débats & controverses académiques</h2>
-          
-          <div class="debates-list">
-            <div class="debate-card">
-              <h4>1. « L'impuissance de la puissance » (Bertrand Badie)</h4>
-              <p>
-                Dans son ouvrage éponyme (2004), Bertrand Badie démontre le paradoxe contemporain des superpuissances : malgré une supériorité militaire écrasante, les grandes puissances ne parviennent plus à remporter durablement de conflits asymétriques contre des insurrections locales ou des acteurs hybrides (échecs américains au Vietnam, en Irak et en Afghanistan ; enlisement soviétique puis russe). La force brute s'avère incapable de bâtir un ordre politique légitime.
-              </p>
-            </div>
-            <div class="debate-card">
-              <h4>2. L'émergence du « Sharp Power » (Puissance piquante ou subversive)</h4>
-              <p>
-                Concept forgé en 2017 par Christopher Walker et Jessica Ludwig (National Endowment for Democracy) pour désigner les méthodes d'influence des régimes autoritaires. Contrairement au Soft Power fondé sur l'attraction consentie, le Sharp Power cherche à percer, pénétrer et fausser le débat public des démocraties adverses par la désinformation numérique, les cyberattaques et la guerre cognitive.
-              </p>
-            </div>
-            <div class="debate-card">
-              <h4>3. Le débat sur le déclin américain et la « Transition de puissance »</h4>
-              <p>
-                La théorie de la transition de puissance (A.F.K. Organski, Graham Allison et le « Piège de Thucydide ») postule qu'un risque majeur de guerre mondiale survient lorsqu'une puissance émergente montante (la Chine) menace de supplanter la puissance hégémonique établie (les États-Unis).
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- 7. À RETENIR -->
-        <section class="course-section" id="a-retenir">
-          <span class="section-num-tag">Section 07</span>
-          <h2>À retenir</h2>
+          <h2>L'Atelier de l'analyste : Sujet type concours</h2>
           <p>
-            Matrice synthétique des différentes formes d'exercice de la puissance internationale :
+            Méthode d'application pour les épreuves de relations internationales :
           </p>
 
+          <div class="dissertation-card">
+            <span class="dissertation-badge">Sujet de dissertation type · Concours Quai d'Orsay / INSP</span>
+            <h3 class="dissertation-subject">« La puissance internationale est-elle encore territoriale ? »</h3>
+            
+            <div class="dissertation-problematique">
+              <strong>Problématique formulée :</strong><br>
+              En quoi la puissance contemporaine, bien que profondément déterritorialisée vers le contrôle des flux invisibles (circuits financiers, semi-conducteurs, cloud et guerre cognitive), demeure-t-elle irréductiblement ancrée dans la maîtrise physique des territoires, des détroits maritimes et de la profondeur stratégique géographique ?
+            </div>
+
+            <div class="plan-grid">
+              <div class="plan-part">
+                <div class="plan-part-title">I. La déterritorialisation spectaculaire des attributs de la puissance</div>
+                <ul>
+                  <li><strong>A. La suprématie de la puissance structurelle et réticulaire :</strong> Le pouvoir s'exerce par la maîtrise des flux immatériels (domination monétaire du dollar, monopole des géants du cloud, contrôle des algorithmes et brevets technologiques).</li>
+                  <li><strong>B. Le déclin relatif de la coercition cinétique territoriale :</strong> L'inefficacité avérée des occupations terrestres face aux guerres asymétriques (Badie) et le coût prohibitif des conquêtes territoriales directes sous le seuil nucléaire.</li>
+                </ul>
+              </div>
+              <div class="plan-part">
+                <div class="plan-part-title">II. La revanche implacable de la géographie et des sanctuaires matériels</div>
+                <ul>
+                  <li><strong>A. Le retour des guerres d'attrition et de frontières :</strong> La guerre d'Ukraine et les tensions autour du détroit de Taïwan démontrent que la survie des États dépend toujours de la masse territoriale, des stocks d'artillerie et des défenses terrestres.</li>
+                  <li><strong>B. La matérialité physique des flux dématérialisés :</strong> Le numérique repose sur des infrastructures terrestres et sous-marines ultra-vulnérables (câbles océaniques, usines de fonderie de puces à Taïwan, mines de terres rares). La géographie dicte toujours la puissance.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px;">
+              <h4 style="font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin-bottom: 8px;">
+                ⚠️ Les 3 pièges éliminatoires à éviter en copie :
+              </h4>
+              <div class="pitfalls-grid">
+                <div class="pitfall-item">
+                  <strong>1. Opposer naïvement Hard et Soft Power</strong>
+                  Le Soft Power ne remplace pas le Hard Power ; il le démultiplie. Les superpuissances les plus attractives (USA, Royaume-Uni) sont historiquement celles qui possèdent la flotte militaire et le réseau d'alliances le plus étendu.
+                </div>
+                <div class="pitfall-item">
+                  <strong>2. Confondre les ressources et la puissance réelle</strong>
+                  Posséder un immense territoire ou une immense armée ne garantit pas la puissance si l'appareil d'État est miné par la corruption, l'arriération logistique ou l'isolement diplomatique. La puissance est une capacité relationnelle d'action, non un stock passif.
+                </div>
+                <div class="pitfall-item">
+                  <strong>3. Sous-estimer le Sharp Power</strong>
+                  Ne pas cantonner la guerre informationnelle à de simples péripéties de réseaux sociaux : le Sharp Power est devenu une composante centrale des doctrines de guerre hybride (Gerasimov, doctrine chinoise des trois guerres).
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. SYNTHÈSE & BIBLIOGRAPHIE -->
+        <section class="course-section" id="synthese">
+          <span class="section-num-tag">Section 07</span>
+          <h2>Synthèse matricielle & Bibliographie certifiée</h2>
+          
           <div class="synthesis-table-wrap">
             <table class="synthesis-table">
               <thead>
                 <tr>
-                  <th>Concept</th>
-                  <th>Nature de l'action</th>
-                  <th>Instruments principaux</th>
-                  <th>Auteur de référence</th>
+                  <th>Concept de puissance</th>
+                  <th>Théoricien clé</th>
+                  <th>Levier opérationnel</th>
+                  <th>Limite stratégique</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td><strong>Hard Power</strong></td>
-                  <td>Contrainte & Coercition directe</td>
-                  <td>Armées de terre, flottes navales, sanctions économiques</td>
                   <td>Hans Morgenthau / Kenneth Waltz</td>
+                  <td>Coercition militaire, embargo économique, dissuasion nucléaire</td>
+                  <td>Coût financier et humain colossal, risque d'escalade incontrôlée</td>
                 </tr>
                 <tr>
                   <td><strong>Soft Power</strong></td>
-                  <td>Attraction & Séduction consentie</td>
-                  <td>Cinéma, universités, diplomatie culturelle, valeurs</td>
                   <td>Joseph Nye (1990)</td>
+                  <td>Attraction culturelle, universités d'élite, diplomatie publique</td>
+                  <td>Effet lent et indirect, inopérant face à un agresseur armé immédiat</td>
                 </tr>
                 <tr>
                   <td><strong>Smart Power</strong></td>
-                  <td>Combinaison stratégique optimale</td>
-                  <td>Diplomatie multilatérale, partenariats et dissuasion</td>
-                  <td>Suzanne Nossel / Joseph Nye</td>
-                </tr>
-                <tr>
-                  <td><strong>Sharp Power</strong></td>
-                  <td>Subversion & Manipulation cognitive</td>
-                  <td>Troll farms, cyberattaques, instrumentalisation médiatique</td>
-                  <td>Christopher Walker (2017)</td>
+                  <td>Joseph Nye / Hillary Clinton (2009)</td>
+                  <td>Combinaison synergique de dissuasion militaire et d'alliances</td>
+                  <td>Nécessite une coordination interministérielle et politique parfaite</td>
                 </tr>
                 <tr>
                   <td><strong>Puissance Structurelle</strong></td>
-                  <td>Contrôle des règles du jeu global</td>
-                  <td>Monnaie de réserve, normes financières, brevets</td>
                   <td>Susan Strange (1988)</td>
+                  <td>Contrôle de la monnaie mondiale, de la production et du savoir</td>
+                  <td>Dépendance à la stabilité des institutions multilatérales globales</td>
+                </tr>
+                <tr>
+                  <td><strong>Sharp Power</strong></td>
+                  <td>Walker & Ludwig (2017)</td>
+                  <td>Subversion informationnelle, cyberattaques, polarisation sociale</td>
+                  <td>Provoque en retour des contre-mesures sécuritaires et le durcissement légal</td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </section>
 
-        <!-- 8. BIBLIOGRAPHIE ET SOURCES -->
-        <section class="course-section" id="bibliographie">
-          <span class="section-num-tag">Section 08</span>
-          <h2>Bibliographie & sources académiques</h2>
-
-          <div class="biblio-list">
+          <div class="biblio-list" style="margin-top: 24px;">
             <div class="biblio-item">
               <span class="biblio-author">MORGENTHAU, Hans J. (1948).</span>
               <span class="biblio-title">Politics Among Nations: The Struggle for Power and Peace.</span>
-              <div class="biblio-details">New York : Alfred A. Knopf. Ouvrage fondateur du réalisme classique posant le concept de lutte pour la puissance.</div>
+              <div class="biblio-details">New York : Alfred A. Knopf. L'ouvrage fondateur du réalisme classique posant le concept de puissance au cœur des relations internationales.</div>
             </div>
             <div class="biblio-item">
-              <span class="biblio-author">NYE, Joseph S. Jr. (1990).</span>
-              <span class="biblio-title">Bound to Lead: The Changing Nature of American Power.</span>
-              <div class="biblio-details">New York : Basic Books. Livre introduisant formellement le concept de Soft Power dans le débat stratégique mondial.</div>
+              <span class="biblio-author">NYE, Joseph S. Jr. (2004).</span>
+              <span class="biblio-title">Soft Power: The Means to Success in World Politics.</span>
+              <div class="biblio-details">PublicAffairs. L'exposé magistral de la puissance par attraction, légitimité démocratique et rayonnement immatériel.</div>
             </div>
             <div class="biblio-item">
               <span class="biblio-author">STRANGE, Susan (1988).</span>
               <span class="biblio-title">States and Markets: An Introduction to International Political Economy.</span>
-              <div class="biblio-details">Londres : Pinter Publishers. Théorisation fondamentale de la puissance structurelle (finance, savoir, sécurité, production).</div>
+              <div class="biblio-details">Pinter Publishers. Théorisation des quatre structures maîtresses de la puissance économique et technologique globale.</div>
             </div>
             <div class="biblio-item">
               <span class="biblio-author">BADIE, Bertrand (2004).</span>
-              <span class="biblio-title">L'impuissance de la puissance : Essai sur les incertitudes du nouveau siècle.</span>
-              <div class="biblio-details">Paris : Fayard. Analyse critique magistrale des limites de la force armée face aux crises asymétriques du XXIe siècle.</div>
+              <span class="biblio-title">L'impuissance de la puissance : Essai sur les nouvelles relations internationales.</span>
+              <div class="biblio-details">Paris : Fayard. Démonstration sociologique de la faillite des interventions militaires occidentales dans les crises asymétriques.</div>
             </div>
           </div>
         </section>
+
 
         <!-- 9. ÉVALUATION ET QUIZ -->
         <section class="course-section" id="evaluation">

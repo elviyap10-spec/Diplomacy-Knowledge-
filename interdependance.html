@@ -551,7 +551,187 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
   box-shadow: 0 6px 20px rgba(217, 175, 94, 0.45);
 }
 
+/* PASSERELLE CONCEPTUELLE INTER-CONCEPTS */
+.concept-bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.concept-bridge-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  transition: var(--transition);
+}
+.concept-bridge-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.concept-bridge-target {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.concept-bridge-target span.arrow {
+  color: var(--gold);
+  font-size: 14px;
+}
+.concept-bridge-card:hover .concept-bridge-target span.arrow {
+  color: var(--accent);
+}
+.concept-bridge-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* TEXTE DOCTRINAL FONDATEUR */
+.doctrinal-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.doctrinal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 800;
+  color: var(--gold);
+}
+.doctrinal-quote {
+  border-left: 3px solid var(--gold);
+  margin: 0 0 16px;
+  padding: 10px 0 10px 18px;
+  font-style: italic;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.doctrinal-analysis {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+/* ATELIER CONCOURS & DISSERTATION */
+.dissertation-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+}
+.dissertation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+.dissertation-subject {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dissertation-problematique {
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.plan-part {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.plan-part-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.plan-part ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* PIEGES ACADEMIQUES */
+.pitfalls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.pitfall-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.pitfall-item strong {
+  display: block;
+  color: var(--accent);
+  font-size: 11.5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
+  .plan-grid { grid-template-columns: 1fr; }
   .course-layout { grid-template-columns: 1fr; }
   .course-toc { display: none; }
   .cases-grid { grid-template-columns: 1fr; }
@@ -899,284 +1079,359 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
       <aside class="course-toc" aria-label="Sommaire du cours">
         <div class="toc-title">
           <span>Sommaire du cours</span>
-          <span>9 parties</span>
+          <span>8 sections</span>
         </div>
         <ul class="toc-list">
-          <li><a href="#introduction" class="toc-link">1. Introduction</a></li>
-          <li><a href="#essentiel" class="toc-link">2. L'essentiel</a></li>
-          <li><a href="#profondeur" class="toc-link">3. Comprendre en profondeur</a></li>
-          <li><a href="#savais-tu" class="toc-link">4. Le savais-tu ?</a></li>
-          <li><a href="#etudes-de-cas" class="toc-link">5. Études de cas</a></li>
-          <li><a href="#debats" class="toc-link">6. Débats & controverses</a></li>
-          <li><a href="#a-retenir" class="toc-link">7. À retenir</a></li>
-          <li><a href="#bibliographie" class="toc-link">8. Bibliographie & sources</a></li>
-          <li><a href="#evaluation" class="toc-link">9. Évaluation (Quiz)</a></li>
+          <li><a href="#problematique" class="toc-link">1. Problématique & Repères</a></li>
+          <li><a href="#theorie" class="toc-link">2. Anatomie théorique</a></li>
+          <li><a href="#passerelle" class="toc-link">3. Passerelle inter-concepts</a></li>
+          <li><a href="#texte-doctrinal" class="toc-link">4. Texte doctrinal décrypté</a></li>
+          <li><a href="#etudes-de-cas" class="toc-link">5. Casus Belli & Études</a></li>
+          <li><a href="#atelier" class="toc-link">6. L'Atelier de l'analyste</a></li>
+          <li><a href="#synthese" class="toc-link">7. Synthèse & Bibliographie</a></li>
+          <li><a href="#evaluation" class="toc-link">8. Évaluation (Quiz)</a></li>
         </ul>
       </aside>
 
       <!-- CONTENU DU COURS -->
       <article class="course-content">
-        <!-- 1. INTRODUCTION -->
-        <header class="course-header" id="introduction">
+        <!-- 1. PROBLÉMATIQUE & CADRE DIRECTEUR -->
+        <header class="course-header" id="problematique">
           <div class="course-meta-tags">
             <span class="tag-badge level-tag">Niveau L1 à M2</span>
-            <span class="tag-badge">Économie Politique Internationale</span>
-            <span class="tag-badge">Réseaux & Mondialisation</span>
-            <span class="tag-badge">Temps de lecture : 10 min</span>
+            <span class="tag-badge">Économie Politique Internationale (EPI)</span>
+            <span class="tag-badge">Géoéconomie & Réseaux</span>
+            <span class="tag-badge xp-tag">+30 XP à l'évaluation</span>
+          </div>
+          <h1 class="course-title">L'Interdépendance</h1>
+          <p class="course-lead-def">
+            Situation de dépendance mutuelle et asymétrique entre deux ou plusieurs acteurs internationaux, dans laquelle les choix, chocs ou ruptures initiés par l'un entraînent des coûts directs, mesurables et parfois coercitifs sur les autres.
+          </p>
+          <div class="course-intro-question">
+            <strong>Problématique directrice :</strong> L'interconnexion globale des chaînes industrielles, des circuits financiers et des flux numériques est-elle le gage d'une pacification durable du monde par le commerce, ou constitue-t-elle au contraire le nouvel arsenal asymétrique d'étranglement et de chantage géopolitique des grandes puissances ?
           </div>
 
-          <h1 class="course-title">L'Interdépendance</h1>
-          <p class="course-lead">
-            Situation de dépendance mutuelle et asymétrique entre deux ou plusieurs acteurs internationaux, dans laquelle les choix, crises ou ruptures décidés par l'un entraînent des répercussions directes, mesurables et parfois coercitives sur les autres.
-          </p>
-
-          <div class="reflective-question">
-            <span class="reflective-icon" aria-hidden="true">💡</span>
-            <div>
-              <strong>Question directrice de réflexion :</strong>
-              <p>
-                La multiplication des échanges commerciaux, numériques et énergétiques garantit-elle une pacification durable du monde, ou offre-t-elle au contraire aux grandes puissances de nouveaux leviers asymétriques de chantage et d'étranglement géopolitique ?
-              </p>
+          <!-- JALONS DE PROGRESSION L1 À M2 -->
+          <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .06em;">Jalon L1 · Fondations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Maîtriser les 3 piliers de l'interdépendance complexe (Keohane & Nye, 1977) et la distinction matricielle entre sensibilité (<em>sensitivity</em>) et vulnérabilité (<em>vulnerability</em>).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--accent); letter-spacing: .06em;">Jalon L3 · Confrontations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Confronter la thèse libérale du doux commerce (Montesquieu, Norman Angell) aux théories du nationalisme économique et du commerce stratégique (Albert Hirschman).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--green); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--green); letter-spacing: .06em;">Jalon M1/M2 · Déconstruction</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Mobiliser la théorie de la <em>Weaponized Interdependence</em> (Farrell & Newman, 2019 : effets panoptique et d'étranglement), le <em>derisking</em> et la fragmentation des chaînes de valeur.</div>
             </div>
           </div>
         </header>
 
-        <!-- 2. L'ESSENTIEL -->
-        <section class="course-section" id="essentiel">
-          <h2>2. L'essentiel</h2>
+        <!-- 2. ANATOMIE THÉORIQUE & DÉCONSTRUCTION -->
+        <section class="course-section" id="theorie">
+          <span class="section-num-tag">Section 02</span>
+          <h2>Anatomie théorique & Déconstruction</h2>
           <p>
-            Dans les théories traditionnelles des relations internationales, les États étaient perçus comme des entités imperméables et autonomes — des <em>« boules de billard »</em> se heurtant sur une table géopolitique. Le concept d'<strong>interdépendance</strong> bat en brèche cette vision simpliste en observant que les frontières étatiques sont continuellement traversées par des flux vitaux : capitaux, technologies, données, hydrocarbures, composants industriels et mouvements migratoires.
+            Contrairement à l'illusion d'une mondialisation fluide et harmonieuse, l'interdépendance en relations internationales est une structure asymétrique traversée par des rapports de domination. Son analyse s'est construite à travers quatre étapes doctrinales majeures :
           </p>
-          <p>
-            Deux éléments fondamentaux caractérisent l'interdépendance en science politique :
-          </p>
-          <ul>
-            <li><strong>La réciprocité des coûts :</strong> L'interdépendance n'est pas une simple relation d'échange harmonieux ; elle implique que toute rupture entraîne des coûts mutuels, même si ces coûts sont rarement répartis de manière équitable.</li>
-            <li><strong>L'asymétrie structurelle :</strong> L'acteur le moins dépendant d'un échange possède un levier de négociation et de coercition considérable sur l'acteur dont la survie ou la stabilité économique dépend directement de cet échange.</li>
-          </ul>
 
-          <div class="concept-card-highlight">
-            <h4>La thèse de l'Interdépendance Complexe (Keohane & Nye, 1977)</h4>
-            <p>
-              Dans leur ouvrage séminal <em>Power and Interdependence</em>, Robert Keohane et Joseph Nye démontrent que le monde contemporain ne peut plus être décrit par le seul paradigme réaliste de la confrontation militaire. Ils identifient trois ruptures majeures :
-            </p>
-            <ol style="margin: 8px 0 0 20px; font-size: 0.93rem; line-height: 1.6;">
-              <li><strong>Canaux de contact multiples :</strong> Les relations internationales ne se limitent plus aux diplomates et aux militaires ; elles impliquent firmes multinationales, banques centrales, ONG et agences techniques transnationales.</li>
-              <li><strong>Absence de hiérarchie immuable des enjeux :</strong> La « haute politique » (défense militaire, intégrité territoriale) ne domine plus systématiquement la « basse politique » (taux d'intérêt monétaires, chaînes d'approvisionnement, normes sanitaires ou environnementales).</li>
-              <li><strong>Inutilité ou déclin relatif de la force armée :</strong> Entre États hautement interdépendants et intégrés, l'usage de la force militaire devient trop coûteux économiquement et diplomatiquement par rapport aux gains potentiels.</li>
-            </ol>
-          </div>
-        </section>
-
-        <!-- 3. COMPRENDRE EN PROFONDEUR -->
-        <section class="course-section" id="profondeur">
-          <h2>3. Comprendre en profondeur</h2>
-
-          <h3>A. La distinction théorique fondamentale : Sensibilité vs Vulnérabilité</h3>
-          <p>
-            Pour évaluer la vulnérabilité géopolitique d'une nation face aux aléas de la mondialisation, Keohane et Nye établissent une distinction devenue classique entre la <strong>sensibilité</strong> (<em>sensitivity</em>) et la <strong>vulnérabilité</strong> (<em>vulnerability</em>) :
-          </p>
-          <ul>
-            <li>
-              <strong>La sensibilité (*Sensitivity*) :</strong> Elle mesure la rapidité et l'ampleur avec lesquelles les politiques ou perturbations d'un pays extérieur se répercutent sur un État, <em>dans le cadre des politiques publiques existantes</em>. Par exemple, une hausse brutale du cours mondial du baril de pétrole touche immédiatement toutes les économies importatrices à la pompe.
-            </li>
-            <li>
-              <strong>La vulnérabilité (*Vulnerability*) :</strong> Elle mesure le coût et le temps nécessaires à un État pour <em>réajuster sa stratégie, modifier ses institutions et substituer ses approvisionnements</em> afin de surmonter la crise. Si le pays A peut activer des réserves stratégiques, relancer du nucléaire civil ou signer des contrats de substitution en 48 heures, sa vulnérabilité est faible. En revanche, si le pays B ne dispose d'aucune source de substitution technologique ou énergétique, sa vulnérabilité est extrême : il est à la merci politique de son fournisseur.
-            </li>
-          </ul>
-
-          <h3>B. La militarisation des réseaux : L'interdépendance comme arme (Farrell & Newman)</h3>
-          <p>
-            Pendant plusieurs décennies, la vision libérale naïve a postulé que la mondialisation et l'interconnexion réticulaire (Internet, circuits financiers, chaînes de valeur globales) créeraient un monde décentralisé, horizontal et sans maître.
-          </p>
-          <p>
-            Dans leurs travaux fondateurs de 2019, les politologues <strong>Henry Farrell et Abraham Newman</strong> démontrent le contraire à travers la théorie de la <em>Weaponized Interdependence</em> (l'interdépendance militarisée ou instrumentalisée) :
-          </p>
-          <div class="theory-box">
-            <h4>Les deux effets de coercition dans les réseaux asymétriques :</h4>
-            <p>
-              Les réseaux physiques et numériques mondiaux ne sont pas des toiles décentralisées : ils s'organisent autour de goulots d'étranglement (<em>hubs</em>) ultra-concentrés. L'État qui exerce sa souveraineté juridictionnelle sur ces nœuds névralgiques acquiert deux pouvoirs colossaux :
-            </p>
-            <ul>
-              <li>
-                <strong>L'effet Panoptique (*The Panopticon Effect*) :</strong> La capacité d'observer, surveiller et cartographier l'ensemble des flux circulant à travers un nœud central (ex. la surveillance des télécommunications mondiales via les câbles sous-marins ou les flux financiers via le réseau interbancaire SWIFT).
-              </li>
-              <li>
-                <strong>L'effet d'Étranglement (*The Chokepoint Effect*) :</strong> La capacité de couper un rival de l'accès à un service indispensable ou à une ressource sans substitut, provoquant l'asphyxie économique ou technologique de la cible sans tirer un seul coup de feu (ex. exclusion d'un pays du système bancaire en dollars, embargo sur les machines de photolithographie pour semi-conducteurs).
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 4. LE SAVAIS-TU ? -->
-        <section class="course-section" id="savais-tu">
-          <h2>4. Le savais-tu ?</h2>
-          <div class="did-you-know-card">
-            <h4>Le câble de 1858 et la naissance de l'instantanéité diplomatique</h4>
-            <p>
-              Le 16 août 1858, le premier câble télégraphique sous-marin transatlantique relie l'Europe et l'Amérique du Nord. Un message de félicitations envoyé par la reine Victoria au président américain James Buchanan prend 16 heures à être transmis, alors qu'il fallait auparavant 10 à 12 jours de traversée en navire à vapeur. Cet exploit technique a inauguré l'ère moderne de l'interdépendance en temps réel, transformant à jamais la réactivité et la vulnérabilité des marchés et des chancelleries diplomatiques.
-            </p>
-          </div>
-          <div class="did-you-know-card" style="margin-top: 16px;">
-            <h4>Le goulot de Malacca et la géographie des artères maritimes</h4>
-            <p>
-              Plus de 80 % des importations pétrolières de la Chine, du Japon et de la Corée du Sud transitent par le détroit de Malacca, un couloir maritime de seulement 2,8 kilomètres de large en son point le plus resserré. Le concept de « dilemme de Malacca », formalisé par le président chinois Hu Jintao en 2003, illustre comment une dépendance logistique concentrée peut paralyser la souveraineté économique d'un géant démographique en cas de blocus naval.
-            </p>
-          </div>
-        </section>
-
-        <!-- 5. ÉTUDES DE CAS -->
-        <section class="course-section" id="etudes-de-cas">
-          <h2>5. Études de cas</h2>
-
-          <div class="case-study-grid">
-            <div class="case-study-card">
-              <span class="case-tag">Cas Historique</span>
-              <h4>L'illusion de 1914 : Le commerce n'a pas empêché la guerre</h4>
-              <p>
-                En 1909, l'écrivain et prix Nobel de la paix Norman Angell publie <em>The Great Illusion</em>. Il y soutient que les économies européennes sont devenues si profondément interdépendantes sur le plan financier, industriel et commercial qu'une grande guerre générale serait économiquement ruineuse et donc irrationnelle.
-              </p>
-              <p>
-                Pourtant, en août 1914, la Première Guerre mondiale éclate. Les impératifs d'alliances militaires, les calculs de prestige national et les peurs existentielles des états-majors ont balayé les intérêts économiques partagés. Ce précédent historique démontre qu'une forte interdépendance élève les coûts d'une guerre mais ne constitue jamais un bouclier absolu contre les passions géopolitiques.
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 16px;">
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">1. La promesse libérale du « doux commerce » et sa désillusion historique</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dès le XVIIIe siècle, <strong>Montesquieu</strong> (<em>De l'esprit des lois</em>, 1748) posait que « l'effet naturel du commerce est de porter à la paix : deux nations qui négocient ensemble se rendent réciproquement dépendantes ». À la veille de 1914, l'essayiste britannique <strong>Norman Angell</strong> (<em>The Great Illusion</em>, 1910) affirme que l'interpénétration financière et industrielle entre les puissances européennes rend la guerre économiquement irrationnelle et impossible. L'éclatement sanglant de la Première Guerre mondiale, au zénith de la première mondialisation, inflige un démenti cinglant à cet optimisme déterministe.
               </p>
             </div>
 
-            <div class="case-study-card">
-              <span class="case-tag">Cas Contemporain</span>
-              <h4>La chaîne mondiale des semi-conducteurs et Taïwan (TSMC)</h4>
-              <p>
-                Aucun produit au monde n'incarne autant l'interdépendance complexe contemporaine qu'une puce électronique avancée gravée à moins de 3 nanomètres. La chaîne de production nécessite :
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">2. L'interdépendance complexe : Keohane et Nye (1977)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans <em>Power and Interdependence</em>, <strong>Robert Keohane</strong> et <strong>Joseph Nye</strong> démontrent que le monde contemporain dépasse le modèle réaliste des « boules de billard » se heurtant sans s'influencer à l'intérieur. Ils identifient trois ruptures fondamentales :
               </p>
-              <ul style="margin: 8px 0 0 16px; font-size: 0.9rem; line-height: 1.5;">
-                <li>Des logiciels de conception (EDA) conçus aux États-Unis (Cadence, Synopsys).</li>
-                <li>Des machines de lithographie ultraviolette extrême (EUV) produites exclusivement par ASML aux Pays-Bas.</li>
-                <li>Des lasers allemands et des produits chimiques ultra-purs japonais.</li>
-                <li>La fonderie industrielle de pointe chez TSMC à Taïwan, qui concentre plus de 90 % de la fabrication des puces les plus perfectionnées du monde.</li>
+              <ul style="margin: 10px 0 0 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+                <li><strong>Canaux multiples :</strong> Les relations internationales ne se cantonnent plus aux seuls diplomates et chefs d'état-major ; elles passent par les banques centrales, les firmes multinationales, les agences sanitaires et la société civile.</li>
+                <li><strong>Absence de hiérarchie immuable des enjeux :</strong> La haute politique (défense territoriale) ne domine plus systématiquement la basse politique (taux d'intérêt, approvisionnements énergétiques, normes environnementales).</li>
+                <li><strong>Déclin relatif de la force brute :</strong> Entre États hautement intégrés, l'usage des armes devient contre-productif car il détruit les actifs économiques mêmes dont dépend l'agresseur.</li>
               </ul>
-              <p style="margin-top: 8px;">
-                Cette interdépendance fait de Taïwan à la fois le cœur névralgique de l'économie numérique mondiale et le foyer géostratégique de confrontation le plus surveillé du XXIe siècle.
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">3. La distinction opérationnelle : Sensibilité vs Vulnérabilité</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Pour mesurer le risque géopolitique réel d'un État, Keohane et Nye établissent un clivage devenu canonique :
+              </p>
+              <ul style="margin: 10px 0 0 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+                <li><strong>La sensibilité (Sensitivity) :</strong> Mesure la rapidité et l'ampleur avec lesquelles les chocs extérieurs se répercutent sur un pays <em>à politiques publiques inchangées</em> (ex. une flambée du prix mondial du baril de pétrole percutant immédiatement le consommateur à la pompe).</li>
+                <li><strong>La vulnérabilité (Vulnerability) :</strong> Mesure le coût financier et le temps stratégique nécessaires à un État pour <em>réajuster ses structures, modifier ses alliances et substituer ses approvisionnements</em> afin de surmonter la crise. L'acteur le moins vulnérable détient un pouvoir coercitif immense sur celui qui ne dispose d'aucun substitut.</li>
+              </ul>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">4. La militarisation des réseaux : « Weaponized Interdependence » (Farrell & Newman, 2019)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans leurs travaux fondateurs, <strong>Henry Farrell et Abraham Newman</strong> démontrent que les réseaux globaux (financiers, télécoms, logistiques) ne sont pas des toiles horizontales décentralisées, mais des structures asymétriques hyper-concentrées autour de goulots d'étranglement névralgiques (<em>hubs</em>). L'État qui exerce sa souveraineté juridictionnelle sur ces nœuds acquiert deux pouvoirs colossaux :
+              </p>
+              <ul style="margin: 10px 0 0 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+                <li><strong>L'effet Panoptique (The Panopticon Effect) :</strong> Capacité de surveiller, cartographier et intercepter l'intégralité des flux circulant à travers un nœud central (ex. la surveillance des communications mondiales via les câbles transatlantiques ou les flux bancaires via le réseau SWIFT).</li>
+                <li><strong>L'effet d'Étranglement (The Chokepoint Effect) :</strong> Capacité d'exclure un rival de l'accès à une ressource sans substitut pour paralyser son économie sans tirer un seul missile (ex. exclusion d'un pays du dollar, embargo sur les machines néerlandaises ASML de photolithographie).</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. PASSERELLE INTER-CONCEPTS -->
+        <section class="course-section" id="passerelle">
+          <span class="section-num-tag">Section 03</span>
+          <h2>Passerelle inter-concepts : Le maillage analytique</h2>
+          <p>
+            L'interdépendance est le terrain de friction contemporain où s'affrontent les intérêts souverains des nations :
+          </p>
+
+          <div class="concept-bridge-grid">
+            <a href="souverainete.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Souveraineté</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'érosion des frontières :</strong> L'interdépendance pulvérise l'illusion d'une souveraineté territoriale étanche et force les États à bâtir une souveraineté de résilience économique et technologique.
+              </p>
+            </a>
+
+            <a href="puissance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Puissance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'asymétrie coercitive :</strong> L'acteur le moins dépendant d'un échange vital dispose d'une puissance géopolitique démesurée pour imposer sa volonté à l'acteur le plus vulnérable.
+              </p>
+            </a>
+
+            <a href="interet-national.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Intérêt National</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'arbitrage vulnérabilité/richesse :</strong> L'intérêt national dicte de bénéficier des marchés mondiaux tout en limitant les dépendances critiques qui menacent la sécurité physique de la population.
+              </p>
+            </a>
+
+            <a href="anarchie-internationale.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Anarchie Internationale</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>Le déplacement du champ de bataille :</strong> L'interdépendance ne supprime pas l'anarchie : elle déplace la guerre conventionnelle vers la guerre invisible des réseaux, des devises et des technologies.
+              </p>
+            </a>
+          </div>
+        </section>
+
+        <!-- 4. TEXTE DOCTRINAL DÉCRYPTÉ -->
+        <section class="course-section" id="texte-doctrinal">
+          <span class="section-num-tag">Section 04</span>
+          <h2>Texte doctrinal fondateur décrypté</h2>
+          
+          <div class="doctrinal-card">
+            <div class="doctrinal-meta">
+              <span>Source primaire canonique</span>
+              <span>·</span>
+              <span>Robert O. Keohane & Joseph S. Nye (1977)</span>
+            </div>
+            <div class="doctrinal-quote">
+              « L'interdépendance ne doit pas être idéalisée comme une harmonie mutuelle exempte de conflits. Dans la politique mondiale, l'interdépendance fait référence à des situations caractérisées par des effets réciproques entre pays ou entre acteurs situés dans différents pays. Or, ces effets réciproques résultent souvent de contraintes internationales et impliquent des coûts réels. Ce sont précisément les asymétries dans l'interdépendance qui constituent les sources les plus décisives du pouvoir politique dans les relations entre États. »
+            </div>
+            <p class="doctrinal-analysis">
+              <strong>Analyse de chancellerie & méthode d'exploitation :</strong><br>
+              Dans cet extrait fondateur de l'Introduction de <em>Power and Interdependence</em>, Keohane et Nye brisent l'utopie d'une mondialisation désintéressée :
+            </p>
+            <ul style="margin: 8px 0 12px 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+              <li><strong>Le coût réciproque :</strong> Il n'y a pas d'interdépendance sans vulnérabilité partagée. Dès lors qu'un lien économique est établi, chacun paie un tribut en cas de rupture unilatérale.</li>
+              <li><strong>L'asymétrie comme levier de négociation :</strong> Si le pays A dépend à 80 % du pays B pour son énergie, mais que le pays B ne dépend qu'à 2 % du pays A pour ses débouchés, l'interdépendance n'est pas un facteur d'amitié : c'est un rapport de sujétion politique directe.</li>
+            </ul>
+            <p class="doctrinal-analysis">
+              <strong>Comment mobiliser cette citation en copie ou en note stratégique :</strong> Utilisez Keohane & Nye pour rappeler que le commerce mondial n'efface jamais les rapports de force géopolitiques, mais leur offre un théâtre d'affrontement plus subtil.
+            </p>
+          </div>
+        </section>
+
+        <!-- 5. ÉTUDES STRATÉGIQUES COMPARÉES -->
+        <section class="course-section" id="etudes-de-cas">
+          <span class="section-num-tag">Section 05</span>
+          <h2>Casus Belli & Études stratégiques comparées</h2>
+          <p>
+            L'interdépendance militarisée est devenue le cœur battant des conflits géoéconomiques du XXIe siècle :
+          </p>
+
+          <div class="cases-grid">
+            <div class="case-card">
+              <div class="case-tag">Cas 01 · Chokepoint financier</div>
+              <h4>Le réseau SWIFT et le gel des réserves russes (2022)</h4>
+              <p>
+                Société coopérative de droit belge regroupant plus de 11 000 institutions financières mondiales, SWIFT est le système nerveux des paiements interbancaires transfrontaliers. En février 2022, en réponse à l'invasion de l'Ukraine, les puissances occidentales ont exclu les principales banques russes de SWIFT et gelé plus de 300 milliards de dollars d'avoirs de la Banque centrale russe déposés à l'étranger. Cet événement constitue l'utilisation la plus spectaculaire de l'effet d'étranglement financier de l'histoire moderne.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 02 · Chokepoint technologique</div>
+              <h4>ASML et le goulot d'étranglement mondial des puces</h4>
+              <p>
+                L'entreprise néerlandaise ASML est la seule au monde capable de fabriquer les machines de photolithographie à ultraviolet extrême (EUV), indispensables pour graver les semi-conducteurs de moins de 5 nanomètres (utilisés pour les smartphones, les centres de données et l'intelligence artificielle). Sous pression diplomatique directe des États-Unis, le gouvernement des Pays-Bas a bloqué les exportations de ces machines vers la Chine, démontrant comment le contrôle d'un hub technologique unique permet de brider l'essor industriel d'une superpuissance concurrente.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 03 · Dépendance énergétique</div>
+              <h4>La crise gazière européenne : Sensibilité vs Vulnérabilité</h4>
+              <p>
+                En 2021, l'Union européenne importait près de 45 % de son gaz naturel de Russie. Lorsque Moscou a restreint les flux de gazoducs en 2022, les économies européennes ont subi une <strong>sensibilité extrême</strong> (multiplication par dix des cours boursiers du mégawattheure, choc d'inflation, craintes de pénuries hivernales). Cependant, en diversifiant leurs sources en 18 mois (terminaux GNL américains et qataris, efficacité énergétique, relance du charbon et du nucléaire), les États européens ont démontré une <strong>vulnérabilité finale plus faible</strong> que ce qu'anticipait Moscou, au prix d'une facture de réajustement colossale.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 04 · Monopole des matières premières</div>
+              <h4>La Chine et les Terres Rares : Le levier de la transition verte</h4>
+              <p>
+                Raffinant plus de 70 % des terres rares et contrôlant la majorité des chaînes de traitement du cobalt, du lithium et du graphite (vitaux pour les batteries de véhicules électriques et les éoliennes), Pékin dispose d'un levier asymétrique majeur. Les restrictions périodiques sur le gallium et le germanium imposées par la Chine rappellent que la transition énergétique mondiale est soumise aux risques de l'interdépendance militarisée.
               </p>
             </div>
           </div>
         </section>
 
-        <!-- 6. DÉBATS ET CONTROVERSES -->
-        <section class="course-section" id="debats">
-          <h2>6. Débats et controverses</h2>
-
-          <div class="debate-box">
-            <h4>Controverse 1 : Le « doux commerce » libéral contre le dilemme de vulnérabilité réaliste</h4>
-            <p>
-              Pour la tradition libérale (héritière de Montesquieu, Kant et Keohane), le commerce tisse des solidarités transnationales, suscite des coalitions d'intérêts intérieurs pacifistes et rend l'agression militaire mutuellement destructrice.
-            </p>
-            <p>
-              À l'opposé, les théoriciens réalistes (Kenneth Waltz, John Mearsheimer) considèrent que l'interdépendance est perçue par les gouvernements comme une faiblesse intolérable : dépendre d'autrui pour son énergie, ses minerais critiques ou ses armes crée un dilemme de sécurité aigu. Un État craintif préférera souvent anticiper une rupture en usant de la force pour sécuriser ses approvisionnements vitaux.
-            </p>
-          </div>
-
-          <div class="debate-box" style="margin-top: 18px;">
-            <h4>Controverse 2 : Découplage (*Decoupling*) vs Réduction des risques (*De-risking*)</h4>
-            <p>
-              Dans le contexte des tensions grandissantes entre Washington, Bruxelles et Pékin, les diplomaties occidentales s'interrogent sur l'avenir de l'intégration économique :
-            </p>
-            <ul>
-              <li><strong>Le découplage total (*Decoupling*) :</strong> Préconisé par certains faucons souverainistes, il vise la séparation complète des chaînes de valeur technologiques et industrielles. Mais ses coûts économiques mondiaux se compteraient en milliers de milliards de dollars de perte de PIB.</li>
-              <li><strong>La réduction ciblée des risques (*De-risking*) :</strong> Portée notamment par l'Union européenne, cette doctrine vise à maintenir les flux commerciaux ordinaires tout en diversifiant les fournisseurs et en protégeant les technologies souveraines critiques (semi-conducteurs, batteries, principes actifs pharmaceutiques, métaux rares).</li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 7. À RETENIR -->
-        <section class="course-section" id="a-retenir">
-          <h2>7. À retenir</h2>
-          <div class="takeaway-box">
-            <h4>Synthèse conceptuelle des dynamiques d'interdépendance</h4>
-            <div class="table-responsive">
-              <table class="academic-table">
-                <thead>
-                  <tr>
-                    <th>Dimension</th>
-                    <th>Interdépendance Symétrique</th>
-                    <th>Interdépendance Asymétrique</th>
-                    <th>Interdépendance Militarisée</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Structure</strong></td>
-                    <td>Dépendance mutuelle équilibrée ; coûts de rupture comparables pour les deux parties.</td>
-                    <td>Dépendance inégale ; l'un peut substituer ses approvisionnements plus vite que l'autre.</td>
-                    <td>Réseaux mondiaux organisés autour de goulots d'étranglement stratégiques (*chokepoints*).</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Rapport de pouvoir</strong></td>
-                    <td>Coopération négociée, règles multilatérales équitables.</td>
-                    <td>Levier de marchandage (*bargaining power*) au profit de la partie la moins vulnérable.</td>
-                    <td>Coercition unilatérale directe : surveillance panoptique et sanctions extraterritoriales.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Exemple type</strong></td>
-                    <td>Échanges intra-européens de biens industriels standardisés.</td>
-                    <td>Importations européennes de gaz russe avant le conflit de 2022.</td>
-                    <td>Sanctions secondaires américaines via l'hégémonie du dollar et le réseau SWIFT.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="takeaway-list" style="margin-top: 20px;">
-              <p><strong>Les trois lois fondamentales à mémoriser pour les examens :</strong></p>
-              <ol>
-                <li>L'interdépendance n'est pas synonyme d'harmonie ou de paix automatique ; elle génère des frictions et des asymétries de pouvoir.</li>
-                <li>La <em>sensibilité</em> est un coût immédiat ; la <em>vulnérabilité</em> est l'incapacité structurelle à trouver des solutions de remplacement.</li>
-                <li>Dans un monde interconnecté, le pouvoir appartient à ceux qui contrôlent les nœuds des réseaux physiques, financiers et technologiques.</li>
-              </ol>
-            </div>
-          </div>
-        </section>
-
-        <!-- 8. BIBLIOGRAPHIE & SOURCES SCIENTIFIQUES -->
-        <section class="course-section" id="bibliographie">
-          <h2>8. Bibliographie & sources vérifiables</h2>
-          <p class="section-intro-text">
-            Références académiques indispensables pour la recherche documentaire et la préparation aux concours de relations internationales.
+        <!-- 6. L'ATELIER DE L'ANALYSTE & CONCOURS -->
+        <section class="course-section" id="atelier">
+          <span class="section-num-tag">Section 06</span>
+          <h2>L'Atelier de l'analyste : Sujet type concours</h2>
+          <p>
+            Méthode d'application pour les épreuves de relations internationales :
           </p>
 
-          <div class="bibliography-group">
-            <h4>Ouvrages fondateurs et publications scientifiques</h4>
-            <ul class="biblio-list">
-              <li>
-                <strong>Keohane, Robert O., & Nye, Joseph S.</strong> (1977). <em>Power and Interdependence: World Politics in Transition</em>. Boston: Little, Brown and Company. <span class="biblio-badge">Ouvrage fondateur</span>
-              </li>
-              <li>
-                <strong>Farrell, Henry, & Newman, Abraham L.</strong> (2019). « Weaponized Interdependence: How Global Economic Networks Shape State Coercion ». <em>International Security</em>, vol. 44, n° 1, p. 42-79. <span class="biblio-badge">Article séminal</span>
-              </li>
-              <li>
-                <strong>Baldwin, David A.</strong> (1985). <em>Economic Statecraft</em>. Princeton: Princeton University Press.
-              </li>
-              <li>
-                <strong>Strange, Susan.</strong> (1988). <em>States and Markets: An Introduction to International Political Economy</em>. London: Pinter Publishers.
-              </li>
-              <li>
-                <strong>Angell, Norman.</strong> (1909). <em>The Great Illusion: A Study of the Relation of Military Power to National Advantage</em>. London: Heinemann.
-              </li>
-              <li>
-                <strong>Waltz, Kenneth N.</strong> (1979). « The Myth of National Interdependence ». In Charles P. Kindleberger (Ed.), <em>The International Corporation</em>, MIT Press.
-              </li>
-            </ul>
-          </div>
+          <div class="dissertation-card">
+            <span class="dissertation-badge">Sujet de dissertation type · Concours Quai d'Orsay / INSP</span>
+            <h3 class="dissertation-subject">« Les interdépendances internationales sont-elles des facteurs de paix ou des armes géopolitiques ? »</h3>
+            
+            <div class="dissertation-problematique">
+              <strong>Problématique formulée :</strong><br>
+              En quoi l'interconnexion dense des économies, des monnaies et des réseaux technologiques mondiaux, loin d'accomplir la pacification mécanique promise par la théorie libérale du doux commerce, s'est-elle transformée en un champ clos d'affrontements asymétriques où la dépendance d'autrui est exploitée comme un instrument de coercition stratégique ?
+            </div>
 
-          <div class="bibliography-group">
-            <h4>Rapports institutionnels et données de référence</h4>
-            <ul class="biblio-list">
-              <li>
-                <strong>OMC (Organisation Mondiale du Commerce)</strong> (2023). <em>Rapport sur le commerce mondial 2023 : La ré-mondialisation pour un avenir sûr, inclusif et durable</em>. Genève : OMC.
-              </li>
-              <li>
-                <strong>Commission Européenne</strong> (2023). <em>Stratégie européenne de sécurité économique</em>, Communication conjointe au Parlement européen et au Conseil européen (JOIN/2023/20 final).
-              </li>
-            </ul>
+            <div class="plan-grid">
+              <div class="plan-part">
+                <div class="plan-part-title">I. La promesse libérale de l'interdépendance comme vecteur de pacification</div>
+                <ul>
+                  <li><strong>A. La réciprocité des coûts rend la guerre irrationnelle :</strong> L'intégration des chaînes de valeur élève le seuil économique d'une agression militaire directe entre nations partenaires (Keohane & Nye, thèse du doux commerce).</li>
+                  <li><strong>B. L'institutionnalisation des flux et la création d'intérêts partagés :</strong> Le développement d'accords multilatéraux (OMC, accords de libre-échange régionaux) encadre les différends et favorise la prévisibilité juridique.</li>
+                </ul>
+              </div>
+              <div class="plan-part">
+                <div class="plan-part-title">II. La militarisation contemporaine des réseaux et la fragmentation géoéconomique</div>
+                <ul>
+                  <li><strong>A. La « Weaponized Interdependence » au service des superpuissances :</strong> L'exploitation asymétrique des nœuds névralgiques (effets panoptique et chokepoint sur SWIFT, le dollar et les semi-conducteurs) pour imposer des blocus invisibles (Farrell & Newman).</li>
+                  <li><strong>B. Le retour du nationalisme économique :</strong> L'émergence des doctrines de réduction des risques (<em>derisking</em>), de réarmement industriel et de <em>friendshoring</em> marque la primauté de la sécurité régalienne sur l'efficience marchande.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px;">
+              <h4 style="font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin-bottom: 8px;">
+                ⚠️ Les 3 pièges éliminatoires à éviter en copie :
+              </h4>
+              <div class="pitfalls-grid">
+                <div class="pitfall-item">
+                  <strong>1. Confondre sensibilité et vulnérabilité</strong>
+                  Erreur classique en examen : la sensibilité décrit l'impact initial immédiat, tandis que la vulnérabilité mesure la difficulté et le coût réel pour s'en libérer en changeant de stratégie.
+                </div>
+                <div class="pitfall-item">
+                  <strong>2. Annoncer une « démondialisation » totale et brutale</strong>
+                  Le commerce mondial ne s'est pas effondré : il se reconfigure en blocs géopolitiques plus prudents et sélectifs (<em>derisking</em> plutôt que <em>decoupling</em>).
+                </div>
+                <div class="pitfall-item">
+                  <strong>3. Réduire l'interdépendance à l'économie pure</strong>
+                  L'interdépendance est aussi écologique (le climat ignore les frontières), sanitaire (pandémies) et cognitive (réseaux sociaux, flux de données).
+                </div>
+              </div>
+            </div>
           </div>
         </section>
+
+        <!-- 7. SYNTHÈSE & BIBLIOGRAPHIE -->
+        <section class="course-section" id="synthese">
+          <span class="section-num-tag">Section 07</span>
+          <h2>Synthèse matricielle & Bibliographie certifiée</h2>
+          
+          <div class="synthesis-table-wrap">
+            <table class="synthesis-table">
+              <thead>
+                <tr>
+                  <th>Concept opératoire</th>
+                  <th>Auteurs de référence</th>
+                  <th>Mécanisme fondamental</th>
+                  <th>Exemple géopolitique</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Interdépendance Complexe</strong></td>
+                  <td>Robert Keohane & Joseph Nye (1977)</td>
+                  <td>Canaux multiples, pas de hiérarchie des enjeux, déclin de la force brute</td>
+                  <td>Relations transatlantiques régulées par l'UE et les USA</td>
+                </tr>
+                <tr>
+                  <td><strong>Sensibilité (Sensitivity)</strong></td>
+                  <td>Keohane & Nye (1977)</td>
+                  <td>Impact immédiat d'un choc externe à politiques inchangées</td>
+                  <td>Choc pétrolier mondial frappant le prix des carburants à la pompe</td>
+                </tr>
+                <tr>
+                  <td><strong>Vulnérabilité (Vulnerability)</strong></td>
+                  <td>Keohane & Nye (1977)</td>
+                  <td>Coût et délai pour réorganiser et trouver des substituts</td>
+                  <td>Capacité de l'Europe à substituer le gaz russe par le GNL mondial</td>
+                </tr>
+                <tr>
+                  <td><strong>Effet Panoptique</strong></td>
+                  <td>Henry Farrell & Abraham Newman (2019)</td>
+                  <td>Surveillance et cartographie des flux traversant un hub</td>
+                  <td>Surveillance des flux financiers internationaux via SWIFT et le dollar</td>
+                </tr>
+                <tr>
+                  <td><strong>Effet Chokepoint</strong></td>
+                  <td>Henry Farrell & Abraham Newman (2019)</td>
+                  <td>Capacité de couper l'accès à un service ou composant vital</td>
+                  <td>Embargo sur les machines de photolithographie EUV d'ASML vers la Chine</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="biblio-list" style="margin-top: 24px;">
+            <div class="biblio-item">
+              <span class="biblio-author">KEOHANE, Robert O. & NYE, Joseph S. Jr. (1977).</span>
+              <span class="biblio-title">Power and Interdependence: World Politics in Transition.</span>
+              <div class="biblio-details">Boston : Little, Brown and Company. L'ouvrage matriciel fondant l'école libérale institutionnelle et la sociologie des flux transnationaux.</div>
+            </div>
+            <div class="biblio-item">
+              <span class="biblio-author">FARRELL, Henry & NEWMAN, Abraham L. (2019).</span>
+              <span class="biblio-title">Weaponized Interdependence: How Global Economic Networks Shape State Coercion.</span>
+              <div class="biblio-details">International Security, vol. 44, n° 1. L'article le plus influent de la dernière décennie sur l'instrumentalisation géopolitique des hubs réticulaires.</div>
+            </div>
+            <div class="biblio-item">
+              <span class="biblio-author">HIRSCHMAN, Albert O. (1945).</span>
+              <span class="biblio-title">National Power and the Structure of Foreign Trade.</span>
+              <div class="biblio-details">Berkeley : University of California Press. Démonstration pionnière de l'utilisation du commerce extérieur asymétrique comme instrument de domination impériale.</div>
+            </div>
+            <div class="biblio-item">
+              <span class="biblio-author">ANGELL, Norman (1910).</span>
+              <span class="biblio-title">The Great Illusion: A Study of the Relation of Military Power to National Advantage.</span>
+              <div class="biblio-details">London : Heinemann. L'exposé classique de la thèse libérale du coût prohibitif de la guerre dans une économie intégrée.</div>
+            </div>
+          </div>
+        </section>
+
 
         <!-- 9. ÉVALUATION (QUIZ DUOLINGO-STYLE) -->
         <section class="course-section" id="evaluation">

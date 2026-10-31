@@ -551,7 +551,187 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
   box-shadow: 0 6px 20px rgba(217, 175, 94, 0.45);
 }
 
+/* PASSERELLE CONCEPTUELLE INTER-CONCEPTS */
+.concept-bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.concept-bridge-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  transition: var(--transition);
+}
+.concept-bridge-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.concept-bridge-target {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.concept-bridge-target span.arrow {
+  color: var(--gold);
+  font-size: 14px;
+}
+.concept-bridge-card:hover .concept-bridge-target span.arrow {
+  color: var(--accent);
+}
+.concept-bridge-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* TEXTE DOCTRINAL FONDATEUR */
+.doctrinal-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.doctrinal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 800;
+  color: var(--gold);
+}
+.doctrinal-quote {
+  border-left: 3px solid var(--gold);
+  margin: 0 0 16px;
+  padding: 10px 0 10px 18px;
+  font-style: italic;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.doctrinal-analysis {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+/* ATELIER CONCOURS & DISSERTATION */
+.dissertation-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+}
+.dissertation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+.dissertation-subject {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dissertation-problematique {
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.plan-part {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.plan-part-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.plan-part ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* PIEGES ACADEMIQUES */
+.pitfalls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.pitfall-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.pitfall-item strong {
+  display: block;
+  color: var(--accent);
+  font-size: 11.5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
+  .plan-grid { grid-template-columns: 1fr; }
   .course-layout { grid-template-columns: 1fr; }
   .course-toc { display: none; }
   .cases-grid { grid-template-columns: 1fr; }
@@ -899,25 +1079,24 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
       <aside class="course-toc" aria-label="Sommaire du cours">
         <div class="toc-title">
           <span>Sommaire du cours</span>
-          <span>9 parties</span>
+          <span>8 sections</span>
         </div>
         <ul class="toc-list">
-          <li><a href="#introduction" class="toc-link">1. Introduction</a></li>
-          <li><a href="#essentiel" class="toc-link">2. L'essentiel</a></li>
-          <li><a href="#profondeur" class="toc-link">3. Comprendre en profondeur</a></li>
-          <li><a href="#savais-tu" class="toc-link">4. Le savais-tu ?</a></li>
-          <li><a href="#etudes-de-cas" class="toc-link">5. Études de cas</a></li>
-          <li><a href="#debats" class="toc-link">6. Débats & controverses</a></li>
-          <li><a href="#a-retenir" class="toc-link">7. À retenir</a></li>
-          <li><a href="#bibliographie" class="toc-link">8. Bibliographie & sources</a></li>
-          <li><a href="#evaluation" class="toc-link">9. Évaluation (Quiz)</a></li>
+          <li><a href="#problematique" class="toc-link">1. Problématique & Repères</a></li>
+          <li><a href="#theorie" class="toc-link">2. Anatomie théorique</a></li>
+          <li><a href="#passerelle" class="toc-link">3. Passerelle inter-concepts</a></li>
+          <li><a href="#texte-doctrinal" class="toc-link">4. Texte doctrinal décrypté</a></li>
+          <li><a href="#etudes-de-cas" class="toc-link">5. Casus Belli & Études</a></li>
+          <li><a href="#atelier" class="toc-link">6. L'Atelier de l'analyste</a></li>
+          <li><a href="#synthese" class="toc-link">7. Synthèse & Bibliographie</a></li>
+          <li><a href="#evaluation" class="toc-link">8. Évaluation (Quiz)</a></li>
         </ul>
       </aside>
 
       <!-- CONTENU DU COURS -->
       <article class="course-content">
-        <!-- 1. INTRODUCTION -->
-        <header class="course-header" id="introduction">
+        <!-- 1. PROBLÉMATIQUE & CADRE DIRECTEUR -->
+        <header class="course-header" id="problematique">
           <div class="course-meta-tags">
             <span class="tag-badge level-tag">Niveau L1 à M2</span>
             <span class="tag-badge">Théorie de l'État</span>
@@ -926,208 +1105,320 @@ footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
           </div>
           <h1 class="course-title">La Souveraineté</h1>
           <p class="course-lead-def">
-            Principe juridique et politique fondamental conférant à l'État l'autorité suprême sur son territoire et sa population, et l'indépendance à l'égard de toute puissance extérieure.
+            Principe juridique et politique fondateur en vertu duquel l'État n'est soumis à aucune autorité supérieure sur son territoire (souveraineté interne) et ne reconnaît aucun supérieur temporel dans l'ordre international (souveraineté externe).
           </p>
           <div class="course-intro-question">
-            <strong>Question introductive :</strong> Dans un monde globalisé marqué par des interdépendances économiques massives et l'émergence d'espaces transnationaux (climat, cyberespace), l'État souverain est-il encore le maître absolu de son destin ?
+            <strong>Problématique directrice :</strong> Dans un ordre international dominé par l'asymétrie brute de la puissance et la porosité des flux mondialisés (financiers, technologiques, climatiques), la souveraineté étatique est-elle une réalité tangible ou une fiction juridique indispensable à la survie de la société internationale ?
+          </div>
+
+          <!-- JALONS DE PROGRESSION L1 À M2 -->
+          <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .06em;">Jalon L1 · Fondations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Maîtriser les 3 attributs kelséniens de l'État (territoire, population, puissance publique) et la rupture historique des Traités de Westphalie (1648).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--accent); letter-spacing: .06em;">Jalon L3 · Confrontations</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Articuler la tension entre la fiction de l'égalité souveraine (Art. 2§1 Charte ONU) et l'exercice d'un droit d'ingérence / Responsabilité de protéger (R2P).</div>
+            </div>
+            <div style="background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--green); border-radius: var(--radius); padding: 12px 14px;">
+              <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; color: var(--green); letter-spacing: .06em;">Jalon M1/M2 · Déconstruction</div>
+              <div style="font-size: 11.5px; color: var(--ink-soft); margin-top: 4px; line-height: 1.5;">Mobiliser l'« hypocrisie organisée » de Stephen Krasner, le <em>Subaltern Realism</em> de Mohammed Ayoob et les régimes d'extraterritorialité juridique.</div>
+            </div>
           </div>
         </header>
 
-        <!-- 2. L'ESSENTIEL -->
-        <section class="course-section" id="essentiel">
+        <!-- 2. ANATOMIE THÉORIQUE & DÉCONSTRUCTION -->
+        <section class="course-section" id="theorie">
           <span class="section-num-tag">Section 02</span>
-          <h2>L'essentiel</h2>
+          <h2>Anatomie théorique & Déconstruction</h2>
           <p>
-            La souveraineté est le concept central du droit international public moderne. Elle stipule qu'aucun pouvoir n'est supérieur à celui de l'État dans son ordre juridique interne (souveraineté interne), et qu'aucun État ne peut imposer sa volonté à un autre sans son consentement exprès (souveraineté externe ou internationale).
+            Loin d'être une évidence naturelle, la souveraineté est une construction intellectuelle et politique forgée en Europe pour surmonter les guerres intestines féodales et religieuses. Son architecture repose sur une trajectoire doctrinale en quatre temps majeurs :
           </p>
 
-          <div class="essential-box">
-            <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .08em;">
-              Les 3 piliers indissociables de la souveraineté étatique
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 16px;">
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">1. La fondation absolutiste : Jean Bodin & Thomas Hobbes</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans <em>Les Six Livres de la République</em> (1576), le juriste français <strong>Jean Bodin</strong> théorise la souveraineté comme « la puissance absolue et perpétuelle d'une République ». Écrivant au lendemain de la nuit de la Saint-Barthélemy, Bodin recherche un centre décisionnel unique au-dessus des factions confessionnelles, capable de « donner et casser la loy sans le consentement d'autruy ». Un siècle plus tard, <strong>Thomas Hobbes</strong> (<em>Léviathan</em>, 1651) laïcise le concept : pour s'extraire de l'état de nature où l'homme est un loup pour l'homme, les individus transfèrent leur violence légitime à un monstre institutionnel souverain, seul garant de l'ordre civil intérieur.
+              </p>
             </div>
-            <div class="essential-grid">
-              <div class="essential-item">
-                <div class="essential-item-num">01</div>
-                <h4>Plénitude territoriale</h4>
-                <p>L'État exerce la compétence exclusive de promulguer des lois, lever l'impôt et rendre la justice sur l'ensemble de son territoire terrestre, maritime et aérien.</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">02</div>
-                <h4>Égalité souveraine</h4>
-                <p>Consacrée à l'Article 2§1 de la Charte de l'ONU : juridiquement, toutes les nations sont égales, indépendamment de leur taille démographique ou de leur puissance militaire.</p>
-              </div>
-              <div class="essential-item">
-                <div class="essential-item-num">03</div>
-                <h4>Principe de non-ingérence</h4>
-                <p>Interdiction formelle faite aux puissances étrangères et aux organisations internationales de s'immiscer unilatéralement dans les affaires relevant de la juridiction intérieure d'un État.</p>
-              </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">2. Le moment westphalien (1648) : l'anarchie ordonnée des puissances</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Les traités de Münster et d'Osnabrück mettent fin à la guerre de Trente Ans et consacrent l'adage <em>« Cujus regio, ejus religio »</em> (tel prince, telle religion). Cette clause pulvérise les prétentions universelles du Saint-Empire romain germanique et de la Papauté. Désormais, chaque prince est empereur en son royaume. Sur le plan international, la souveraineté produit une double réalité : la clôture étanche des juridictions intérieures et l'absence de chef suprême entre les États. C'est la naissance formelle du système interétatique moderne.
+              </p>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">3. La déconstruction critique : Krasner et l'« Hypocrisie organisée » (1999)</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Le politologue américain <strong>Stephen Krasner</strong> (<em>Sovereignty: Organized Hypocrisy</em>) démontre que les normes souveraines n'ont jamais été universellement respectées dans l'histoire : elles sont invoquées ou bafouées par les grandes puissances au gré de leurs intérêts immédiats. Krasner distingue quatre acceptions distinctes :
+              </p>
+              <ul style="margin: 10px 0 0 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+                <li><strong>Souveraineté westphalienne :</strong> Exclusion de toute autorité extérieure dans l'exercice du pouvoir interne.</li>
+                <li><strong>Souveraineté intérieure :</strong> Capacité matérielle et institutionnelle des organes de l'État à contrôler leur territoire.</li>
+                <li><strong>Souveraineté juridique internationale :</strong> Statut de reconnaissance mutuelle conféré par les pairs au sein de la société internationale.</li>
+                <li><strong>Souveraineté frontalière (ou d'interdépendance) :</strong> Aptitude concrète à réguler et filtrer les flux transfrontaliers (capitaux, personnes, biens, informations).</li>
+              </ul>
+            </div>
+
+            <div style="background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px;">
+              <h4 style="margin: 0 0 6px; font-size: 14.5px; color: var(--ink);">4. L'angle critique du Sud Global : le Subaltern Realism de Mohammed Ayoob</h4>
+              <p style="margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink-soft);">
+                Dans <em>The Third World Security Predicament</em> (1995), <strong>Mohammed Ayoob</strong> souligne que la théorie réaliste occidentale standard a été pensée pour des États anciens dont la consolidation étatique interne était achevée. Dans les pays du Sud Global (Afrique subsaharienne, Moyen-Orient, Asie du Sud), la souveraineté juridique a été acquise brutalement par la décolonisation sans que la souveraineté empirique intérieure ne soit stabilisée (frontières coloniales arbitraires, rivalités ethniques, institutions fragiles). Pour ces États, la souveraineté westphalienne et la non-ingérence ne sont pas des abstractions théoriques, mais un bouclier existentiel contre le risque d'éclatement territorial et de néocolonialisme.
+              </p>
             </div>
           </div>
         </section>
 
-        <!-- 3. COMPRENDRE EN PROFONDEUR -->
-        <section class="course-section" id="profondeur">
+        <!-- 3. PASSERELLE INTER-CONCEPTS -->
+        <section class="course-section" id="passerelle">
           <span class="section-num-tag">Section 03</span>
-          <h2>Comprendre en profondeur</h2>
+          <h2>Passerelle inter-concepts : Le maillage analytique</h2>
           <p>
-            La formalisation doctrinale de la souveraineté émerge au XVIe siècle en France sous la plume du juriste <strong>Jean Bodin</strong>. Dans <em>Les Six Livres de la République</em> (1576), écrit en pleine tourmente des guerres de religion, Bodin définit la souveraineté comme « la puissance absolue et perpétuelle d'une République ». Pour Bodin, pour éviter l'anarchie civile, il doit exister dans toute société politique un centre décisionnel unique dont la volonté ne peut être contestée par des seigneurs féodaux ni par l'Église.
+            En relations internationales, aucun concept ne fonctionne en vase clos. La souveraineté est la pierre angulaire qui structure et conditionne les quatre autres dynamiques fondamentales du système :
           </p>
-          <p>
-            Au XVIIe siècle, le philosophe anglais <strong>Thomas Hobbes</strong> (<em>Léviathan</em>, 1651) laïcise et radicalise cette logique : les individus, pour échapper à l'état de nature où « l'homme est un loup pour l'homme », transfèrent leur droit naturel d'autodéfense à un souverain doté du monopole de la coercition légitime.
-          </p>
-          <p>
-            Sur le plan international, le tournant décisif a lieu en <strong>1648 avec les Traités de Westphalie</strong> (Münster et Osnabrück). Mettant fin à la guerre de Trente Ans, ces accords consacrent le principe <em>« Cujus regio, ejus religio »</em> (tel prince, telle religion), rompant avec la suprématie temporelle du Saint-Empire romain germanique et de la Papauté. C'est l'acte de naissance du <strong>système westphalien</strong> fondé sur l'anarchie ordonnée d'États souverains territorialement délimités.
-          </p>
-          <p>
-            Au XXe siècle, le politologue américain <strong>Stephen Krasner</strong> (<em>Sovereignty: Organized Hypocrisy</em>, 1999) propose une déconstruction analytique majeure en distinguant quatre acceptations opérationnelles :
-          </p>
-          <ul>
-            <li><strong>La souveraineté westphalienne</strong> : L'exclusion absolue d'acteurs d'autorité extérieurs sur le plan intérieur.</li>
-            <li><strong>La souveraineté intérieure</strong> : La capacité réelle des institutions à exercer un contrôle effectif sur leur territoire.</li>
-            <li><strong>La souveraineté juridique internationale</strong> : La reconnaissance mutuelle par les autres États souverains.</li>
-            <li><strong>La souveraineté frontalière (ou d'interdépendance)</strong> : La capacité matérielle à réguler les flux transfrontaliers (biens, capitaux, personnes, données).</li>
-          </ul>
+
+          <div class="concept-bridge-grid">
+            <a href="anarchie-internationale.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Anarchie Internationale</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>Relation causale directe :</strong> Parce que tous les États se proclament souverains et ne reconnaissent aucun supérieur temporel, il ne peut exister de gouvernement mondial central. <em>La souveraineté produit mécaniquement l'anarchie du système.</em>
+              </p>
+            </a>
+
+            <a href="puissance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers la Puissance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>L'épreuve de l'effectivité :</strong> La souveraineté n'est qu'un droit formel si l'État ne dispose pas de la puissance matérielle (Hard) et de légitimité (Soft) pour repousser la coercition étrangère. <em>La puissance rend la souveraineté effective.</em>
+              </p>
+            </a>
+
+            <a href="interet-national.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Intérêt National</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>Le guide de survie :</strong> Pour le souverain, l'intérêt national constitue la boussole rationnelle suprême permettant d'arbitrer les priorités vitales de sécurité territoriale et constitutionnelle face aux périls extérieurs.
+              </p>
+            </a>
+
+            <a href="interdependance.html" class="concept-bridge-card">
+              <div class="concept-bridge-target">
+                <span>Vers l'Interdépendance</span>
+                <span class="arrow">↗</span>
+              </div>
+              <p class="concept-bridge-desc">
+                <strong>La friction contemporaine :</strong> L'interdépendance des chaînes logistiques, des câbles sous-marins et des flux monétaires érode la souveraineté frontalière et contraint les États à inventer des stratégies de résilience systémique.
+              </p>
+            </a>
+          </div>
         </section>
 
-        <!-- 4. LE SAVAIS-TU ? -->
-        <section class="course-section" id="savais-tu">
+        <!-- 4. TEXTE DOCTRINAL DÉCRYPTÉ -->
+        <section class="course-section" id="texte-doctrinal">
           <span class="section-num-tag">Section 04</span>
-          <div class="did-you-know">
-            <div class="did-you-know-badge">💡 Le savais-tu ? · Singularités diplomatiques</div>
-            <h4>L'Ordre de Malte : une souveraineté sans territoire</h4>
-            <p>
-              L'Ordre Souverain Militaire Hospitalier de Saint-Jean de Jérusalem (Ordre de Malte) est reconnu en droit international comme un <strong>sujet souverain sans posséder de territoire propre</strong> depuis la perte de l'île de Malte en 1798. Il dispose du statut d'observateur permanent à l'Assemblée générale de l'ONU, entretient des relations diplomatiques bilatérales complètes avec plus de 110 États, et émet ses propres passeports diplomatiques, timbres-poste et monnaie (le scudo), démontrant que la souveraineté internationale peut parfois subsister indépendamment de l'assiette géographique.
+          <h2>Texte doctrinal fondateur décrypté</h2>
+          
+          <div class="doctrinal-card">
+            <div class="doctrinal-meta">
+              <span>Source primaire canonique</span>
+              <span>·</span>
+              <span>Jean Bodin (1576)</span>
+            </div>
+            <div class="doctrinal-quote">
+              « La souveraineté est la puissance absolue et perpétuelle d'une République [...]. Il faut que ceux-là qui sont souverains ne soient aucunement sujets aux commandements d'autrui, et qu'ils puissent donner loi aux sujets, et casser ou anéantir les lois inutiles pour en faire d'autres : ce que ne peut faire celui qui est sujet aux lois, ou à ceux qui ont commandement sur lui. »
+            </div>
+            <p class="doctrinal-analysis">
+              <strong>Analyse de chancellerie & méthode d'exploitation :</strong><br>
+              Dans ce passage matriciel du chapitre VIII du Livre I des <em>Six Livres de la République</em>, Jean Bodin pose les deux caractéristiques fondamentales de la souveraineté moderne :
+            </p>
+            <ul style="margin: 8px 0 12px 18px; font-size: 12.5px; line-height: 1.6; color: var(--ink-soft);">
+              <li><strong>La perpétuité :</strong> Elle n'est pas déléguée pour un mandat révocable (comme un officier ou un magistrat), elle s'identifie à la continuité temporelle permanente de l'État.</li>
+              <li><strong>L'absoluité :</strong> Le souverain a le monopole de la création du droit positif (<em>« donner et casser la loi »</em>) sans dépendre d'une autorité hiérarchique supérieure humaine.</li>
+            </ul>
+            <p class="doctrinal-analysis">
+              <strong>Comment mobiliser cette citation en copie ou en note stratégique :</strong> Utilisez Bodin pour rappeler que la souveraineté est née non comme une théorie de domination extérieure, mais comme une technique de pacification intérieure destinée à mettre fin à l'émiettement des seigneuries féodales et au fanatisme religieux.
             </p>
           </div>
         </section>
 
-        <!-- 5. ÉTUDES DE CAS -->
+        <!-- 5. ÉTUDES STRATÉGIQUES COMPARÉES -->
         <section class="course-section" id="etudes-de-cas">
           <span class="section-num-tag">Section 05</span>
-          <h2>Études de cas</h2>
+          <h2>Casus Belli & Études stratégiques comparées</h2>
           <p>
-            La souveraineté n'est pas un dogme figé, mais une réalité constamment mise à l'épreuve par la pratique des relations internationales.
+            La souveraineté se teste dans ses marges de friction. Voici quatre cas emblématiques illustrant la collision entre le droit formel et la géopolitique opérationnelle :
           </p>
 
           <div class="cases-grid">
             <div class="case-card">
               <div class="case-tag">Cas 01 · Asie orientale</div>
-              <h4>Taïwan (République de Chine) : la souveraineté de fait sans reconnaissance universelle</h4>
+              <h4>Taïwan (République de Chine) : La souveraineté empirique sans statut onusien</h4>
               <p>
-                Taïwan dispose de tous les attributs empiriques de la souveraineté : un gouvernement démocratique élu, une armée de premier plan, une monnaie propre, un système fiscal et un contrôle effectif exclusif sur son territoire. Pourtant, en raison du principe d'une « Seule Chine » imposé par Pékin, elle n'est pas membre de l'ONU et n'entretient des liens diplomatiques officiels qu'avec une poignée d'États. C'est l'exemple type d'une souveraineté intérieure parfaite heurtée à une souveraineté juridique internationale entravée.
+                Taïwan réunit la totalité des critères objectifs de la Convention de Montevideo de 1933 : une population permanente (23,5 millions d'habitants), un territoire déterminé, un gouvernement démocratiquement élu, une monnaie propre et des forces armées hautement sophistiquées. Pourtant, sous la pression de la doctrine d'« Une Seule Chine » défendue par Pékin, Taïwan a été exclue de l'ONU en 1971 (Résolution 2758) et n'est reconnue formellement que par une douzaine d'États. Elle incarne la distorsion maximale entre une <strong>souveraineté intérieure parfaite</strong> et une <strong>souveraineté juridique internationale verrouillée</strong>.
               </p>
             </div>
+
             <div class="case-card">
-              <div class="case-tag">Cas 02 · Intégration régionale</div>
-              <h4>L'Union européenne : laboratoire de la souveraineté partagée</h4>
+              <div class="case-tag">Cas 02 · Géoéconomie juridique</div>
+              <h4>L'extraterritorialité du droit américain : La brèche westphalienne</h4>
               <p>
-                Les 27 États membres de l'UE ont consenti des transferts massifs de compétences souveraines (politique monétaire de la zone euro, règles de concurrence, politique commerciale extérieure exclusive). Pour les juristes et politologues, il ne s'agit pas d'une disparition de l'État, mais d'un « exercice en commun de la souveraineté » (pool of sovereignty) visant à peser collectivement face aux superpuissances américaine et chinoise.
+                À travers l'usage hégémonique du dollar comme monnaie de facturation internationale et des législations unilatérales (Foreign Corrupt Practices Act, sanctions secondaires OFAC, CLOUD Act), la justice américaine poursuit et condamne des entreprises européennes ou asiatiques pour des transactions réalisées hors du sol américain (ex: amende record de 8,9 milliards USD contre BNP Paribas en 2014 pour avoir commercé avec le Soudan et Cuba). Ce mécanisme subordonne la souveraineté juridique d'États tiers à la loi nationale des États-Unis.
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 03 · Intégration supranationale</div>
+              <h4>L'Union européenne : Le laboratoire de la « souveraineté partagée »</h4>
+              <p>
+                Par les arrêts fondateurs <em>Van Gend en Loos</em> (1963) et <em>Costa c. ENEL</em> (1964), la Cour de justice a consacré la primauté et l'effet direct du droit européen sur les lois nationales. Les 27 États membres ont consenti à mutualiser des pans entiers de compétences régaliennes (monnaie unique, commerce extérieur, concurrence, régulation numérique). Pour les politologues, ce n'est pas la disparition de la souveraineté, mais sa mise en commun (<em>pooling of sovereignty</em>) pour préserver une capacité d'action géopolitique face aux empires-continents (USA, Chine).
+              </p>
+            </div>
+
+            <div class="case-card">
+              <div class="case-tag">Cas 04 · Singularité juridique</div>
+              <h4>L'Ordre de Malte : Une souveraineté sans territoire</h4>
+              <p>
+                Héritier de l'Ordre des Hospitaliers fondé au XIe siècle, l'Ordre Souverain de Malte est reconnu comme un sujet de droit international doté d'une souveraineté fonctionnelle depuis la perte de l'île de Malte en 1798. Observateur permanent à l'ONU, entretenant des relations diplomatiques complètes avec plus de 110 États, il délivre des passeports diplomatiques et bat monnaie sans posséder un seul kilomètre carré de territoire propre.
               </p>
             </div>
           </div>
         </section>
 
-        <!-- 6. DÉBATS ET CONTROVERSES -->
-        <section class="course-section" id="debats">
+        <!-- 6. L'ATELIER DE L'ANALYSTE & CONCOURS -->
+        <section class="course-section" id="atelier">
           <span class="section-num-tag">Section 06</span>
-          <h2>Débats & controverses académiques</h2>
-          
-          <div class="debates-list">
-            <div class="debate-card">
-              <h4>1. Souveraineté absolue contre « Responsabilité de protéger » (R2P)</h4>
-              <p>
-                Adopté au Sommet mondial de l'ONU en 2005, le principe de la <em>Responsabilité de protéger</em> (R2P) affirme que la souveraineté n'est pas un bouclier d'impunité, mais une responsabilité envers sa population. Si un État commet ou ne peut empêcher un génocide ou des crimes contre l'humanité, la communauté internationale peut intervenir sous mandat du Conseil de sécurité. Les critiques (notamment la Chine et la Russie) dénoncent le risque d'un dévoiement impérialiste du droit d'ingérence, illustré par les dérives de l'intervention en Libye en 2011.
-              </p>
-            </div>
-            <div class="debate-card">
-              <h4>2. La thèse de la fin des territoires (Bertrand Badie)</h4>
-              <p>
-                Dans <em>Un monde sans souveraineté</em> (1999), le politologue français Bertrand Badie soutient que la souveraineté territoriale westphalienne est devenue anachronique. La prolifération des acteurs non-étatiques (firmes multinationales, réseaux terroristes, ONG humanitaires) et la nature réticulaire des menaces contemporaines (pandémies, dérèglement climatique, cyberattaques) dépassent l'autorité des frontières physiques.
-              </p>
-            </div>
-            <div class="debate-card">
-              <h4>3. Le retour en force de la « Souveraineté numérique »</h4>
-              <p>
-                À l'ère du Big Data, des câbles sous-marins et de l'intelligence artificielle, les États luttent pour reconquérir leur souveraineté technologique face à l'hégémonie des GAFAM américains et BATX chinois. Le Règlement Général sur la Protection des Données (RGPD) européen illustre la tentative d'imposer la souveraineté de la loi politique à l'espace numérique mondial.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- 7. À RETENIR -->
-        <section class="course-section" id="a-retenir">
-          <span class="section-num-tag">Section 07</span>
-          <h2>À retenir</h2>
+          <h2>L'Atelier de l'analyste : Sujet type concours</h2>
           <p>
-            Synthèse comparative des quatre dimensions de la souveraineté selon Stephen Krasner :
+            Méthode d'application pour les épreuves de relations internationales (concours d'entrée aux Masters de sciences politiques, écoles diplomatiques et affaires publiques) :
           </p>
 
+          <div class="dissertation-card">
+            <span class="dissertation-badge">Sujet de dissertation type · Concours Quai d'Orsay / INSP</span>
+            <h3 class="dissertation-subject">« La souveraineté des États est-elle un mythe nécessaire ? »</h3>
+            
+            <div class="dissertation-problematique">
+              <strong>Problématique formulée :</strong><br>
+              En quoi la souveraineté étatique, bien que structurellement démentie par l'asymétrie brutale des puissances et la porosité des flux mondialisés (l'« hypocrisie organisée » de Stephen Krasner), demeure-t-elle néanmoins la fiction juridique et politique indispensable sans laquelle le système international basculerait dans l'anarchie pure ou la prédation impériale ?
+            </div>
+
+            <div class="plan-grid">
+              <div class="plan-part">
+                <div class="plan-part-title">I. Un principe structurellement contesté par les réalités géopolitiques</div>
+                <ul>
+                  <li><strong>A. La fiction de l'égalité juridique heurtée à l'asymétrie matérielle :</strong> L'article 2§1 de l'ONU consacre une égalité formelle qui masque la hiérarchie des puissances (droit de veto du P5, impuissance des petits États).</li>
+                  <li><strong>B. La subversion par les flux réticulaires et le droit d'ingérence :</strong> Porosité face aux sanctions extraterritoriales, aux multinationales technologiques, et relativisation par la Responsabilité de protéger (R2P).</li>
+                </ul>
+              </div>
+              <div class="plan-part">
+                <div class="plan-part-title">II. Une fiction régulatrice indispensable à l'ordre international</div>
+                <ul>
+                  <li><strong>A. Le rempart contre le retour de la prédation impériale :</strong> Pour les États du Sud Global (Subaltern Realism), la souveraineté est l'unique garantie juridique d'autodétermination face aux tentations néo-impériales.</li>
+                  <li><strong>B. La condition de possibilité de la coopération et du droit :</strong> Seul un État souverain peut légitimement s'autolimiter en ratifiant des traités, mutualiser sa souveraineté (UE) ou garantir l'application du droit international.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px;">
+              <h4 style="font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin-bottom: 8px;">
+                ⚠️ Les 3 pièges éliminatoires à éviter en copie :
+              </h4>
+              <div class="pitfalls-grid">
+                <div class="pitfall-item">
+                  <strong>1. Confondre souveraineté et autarcie</strong>
+                  La souveraineté n'est pas l'isolement économique. Au contraire, ratifier un traité commercial ou intégrer une alliance militaire est une manifestation directe de la capacité souveraine de s'engager.
+                </div>
+                <div class="pitfall-item">
+                  <strong>2. Proclamer la « mort » hâtive de l'État</strong>
+                  Malgré les thèses de la mondialisation triomphante des années 1990 (Badie, Ohmae), les crises majeures (Covid-19, guerre en Ukraine, tensions sur les semi-conducteurs) marquent le retour violent des frontières et du régalien.
+                </div>
+                <div class="pitfall-item">
+                  <strong>3. Réduire la souveraineté à sa dimension externe</strong>
+                  N'oubliez jamais que la souveraineté est d'abord interne : sans administration légitime, monopole de la violence et perception de l'impôt, la souveraineté diplomatique n'est qu'une coquille vide (États faillis).
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. SYNTHÈSE & BIBLIOGRAPHIE -->
+        <section class="course-section" id="synthese">
+          <span class="section-num-tag">Section 07</span>
+          <h2>Synthèse matricielle & Bibliographie certifiée</h2>
+          
           <div class="synthesis-table-wrap">
             <table class="synthesis-table">
               <thead>
                 <tr>
-                  <th>Dimension</th>
-                  <th>Critère central</th>
-                  <th>Enjeu contemporain</th>
+                  <th>Forme de souveraineté</th>
+                  <th>Critère déterminant</th>
+                  <th>Manifestation pratique</th>
+                  <th>Facteur de vulnérabilité</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td><strong>Westphalienne</strong></td>
-                  <td>Non-ingérence d'autorités extérieures</td>
-                  <td>Affrontement entre primauté étatique et droit international des droits humains</td>
+                  <td>Exclusion d'autorités extérieures</td>
+                  <td>Refus des ingérences dans les choix de régime ou de législation</td>
+                  <td>Sanctions extraterritoriales unilatérales, cyberattaques étatiques</td>
                 </tr>
                 <tr>
-                  <td><strong>Intérieure</strong></td>
-                  <td>Capacité de contrôle effectif du territoire</td>
-                  <td>Phénomène des « États faillis » (ex. Somalie, Haïti) incapables d'administrer leur sol</td>
+                  <td><strong>Intérieure (Empirique)</strong></td>
+                  <td>Monopole de la coercition légitime</td>
+                  <td>Contrôle effectif du territoire, perception des taxes, ordre public</td>
+                  <td>Milices armées, insurrections séparatistes, faillite institutionnelle</td>
                 </tr>
                 <tr>
-                  <td><strong>Internationale</strong></td>
+                  <td><strong>Juridique Internationale</strong></td>
                   <td>Reconnaissance diplomatique mutuelle</td>
-                  <td>Statut contesté des entités de facto (Taïwan, Kosovo, Palestine, Sahara occidental)</td>
+                  <td>Siège à l'ONU, immunités diplomatiques de Vienne (1961), traités</td>
+                  <td>Non-reconnaissance pour motifs géopolitiques (Taïwan, Somaliland)</td>
                 </tr>
                 <tr>
-                  <td><strong>Frontalière</strong></td>
-                  <td>Maîtrise des flux transfrontaliers</td>
-                  <td>Crises migratoires, dérégulation financière et extraterritorialité des flux numériques</td>
+                  <td><strong>Frontalière (Interdépendance)</strong></td>
+                  <td>Capacité de régulation des flux</td>
+                  <td>Contrôle douanier, filtrage des données, sécurité sanitaire</td>
+                  <td>Marchés financiers mondiaux dérégulés, dépendances technologiques critiques</td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </section>
 
-        <!-- 8. BIBLIOGRAPHIE ET SOURCES -->
-        <section class="course-section" id="bibliographie">
-          <span class="section-num-tag">Section 08</span>
-          <h2>Bibliographie & sources académiques</h2>
-          <p>
-            Références scientifiques et juridiques vérifiables pour approfondir ce concept :
-          </p>
-
-          <div class="biblio-list">
+          <div class="biblio-list" style="margin-top: 24px;">
             <div class="biblio-item">
               <span class="biblio-author">BODIN, Jean (1576).</span>
               <span class="biblio-title">Les Six Livres de la République.</span>
-              <div class="biblio-details">Paris : Jacques du Puys. Ouvrage matriciel fondant la théorie moderne de la puissance étatique souveraine.</div>
+              <div class="biblio-details">Livre I, Chapitre 8 : « De la souveraineté ». Texte fondateur de l'indivisibilité du commandement politique étatique.</div>
             </div>
             <div class="biblio-item">
               <span class="biblio-author">KRASNER, Stephen D. (1999).</span>
               <span class="biblio-title">Sovereignty: Organized Hypocrisy.</span>
-              <div class="biblio-details">Princeton : Princeton University Press. Déconstruction analytique magistrale des contradictions entre normes et pratiques souveraines.</div>
+              <div class="biblio-details">Princeton University Press. L'ouvrage contemporain incontournable démontrant le découplage entre les normes souveraines et la Realpolitik.</div>
+            </div>
+            <div class="biblio-item">
+              <span class="biblio-author">AYOOB, Mohammed (1995).</span>
+              <span class="biblio-title">The Third World Security Predicament: State Making, Regional Conflict, and the International System.</span>
+              <div class="biblio-details">Lynne Rienner Publishers. Théorisation du <em>Subaltern Realism</em> et des vulnérabilités de souveraineté des États post-coloniaux.</div>
             </div>
             <div class="biblio-item">
               <span class="biblio-author">BADIE, Bertrand (1999).</span>
               <span class="biblio-title">Un monde sans souveraineté : Les États entre ruse et responsabilité.</span>
-              <div class="biblio-details">Paris : Fayard. Analyse sociologique de l'érosion du modèle westphalien sous l'effet des flux mondialisés.</div>
-            </div>
-            <div class="biblio-item">
-              <span class="biblio-author">ORGANISATION DES NATIONS UNIES (1945).</span>
-              <span class="biblio-title">Charte des Nations Unies, signée à San Francisco le 26 juin 1945.</span>
-              <div class="biblio-details">Articles 2§1 (égalité souveraine) et 2§4 (interdiction de la menace ou de l'emploi de la force). Recueil des traités de l'ONU.</div>
+              <div class="biblio-details">Paris : Fayard. Analyse sociologique de l'usure de l'État territorial face aux solidarités et crises transnationales.</div>
             </div>
           </div>
         </section>
+
 
         <!-- 9. ÉVALUATION ET QUIZ -->
         <section class="course-section" id="evaluation">
