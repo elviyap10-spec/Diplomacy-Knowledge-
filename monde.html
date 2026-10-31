@@ -15,6 +15,7 @@
 
     <!-- Notre design -->
     <link rel="stylesheet" href="css/monde.css">
+    <link rel="stylesheet" href="monde.css">
 </head>
 
 <body>
@@ -132,20 +133,20 @@
 </script>
 
 <!-- Module Politique -->
-<script src="politique.js?v=3.2"></script>
+<script src="politique.js?v=4.0"></script>
 
 <!-- Module Économie -->
-<script src="economie.js?v=3.2"></script>
+<script src="economie.js?v=4.0"></script>
 
 <!-- Module Démographie -->
-<script src="demographie.js?v=3.2"></script>
+<script src="demographie.js?v=4.0"></script>
 
-<!-- Notre JavaScript (chargement prioritaire depuis la racine + fallback js/ + cache-busting v=3.2) -->
-<script src="monde.js?v=3.2"></script>
+<!-- Notre JavaScript (chargement prioritaire depuis la racine + fallback js/ + cache-busting v=4.0) -->
+<script src="monde.js?v=4.0"></script>
 <script>
 if (typeof window.switchPanelView === "undefined") {
     var fallbackScript = document.createElement("script");
-    fallbackScript.src = "js/monde.js?v=3.2";
+    fallbackScript.src = "js/monde.js?v=4.0";
     document.body.appendChild(fallbackScript);
 }
 </script>
