@@ -1507,12 +1507,12 @@ window.QUIZ_PUISSANCE = [
   DiplomacyQuiz.prototype.bindEvents = function() {
     const self = this;
     const optionBtns = this.container.querySelectorAll(".quiz-option-btn");
-    const validateBtn = this.container.getElementById("quizValidateBtn");
-    const drawer = this.container.getElementById("quizFeedbackDrawer");
-    const headline = this.container.getElementById("feedbackHeadline");
-    const explanation = this.container.getElementById("feedbackExplanation");
-    const nextBtn = this.container.getElementById("feedbackNextBtn");
-    const actionRow = this.container.getElementById("quizActionRow");
+    const validateBtn = this.container.querySelector("#quizValidateBtn");
+    const drawer = this.container.querySelector("#quizFeedbackDrawer");
+    const headline = this.container.querySelector("#feedbackHeadline");
+    const explanation = this.container.querySelector("#feedbackExplanation");
+    const nextBtn = this.container.querySelector("#feedbackNextBtn");
+    const actionRow = this.container.querySelector("#quizActionRow");
 
     optionBtns.forEach(btn => {
       btn.addEventListener("click", function() {
@@ -1629,7 +1629,7 @@ window.QUIZ_PUISSANCE = [
     `;
 
     const self = this;
-    const retryBtn = this.container.getElementById("retryQuizBtn");
+    const retryBtn = this.container.querySelector("#retryQuizBtn");
     if (retryBtn) {
       retryBtn.addEventListener("click", function() {
         self.init();
