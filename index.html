@@ -4,25 +4,138 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#141c2e">
-  <meta name="description" content="Diplomacy Lab — Plateforme académique consacrée aux relations internationales, à la géopolitique, à la science politique et à la diplomatie. De L1 à M2.">
+  <meta name="description" content="Diplomacy Lab — Plateforme pédagogique universitaire consacrée aux relations internationales, à la géopolitique, à la science politique et à la diplomatie. De L1 à M2.">
   <title>Diplomacy Lab — Comprendre le monde, analyser les relations internationales</title>
+  
+  <!-- TYPOGRAPHIE OFFICIELLE PLUS JAKARTA SANS (STYLE IRIS FRANCE) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  
   <style>
-    /* COMPOSANTS SPÉCIFIQUES À LA PAGE D'ACCUEIL */
-    .intro { padding: 42px 0 24px; }
+    /* ==========================================================================
+       DIPLOMACY LAB — DESIGN SYSTEM EMBARQUÉ (100% AUTONOME & ROBUSTE)
+       Direction Artistique : Think Tank Contemporain (Style IRIS France)
+       ========================================================================== */
+    :root {
+      --ink: #141c2e;
+      --ink-soft: #303d52;
+      --paper: #f8f7f4;
+      --paper-card: #ffffff;
+      --muted: #647084;
+      --line: #dedbd3;
+      --accent: #a83d38;
+      --accent-soft: #f4e8e6;
+      --gold: #b18a51;
+      --gold-bright: #d9af5e;
+      --green: #246a48;
+      --green-soft: #e5f2eb;
+      --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --max: 1180px;
+      --radius: 6px;
+      --radius-lg: 10px;
+      --shadow-sm: 0 2px 8px rgba(20, 28, 46, 0.05);
+      --shadow-md: 0 8px 24px rgba(20, 28, 46, 0.08);
+      --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="dark"] {
+      --ink: #f4f2ee;
+      --ink-soft: #c6cbd4;
+      --paper: #0b111e;
+      --paper-card: #131b2c;
+      --muted: #8893a4;
+      --line: #222d42;
+      --accent: #e06d68;
+      --accent-soft: #321c1f;
+      --gold: #d4a96a;
+      --gold-bright: #e7cda7;
+      --green: #44a374;
+      --green-soft: #122b1f;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--font-body);
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible, button:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 4px;
+    }
+    .container { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
+
+    /* BARRE SUPÉRIEURE (TOPLINE) */
+    .topline { background: #0c1424; color: #f6f2e9; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+    .topline-inner { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .topline-status { display: inline-flex; align-items: center; gap: 8px; color: #d0d7e2; font-weight: 600; font-size: 11px; }
+    .pulse-dot { width: 7px; height: 7px; background: #3ddc84; border-radius: 50%; box-shadow: 0 0 6px #3ddc84; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(.85); } }
+    .topline-actions { display: flex; align-items: center; gap: 14px; }
+    .topline a { color: #e7cda7; text-decoration: none; font-weight: 700; transition: color .15s ease; }
+    .topline a:hover { color: #ffffff; }
+
+    /* XP BADGE */
+    .xp-pill {
+      display: inline-flex; align-items: center; gap: 5px; background: rgba(217, 175, 94, 0.15);
+      border: 1px solid var(--gold-bright); color: var(--gold-bright); font-size: 10.5px;
+      font-weight: 800; padding: 2px 8px; border-radius: 12px; letter-spacing: 0.04em;
+    }
+
+    .theme-toggle {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+      color: #f6f2e9; font-size: 10.5px; font-weight: 700; letter-spacing: .06em;
+      padding: 4px 10px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+      font-family: var(--font-body); transition: var(--transition);
+    }
+    .theme-toggle:hover { background: rgba(255,255,255,0.18); }
+
+    /* MASTHEAD ÉDITORIAL */
+    .masthead { background: var(--paper); border-bottom: 1px solid var(--line); }
+    .masthead-inner { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .brand { display: flex; align-items: center; gap: 14px; text-decoration: none; min-width: 0; }
+    .brand-mark {
+      width: 44px; height: 44px; border: 2px solid var(--gold); border-radius: 6px;
+      display: grid; place-items: center; font-family: var(--font-display); font-size: 22px; font-weight: 800; flex: 0 0 auto;
+      background: var(--paper-card); color: var(--gold); box-shadow: var(--shadow-sm);
+    }
+    .brand-name { font-family: var(--font-display); font-size: 20px; font-weight: 800; letter-spacing: .08em; line-height: 1.1; color: var(--ink); }
+    .brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 9.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+    .masthead-note { max-width: 340px; text-align: right; color: var(--muted); font-family: var(--font-body); font-size: 13px; font-weight: 500; line-height: 1.5; }
+
+    /* NAVIGATION PRINCIPALE STICKY */
+    .main-nav { background: var(--paper-card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+    .nav-inner { min-height: 50px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .nav-links { display: flex; align-items: center; gap: clamp(14px, 2.2vw, 28px); overflow-x: auto; scrollbar-width: none; }
+    .nav-links::-webkit-scrollbar { display: none; }
+    .nav-links a { white-space: nowrap; text-decoration: none; font-size: 12px; font-weight: 700; color: var(--ink-soft); padding: 15px 0 13px; border-bottom: 2px solid transparent; transition: var(--transition); letter-spacing: -0.01em; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); border-color: var(--accent); }
+    .nav-links a.highlight-nav { color: var(--gold); font-weight: 800; }
+    .nav-links a.highlight-nav:hover { border-color: var(--gold); }
+    .nav-index { white-space: nowrap; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+    /* SECTION HERO / INTRODUCTION */
+    .intro { padding: 46px 0 26px; }
     .eyebrow { display: flex; align-items: center; gap: 10px; color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
     .eyebrow::before { content: ""; width: 22px; height: 2px; background: var(--accent); }
     .intro h1 { margin: 16px 0 14px; max-width: 860px; font-family: var(--font-display); font-size: clamp(32px, 4.8vw, 54px); font-weight: 800; letter-spacing: -.03em; line-height: 1.08; color: var(--ink); }
     .intro p.lead-intro { margin: 0; max-width: 760px; color: var(--muted); font-size: 15px; line-height: 1.75; font-weight: 400; }
 
-    /* BOUTONS D'ACCÈS RAPIDE HERO */
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    /* BOUTONS D'ACCÈS RAPIDE */
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
     .hero-btn-primary {
       display: inline-flex; align-items: center; gap: 10px;
-      background: var(--ink); color: #ffffff; padding: 12px 22px; border-radius: var(--radius);
+      background: var(--ink); color: #ffffff; padding: 12px 24px; border-radius: var(--radius);
       font-size: 12px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase;
       text-decoration: none; transition: var(--transition); box-shadow: var(--shadow-sm);
     }
@@ -130,8 +243,8 @@
     .spot-stat-val { font-size: 12.5px; font-weight: 700; color: #ffffff; margin-top: 2px; }
 
     /* SECTIONS STANDARDS */
-    .section { padding: 42px 0 54px; border-top: 1px solid var(--line); }
-    .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 26px; }
+    .section { padding: 46px 0 56px; border-top: 1px solid var(--line); }
+    .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 28px; }
     .section-kicker { color: var(--accent); font-size: 10.5px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
     .section-heading h2 { margin: 6px 0 0; font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 34px); font-weight: 800; letter-spacing: -.02em; }
     .section-heading > a { color: var(--accent); font-size: 11.5px; font-weight: 800; text-decoration: none; white-space: nowrap; }
@@ -306,6 +419,16 @@
       padding: 4px 8px; border-radius: 3px; color: var(--ink);
     }
 
+    /* PIED DE PAGE */
+    footer { margin-top: 48px; padding: 34px 0; color: #d9dce2; background: #0c1424; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .footer-brand { font-family: var(--font-display); font-size: 13.5px; font-weight: 800; letter-spacing: .12em; color: #ffffff; }
+    footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
+    .footer-links { display: flex; gap: 18px; margin-top: 8px; font-size: 11px; }
+    .footer-links a { color: #d0d7e2; transition: color .15s ease; text-decoration: none; }
+    .footer-links a:hover { color: var(--gold-bright); }
+    .footer-note { color: #e7cda7; font-family: var(--font-body); font-size: 13px; font-weight: 500; text-align: right; }
+
     @media (max-width: 900px) {
       .kpi-strip { grid-template-columns: repeat(2, 1fr); }
       .kpi-item:nth-child(2) { border-right: none; }
@@ -317,11 +440,21 @@
     }
 
     @media (max-width: 760px) {
+      .container { width: min(100% - 32px, var(--max)); }
+      .masthead-inner { min-height: 80px; }
+      .masthead-note, .nav-index { display: none; }
+      .brand-mark { width: 36px; height: 36px; font-size: 18px; }
+      .brand-name { font-size: 17px; }
+      .nav-inner { min-height: 46px; }
+      .nav-links { width: 100%; gap: 16px; }
+      .nav-links a { font-size: 11px; padding: 14px 0 12px; }
       .hero-actions { flex-direction: column; }
       .kpi-strip { grid-template-columns: 1fr; }
       .kpi-item { border-right: none; border-bottom: 1px solid var(--line); }
       .kpi-item:last-child { border-bottom: none; }
       .learning-grid-5 { grid-template-columns: 1fr; }
+      .footer-inner { flex-direction: column; align-items: flex-start; }
+      .footer-note { text-align: left; }
     }
   </style>
 </head>
@@ -335,7 +468,7 @@
         <span>Diplomacy Lab · 5 cours fondamentaux & 203 entités synchronisées</span>
       </div>
       <div class="topline-actions">
-        <span class="xp-pill" title="Vos points de progression">⚡ <span class="user-xp-count">0 XP</span></span>
+        <span class="xp-pill" title="Vos points de progression">⚡ <span class="user-xp-count" id="userXpPill">0 XP</span></span>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
           <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
         </button>
@@ -381,7 +514,7 @@
         <div class="eyebrow">Plateforme Pédagogique Universitaire · L1 à M2</div>
         <h1>Lire le monde.<br>Penser les relations internationales.</h1>
         <p class="lead-intro">
-          Diplomacy Lab est une plateforme pédagogique universitaire consacrée aux relations internationales, à la géopolitique, à la science politique et à la diplomatie. Découvrez, comprenez et approfondissez les concepts qui structurent l'ordre mondial à travers des cours progressifs, des quiz interactifs stimulants et un observatoire mondial certifié.
+          Diplomacy Lab est une plateforme académique universitaire consacrée aux relations internationales, à la géopolitique, à la science politique et à la diplomatie. Découvrez, comprenez et approfondissez les concepts qui structurent l'ordre mondial à travers des cours progressifs, des quiz interactifs stimulants et un observatoire mondial certifié.
         </p>
         
         <div class="hero-actions">
@@ -733,11 +866,58 @@
     </div>
   </footer>
 
-  <!-- SCRIPTS D'INTERACTIVITÉ ET DE PROGRESSION -->
-  <script src="js/progress.js"></script>
-  <script src="js/main.js"></script>
+  <!-- LOGIQUE APPLICATIVE EMBARQUÉE (ROBUSTE ET AUTONOME) -->
   <script>
-    // 1. MINI-QUIZ GÉOPOLITIQUE ACTIF
+    // 1. GESTION DU THÈME SOMBRE / CLAIR (DARK MODE)
+    const themeBtn = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+    const themeText = document.getElementById("themeText");
+    const savedTheme = localStorage.getItem("diplomacy_theme") || "light";
+
+    function applyTheme(theme) {
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        themeIcon.textContent = "☀️";
+        themeText.textContent = "Papier";
+      } else {
+        document.documentElement.removeAttribute("data-theme");
+        themeIcon.textContent = "🌙";
+        themeText.textContent = "Nuit";
+      }
+      localStorage.setItem("diplomacy_theme", theme);
+    }
+    applyTheme(savedTheme);
+
+    themeBtn.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(current);
+    });
+
+    // 2. GESTION XP ET LOCALSTORAGE EMBARQUÉ
+    function updateXpDisplay() {
+      try {
+        const stored = localStorage.getItem("diplomacy_lab_progress_v1");
+        if (stored) {
+          const data = JSON.parse(stored);
+          const el = document.getElementById("userXpPill");
+          if (el && data.totalXP) el.textContent = data.totalXP + " XP";
+        }
+      } catch (e) {}
+    }
+    updateXpDisplay();
+
+    function addProgressXP(amount) {
+      try {
+        let data = { totalXP: 0, completedQuizzes: {}, readConcepts: [] };
+        const stored = localStorage.getItem("diplomacy_lab_progress_v1");
+        if (stored) data = JSON.parse(stored);
+        data.totalXP = (data.totalXP || 0) + amount;
+        localStorage.setItem("diplomacy_lab_progress_v1", JSON.stringify(data));
+        updateXpDisplay();
+      } catch (e) {}
+    }
+
+    // 3. MINI-QUIZ DU JOUR INTERACTIF
     const quizData = [
       {
         q: "Quel traité international consacre l'Antarctique comme terre de paix et gèle les revendications territoriales ?",
@@ -815,9 +995,7 @@
       fbEl.style.display = "block";
       if (chosen === correct) {
         fbEl.innerHTML = "<span style='color:var(--green); font-weight:700;'>✓ Excellente réponse ! (+10 XP)</span> " + exp;
-        if (window.DiplomacyProgress) {
-          window.DiplomacyProgress.addXP(10);
-        }
+        addProgressXP(10);
       } else {
         fbEl.innerHTML = "<span style='color:var(--accent); font-weight:700;'>✕ Erreur.</span> " + exp;
       }
@@ -831,13 +1009,13 @@
 
     loadQuiz(0);
 
-    // 2. WIDGET HISTOIRE CLIQUE
+    // 4. WIDGET REPÈRES HISTORIQUES
     function showHistorySynopsis(year, text) {
       const el = document.getElementById("historySynopsis");
       el.innerHTML = "<strong>" + year + " :</strong> " + text;
     }
 
-    // 3. PARCOURS ACADÉMIQUE L1 À M2
+    // 5. PARCOURS ACADÉMIQUE L1 À M2
     const levelData = {
       L1: {
         title: "Licence 1 · Initiation aux Relations Internationales",
