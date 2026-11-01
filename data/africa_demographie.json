@@ -662,7 +662,7 @@
             "dependencyRatio": "96,8 %"
         },
         "urbanization": {
-            "urbanRate": "46,8 %",
+            "urbanRate": "44,7 %",
             "mainMetropolises": [
                 "Kinshasa (17,1 millions hab. - 1ère mégapole d'Afrique francophone et 3e d'Afrique)",
                 "Lubumbashi (2,8 millions hab. - capitale du cuivre et du cobalt au Katanga)",
@@ -1241,7 +1241,7 @@
             "lifeExpectancy": {
                 "total": "63,8 ans",
                 "women": "66,1 ans",
-                "men": "64,8 ans"
+                "men": "61,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "38,2 %",
@@ -2583,7 +2583,7 @@
             "dependencyRatio": "85,9 %"
         },
         "urbanization": {
-            "urbanRate": "45,8 % (urbanisation élevée héritée des cités minières du Copperbelt)",
+            "urbanRate": "45,5 % (urbanisation élevée héritée des cités minières du Copperbelt)",
             "mainMetropolises": [
                 "Lusaka (3,3 millions hab. - capitale en expansion rapide)",
                 "Kitwe (700 000 hab. - capitale du cuivre)",

@@ -225,7 +225,7 @@
             "dependencyRatio": "43,5 %"
         },
         "urbanization": {
-            "urbanRate": "63,2 %",
+            "urbanRate": "63,9 %",
             "mainMetropolises": [
                 "Pyongyang (3,1 millions hab. - capitale politique et vitrine du régime)",
                 "Hamhung (770 000 hab. - centre chimique et industriel de la côte est)",
@@ -1073,10 +1073,10 @@
             "population": "101,0 millions d'habitants (seuil franchi en 2023)",
             "globalRank": "15e mondial",
             "density": "310 hab./km²",
-            "growthRate": "+0,7 % par an"
+            "growthRate": "+0,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,9 enfant par femme",
+            "fertilityRate": "1,9 enfants par femme",
             "birthRate": "15,0 ‰",
             "deathRate": "6,4 ‰",
             "infantMortality": "16,0 ‰",
@@ -1085,7 +1085,7 @@
         "ageStructure": {
             "medianAge": "33,2 ans",
             "lifeExpectancy": {
-                "total": "74,2 ans",
+                "total": "74,7 ans",
                 "women": "79,4 ans",
                 "men": "70,1 ans"
             },
@@ -1173,7 +1173,7 @@
             "growthRate": "+1,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,8 enfant par femme",
+            "fertilityRate": "1,5 enfants par femme",
             "birthRate": "15,8 ‰",
             "deathRate": "5,4 ‰",
             "infantMortality": "6,7 ‰",
@@ -1789,7 +1789,7 @@
             "growthRate": "+1,7 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,0 enfants par femme",
+            "fertilityRate": "2,6 enfants par femme",
             "birthRate": "23,6 ‰",
             "deathRate": "5,9 ‰",
             "infantMortality": "15,8 ‰",

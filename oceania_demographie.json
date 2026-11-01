@@ -1,13 +1,13 @@
 {
     "AUS": {
         "general": {
-            "population": "26,5 millions d'habitants",
+            "population": "27,2 millions d'habitants",
             "globalRank": "55e mondial (1er d'Océanie)",
             "density": "3,4 hab./km² (l'une des densités les plus faibles du monde, 85 % de la population concentrée sur la frange littorale sud-est)",
-            "growthRate": "+2,4 % par an (porté par une immigration qualifiée et étudiante record)"
+            "growthRate": "+2,0 % par an (porté par une immigration qualifiée et étudiante record)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,58 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "11,5 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "3,1 ‰",
@@ -16,9 +16,9 @@
         "ageStructure": {
             "medianAge": "37,5 ans",
             "lifeExpectancy": {
-                "total": "83,3 ans",
-                "women": "85,4 ans",
-                "men": "81,2 ans"
+                "total": "83,1 ans",
+                "women": "85,1 ans",
+                "men": "81,1 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "18,2 %",
@@ -28,7 +28,7 @@
             "dependencyRatio": "53,6 %"
         },
         "urbanization": {
-            "urbanRate": "86,5 % (l'une des sociétés les plus hautement métropolisées de la planète)",
+            "urbanRate": "87,6 % (l'une des sociétés les plus hautement métropolisées de la planète)",
             "mainMetropolises": [
                 "Sydney (5,3 millions hab. - métropole financière mondiale et baie de Port Jackson)",
                 "Melbourne (5,1 millions hab. - capitale culturelle et universitaire)",
@@ -51,13 +51,13 @@
     },
     "NZL": {
         "general": {
-            "population": "5,25 millions d'habitants",
+            "population": "5,3 millions d'habitants",
             "globalRank": "122e mondial",
             "density": "19,5 hab./km²",
-            "growthRate": "+1,5 % par an"
+            "growthRate": "+1,7 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,60 enfant par femme",
+            "fertilityRate": "1,6 enfants par femme",
             "birthRate": "11,2 ‰",
             "deathRate": "7,1 ‰",
             "infantMortality": "3,8 ‰",
@@ -66,9 +66,9 @@
         "ageStructure": {
             "medianAge": "37,2 ans",
             "lifeExpectancy": {
-                "total": "82,5 ans",
-                "women": "84,2 ans",
-                "men": "80,8 ans"
+                "total": "82,0 ans",
+                "women": "83,7 ans",
+                "men": "80,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "18,8 %",
@@ -78,7 +78,7 @@
             "dependencyRatio": "54,3 %"
         },
         "urbanization": {
-            "urbanRate": "86,8 %",
+            "urbanRate": "83,9 %",
             "mainMetropolises": [
                 "Auckland / Tāmaki Makaurau (1,68 million hab. - concentre un tiers de la nation et plus grande métropole polynésienne au monde)",
                 "Christchurch / Ōtautahi (395 000 hab. - grande métropole de l'Île du Sud reconstruite post-séisme)",
@@ -99,13 +99,13 @@
     },
     "PNG": {
         "general": {
-            "population": "10,3 millions d'habitants (estimation ONU, pays le plus peuplé du Pacifique insulaire)",
+            "population": "10,6 millions d'habitants (estimation ONU, pays le plus peuplé du Pacifique insulaire)",
             "globalRank": "91e mondial",
             "density": "22 hab./km²",
-            "growthRate": "+1,9 % par an"
+            "growthRate": "+1,8 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,0 enfants par femme",
+            "fertilityRate": "3,1 enfants par femme",
             "birthRate": "25,8 ‰",
             "deathRate": "6,9 ‰",
             "infantMortality": "36,0 ‰",
@@ -114,9 +114,9 @@
         "ageStructure": {
             "medianAge": "22,4 ans (jeunesse)",
             "lifeExpectancy": {
-                "total": "65,8 ans",
-                "women": "68,6 ans",
-                "men": "63,2 ans"
+                "total": "66,3 ans",
+                "women": "69,2 ans",
+                "men": "63,8 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "35,2 %",
@@ -126,7 +126,7 @@
             "dependencyRatio": "63,4 %"
         },
         "urbanization": {
-            "urbanRate": "13,5 % (l'un des pays les moins urbanisés de la planète : 86 % de population rurale tribale)",
+            "urbanRate": "15,4 % (l'un des pays les moins urbanisés de la planète : 86 % de population rurale tribale)",
             "mainMetropolises": [
                 "Port Moresby (400 000 hab. - capitale portuaire isolée non reliée par la route au reste du pays)",
                 "Lae (150 000 hab. - capitale industrielle et portuaire sur le golfe d'Huon)",
@@ -146,13 +146,13 @@
     },
     "FJI": {
         "general": {
-            "population": "930 000 habitants",
+            "population": "928 784 habitants",
             "globalRank": "161e mondial",
             "density": "51 hab./km² (sur 330 îles dont 110 habitées, Viti Levu et Vanua Levu concentrant 87 %)",
-            "growthRate": "+0,6 % par an"
+            "growthRate": "+0,5 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,4 enfants par femme",
+            "fertilityRate": "2,3 enfants par femme",
             "birthRate": "19,2 ‰",
             "deathRate": "7,4 ‰",
             "infantMortality": "16,5 ‰",
@@ -161,9 +161,9 @@
         "ageStructure": {
             "medianAge": "28,9 ans",
             "lifeExpectancy": {
-                "total": "67,8 ans",
-                "women": "70,2 ans",
-                "men": "65,6 ans"
+                "total": "67,5 ans",
+                "women": "69,5 ans",
+                "men": "65,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "27,5 %",
@@ -173,7 +173,7 @@
             "dependencyRatio": "51,5 %"
         },
         "urbanization": {
-            "urbanRate": "57,5 %",
+            "urbanRate": "59,1 %",
             "mainMetropolises": [
                 "Suva (185 000 hab. Grand Suva - capitale politique, siège de l'Université du Pacifique Sud USP et du Forum des îles du Pacifique)",
                 "Nadi (50 000 hab. - hub aéroportuaire international et porte touristique)",
@@ -193,13 +193,13 @@
     },
     "SLB": {
         "general": {
-            "population": "740 000 habitants",
+            "population": "819 198 habitants",
             "globalRank": "166e mondial",
             "density": "26 hab./km²",
-            "growthRate": "+2,2 % par an"
+            "growthRate": "+2,4 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,8 enfants par femme",
+            "fertilityRate": "3,5 enfants par femme",
             "birthRate": "28,5 ‰",
             "deathRate": "5,8 ‰",
             "infantMortality": "16,8 ‰",
@@ -208,9 +208,9 @@
         "ageStructure": {
             "medianAge": "20,5 ans (très jeune)",
             "lifeExpectancy": {
-                "total": "70,4 ans",
-                "women": "72,8 ans",
-                "men": "68,2 ans"
+                "total": "70,7 ans",
+                "women": "72,2 ans",
+                "men": "69,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "38,0 %",
@@ -220,7 +220,7 @@
             "dependencyRatio": "71,8 %"
         },
         "urbanization": {
-            "urbanRate": "25,2 %",
+            "urbanRate": "30,7 %",
             "mainMetropolises": [
                 "Honiara (92 000 hab. sur l'île de Guadalcanal - capitale et port maritime)",
                 "Gizo (7 000 hab. - pôle touristique de la province occidentale)"
@@ -239,7 +239,7 @@
     },
     "VUT": {
         "general": {
-            "population": "330 000 habitants",
+            "population": "327 777 habitants",
             "globalRank": "179e mondial",
             "density": "27 hab./km² (archipel de 83 îles)",
             "growthRate": "+2,3 % par an"
@@ -254,9 +254,9 @@
         "ageStructure": {
             "medianAge": "21,8 ans",
             "lifeExpectancy": {
-                "total": "70,8 ans",
-                "women": "73,5 ans",
-                "men": "68,4 ans"
+                "total": "71,7 ans",
+                "women": "74,1 ans",
+                "men": "69,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "37,0 %",
@@ -266,7 +266,7 @@
             "dependencyRatio": "69,5 %"
         },
         "urbanization": {
-            "urbanRate": "26,0 %",
+            "urbanRate": "22,3 %",
             "mainMetropolises": [
                 "Port-Vila (52 000 hab. sur l'île d'Éfaté - capitale politique et hub financier offshore)",
                 "Luganville (18 000 hab. sur l'île d'Espiritu Santo - 2e ville et port)"
@@ -285,13 +285,13 @@
     },
     "WSM": {
         "general": {
-            "population": "220 000 habitants",
+            "population": "218 019 habitants",
             "globalRank": "186e mondial",
             "density": "77 hab./km²",
             "growthRate": "+0,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,7 enfants par femme",
+            "fertilityRate": "3,8 enfants par femme",
             "birthRate": "26,5 ‰",
             "deathRate": "5,8 ‰",
             "infantMortality": "13,2 ‰",
@@ -300,9 +300,9 @@
         "ageStructure": {
             "medianAge": "22,0 ans",
             "lifeExpectancy": {
-                "total": "72,8 ans",
-                "women": "75,6 ans",
-                "men": "70,2 ans"
+                "total": "71,8 ans",
+                "women": "73,8 ans",
+                "men": "70,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "36,8 %",
@@ -312,7 +312,7 @@
             "dependencyRatio": "73,9 %"
         },
         "urbanization": {
-            "urbanRate": "18,2 %",
+            "urbanRate": "17,5 %",
             "mainMetropolises": [
                 "Apia (38 000 hab. sur l'île d'Upolu - capitale politique et port)"
             ]
@@ -330,13 +330,13 @@
     },
     "TON": {
         "general": {
-            "population": "106 000 habitants",
+            "population": "104 175 habitants",
             "globalRank": "193e mondial",
             "density": "147 hab./km² (sur 171 îles)",
-            "growthRate": "+0,2 % par an (stagnation due à l'émigration)"
+            "growthRate": "-0,4 % par an (stagnation due à l'émigration)"
         },
         "fertilityMortality": {
-            "fertilityRate": "3,4 enfants par femme",
+            "fertilityRate": "3,1 enfants par femme",
             "birthRate": "23,8 ‰",
             "deathRate": "6,4 ‰",
             "infantMortality": "11,5 ‰",
@@ -345,9 +345,9 @@
         "ageStructure": {
             "medianAge": "22,5 ans",
             "lifeExpectancy": {
-                "total": "71,4 ans",
-                "women": "74,2 ans",
-                "men": "68,8 ans"
+                "total": "73,1 ans",
+                "women": "76,5 ans",
+                "men": "69,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "35,5 %",
@@ -357,7 +357,7 @@
             "dependencyRatio": "70,9 %"
         },
         "urbanization": {
-            "urbanRate": "23,5 %",
+            "urbanRate": "21,2 %",
             "mainMetropolises": [
                 "Nuku'alofa (25 000 hab. sur l'île de Tongatapu - capitale et résidence du Roi)"
             ]
@@ -375,10 +375,10 @@
     },
     "FSM": {
         "general": {
-            "population": "115 000 habitants",
+            "population": "113 160 habitants",
             "globalRank": "192e mondial",
             "density": "164 hab./km² (archipel étendu sur 2,6 millions de km² d'océan Pacifique)",
-            "growthRate": "-0,5 % par an (perte d'habitants par émigration vers les USA)"
+            "growthRate": "+0,5 % par an (perte d'habitants par émigration vers les USA)"
         },
         "fertilityMortality": {
             "fertilityRate": "2,7 enfants par femme",
@@ -390,9 +390,9 @@
         "ageStructure": {
             "medianAge": "24,5 ans",
             "lifeExpectancy": {
-                "total": "67,8 ans",
-                "women": "70,5 ans",
-                "men": "65,2 ans"
+                "total": "67,4 ans",
+                "women": "71,3 ans",
+                "men": "63,6 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "31,5 %",
@@ -402,7 +402,7 @@
             "dependencyRatio": "57,5 %"
         },
         "urbanization": {
-            "urbanRate": "23,2 %",
+            "urbanRate": "22,5 %",
             "mainMetropolises": [
                 "Palikir (7 000 hab. sur l'île de Pohnpei - capitale fédérale administrative)",
                 "Weno (14 000 hab. dans le lagon de Chuuk - ville la plus peuplée)"
@@ -421,13 +421,13 @@
     },
     "PLW": {
         "general": {
-            "population": "18 000 habitants (l'un des États les moins peuplés de la planète)",
+            "population": "17 695 habitants (l'un des États les moins peuplés de la planète)",
             "globalRank": "216e mondial",
             "density": "39 hab./km²",
-            "growthRate": "+0,4 % par an"
+            "growthRate": "-0,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,6 enfant par femme",
+            "fertilityRate": "1,9 enfants par femme",
             "birthRate": "12,2 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "12,0 ‰",
@@ -436,9 +436,9 @@
         "ageStructure": {
             "medianAge": "33,8 ans",
             "lifeExpectancy": {
-                "total": "74,2 ans",
-                "women": "77,8 ans",
-                "men": "71,0 ans"
+                "total": "69,4 ans",
+                "women": "71,9 ans",
+                "men": "67,3 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "20,5 %",
@@ -448,7 +448,7 @@
             "dependencyRatio": "41,8 %"
         },
         "urbanization": {
-            "urbanRate": "82,0 %",
+            "urbanRate": "79,2 %",
             "mainMetropolises": [
                 "Koror (11 500 hab. - ancienne capitale et poumon commercial)",
                 "Ngerulmud (environ 400 hab. dans l'État de Melekeok - la capitale nationale la moins peuplée du monde, abritant le Capitole national)"
@@ -467,13 +467,13 @@
     },
     "MHL": {
         "general": {
-            "population": "42 000 habitants",
+            "population": "37 548 habitants",
             "globalRank": "211e mondial",
             "density": "232 hab./km² (sur 29 atolls coralliens et 5 îles isolées)",
-            "growthRate": "-1,5 % par an (forte décrue démographique par émigration vers l'Arkansas et Hawaï)"
+            "growthRate": "-3,3 % par an (forte décrue démographique par émigration vers l'Arkansas et Hawaï)"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,8 enfants par femme",
+            "fertilityRate": "2,9 enfants par femme",
             "birthRate": "21,5 ‰",
             "deathRate": "7,1 ‰",
             "infantMortality": "24,0 ‰",
@@ -482,9 +482,9 @@
         "ageStructure": {
             "medianAge": "23,8 ans",
             "lifeExpectancy": {
-                "total": "65,4 ans",
-                "women": "67,8 ans",
-                "men": "63,2 ans"
+                "total": "67,1 ans",
+                "women": "69,5 ans",
+                "men": "65,0 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "34,0 %",
@@ -494,7 +494,7 @@
             "dependencyRatio": "62,6 %"
         },
         "urbanization": {
-            "urbanRate": "78,5 % (hyper-concentration sur deux atolls : Majuro et Ebeye)",
+            "urbanRate": "78,7 % (hyper-concentration sur deux atolls : Majuro et Ebeye)",
             "mainMetropolises": [
                 "Majuro (28 000 hab. - atoll-capitale)",
                 "Ebeye sur l'atoll de Kwajalein (9 500 hab. entassés sur 0,3 km² - densité record de >30 000 hab./km², réservoir de main-d'œuvre de la base militaire US de missiles)"
@@ -513,10 +513,10 @@
     },
     "KIR": {
         "general": {
-            "population": "130 000 habitants",
+            "population": "134 518 habitants",
             "globalRank": "190e mondial",
             "density": "160 hab./km² (33 atolls dispersés sur 3,5 millions de km² de mer)",
-            "growthRate": "+1,4 % par an"
+            "growthRate": "+1,5 % par an"
         },
         "fertilityMortality": {
             "fertilityRate": "3,1 enfants par femme",
@@ -528,9 +528,9 @@
         "ageStructure": {
             "medianAge": "22,0 ans",
             "lifeExpectancy": {
-                "total": "67,4 ans",
-                "women": "71,2 ans",
-                "men": "63,8 ans"
+                "total": "66,6 ans",
+                "women": "68,3 ans",
+                "men": "64,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "35,5 %",
@@ -540,7 +540,7 @@
             "dependencyRatio": "67,2 %"
         },
         "urbanization": {
-            "urbanRate": "56,0 %",
+            "urbanRate": "62,5 %",
             "mainMetropolises": [
                 "Tarawa-Sud (65 000 hab. - capitale sur un ruban corallien hyper-saturé atteignant des densités comparables à Hong Kong)"
             ]
@@ -558,13 +558,13 @@
     },
     "NRU": {
         "general": {
-            "population": "12 500 habitants (2e plus petit État souverain du monde par la population après le Vatican)",
+            "population": "11 947 habitants (2e plus petit État souverain du monde par la population après le Vatican)",
             "globalRank": "217e mondial",
             "density": "595 hab./km² sur une île unique de 21 km²",
-            "growthRate": "+0,8 % par an"
+            "growthRate": "+0,6 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,6 enfants par femme",
+            "fertilityRate": "3,3 enfants par femme",
             "birthRate": "21,2 ‰",
             "deathRate": "6,2 ‰",
             "infantMortality": "26,0 ‰",
@@ -573,9 +573,9 @@
         "ageStructure": {
             "medianAge": "27,0 ans",
             "lifeExpectancy": {
-                "total": "64,0 ans",
-                "women": "68,2 ans",
-                "men": "60,2 ans"
+                "total": "62,3 ans",
+                "women": "64,2 ans",
+                "men": "60,4 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "31,0 %",
@@ -585,15 +585,14 @@
             "dependencyRatio": "52,7 %"
         },
         "urbanization": {
-            "urbanRate": "100 % (île entièrement urbanisée sur la couronne côtière)",
+            "urbanRate": "100,0 % (île entièrement urbanisée sur la couronne côtière)",
             "mainMetropolises": [
                 "Yaren (environ 800 hab. - district accueillant le Parlement et les ministères, sans capitale officielle)",
                 "Denigomodu (district ouvrier le plus peuplé)"
             ]
         },
         "sociology": {
-            "ethnicGroups": "Nauruans autochtones micronésiens (88,9 % organisés en 12 tribus symbolisées sur le drapeau), Chinois (4,5 %), Kiribati et Tuvalu (3,2 %)"
-        ,
+            "ethnicGroups": "Nauruans autochtones micronésiens (88,9 % organisés en 12 tribus symbolisées sur le drapeau), Chinois (4,5 %), Kiribati et Tuvalu (3,2 %)",
             "languages": "Nauruan (officiel, langue micronésienne isolée) et Anglais (officiel, affaires et administration)",
             "religions": "Protestantisme (60 % : Nauru Congregational Church 36 %, Assemblées de Dieu), Catholicisme (33 %)"
         },
@@ -605,13 +604,13 @@
     },
     "TUV": {
         "general": {
-            "population": "11 200 habitants (4e plus petit pays du monde)",
+            "population": "9 646 habitants (4e plus petit pays du monde)",
             "globalRank": "218e mondial",
             "density": "430 hab./km² sur 26 km² de terres émergées réparties sur 9 atolls",
-            "growthRate": "+0,5 % par an"
+            "growthRate": "-1,7 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "2,9 enfants par femme",
+            "fertilityRate": "3,2 enfants par femme",
             "birthRate": "22,5 ‰",
             "deathRate": "7,8 ‰",
             "infantMortality": "20,0 ‰",
@@ -620,9 +619,9 @@
         "ageStructure": {
             "medianAge": "26,5 ans",
             "lifeExpectancy": {
-                "total": "65,2 ans",
-                "women": "69,0 ans",
-                "men": "61,8 ans"
+                "total": "67,3 ans",
+                "women": "70,9 ans",
+                "men": "63,9 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "32,0 %",
@@ -632,7 +631,7 @@
             "dependencyRatio": "61,8 %"
         },
         "urbanization": {
-            "urbanRate": "64,0 %",
+            "urbanRate": "64,7 %",
             "mainMetropolises": [
                 "Funafuti (6 500 hab. sur l'atoll-capitale Fongafale - abrite plus de la moitié de la nation)"
             ]
@@ -650,13 +649,13 @@
     },
     "NCL": {
         "general": {
-            "population": "271 000 habitants (recensement ISEE révisé)",
+            "population": "292 639 habitants (recensement ISEE révisé)",
             "globalRank": "183e mondial",
             "density": "14,5 hab./km²",
-            "growthRate": "-0,5 % par an (départs nets accentués par la crise politique et économique de mai 2024)"
+            "growthRate": "+1,0 % par an (départs nets accentués par la crise politique et économique de mai 2024)"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,8 enfant par femme",
+            "fertilityRate": "2,0 enfants par femme",
             "birthRate": "13,5 ‰",
             "deathRate": "6,8 ‰",
             "infantMortality": "4,8 ‰",
@@ -665,9 +664,9 @@
         "ageStructure": {
             "medianAge": "33,8 ans",
             "lifeExpectancy": {
-                "total": "77,9 ans",
-                "women": "81,2 ans",
-                "men": "74,8 ans"
+                "total": "78,9 ans",
+                "women": "81,4 ans",
+                "men": "76,5 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "22,0 %",
@@ -677,7 +676,7 @@
             "dependencyRatio": "48,1 %"
         },
         "urbanization": {
-            "urbanRate": "71,5 % (hyper-concentration dans l'agglomération nouméenne)",
+            "urbanRate": "68,0 % (hyper-concentration dans l'agglomération nouméenne)",
             "mainMetropolises": [
                 "Grand Nouméa (182 000 hab. regroupant Nouméa, Dumbéa, Mont-Dore, Païta - les deux tiers du pays)",
                 "Koné (8 500 hab. - chef-lieu indépendantiste de la Province Nord et usine KNS)"
@@ -696,13 +695,13 @@
     },
     "PYF": {
         "general": {
-            "population": "280 000 habitants (recensement ISPF)",
+            "population": "281 807 habitants (recensement ISPF)",
             "globalRank": "181e mondial",
             "density": "76 hab./km² (sur 118 îles réparties en 5 archipels : Société, Tuamotu, Gambier, Marquises, Australes)",
-            "growthRate": "+0,4 % par an"
+            "growthRate": "+0,2 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,7 enfant par femme",
+            "fertilityRate": "1,5 enfant par femme",
             "birthRate": "12,8 ‰",
             "deathRate": "6,5 ‰",
             "infantMortality": "5,2 ‰",
@@ -711,9 +710,9 @@
         "ageStructure": {
             "medianAge": "34,2 ans",
             "lifeExpectancy": {
-                "total": "77,8 ans",
-                "women": "80,4 ans",
-                "men": "75,4 ans"
+                "total": "84,2 ans",
+                "women": "86,6 ans",
+                "men": "81,9 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "21,5 %",
@@ -723,7 +722,7 @@
             "dependencyRatio": "46,0 %"
         },
         "urbanization": {
-            "urbanRate": "62,5 %",
+            "urbanRate": "61,7 %",
             "mainMetropolises": [
                 "Papeete / Agglomération de Tahiti (138 000 hab. - concentre près de 70 % de la population totale)",
                 "Faa'a (30 000 hab. - commune la plus peuplée et aéroport international)",

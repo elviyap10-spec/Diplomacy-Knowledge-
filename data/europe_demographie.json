@@ -360,7 +360,7 @@
             "lifeExpectancy": {
                 "total": "84,4 ans",
                 "women": "86,2 ans",
-                "men": "82,0 ans"
+                "men": "82,7 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "14,8 %",
@@ -641,7 +641,7 @@
             "growthRate": "+0,9 % par an"
         },
         "fertilityMortality": {
-            "fertilityRate": "1,41 enfant par femme",
+            "fertilityRate": "1,4 enfant par femme",
             "birthRate": "9,5 ‰",
             "deathRate": "8,1 ‰",
             "infantMortality": "1,8 ‰ (taux record mondial de faible mortalité)",
@@ -662,7 +662,7 @@
             "dependencyRatio": "54,3 %"
         },
         "urbanization": {
-            "urbanRate": "83,7 %",
+            "urbanRate": "83,3 %",
             "mainMetropolises": [
                 "Oslo (1,1 million hab. aire métropolitaine)",
                 "Bergen (0,3 million hab.)",
@@ -1521,7 +1521,7 @@
             "lifeExpectancy": {
                 "total": "82,8 ans",
                 "women": "84,5 ans",
-                "men": "81,8 ans"
+                "men": "81,2 ans"
             },
             "ageGroups": {
                 "zeroToFourteen": "18,4 %",

@@ -739,5 +739,55 @@
             "literacyRate": "98,0 %",
             "keyChallenges": "Réparation environnementale et sanitaire des 193 essais nucléaires français conduits à Moruroa et Fangataufa (1966-1996), coût de la vie très élevé ('la vie chère' et dépendance aux importations), désenclavement des archipels éloignés"
         }
+    },
+    "ATA": {
+        "general": {
+            "population": "1 100 résidents en hiver • ~4 500 à 5 000 en été (0 habitant permanent)",
+            "globalRank": "Dernier rang mondial (seul continent sans population indigène permanente)",
+            "density": "0,00008 hab./km² en été (région la moins dense du globe)",
+            "growthRate": "0,0 % par an (effectifs stables régulés par les rotations scientifiques)"
+        },
+        "fertilityMortality": {
+            "fertilityRate": "0,0 enfant par femme (aucune politique familiale ; seules 11 naissances historiques documentées entre 1978 et 1985 sur les bases chilienne et argentine)",
+            "birthRate": "0,0 ‰",
+            "deathRate": "0,0 ‰ (mortalité naturelle quasi nulle grâce aux protocoles médicaux rigoureux d'aptitude polaire)",
+            "infantMortality": "0,0 ‰",
+            "netMigration": "Rotations saisonnières complètes (~1 100 hivernants scientifiques et militaires ; jusqu'à 105 000 touristes maritimes en 2023-2024 selon l'IAATO)"
+        },
+        "ageStructure": {
+            "medianAge": "36,5 ans (population active hautement qualifiée de chercheurs, ingénieurs et logisticiens)",
+            "lifeExpectancy": {
+                "total": "Non applicable (absence de cohorte résidente viagère)",
+                "women": "Non applicable",
+                "men": "Non applicable"
+            },
+            "ageGroups": {
+                "zeroToFourteen": "0,0 % (rares enfants scolarisés dans les bases familiales d'Esperanza et Villa Las Estrellas)",
+                "fifteenToSixtyFour": "99,5 % (scientifiques, ingénieurs, techniciens, pilotes et personnel de soutien)",
+                "sixtyFivePlus": "0,5 % (directeurs de recherche et experts polaires émérites)"
+            },
+            "dependencyRatio": "0,0 % (population active à 100 %, aucun ratio de dépendance économique)"
+        },
+        "urbanization": {
+            "urbanRate": "0,0 % (aucune municipalité civile ; réseau exclusif de stations de recherche logistiques)",
+            "mainMetropolises": [
+                "Station McMurdo (USA - île de Ross : jusqu'à 1 200 personnes en été, plus vaste complexe logistique du continent avec port et pistes sur glace)",
+                "Base Amundsen-Scott (USA - Pôle Sud géographique à 2 835 m d'altitude : ~150 personnes en été, télescopes submillimétriques et observatoire IceCube)",
+                "Base Presidente Eduardo Frei Montalva / Villa Las Estrellas (Chili - île du Roi-George : piste de 1 300 m et village pionnier avec école)",
+                "Base Esperanza (Argentine - péninsule Antarctique : station permanente avec familles, école provinciale nº 38 et radio LRA 36)",
+                "Station Dumont d'Urville & Station Concordia (France/Italie : recherche glaciologique, forages profonds EPICA et astronomie au Dôme C)",
+                "Base Neumayer III (Allemagne) & Base Halley VI (Royaume-Uni : stations montées sur vérins hydrauliques et skis)"
+            ]
+        },
+        "sociology": {
+            "ethnicGroups": "Communauté scientifique et opérationnelle cosmopolite représentant plus de 30 nations (États-Unis, Argentine, Chili, Russie, Chine, Royaume-Uni, France, Australie, Allemagne, Italie, Corée du Sud, Inde, Japon, etc.)",
+            "languages": "Anglais (lingua franca des opérations aéronavales et scientifiques), espagnol (bases chiliennes et argentines), russe, français, chinois mandarin",
+            "religions": "Environnement sécularisé et pluraliste ; lieux de culte remarquables (Chapelle des Neiges à McMurdo, église orthodoxe de la Trinité sur l'île du Roi-George, chapelle San Francisco de Asís)"
+        },
+        "development": {
+            "hdi": "Non calculé par le PNUD (infrastructures biomédicales, énergétiques et satellitaires équivalentes à > 0,98)",
+            "literacyRate": "100,0 % (personnel obligatoirement diplômé de l'enseignement supérieur ou titulaire de brevets techniques certifiés)",
+            "keyChallenges": "Réchauffement climatique accéléré de l'inlandsis et fonte des glaciers côtiers majeurs (Thwaites, Pine Island), risque d'introduction d'espèces invasives, régulation de l'essor spectaculaire du tourisme polaire (> 100 000 passagers/an) et préservation du moratoire minier environnemental du Protocole de Madrid (horizon 2048)"
+        }
     }
 }
