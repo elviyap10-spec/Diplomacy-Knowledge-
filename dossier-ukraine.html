@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fr" data-concept-id="dossier-ukraine">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141c2e">
+  <meta name="description" content="Grand Dossier Stratégique : Guerre d'Usure en Ukraine, Sécurité Européenne, Élargissement de l'OTAN et Recomposition Géopolitique Mondiale.">
+  <title>Dossier Ukraine & Sécurité Européenne — Diplomacy Lab</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --ink: #141c2e;
+      --ink-soft: #303d52;
+      --paper: #f8f7f4;
+      --paper-card: #ffffff;
+      --muted: #647084;
+      --line: #dedbd3;
+      --accent: #a83d38;
+      --accent-soft: #f4e8e6;
+      --gold: #b18a51;
+      --gold-bright: #d9af5e;
+      --green: #246a48;
+      --green-soft: #e5f2eb;
+      --blue: #1c54b2;
+      --blue-soft: #e8f0fe;
+      --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --max: 1180px;
+      --radius: 6px;
+      --shadow-sm: 0 2px 8px rgba(20, 28, 46, 0.05);
+      --shadow-md: 0 8px 24px rgba(20, 28, 46, 0.08);
+      --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="dark"] {
+      --ink: #f4f2ee;
+      --ink-soft: #c6cbd4;
+      --paper: #0b111e;
+      --paper-card: #131b2c;
+      --muted: #8893a4;
+      --line: #222d42;
+      --accent: #e06d68;
+      --accent-soft: #321c1f;
+      --gold: #d4a96a;
+      --gold-bright: #e7cda7;
+      --green: #44a374;
+      --green-soft: #122b1f;
+      --blue: #5b9bf8;
+      --blue-soft: #142340;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--font-body);
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
+
+    /* TOPLINE */
+    .topline { background: #0c1424; color: #f6f2e9; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+    .topline-inner { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .topline-status { display: inline-flex; align-items: center; gap: 8px; color: #d0d7e2; font-weight: 600; font-size: 11px; }
+    .pulse-dot { width: 7px; height: 7px; background: #e06d68; border-radius: 50%; box-shadow: 0 0 6px #e06d68; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(.85); } }
+    .topline-actions { display: flex; align-items: center; gap: 14px; }
+    .topline a { color: #e7cda7; font-weight: 700; transition: color .15s ease; }
+    .topline a:hover { color: #ffffff; }
+
+    .theme-toggle {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+      color: #f6f2e9; font-size: 10.5px; font-weight: 700; letter-spacing: .06em;
+      padding: 4px 10px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+      font-family: var(--font-body);
+    }
+    .theme-toggle:hover { background: rgba(255,255,255,0.18); }
+
+    /* MASTHEAD */
+    .masthead { background: var(--paper); border-bottom: 1px solid var(--line); }
+    .masthead-inner { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .brand { display: flex; align-items: center; gap: 14px; text-decoration: none; min-width: 0; }
+    .brand-mark {
+      width: 44px; height: 44px; border: 2px solid var(--gold); border-radius: 6px;
+      display: grid; place-items: center; font-family: var(--font-display); font-size: 22px; font-weight: 800; flex: 0 0 auto;
+      background: var(--paper-card); color: var(--gold); box-shadow: var(--shadow-sm);
+    }
+    .brand-name { font-family: var(--font-display); font-size: 20px; font-weight: 800; letter-spacing: .08em; line-height: 1.1; color: var(--ink); }
+    .brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 9.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+    .masthead-note { max-width: 340px; text-align: right; color: var(--muted); font-family: var(--font-body); font-size: 13px; font-weight: 500; line-height: 1.5; }
+
+    /* NAV */
+    .main-nav { background: var(--paper-card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+    .nav-inner { min-height: 50px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .nav-links { display: flex; align-items: center; gap: clamp(14px, 2.2vw, 28px); overflow-x: auto; scrollbar-width: none; }
+    .nav-links a { white-space: nowrap; font-size: 12px; font-weight: 700; color: var(--ink-soft); padding: 15px 0 13px; border-bottom: 2px solid transparent; transition: var(--transition); }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); border-color: var(--accent); }
+
+    /* BREADCRUMB */
+    .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 600; color: var(--muted); padding: 18px 0 6px; text-transform: uppercase; letter-spacing: .05em; }
+    .breadcrumb a:hover { color: var(--accent); }
+    .breadcrumb-sep { opacity: .5; }
+    .breadcrumb-current { color: var(--ink); font-weight: 700; }
+
+    /* DOSSIER LAYOUT */
+    .dossier-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 40px; padding: 24px 0 60px; align-items: start; }
+    .dossier-sidebar { position: sticky; top: 70px; background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-sm); max-height: calc(100vh - 90px); overflow-y: auto; }
+    .dossier-sidebar-title { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--gold); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+    .dossier-toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+    .dossier-toc-link { font-size: 12px; color: var(--ink-soft); padding: 6px 8px; border-radius: 4px; display: block; line-height: 1.4; transition: var(--transition); }
+    .dossier-toc-link:hover, .dossier-toc-link.active { background: rgba(177, 138, 81, 0.1); color: var(--gold); transform: translateX(3px); font-weight: 700; }
+
+    /* CONTENT */
+    .dossier-content { max-width: 820px; }
+    .dossier-header { margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+    .dossier-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .dossier-tag { font-size: 10px; font-weight: 800; text-transform: uppercase; padding: 3px 9px; border-radius: 3px; background: var(--paper-card); border: 1px solid var(--line); }
+    .dossier-tag.level { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+    .dossier-tag.gold { background: rgba(217, 175, 94, 0.15); color: var(--gold); border-color: var(--gold-bright); }
+
+    .dossier-title { font-family: var(--font-display); font-size: clamp(30px, 4vw, 44px); font-weight: 800; letter-spacing: -.025em; line-height: 1.12; margin: 0 0 14px; color: var(--ink); }
+    .dossier-lead { font-size: 15.5px; line-height: 1.75; color: var(--muted); margin: 0 0 20px; }
+
+    /* STAT BANNER */
+    .stat-banner { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin: 24px 0 32px; box-shadow: var(--shadow-sm); }
+    .stat-box { display: flex; flex-direction: column; gap: 4px; }
+    .stat-num { font-family: var(--font-display); font-size: 22px; font-weight: 800; color: var(--accent); }
+    .stat-label { font-size: 11px; color: var(--muted); line-height: 1.35; font-weight: 600; }
+
+    /* SECTIONS */
+    .dossier-section { margin-bottom: 44px; }
+    .dossier-section h2 { font-family: var(--font-display); font-size: 22px; font-weight: 800; letter-spacing: -0.015em; margin: 0 0 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line); color: var(--ink); }
+    .dossier-section h3 { font-family: var(--font-display); font-size: 17px; font-weight: 700; margin: 24px 0 10px; color: var(--ink); }
+    .dossier-section p { font-size: 14.5px; line-height: 1.8; color: var(--ink-soft); margin: 0 0 16px; }
+    .dossier-section ul { margin: 0 0 16px 20px; }
+    .dossier-section li { font-size: 14px; line-height: 1.75; color: var(--ink-soft); margin-bottom: 8px; }
+
+    .callout { background: var(--paper-card); border: 1px solid var(--line); border-left: 4px solid var(--gold); padding: 18px 22px; border-radius: var(--radius); margin: 20px 0; box-shadow: var(--shadow-sm); }
+    .callout strong { display: block; font-family: var(--font-display); font-size: 13.5px; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px; }
+    .callout p { margin: 0; font-size: 13.5px; line-height: 1.65; color: var(--ink); }
+
+    /* CHRONOLOGY */
+    .timeline { position: relative; margin: 20px 0 28px 14px; padding-left: 20px; border-left: 2px solid var(--line); }
+    .timeline-item { position: relative; margin-bottom: 20px; }
+    .timeline-item::before { content: ""; position: absolute; left: -26px; top: 4px; width: 10px; height: 10px; border-radius: 50%; background: var(--gold); border: 2px solid var(--paper-card); }
+    .timeline-date { font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--gold); letter-spacing: .06em; margin-bottom: 3px; }
+    .timeline-title { font-size: 14px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+    .timeline-desc { font-size: 13px; color: var(--muted); line-height: 1.6; margin: 0; }
+
+    /* SCENARIOS */
+    .scenario-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 20px 0; }
+    .scenario-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow-sm); }
+    .scenario-badge { display: inline-block; font-size: 10px; font-weight: 800; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; margin-bottom: 10px; }
+    .scenario-badge.high { background: var(--accent-soft); color: var(--accent); }
+    .scenario-badge.med { background: rgba(217, 175, 94, 0.15); color: var(--gold); }
+    .scenario-badge.low { background: var(--green-soft); color: var(--green); }
+    .scenario-card h4 { font-family: var(--font-display); font-size: 15px; font-weight: 800; margin: 0 0 8px; color: var(--ink); }
+    .scenario-card p { font-size: 13px; line-height: 1.65; color: var(--muted); margin: 0; }
+
+    /* GLOSSARY */
+    .glossary-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 20px; }
+    .glossary-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow-sm); }
+    .glossary-term { font-family: var(--font-display); font-size: 13.5px; font-weight: 800; color: var(--gold); margin-bottom: 6px; }
+    .glossary-def { font-size: 12.5px; line-height: 1.6; color: var(--ink-soft); margin: 0; }
+
+    /* QUIZ INLINE */
+    .dossier-quiz-card { background: var(--paper-card); border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: var(--radius); padding: 28px; margin-top: 36px; box-shadow: var(--shadow-sm); }
+    .quiz-question-title { font-family: var(--font-display); font-size: 16px; font-weight: 800; color: var(--ink); margin-bottom: 16px; }
+    .quiz-choice-btn { display: block; width: 100%; text-align: left; padding: 12px 16px; margin-bottom: 10px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); font-size: 13.5px; font-family: var(--font-body); color: var(--ink); cursor: pointer; transition: var(--transition); }
+    .quiz-choice-btn:hover { border-color: var(--gold); background: rgba(177, 138, 81, 0.08); }
+    .quiz-choice-btn.selected-correct { background: var(--green-soft); border-color: var(--green); color: var(--green); font-weight: 700; }
+    .quiz-choice-btn.selected-wrong { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+    .quiz-feedback-box { margin-top: 16px; padding: 14px 18px; border-radius: var(--radius); font-size: 13px; line-height: 1.6; display: none; }
+    .quiz-feedback-box.show { display: block; }
+    .quiz-feedback-box.correct { background: var(--green-soft); color: var(--green); border: 1px solid var(--green); }
+    .quiz-feedback-box.wrong { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
+
+    /* FOOTER */
+    footer { margin-top: 48px; padding: 34px 0; color: #d9dce2; background: #0c1424; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .footer-brand { font-family: var(--font-display); font-size: 13.5px; font-weight: 800; letter-spacing: .12em; color: #ffffff; }
+    footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
+
+    @media (max-width: 860px) {
+      .dossier-layout { grid-template-columns: 1fr; }
+      .dossier-sidebar { position: static; max-height: none; }
+      .stat-banner { grid-template-columns: repeat(2, 1fr); }
+      .scenario-grid, .glossary-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPLINE -->
+  <div class="topline">
+    <div class="container topline-inner">
+      <div class="topline-status">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Grand Dossier Stratégique · Sécurité Européenne & Ordre Mondial</span>
+      </div>
+      <div class="topline-actions">
+        <button id="openSearchBtn" class="search-trigger-btn" type="button" aria-label="Recherche globale">
+          <span aria-hidden="true">🔍</span>
+          <span>Rechercher</span>
+          <kbd class="search-kbd">Ctrl K</kbd>
+        </button>
+        <span style="color: var(--gold-bright); font-weight:800; font-size:10.5px;">⚡ Épreuve Concours M1–M2</span>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
+          <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
+        </button>
+        <a href="monde.html">Atlas mondial ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a class="brand" href="index.html" aria-label="Diplomacy Lab, accueil">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span>
+          <span class="brand-name">DIPLOMACY LAB</span>
+          <span class="brand-sub">Comprendre · Analyser · Transmettre</span>
+        </span>
+      </a>
+      <div class="masthead-note">« L'Europe se forge dans les crises et sera la somme des solutions apportées. »</div>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="monde.html">L'Atlas mondial</a>
+        <a href="index.html#fondamentaux">Les 10 concepts</a>
+        <a href="dossier.html" class="active">Dossiers de fond</a>
+        <a href="dossier-taiwan.html">Taïwan & Puces</a>
+        <a href="convention-vienne-1961.html">Vienne 1961</a>
+      </div>
+      <span style="font-size: 10px; font-weight:800; text-transform:uppercase; color:var(--muted);">Dossier Spécial INSP / Sciences Po</span>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- FIL D'ARIANE -->
+    <nav class="breadcrumb">
+      <a href="index.html">Accueil</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="dossier.html">Dossiers</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">Ukraine & Sécurité Européenne</span>
+    </nav>
+
+    <div class="dossier-layout">
+      <!-- SOMMAIRE LATÉRAL FLOTTANT -->
+      <aside class="dossier-sidebar">
+        <div class="dossier-sidebar-title">Sommaire du Dossier</div>
+        <ul class="dossier-toc-list">
+          <li><a href="#geopolitique" class="dossier-toc-link">1. Géographie & Profondeur</a></li>
+          <li><a href="#chronologie" class="dossier-toc-link">2. Chronologie de rupture</a></li>
+          <li><a href="#attrition" class="dossier-toc-link">3. Guerre d'attrition & C4ISR</a></li>
+          <li><a href="#droit" class="dossier-toc-link">4. Droit & Veto onusien</a></li>
+          <li><a href="#geoeconomie" class="dossier-toc-link">5. Géoéconomie & Flotte fantôme</a></li>
+          <li><a href="#otan" class="dossier-toc-link">6. Remilitarisation de l'Europe</a></li>
+          <li><a href="#scenarios" class="dossier-toc-link">7. Scénarios prospectifs 2030</a></li>
+          <li><a href="#theorie" class="dossier-toc-link">8. Grille de lecture théorique</a></li>
+          <li><a href="#glossaire" class="dossier-toc-link">9. Glossaire stratégique</a></li>
+          <li><a href="#quiz-section" class="dossier-toc-link">10. Évaluation formative (+30 XP)</a></li>
+        </ul>
+      </aside>
+
+      <!-- CONTENU DU DOSSIER -->
+      <article class="dossier-content">
+        <header class="dossier-header">
+          <div class="dossier-tags">
+            <span class="dossier-tag level">Niveau Master 1 / Master 2</span>
+            <span class="dossier-tag gold">Haute Intensité & Équilibre des Puissances</span>
+            <span class="dossier-tag">Temps d'étude : 20 min</span>
+          </div>
+          <h1 class="dossier-title">L'Ukraine et la Crise de la Sécurité Européenne</h1>
+          <p class="dossier-lead">
+            Analyse globale du conflit russo-ukrainien : faillite de la sécurité collective, réarmement de l'OTAN, guerre d'attrition technologique et basculement géoéconomique de l'Eurasie.
+          </p>
+
+          <!-- CHIFFRES CLÉS -->
+          <div class="stat-banner">
+            <div class="stat-box">
+              <div class="stat-num">~1 200 km</div>
+              <div class="stat-label">Ligne de front fortifiée active</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">&gt;280 Mds$</div>
+              <div class="stat-label">Aide financière et militaire alliée (Kiel)</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">+1 340 km</div>
+              <div class="stat-label">Nouvelle frontière OTAN-Russie (Finlande)</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">14 paquets</div>
+              <div class="stat-label">Sanctions massives adoptées par l'UE</div>
+            </div>
+          </div>
+        </header>
+
+        <!-- SECTION 1 -->
+        <section class="dossier-section" id="geopolitique">
+          <h2>1. Géographie, Bassin de la Mer Noire et Profondeur Stratégique</h2>
+          <p>
+            L'Ukraine occupe une position névralgique au carrefour de la grande plaine d'Europe du Nord et du bassin pontique. Dépourvue d'obstacles orographiques naturels entre les Carpates et l'Oural, cette plaine a constitué la porte d'entrée des invasions historiques de la Russie (Polonais en 1612, Napoléon en 1812, armées hitlériennes en 1941). Cette vulnérabilité spatiale nourrit l'obsession séculaire de Moscou pour la <strong>profondeur stratégique</strong> (<em>glubina</em>) et la constitution d'un glacis défensif périphérique.
+          </p>
+          <p>
+            Au sud, la péninsule de Crimée et la base navale de <strong>Sébastopol</strong> représentent la clé de voûte de la projection maritime russe vers la Méditerranée orientale et les détroits turcs (Bosphore et Dardanelles, régis par la Convention de Montreux de 1936). L'affirmation d'une Ukraine souveraine et pro-occidentale a été perçue par le Kremlin comme la rupture inacceptable de son flanc méridional et la neutralisation définitive de sa puissance navale en mer Noire.
+          </p>
+          <div class="callout">
+            <strong>Concept Clé · Verrou Pontique</strong>
+            <p>
+              La sanctuarisation de la mer Noire par les missiles antinavires ukrainiens (Neptune) et les drones navals de surface (Magura V5) a brisé le monopole de la flotte russe de la mer Noire, contraignant ses navires à se replier vers Novorossiïsk et réouvrant le corridor céréalier ukrainien sans accord formel de Moscou.
+            </p>
+          </div>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section class="dossier-section" id="chronologie">
+          <h2>2. Chronologie de la Rupture Stratégique (1991–2026)</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">5 Décembre 1994</div>
+              <div class="timeline-title">Le Mémorandum de Budapest</div>
+              <p class="timeline-desc">L'Ukraine renonce au troisième arsenal nucléaire mondial (1 900 ogives soviétiques) en échange de garanties solennelles de respect de sa souveraineté et de son intégrité territoriale par les États-Unis, le Royaume-Uni et la Russie.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">Avril 2008</div>
+              <div class="timeline-title">Le Sommet de l'OTAN à Bucarest</div>
+              <p class="timeline-desc">L'Alliance atlantique promet que l'Ukraine et la Géorgie « deviendront membres de l'OTAN », sans calendrier ni Plan d'action pour l'adhésion (MAP), créant une zone grise d'insécurité maximale sans parapluie de l'article 5.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">Février–Mars 2014</div>
+              <div class="timeline-title">Révolution de Maïdan & Annexion de la Crimée</div>
+              <p class="timeline-desc">Fuite du président Ianoukovytch ; intervention des « petits hommes verts » russes en Crimée, annexion unilatérale et déclenchement de la guerre hybride dans le Donbass (accords de Minsk I et II).</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">24 Février 2022</div>
+              <div class="timeline-title">L'Invasion à Grande Échelle</div>
+              <p class="timeline-desc">Ordre de « l'opération militaire spéciale » par Vladimir Poutine. Échec de la guerre éclair vers Kiev, sanctuarisation de la résistance ukrainienne sous la conduite de Volodymyr Zelensky et soutien massif de la coalition de Ramstein.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2023–2026</div>
+              <div class="timeline-title">Guerre d'Usure & Élargissement Nordique</div>
+              <p class="timeline-desc">Stabilisation d'un front de 1 200 km, bascule de la Finlande et de la Suède dans l'OTAN, basculement géoéconomique russe vers l'Asie et militarisation totale de l'économie ukrainienne et européenne.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 3 -->
+        <section class="dossier-section" id="attrition">
+          <h2>3. Anatomie Tactique : La Guerre d'Attrition Technologique</h2>
+          <p>
+            Le conflit ukrainien a pris de court les doctrines militaires occidentales qui pronostiquaient la fin du combat terrestre de haute intensité au profit de cyberguerres dématérialisées. Le front s'est mué en une combinaison inédite :
+          </p>
+          <ul>
+            <li><strong>L'attrition industrielle de masse :</strong> Consommation record d'obus d'artillerie (jusqu'à 20 000 à 60 000 tirs par jour au pic des combats), révélant la faiblesse des stocks et de la base industrielle de défense (BITD) européenne.</li>
+            <li><strong>La révolution des drones FPV et de la transparence du champ de bataille :</strong> L'omniprésence des micro-drones suicides à 500 $ et de l'imagerie satellite en temps réel interdit tout effet de surprise tactique et rend les manœuvres blindées de rupture quasi impossibles.</li>
+            <li><strong>La numérisation C4ISR et la constellation Starlink :</strong> Le recours aux réseaux de satellites en orbite basse (LEO) de SpaceX a assuré la continuité du commandement tactique ukrainien face au brouillage électronique massif de l'armée russe.</li>
+          </ul>
+        </section>
+
+        <!-- SECTION 4 -->
+        <section class="dossier-section" id="droit">
+          <h2>4. L'Épreuve du Droit International et la Paralysie Onusienne</h2>
+          <p>
+            L'agression russe constitue la violation la plus manifeste depuis 1945 de l'<strong>article 2 paragraphe 4 de la Charte de l'ONU</strong>, qui prohibe le recours à la force contre l'intégrité territoriale ou l'indépendance politique de tout État. 
+          </p>
+          <p>
+            Cependant, détenteur d'un siège permanent et du droit de veto (Article 27§3), Moscou a systématiquement bloqué toute résolution contraignante du Conseil de sécurité au titre du Chapitre VII. Cette impasse a réactivé la procédure historique <em>« Union pour le maintien de la paix »</em> (Résolution 377A de l'Assemblée générale), permettant à plus de 140 États membres de condamner solennellement les annexions territoriales (résolution ES-11/1 de mars 2022).
+          </p>
+          <div class="callout">
+            <strong>Justice Pénale Internationale</strong>
+            <p>
+              Le 17 mars 2023, la Cour Pénale Internationale (CPI) a émis un mandat d'arrêt historique contre le président Vladimir Poutine et Maria Lvova-Belova pour crimes de guerre (déportation illégale d'enfants ukrainiens), restreignant drastiquement la liberté de circulation diplomatique du dirigeant russe parmi les 124 États parties au Statut de Rome.
+            </p>
+          </div>
+        </section>
+
+        <!-- SECTION 5 -->
+        <section class="dossier-section" id="geoeconomie">
+          <h2>5. Géoéconomie de la Guerre : Sanctions, Énergie et Flotte Fantôme</h2>
+          <p>
+            La guerre a bouleversé l'architecture énergétique mondiale. En réponse à l'invasion, l'Union européenne a démantelé en moins de deux ans sa dépendance historique au gaz russe (qui représentait 45 % de ses approvisionnements en 2021) en recourant au GNL américain, qatari et norvégien.
+          </p>
+          <p>
+            Face au plafonnement du prix du pétrole brut à 60 $ imposé par le G7 et l'UE, Moscou a contourné les circuits financiers traditionnels en déployant une <strong>flotte fantôme</strong> (<em>shadow fleet</em>) de plus de 600 pétroliers vétustes naviguant sous pavillons de complaisance (Panama, Gabon, Liberia) et sans assurance occidentale, réorientant l'essentiel de ses exportations vers la Chine et l'Inde en yuans et en roupies.
+          </p>
+        </section>
+
+        <!-- SECTION 6 -->
+        <section class="dossier-section" id="otan">
+          <h2>6. La Remilitarisation de l'Europe et l'Élargissement Historique de l'OTAN</h2>
+          <p>
+            Loin d'éloigner l'Alliance atlantique des frontières russes, l'offensive de 2022 a provoqué un basculement stratégique historique en Europe septentrionale : la renonciation à plus de deux siècles de neutralité militaire par la <strong>Suède</strong> et la <strong>Finlande</strong>, intégrant l'OTAN en 2023 et 2024. La mer Baltique est ainsi devenue un quasi « lac intérieur » atlantique, fragilisant l'enclave russe de Kaliningrad.
+          </p>
+          <p>
+            Parallèlement, l'Allemagne a proclamé son tournant historique (<em>Zeitenwende</em>) avec un fonds spécial de 100 milliards d'euros pour la Bundeswehr, tandis que la Pologne a porté son budget de défense à plus de 4 % de son PIB, s'érigeant en premier rempart blindé du flanc oriental.
+          </p>
+        </section>
+
+        <!-- SECTION 7 -->
+        <section class="dossier-section" id="scenarios">
+          <h2>7. Quatre Scénarios Prospectifs à l'Horizon 2030</h2>
+          <div class="scenario-grid">
+            <div class="scenario-card">
+              <span class="scenario-badge high">Scénario 1 · Statu Quo</span>
+              <h4>Le Modèle Coréen (Gel du Front)</h4>
+              <p>Cessez-le-feu négocié sans traité de paix définitif. Érection d'une ligne de démarcation fortifiée et militarisée le long de la ligne de contact, avec garanties de sécurité occidentales substantielles pour la partie ukrainienne libre.</p>
+            </div>
+            <div class="scenario-card">
+              <span class="scenario-badge med">Scénario 2 · Rupture Tactique</span>
+              <h4>Attritiion Asymétrique et Effondrement</h4>
+              <p>L'avantage démographique et industriel russe (soutenu par l'axe Chine-Iran-Corée du Nord) use les capacités de résistance ukrainiennes face au désengagement financier et politique américain, contraignant Kiev à des concessions territoriales majeures.</p>
+            </div>
+            <div class="scenario-card">
+              <span class="scenario-badge med">Scénario 3 · Ancrage Atlantique</span>
+              <h4>Adhésion Accélérée à l'UE et Traités Bilatéraux</h4>
+              <p>Intégration formelle de l'Ukraine au marché unique européen et sanctuarisation de sa souveraineté par des traités d'assistance bilatérale contraignants (type article 5 avec Washington, Londres, Paris et Berlin).</p>
+            </div>
+            <div class="scenario-card">
+              <span class="scenario-badge low">Scénario 4 · Escalade Régionale</span>
+              <h4>Confrontation Directe OTAN-Russie</h4>
+              <p>Accrochage maritime en mer Noire ou incident de zone grise sur le corridor de Suwalki (reliant la Biélorussie à Kaliningrad), déclenchant l'activation de l'article 5 du Traité de Washington et une guerre générale conventionnelle.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 8 -->
+        <section class="dossier-section" id="theorie">
+          <h2>8. Grille de Lecture Théorique en Relations Internationales</h2>
+          <p>
+            La guerre en Ukraine est devenue l'arène de controverse intellectuelle majeure entre les grands paradigmes :
+          </p>
+          <ul>
+            <li><strong>Le Réalisme Offensif (John Mearsheimer) :</strong> La responsabilité structurelle incomberait à l'Occident. En promouvant l'élargissement de l'OTAN et de l'UE jusqu'aux frontières russes, les démocraties ont franchi la ligne rouge existentielle d'une grande puissance, provoquant mécaniquement une réaction impériale violente.</li>
+            <li><strong>Le Réalisme Classique & Libéralisme Institutionnel :</strong> L'agression relève des représentations impériales révisionnistes d'un pouvoir autoritaire refusant la souveraineté de ses voisins. Les petites et moyennes nations ont le droit imprescriptible de choisir souverainement leurs alliances de sécurité sans droit de regard d'une puissance prédatrice.</li>
+            <li><strong>Le Constructivisme (Alexander Wendt) :</strong> L'invasion a cristallisé une rupture identitaire irréversible : l'Ukraine s'est forgée comme nation démocratique résolument européenne, tandis que la Russie a reconstruit son identité étatique autour du messianisme eurasien anti-occidental.</li>
+          </ul>
+        </section>
+
+        <!-- SECTION 9 -->
+        <section class="dossier-section" id="glossaire">
+          <h2>9. Glossaire Stratégique du Conflit</h2>
+          <div class="glossary-grid">
+            <div class="glossary-card">
+              <div class="glossary-term">Profondeur Stratégique (Glubina)</div>
+              <p class="glossary-def">Distance géographique séparant les frontières d'un État de ses centres névralgiques de décision, permettant d'absorber une offensive initiale sans risquer la capitulation.</p>
+            </div>
+            <div class="glossary-card">
+              <div class="glossary-term">Guerre d'Attrition</div>
+              <p class="glossary-def">Stratégie militaire visant à détruire méthodiquement les ressources matérielles, humaines et industrielles de l'adversaire plutôt qu'à réaliser des manœuvres territoriales d'encerclement rapides.</p>
+            </div>
+            <div class="glossary-card">
+              <div class="glossary-term">Flotte Fantôme (Shadow Fleet)</div>
+              <p class="glossary-def">Réseau opaque de navires pétroliers opérant hors des systèmes de certification et d'assurance occidentaux pour contourner les embargos et le plafonnement des prix du brut.</p>
+            </div>
+            <div class="glossary-card">
+              <div class="glossary-term">Corridor de Suwalki</div>
+              <p class="glossary-def">Bande frontalière de 65 km séparant la Pologne et la Lituanie, enclavée entre la Biélorussie et Kaliningrad, considérée comme le point le plus vulnérable de l'OTAN en cas d'agression.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 10: QUIZ DU DOSSIER -->
+        <section class="dossier-section" id="quiz-section">
+          <h2>10. Évaluation Formative du Dossier</h2>
+          <div class="dossier-quiz-card">
+            <div class="quiz-question-title" id="dossierQuizPrompt">
+              Quel traité de 1994 a vu l'Ukraine renoncer à son arsenal nucléaire en échange de garanties territoriales russes et occidentales ?
+            </div>
+            <div id="dossierQuizChoices">
+              <button class="quiz-choice-btn" onclick="checkDossierQuiz(0)">Les Accords de Minsk</button>
+              <button class="quiz-choice-btn" onclick="checkDossierQuiz(1)">Le Mémorandum de Budapest</button>
+              <button class="quiz-choice-btn" onclick="checkDossierQuiz(2)">L'Acte fondateur OTAN-Russie</button>
+            </div>
+            <div class="quiz-feedback-box" id="dossierQuizFeedback"></div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">DIPLOMACY LAB</div>
+        <p>Observatoire indépendant de relations internationales, de théorie géopolitique et de pratique diplomatique.</p>
+      </div>
+      <div style="font-size: 11px; color: var(--gold);">Diplomacy Lab · Édition Académique 2026</div>
+    </div>
+  </footer>
+
+  <script>
+    // THEME TOGGLE
+    const themeBtn = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+    const themeText = document.getElementById("themeText");
+    const savedTheme = localStorage.getItem("diplomacy_theme") || "light";
+
+    function applyTheme(theme) {
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        themeIcon.textContent = "☀️";
+        themeText.textContent = "Papier";
+      } else {
+        document.documentElement.removeAttribute("data-theme");
+        themeIcon.textContent = "🌙";
+        themeText.textContent = "Nuit";
+      }
+      localStorage.setItem("diplomacy_theme", theme);
+    }
+    applyTheme(savedTheme);
+
+    themeBtn.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(current);
+    });
+
+    // DOSSIER QUIZ MINI-ENGINE
+    function checkDossierQuiz(idx) {
+      const fb = document.getElementById("dossierQuizFeedback");
+      const btns = document.querySelectorAll(".quiz-choice-btn");
+      btns.forEach((b, i) => {
+        b.disabled = true;
+        if (i === 1) b.classList.add("selected-correct");
+        else if (i === idx) b.classList.add("selected-wrong");
+      });
+      if (idx === 1) {
+        fb.className = "quiz-feedback-box correct show";
+        fb.innerHTML = "<strong>Excellente réponse (+30 XP) !</strong> Le Mémorandum de Budapest signé le 5 décembre 1994 a scellé le transfert des ogives nucléaires vers la Russie contre la garantie solennelle du respect des frontières ukrainiennes de 1991.";
+        // Attribuer XP
+        let xp = parseInt(localStorage.getItem("diplomacy_user_xp") || "0", 10);
+        xp += 30;
+        localStorage.setItem("diplomacy_user_xp", xp);
+      } else {
+        fb.className = "quiz-feedback-box wrong show";
+        fb.innerHTML = "<strong>Réponse incorrecte.</strong> C'est le <em>Mémorandum de Budapest (1994)</em> qui accordait des assurances de sécurité à l'Ukraine en échange de sa dénucléarisation complète.";
+      }
+    }
+  </script>
+  <script src="js/search-palette.js"></script>
+</body>
+</html>

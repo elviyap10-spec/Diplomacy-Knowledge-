@@ -465,9 +465,14 @@
     <div class="container topline-inner">
       <div class="topline-status">
         <span class="pulse-dot" aria-hidden="true"></span>
-        <span>Diplomacy Lab · 5 cours fondamentaux & 203 entités synchronisées</span>
+        <span>Diplomacy Lab · 10 cours fondamentaux & 203 entités synchronisées</span>
       </div>
       <div class="topline-actions">
+        <button id="openSearchBtn" class="search-trigger-btn" type="button" aria-label="Recherche globale">
+          <span aria-hidden="true">🔍</span>
+          <span>Rechercher</span>
+          <kbd class="search-kbd">Ctrl K</kbd>
+        </button>
         <span class="xp-pill" title="Vos points de progression">⚡ <span class="user-xp-count" id="userXpPill">0 XP</span></span>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
           <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
@@ -519,9 +524,13 @@
         
         <div class="hero-actions">
           <a href="#fondamentaux" class="hero-btn-primary">
-            <span>Explorer les 5 concepts fondamentaux</span>
+            <span>Explorer les 10 concepts fondamentaux</span>
             <span aria-hidden="true">→</span>
           </a>
+          <button class="hero-btn-secondary" id="heroSearchBtn" data-search-trigger type="button">
+            <span>Recherche globale</span>
+            <kbd class="search-kbd" style="font-size:10px; background:rgba(0,0,0,0.08); padding:2px 6px; border-radius:3px; margin-left:4px; font-weight:800;">Ctrl K</kbd>
+          </button>
           <a href="monde.html" class="hero-btn-secondary">
             <span>Consulter l'Atlas mondial (203 pays)</span>
             <span aria-hidden="true">🌍</span>
@@ -535,9 +544,9 @@
         <!-- BANDEAU DES CHIFFRES CLÉS (KPI) -->
         <div class="kpi-strip" aria-label="Statistiques de la plateforme">
           <div class="kpi-item">
-            <div class="kpi-value">5<span>cours</span></div>
+            <div class="kpi-value">10<span>cours</span></div>
             <div class="kpi-label">Piliers fondamentaux</div>
-            <div class="kpi-desc">Souveraineté, Puissance, Intérêt, Anarchie & Interdépendance.</div>
+            <div class="kpi-desc">10 modules théoriques et stratégiques complets de L1 à M2.</div>
           </div>
           <div class="kpi-item">
             <div class="kpi-value">203<span>pays</span></div>
@@ -545,7 +554,7 @@
             <div class="kpi-desc">Données Banque Mondiale & ONU harmonisées à l'échelle planétaire.</div>
           </div>
           <div class="kpi-item">
-            <div class="kpi-value">5<span>quiz</span></div>
+            <div class="kpi-value">10<span>quiz</span></div>
             <div class="kpi-label">Évaluation active</div>
             <div class="kpi-desc">Moteur Duolingo-style avec validation instantanée et points XP.</div>
           </div>
@@ -692,7 +701,87 @@
               L'analyse des dépendances réciproques et asymétriques. L'interdépendance complexe de Keohane & Nye, la sensibilité versus vulnérabilité, et la militarisation des réseaux contemporains (<em>Weaponized Interdependence</em>).
             </p>
             <div class="concept-card-meta">
-              <span>Cours complet (9 parties) + Quiz</span>
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPTS 06 : ÉQUILIBRE DES PUISSANCES -->
+          <a href="equilibre-des-puissances.html" class="concept-card">
+            <div class="concept-card-head">
+              <span class="concept-card-num">06</span>
+              <span class="concept-card-level">L1 à M2 · Ordre Systémique & Alliances</span>
+            </div>
+            <h3>Équilibre des puissances</h3>
+            <p>
+              La mécanique d'autorégulation du système interétatique. De David Hume à Kenneth Waltz, analysez le Concert européen (1815), le dilemme <em>balancing</em> vs <em>bandwagoning</em> et la stabilité comparée de la multipolarité et de la bipolarité.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPTS 07 : DILEMME DE SÉCURITÉ -->
+          <a href="dilemme-de-securite.html" class="concept-card">
+            <div class="concept-card-head">
+              <span class="concept-card-num">07</span>
+              <span class="concept-card-level">L1 à M2 · Psychologie Stratégique & Escalade</span>
+            </div>
+            <h3>Dilemme de sécurité</h3>
+            <p>
+              Pourquoi la quête d'auto-préservation engendre mécaniquement l'insécurité collective. De John Herz à Robert Jervis, explorez la spirale des armements, l'avantage offensif/défensif, la crise de Cuba et les missiles hypersoniques.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPTS 08 : HÉGÉMONIE -->
+          <a href="hegemonie.html" class="concept-card">
+            <div class="concept-card-head">
+              <span class="concept-card-num">08</span>
+              <span class="concept-card-level">L1 à M2 · Économie Politique & Leadership</span>
+            </div>
+            <h3>Hégémonie & Biens Publics</h3>
+            <p>
+              L'ordre mondial a-t-il besoin d'un stabilisateur unique ? De Charles Kindleberger à Robert Cox et Ikenberry, décryptez la fourniture des biens publics mondiaux, la Pax Americana, la surextension impériale et le piège de Thucydide.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPTS 09 : GÉOPOLITIQUE -->
+          <a href="geopolitique.html" class="concept-card">
+            <div class="concept-card-head">
+              <span class="concept-card-num">09</span>
+              <span class="concept-card-level">L1 à M2 · Espaces & Théâtres Stratégiques</span>
+            </div>
+            <h3>Géopolitique & Espaces</h3>
+            <p>
+              L'étude des rivalités de pouvoir sur des territoires. Du <em>Heartland</em> de Mackinder au <em>Rimland</em> de Spykman et à Yves Lacoste, explorez les détroits maritimes (chokepoints), la bataille de l'Arctique et la vulnérabilité des câbles sous-marins.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPTS 10 : MULTILATÉRALISME -->
+          <a href="multilateralisme.html" class="concept-card">
+            <div class="concept-card-head">
+              <span class="concept-card-num">10</span>
+              <span class="concept-card-level">L1 à M2 · Droit & Gouvernance Mondiale</span>
+            </div>
+            <h3>Multilatéralisme & Diplomatie</h3>
+            <p>
+              La régulation des relations internationales par des principes partagés. De John Gerard Ruggie à la diplomatie de conférence, analysez l'indivisibilité, le blocage du Conseil de sécurité de l'ONU et de l'OMC, et l'essor du minilatéralisme.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
               <span aria-hidden="true">+30 XP →</span>
             </div>
           </a>
@@ -770,19 +859,25 @@
             <h3>Dossiers thématiques</h3>
             <p class="card-desc">Analyses transversales documentées sur les crises et mutations du système international.</p>
             <div style="margin-top: 14px; display:flex; flex-direction:column; gap:8px;">
-              <a href="dossier.html" style="text-decoration:none; display:block; padding:10px 12px; background:var(--paper); border:1px solid var(--line); border-radius:4px; transition:var(--transition);">
-                <div style="font-size:10px; font-weight:800; color:var(--accent); text-transform:uppercase;">Dossier Fondamental · L1 à M2</div>
-                <div style="font-size:12.5px; font-weight:700; color:var(--ink); margin-top:2px;">Comprendre les relations internationales</div>
+              <a href="dossier-ukraine.html" style="text-decoration:none; display:block; padding:10px 12px; background:var(--paper); border:1px solid var(--line); border-radius:4px; transition:var(--transition);">
+                <div style="font-size:10px; font-weight:800; color:var(--accent); text-transform:uppercase;">Nouveau Grand Dossier · M1 / M2</div>
+                <div style="font-size:12.5px; font-weight:700; color:var(--ink); margin-top:2px;">L'Ukraine et la crise de la sécurité européenne →</div>
               </a>
               <a href="dossier-taiwan.html" style="text-decoration:none; display:block; padding:10px 12px; background:var(--paper); border:1px solid var(--line); border-radius:4px; transition:var(--transition);">
-                <div style="font-size:10px; font-weight:800; color:var(--gold); text-transform:uppercase;">Nouveau Dossier · M1 / M2</div>
+                <div style="font-size:10px; font-weight:800; color:var(--gold); text-transform:uppercase;">Grand Dossier · M1 / M2</div>
                 <div style="font-size:12.5px; font-weight:700; color:var(--ink); margin-top:2px;">Géoéconomie des semi-conducteurs et Taïwan →</div>
               </a>
+              <a href="dossier.html" style="text-decoration:none; display:block; padding:10px 12px; background:var(--paper); border:1px solid var(--line); border-radius:4px; transition:var(--transition);">
+                <div style="font-size:10px; font-weight:800; color:var(--muted); text-transform:uppercase;">Dossier Fondamental · L1 à M2</div>
+                <div style="font-size:12.5px; font-weight:700; color:var(--ink); margin-top:2px;">Comprendre les 10 concepts fondamentaux →</div>
+              </a>
             </div>
-            <div style="margin-top:auto; padding-top:14px; display:flex; gap:12px; font-size:11.5px; font-weight:800;">
-              <a href="dossier-taiwan.html" style="color:var(--accent);">Dossier Taïwan →</a>
+            <div style="margin-top:auto; padding-top:14px; display:flex; flex-wrap:wrap; gap:8px; font-size:11.5px; font-weight:800;">
+              <a href="dossier-ukraine.html" style="color:var(--accent);">Ukraine →</a>
               <span style="color:var(--line);">·</span>
-              <a href="dossier.html" style="color:var(--gold);">Dossier Fondamental →</a>
+              <a href="dossier-taiwan.html" style="color:var(--gold);">Taïwan →</a>
+              <span style="color:var(--line);">·</span>
+              <a href="dossier.html" style="color:var(--ink-soft);">10 Concepts →</a>
             </div>
           </article>
 
@@ -1063,5 +1158,6 @@
       });
     }
   </script>
+  <script src="js/search-palette.js"></script>
 </body>
 </html>
