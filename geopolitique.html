@@ -1,0 +1,2237 @@
+<!DOCTYPE html>
+<html lang="fr" data-concept-id="geopolitique">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141c2e">
+  <meta name="description" content="La Géopolitique & les Espaces Stratégiques - Théories classiques (Mahan, Mackinder, Spykman), géopolitique critique (Lacoste), chokepoints et espaces stratégiques.">
+  <title>La Géopolitique & les Espaces Stratégiques - Diplomacy Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+/* ==========================================================================
+   DIPLOMACY LAB — FEUILLE DE STYLE COMMUNE (DESIGN SYSTEM)
+   Direction Artistique : Think Tank contemporain (Style IRIS / Institut d'Études Stratégiques)
+   Typographie : Plus Jakarta Sans (Halyard Grotesque alternative)
+   ========================================================================== */
+
+:root {
+  --ink: #141c2e;
+  --ink-soft: #303d52;
+  --paper: #f8f7f4;
+  --paper-card: #ffffff;
+  --muted: #647084;
+  --line: #dedbd3;
+  --accent: #a83d38;
+  --accent-soft: #f4e8e6;
+  --gold: #b18a51;
+  --gold-bright: #d9af5e;
+  --green: #246a48;
+  --green-soft: #e5f2eb;
+  --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --max: 1180px;
+  --radius: 6px;
+  --radius-lg: 10px;
+  --shadow-sm: 0 2px 8px rgba(20, 28, 46, 0.05);
+  --shadow-md: 0 8px 24px rgba(20, 28, 46, 0.08);
+  --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="dark"] {
+  --ink: #f4f2ee;
+  --ink-soft: #c6cbd4;
+  --paper: #0b111e;
+  --paper-card: #131b2c;
+  --muted: #8893a4;
+  --line: #222d42;
+  --accent: #e06d68;
+  --accent-soft: #321c1f;
+  --gold: #d4a96a;
+  --gold-bright: #e7cda7;
+  --green: #44a374;
+  --green-soft: #122b1f;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-body);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+a { color: inherit; text-decoration: none; }
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 4px;
+}
+.container { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
+
+/* TOPLINE */
+.topline { background: #0c1424; color: #f6f2e9; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.topline-inner { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.topline-status { display: inline-flex; align-items: center; gap: 8px; color: #d0d7e2; font-weight: 600; font-size: 11px; }
+.pulse-dot { width: 7px; height: 7px; background: #3ddc84; border-radius: 50%; box-shadow: 0 0 6px #3ddc84; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(.85); } }
+.topline-actions { display: flex; align-items: center; gap: 14px; }
+.topline a { color: #e7cda7; text-decoration: none; font-weight: 700; transition: color .15s ease; }
+.topline a:hover { color: #ffffff; }
+
+/* XP BADGE */
+.xp-pill {
+  display: inline-flex; align-items: center; gap: 5px; background: rgba(217, 175, 94, 0.15);
+  border: 1px solid var(--gold-bright); color: var(--gold-bright); font-size: 10.5px;
+  font-weight: 800; padding: 2px 8px; border-radius: 12px; letter-spacing: 0.04em;
+}
+
+.theme-toggle {
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+  color: #f6f2e9; font-size: 10.5px; font-weight: 700; letter-spacing: .06em;
+  padding: 4px 10px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+  font-family: var(--font-body); transition: var(--transition);
+}
+.theme-toggle:hover { background: rgba(255,255,255,0.18); }
+
+/* MASTHEAD */
+.masthead { background: var(--paper); border-bottom: 1px solid var(--line); }
+.masthead-inner { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+.brand { display: flex; align-items: center; gap: 14px; text-decoration: none; min-width: 0; }
+.brand-mark {
+  width: 42px; height: 42px; border: 2px solid var(--gold); border-radius: 6px;
+  display: grid; place-items: center; font-family: var(--font-display); font-size: 20px; font-weight: 800; flex: 0 0 auto;
+  background: var(--paper-card); color: var(--gold); box-shadow: var(--shadow-sm);
+}
+.brand-name { font-family: var(--font-display); font-size: 19px; font-weight: 800; letter-spacing: .08em; line-height: 1.1; color: var(--ink); }
+.brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 9.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+.masthead-note { max-width: 320px; text-align: right; color: var(--muted); font-family: var(--font-body); font-size: 13px; font-weight: 500; line-height: 1.5; }
+
+/* MAIN NAVIGATION */
+.main-nav { background: var(--paper-card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+.nav-inner { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.nav-links { display: flex; align-items: center; gap: clamp(14px, 2.2vw, 28px); overflow-x: auto; scrollbar-width: none; }
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a { white-space: nowrap; text-decoration: none; font-size: 12px; font-weight: 700; color: var(--ink-soft); padding: 15px 0 13px; border-bottom: 2px solid transparent; transition: var(--transition); letter-spacing: -0.01em; }
+.nav-links a:hover, .nav-links a.active { color: var(--accent); border-color: var(--accent); }
+.nav-links a.highlight-nav { color: var(--gold); font-weight: 800; }
+.nav-links a.highlight-nav:hover { border-color: var(--gold); }
+.nav-index { white-space: nowrap; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+/* BREADCRUMB */
+.breadcrumb {
+  display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 600;
+  color: var(--muted); padding: 18px 0 6px; text-transform: uppercase; letter-spacing: .05em;
+}
+.breadcrumb a { color: var(--muted); transition: color .15s ease; }
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb-sep { opacity: .5; }
+.breadcrumb-current { color: var(--ink); font-weight: 700; }
+
+/* FOOTER */
+footer { margin-top: 48px; padding: 34px 0; color: #d9dce2; background: #0c1424; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.footer-brand { font-family: var(--font-display); font-size: 13.5px; font-weight: 800; letter-spacing: .12em; color: #ffffff; }
+footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
+.footer-links { display: flex; gap: 18px; margin-top: 8px; font-size: 11px; }
+.footer-links a { color: #d0d7e2; transition: color .15s ease; }
+.footer-links a:hover { color: var(--gold-bright); }
+.footer-note { color: #e7cda7; font-family: var(--font-body); font-size: 13px; font-weight: 500; text-align: right; }
+
+@media (max-width: 760px) {
+  .container { width: min(100% - 32px, var(--max)); }
+  .masthead-inner { min-height: 80px; }
+  .masthead-note, .nav-index { display: none; }
+  .brand-mark { width: 36px; height: 36px; font-size: 18px; }
+  .brand-name { font-size: 17px; }
+  .nav-inner { min-height: 46px; }
+  .nav-links { width: 100%; gap: 16px; }
+  .nav-links a { font-size: 11px; padding: 14px 0 12px; }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+  .footer-note { text-align: left; }
+}
+
+/* ==========================================================================
+   DIPLOMACY LAB — MODULE PÉDAGOGIQUE (LEARNING.CSS)
+   Mise en page des cours académiques (9 sections normées + sommaire latéral)
+   ========================================================================== */
+
+/* LAYOUT GLOBAL DE COURS */
+.course-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 40px;
+  padding: 30px 0 60px;
+  align-items: start;
+}
+
+/* SOMMAIRE LATÉRAL FLOTTANT (STICKY TOC) */
+.course-toc {
+  position: sticky;
+  top: 70px;
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+}
+.toc-title {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--muted);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.toc-link {
+  display: block;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  padding: 5px 8px;
+  border-radius: 4px;
+  line-height: 1.35;
+  transition: var(--transition);
+  font-weight: 500;
+}
+.toc-link:hover, .toc-link.active {
+  background: rgba(177, 138, 81, 0.1);
+  color: var(--gold);
+  font-weight: 700;
+  transform: translateX(3px);
+}
+
+/* EN-TÊTE DU COURS */
+.course-header {
+  margin-bottom: 36px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.course-meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.tag-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 3px;
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+.tag-badge.level-tag { background: #0c1424; color: #f6f2e9; border-color: #0c1424; }
+.tag-badge.xp-tag { background: rgba(217,175,94,0.15); color: var(--gold); border-color: var(--gold-bright); }
+
+.course-title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4.5vw, 48px);
+  font-weight: 800;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  margin: 0 0 14px;
+  color: var(--ink);
+}
+.course-lead-def {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: 0 0 18px;
+  max-width: 780px;
+}
+.course-intro-question {
+  background: var(--paper-card);
+  border-left: 3px solid var(--gold);
+  border: 1px solid var(--line);
+  border-left-width: 4px;
+  border-left-color: var(--gold);
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  font-size: 13.5px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+/* SECTIONS DU COURS (9 PILLIERS) */
+.course-section {
+  margin-bottom: 44px;
+  scroll-margin-top: 80px;
+}
+.section-num-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.course-section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.6vw, 28px);
+  font-weight: 800;
+  letter-spacing: -.02em;
+  margin: 0 0 16px;
+  color: var(--ink);
+}
+.course-section p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+
+/* BLOC 2 : L'ESSENTIEL (KEY TAKEAWAYS) */
+.essential-box {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  margin: 16px 0;
+}
+.essential-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
+}
+.essential-item {
+  padding: 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.essential-item-num {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+.essential-item h4 {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+.essential-item p {
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* BLOC 4 : LE SAVAIS-TU ? */
+.did-you-know {
+  background: linear-gradient(135deg, rgba(217, 175, 94, 0.1) 0%, rgba(217, 175, 94, 0.03) 100%);
+  border: 1px solid var(--gold-bright);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  margin: 24px 0;
+  position: relative;
+}
+.did-you-know-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.did-you-know h4 {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.did-you-know p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* BLOC 5 : ÉTUDES DE CAS (GRID COMPARATIVE) */
+.cases-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 18px;
+}
+.case-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+.case-tag {
+  font-size: 9.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.case-card h4 {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.case-card p {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* BLOC 6 : DÉBATS & CONTROVERSES */
+.debates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 16px;
+}
+.debate-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+.debate-card h4 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+.debate-card p {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* BLOC 7 : TABLEAU / SYNTHÈSE À RETENIR */
+.synthesis-table-wrap {
+  overflow-x: auto;
+  margin: 18px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper-card);
+}
+.synthesis-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  text-align: left;
+}
+.synthesis-table th {
+  background: var(--paper);
+  padding: 12px 16px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.synthesis-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.synthesis-table tr:last-child td { border-bottom: none; }
+
+/* BLOC 8 : BIBLIOGRAPHIE ACADÉMIQUE */
+.biblio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.biblio-item {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.biblio-author { font-weight: 700; color: var(--ink); }
+.biblio-title { font-style: italic; color: var(--ink); }
+.biblio-details { color: var(--muted); font-size: 11px; margin-top: 2px; }
+
+/* BLOC 9 : ÉVALUATION & QUIZ CTA */
+.evaluation-block {
+  background: #0f1828;
+  color: #fffefa;
+  border-radius: var(--radius-lg);
+  padding: clamp(28px, 4vw, 42px);
+  box-shadow: var(--shadow-md);
+  margin-top: 30px;
+  border: 1px solid rgba(217, 175, 94, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+.evaluation-block h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+.evaluation-block p {
+  color: #cdd6e4;
+  font-size: 13.5px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 0 20px;
+}
+.quiz-launch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--gold-bright);
+  color: #0f1828;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  padding: 13px 26px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 14px rgba(217, 175, 94, 0.35);
+  transition: var(--transition);
+}
+.quiz-launch-btn:hover {
+  background: #f0c98f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(217, 175, 94, 0.45);
+}
+
+/* PASSERELLE CONCEPTUELLE INTER-CONCEPTS */
+.concept-bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.concept-bridge-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  transition: var(--transition);
+}
+.concept-bridge-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.concept-bridge-target {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.concept-bridge-target span.arrow {
+  color: var(--gold);
+  font-size: 14px;
+}
+.concept-bridge-card:hover .concept-bridge-target span.arrow {
+  color: var(--accent);
+}
+.concept-bridge-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* BANDEAU DE NAVIGATION INTER-COURS (CYCLE 10 CONCEPTS) */
+.course-pagination {
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 14px;
+  align-items: center;
+}
+.course-pagination-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: var(--transition);
+}
+.course-pagination-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-sm);
+}
+.course-pagination-link.prev {
+  text-align: left;
+}
+.course-pagination-link.next {
+  text-align: right;
+  justify-content: flex-end;
+}
+.pagination-arrow {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--gold);
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+.course-pagination-link:hover .pagination-arrow {
+  color: var(--accent);
+}
+.course-pagination-link.prev:hover .pagination-arrow {
+  transform: translateX(-3px);
+}
+.course-pagination-link.next:hover .pagination-arrow {
+  transform: translateX(3px);
+}
+.pagination-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.pagination-sub {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+}
+.pagination-title {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.course-pagination-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 9px 14px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.course-pagination-index:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--paper-card);
+}
+.course-pagination-index .grid-icon {
+  font-size: 15px;
+  line-height: 1;
+}
+@media (max-width: 768px) {
+  .course-pagination {
+    grid-template-columns: 1fr;
+  }
+  .course-pagination-index {
+    order: 3;
+  }
+}
+
+/* TEXTE DOCTRINAL FONDATEUR */
+.doctrinal-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.doctrinal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 800;
+  color: var(--gold);
+}
+.doctrinal-quote {
+  border-left: 3px solid var(--gold);
+  margin: 0 0 16px;
+  padding: 10px 0 10px 18px;
+  font-style: italic;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.doctrinal-analysis {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+/* ATELIER CONCOURS & DISSERTATION */
+.dissertation-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+}
+.dissertation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+.dissertation-subject {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dissertation-problematique {
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.plan-part {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.plan-part-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.plan-part ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* PIEGES ACADEMIQUES */
+.pitfalls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.pitfall-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.pitfall-item strong {
+  display: block;
+  color: var(--accent);
+  font-size: 11.5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
+@media (max-width: 900px) {
+  .plan-grid { grid-template-columns: 1fr; }
+  .course-layout { grid-template-columns: 1fr; }
+  .course-toc { display: none; }
+  .cases-grid { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   DIPLOMACY LAB — MOTEUR DE QUIZ (QUIZ.CSS)
+   Style inspiré des mécaniques d'engagement et de progression de Duolingo
+   Harmonisé avec la Direction Artistique Think Tank (IRIS / Plus Jakarta Sans)
+   ========================================================================== */
+
+/* CONTENEUR MODAL OU INLINE DU QUIZ */
+.quiz-engine-wrapper {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: clamp(20px, 3.5vw, 36px);
+  margin: 24px 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* BARRE DE PROGRESSION STEPPÉE */
+.quiz-top-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.quiz-progress-track {
+  flex: 1;
+  height: 10px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.quiz-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--gold) 0%, var(--gold-bright) 100%);
+  border-radius: 20px;
+  transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.quiz-xp-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--gold);
+  letter-spacing: .04em;
+}
+
+/* QUESTION */
+.quiz-scenario-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.quiz-prompt {
+  font-family: var(--font-display);
+  font-size: clamp(17px, 2.2vw, 22px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 0 0 24px;
+}
+
+/* CHOIX DE RÉPONSES */
+.quiz-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.quiz-option-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--paper);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-align: left;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+}
+.quiz-option-btn:hover:not(:disabled) {
+  border-color: var(--gold);
+  background: rgba(177, 138, 81, 0.06);
+  transform: translateY(-2px);
+  color: var(--ink);
+}
+.quiz-option-key {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  background: var(--paper-card);
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--muted);
+  flex: 0 0 auto;
+}
+.quiz-option-btn.selected {
+  border-color: var(--gold);
+  background: rgba(177, 138, 81, 0.12);
+  color: var(--ink);
+}
+.quiz-option-btn.selected .quiz-option-key {
+  background: var(--gold);
+  color: #fffefa;
+  border-color: var(--gold);
+}
+
+/* ÉTATS VALIDATION */
+.quiz-option-btn.correct {
+  border-color: var(--green) !important;
+  background: var(--green-soft) !important;
+  color: var(--green) !important;
+  font-weight: 700;
+}
+.quiz-option-btn.correct .quiz-option-key {
+  background: var(--green) !important;
+  color: #fffefa !important;
+  border-color: var(--green) !important;
+}
+.quiz-option-btn.wrong {
+  border-color: var(--accent) !important;
+  background: var(--accent-soft) !important;
+  color: var(--accent) !important;
+}
+.quiz-option-btn.wrong .quiz-option-key {
+  background: var(--accent) !important;
+  color: #fffefa !important;
+  border-color: var(--accent) !important;
+}
+
+/* TIROIR DE FEEDBACK (BAS DE PAGE) */
+.quiz-feedback-drawer {
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  margin-top: 8px;
+  display: none;
+  animation: slideUp 0.25s ease-out forwards;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.quiz-feedback-drawer.success {
+  background: var(--green-soft);
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+.quiz-feedback-drawer.error {
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+.feedback-headline {
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.feedback-explanation {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+
+/* ACTIONS */
+.quiz-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+.quiz-primary-btn {
+  background: var(--ink);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.quiz-primary-btn:hover:not(:disabled) {
+  background: var(--gold);
+  transform: translateY(-2px);
+}
+.quiz-primary-btn:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+/* ÉCRAN DE VICTOIRE / RÉSULTAT */
+.quiz-result-card {
+  text-align: center;
+  padding: 30px 20px;
+  animation: fadeIn 0.4s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+.result-crown {
+  font-size: 48px;
+  margin-bottom: 12px;
+  display: inline-block;
+  animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-8px); }
+}
+.quiz-result-card h3 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.quiz-result-card p {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 480px;
+  margin: 0 auto 24px;
+  line-height: 1.6;
+}
+.result-stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.result-stat-box {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 14px 22px;
+  border-radius: var(--radius);
+  min-width: 120px;
+}
+.result-stat-num {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--gold);
+}
+.result-stat-label {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+  <!-- BARRE SUPÉRIEURE (TOPLINE) -->
+  <div class="topline">
+    <div class="container topline-inner">
+      <div class="topline-status">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Cours Fondamental · Relations Internationales</span>
+      </div>
+      <div class="topline-actions">
+        <span class="xp-pill">⚡ <span class="user-xp-count">0 XP</span></span>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
+          <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
+        </button>
+        <a href="monde.html">Atlas mondial ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MASTHEAD ÉDITORIAL -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a class="brand" href="index.html" aria-label="Diplomacy Lab, accueil">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span>
+          <span class="brand-name">DIPLOMACY LAB</span>
+          <span class="brand-sub">Comprendre · Analyser · Transmettre</span>
+        </span>
+      </a>
+      <div class="masthead-note">« L'État souverain demeure la brique élémentaire de l'ordre mondial. »</div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION PRINCIPALE -->
+  <nav class="main-nav" aria-label="Navigation principale">
+    <div class="container nav-inner">
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="monde.html" class="highlight-nav">🌍 L'Atlas mondial</a>
+        <a href="index.html#fondamentaux" class="active">Concepts & théories</a>
+        <a href="dossier.html">Dossiers de fond</a>
+        <a href="index.html#apprendre">Quiz & Histoire</a>
+        <a href="index.html#parcours">Parcours académique</a>
+      </div>
+      <span class="nav-index">Module L1–M2 · Concept 01</span>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- FIL D'ARIANE -->
+    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+      <a href="index.html">Accueil</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="index.html#fondamentaux">Concepts</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">La Géopolitique & les Espaces Stratégiques</span>
+    </nav>
+
+    <div class="course-layout">
+      <!-- EN-TÊTE DU COURS -->
+      <header class="course-header" id="introduction">
+        <div class="course-badge">
+          <span class="badge-dot"></span>
+          <span>Études Stratégiques · Géopolitique & Espace · Cycle Supérieur</span>
+        </div>
+        <h1 class="course-title">La Géopolitique & les Espaces Stratégiques</h1>
+        <p class="course-subtitle">
+          Analyse approfondie des théories classiques (Mahan, Mackinder, Spykman), de la géopolitique critique (Lacoste), des goulets d'étranglement maritimes (chokepoints) et des nouveaux théâtres d'affrontement (Arctique, fonds marins, espace).
+        </p>
+
+        <div class="metadata-grid">
+          <div class="meta-item">
+            <span class="meta-label">Penseurs Cardinaux</span>
+            <span class="meta-value">H. Mackinder · A.T. Mahan · N. Spykman · Y. Lacoste</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Paradigmes</span>
+            <span class="meta-value">Géopolitique Classique · Géopolitique Critique · Géoéconomie</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Niveau d'Analyse</span>
+            <span class="meta-value">Théâtres Spatiaux · Milieux Stratégiques · Chokepoints</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Compétence Diplomatique</span>
+            <span class="meta-value">Analyse Spatiale · Maîtrise des Flux · Sanctuarisation</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- SECTION 1: PROBLEMATIQUE & REPERES L1 -> M2 -->
+      <section class="course-section" id="problematique">
+        <h2 class="section-title">
+          <span class="section-number">01</span>
+          Problématique Fondamentale & Trajectoire Pédagogique
+        </h2>
+        
+        <p class="section-lead">
+          La géographie physique, maritime et terrestre condamne-t-elle les nations à des rivalités perpétuelles et immuables, ou la géopolitique moderne est-elle une dialectique vivante entre représentations subjectives du territoire, militarisation des flux critiques et reconfiguration des nouveaux espaces de confrontation (fonds marins, orbite basse, cyberespace) ?
+        </p>
+
+        <p class="section-text">
+          Forgé en 1899 par le politologue suédois <strong>Rudolf Kjellén</strong>, le terme de <strong>géopolitique</strong> désignait originellement l'étude de l'État conçu comme un organisme biologique enraciné dans son sol et poussé par une nécessité vitale d'expansion spatiale. Longtemps compromise par les dérives bellicistes et déterministes de l'école allemande de Karl Haushofer (la notion de <em>Lebensraum</em> instrumentalisée par le nazisme), la géopolitique a été réinventée dans le dernier tiers du XXe siècle. Elle est aujourd'hui définie, selon les mots fondateurs d'<strong>Yves Lacoste</strong> (1976), comme <em>« l'étude des rivalités de pouvoir sur des territoires »</em> et sur les populations qui y résident, intégrant tant la matérialité des détroits maritimes et des ressources minérales que l'imaginaire cartographique et les représentations identitaires des peuples.
+        </p>
+
+        <div class="concept-pedagogical-grid">
+          <div class="pedagogical-card">
+            <div class="pedagogical-badge">L1 · Définition & Épistémologie</div>
+            <h4>Géographie Politique vs Géopolitique</h4>
+            <p>Distinction cardinale : la géographie politique décrit statiquement les découpages administratifs et frontaliers des États, tandis que la géopolitique étudie dynamiquement les rapports de force, les conflits d'usage et les stratégies de projection de puissance dans l'espace.</p>
+          </div>
+
+          <div class="pedagogical-card">
+            <div class="pedagogical-badge">L2 · Géopolitique Classique</div>
+            <h4>Terre vs Mer : Les Théories Fondatrices</h4>
+            <p>La rivalité archétypale entre la puissance maritime (le <em>Sea Power</em> d'Alfred T. Mahan) et la forteresse continentale invulnérable (le <em>Heartland</em> d'Halford Mackinder), complétée par la théorie du <em>Rimland</em> de Nicholas Spykman (la bande côtière eurasiatique comme clé de l'endiguement).</p>
+          </div>
+
+          <div class="pedagogical-card">
+            <div class="pedagogical-badge">L3 · Géopolitique Critique</div>
+            <h4>Représentations & Géographie Subjective (Lacoste)</h4>
+            <p>Déconstruction de l'illusion positiviste avec l'école d'Hérodote (Yves Lacoste) et la géopolitique critique anglo-saxonne (Ó Tuathail) : la géopolitique est indissociable des discours de légitimation, des représentations historiques contradictoires et de la manipulation des cartes.</p>
+          </div>
+
+          <div class="pedagogical-card">
+            <div class="pedagogical-badge">M1 · Géoéconomie & Flux Critiques</div>
+            <h4>Chokepoints & Goulots d'Étranglement</h4>
+            <p>La matérialité physique de la mondialisation : vulnérabilité extrême du commerce mondial à travers huit détroits et canaux stratégiques (Malacca, Ormuz, Bab-el-Mandeb, Bosphore, Suez, Panama), où l'interception de flux peut asphyxier des continents entiers.</p>
+          </div>
+
+          <div class="pedagogical-card" style="grid-column: 1 / -1;">
+            <div class="pedagogical-badge">M2 · Nouveaux Théâtres Multi-Milieux (M2MC)</div>
+            <h4>Arctique, Câbles Sous-Marins & Orbites Basses</h4>
+            <p>L'extension de la géopolitique aux espaces non souverains : la militarisation de l'Arctique déglacé, la dépendance critique envers les câbles sous-marins de fibre optique (acheminant 99 % du trafic internet mondial) et la colonisation de l'espace circumterrestre (constellations de satellites en orbite basse LEO).</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: ANATOMIE THEORIQUE -->
+      <section class="course-section" id="theorie">
+        <h2 class="section-title">
+          <span class="section-number">02</span>
+          Anatomie Théorique & Déconstruction Conceptuelle
+        </h2>
+
+        <div class="theoretical-pillars">
+          <div class="pillar-block">
+            <h3>A. La Puissance Maritime contre la Puissance Continentale (Mahan & Mackinder)</h3>
+            <p>
+              La géopolitique moderne s'est construite sur l'antagonisme élémentaire entre la Terre et la Mer :
+            </p>
+            <ul>
+              <li>
+                <strong>Alfred Thayer Mahan et le Sea Power (1890) :</strong> Dans <em>The Influence of Sea Power upon History</em>, l'amiral américain Mahan démontre que les grands empires victorieux (Rome, Grande-Bretagne) ont tous maîtrisé les océans. La liberté de circulation maritime, le contrôle des bases d'escale et la possession d'une marine de guerre de haute mer capable de détruire la flotte adverse en bataille décisive permettent d'imposer un blocus économique asphyxiant à toute puissance purement continentale.
+              </li>
+              <li>
+                <strong>Halford Mackinder et le Heartland (1904) :</strong> Dans <em>The Geographical Pivot of History</em>, le géographe britannique Mackinder renverse la vision thalassocratique. Avec l'avènement du chemin de fer et de la route transcontinentale, la mobilité terrestre surpasse désormais la lenteur maritime. Le cœur de l'Eurasie (la plaine sibérienne et centrasiatique, inaccessible aux marines océaniques) forme le <strong>Heartland</strong> (la région-pivot). Mackinder condense sa vision dans une formule célèbre : <em>« Qui contrôle l'Europe de l'Est commande le Heartland ; qui commande le Heartland commande l'Île-Monde ; qui commande l'Île-Monde commande le Monde »</em>.
+              </li>
+            </ul>
+          </div>
+
+          <div class="pillar-block">
+            <h3>B. Le Rimland et la Doctrine de l'Endiguement (Nicholas Spykman)</h3>
+            <p>
+              Professeur à l'université de Yale pendant la Seconde Guerre mondiale, <strong>Nicholas Spykman</strong> (<em>The Geography of the Peace</em>, 1944) rectifie la typologie de Mackinder. Pour Spykman, le véritable pivot de la puissance mondiale n'est pas le Heartland aride et gelé de l'intérieur de l'Eurasie, mais le <strong>Rimland</strong> : l'immense croissant littoral et intermédiaire qui borde le continent (Europe occidentale, Moyen-Orient, sous-continent indien, Asie du Sud-Est et Asie orientale).
+            </p>
+            <p>
+              Spykman reformule l'adage stratégique : <em>« Qui contrôle le Rimland gouverne l'Eurasie ; qui gouverne l'Eurasie contrôle les destinées du monde »</em>. Cette analyse a constitué la matrice intellectuelle et opérationnelle directe de la <strong>doctrine Truman</strong> et de la politique de l'endiguement (<em>containment</em>) théorisée par George Kennan : pour empêcher l'URSS soviétique de conquérir le Rimland, les États-Unis ont encerclé la masse continentale eurasiatique par un chapelet d'alliances militaires pérennes (l'OTAN à l'ouest, le CENTO au centre, l'ANZUS et les traités de sécurité bilatéraux avec le Japon et la Corée du Sud à l'est).
+            </p>
+          </div>
+
+          <div class="pillar-block">
+            <h3>C. La Révolution de la Géopolitique Critique (Yves Lacoste & l'École d'Hérodote)</h3>
+            <p>
+              En 1976, la publication par <strong>Yves Lacoste</strong> de son manifeste <em>La géographie, ça sert, d'abord, à faire la guerre</em> fait voler en éclats la géographie descriptive et complaisante enseignée dans les universités françaises. Lacoste réhabilite le mot « géopolitique » en l'arrachant au déterminisme racialiste et mécanique pour en faire une méthode d'analyse scientifique rigoureuse.
+            </p>
+            <p>
+              Pour l'école critique, l'espace n'est pas un décor passif : il est structuré par des <strong>représentations géopolitiques rivales</strong>. Les frontières, les noms de lieux, les tracés de fleuves et les mémoires historiques sont investis d'une charge affective et symbolique intense par les acteurs politiques pour mobiliser les masses (ex: l'idée de « frontières naturelles » en France, la « Terre d'Israël » ou la « Grande Russie »). L'analyse géopolitique consiste précisément à confronter les raisonnements cartographiques contradictoires défendus par chaque belligérant à différentes échelles d'observation spatiale (multiscalarité).
+            </p>
+          </div>
+
+          <div class="pillar-block">
+            <h3>D. La Géoéconomie et la Matérialité des Nouveaux Espaces</h3>
+            <p>
+              Théorisée par <strong>Edward Luttwak</strong> en 1990, la <strong>géoéconomie</strong> postule qu'avec la fin de la guerre froide, les conflits armés directs cèdent le pas à l'affrontement économique mondial : les armes ne sont plus les canons mais les barrières tarifaires, les investissements directs étrangers ciblés et le contrôle monopolistique des chaînes de valeur technologiques.
+            </p>
+            <p>
+              Cependant, cette dématérialisation apparente s'écrase sur une réalité physique inflexible : la dépendance physique des infrastructures critiques. 99 % des flux numériques intercontinentaux ne transitent pas par l'espace mais par des tuyaux de fibre optique posés au fond des océans (câbles sous-marins). Le blocage ou le sabotage de ces câbles, la piraterie dans le détroit de Bab-el-Mandeb ou l'accès aux terres rares et au lithium rappellent que l'économie moderne repose intégralement sur des ancrages territoriaux et géologiques d'une extrême vulnérabilité.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: PASSERELLE INTER-CONCEPTS -->
+      <section class="course-section" id="passerelles">
+        <h2 class="section-title">
+          <span class="section-number">03</span>
+          Passerelle Inter-Concepts & Cartographie Systémique
+        </h2>
+        
+        <p class="section-lead">
+          La dimension spatiale et géographique innerve l'intégralité des concepts fondamentaux de la discipline, leur conférant leur ancrage physique indispensable.
+        </p>
+
+        <div class="concept-bridge-grid">
+          <a href="souverainete.html" class="bridge-card">
+            <span class="bridge-tag">Assise Territoriale</span>
+            <div class="bridge-title">Géopolitique ↔ Souveraineté</div>
+            <p class="bridge-desc">
+              La souveraineté westphalienne n'existe pas dans le vide abstrait : elle requiert impérativement une assiette spatiale délimitée par des frontières internationalement reconnues, un espace aérien et une Zone Économique Exclusive (ZEE).
+            </p>
+          </a>
+
+          <a href="puissance.html" class="bridge-card">
+            <span class="bridge-tag">Multiplicateur Spatial</span>
+            <div class="bridge-title">Géopolitique ↔ Puissance</div>
+            <p class="bridge-desc">
+              La géographie agit comme un multiplicateur ou un carcan de la puissance : l'insularité océanique des États-Unis et de la Grande-Bretagne offre une sécurité stratégique inaccessible à un État enclavé au milieu de voisins hostiles.
+            </p>
+          </a>
+
+          <a href="interet-national.html" class="bridge-card">
+            <span class="bridge-tag">Sanctuarisation Vitale</span>
+            <div class="bridge-title">Géopolitique ↔ Intérêt National</div>
+            <p class="bridge-desc">
+              La définition concrète de l'intérêt national se traduit toujours par des impératifs spatiaux intangibles : sécurisation des frontières immédiates, accès garanti à la haute mer et contrôle des corridors d'approvisionnement énergétique.
+            </p>
+          </a>
+
+          <a href="dilemme-de-securite.html" class="bridge-card">
+            <span class="bridge-tag">Vulnérabilité de Contiguïté</span>
+            <div class="bridge-title">Géopolitique ↔ Dilemme de Sécurité</div>
+            <p class="bridge-desc">
+              L'absence de barrières géographiques naturelles (comme dans la grande plaine d'Europe du Nord reliant la France à la Russie) accentue dramatiquement la peur de l'invasion surprise et alimente la spirale du dilemme de sécurité.
+            </p>
+          </a>
+
+          <a href="equilibre-des-puissances.html" class="bridge-card">
+            <span class="bridge-tag">Géométrie des Coalitions</span>
+            <div class="bridge-title">Géopolitique ↔ Équilibre des Puissances</div>
+            <p class="bridge-desc">
+              L'équilibre n'est pas arithmétique mais spatial : il s'agit d'empêcher par des coalitions géographiques une puissance dominante d'unifier la masse eurasiatique (endiguement de Napoléon, de l'Allemagne impériale, puis de l'URSS).
+            </p>
+          </a>
+
+          <a href="hegemonie.html" class="bridge-card">
+            <span class="bridge-tag">Thalassocratie Mondiale</span>
+            <div class="bridge-title">Géopolitique ↔ Hégémonie</div>
+            <p class="bridge-desc">
+              Historiquement, les véritables hégémons mondiaux ont toujours été des puissances maritimes (Pax Britannica, Pax Americana) maîtresses des océans et des détroits mondiaux, tenant en respect les empires continentaux fermés.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <!-- SECTION 4: TEXTE DOCTRINAL FONDATEUR DECRYPTE -->
+      <section class="course-section" id="doctrine">
+        <h2 class="section-title">
+          <span class="section-number">04</span>
+          Texte Doctrinal Fondateur Décrypté
+        </h2>
+
+        <div class="doctrine-box">
+          <div class="doctrine-header">
+            <div>
+              <h3 class="doctrine-author">Halford J. Mackinder</h3>
+              <p class="doctrine-source">The Geographical Pivot of History (The Geographical Journal, Vol. 23, No. 4, avril 1904, pp. 421–437)</p>
+            </div>
+            <span class="doctrine-badge">Fondement Géopolitique Classique</span>
+          </div>
+
+          <div class="doctrine-quote">
+            « La vaste région de l'Eurasie septentrionale et intérieure, inaccessible aux navires de mer mais jadis ouverte aux cavaliers nomades, est aujourd'hui sur le point de se couvrir d'un réseau serré de chemins de fer. Il y a là, et il y a toujours eu, les conditions structurales nécessaires à la formation d'une puissance militaire et économique colossale.<br><br>
+            La Russie remplace l'Empire mongol. Sa pression sur la Finlande, sur la Scandinavie, sur la Pologne, sur la Turquie, sur la Perse, sur l'Inde et sur la Chine vient se substituer aux raids destructeurs des cavaliers des steppes. Dans le monde entier, elle occupe la position stratégique centrale occupée par l'Allemagne en Europe.<br><br>
+            L'espace pivot de la politique mondiale est cette immense aire eurasienne. Si la Russie s'alliait à l'Allemagne, l'espace continental défierait alors la domination des empires maritimes, et le contrôle du monde serait à portée de main. »
+          </div>
+
+          <div class="doctrine-analysis">
+            <h4>Exégèse Analytique & Portée Stratégique</h4>
+            <div class="exegesis-grid">
+              <div class="exegesis-item">
+                <span class="exegesis-num">1</span>
+                <div>
+                  <strong>La Clôture de l'Époque Colombienne :</strong>
+                  Mackinder pose un diagnostic historique fondamental : pendant quatre siècles (1500-1900), l'expansion maritime européenne (l'époque colombienne) a dominé le globe grâce à la voile puis à la vapeur. En 1904, le globe est devenu un « système fermé » entièrement cartographié et approprié : toute expansion d'une puissance se fait désormais au détriment direct d'une autre.
+                </div>
+              </div>
+
+              <div class="exegesis-item">
+                <span class="exegesis-num">2</span>
+                <div>
+                  <strong>La Révolution Technologique du Rail :</strong>
+                  Le cœur de l'argument de Mackinder est technologique. Le train transsibérien brise la supériorité logistique de la marine britannique. Pour la première fois dans l'histoire, la masse continentale peut transporter des armées, du charbon et du blé plus vite et plus sûrement à travers les plaines que les navires marchands contournant les caps océaniques.
+                </div>
+              </div>
+
+              <div class="exegesis-item">
+                <span class="exegesis-num">3</span>
+                <div>
+                  <strong>Le Cauchemar Pérenne des Puissances Anglo-Saxonnes :</strong>
+                  La mise en garde finale de Mackinder — l'alliance cauchemardesque entre l'immensité territoriale/ressources de la Russie et la puissance industrielle/technique de l'Allemagne — a guidé toute la diplomatie britannique puis américaine du XXe siècle, de la Première Guerre mondiale à la doctrine du Containment de la guerre froide, et résonne aujourd'hui dans l'axe sino-russe contemporain.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: CASUS BELLI & ETUDES STRATEGIQUES -->
+      <section class="course-section" id="cas-pratiques">
+        <h2 class="section-title">
+          <span class="section-number">05</span>
+          Casus Belli & Études Stratégiques Réelles
+        </h2>
+
+        <div class="case-studies-grid">
+          <div class="case-card">
+            <div class="case-header">
+              <span class="case-tag">Goulot d'Étranglement</span>
+              <h4>Le « Dilemme de Malacca » de la Chine</h4>
+            </div>
+            <p class="case-body">
+              Formulé en 2003 par le président chinois Hu Jintao, le « dilemme de Malacca » désigne la vulnérabilité existentielle de la deuxième économie mondiale : plus de 80 % de ses importations de pétrole brut et une part massive de son commerce passent par le détroit de Malacca, étroit couloir maritime sous surveillance directe de la VIIe Flotte américaine. C'est pour contourner ce piège géographique que Pékin a déployé les corridors terrestres de la <em>Belt and Road Initiative</em> (corridor économique sino-pakistanais vers le port de Gwadar et gazoducs birmans).
+            </p>
+            <div class="case-footer">
+              <span class="case-metric">Trafic : <strong>~100 000 navires/an</strong></span>
+              <span class="case-metric">Contournement : <strong>Corridor CPEC · Gwadar</strong></span>
+            </div>
+          </div>
+
+          <div class="case-card">
+            <div class="case-header">
+              <span class="case-tag">Plaine Européenne & Profondeur</span>
+              <h4>L'Ukraine et la Quête Russe de Profondeur Stratégique</h4>
+            </div>
+            <p class="case-body">
+              Dépourvue de barrière orographique entre les Carpates et l'Oural, la Russie souffre d'un traumatisme géographique immémorial né des invasions subies par la grande plaine d'Europe du Nord (Polonais en 1612, Napoléon en 1812, l'Allemagne en 1914 et 1941). La quête obsessionnelle d'un glacis protecteur (<em>glubina</em>) et le refus de voir l'OTAN border sa frontière sud-ouest éclairent la dimension géopolitique fondamentale de la guerre en Ukraine, complétée par la sanctuarisation de la base navale de Sébastopol en mer Noire pour préserver son accès aux mers chaudes.
+            </p>
+            <div class="case-footer">
+              <span class="case-metric">Terrain : <strong>Plaine Nord-Européenne</strong></span>
+              <span class="case-metric">Enjeu Maritime : <strong>Sébastopol · Mer Noire</strong></span>
+            </div>
+          </div>
+
+          <div class="case-card">
+            <div class="case-header">
+              <span class="case-tag">Guerre Asymétrique des Détroits</span>
+              <h4>Bab-el-Mandeb et la Crise de la Mer Rouge (2023–2024)</h4>
+            </div>
+            <p class="case-body">
+              En ciblant les navires de commerce transitant par le détroit de Bab-el-Mandeb à l'aide de drones suicides et de missiles antinavires à faible coût, les rebelles yéménites Houthis ont démontré qu'un acteur asymétrique localisé sur un chokepoint stratégique pouvait paralyser 12 % du commerce mondial. Le détournement massif des porte-conteneurs par le cap de Bonne-Espérance (+10 à 14 jours de mer, surcoûts colossaux de carburant et primes d'assurance) a illustré l'extrême vulnérabilité de l'infrastructure maritime planétaire.
+            </p>
+            <div class="case-footer">
+              <span class="case-metric">Étroitesse : <strong>29 km de large</strong></span>
+              <span class="case-metric">Impact : <strong>Détournement Cap de Bonne-Espérance</strong></span>
+            </div>
+          </div>
+
+          <div class="case-card">
+            <div class="case-header">
+              <span class="case-tag">Nouveau Front Boréal</span>
+              <h4>L'Arctique : Dégel, Route du Nord et Militarisation</h4>
+            </div>
+            <p class="case-body">
+              La fonte accélérée de la banquise polaire transforme l'Arctique d'un désert de glace inviolable en une autoroute maritime majeure et un gisement d'hydrocarbures disputé (30 % des réserves mondiales de gaz non découvertes selon l'USGS). La Route Maritime du Nord (NSR) contrôlée par la Russie raccourcit de 40 % le trajet maritime entre l'Europe et l'Asie orientale par rapport au canal de Suez, provoquant une remilitarisation de la péninsule de Kola et une confrontation diplomatique aiguë au sein du Conseil de l'Arctique.
+            </p>
+            <div class="case-footer">
+              <span class="case-metric">Gain Trajet : <strong>-40% Europe-Asie (NSR)</strong></span>
+              <span class="case-metric">Piliers : <strong>Flotte de brise-glaces nucléaires</strong></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: ATELIER DE L'ANALYSTE & SUJET TYPE CONCOURS -->
+      <section class="course-section" id="concours">
+        <h2 class="section-title">
+          <span class="section-number">06</span>
+          L'Atelier de l'Analyste & Sujet Type Concours
+        </h2>
+
+        <div class="dissertation-lab">
+          <div class="subject-box">
+            <span class="subject-tag">Épreuve de Questions Internationales / Relations Internationales · ENA/INSP, ENS, Cadre Orient</span>
+            <h3 class="subject-title">« La mondialisation et les technologies numériques ont-elles aboli la tyrannie de la géographie ? »</h3>
+            <p class="subject-intro">
+              <strong>Cadrage Méthodologique de l'Épreuve :</strong> Le sujet invite à confronter les théories optimistes de la déterritorialisation et du « village global » à la persistance têtue des contraintes physiques, des rivalités territoriales et de la matérialité spatiale des infrastructures contemporaines.
+            </p>
+          </div>
+
+          <div class="problematique-box">
+            <h4>Problématique Académique Qualifiée</h4>
+            <p>
+              Dans quelle mesure l'instantanéité des flux numériques et la transnationalisation des échanges économiques ont-elles libéré les relations internationales des servitudes de l'espace physique, ou n'ont-elles fait que masquer et complexifier l'ancrage territorial invariable des puissances, en réactivant les rivalités pour les goulets d'étranglement matériels et en spatialisant de nouveaux milieux de confrontation ?
+            </p>
+          </div>
+
+          <div class="plan-detail">
+            <h4>Plan Stratégique Détaillé en Deux Parties</h4>
+            
+            <div class="plan-part">
+              <div class="part-header">
+                <span class="part-roman">I</span>
+                <h5>L'Illusion Transitoire d'une Apolitique de l'Espace : La Promesse de Déterritorialisation par la Vitesse et les Réseaux</h5>
+              </div>
+              <div class="part-content">
+                <div class="subpart">
+                  <h6>A. L'effacement apparent des distances par l'instantanéité technologique et financière</h6>
+                  <p>La thèse de la « fin de la géographie » (Richard O'Brien, 1992) : l'interconnexion planétaire, le cyberespace immatériel et les marchés boursiers interconnectés en continu semblaient rendre la géodécision territoriale obsolète au profit de la gouvernance par flux.</p>
+                </div>
+                <div class="subpart">
+                  <h6>B. L'avènement des espaces communs et de la gouvernance post-frontalière</h6>
+                  <p>La doctrine des « biens communs mondiaux » (mer libre, espace extra-atmosphérique pacifié, conventions internationales régulant les pôles) semblant substituer la coopération multilatérale normée aux luttes d'appropriation territoriale westphaliennes.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="plan-part">
+              <div class="part-header">
+                <span class="part-roman">II</span>
+                <h5>La Revanche de la Géographie : La Matérialité Inflexible des Flux et la Territorialisation des Nouveaux Milieux</h5>
+              </div>
+              <div class="part-content">
+                <div class="subpart">
+                  <h6>A. La vulnérabilité persistante des chokepoints et le retour des conflits de souveraineté territoriale</h6>
+                  <p>L'extrême dépendance du commerce physique mondial envers les détroits maritimes névralgiques (Malacca, Bab-el-Mandeb, Ormuz) et le retour sanglant des guerres de frontières étatiques en Europe (Ukraine, Haut-Karabagh) et en Asie (détroit de Taïwan, mer de Chine méridionale).</p>
+                </div>
+                <div class="subpart">
+                  <h6>B. La spatialisation des espaces virtuels et la course aux nouveaux sanctuaires physiques</h6>
+                  <p>La matérialité concrète du monde virtuel : l'impératif de protection des câbles sous-marins et des centres de données, la bataille géologique pour les terres rares et les métaux critiques, et la militarisation de l'orbite basse (espace exo-atmosphérique comme nouveau théâtre opérationnel).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pitfalls-box">
+            <h4>Trois Pièges Rédhibitoires du Sujet</h4>
+            <div class="pitfalls-list">
+              <div class="pitfall-item">
+                <span class="pitfall-icon">⚠️</span>
+                <div>
+                  <strong>Céder au Déterminisme Géographique Simpliste :</strong>
+                  Évitez d'affirmer que « la géographie fait le destin des peuples » de manière mécanique. Comme l'a montré Yves Lacoste, les montagnes et les mers n'agissent que par le prisme des choix politiques, des technologies disponibles et des représentations subjectives des décideurs.
+                </div>
+              </div>
+              <div class="pitfall-item">
+                <span class="pitfall-icon">⚠️</span>
+                <div>
+                  <strong>Oublier la Matérialité Physique du Cyberespace :</strong>
+                  Ne traitez pas internet comme un nuage magique ou un « cloud » éthéré. Internet est constitué d'infrastructures physiques concrètes soumises à la souveraineté territoriale des États : stations d'atterrissement de câbles, usines de fonderie de silicium (TSMC à Taïwan) et serveurs refroidis par de l'eau réelle.
+                </div>
+              </div>
+              <div class="pitfall-item">
+                <span class="pitfall-icon">⚠️</span>
+                <div>
+                  <strong>Négliger les Échelles Multiples (Multiscalarité) :</strong>
+                  Une analyse géopolitique d'excellence doit toujours combiner l'échelle locale (un port, un détroit, une vallée fluviale), l'échelle régionale (le théâtre indo-pacifique) et l'échelle globale (l'équilibre systémique mondial).
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: SYNTHESE MATRICIELLE & BIBLIOGRAPHIE CERTIFIEE -->
+      <section class="course-section" id="synthese">
+        <h2 class="section-title">
+          <span class="section-number">07</span>
+          Synthèse Matricielle & Bibliographie Certifiée
+        </h2>
+
+        <div class="matrix-wrapper">
+          <table class="concept-matrix-table">
+            <thead>
+              <tr>
+                <th>École Géopolitique</th>
+                <th>Penseurs Repères</th>
+                <th>Concept Pivot</th>
+                <th>Théâtre Stratégique Décisif</th>
+                <th>Limite ou Critique Principale</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Thalassocratie Classique</strong></td>
+                <td>Alfred Thayer Mahan (1890)</td>
+                <td><em>Sea Power</em> & Blocus Maritime</td>
+                <td>Océans ouverts, lignes de communication maritimes (SLOCs)</td>
+                <td>Sous-estimation de la résilience et des ressources internes des empires continentaux</td>
+              </tr>
+              <tr>
+                <td><strong>Tellurocratie & Espace Pivot</strong></td>
+                <td>Halford Mackinder (1904)</td>
+                <td><em>Heartland</em> & Île-Monde</td>
+                <td>Plaine eurasienne intérieure, chemins de fer continentaux</td>
+                <td>Sous-évaluation de la puissance côtière et du commerce maritime mondial</td>
+              </tr>
+              <tr>
+                <td><strong>Théorie du Croissant Médian</strong></td>
+                <td>Nicholas Spykman (1944)</td>
+                <td><em>Rimland</em> & Endiguement</td>
+                <td>Ceinture littorale eurasiatique (Europe, Moyen-Orient, Asie de l'Est)</td>
+                <td>Risque d'engagements militaires illimités et coûteux le long de la périphérie</td>
+              </tr>
+              <tr>
+                <td><strong>Géopolitique Critique & Hérodote</strong></td>
+                <td>Yves Lacoste (1976) · Ó Tuathail (1996)</td>
+                <td>Représentations & Multiscalarité</td>
+                <td>Territoires contestés, représentations cartographiques, discours</td>
+                <td>Complexité analytique parfois réticente à fournir des doctrines d'action directe</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bibliography-shelf">
+          <h3 class="shelf-title">Références Académiques Indispensables</h3>
+          <div class="books-grid">
+            <div class="book-card">
+              <span class="book-year">1890</span>
+              <h4 class="book-title">The Influence of Sea Power upon History</h4>
+              <p class="book-author">Alfred Thayer Mahan</p>
+              <p class="book-summary">L'ouvrage canonique fondant la doctrine de la puissance navale américaine et l'impératif du contrôle des voies océaniques mondiales.</p>
+            </div>
+
+            <div class="book-card">
+              <span class="book-year">1904</span>
+              <h4 class="book-title">The Geographical Pivot of History</h4>
+              <p class="book-author">Halford J. Mackinder</p>
+              <p class="book-summary">L'article séminal théorisant le Heartland et redéfinissant la dynamique géopolitique de la masse eurasienne face aux puissances de la périphérie.</p>
+            </div>
+
+            <div class="book-card">
+              <span class="book-year">1944</span>
+              <h4 class="book-title">The Geography of the Peace</h4>
+              <p class="book-author">Nicholas J. Spykman</p>
+              <p class="book-summary">Le traité visionnaire établissant la centralité géostratégique du Rimland, matrice opérationnelle directe du Containment durant la guerre froide.</p>
+            </div>
+
+            <div class="book-card">
+              <span class="book-year">1976</span>
+              <h4 class="book-title">La géographie, ça sert, d'abord, à faire la guerre</h4>
+              <p class="book-author">Yves Lacoste</p>
+              <p class="book-summary">Le pamphlet fondateur de l'école française moderne démontrant la nature intrinsèquement stratégique et politique de l'analyse spatiale.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 8: EVALUATION FORMATIVE (QUIZ) -->
+      <section class="course-section" id="evaluation">
+        <h2 class="section-title">
+          <span class="section-number">08</span>
+          Évaluation Formative & Scénarios Décisionnels
+        </h2>
+
+        <div class="quiz-starter-block" id="quizStarterBlock">
+          <div class="starter-icon">🧭</div>
+          <div class="starter-content">
+            <h3>Testez Votre Maîtrise des Espaces Stratégiques et de la Géopolitique</h3>
+            <p>5 questions d'examen et scénarios spatiaux vérifiés pour valider votre compréhension des chokepoints, des doctrines de puissance et décrocher vos points d'expérience (XP).</p>
+            <div class="starter-perks">
+              <span>⏱️ ~3 minutes</span>
+              <span>📈 5 questions approfondies</span>
+              <span>🏆 +30 XP Validation</span>
+            </div>
+          </div>
+          <button class="btn-primary" id="startCourseQuizBtn">Lancer l'Évaluation Formative</button>
+        </div>
+
+        <div id="quizContainer" style="display: none;"></div>
+      </section>
+
+      <!-- BANDEAU DE NAVIGATION INTER-COURS (CYCLE 15 CONCEPTS) -->
+      <nav class="course-pagination" aria-label="Navigation entre les cours">
+        <a href="multilateralisme.html" class="course-pagination-link prev">
+          <span class="pagination-arrow" aria-hidden="true">←</span>
+          <div class="pagination-info">
+            <span class="pagination-sub">Concept précédent (09)</span>
+            <span class="pagination-title">Le Multilatéralisme</span>
+          </div>
+        </a>
+        <a href="index.html#fondamentaux" class="course-pagination-index" title="Sommaire des 15 concepts">
+          <span class="grid-icon">▦</span>
+          <span>Tous les concepts (15)</span>
+        </a>
+        <a href="dissuasion-nucleaire.html" class="course-pagination-link next">
+          <div class="pagination-info">
+            <span class="pagination-sub">Concept suivant (11)</span>
+            <span class="pagination-title">La Dissuasion Nucléaire</span>
+          </div>
+          <span class="pagination-arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+
+  </main>
+
+  <!-- PIED DE PAGE -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">DIPLOMACY LAB</div>
+        <p>Observatoire et laboratoire académique des relations internationales.</p>
+        <div class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="monde.html">Atlas mondial</a>
+          <a href="dossier.html">Dossiers de référence</a>
+        </div>
+      </div>
+      <div class="footer-note">Comprendre le monde, une idée à la fois.</div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS D'INTERACTIVITÉ -->
+  <script>
+// ==========================================================================
+// DIPLOMACY LAB — SYSTÈME DE PROGRESSION & GAMIFICATION (PROGRESS.JS)
+// Gestion des points d'expérience (XP), concepts étudiés, quiz et badges
+// Sauvegarde persistante locale via localStorage
+// ==========================================================================
+
+(function() {
+  const STORAGE_KEY = "diplomacy_lab_progress_v1";
+
+  const defaultState = {
+    xp: 0,
+    conceptsRead: {},
+    quizzesCompleted: {},
+    badges: [],
+    level: 1,
+    lastActive: new Date().toISOString()
+  };
+
+  const BADGE_DEFINITIONS = [
+    {
+      id: "premier-pas",
+      title: "Premier Pas Diplomatique",
+      desc: "Avoir exploré votre premier grand concept de relations internationales.",
+      icon: "🌱"
+    },
+    {
+      id: "maitre-westphalie",
+      title: "Traité de Westphalie",
+      desc: "Avoir validé avec succès le quiz sur la Souveraineté.",
+      icon: "🏛️"
+    },
+    {
+      id: "stratege-puissance",
+      title: "Stratège Réaliste",
+      desc: "Avoir validé le quiz sur la Puissance et les rapports de force.",
+      icon: "⚡"
+    },
+    {
+      id: "cent-xp",
+      title: "Attaché d'Ambassade",
+      desc: "Avoir accumulé plus de 100 points d'expérience (XP).",
+      icon: "🎖️"
+    },
+    {
+      id: "grand-diplomate",
+      title: "Ambassadeur Plénipotentiaire",
+      desc: "Avoir exploré tous les grands concepts fondamentaux.",
+      icon: "🌍"
+    }
+  ];
+
+  function loadState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        return Object.assign({}, defaultState, JSON.parse(saved));
+      }
+    } catch (e) {
+      console.warn("Impossible de charger la progression :", e);
+    }
+    return Object.assign({}, defaultState);
+  }
+
+  function saveState(state) {
+    try {
+      state.lastActive = new Date().toISOString();
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {
+      console.warn("Impossible de sauvegarder la progression :", e);
+    }
+  }
+
+  const ProgressManager = {
+    getState: function() {
+      return loadState();
+    },
+
+    getXP: function() {
+      return loadState().xp;
+    },
+
+    addXP: function(amount, reason) {
+      const state = loadState();
+      state.xp = (state.xp || 0) + amount;
+      this.checkBadges(state);
+      saveState(state);
+      this.syncHeaderXP();
+      console.log(`[Diplomacy Lab] +${amount} XP accordés (${reason}). Total : ${state.xp} XP`);
+      return state.xp;
+    },
+
+    markConceptRead: function(conceptId) {
+      const state = loadState();
+      if (!state.conceptsRead[conceptId]) {
+        state.conceptsRead[conceptId] = new Date().toISOString();
+        state.xp = (state.xp || 0) + 15; // +15 XP première lecture
+        this.checkBadges(state);
+        saveState(state);
+        this.syncHeaderXP();
+      }
+    },
+
+    saveQuizResult: function(conceptId, score, maxScore, earnedXP) {
+      const state = loadState();
+      const previous = state.quizzesCompleted[conceptId] || { bestScore: 0 };
+      const isNewBest = score > previous.bestScore;
+
+      state.quizzesCompleted[conceptId] = {
+        lastScore: score,
+        maxScore: maxScore,
+        bestScore: Math.max(previous.bestScore, score),
+        date: new Date().toISOString()
+      };
+
+      if (earnedXP > 0) {
+        state.xp = (state.xp || 0) + earnedXP;
+      }
+
+      this.checkBadges(state, conceptId, score, maxScore);
+      saveState(state);
+      this.syncHeaderXP();
+
+      return {
+        bestScore: state.quizzesCompleted[conceptId].bestScore,
+        totalXP: state.xp
+      };
+    },
+
+    checkBadges: function(state, lastConcept, lastScore, lastMax) {
+      state.badges = state.badges || [];
+
+      // Badge 1 : Premier pas
+      if (Object.keys(state.conceptsRead).length >= 1 && !state.badges.includes("premier-pas")) {
+        state.badges.push("premier-pas");
+      }
+
+      // Badge 2 : Westphalie
+      if (lastConcept === "souverainete" && lastScore >= (lastMax * 0.7) && !state.badges.includes("maitre-westphalie")) {
+        state.badges.push("maitre-westphalie");
+      }
+
+      // Badge 3 : Puissance
+      if (lastConcept === "puissance" && lastScore >= (lastMax * 0.7) && !state.badges.includes("stratege-puissance")) {
+        state.badges.push("stratege-puissance");
+      }
+
+      // Badge 4 : 100 XP
+      if (state.xp >= 100 && !state.badges.includes("cent-xp")) {
+        state.badges.push("cent-xp");
+      }
+
+      // Badge 5 : Tous les concepts
+      const coreConcepts = ["souverainete", "puissance", "interet-national", "anarchie-internationale", "interdependance"];
+      const allRead = coreConcepts.every(c => state.conceptsRead[c]);
+      if (allRead && !state.badges.includes("grand-diplomate")) {
+        state.badges.push("grand-diplomate");
+      }
+    },
+
+    getEarnedBadges: function() {
+      const state = loadState();
+      return BADGE_DEFINITIONS.filter(b => (state.badges || []).includes(b.id));
+    },
+
+    syncHeaderXP: function() {
+      const state = loadState();
+      const elements = document.querySelectorAll(".user-xp-count, #headerXP");
+      elements.forEach(el => {
+        el.textContent = `${state.xp} XP`;
+      });
+    }
+  };
+
+  window.ProgressManager = ProgressManager;
+
+  // Synchronisation automatique au chargement de la page
+  document.addEventListener("DOMContentLoaded", function() {
+    ProgressManager.syncHeaderXP();
+  });
+})();
+
+// ==========================================================================
+// DIPLOMACY LAB — BANQUE DE QUESTIONS : SOUVERAINETÉ
+// Questions académiques vérifiées pour le moteur de quiz
+// ==========================================================================
+
+window.QUIZ_GEOPOLITIQUE = [
+  {
+    type: "mcq",
+    tag: "Théorie Classique de l'Espace Pivot",
+    prompt: "Quelle région géographique Halford Mackinder qualifie-t-il de 'Heartland' (le cœur du monde) dans sa conférence célèbre de 1904 ?",
+    options: [
+      "Le bassin méditerranéen et le canal de Suez.",
+      "L'immense plaine intérieure et septentrionale de l'Eurasie (Sibérie et Asie centrale), inaccessible aux flottes de haute mer.",
+      "Le continent nord-américain entre l'Atlantique et le Pacifique."
+    ],
+    correctIndex: 1,
+    explanation: "Dans 'The Geographical Pivot of History', Mackinder identifie le Heartland comme la forteresse continentale imprenable par la mer, dont le désenclavement ferroviaire menaçait la suprématie des empires maritimes."
+  },
+  {
+    type: "mcq",
+    tag: "Doctrine de l'Endiguement & Rimland",
+    prompt: "Selon Nicholas Spykman (1944), quel espace constitue la clé véritable du contrôle de l'Eurasie et du destin géopolitique mondial ?",
+    options: [
+      "Le Rimland (le croissant maritime et littoral qui ceinture l'Eurasie, de l'Europe de l'Ouest au Japon).",
+      "Le Sahara central.",
+      "L'océan Arctique et le pôle Nord."
+    ],
+    correctIndex: 0,
+    explanation: "Pour Spykman, 'qui contrôle le Rimland gouverne l'Eurasie'. Sa thèse est devenue la matrice opérationnelle du Containment américain (OTAN, CENTO, alliances en Asie) pour encercler le bloc soviétique."
+  },
+  {
+    type: "mcq",
+    tag: "École Critique Française & Méthodologie",
+    prompt: "Quelle est la définition fondamentale de la géopolitique établie par Yves Lacoste dans la revue 'Hérodote' en 1976 ?",
+    options: [
+      "La fatalité mathématique qui condamne les petits États à être envahis par les grands.",
+      "L'étude des rivalités de pouvoir sur des territoires et sur les populations qui y vivent, à différentes échelles et à travers des représentations subjectives rivales.",
+      "La mesure statistique de la superficie des terres arables d'un pays."
+    ],
+    correctIndex: 1,
+    explanation: "Lacoste a déconstruit le déterminisme spatial en démontrant que la géopolitique porte sur les conflits de pouvoir territoriaux et la confrontation d'imaginaires et de représentations historiques concurrentes."
+  },
+  {
+    type: "mcq",
+    tag: "Géoéconomie & Chokepoints",
+    prompt: "Qu'est-ce que le 'dilemme de Malacca', formulé en 2003 par les plus hautes autorités chinoises ?",
+    options: [
+      "L'incapacité de la marine chinoise à construire des porte-avions.",
+      "La dépendance vitale et la vulnérabilité de la Chine dont plus de 80 % des approvisionnements pétroliers transitent par un étroit détroit sous surveillance de l'US Navy.",
+      "Un différend frontalier avec la Malaisie concernant la pêche côtière."
+    ],
+    correctIndex: 1,
+    explanation: "Ce dilemme stratégique explique la priorité accordée par Pékin aux corridors terrestres de la 'Belt and Road Initiative' (ports de Gwadar au Pakistan, gazoducs birmans) pour contourner un éventuel blocus naval à Malacca."
+  },
+  {
+    type: "mcq",
+    tag: "Infrastructures Critiques Contemporaines",
+    prompt: "Par quel vecteur matériel s'effectue aujourd'hui le transit de 99 % des données de l'internet mondial et des transactions financières transfrontalières ?",
+    options: [
+      "Les constellations de satellites en orbite basse (type Starlink).",
+      "Les câbles sous-marins de fibre optique posés au fond des mers et océans.",
+      "Les liaisons radioélectriques terrestres haute fréquence."
+    ],
+    correctIndex: 1,
+    explanation: "Contrairement au mythe d'un cyberespace entièrement éthéré et satellitaire, internet repose sur la matérialité physique de plusieurs centaines de câbles sous-marins, cibles privilégiées de sabotage et d'espionnage naval."
+  }
+];
+
+// ==========================================================================
+// DIPLOMACY LAB — MOTEUR DE QUIZ UNIFIÉ & RÉUTILISABLE (QUIZ-ENGINE.JS)
+// Mécaniques inspirées de Duolingo : progression steppée, rétroaction immédiate,
+// attributions de points d'expérience (XP) et scénarios diplomatiques interactifs
+// ==========================================================================
+
+(function() {
+  function DiplomacyQuiz(config) {
+    this.container = document.getElementById(config.containerId);
+    if (!this.container) {
+      console.error("Quiz container not found:", config.containerId);
+      return;
+    }
+    this.conceptId = config.conceptId || "general";
+    this.conceptTitle = config.conceptTitle || "Quiz Diplomatique";
+    this.questions = config.questions || [];
+    this.currentIndex = 0;
+    this.score = 0;
+    this.selectedOption = null;
+    this.earnedXP = 0;
+
+    this.init();
+  }
+
+  DiplomacyQuiz.prototype.init = function() {
+    this.currentIndex = 0;
+    this.score = 0;
+    this.earnedXP = 0;
+    this.selectedOption = null;
+    this.renderQuestion();
+  };
+
+  DiplomacyQuiz.prototype.renderQuestion = function() {
+    if (this.currentIndex >= this.questions.length) {
+      this.renderResults();
+      return;
+    }
+
+    const q = this.questions[this.currentIndex];
+    const progressPercent = ((this.currentIndex) / this.questions.length) * 100;
+    const qNum = this.currentIndex + 1;
+    const total = this.questions.length;
+
+    this.container.innerHTML = `
+      <div class="quiz-engine-wrapper" id="quizInner">
+        <div class="quiz-top-bar">
+          <div class="quiz-progress-track" title="Progression : ${qNum}/${total}">
+            <div class="quiz-progress-fill" style="width: ${progressPercent}%;"></div>
+          </div>
+          <div class="quiz-xp-indicator">
+            <span>⚡</span> <span>+10 XP / question</span>
+          </div>
+        </div>
+
+        <div class="quiz-scenario-tag">${q.tag || "Question " + qNum + " sur " + total}</div>
+        <h3 class="quiz-prompt">${q.prompt}</h3>
+
+        <div class="quiz-options-grid" id="quizOptionsList">
+          ${q.options.map((opt, i) => `
+            <button type="button" class="quiz-option-btn" data-index="${i}">
+              <span class="quiz-option-key">${String.fromCharCode(65 + i)}</span>
+              <span>${opt}</span>
+            </button>
+          `).join("")}
+        </div>
+
+        <div class="quiz-feedback-drawer" id="quizFeedbackDrawer">
+          <div class="feedback-headline" id="feedbackHeadline"></div>
+          <div class="feedback-explanation" id="feedbackExplanation"></div>
+          <button type="button" class="quiz-primary-btn" id="feedbackNextBtn">Continuer →</button>
+        </div>
+
+        <div class="quiz-actions" id="quizActionRow">
+          <button type="button" class="quiz-primary-btn" id="quizValidateBtn" disabled>Vérifier la réponse</button>
+        </div>
+      </div>
+    `;
+
+    this.bindEvents();
+  };
+
+  DiplomacyQuiz.prototype.bindEvents = function() {
+    const self = this;
+    const optionBtns = this.container.querySelectorAll(".quiz-option-btn");
+    const validateBtn = this.container.querySelector("#quizValidateBtn");
+    const drawer = this.container.querySelector("#quizFeedbackDrawer");
+    const headline = this.container.querySelector("#feedbackHeadline");
+    const explanation = this.container.querySelector("#feedbackExplanation");
+    const nextBtn = this.container.querySelector("#feedbackNextBtn");
+    const actionRow = this.container.querySelector("#quizActionRow");
+
+    optionBtns.forEach(btn => {
+      btn.addEventListener("click", function() {
+        if (self.answered) return;
+        optionBtns.forEach(b => b.classList.remove("selected"));
+        this.classList.add("selected");
+        self.selectedOption = parseInt(this.getAttribute("data-index"), 10);
+        validateBtn.disabled = false;
+      });
+    });
+
+    validateBtn.addEventListener("click", function() {
+      if (self.selectedOption === null || self.answered) return;
+      self.answered = true;
+      const q = self.questions[self.currentIndex];
+      const isCorrect = (self.selectedOption === q.correctIndex);
+
+      optionBtns.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === q.correctIndex) {
+          btn.classList.add("correct");
+        } else if (idx === self.selectedOption && !isCorrect) {
+          btn.classList.add("wrong");
+        }
+      });
+
+      actionRow.style.display = "none";
+      drawer.style.display = "block";
+
+      if (isCorrect) {
+        self.score++;
+        self.earnedXP += 10;
+        drawer.className = "quiz-feedback-drawer success";
+        headline.innerHTML = "✓ Excellent raisonnement diplomatique !";
+        explanation.textContent = q.explanation;
+      } else {
+        drawer.className = "quiz-feedback-drawer error";
+        headline.innerHTML = "✕ Point de doctrine incorrect";
+        explanation.textContent = q.explanation;
+      }
+
+      nextBtn.focus();
+    });
+
+    nextBtn.addEventListener("click", function() {
+      self.answered = false;
+      self.selectedOption = null;
+      self.currentIndex++;
+      self.renderQuestion();
+    });
+  };
+
+  DiplomacyQuiz.prototype.renderResults = function() {
+    const total = this.questions.length;
+    const ratio = this.score / total;
+    let title = "Évaluation terminée";
+    let message = "";
+    let crown = "🎖️";
+
+    if (ratio === 1) {
+      crown = "👑";
+      title = "Maîtrise Parfaite !";
+      message = `Félicitations, vous maîtrisez avec rigueur toutes les dimensions du concept de ${this.conceptTitle}.`;
+      this.earnedXP += 15; // Bonus sans-faute
+    } else if (ratio >= 0.6) {
+      crown = "🏅";
+      title = "Compétence Validée";
+      message = `Solide compréhension des enjeux fondamentaux. Quelques nuances théoriques restent à consolider.`;
+    } else {
+      crown = "📖";
+      title = "Notions à consolider";
+      message = `Nous vous conseillons de relire la section "L'essentiel" du cours avant de retenter l'évaluation.`;
+    }
+
+    // Enregistrement dans le gestionnaire de progression
+    let savedSummary = { totalXP: this.earnedXP };
+    if (window.ProgressManager) {
+      savedSummary = window.ProgressManager.saveQuizResult(
+        this.conceptId,
+        this.score,
+        total,
+        this.earnedXP
+      );
+    }
+
+    this.container.innerHTML = `
+      <div class="quiz-engine-wrapper">
+        <div class="quiz-result-card">
+          <div class="result-crown">${crown}</div>
+          <h3>${title}</h3>
+          <p>${message}</p>
+
+          <div class="result-stats-row">
+            <div class="result-stat-box">
+              <div class="result-stat-num">${this.score} / ${total}</div>
+              <div class="result-stat-label">Score obtenu</div>
+            </div>
+            <div class="result-stat-box">
+              <div class="result-stat-num">+${this.earnedXP} XP</div>
+              <div class="result-stat-label">Gain d'expérience</div>
+            </div>
+            <div class="result-stat-box">
+              <div class="result-stat-num">${savedSummary.totalXP || this.earnedXP} XP</div>
+              <div class="result-stat-label">Total compte</div>
+            </div>
+          </div>
+
+          <div style="display:flex; justify-content:center; gap:14px; flex-wrap:wrap;">
+            <button type="button" class="quiz-primary-btn" id="retryQuizBtn">Recommencer l'évaluation</button>
+            <a href="#introduction" class="quiz-primary-btn" style="background:var(--paper); color:var(--ink); border:1px solid var(--line);">Relire le cours</a>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const self = this;
+    const retryBtn = this.container.querySelector("#retryQuizBtn");
+    if (retryBtn) {
+      retryBtn.addEventListener("click", function() {
+        self.init();
+      });
+    }
+  };
+
+  window.DiplomacyQuiz = DiplomacyQuiz;
+})();
+
+  <script>
+    // DECLENCHEUR DU QUIZ DUOLINGO-STYLE
+    document.getElementById('startCourseQuizBtn').addEventListener('click', function() {
+      document.getElementById('quizStarterBlock').style.display = 'none';
+      const qBox = document.getElementById('quizContainer');
+      qBox.style.display = 'block';
+      qBox.scrollIntoView({ behavior: 'smooth' });
+
+      new DiplomacyQuiz({
+        containerId: 'quizContainer',
+        conceptId: 'geopolitique',
+        conceptTitle: 'La Géopolitique & les Espaces Stratégiques',
+        questions: window.QUIZ_GEOPOLITIQUE
+      });
+    });
+
+    // SUIVI DU SOMMAIRE ACTIF AU SCROLL
+    window.addEventListener('scroll', function() {
+      const sections = document.querySelectorAll('.course-section, .course-header');
+      const scrollPos = window.scrollY + 120;
+      sections.forEach(sec => {
+        const top = sec.offsetTop;
+        const height = sec.offsetHeight;
+        const id = sec.getAttribute('id');
+        if (scrollPos >= top && scrollPos < top + height) {
+          document.querySelectorAll('.toc-link').forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

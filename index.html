@@ -328,6 +328,142 @@
     .concept-card:hover .concept-card-meta {
       color: var(--gold);
     }
+    .concept-card.hidden {
+      display: none !important;
+    }
+
+    /* SÉLECTEUR ACADÉMIQUE DE NIVEAU (L1 À M2) */
+    .level-selector-wrap {
+      margin-bottom: 26px;
+    }
+    .level-tabs-strip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      scrollbar-width: thin;
+    }
+    .level-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--paper-card);
+      color: var(--ink-soft);
+      font-family: var(--font-body);
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      white-space: nowrap;
+    }
+    .level-tab-btn:hover {
+      border-color: var(--gold);
+      color: var(--ink);
+      transform: translateY(-1px);
+    }
+    .level-tab-btn.active {
+      background: var(--ink);
+      color: #ffffff;
+      border-color: var(--ink);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+    [data-theme="dark"] .level-tab-btn.active {
+      background: var(--gold);
+      color: #0b111a;
+      border-color: var(--gold);
+    }
+    .level-tab-count {
+      font-size: 11px;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.08);
+      font-weight: 800;
+    }
+    .level-tab-btn.active .level-tab-count {
+      background: rgba(255, 255, 255, 0.22);
+      color: inherit;
+    }
+    [data-theme="dark"] .level-tab-btn.active .level-tab-count {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    /* CARTE DYNAMIQUE DU NIVEAU SÉLECTIONNÉ */
+    .level-banner-card {
+      background: linear-gradient(135deg, rgba(177, 138, 81, 0.08) 0%, rgba(17, 34, 51, 0.04) 100%);
+      border: 1px solid rgba(177, 138, 81, 0.28);
+      border-left: 4px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 18px 22px;
+      margin-top: 10px;
+      transition: var(--transition);
+    }
+    .level-banner-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .level-banner-title {
+      font-family: var(--font-display);
+      font-size: 16.5px;
+      font-weight: 800;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .level-banner-badge {
+      font-size: 10.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      padding: 3px 8px;
+      border-radius: 3px;
+      background: var(--gold);
+      color: #0b111a;
+    }
+    .level-banner-concours {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--ink-soft);
+      background: rgba(0, 0, 0, 0.05);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+    [data-theme="dark"] .level-banner-concours {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--paper);
+    }
+    .level-banner-desc {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.62;
+      margin: 0;
+    }
+    .level-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(177, 138, 81, 0.14);
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .04em;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    .level-pill:hover {
+      background: rgba(177, 138, 81, 0.25);
+      color: var(--gold-bright);
+    }
 
     /* SECTION APPRENDRE — GRILLE DES 5 ESPACES PÉDAGOGIQUES */
     .learning-grid-5 {
@@ -465,7 +601,7 @@
     <div class="container topline-inner">
       <div class="topline-status">
         <span class="pulse-dot" aria-hidden="true"></span>
-        <span>Diplomacy Lab · 10 cours fondamentaux & 203 entités synchronisées</span>
+        <span>Diplomacy Lab · 15 cours fondamentaux & 203 entités synchronisées</span>
       </div>
       <div class="topline-actions">
         <button id="openSearchBtn" class="search-trigger-btn" type="button" aria-label="Recherche globale">
@@ -473,6 +609,7 @@
           <span>Rechercher</span>
           <kbd class="search-kbd">Ctrl K</kbd>
         </button>
+        <a href="#fondamentaux" class="level-pill" id="userLevelPill" title="Votre niveau académique actif (cliquez pour modifier)">🎓 <span id="activeLevelLabel">Tous les cycles</span></a>
         <span class="xp-pill" title="Vos points de progression">⚡ <span class="user-xp-count" id="userXpPill">0 XP</span></span>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
           <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
@@ -524,7 +661,7 @@
         
         <div class="hero-actions">
           <a href="#fondamentaux" class="hero-btn-primary">
-            <span>Explorer les 10 concepts fondamentaux</span>
+            <span>Explorer les 15 concepts fondamentaux (L1 à M2)</span>
             <span aria-hidden="true">→</span>
           </a>
           <button class="hero-btn-secondary" id="heroSearchBtn" data-search-trigger type="button">
@@ -544,9 +681,9 @@
         <!-- BANDEAU DES CHIFFRES CLÉS (KPI) -->
         <div class="kpi-strip" aria-label="Statistiques de la plateforme">
           <div class="kpi-item">
-            <div class="kpi-value">10<span>cours</span></div>
+            <div class="kpi-value">15<span>cours</span></div>
             <div class="kpi-label">Piliers fondamentaux</div>
-            <div class="kpi-desc">10 modules théoriques et stratégiques complets de L1 à M2.</div>
+            <div class="kpi-desc">15 modules théoriques et stratégiques complets de L1 à M2.</div>
           </div>
           <div class="kpi-item">
             <div class="kpi-value">203<span>pays</span></div>
@@ -554,9 +691,9 @@
             <div class="kpi-desc">Données Banque Mondiale & ONU harmonisées à l'échelle planétaire.</div>
           </div>
           <div class="kpi-item">
-            <div class="kpi-value">10<span>quiz</span></div>
+            <div class="kpi-value">15<span>quiz</span></div>
             <div class="kpi-label">Évaluation active</div>
-            <div class="kpi-desc">Moteur Duolingo-style avec validation instantanée et points XP.</div>
+            <div class="kpi-desc">15 évaluations Duolingo-style pour 450 XP au total.</div>
           </div>
           <div class="kpi-item">
             <div class="kpi-value">Auto<span>sync</span></div>
@@ -614,91 +751,135 @@
       </div>
     </section>
 
-    <!-- C. LES GRANDS CONCEPTS — 5 CARTES CLICQUABLES OFFICIELLES -->
+    <!-- C. LES GRANDS CONCEPTS — 15 COURS FONDAMENTAUX DE L1 À M2 -->
     <section class="section" id="fondamentaux">
       <div class="container">
         <div class="section-heading">
           <div>
-            <div class="section-kicker">Programme Pédagogique Fondamental</div>
-            <h2>Les grands concepts</h2>
+            <div class="section-kicker">Cursus Universitaire Complet (15 Cours Fondamentaux)</div>
+            <h2>Les grands concepts de L1 à M2</h2>
           </div>
           <a href="dossier.html">Consulter le dossier comparatif de référence ↗</a>
         </div>
+
+        <!-- SÉLECTEUR ACADÉMIQUE DE NIVEAU -->
+        <div class="level-selector-wrap" id="levelSelectorContainer">
+          <div class="level-tabs-strip" role="tablist" aria-label="Choisir votre niveau académique">
+            <button class="level-tab-btn active" data-level="ALL" role="tab" aria-selected="true">
+              <span>Tous les cycles</span>
+              <span class="level-tab-count">15</span>
+            </button>
+            <button class="level-tab-btn" data-level="L1" role="tab" aria-selected="false">
+              <span>Licence 1 · Fondements</span>
+              <span class="level-tab-count">3</span>
+            </button>
+            <button class="level-tab-btn" data-level="L2" role="tab" aria-selected="false">
+              <span>Licence 2 · Systèmes</span>
+              <span class="level-tab-count">3</span>
+            </button>
+            <button class="level-tab-btn" data-level="L3" role="tab" aria-selected="false">
+              <span>Licence 3 · Stratégie</span>
+              <span class="level-tab-count">3</span>
+            </button>
+            <button class="level-tab-btn" data-level="M1" role="tab" aria-selected="false">
+              <span>Master 1 · Haute Intensité</span>
+              <span class="level-tab-count">3</span>
+            </button>
+            <button class="level-tab-btn" data-level="M2" role="tab" aria-selected="false">
+              <span>Master 2 · Pratique Diplomatique</span>
+              <span class="level-tab-count">3</span>
+            </button>
+          </div>
+
+          <!-- BANDEAU DYNAMIQUE DU NIVEAU SÉLECTIONNÉ -->
+          <div class="level-banner-card" id="levelBannerCard">
+            <div class="level-banner-head">
+              <div class="level-banner-title">
+                <span class="level-banner-badge" id="bannerLevelBadge">Cursus Complet</span>
+                <span id="bannerLevelHeading">Cycle Universitaire Intégral L1–M2 (15 Cours & Quiz)</span>
+              </div>
+              <div class="level-banner-concours" id="bannerLevelConcours">Préparation IEP · Sciences Po · MEAE · Agrégation</div>
+            </div>
+            <p class="level-banner-desc" id="bannerLevelDesc">
+              Parcours académique complet d'excellence couvrant les fondements régaliens de l'État, les structures du système international, la théorie stratégique, les crises contemporaines et la négociation diplomatique opérationnelle. Sélectionnez un cycle ci-dessus pour adapter la sélection à votre parcours.
+            </p>
+          </div>
+        </div>
         
-        <div class="concepts-grid">
-          <!-- CONCEPTS 01 : SOUVERAINETÉ -->
-          <a href="souverainete.html" class="concept-card">
+        <div class="concepts-grid" id="conceptsGrid">
+          <!-- CONCEPT 01 : SOUVERAINETÉ (L1) -->
+          <a href="souverainete.html" class="concept-card" data-level="L1">
             <div class="concept-card-head">
               <span class="concept-card-num">01</span>
-              <span class="concept-card-level">L1 à M2 · Droit & État</span>
+              <span class="concept-card-level">L1 · FONDEMENTS & DROIT RÉGALIEN</span>
             </div>
             <h3>Souveraineté</h3>
             <p>
-              L'autorité suprême de l'État sur son territoire et sa population. Des traités de Westphalie (1648) à Jean Bodin, explorez le principe de non-ingérence et les défis de la souveraineté partagée.
+              L'autorité suprême de l'État sur son territoire et sa population. Des traités de Westphalie (1648) à Jean Bodin et Stephen Krasner, explorez le principe de non-ingérence et les défis contemporains de la souveraineté partagée.
             </p>
             <div class="concept-card-meta">
-              <span>Cours complet (9 parties) + Quiz</span>
+              <span>Cours complet (8 piliers) + Quiz</span>
               <span aria-hidden="true">+30 XP →</span>
             </div>
           </a>
 
-          <!-- CONCEPTS 02 : PUISSANCE -->
-          <a href="puissance.html" class="concept-card">
+          <!-- CONCEPT 02 : PUISSANCE (L1) -->
+          <a href="puissance.html" class="concept-card" data-level="L1">
             <div class="concept-card-head">
               <span class="concept-card-num">02</span>
-              <span class="concept-card-level">L1 à M2 · Théorie Stratégique</span>
+              <span class="concept-card-level">L1 · THÉORIE STRATÉGIQUE</span>
             </div>
             <h3>Puissance</h3>
             <p>
-              La capacité d'un acteur d'imposer sa volonté ou d'orienter les comportements d'autrui. Du <em>Hard Power</em> coercitif au <em>Soft Power</em> d'attraction théorisé par Joseph Nye, jusqu'à la puissance structurelle.
+              La capacité d'un acteur d'imposer sa volonté ou d'orienter les comportements d'autrui. Du <em>Hard Power</em> coercitif au <em>Soft Power</em> d'attraction de Joseph Nye, jusqu'à la puissance structurelle de Susan Strange.
             </p>
             <div class="concept-card-meta">
-              <span>Cours complet (9 parties) + Quiz</span>
+              <span>Cours complet (8 piliers) + Quiz</span>
               <span aria-hidden="true">+30 XP →</span>
             </div>
           </a>
 
-          <!-- CONCEPTS 03 : INTÉRÊT NATIONAL -->
-          <a href="interet-national.html" class="concept-card">
+          <!-- CONCEPT 03 : INTÉRÊT NATIONAL (L1) -->
+          <a href="interet-national.html" class="concept-card" data-level="L1">
             <div class="concept-card-head">
               <span class="concept-card-num">03</span>
-              <span class="concept-card-level">L1 à M2 · Décision & Survie</span>
+              <span class="concept-card-level">L1 · DÉCISION D'ÉTAT & SURVIE</span>
             </div>
-            <h3>Intérêt national</h3>
+            <h3>Intérêt National</h3>
             <p>
-              La boussole stratégique guidant l'action extérieure d'un État. Analyse de la pensée de Hans Morgenthau, de la distinction entre intérêts vitaux et secondaires, et de la déconstruction constructiviste.
+              La boussole cardinale de l'action extérieure. De la raison d'État de Machiavel et Richelieu au réalisme de Hans Morgenthau et aux modèles de prise de décision bureaucratique de Graham Allison.
             </p>
             <div class="concept-card-meta">
-              <span>Cours complet (9 parties) + Quiz</span>
+              <span>Cours complet (8 piliers) + Quiz</span>
               <span aria-hidden="true">+30 XP →</span>
             </div>
           </a>
 
-          <!-- CONCEPTS 04 : ANARCHIE INTERNATIONALE -->
-          <a href="anarchie-internationale.html" class="concept-card">
+          <!-- CONCEPT 04 : ANARCHIE INTERNATIONALE (L2) -->
+          <a href="anarchie-internationale.html" class="concept-card" data-level="L2">
             <div class="concept-card-head">
               <span class="concept-card-num">04</span>
-              <span class="concept-card-level">L1 à M2 · Structure Systémique</span>
+              <span class="concept-card-level">L2 · STRUCTURE SYSTÉMIQUE</span>
             </div>
-            <h3>Anarchie internationale</h3>
+            <h3>Anarchie Internationale</h3>
             <p>
-              L'absence de gouvernement mondial au-dessus des États souverains. Comprendre le dilemme de sécurité de John Herz, le <em>self-help</em> selon Kenneth Waltz et la société anarchique d'Hedley Bull.
+              L'absence d'autorité suprême ou de gouvernement mondial au-dessus des États souverains. Du principe de <em>self-help</em> de Kenneth Waltz à la « société anarchique » d'Hedley Bull et au constructivisme d'Alexander Wendt.
             </p>
             <div class="concept-card-meta">
-              <span>Cours complet (9 parties) + Quiz</span>
+              <span>Cours complet (8 piliers) + Quiz</span>
               <span aria-hidden="true">+30 XP →</span>
             </div>
           </a>
 
-          <!-- CONCEPTS 05 : INTERDÉPENDANCE -->
-          <a href="interdependance.html" class="concept-card">
+          <!-- CONCEPT 05 : INTERDÉPENDANCE (L2) -->
+          <a href="interdependance.html" class="concept-card" data-level="L2">
             <div class="concept-card-head">
               <span class="concept-card-num">05</span>
-              <span class="concept-card-level">L1 à M2 · Réseaux & Géoéconomie</span>
+              <span class="concept-card-level">L2 · RÉSEAUX & GÉOÉCONOMIE</span>
             </div>
             <h3>Interdépendance</h3>
             <p>
-              L'analyse des dépendances réciproques et asymétriques. L'interdépendance complexe de Keohane & Nye, la sensibilité versus vulnérabilité, et la militarisation des réseaux contemporains (<em>Weaponized Interdependence</em>).
+              La densité des flux transnationaux créant des vulnérabilités réciproques. De l'interdépendance complexe de Keohane & Nye à l'interdépendance militarisée (<em>Weaponized Interdependence</em>) de Farrell et Newman.
             </p>
             <div class="concept-card-meta">
               <span>Cours complet (8 piliers) + Quiz</span>
@@ -706,15 +887,15 @@
             </div>
           </a>
 
-          <!-- CONCEPTS 06 : ÉQUILIBRE DES PUISSANCES -->
-          <a href="equilibre-des-puissances.html" class="concept-card">
+          <!-- CONCEPT 06 : ÉQUILIBRE DES PUISSANCES (L2) -->
+          <a href="equilibre-des-puissances.html" class="concept-card" data-level="L2">
             <div class="concept-card-head">
               <span class="concept-card-num">06</span>
-              <span class="concept-card-level">L1 à M2 · Ordre Systémique & Alliances</span>
+              <span class="concept-card-level">L2 · ORDRE SYSTÉMIQUE & ALLIANCES</span>
             </div>
-            <h3>Équilibre des puissances</h3>
+            <h3>Équilibre des Puissances</h3>
             <p>
-              La mécanique d'autorégulation du système interétatique. De David Hume à Kenneth Waltz, analysez le Concert européen (1815), le dilemme <em>balancing</em> vs <em>bandwagoning</em> et la stabilité comparée de la multipolarité et de la bipolarité.
+              Le mécanisme régulateur de la <em>Balance of Power</em> empêchant l'émergence d'un empire universel. De David Hume au Concert européen de 1815, analysez le <em>balancing</em> face au <em>bandwagoning</em> (Stephen Walt).
             </p>
             <div class="concept-card-meta">
               <span>Cours complet (8 piliers) + Quiz</span>
@@ -722,15 +903,15 @@
             </div>
           </a>
 
-          <!-- CONCEPTS 07 : DILEMME DE SÉCURITÉ -->
-          <a href="dilemme-de-securite.html" class="concept-card">
+          <!-- CONCEPT 07 : DILEMME DE SÉCURITÉ (L3) -->
+          <a href="dilemme-de-securite.html" class="concept-card" data-level="L3">
             <div class="concept-card-head">
               <span class="concept-card-num">07</span>
-              <span class="concept-card-level">L1 à M2 · Psychologie Stratégique & Escalade</span>
+              <span class="concept-card-level">L3 · PSYCHOLOGIE STRATÉGIQUE</span>
             </div>
-            <h3>Dilemme de sécurité</h3>
+            <h3>Dilemme de Sécurité</h3>
             <p>
-              Pourquoi la quête d'auto-préservation engendre mécaniquement l'insécurité collective. De John Herz à Robert Jervis, explorez la spirale des armements, l'avantage offensif/défensif, la crise de Cuba et les missiles hypersoniques.
+              La spirale d'insécurité où les mesures défensives prises par un État sont perçues comme offensives par ses voisins. De John Herz à Robert Jervis, comprenez la course aux armements et les erreurs d'escalade.
             </p>
             <div class="concept-card-meta">
               <span>Cours complet (8 piliers) + Quiz</span>
@@ -738,15 +919,15 @@
             </div>
           </a>
 
-          <!-- CONCEPTS 08 : HÉGÉMONIE -->
-          <a href="hegemonie.html" class="concept-card">
+          <!-- CONCEPT 08 : HÉGÉMONIE & BIENS PUBLICS (L3) -->
+          <a href="hegemonie.html" class="concept-card" data-level="L3">
             <div class="concept-card-head">
               <span class="concept-card-num">08</span>
-              <span class="concept-card-level">L1 à M2 · Économie Politique & Leadership</span>
+              <span class="concept-card-level">L3 · ÉCONOMIE POLITIQUE & STABILITÉ</span>
             </div>
             <h3>Hégémonie & Biens Publics</h3>
             <p>
-              L'ordre mondial a-t-il besoin d'un stabilisateur unique ? De Charles Kindleberger à Robert Cox et Ikenberry, décryptez la fourniture des biens publics mondiaux, la Pax Americana, la surextension impériale et le piège de Thucydide.
+              Le leadership stabilisateur d'un ordre international. De la théorie de la stabilité hégémonique (Kindleberger, Gilpin) à l'approche gramscienne de Robert Cox, analysez la <em>Pax Americana</em> et le piège de Thucydide.
             </p>
             <div class="concept-card-meta">
               <span>Cours complet (8 piliers) + Quiz</span>
@@ -754,37 +935,118 @@
             </div>
           </a>
 
-          <!-- CONCEPTS 09 : GÉOPOLITIQUE -->
-          <a href="geopolitique.html" class="concept-card">
+          <!-- CONCEPT 09 : MULTILATÉRALISME & DIPLOMATIE (L3) -->
+          <a href="multilateralisme.html" class="concept-card" data-level="L3">
             <div class="concept-card-head">
               <span class="concept-card-num">09</span>
-              <span class="concept-card-level">L1 à M2 · Espaces & Théâtres Stratégiques</span>
-            </div>
-            <h3>Géopolitique & Espaces</h3>
-            <p>
-              L'étude des rivalités de pouvoir sur des territoires. Du <em>Heartland</em> de Mackinder au <em>Rimland</em> de Spykman et à Yves Lacoste, explorez les détroits maritimes (chokepoints), la bataille de l'Arctique et la vulnérabilité des câbles sous-marins.
-            </p>
-            <div class="concept-card-meta">
-              <span>Cours complet (8 piliers) + Quiz</span>
-              <span aria-hidden="true">+30 XP →</span>
-            </div>
-          </a>
-
-          <!-- CONCEPTS 10 : MULTILATÉRALISME -->
-          <a href="multilateralisme.html" class="concept-card">
-            <div class="concept-card-head">
-              <span class="concept-card-num">10</span>
-              <span class="concept-card-level">L1 à M2 · Droit & Gouvernance Mondiale</span>
+              <span class="concept-card-level">L3 · GOUVERNANCE MONDIALE</span>
             </div>
             <h3>Multilatéralisme & Diplomatie</h3>
             <p>
-              La régulation des relations internationales par des principes partagés. De John Gerard Ruggie à la diplomatie de conférence, analysez l'indivisibilité, le blocage du Conseil de sécurité de l'ONU et de l'OMC, et l'essor du minilatéralisme.
+              La régulation collective par des principes partagés et la réciprocité diffuse (John Ruggie). De l'architecture onusienne de 1945 au blocage du Conseil de sécurité et à l'essor des formats minilatéraux (AUKUS, Quad).
             </p>
             <div class="concept-card-meta">
               <span>Cours complet (8 piliers) + Quiz</span>
               <span aria-hidden="true">+30 XP →</span>
             </div>
           </a>
+
+          <!-- CONCEPT 10 : GÉOPOLITIQUE & ESPACES (M1) -->
+          <a href="geopolitique.html" class="concept-card" data-level="M1">
+            <div class="concept-card-head">
+              <span class="concept-card-num">10</span>
+              <span class="concept-card-level">M1 · ESPACES & THÉÂTRES STRATÉGIQUES</span>
+            </div>
+            <h3>Géopolitique & Espaces</h3>
+            <p>
+              L'analyse des rivalités territoriales et spatiales. Du <em>Heartland</em> de Mackinder au <em>Rimland</em> de Spykman et à Yves Lacoste, explorez les détroits maritimes (chokepoints), l'Arctique et les nouveaux théâtres d'affrontement.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPT 11 : DISSUASION NUCLÉAIRE (M1) -->
+          <a href="dissuasion-nucleaire.html" class="concept-card" data-level="M1">
+            <div class="concept-card-head">
+              <span class="concept-card-num">11</span>
+              <span class="concept-card-level">M1 · STRATÉGIE DE L'ATOME & HAUTE INTENSITÉ</span>
+            </div>
+            <h3>Dissuasion Nucléaire & Atome</h3>
+            <p>
+              La révolution de l'arme absolue de Bernard Brodie et la dialectique du risque de Thomas Schelling. Destruction mutuelle assurée (MAD), paradoxe de Snyder, doctrine française de stricte suffisance et sanctuarisation agressive.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPT 12 : GUERRE HYBRIDE & ZONE GRISE (M1) -->
+          <a href="guerre-hybride.html" class="concept-card" data-level="M1">
+            <div class="concept-card-head">
+              <span class="concept-card-num">12</span>
+              <span class="concept-card-level">M1 · CONFLITS EN ZONE GRISE & MULTIDOMAINE</span>
+            </div>
+            <h3>Guerre Hybride & Zone Grise</h3>
+            <p>
+              L'effacement de la frontière entre guerre et paix théorisé par Frank Hoffman et Qiao Liang. Déni plausible, doctrine Gerasimov démythifiée, cyberguerre, instrumentalisation des flux migratoires et tactiques du saucisson.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPT 13 : SANCTIONS ÉCONOMIQUES & ARME FINANCIÈRE (M2) -->
+          <a href="sanctions-economiques.html" class="concept-card" data-level="M2">
+            <div class="concept-card-head">
+              <span class="concept-card-num">13</span>
+              <span class="concept-card-level">M2 · GÉOÉCONOMIE COERCITIVE</span>
+            </div>
+            <h3>Sanctions & Arme Financière</h3>
+            <p>
+              L'essor de l'arme économique (Nicholas Mulder) et le paradoxe des sanctions (Daniel Drezner). Extraterritorialité du dollar américain (OFAC), instrumentalisation du réseau SWIFT, dédollarisation et effet boomerang systémique.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPT 14 : NÉGOCIATION DIPLOMATIQUE & RÉSOLUTION DE CRISES (M2) -->
+          <a href="negociation-diplomatique.html" class="concept-card" data-level="M2">
+            <div class="concept-card-head">
+              <span class="concept-card-num">14</span>
+              <span class="concept-card-level">M2 · PRATIQUE DIPLOMATIQUE & MÉDIATION</span>
+            </div>
+            <h3>Négociation Diplomatique</h3>
+            <p>
+              La méthode raisonnée de Harvard (Fisher & Ury), la BATNA, la ZOPA et la théorie de la maturité des conflits de William Zartman. Diplomatie coercitive d'Alexander George, canaux secrets de voie 2 et architecture des traités de paix durables.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
+          <!-- CONCEPT 15 : JUSTICE PÉNALE INTERNATIONALE (M2) -->
+          <a href="justice-penale-internationale.html" class="concept-card" data-level="M2">
+            <div class="concept-card-head">
+              <span class="concept-card-num">15</span>
+              <span class="concept-card-level">M2 · ORDRE JURIDIQUE MONDIAL</span>
+            </div>
+            <h3>Justice Pénale Internationale</h3>
+            <p>
+              De Nuremberg au Statut de Rome de la Cour pénale internationale (CPI). La dialectique Lauterpacht-Lemkin, Antonio Cassese, la fin de l'immunité souveraine des chefs d'État, la compétence universelle et le dilemme paix contre justice.
+            </p>
+            <div class="concept-card-meta">
+              <span>Cours complet (8 piliers) + Quiz</span>
+              <span aria-hidden="true">+30 XP →</span>
+            </div>
+          </a>
+
         </div>
       </div>
     </section>
@@ -1157,6 +1419,113 @@
         cBox.appendChild(span);
       });
     }
+
+    // ==========================================================================
+    // 6. GESTION DU SÉLECTEUR ACADÉMIQUE DE NIVEAU (L1 À M2) & FILTRAGE DYNAMIQUE
+    // ==========================================================================
+    const ACADEMIC_LEVELS = {
+      ALL: {
+        badge: "Cursus Complet",
+        title: "Cycle Universitaire Intégral L1–M2 (15 Cours & 15 Quiz)",
+        concours: "Préparation IEP · Sciences Po · MEAE · Agrégation",
+        desc: "Parcours académique complet d'excellence couvrant les fondements régaliens de l'État, les structures du système international, la théorie stratégique, les crises contemporaines et la négociation diplomatique opérationnelle. Sélectionnez un cycle ci-dessus pour adapter la sélection à votre parcours."
+      },
+      L1: {
+        badge: "Niveau Licence 1",
+        title: "Fondements de l'État & Théorie Politique",
+        concours: "Idéal Concours IEP (1re année) & Sciences Po Paris",
+        desc: "Maîtrise des concepts cardinaux du régalien : Souveraineté westphalienne, Équation de la puissance et Raison d'État. Objectif : acquisition du vocabulaire scientifique et des théories canoniques (Bodin, Morgenthau, Machiavel)."
+      },
+      L2: {
+        badge: "Niveau Licence 2",
+        title: "Le Système International & ses Structures",
+        concours: "Préparation Licences Science Politique & Droit Public",
+        desc: "Analyse des dynamiques globales : L'anarchie structurante, l'interdépendance économique et l'équilibre multipolaire des forces. Objectif : déchiffrer les architectures d'alliances et les réseaux asymétriques (Waltz, Keohane, Nye, Mearsheimer)."
+      },
+      L3: {
+        badge: "Niveau Licence 3",
+        title: "Stratégie, Sécurité & Ordre Institutionnel",
+        concours: "Préparation Entrée en Masters d'Affaires Internationales",
+        desc: "Étude de la conflictualité et de la coopération : Le dilemme de sécurité, la stabilité hégémonique et la régulation par le multilatéralisme. Objectif : maîtriser l'ingénierie des institutions mondiales et la dialectique confiance/insécurité (Herz, Jervis, Kindleberger, Ruggie)."
+      },
+      M1: {
+        badge: "Niveau Master 1",
+        title: "Haute Intensité, Espaces & Nouvelles Menaces",
+        concours: "Spécialité Études de Sécurité & Défense Nationale",
+        desc: "Analyse des confrontations contemporaines : Géopolitique des milieux stratégiques (maritime, polaire, spatial), Révolution de la dissuasion nucléaire et Conflits hybrides en zone grise. Objectif : analyse prospective et gestion des crises de haute intensité (Mackinder, Brodie, Schelling, Hoffman)."
+      },
+      M2: {
+        badge: "Niveau Master 2",
+        title: "Pratique Diplomatique & Régulation des Crises",
+        concours: "Concours MEAE (Cadre d'Orient / Secrétaire) & INSP (ex-ENA)",
+        desc: "Immersion dans l'action opérationnelle : L'arme des sanctions économiques et extraterritoriales, l'ingénierie des négociations de paix et la justice pénale internationale. Objectif : rédaction de traités, négociation sous contrainte et diplomatie coercitive (Mulder, Fisher & Ury, Zartman, Cassese)."
+      }
+    };
+
+    function setAcademicLevel(lvl, save) {
+      if (save === undefined) save = true;
+      const config = ACADEMIC_LEVELS[lvl] || ACADEMIC_LEVELS.ALL;
+      
+      // 1. Boutons tabs
+      document.querySelectorAll(".level-tab-btn").forEach(btn => {
+        const isTarget = btn.getAttribute("data-level") === lvl;
+        btn.classList.toggle("active", isTarget);
+        btn.setAttribute("aria-selected", isTarget ? "true" : "false");
+      });
+
+      // 2. Bandeau dynamique
+      const badgeEl = document.getElementById("bannerLevelBadge");
+      const titleEl = document.getElementById("bannerLevelHeading");
+      const concoursEl = document.getElementById("bannerLevelConcours");
+      const descEl = document.getElementById("bannerLevelDesc");
+      if (badgeEl) badgeEl.textContent = config.badge;
+      if (titleEl) titleEl.textContent = config.title;
+      if (concoursEl) concoursEl.textContent = config.concours;
+      if (descEl) descEl.textContent = config.desc;
+
+      // 3. Filtrage des cartes
+      const cards = document.querySelectorAll("#conceptsGrid .concept-card");
+      cards.forEach(card => {
+        const cardLvl = card.getAttribute("data-level");
+        const shouldShow = (lvl === "ALL" || cardLvl === lvl);
+        card.classList.toggle("hidden", !shouldShow);
+      });
+
+      // 4. Pastille topline
+      const topLabel = document.getElementById("activeLevelLabel");
+      if (topLabel) {
+        topLabel.textContent = (lvl === "ALL") ? "Tous les cycles" : lvl;
+      }
+
+      // 5. Synchro avec la section Parcours plus bas
+      if (lvl !== "ALL" && typeof switchLevel === "function") {
+        switchLevel(lvl);
+      }
+
+      // 6. Persistance locale
+      if (save) {
+        try {
+          localStorage.setItem("diplomacy_user_level", lvl);
+        } catch(e) {}
+      }
+    }
+
+    // Écouteurs de clic sur les tabs
+    document.querySelectorAll(".level-tab-btn").forEach(btn => {
+      btn.addEventListener("click", function() {
+        const lvl = this.getAttribute("data-level");
+        setAcademicLevel(lvl);
+      });
+    });
+
+    // Chargement de la préférence utilisateur au démarrage
+    document.addEventListener("DOMContentLoaded", function() {
+      let savedLvl = "ALL";
+      try {
+        savedLvl = localStorage.getItem("diplomacy_user_level") || "ALL";
+      } catch(e) {}
+      setAcademicLevel(savedLvl, false);
+    });
   </script>
   <script src="js/search-palette.js"></script>
 </body>

@@ -1,0 +1,2128 @@
+﻿<!DOCTYPE html>
+<html lang="fr" data-concept-id="sanctions-economiques">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141c2e">
+  <meta name="description" content="Les Sanctions Économiques & l'Arme Financière - Géoéconomie coercive, extraterritorialité du dollar (OFAC), instrumentalisation du réseau SWIFT, dédollarisation et paradoxe de l'effet boomerang.">
+  <title>Les Sanctions Économiques & l'Arme Financière - Diplomacy Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+/* ==========================================================================
+   DIPLOMACY LAB — FEUILLE DE STYLE COMMUNE (DESIGN SYSTEM)
+   Direction Artistique : Think Tank contemporain (Style IRIS / Institut d'Études Stratégiques)
+   Typographie : Plus Jakarta Sans (Halyard Grotesque alternative)
+   ========================================================================== */
+
+:root {
+  --ink: #141c2e;
+  --ink-soft: #303d52;
+  --paper: #f8f7f4;
+  --paper-card: #ffffff;
+  --muted: #647084;
+  --line: #dedbd3;
+  --accent: #a83d38;
+  --accent-soft: #f4e8e6;
+  --gold: #b18a51;
+  --gold-bright: #d9af5e;
+  --green: #246a48;
+  --green-soft: #e5f2eb;
+  --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --max: 1180px;
+  --radius: 6px;
+  --radius-lg: 10px;
+  --shadow-sm: 0 2px 8px rgba(20, 28, 46, 0.05);
+  --shadow-md: 0 8px 24px rgba(20, 28, 46, 0.08);
+  --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="dark"] {
+  --ink: #f4f2ee;
+  --ink-soft: #c6cbd4;
+  --paper: #0b111e;
+  --paper-card: #131b2c;
+  --muted: #8893a4;
+  --line: #222d42;
+  --accent: #e06d68;
+  --accent-soft: #321c1f;
+  --gold: #d4a96a;
+  --gold-bright: #e7cda7;
+  --green: #44a374;
+  --green-soft: #122b1f;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-body);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+a { color: inherit; text-decoration: none; }
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 4px;
+}
+.container { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
+
+/* TOPLINE */
+.topline { background: #0c1424; color: #f6f2e9; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.topline-inner { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.topline-status { display: inline-flex; align-items: center; gap: 8px; color: #d0d7e2; font-weight: 600; font-size: 11px; }
+.pulse-dot { width: 7px; height: 7px; background: #3ddc84; border-radius: 50%; box-shadow: 0 0 6px #3ddc84; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(.85); } }
+.topline-actions { display: flex; align-items: center; gap: 14px; }
+.topline a { color: #e7cda7; text-decoration: none; font-weight: 700; transition: color .15s ease; }
+.topline a:hover { color: #ffffff; }
+
+/* XP BADGE */
+.xp-pill {
+  display: inline-flex; align-items: center; gap: 5px; background: rgba(217, 175, 94, 0.15);
+  border: 1px solid var(--gold-bright); color: var(--gold-bright); font-size: 10.5px;
+  font-weight: 800; padding: 2px 8px; border-radius: 12px; letter-spacing: 0.04em;
+}
+
+.theme-toggle {
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+  color: #f6f2e9; font-size: 10.5px; font-weight: 700; letter-spacing: .06em;
+  padding: 4px 10px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+  font-family: var(--font-body); transition: var(--transition);
+}
+.theme-toggle:hover { background: rgba(255,255,255,0.18); }
+
+/* MASTHEAD */
+.masthead { background: var(--paper); border-bottom: 1px solid var(--line); }
+.masthead-inner { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+.brand { display: flex; align-items: center; gap: 14px; text-decoration: none; min-width: 0; }
+.brand-mark {
+  width: 42px; height: 42px; border: 2px solid var(--gold); border-radius: 6px;
+  display: grid; place-items: center; font-family: var(--font-display); font-size: 20px; font-weight: 800; flex: 0 0 auto;
+  background: var(--paper-card); color: var(--gold); box-shadow: var(--shadow-sm);
+}
+.brand-name { font-family: var(--font-display); font-size: 19px; font-weight: 800; letter-spacing: .08em; line-height: 1.1; color: var(--ink); }
+.brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 9.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+.masthead-note { max-width: 320px; text-align: right; color: var(--muted); font-family: var(--font-body); font-size: 13px; font-weight: 500; line-height: 1.5; }
+
+/* MAIN NAVIGATION */
+.main-nav { background: var(--paper-card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+.nav-inner { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.nav-links { display: flex; align-items: center; gap: clamp(14px, 2.2vw, 28px); overflow-x: auto; scrollbar-width: none; }
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a { white-space: nowrap; text-decoration: none; font-size: 12px; font-weight: 700; color: var(--ink-soft); padding: 15px 0 13px; border-bottom: 2px solid transparent; transition: var(--transition); letter-spacing: -0.01em; }
+.nav-links a:hover, .nav-links a.active { color: var(--accent); border-color: var(--accent); }
+.nav-links a.highlight-nav { color: var(--gold); font-weight: 800; }
+.nav-links a.highlight-nav:hover { border-color: var(--gold); }
+.nav-index { white-space: nowrap; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+/* BREADCRUMB */
+.breadcrumb {
+  display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 600;
+  color: var(--muted); padding: 18px 0 6px; text-transform: uppercase; letter-spacing: .05em;
+}
+.breadcrumb a { color: var(--muted); transition: color .15s ease; }
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb-sep { opacity: .5; }
+.breadcrumb-current { color: var(--ink); font-weight: 700; }
+
+/* FOOTER */
+footer { margin-top: 48px; padding: 34px 0; color: #d9dce2; background: #0c1424; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.footer-brand { font-family: var(--font-display); font-size: 13.5px; font-weight: 800; letter-spacing: .12em; color: #ffffff; }
+footer p { margin: 6px 0 0; color: #9aa5b8; font-size: 11px; }
+.footer-links { display: flex; gap: 18px; margin-top: 8px; font-size: 11px; }
+.footer-links a { color: #d0d7e2; transition: color .15s ease; }
+.footer-links a:hover { color: var(--gold-bright); }
+.footer-note { color: #e7cda7; font-family: var(--font-body); font-size: 13px; font-weight: 500; text-align: right; }
+
+@media (max-width: 760px) {
+  .container { width: min(100% - 32px, var(--max)); }
+  .masthead-inner { min-height: 80px; }
+  .masthead-note, .nav-index { display: none; }
+  .brand-mark { width: 36px; height: 36px; font-size: 18px; }
+  .brand-name { font-size: 17px; }
+  .nav-inner { min-height: 46px; }
+  .nav-links { width: 100%; gap: 16px; }
+  .nav-links a { font-size: 11px; padding: 14px 0 12px; }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+  .footer-note { text-align: left; }
+}
+
+/* ==========================================================================
+   DIPLOMACY LAB — MODULE PÉDAGOGIQUE (LEARNING.CSS)
+   Mise en page des cours académiques (9 sections normées + sommaire latéral)
+   ========================================================================== */
+
+/* LAYOUT GLOBAL DE COURS */
+.course-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 40px;
+  padding: 30px 0 60px;
+  align-items: start;
+}
+
+/* SOMMAIRE LATÉRAL FLOTTANT (STICKY TOC) */
+.course-toc {
+  position: sticky;
+  top: 70px;
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+}
+.toc-title {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--muted);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.toc-link {
+  display: block;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  padding: 5px 8px;
+  border-radius: 4px;
+  line-height: 1.35;
+  transition: var(--transition);
+  font-weight: 500;
+}
+.toc-link:hover, .toc-link.active {
+  background: rgba(177, 138, 81, 0.1);
+  color: var(--gold);
+  font-weight: 700;
+  transform: translateX(3px);
+}
+
+/* EN-TÊTE DU COURS */
+.course-header {
+  margin-bottom: 36px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.course-meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.tag-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 3px;
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+.tag-badge.level-tag { background: #0c1424; color: #f6f2e9; border-color: #0c1424; }
+.tag-badge.xp-tag { background: rgba(217,175,94,0.15); color: var(--gold); border-color: var(--gold-bright); }
+
+.course-title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4.5vw, 48px);
+  font-weight: 800;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  margin: 0 0 14px;
+  color: var(--ink);
+}
+.course-lead-def {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: 0 0 18px;
+  max-width: 780px;
+}
+.course-intro-question {
+  background: var(--paper-card);
+  border-left: 3px solid var(--gold);
+  border: 1px solid var(--line);
+  border-left-width: 4px;
+  border-left-color: var(--gold);
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  font-size: 13.5px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+/* SECTIONS DU COURS (9 PILLIERS) */
+.course-section {
+  margin-bottom: 44px;
+  scroll-margin-top: 80px;
+}
+.section-num-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.course-section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.6vw, 28px);
+  font-weight: 800;
+  letter-spacing: -.02em;
+  margin: 0 0 16px;
+  color: var(--ink);
+}
+.course-section p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+
+/* BLOC 2 : L'ESSENTIEL (KEY TAKEAWAYS) */
+.essential-box {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  margin: 16px 0;
+}
+.essential-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
+}
+.essential-item {
+  padding: 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.essential-item-num {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+.essential-item h4 {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+.essential-item p {
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* BLOC 4 : LE SAVAIS-TU ? */
+.did-you-know {
+  background: linear-gradient(135deg, rgba(217, 175, 94, 0.1) 0%, rgba(217, 175, 94, 0.03) 100%);
+  border: 1px solid var(--gold-bright);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  margin: 24px 0;
+  position: relative;
+}
+.did-you-know-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.did-you-know h4 {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.did-you-know p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* BLOC 5 : ÉTUDES DE CAS (GRID COMPARATIVE) */
+.cases-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 18px;
+}
+.case-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+.case-tag {
+  font-size: 9.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.case-card h4 {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.case-card p {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* BLOC 6 : DÉBATS & CONTROVERSES */
+.debates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 16px;
+}
+.debate-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+.debate-card h4 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+.debate-card p {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* BLOC 7 : TABLEAU / SYNTHÈSE À RETENIR */
+.synthesis-table-wrap {
+  overflow-x: auto;
+  margin: 18px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper-card);
+}
+.synthesis-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  text-align: left;
+}
+.synthesis-table th {
+  background: var(--paper);
+  padding: 12px 16px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.synthesis-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.synthesis-table tr:last-child td { border-bottom: none; }
+
+/* BLOC 8 : BIBLIOGRAPHIE ACADÉMIQUE */
+.biblio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.biblio-item {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.biblio-author { font-weight: 700; color: var(--ink); }
+.biblio-title { font-style: italic; color: var(--ink); }
+.biblio-details { color: var(--muted); font-size: 11px; margin-top: 2px; }
+
+/* BLOC 9 : ÉVALUATION & QUIZ CTA */
+.evaluation-block {
+  background: #0f1828;
+  color: #fffefa;
+  border-radius: var(--radius-lg);
+  padding: clamp(28px, 4vw, 42px);
+  box-shadow: var(--shadow-md);
+  margin-top: 30px;
+  border: 1px solid rgba(217, 175, 94, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+.evaluation-block h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+.evaluation-block p {
+  color: #cdd6e4;
+  font-size: 13.5px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 0 20px;
+}
+.quiz-launch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--gold-bright);
+  color: #0f1828;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  padding: 13px 26px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 14px rgba(217, 175, 94, 0.35);
+  transition: var(--transition);
+}
+.quiz-launch-btn:hover {
+  background: #f0c98f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(217, 175, 94, 0.45);
+}
+
+/* PASSERELLE CONCEPTUELLE INTER-CONCEPTS */
+.concept-bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.concept-bridge-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  transition: var(--transition);
+}
+.concept-bridge-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.concept-bridge-target {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.concept-bridge-target span.arrow {
+  color: var(--gold);
+  font-size: 14px;
+}
+.concept-bridge-card:hover .concept-bridge-target span.arrow {
+  color: var(--accent);
+}
+.concept-bridge-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* BANDEAU DE NAVIGATION INTER-COURS (CYCLE 10 CONCEPTS) */
+.course-pagination {
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 14px;
+  align-items: center;
+}
+.course-pagination-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: var(--transition);
+}
+.course-pagination-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-sm);
+}
+.course-pagination-link.prev {
+  text-align: left;
+}
+.course-pagination-link.next {
+  text-align: right;
+  justify-content: flex-end;
+}
+.pagination-arrow {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--gold);
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+.course-pagination-link:hover .pagination-arrow {
+  color: var(--accent);
+}
+.course-pagination-link.prev:hover .pagination-arrow {
+  transform: translateX(-3px);
+}
+.course-pagination-link.next:hover .pagination-arrow {
+  transform: translateX(3px);
+}
+.pagination-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.pagination-sub {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+}
+.pagination-title {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.course-pagination-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 9px 14px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.course-pagination-index:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--paper-card);
+}
+.course-pagination-index .grid-icon {
+  font-size: 15px;
+  line-height: 1;
+}
+@media (max-width: 768px) {
+  .course-pagination {
+    grid-template-columns: 1fr;
+  }
+  .course-pagination-index {
+    order: 3;
+  }
+}
+
+/* TEXTE DOCTRINAL FONDATEUR */
+.doctrinal-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.doctrinal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 800;
+  color: var(--gold);
+}
+.doctrinal-quote {
+  border-left: 3px solid var(--gold);
+  margin: 0 0 16px;
+  padding: 10px 0 10px 18px;
+  font-style: italic;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.doctrinal-analysis {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+/* ATELIER CONCOURS & DISSERTATION */
+.dissertation-card {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin-top: 16px;
+}
+.dissertation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 12px;
+}
+.dissertation-subject {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dissertation-problematique {
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.plan-part {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.plan-part-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+}
+.plan-part ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* PIEGES ACADEMIQUES */
+.pitfalls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.pitfall-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.pitfall-item strong {
+  display: block;
+  color: var(--accent);
+  font-size: 11.5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
+@media (max-width: 900px) {
+  .plan-grid { grid-template-columns: 1fr; }
+  .course-layout { grid-template-columns: 1fr; }
+  .course-toc { display: none; }
+  .cases-grid { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   DIPLOMACY LAB — MOTEUR DE QUIZ (QUIZ.CSS)
+   Style inspiré des mécaniques d'engagement et de progression de Duolingo
+   Harmonisé avec la Direction Artistique Think Tank (IRIS / Plus Jakarta Sans)
+   ========================================================================== */
+
+/* CONTENEUR MODAL OU INLINE DU QUIZ */
+.quiz-engine-wrapper {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: clamp(20px, 3.5vw, 36px);
+  margin: 24px 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* BARRE DE PROGRESSION STEPPÉE */
+.quiz-top-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.quiz-progress-track {
+  flex: 1;
+  height: 10px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.quiz-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--gold) 0%, var(--gold-bright) 100%);
+  border-radius: 20px;
+  transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.quiz-xp-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--gold);
+  letter-spacing: .04em;
+}
+
+/* QUESTION */
+.quiz-scenario-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.quiz-prompt {
+  font-family: var(--font-display);
+  font-size: clamp(17px, 2.2vw, 22px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 0 0 24px;
+}
+
+/* CHOIX DE RÉPONSES */
+.quiz-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.quiz-option-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--paper);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-align: left;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+}
+.quiz-option-btn:hover:not(:disabled) {
+  border-color: var(--gold);
+  background: rgba(177, 138, 81, 0.06);
+  transform: translateY(-2px);
+  color: var(--ink);
+}
+.quiz-option-key {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  background: var(--paper-card);
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--muted);
+  flex: 0 0 auto;
+}
+.quiz-option-btn.selected {
+  border-color: var(--gold);
+  background: rgba(177, 138, 81, 0.12);
+  color: var(--ink);
+}
+.quiz-option-btn.selected .quiz-option-key {
+  background: var(--gold);
+  color: #fffefa;
+  border-color: var(--gold);
+}
+
+/* ÉTATS VALIDATION */
+.quiz-option-btn.correct {
+  border-color: var(--green) !important;
+  background: var(--green-soft) !important;
+  color: var(--green) !important;
+  font-weight: 700;
+}
+.quiz-option-btn.correct .quiz-option-key {
+  background: var(--green) !important;
+  color: #fffefa !important;
+  border-color: var(--green) !important;
+}
+.quiz-option-btn.wrong {
+  border-color: var(--accent) !important;
+  background: var(--accent-soft) !important;
+  color: var(--accent) !important;
+}
+.quiz-option-btn.wrong .quiz-option-key {
+  background: var(--accent) !important;
+  color: #fffefa !important;
+  border-color: var(--accent) !important;
+}
+
+/* TIROIR DE FEEDBACK (BAS DE PAGE) */
+.quiz-feedback-drawer {
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  margin-top: 8px;
+  display: none;
+  animation: slideUp 0.25s ease-out forwards;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.quiz-feedback-drawer.success {
+  background: var(--green-soft);
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+.quiz-feedback-drawer.error {
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+.feedback-headline {
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.feedback-explanation {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+
+/* ACTIONS */
+.quiz-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+.quiz-primary-btn {
+  background: var(--ink);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.quiz-primary-btn:hover:not(:disabled) {
+  background: var(--gold);
+  transform: translateY(-2px);
+}
+.quiz-primary-btn:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+/* ÉCRAN DE VICTOIRE / RÉSULTAT */
+.quiz-result-card {
+  text-align: center;
+  padding: 30px 20px;
+  animation: fadeIn 0.4s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+.result-crown {
+  font-size: 48px;
+  margin-bottom: 12px;
+  display: inline-block;
+  animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-8px); }
+}
+.quiz-result-card h3 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.quiz-result-card p {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 480px;
+  margin: 0 auto 24px;
+  line-height: 1.6;
+}
+.result-stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.result-stat-box {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 14px 22px;
+  border-radius: var(--radius);
+  min-width: 120px;
+}
+.result-stat-num {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--gold);
+}
+.result-stat-label {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+  <!-- BARRE SUPÉRIEURE (TOPLINE) -->
+  <div class="topline">
+    <div class="container topline-inner">
+      <div class="topline-status">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Cours Fondamental · Relations Internationales</span>
+      </div>
+      <div class="topline-actions">
+        <span class="xp-pill">⚡ <span class="user-xp-count">0 XP</span></span>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Changer le thème">
+          <span id="themeIcon">🌙</span> <span id="themeText">Nuit</span>
+        </button>
+        <a href="monde.html">Atlas mondial ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MASTHEAD ÉDITORIAL -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a class="brand" href="index.html" aria-label="Diplomacy Lab, accueil">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span>
+          <span class="brand-name">DIPLOMACY LAB</span>
+          <span class="brand-sub">Comprendre · Analyser · Transmettre</span>
+        </span>
+      </a>
+      <div class="masthead-note">« L'État souverain demeure la brique élémentaire de l'ordre mondial. »</div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION PRINCIPALE -->
+  <nav class="main-nav" aria-label="Navigation principale">
+    <div class="container nav-inner">
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="monde.html" class="highlight-nav">🌍 L'Atlas mondial</a>
+        <a href="index.html#fondamentaux" class="active">Concepts & théories</a>
+        <a href="dossier.html">Dossiers de fond</a>
+        <a href="index.html#apprendre">Quiz & Histoire</a>
+        <a href="index.html#parcours">Parcours académique</a>
+      </div>
+      <span class="nav-index">Module M2 · Pratique & Régulation Â· Concept 13</span>
+    </div>
+  </nav>
+
+    <main class="container">
+    <!-- FIL D'ARIANE -->
+    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+      <a href="index.html">Accueil</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="index.html#fondamentaux">Concepts</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">Les Sanctions Économiques & l'Arme Financière</span>
+    </nav>
+
+    <div class="course-layout">
+      <!-- SIDEBAR GAUCHE : SOMMAIRE & REPERES RAPIDES -->
+      <aside class="course-sidebar">
+        <div class="toc-card">
+          <div class="toc-title">Sommaire du Cours</div>
+          <ul class="toc-list">
+            <li><a href="#introduction" class="toc-link active">00. Cadrage Stratégique</a></li>
+            <li><a href="#problematique" class="toc-link">01. Problématique & Niveaux</a></li>
+            <li><a href="#theorie" class="toc-link">02. Théories & Géoéconomie</a></li>
+            <li><a href="#passerelles" class="toc-link">03. Passerelles Analytiques</a></li>
+            <li><a href="#source-primaire" class="toc-link">04. Source Primaire Décryptée</a></li>
+            <li><a href="#cas-etudes" class="toc-link">05. 4 Cas Empiriques</a></li>
+            <li><a href="#dissertation" class="toc-link">06. Atelier Concours (Plan)</a></li>
+            <li><a href="#bibliographie" class="toc-link">07. Matrice & Références</a></li>
+            <li><a href="#evaluation" class="toc-link">08. Quiz & Validation (+30 XP)</a></li>
+          </ul>
+        </div>
+
+        <div class="toc-card" style="margin-top: 1.5rem;">
+          <div class="toc-title">Lexique Géoéconomique</div>
+          <div style="font-size: 0.85rem; color: var(--ink-soft); line-height: 1.55;">
+            <p style="margin-bottom: 0.8rem;"><strong>OFAC :</strong> <em>Office of Foreign Assets Control</em> (Département du Trésor américain), agence chargée d'administrer et d'appliquer les sanctions économiques et commerciales unilatérales des États-Unis.</p>
+            <p style="margin-bottom: 0.8rem;"><strong>Sanctions Secondaires :</strong> Dispositif coercitif interdisant aux entreprises de pays tiers, sous peine d'exclusion du marché américain, de commercer avec un État ou une entité sanctionnée par Washington.</p>
+            <p style="margin-bottom: 0.8rem;"><strong>Chokepoint Financier :</strong> Nœud central incontournable du système financier mondial (ex. le réseau de messagerie bancaire SWIFT ou le système de compensation en dollars CHIPS).</p>
+            <p style="margin-bottom: 0;"><strong>Effet Boomerang :</strong> Phénomène par lequel les sanctions économiques finissent par inciter les pays ciblés et leurs partenaires à développer des monnaies et circuits de contournement alternatifs, érodant à terme l'hégémonie de l'émetteur.</p>
+          </div>
+        </div>
+
+        <div class="toc-card" style="margin-top: 1.5rem;">
+          <div class="toc-title">En Bref</div>
+          <div style="font-size: 0.85rem; color: var(--ink-soft); line-height: 1.6;">
+            <div><strong>Taux de succès historique :</strong> ~34% (Hufbauer et al.)</div>
+            <div><strong>Réserves russes gelées :</strong> ~300 Mds $ (2022)</div>
+            <div><strong>Part du dollar réserves :</strong> 58% mondial (2024)</div>
+            <div><strong>Entités sur liste SDN :</strong> >25 000 désignations</div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- CONTENU PRINCIPAL DU COURS -->
+      <article class="course-content">
+        <!-- EN-TÊTE DU COURS -->
+        <header class="course-header" id="introduction">
+          <div class="course-badge">
+            <span class="badge-dot"></span>
+            <span>Géoéconomie · Diplomatie Coercitive · Master 2</span>
+          </div>
+          <h1 class="course-title">Les Sanctions Économiques & l'Arme Financière</h1>
+          <p class="course-subtitle">
+            Analyse de l'essor de l'arme économique (Nicholas Mulder), du paradoxe de l'efficacité (Daniel Drezner), de l'extraterritorialité juridique du dollar, de l'exclusion du réseau bancaire SWIFT et des dynamiques de fragmentation monétaire planétaire.
+          </p>
+
+          <div class="metadata-grid">
+            <div class="meta-item">
+              <span class="meta-label">Penseurs Cardinaux</span>
+              <span class="meta-value">N. Mulder · D. Drezner · H. Farrell · A. Newman · G.C. Hufbauer</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Paradigmes</span>
+              <span class="meta-value">Géoéconomie · Interdépendance Militarisée · Impérialisme Monétaire</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Niveau d'Analyse</span>
+              <span class="meta-value">Réseaux Financiers Globaux · Circuits de Compensation · Souveraineté</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Compétence Diplomatique</span>
+              <span class="meta-value">Conformité (Compliance) · Négociation de Levée · Dé-risquage</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- SECTION 1: PROBLEMATIQUE & REPERES L1 -> M2 -->
+        <section class="course-section" id="problematique">
+          <h2 class="section-title">
+            <span class="section-number">01</span>
+            Problématique Fondamentale & Trajectoire Pédagogique
+          </h2>
+
+          <p class="section-lead">
+            Les sanctions économiques constituent-elles une alternative humaniste et efficace à la violence militaire entre États, ou se sont-elles transformées en un instrument d'étranglement unilatéral asymétrique dont l'extraterritorialité fragmente l'ordre monétaire multilatéral ?
+          </p>
+
+          <p class="section-text">
+            Longtemps considérées comme un outil intermédiaire entre la rhétorique diplomatique impuissante et le recours aux armes cinétiques, les sanctions économiques ont connu une métamorphose spectaculaire au cours des trois dernières décennies. De l'embargo commercial global et aveugle des années 1990 (dont le coût humanitaire dramatique en Irak a discrédité la formule), la diplomatie moderne est passée aux <strong>« sanctions ciblées ou intelligentes »</strong> (<em>smart sanctions</em>), avant de basculer, depuis 2014 et l'invasion de l'Ukraine en 2022, dans une véritable <strong>guerre financière totale</strong>. En instrumentalisant le dollar américain et les réseaux interbancaires mondiaux comme des goulots d'étranglement obligatoires, les grandes puissances ont transformé l'interdépendance économique en une arme de coercition géostratégique sans équivalent dans l'histoire.
+          </p>
+
+          <div class="concept-pedagogical-grid">
+            <div class="pedagogical-card">
+              <div class="pedagogical-badge">L1 · Origines & Concepts</div>
+              <h4>Du Blocus Maritime à l'Embargo Économique</h4>
+              <p>Comprendre la filiation historique des sanctions : héritières directes du blocus de guerre napoléonien et du premier conflit mondial, théorisées sous l'égide de la Société des Nations comme arme de paix collective capable de vaincre un État sans tirer un coup de feu.</p>
+            </div>
+
+            <div class="pedagogical-card">
+              <div class="pedagogical-badge">L2 · Typologie Juridique</div>
+              <h4>Sanctions Multilatérales vs Unilatérales</h4>
+              <p>Distinction cardinale du droit international : les sanctions multilatérales adoptées sous le Chapitre VII de la Charte de l'ONU par le Conseil de sécurité (contraignantes pour tous les États membres) face aux régimes de sanctions unilatérales imposés par les États-Unis ou l'Union européenne.</p>
+            </div>
+
+            <div class="pedagogical-card">
+              <div class="pedagogical-badge">L3 · Mécanismes Financiers</div>
+              <h4>L'Extraterritorialité & le Pouvoir du Dollar</h4>
+              <p>Étudier comment le moindre virement financier libellé en devise américaine traversant une chambre de compensation à New York confère aux tribunaux et régulateurs américains (OFAC, DoJ) une compétence juridictionnelle universelle sur les entreprises mondiales.</p>
+            </div>
+
+            <div class="pedagogical-card">
+              <div class="pedagogical-badge">M2 · Analyse Systémique</div>
+              <h4>Dédollarisation & Fragmentation Géoéconomique</h4>
+              <p>Disséquer les limites structurelles de l'arme financière : la constitution d'économies de résistance (Russie, Chine, Iran), le troc bilatéral en monnaies locales (yuan, rouble, roupie), et le risque de saper le statut de monnaie de réserve mondiale du dollar.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 2: THEORIE & CONCEPTS CLES -->
+        <section class="course-section" id="theorie">
+          <h2 class="section-title">
+            <span class="section-number">02</span>
+            Fondements Théoriques & Débats Géoéconomiques
+          </h2>
+
+          <div class="theory-box">
+            <h3 class="theory-title">1. Nicholas Mulder : L'arme économique comme technologie de guerre moderne (2022)</h3>
+            <p>
+              Dans son ouvrage fondamental <em>The Economic Weapon: The Rise of Sanctions as a Tool of Modern War</em>, l'historien <strong>Nicholas Mulder</strong> démontre que les sanctions économiques ne sont pas une alternative pacifique à la guerre, mais sont nées de l'application en temps de paix du blocus total interallié de la Première Guerre mondiale. Mulder souligne que dans les années 1930, la menace de sanctions économiques par la SDN n'a pas arrêté l'Italie fasciste en Éthiopie ni le Japon en Mandchourie, mais a au contraire incité les régimes autoritaires à conquérir militairement des espaces vitaux autarciques (<em>Lebensraum</em>) pour immuniser leur économie contre les blocus futurs.
+            </p>
+          </div>
+
+          <div class="theory-box">
+            <h3 class="theory-title">2. Daniel W. Drezner : « Le Paradoxe des Sanctions » (1999)</h3>
+            <p>
+              Le politologue américain <strong>Daniel Drezner</strong> énonce un paradoxe stratégique majeur : <em>les sanctions économiques ont le taux de succès le plus élevé contre des alliés ou des partenaires diplomatiques, et le taux de succès le plus faible contre les adversaires les plus irréductibles</em>. Pourquoi ? Parce qu'un allié sait qu'une concession mineure ne mettra pas en péril sa survie future, tandis qu'un régime rival (comme la Corée du Nord, Cuba ou l'Iran) craint que toute concession sous la contrainte ne soit interprétée comme une faiblesse mortelle encourageant l'adversaire à exiger un changement de régime. Par conséquent, les sanctions frappent avec le plus de force précisément là où elles ont le moins de chances d'obtenir une capitulation politique.
+            </p>
+          </div>
+
+          <div class="theory-box">
+            <h3 class="theory-title">3. Farrell & Newman : L'Interdépendance Militarisée (Weaponized Interdependence, 2019)</h3>
+            <p>
+              Henry Farrell et Abraham Newman ont révolutionné la théorie des relations internationales en démontrant que la mondialisation n'est pas un réseau horizontal décentralisé d'égaux, mais une architecture asymétrique organisée autour de nœuds d'interconnexion (<em>hub-and-spoke networks</em>). L'État qui abrite ou contrôle ces nœuds dispose de deux pouvoirs redoutables :
+            </p>
+            <ul class="styled-list">
+              <li><strong>L'effet Panoptique :</strong> Capacité d'observer la totalité des flux mondiaux transitant par le nœud (ex. le renseignement financier issu des données SWIFT ou du trafic internet via la NSA).</li>
+              <li><strong>L'effet Goulet d'Étranglement (Chokepoint) :</strong> Capacité de fermer l'accès au nœud pour exclure brutalement un acteur économique du commerce international sans avoir à déployer de forces militaires.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- SECTION 3: PASSERELLES ANALYTIQUES -->
+        <section class="course-section" id="passerelles">
+          <h2 class="section-title">
+            <span class="section-number">03</span>
+            Passerelles Analytiques & Connexions Systémiques
+          </h2>
+
+          <div class="passerelle-grid">
+            <a href="interdependance.html" class="passerelle-card">
+              <span class="passerelle-badge">Connexion Concept 05</span>
+              <h4>Du Doux Commerce à la Coercition Asymétrique</h4>
+              <p>Rupture avec l'illusion libérale de Montesquieu et Keohane : la densité des flux commerciaux ne garantit pas la paix, elle fournit au contraire les leviers d'étranglement les plus violents de la politique de puissance.</p>
+            </a>
+
+            <a href="hegemonie.html" class="passerelle-card">
+              <span class="passerelle-badge">Connexion Concept 08</span>
+              <h4>Le Dollar comme Pilier de l'Hégémonie Américaine</h4>
+              <p>La théorie de la stabilité hégémonique (Kindleberger) postulait que le leader fournissait la monnaie mondiale comme bien public ; l'usage coercitif unilatéral des sanctions transforme ce bien public en instrument d'exercice impérial.</p>
+            </a>
+
+            <a href="negociation-diplomatique.html" class="passerelle-card">
+              <span class="passerelle-badge">Connexion Concept 14</span>
+              <h4>La Levée des Sanctions comme Actif Négociable</h4>
+              <p>Dans la diplomatie contemporaine (JCPOA iranien, dénucléarisation coréenne), l'imposition préalable de sanctions crée l'actif coercitif dont l'allègement calibré sert de contrepartie principale dans la négociation.</p>
+            </a>
+
+            <a href="souverainete.html" class="passerelle-card">
+              <span class="passerelle-badge">Connexion Concept 01</span>
+              <h4>Le Conflit des Souverainetés Juridiques</h4>
+              <p>L'application extraterritoriale des lois américaines (loi Helms-Burton, loi d'Amato-Kennedy) heurte frontalement la souveraineté territoriale des États tiers et contraint l'Union européenne à adopter des « règlements de blocage ».</p>
+            </a>
+          </div>
+        </section>
+
+        <!-- SECTION 4: SOURCE PRIMAIRE DECRYPTEE -->
+        <section class="course-section" id="source-primaire">
+          <h2 class="section-title">
+            <span class="section-number">04</span>
+            Source Primaire Décryptée : La Loi Américaine CAATSA (2017)
+          </h2>
+
+          <div class="primary-source-box">
+            <div class="source-header">
+              <span class="source-tag">Législation Fédérale des États-Unis</span>
+              <h4>Countering America's Adversaries Through Sanctions Act (CAATSA) — Public Law 115-44</h4>
+              <span class="source-meta">Congrès des États-Unis — Votée à la quasi-unanimité le 2 août 2017</span>
+            </div>
+            
+            <blockquote class="source-quote">
+              « Section 231 (a) : The President shall impose 5 or more of the sanctions described in section 235 with respect to a person that the President determines knowingly engages in a significant transaction with a person that is part of, or operates for or on behalf of, the defense or intelligence sectors of the Government of the Russian Federation. [...]
+              Section 235 (a) : Sanctions include prohibitions on Export-Import Bank assistance, export sanctions, prohibition of loans from United States financial institutions exceeding $10,000,000 in any 12-month period, exclusion of corporate officers from entering the United States, and sanctions on principal executive officers. »
+            </blockquote>
+
+            <div class="source-analysis">
+              <h5>Clés d'Analyse Diplomatique & Économique :</h5>
+              <ol class="styled-list">
+                <li><strong>Le mécanisme des sanctions secondaires obligatoires :</strong> CAATSA illustre la quintessence de la coercition extraterritoriale : la loi ne punit pas seulement les entités russes, mais ordonne des sanctions automatiques contre <em>tout tiers au monde</em> (même un allié stratégique comme la Turquie ou l'Inde) qui achèterait des matériels de défense russes (ex. l'achat du système de défense antiaérienne russe S-400 par la Turquie, ayant entraîné l'exclusion d'Ankara du programme d'avions de chasse furtifs F-35).</li>
+                <li><strong>Le dessaisissement du pouvoir exécutif :</strong> Votée avec une majorité écrasante au Congrès (98 contre 2 au Sénat), CAATSA retirait au Président des États-Unis le pouvoir discrétionnaire de lever ou d'alléger unilatéralement les sanctions sans l'approbation préalable du Congrès, verrouillant ainsi la politique étrangère américaine sur le long terme.</li>
+                <li><strong>L'impact sur la politique d'approvisionnement des pays tiers :</strong> Cette architecture force les capitales étrangères à choisir entre la rupture de leurs liens industriels historiques avec Moscou et l'exclusion radicale du marché bancaire et technologique américain.</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 5: CAS D'ETUDE EMPIRIQUES -->
+        <section class="course-section" id="cas-etudes">
+          <h2 class="section-title">
+            <span class="section-number">05</span>
+            Quatre Cas d'Étude Empiriques Approfondis
+          </h2>
+
+          <div class="case-studies-grid">
+            <article class="case-card">
+              <span class="case-tag">Guerre Financière · 2018–2021</span>
+              <h3>L'Iran et la Stratégie de « Pression Maximale »</h3>
+              <p><strong>Contexte :</strong> Retrait unilatéral américain en mai 2018 de l'accord sur le nucléaire iranien (JCPOA) par l'administration Trump.</p>
+              <p><strong>Mécanisme :</strong> Rétablissement de sanctions extraterritoriales maximales : menace de bannir du système bancaire américain toute entreprise achetant du pétrole iranien ou commerçant avec Téhéran, forçant les multinationales européennes (TotalEnergies, Airbus, Peugeot) à quitter l'Iran en catastrophe. Déconnexion des banques iraniennes de la messagerie SWIFT.</p>
+              <p><strong>Leçon :</strong> Démonstration éclatante du pouvoir extraterritorial absolu du dollar sur les entreprises tierces, mais échec sur le plan des objectifs politiques ultimes : loin de capituler, l'Iran a accéléré son enrichissement d'uranium jusqu'à 60% et développé une « économie de résistance » opaque avec la Chine.</p>
+            </article>
+
+            <article class="case-card">
+              <span class="case-tag">Séisme Monétaire · Février 2022</span>
+              <h3>Le Gel des Réserves de Change de la Banque de Russie</h3>
+              <p><strong>Contexte :</strong> Invasion à grande échelle de l'Ukraine le 24 février 2022 par la Fédération de Russie.</p>
+              <p><strong>Mécanisme :</strong> En un week-end historique, le G7 et l'Union européenne immobilisent environ 300 milliards de dollars d'actifs souverains de la Banque centrale de Russie détenus dans des établissements financiers occidentaux (notamment Euroclear en Belgique). Déconnexion des principales banques russes du réseau SWIFT et embargo sur le pétrole brut maritime avec mécanisme de plafonnement des prix (<em>oil price cap</em>).</p>
+              <p><strong>Leçon :</strong> Rupture radicale avec le principe coutumier séculaire de l'immunité juridictionnelle et souveraine des banques centrales. Si la mesure a provoqué une onde de choc, la Russie a réorienté son commerce pétrolier vers l'Inde et la Chine via une immense « flotte fantôme » de pétroliers sous pavillons de complaisance.</p>
+            </article>
+
+            <article class="case-card">
+              <span class="case-tag">Extraterritorialité Judiciaire · 2014</span>
+              <h3>L'Affaire BNP Paribas : 8,9 Milliards de Dollars d'Amende</h3>
+              <p><strong>Contexte :</strong> Transactions financières menées par la première banque française entre 2002 et 2012 pour le compte de clients au Soudan, en Iran et à Cuba, pays soumis à des sanctions unilatérales américaines.</p>
+              <p><strong>Mécanisme :</strong> Bien que les opérations fussent strictement légales au regard du droit français et européen, les transactions ont été compensées en dollars via des banques correspondantes situées sur le sol américain. La justice fédérale américaine a menacé de révoquer la licence bancaire de BNP Paribas aux États-Unis (arrêt de mort commercial immédiat), contraignant la banque à plaider coupable et à payer une amende record de 8,97 milliards de dollars.</p>
+              <p><strong>Leçon :</strong> Prise de conscience brutale par les chancelleries européennes de leur vulnérabilité souveraine face à l'impérialisme juridique américain, stimulant les réflexions sur l'autonomie stratégique et le mécanisme INSTEX.</p>
+            </article>
+
+            <article class="case-card">
+              <span class="case-tag">Coercition Commerciale Chinoise · 2021</span>
+              <h3>L'Embargo Chinois de Facto contre la Lituanie</h3>
+              <p><strong>Contexte :</strong> Autorisation par Vilnius en novembre 2021 de l'ouverture d'un bureau de représentation diplomatique utilisant explicitement le nom de « Taïwan » plutôt que « Taipei chinois ».</p>
+              <p><strong>Mécanisme :</strong> Pékin efface purement et simplement la Lituanie de son système informatique douanier électronique, bloquant toutes les marchandises lituaniennes dans les ports chinois. Plus redoutable encore, la Chine menace les multinationales allemandes (notamment le groupe automobile Continental) de bloquer leurs exportations vers la Chine si elles continuent d'incorporer des composants fabriqués en Lituanie dans leurs produits.</p>
+              <p><strong>Leçon :</strong> Émergence de la coercition économique chinoise par manipulation des chaînes d'approvisionnement intégrées, incitant l'Union européenne à forger un nouvel instrument anti-coercition (ACI) en 2023.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- SECTION 6: ATELIER CONCOURS / DISSERTATION -->
+        <section class="course-section" id="dissertation">
+          <h2 class="section-title">
+            <span class="section-number">06</span>
+            Atelier Concours : Dissertation & Analyse Économique
+          </h2>
+
+          <div class="dissertation-box">
+            <div class="dissertation-topic">
+              <span class="topic-tag">Sujet Type Concours MEAE / INSP (ex-ENA) / Ministère de l'Économie</span>
+              <h3>« Les sanctions économiques constituent-elles une arme efficace au service de la paix ou un facteur de fragmentation de l'ordre international ? »</h3>
+            </div>
+
+            <div class="dissertation-problematique">
+              <strong>Problématique Réfléchie :</strong> Alors que les sanctions sont devenues l'instrument de prédilection des démocraties pour sanctionner les violations du droit international sans risquer l'affrontement armé direct, leur surutilisation unilatérale et leur portée extraterritoriale n'aboutissent-elles pas au paradoxe d'éroder l'efficacité du levier coercitif tout en précipitant la constitution d'un ordre monétaire et commercial fragmenté hors de la sphère occidentale ?
+            </div>
+
+            <div class="dissertation-plan">
+              <div class="plan-part">
+                <h4>I. L'affirmation des sanctions comme instrument central de régulation et de coercition internationale</h4>
+                <div class="plan-sub">
+                  <p><strong>A. Un palliatif indispensable entre l'inaction et la guerre totale :</strong> Face aux violations de souveraineté et à la prolifération, les sanctions permettent de signaler l'illégitimité, de renchérir massivement le coût de l'agression et de dégrader la base technologique et militaire de l'agresseur.</p>
+                  <p><strong>B. L'efficacité redoutable de la centralité financière occidentale :</strong> La maîtrise des goulets d'étranglement bancaires mondiaux (dollar, SWIFT, assurances maritimes Lloyd's) offre aux puissances occidentales une force de frappe sans équivalent historique pour isoler instantanément des économies entières.</p>
+                </div>
+              </div>
+
+              <div class="plan-part">
+                <h4>II. Les apories stratégiques de l'arme économique : inefficacité politique et désoccidentalisation du système</h4>
+                <div class="plan-sub">
+                  <p><strong>A. Le dilemme de l'inefficacité politique et l'adaptation des régimes cibles :</strong> Les sanctions échouent presque systématiquement à modifier le comportement fondamental des régimes autocratiques (effet de ralliement autour du drapeau, économies souterraines, renforcement de l'emprise étatique au détriment des populations civiles).</p>
+                  <p><strong>B. L'effet boomerang et la fracturation de la mondialisation :</strong> En abusant de l'arme monétaire, les émetteurs incitent les puissances révisionnistes et émergentes (BRICS+) à bâtir des architectures alternatives déconnectées de l'Occident (dédollarisation des échanges, systèmes de paiement CIPS/SPFS, corridors logistiques terrestres), précipitant la fin du multilatéralisme universel.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="traps-box">
+              <h4>Trois Pièges Classiques à Éviter :</h4>
+              <ul class="styled-list">
+                <li><strong>Le piège de la mesure binaire (succès / échec) :</strong> Réduire l'évaluation d'un régime de sanctions à la seule question : « le régime a-t-il été renversé ? ». Les sanctions ont souvent pour objectif plus réaliste de freiner le réarmement, d'accroître les coûts d'une politique ou de dissuader des pays tiers de soutenir l'agresseur.</li>
+                <li><strong>L'oubli des coûts pour l'émetteur (Effet Boomerang) :</strong> Analyser les sanctions comme une arme gratuite en négligeant l'impact des hausses de prix de l'énergie et des matières premières sur les ménages et la compétitivité industrielle des pays sanctionnateurs.</li>
+                <li><strong>L'amalgame entre sanctions ONU et sanctions unilatérales :</strong> Confondre sur le plan juridique les résolutions impératives adoptées par le Conseil de sécurité des Nations Unies au titre de la légalité internationale avec les mesures unilatérales étatiques dont la portée extraterritoriale est contestée en droit public international.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 7: MATRICE & BIBLIOGRAPHIE -->
+        <section class="course-section" id="bibliographie">
+          <h2 class="section-title">
+            <span class="section-number">07</span>
+            Matrice des Régimes Coercitifs & Bibliographie Sélective
+          </h2>
+
+          <div class="matrix-wrapper">
+            <table class="comparative-table">
+              <thead>
+                <tr>
+                  <th>Cadre Juridique</th>
+                  <th>Autorité d'Émission</th>
+                  <th>Portée & Mécanisme de Contrainte</th>
+                  <th>Limites & Vulnérabilités</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Sanctions Onusiennes</strong></td>
+                  <td>Conseil de sécurité de l'ONU (Chapitre VII, Art. 41)</td>
+                  <td>Universelle et contraignante pour les 193 États membres. Respecte la légalité internationale.</td>
+                  <td>Fréquemment paralysé par le droit de veto d'un des cinq membres permanents (Russie ou Chine).</td>
+                </tr>
+                <tr>
+                  <td><strong>Sanctions Américaines (OFAC)</strong></td>
+                  <td>Département du Trésor US (Secrétaire au Trésor & Maison Blanche)</td>
+                  <td>Extraterritorialité globale via l'usage de la devise dollar, des marchés de capitaux US et des sanctions secondaires.</td>
+                  <td>Accélération de la dédollarisation globale, tensions diplomatiques majeures avec les alliés européens.</td>
+                </tr>
+                <tr>
+                  <td><strong>Sanctions Européennes (PESC)</strong></td>
+                  <td>Conseil de l'Union européenne (décision unanime à 27 États membres)</td>
+                  <td>Portée territoriale stricte (ressortissants et entreprises opérant sur le territoire de l'Union), respectueuse du droit international.</td>
+                  <td>Lenteur de négociation due à la règle de l'unanimité (blocages récurrents de la Hongrie), absence de sanctions secondaires.</td>
+                </tr>
+                <tr>
+                  <td><strong>Contre-Mesures Chinoises</strong></td>
+                  <td>Ministère du Commerce chinois (Loi anti-sanctions étrangères de 2021)</td>
+                  <td>Ciblage des chaînes d'approvisionnement en terres rares, boycott douanier de facto et sanctions contre parlementaires étrangers.</td>
+                  <td>Risque d'effrayer les investisseurs directs étrangers (IDE) et d'accélérer le découplage des firmes occidentales.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="bibliography-grid" style="margin-top: 2rem;">
+            <div class="biblio-card">
+              <span class="biblio-year">2022</span>
+              <h4>The Economic Weapon</h4>
+              <p class="biblio-author">Nicholas Mulder</p>
+              <p class="biblio-desc">Histoire monumentale de la naissance des sanctions économiques dans l'entre-deux-guerres, explorant comment un instrument conçu pour préserver la paix a souvent attisé la dynamique de guerre totale.</p>
+            </div>
+
+            <div class="biblio-card">
+              <span class="biblio-year">1999</span>
+              <h4>The Sanctions Paradox</h4>
+              <p class="biblio-author">Daniel W. Drezner</p>
+              <p class="biblio-desc">Modélisation rigoureuse démontrant pourquoi les sanctions économiques réussissent principalement contre des alliés et échouent le plus spectaculairement contre les régimes hostiles.</p>
+            </div>
+
+            <div class="biblio-card">
+              <span class="biblio-year">2019</span>
+              <h4>Weaponized Interdependence</h4>
+              <p class="biblio-author">Henry Farrell & Abraham Newman</p>
+              <p class="biblio-desc">L'article et le livre qui ont redéfini la géoéconomie contemporaine en théorisant la capture des réseaux d'information et financiers mondiaux comme instruments de domination hégémonique.</p>
+            </div>
+
+            <div class="biblio-card">
+              <span class="biblio-year">2023</span>
+              <h4>L'Arme des sanctions économiques</h4>
+              <p class="biblio-author">Agathe Demarais</p>
+              <p class="biblio-desc">Analyse lucide des effets pervers et des conséquences involontaires des sanctions américaines et européennes sur la diplomatie mondiale et les firmes multinationales.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 8: QUIZ D'EVALUATION -->
+        <section class="course-section" id="evaluation">
+          <h2 class="section-title">
+            <span class="section-number">08</span>
+            Évaluation Formative & Validation des Compétences
+          </h2>
+
+          <p class="section-lead">
+            Mesurez votre maîtrise des concepts de géoéconomie, des sanctions extraterritoriales et des réseaux financiers internationaux.
+          </p>
+
+          <div class="quiz-starter-card" id="quizStarterBlock">
+            <div class="quiz-starter-badge">Module M2 · 5 Questions Sélectives</div>
+            <h3>Quiz de Géoéconomie & Sanctions Internationales</h3>
+            <p>Validez votre maîtrise conceptuelle pour obtenir <strong>+30 XP</strong> et débloquer les badges de politique économique internationale.</p>
+            <div style="margin-top: 1.5rem;">
+              <button class="btn-primary" id="startCourseQuizBtn">Lancer l'Évaluation Formative</button>
+            </div>
+          </div>
+
+          <div id="quizContainer" style="display: none; margin-top: 2rem;"></div>
+        </section>
+
+        <!-- NAVIGATION INTER-COURS -->
+        <nav class="course-pagination" aria-label="Navigation entre les cours">
+          <a href="guerre-hybride.html" class="course-pagination-link prev">
+            <span class="pagination-arrow" aria-hidden="true">←</span>
+            <div class="pagination-info">
+              <span class="pagination-sub">Concept précédent (12)</span>
+              <span class="pagination-title">La Guerre Hybride</span>
+            </div>
+          </a>
+          <a href="index.html#fondamentaux" class="course-pagination-index" title="Sommaire des 15 concepts">
+            <span class="grid-icon">▦</span>
+            <span>Tous les concepts (15)</span>
+          </a>
+          <a href="negociation-diplomatique.html" class="course-pagination-link next">
+            <div class="pagination-info">
+              <span class="pagination-sub">Concept suivant (14)</span>
+              <span class="pagination-title">La Négociation Diplomatique</span>
+            </div>
+            <span class="pagination-arrow" aria-hidden="true">→</span>
+          </a>
+        </nav>
+      </article>
+    </div>
+  </main>
+
+</main>
+
+  <!-- PIED DE PAGE -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">DIPLOMACY LAB</div>
+        <p>Observatoire et laboratoire académique des relations internationales.</p>
+        <div class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="monde.html">Atlas mondial</a>
+          <a href="dossier.html">Dossiers de référence</a>
+        </div>
+      </div>
+      <div class="footer-note">Comprendre le monde, une idée à la fois.</div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS D'INTERACTIVITÉ -->
+  <script>
+// ==========================================================================
+// DIPLOMACY LAB — SYSTÈME DE PROGRESSION & GAMIFICATION (PROGRESS.JS)
+// Gestion des points d'expérience (XP), concepts étudiés, quiz et badges
+// Sauvegarde persistante locale via localStorage
+// ==========================================================================
+
+(function() {
+  const STORAGE_KEY = "diplomacy_lab_progress_v1";
+
+  const defaultState = {
+    xp: 0,
+    conceptsRead: {},
+    quizzesCompleted: {},
+    badges: [],
+    level: 1,
+    lastActive: new Date().toISOString()
+  };
+
+  const BADGE_DEFINITIONS = [
+    {
+      id: "premier-pas",
+      title: "Premier Pas Diplomatique",
+      desc: "Avoir exploré votre premier grand concept de relations internationales.",
+      icon: "🌱"
+    },
+    {
+      id: "maitre-westphalie",
+      title: "Traité de Westphalie",
+      desc: "Avoir validé avec succès le quiz sur la Souveraineté.",
+      icon: "🏛️"
+    },
+    {
+      id: "stratege-puissance",
+      title: "Stratège Réaliste",
+      desc: "Avoir validé le quiz sur la Puissance et les rapports de force.",
+      icon: "⚡"
+    },
+    {
+      id: "cent-xp",
+      title: "Attaché d'Ambassade",
+      desc: "Avoir accumulé plus de 100 points d'expérience (XP).",
+      icon: "🎖️"
+    },
+    {
+      id: "grand-diplomate",
+      title: "Ambassadeur Plénipotentiaire",
+      desc: "Avoir exploré tous les grands concepts fondamentaux.",
+      icon: "🌍"
+    }
+  ];
+
+  function loadState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        return Object.assign({}, defaultState, JSON.parse(saved));
+      }
+    } catch (e) {
+      console.warn("Impossible de charger la progression :", e);
+    }
+    return Object.assign({}, defaultState);
+  }
+
+  function saveState(state) {
+    try {
+      state.lastActive = new Date().toISOString();
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {
+      console.warn("Impossible de sauvegarder la progression :", e);
+    }
+  }
+
+  const ProgressManager = {
+    getState: function() {
+      return loadState();
+    },
+
+    getXP: function() {
+      return loadState().xp;
+    },
+
+    addXP: function(amount, reason) {
+      const state = loadState();
+      state.xp = (state.xp || 0) + amount;
+      this.checkBadges(state);
+      saveState(state);
+      this.syncHeaderXP();
+      console.log(`[Diplomacy Lab] +${amount} XP accordés (${reason}). Total : ${state.xp} XP`);
+      return state.xp;
+    },
+
+    markConceptRead: function(conceptId) {
+      const state = loadState();
+      if (!state.conceptsRead[conceptId]) {
+        state.conceptsRead[conceptId] = new Date().toISOString();
+        state.xp = (state.xp || 0) + 15; // +15 XP première lecture
+        this.checkBadges(state);
+        saveState(state);
+        this.syncHeaderXP();
+      }
+    },
+
+    saveQuizResult: function(conceptId, score, maxScore, earnedXP) {
+      const state = loadState();
+      const previous = state.quizzesCompleted[conceptId] || { bestScore: 0 };
+      const isNewBest = score > previous.bestScore;
+
+      state.quizzesCompleted[conceptId] = {
+        lastScore: score,
+        maxScore: maxScore,
+        bestScore: Math.max(previous.bestScore, score),
+        date: new Date().toISOString()
+      };
+
+      if (earnedXP > 0) {
+        state.xp = (state.xp || 0) + earnedXP;
+      }
+
+      this.checkBadges(state, conceptId, score, maxScore);
+      saveState(state);
+      this.syncHeaderXP();
+
+      return {
+        bestScore: state.quizzesCompleted[conceptId].bestScore,
+        totalXP: state.xp
+      };
+    },
+
+    checkBadges: function(state, lastConcept, lastScore, lastMax) {
+      state.badges = state.badges || [];
+
+      // Badge 1 : Premier pas
+      if (Object.keys(state.conceptsRead).length >= 1 && !state.badges.includes("premier-pas")) {
+        state.badges.push("premier-pas");
+      }
+
+      // Badge 2 : Westphalie
+      if (lastConcept === "souverainete" && lastScore >= (lastMax * 0.7) && !state.badges.includes("maitre-westphalie")) {
+        state.badges.push("maitre-westphalie");
+      }
+
+      // Badge 3 : Puissance
+      if (lastConcept === "puissance" && lastScore >= (lastMax * 0.7) && !state.badges.includes("stratege-puissance")) {
+        state.badges.push("stratege-puissance");
+      }
+
+      // Badge 4 : 100 XP
+      if (state.xp >= 100 && !state.badges.includes("cent-xp")) {
+        state.badges.push("cent-xp");
+      }
+
+      // Badge 5 : Tous les concepts
+      const coreConcepts = ["souverainete", "puissance", "interet-national", "anarchie-internationale", "interdependance"];
+      const allRead = coreConcepts.every(c => state.conceptsRead[c]);
+      if (allRead && !state.badges.includes("grand-diplomate")) {
+        state.badges.push("grand-diplomate");
+      }
+    },
+
+    getEarnedBadges: function() {
+      const state = loadState();
+      return BADGE_DEFINITIONS.filter(b => (state.badges || []).includes(b.id));
+    },
+
+    syncHeaderXP: function() {
+      const state = loadState();
+      const elements = document.querySelectorAll(".user-xp-count, #headerXP");
+      elements.forEach(el => {
+        el.textContent = `${state.xp} XP`;
+      });
+    }
+  };
+
+  window.ProgressManager = ProgressManager;
+
+  // Synchronisation automatique au chargement de la page
+  document.addEventListener("DOMContentLoaded", function() {
+    ProgressManager.syncHeaderXP();
+  });
+})();
+
+// ==========================================================================
+// DIPLOMACY LAB — BANQUE DE QUESTIONS : SOUVERAINETÉ
+// Questions académiques vérifiées pour le moteur de quiz
+// ==========================================================================
+
+
+window.QUIZ_SANCTIONS_ECONOMIQUES = [
+  {
+    type: "mcq",
+    tag: "Théorie de Daniel Drezner (1999)",
+    prompt: "Que démontre Daniel W. Drezner à travers son célèbre 'paradoxe des sanctions' (The Sanctions Paradox) ?",
+    options: [
+      "Les sanctions sont toujours inefficaces car les banques privées contournent systématiquement les embargos.",
+      "Les sanctions économiques ont le taux de succès le plus élevé contre des alliés ou pays proches, et échouent le plus souvent contre les adversaires les plus hostiles.",
+      "Imposer des sanctions enrichit systématiquement le pays émetteur au détriment des pays neutres.",
+      "Les sanctions ne fonctionnent que si elles sont accompagnées d'un débarquement amphibie immédiat."
+    ],
+    correct: 1,
+    explanation: "Drezner montre que les alliés concèdent facilement de petits ajustements car ils ne craignent pas pour leur survie, alors que les régimes adverses refusent de céder de peur qu'une concession ne soit perçue comme un signe de faiblesse mortelle encourageant un changement de régime."
+  },
+  {
+    type: "mcq",
+    tag: "Géoéconomie de Farrell & Newman",
+    prompt: "Selon Henry Farrell et Abraham Newman (2019), comment fonctionne l'effet de 'goulet d'étranglement' (chokepoint effect) dans l'interdépendance militarisée ?",
+    options: [
+      "En minant militairement les détroits maritimes naturels comme Gibraltar ou Bab-el-Mandeb.",
+      "En fermant l'accès aux nœuds centraux d'infrastructures globales (comme le réseau de messagerie bancaire SWIFT ou les systèmes d'exploitation) pour exclure unilatéralement un rival du commerce mondial.",
+      "En subventionnant massivement la production agricole intérieure.",
+      "En interdisant l'apprentissage des langues étrangères dans les universités."
+    ],
+    correct: 1,
+    explanation: "La mondialisation repose sur des réseaux asymétriques où quelques concentrateurs (hubs) canalisent la majorité des flux. Les États qui exercent leur juridiction sur ces nœuds (comme les États-Unis sur SWIFT ou la compensation en dollars) peuvent couper l'accès d'un État au système mondial."
+  },
+  {
+    type: "mcq",
+    tag: "Droit & Souveraineté Financière",
+    prompt: "Sur quel fondement juridique reposent principalement les 'sanctions secondaires' extraterritoriales appliquées par l'OFAC américain ?",
+    options: [
+      "Une résolution explicite adoptée à l'unanimité par l'Assemblée générale des Nations Unies.",
+      "Le droit de la mer de Montego Bay autorisant l'arraisonnement en haute mer.",
+      "La doctrine du lien de rattachement : toute transaction financière utilisant la devise dollar (compensée via une banque sur le sol américain) soumet l'entité étrangère aux lois et pénalités des États-Unis.",
+      "L'approbation préalable de la Cour internationale de Justice de La Haye."
+    ],
+    correct: 2,
+    explanation: "Le système de compensation en dollars (Fedwire/CHIPS) transitant obligatoirement par des serveurs et comptes basés aux États-Unis, Washington considère que toute transaction mondiale en dollars crée un lien territorial juridique direct justifiant l'application de ses lois de sanctions, sous peine d'exclusion du marché américain."
+  },
+  {
+    type: "mcq",
+    tag: "Histoire des Relations Internationales",
+    prompt: "Quelle thèse centrale Nicholas Mulder défend-il dans son ouvrage 'The Economic Weapon' (2022) concernant les sanctions de la Société des Nations dans les années 1930 ?",
+    options: [
+      "Les sanctions de la SDN ont permis d'éviter la Seconde Guerre mondiale en désarmant l'Allemagne nazie.",
+      "L'arme économique n'était pas une alternative pacifique mais la prolongation du blocus militaire de 14-18, qui a poussé l'Italie et le Japon à conquérir des espaces vitaux autarciques par peur d'être étranglés.",
+      "Les sanctions ont été inventées par la Suisse pour préserver sa neutralité bancaire.",
+      "La SDN n'a jamais imposé de sanctions économiques avant 1945."
+    ],
+    correct: 1,
+    explanation: "Nicholas Mulder démontre que la menace de blocus économique formulée par les puissances de la SDN n'a pas pacifié les relations internationales, mais a convaincu les régimes révisionnistes (Rome, Tokyo, Berlin) que leur survie exigeait la conquête impériale de territoires producteurs de matières premières pour échapper à tout embargo futur."
+  },
+  {
+    type: "mcq",
+    tag: "Affaires Contemporaines (2022)",
+    prompt: "Quelle décision sans précédent prise en février 2022 par le G7 et l'Union européenne a constitué une rupture majeure dans le droit monétaire international ?",
+    options: [
+      "L'interdiction totale de l'exportation de blé vers les pays d'Afrique du Nord.",
+      "Le gel d'environ 300 milliards de dollars de réserves de change souveraines de la Banque centrale de la Fédération de Russie.",
+      "La dissolution immédiate du Fonds monétaire international (FMI).",
+      "L'obligation de payer tout le gaz européen en crypto-monnaies non régulées."
+    ],
+    correct: 1,
+    explanation: "Jusqu'en février 2022, les réserves de change des banques centrales souveraines bénéficiaient d'une immunité juridique coutumière quasi-sacrée dans les places financières internationales. L'immobilisation des avoirs de la Banque de Russie a constitué un choc systémique poussant de nombreux pays du Sud à chercher des alternatives au dollar."
+  }
+];
+
+
+
+(function() {
+function DiplomacyQuiz(config) {
+    this.container = document.getElementById(config.containerId);
+    if (!this.container) {
+      console.error("Quiz container not found:", config.containerId);
+      return;
+    }
+    this.conceptId = config.conceptId || "general";
+    this.conceptTitle = config.conceptTitle || "Quiz Diplomatique";
+    this.questions = config.questions || [];
+    this.currentIndex = 0;
+    this.score = 0;
+    this.selectedOption = null;
+    this.earnedXP = 0;
+
+    this.init();
+  }
+
+  DiplomacyQuiz.prototype.init = function() {
+    this.currentIndex = 0;
+    this.score = 0;
+    this.earnedXP = 0;
+    this.selectedOption = null;
+    this.renderQuestion();
+  };
+
+  DiplomacyQuiz.prototype.renderQuestion = function() {
+    if (this.currentIndex >= this.questions.length) {
+      this.renderResults();
+      return;
+    }
+
+    const q = this.questions[this.currentIndex];
+    const progressPercent = ((this.currentIndex) / this.questions.length) * 100;
+    const qNum = this.currentIndex + 1;
+    const total = this.questions.length;
+
+    this.container.innerHTML = `
+      <div class="quiz-engine-wrapper" id="quizInner">
+        <div class="quiz-top-bar">
+          <div class="quiz-progress-track" title="Progression : ${qNum}/${total}">
+            <div class="quiz-progress-fill" style="width: ${progressPercent}%;"></div>
+          </div>
+          <div class="quiz-xp-indicator">
+            <span>⚡</span> <span>+10 XP / question</span>
+          </div>
+        </div>
+
+        <div class="quiz-scenario-tag">${q.tag || "Question " + qNum + " sur " + total}</div>
+        <h3 class="quiz-prompt">${q.prompt}</h3>
+
+        <div class="quiz-options-grid" id="quizOptionsList">
+          ${q.options.map((opt, i) => `
+            <button type="button" class="quiz-option-btn" data-index="${i}">
+              <span class="quiz-option-key">${String.fromCharCode(65 + i)}</span>
+              <span>${opt}</span>
+            </button>
+          `).join("")}
+        </div>
+
+        <div class="quiz-feedback-drawer" id="quizFeedbackDrawer">
+          <div class="feedback-headline" id="feedbackHeadline"></div>
+          <div class="feedback-explanation" id="feedbackExplanation"></div>
+          <button type="button" class="quiz-primary-btn" id="feedbackNextBtn">Continuer →</button>
+        </div>
+
+        <div class="quiz-actions" id="quizActionRow">
+          <button type="button" class="quiz-primary-btn" id="quizValidateBtn" disabled>Vérifier la réponse</button>
+        </div>
+      </div>
+    `;
+
+    this.bindEvents();
+  };
+
+  DiplomacyQuiz.prototype.bindEvents = function() {
+    const self = this;
+    const optionBtns = this.container.querySelectorAll(".quiz-option-btn");
+    const validateBtn = this.container.querySelector("#quizValidateBtn");
+    const drawer = this.container.querySelector("#quizFeedbackDrawer");
+    const headline = this.container.querySelector("#feedbackHeadline");
+    const explanation = this.container.querySelector("#feedbackExplanation");
+    const nextBtn = this.container.querySelector("#feedbackNextBtn");
+    const actionRow = this.container.querySelector("#quizActionRow");
+
+    optionBtns.forEach(btn => {
+      btn.addEventListener("click", function() {
+        if (self.answered) return;
+        optionBtns.forEach(b => b.classList.remove("selected"));
+        this.classList.add("selected");
+        self.selectedOption = parseInt(this.getAttribute("data-index"), 10);
+        validateBtn.disabled = false;
+      });
+    });
+
+    validateBtn.addEventListener("click", function() {
+      if (self.selectedOption === null || self.answered) return;
+      self.answered = true;
+      const q = self.questions[self.currentIndex];
+      const isCorrect = (self.selectedOption === q.correctIndex);
+
+      optionBtns.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === q.correctIndex) {
+          btn.classList.add("correct");
+        } else if (idx === self.selectedOption && !isCorrect) {
+          btn.classList.add("wrong");
+        }
+      });
+
+      actionRow.style.display = "none";
+      drawer.style.display = "block";
+
+      if (isCorrect) {
+        self.score++;
+        self.earnedXP += 10;
+        drawer.className = "quiz-feedback-drawer success";
+        headline.innerHTML = "✓ Excellent raisonnement diplomatique !";
+        explanation.textContent = q.explanation;
+      } else {
+        drawer.className = "quiz-feedback-drawer error";
+        headline.innerHTML = "✕ Point de doctrine incorrect";
+        explanation.textContent = q.explanation;
+      }
+
+      nextBtn.focus();
+    });
+
+    nextBtn.addEventListener("click", function() {
+      self.answered = false;
+      self.selectedOption = null;
+      self.currentIndex++;
+      self.renderQuestion();
+    });
+  };
+
+  DiplomacyQuiz.prototype.renderResults = function() {
+    const total = this.questions.length;
+    const ratio = this.score / total;
+    let title = "Évaluation terminée";
+    let message = "";
+    let crown = "🎖️";
+
+    if (ratio === 1) {
+      crown = "👑";
+      title = "Maîtrise Parfaite !";
+      message = `Félicitations, vous maîtrisez avec rigueur toutes les dimensions du concept de ${this.conceptTitle}.`;
+      this.earnedXP += 15; // Bonus sans-faute
+    } else if (ratio >= 0.6) {
+      crown = "🏅";
+      title = "Compétence Validée";
+      message = `Solide compréhension des enjeux fondamentaux. Quelques nuances théoriques restent à consolider.`;
+    } else {
+      crown = "📖";
+      title = "Notions à consolider";
+      message = `Nous vous conseillons de relire la section "L'essentiel" du cours avant de retenter l'évaluation.`;
+    }
+
+    // Enregistrement dans le gestionnaire de progression
+    let savedSummary = { totalXP: this.earnedXP };
+    if (window.ProgressManager) {
+      savedSummary = window.ProgressManager.saveQuizResult(
+        this.conceptId,
+        this.score,
+        total,
+        this.earnedXP
+      );
+    }
+
+    this.container.innerHTML = `
+      <div class="quiz-engine-wrapper">
+        <div class="quiz-result-card">
+          <div class="result-crown">${crown}</div>
+          <h3>${title}</h3>
+          <p>${message}</p>
+
+          <div class="result-stats-row">
+            <div class="result-stat-box">
+              <div class="result-stat-num">${this.score} / ${total}</div>
+              <div class="result-stat-label">Score obtenu</div>
+            </div>
+            <div class="result-stat-box">
+              <div class="result-stat-num">+${this.earnedXP} XP</div>
+              <div class="result-stat-label">Gain d'expérience</div>
+            </div>
+            <div class="result-stat-box">
+              <div class="result-stat-num">${savedSummary.totalXP || this.earnedXP} XP</div>
+              <div class="result-stat-label">Total compte</div>
+            </div>
+          </div>
+
+          <div style="display:flex; justify-content:center; gap:14px; flex-wrap:wrap;">
+            <button type="button" class="quiz-primary-btn" id="retryQuizBtn">Recommencer l'évaluation</button>
+            <a href="#introduction" class="quiz-primary-btn" style="background:var(--paper); color:var(--ink); border:1px solid var(--line);">Relire le cours</a>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const self = this;
+    const retryBtn = this.container.querySelector("#retryQuizBtn");
+    if (retryBtn) {
+      retryBtn.addEventListener("click", function() {
+        self.init();
+      });
+    }
+  };
+
+  window.DiplomacyQuiz = DiplomacyQuiz;
+})();
+
+
+  <script>
+    // DECLENCHEUR DU QUIZ DUOLINGO-STYLE
+    document.getElementById('startCourseQuizBtn').addEventListener('click', function() {
+      document.getElementById('quizStarterBlock').style.display = 'none';
+      const qBox = document.getElementById('quizContainer');
+      qBox.style.display = 'block';
+      qBox.scrollIntoView({ behavior: 'smooth' });
+
+      new DiplomacyQuiz({
+        containerId: 'quizContainer',
+        conceptId: 'sanctions-economiques',
+        conceptTitle: 'Les Sanctions Économiques & l\'Arme Financière',
+        questions: window.QUIZ_SANCTIONS_ECONOMIQUES
+      });
+    });
+
+    // SUIVI DU SOMMAIRE ACTIF AU SCROLL
+    window.addEventListener('scroll', function() {
+      const sections = document.querySelectorAll('.course-section, .course-header');
+      const scrollPos = window.scrollY + 120;
+      sections.forEach(sec => {
+        const top = sec.offsetTop;
+        const height = sec.offsetHeight;
+        const id = sec.getAttribute('id');
+        if (scrollPos >= top && scrollPos < top + height) {
+          document.querySelectorAll('.toc-link').forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    });
+  </script>
+  <script src="js/search-palette.js"></script>
+</body>
+</html>
